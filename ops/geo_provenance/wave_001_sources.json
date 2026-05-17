@@ -1,0 +1,31 @@
+{
+  "wave_id": "GEO-WAVE-001",
+  "mutation_allowed": false,
+  "cities": [
+    {
+      "city_id": "city_3d50f2fd",
+      "canonical_name": "New York, NY",
+      "source_candidates": []
+    },
+    {
+      "city_id": "city_1f98af58",
+      "canonical_name": "Los Angeles, CA",
+      "source_candidates": []
+    },
+    {
+      "city_id": "city_4c180874",
+      "canonical_name": "Chicago, IL",
+      "source_candidates": []
+    },
+    {
+      "city_id": "city_0a922e63",
+      "canonical_name": "Houston, TX",
+      "source_candidates": []
+    },
+    {
+      "city_id": "city_5fedc010",
+      "canonical_name": "Washington, DC",
+      "source_candidates": []
+    }
+  ]
+}
