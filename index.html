@@ -161,14 +161,7 @@
               No entity selected
             </div>
 
-            <div style="border-top:1px solid #1e293b;padding-top:14px;">
-              <div style="margin-bottom:8px;">Lifecycle: —</div>
-              <div style="margin-bottom:8px;">Spatial Confidence: —</div>
-              <div style="margin-bottom:8px;">Source Chain: —</div>
-              <div style="margin-bottom:8px;">Layer Contribution: —</div>
-              <div style="margin-bottom:8px;">Replay Integrity: PASS</div>
-              <div style="margin-bottom:8px;">Audit State: VERIFIED</div>
-            </div>
+            <div id="founderContextBody" style="border-top:1px solid #1e293b;padding-top:14px;"></div>
           </div>
 
           <!-- BOTTOM TELEMETRY -->
@@ -206,8 +199,11 @@
     }
   </script>
 
+  <script type="module" src="/src/founder-ui/city_ops_renderer.js"></script>
+  <script type="module" src="/src/founder-ui/founder_context_renderer.js"></script>
   <script type="module" src="/src/founder-ui/founder_workspace_renderer.js"></script>
 
   <script type="module">
     window.renderFounderWorkspace?.("GLOBAL");
+    window.renderFounderContext?.("GLOBAL");
   </script>
