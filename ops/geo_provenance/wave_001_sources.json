@@ -5,27 +5,92 @@
     {
       "city_id": "city_3d50f2fd",
       "canonical_name": "New York, NY",
-      "source_candidates": []
+      "source_candidates": [
+        {
+          "source_name": "NYC OpenData",
+          "source_type": "municipal_gis"
+        },
+        {
+          "source_name": "U.S. Census TIGER/Line",
+          "source_type": "federal_boundary"
+        },
+        {
+          "source_name": "OpenStreetMap Administrative Boundary",
+          "source_type": "osm_boundary"
+        }
+      ]
     },
     {
       "city_id": "city_1f98af58",
       "canonical_name": "Los Angeles, CA",
-      "source_candidates": []
+      "source_candidates": [
+        {
+          "source_name": "Los Angeles GeoHub",
+          "source_type": "municipal_gis"
+        },
+        {
+          "source_name": "U.S. Census TIGER/Line",
+          "source_type": "federal_boundary"
+        },
+        {
+          "source_name": "OpenStreetMap Administrative Boundary",
+          "source_type": "osm_boundary"
+        }
+      ]
     },
     {
       "city_id": "city_4c180874",
       "canonical_name": "Chicago, IL",
-      "source_candidates": []
+      "source_candidates": [
+        {
+          "source_name": "Chicago Data Portal",
+          "source_type": "municipal_gis"
+        },
+        {
+          "source_name": "U.S. Census TIGER/Line",
+          "source_type": "federal_boundary"
+        },
+        {
+          "source_name": "OpenStreetMap Administrative Boundary",
+          "source_type": "osm_boundary"
+        }
+      ]
     },
     {
       "city_id": "city_0a922e63",
       "canonical_name": "Houston, TX",
-      "source_candidates": []
+      "source_candidates": [
+        {
+          "source_name": "Houston GIS Open Data",
+          "source_type": "municipal_gis"
+        },
+        {
+          "source_name": "U.S. Census TIGER/Line",
+          "source_type": "federal_boundary"
+        },
+        {
+          "source_name": "OpenStreetMap Administrative Boundary",
+          "source_type": "osm_boundary"
+        }
+      ]
     },
     {
       "city_id": "city_5fedc010",
       "canonical_name": "Washington, DC",
-      "source_candidates": []
+      "source_candidates": [
+        {
+          "source_name": "DC GIS Open Data",
+          "source_type": "municipal_gis"
+        },
+        {
+          "source_name": "U.S. Census TIGER/Line",
+          "source_type": "federal_boundary"
+        },
+        {
+          "source_name": "OpenStreetMap Administrative Boundary",
+          "source_type": "osm_boundary"
+        }
+      ]
     }
   ]
 }
