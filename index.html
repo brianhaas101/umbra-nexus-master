@@ -1,4 +1,4 @@
-  </main>
+ </main>
   </div>
 
   <!-- ========================================= -->
@@ -63,6 +63,7 @@
               "
             >
               <div>WAVE: WAVE-001</div>
+              <div>MODE: <span id="founderModeLabel">GLOBAL</span></div>
               <div>REPLAY: PASS</div>
               <div>BLACK DRAGON: ISOLATED</div>
             </div>
@@ -92,30 +93,47 @@
               OPERATIONS
             </div>
 
-            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+            <button onclick="window.setFounderMode?.('GLOBAL')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
               GLOBAL
-            </div>
+            </button>
 
-            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+            <button onclick="window.setFounderMode?.('CITY')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
               CITY OPS
-            </div>
+            </button>
 
-            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+            <button onclick="window.setFounderMode?.('REVIEW')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
               REVIEW QUEUE
-            </div>
+            </button>
 
-            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+            <button onclick="window.setFounderMode?.('CONFLICTS')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
               CONFLICTS
-            </div>
+            </button>
 
-            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+            <button onclick="window.setFounderMode?.('AUDIT')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
               AUDIT REPLAY
-            </div>
+            </button>
 
-            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+            <button onclick="window.setFounderMode?.('LAYERS')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
               INTELLIGENCE LAYERS
-            </div>
+            </button>
           </div>
+
+          <!-- CENTER WORKSPACE -->
+          <div
+            id="founderCenterWorkspace"
+            style="
+              position:absolute;
+              top:92px;
+              left:282px;
+              right:362px;
+              bottom:64px;
+              border:1px solid #1e293b;
+              border-radius:14px;
+              background:#05070bcc;
+              backdrop-filter:blur(8px);
+              pointer-events:none;
+            "
+          ></div>
 
           <!-- RIGHT CONTEXT PANEL -->
           <div
@@ -135,14 +153,7 @@
               pointer-events:auto;
             "
           >
-            <div
-              style="
-                color:#f59e0b;
-                font-size:16px;
-                font-weight:700;
-                margin-bottom:18px;
-              "
-            >
+            <div style="color:#f59e0b;font-size:16px;font-weight:700;margin-bottom:18px;">
               ENTITY CONTEXT
             </div>
 
@@ -193,4 +204,10 @@
 
       console.log("[FounderUI] Founder overlay initialized");
     }
+  </script>
+
+  <script type="module" src="/src/founder-ui/founder_workspace_renderer.js"></script>
+
+  <script type="module">
+    window.renderFounderWorkspace?.("GLOBAL");
   </script>
