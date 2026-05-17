@@ -1,6 +1,4 @@
-$ErrorActionPreference = "Stop"
-
-param(
+﻿param(
   [string]$CityId,
   [string]$CanonicalName,
   [string]$SourceName,
@@ -11,6 +9,8 @@ param(
   [string]$GeometryFormat,
   [string]$OriginalCRS
 )
+
+$ErrorActionPreference = "Stop"
 
 $OutDir = "ops\geo_provenance\wave_001\replay"
 
@@ -27,40 +27,25 @@ $RawHash = (
 $Record = [PSCustomObject]@{
   city_id = $CityId
   canonical_name = $CanonicalName
-
   source_name = $SourceName
   source_type = $SourceType
   source_url = $SourceUrl
   source_license = $SourceLicense
-
-  retrieval_timestamp = (
-    Get-Date -Format o
-  )
-
+  retrieval_timestamp = (Get-Date -Format o)
   raw_artifact_path = $RawArtifactPath
   raw_artifact_sha256 = $RawHash
-
   geometry_format = $GeometryFormat
-
   original_crs = $OriginalCRS
   normalized_crs = "EPSG:4326"
-
   bbox = @()
-
   geometry_sha256 = $null
-
   spatial_confidence_class = "E"
-
   verification_status = "RAW_INTAKE_ONLY"
-
   mutation_allowed = $false
 }
 
 $SafeCityId = $CityId.Replace(":", "_")
-
-$OutPath = Join-Path `
-  $OutDir `
-  "$SafeCityId.provenance.json"
+$OutPath = Join-Path $OutDir "$SafeCityId.provenance.json"
 
 $Record |
   ConvertTo-Json -Depth 8 |

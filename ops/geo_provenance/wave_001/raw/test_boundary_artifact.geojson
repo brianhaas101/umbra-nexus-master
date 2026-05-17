@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "name": "test_boundary_artifact",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city_id": "city_3d50f2fd",
+        "canonical_name": "New York, NY",
+        "artifact_type": "test_only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.10, 40.68],
+            [-73.90, 40.68],
+            [-73.90, 40.88],
+            [-74.10, 40.88],
+            [-74.10, 40.68]
+          ]
+        ]
+      }
+    }
+  ]
+}{
+  "type": "FeatureCollection",
+  "name": "test_boundary_artifact",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "city_id": "city_3d50f2fd",
+        "canonical_name": "New York, NY",
+        "artifact_type": "test_only"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-74.10, 40.68],
+            [-73.90, 40.68],
+            [-73.90, 40.88],
+            [-74.10, 40.88],
+            [-74.10, 40.68]
+          ]
+        ]
+      }
+    }
+  ]
+}
