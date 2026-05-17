@@ -1,0 +1,24 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+  "mutation_allowed": false,
+  "gate_status": "PRE_DOWNLOAD_LOCK",
+  "download_authorized": false,
+  "canonical_registry_mutation_authorized": false,
+  "boundary_validation_authorized": false,
+  "required_conditions_before_download": [
+    "exact_dataset_identified",
+    "exact_dataset_url_frozen",
+    "license_verified",
+    "expected_crs_verified",
+    "expected_geometry_format_verified"
+  ],
+  "required_conditions_before_registry_mutation": [
+    "raw_artifact_sha256_generated",
+    "geometry_sha256_generated",
+    "bbox_generated",
+    "schema_validation_pass",
+    "replay_audit_pass",
+    "founder_review_complete"
+  ]
+}
