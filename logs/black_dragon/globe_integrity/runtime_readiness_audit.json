@@ -1,7 +1,0 @@
-{
-  "created_utc": "2026-05-12T06:18:19.4228586Z",
-  "canonical_cities": 116,
-  "runtime_ready_cities": 66,
-  "runtime_failed_cities": 50,
-  "gate": "fail_runtime_ready"
-}

@@ -1,6 +1,0 @@
-﻿[2026-05-13 16:56:16] LAYER_03 CREATED
-[2026-05-13 16:56:16] CONTRACT: source_authority_scoring
-[2026-05-13 16:56:16] DEPENDS_ON: layer_01, layer_02
-[2026-05-13 16:56:16] SCOPE: public/intelligence/layers/layer_03
-[2026-05-13 16:56:16] BLACK_DRAGON_COUPLING: false
-[2026-05-13 16:56:16] CLAIM_MUTATION: false

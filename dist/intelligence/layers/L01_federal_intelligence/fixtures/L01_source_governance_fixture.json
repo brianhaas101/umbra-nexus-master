@@ -1,9 +1,0 @@
-﻿{
-    "layer_id":  "L01",
-    "source_id":  "usaspending_gov",
-    "source_name":  "USAspending.gov",
-    "canonical_url":  "https://api.usaspending.gov/",
-    "retrieved_at":  "2026-05-13T00:00:00.000Z",
-    "raw_record_type":  "federal_spending_award",
-    "expected_envelope":  "raw_federal_source_record"
-}

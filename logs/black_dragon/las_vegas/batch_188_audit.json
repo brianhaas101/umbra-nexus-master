@@ -1,9 +1,0 @@
-{
-    "batch":  "188",
-    "generated_at":  "2026-05-11T00:51:02.5406750Z",
-    "checks":  {
-                   "review_pipeline_exists":  true,
-                   "review_audit_exists":  true,
-                   "all_reviews_pending":  true
-               }
-}

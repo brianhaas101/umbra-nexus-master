@@ -1,9 +1,0 @@
-{
-  "version": "black_dragon_contact_discovery_queue_v1_batch_070",
-  "generated_at": "2026-05-10T00:40:39.711Z",
-  "totals": {
-    "queued": 0,
-    "outreach_blocked": 0
-  },
-  "contact_discovery_queue": []
-}

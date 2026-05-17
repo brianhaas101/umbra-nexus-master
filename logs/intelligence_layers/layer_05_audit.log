@@ -1,6 +1,0 @@
-﻿[2026-05-13 16:58:36] LAYER_05 CREATED
-[2026-05-13 16:58:36] CONTRACT: entity_identity_normalization
-[2026-05-13 16:58:36] DEPENDS_ON: layer_01, layer_02, layer_03, layer_04
-[2026-05-13 16:58:36] SCOPE: public/intelligence/layers/layer_05
-[2026-05-13 16:58:36] BLACK_DRAGON_COUPLING: false
-[2026-05-13 16:58:36] ENTITY_CREATION: false

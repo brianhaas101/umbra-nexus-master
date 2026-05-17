@@ -1,6 +1,0 @@
-
-Running 1 test using 1 worker
-
-  ok 1 tests\browser\nexus.browser.smoke.spec.js:3:1 GǦ Nexus browser automation smoke test (172ms)
-
-  1 passed (31.2s)

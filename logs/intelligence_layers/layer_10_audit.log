@@ -1,7 +1,0 @@
-﻿[2026-05-13 17:07:57] LAYER_10 CREATED
-[2026-05-13 17:07:57] CONTRACT: weighted_composite_scoring
-[2026-05-13 17:07:57] DEPENDS_ON: layer_03, layer_04, layer_06, layer_07, layer_08, layer_09
-[2026-05-13 17:07:57] SCOPE: public/intelligence/layers/layer_10
-[2026-05-13 17:07:57] BLACK_DRAGON_COUPLING: false
-[2026-05-13 17:07:57] FIXED_WEIGHTS: true
-[2026-05-13 17:07:57] RUNTIME_WEIGHT_OVERRIDE_ALLOWED: false

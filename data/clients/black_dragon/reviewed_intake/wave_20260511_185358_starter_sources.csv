@@ -1,6 +1,0 @@
-"city","source_name","source_type","source_url","city_locality_check","manual_review_status","provenance_status","eligible_for_import","notes"
-"Chicago","Crimes - 2001 to Present","public_safety_crime_incidents","https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2","pass","reviewed","verified","true","Official City of Chicago data portal source."
-"Phoenix","Police Calls for Service","public_safety_calls_for_service","https://www.phoenixopendata.com/dataset/police-calls-for-service","pass","reviewed","verified","true","Official Phoenix Open Data source."
-"Atlanta","Crime Data Downloads","public_safety_crime_incidents","https://www.atlantapd.org/i-want-to/crime-data-downloads","pass","reviewed","verified","true","Official Atlanta Police Department source."
-"Denver","Crime","public_safety_crime_incidents","https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-crime","pass","reviewed","verified","true","Official City and County of Denver Open Data source."
-"Boston","Crime Incident Reports","public_safety_crime_incidents","https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system","pass","reviewed","verified","true","Official Analyze Boston source."

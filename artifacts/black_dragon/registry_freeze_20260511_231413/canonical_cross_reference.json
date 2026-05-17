@@ -1,9 +1,0 @@
-{
-  "created_utc": "2026-05-12T06:14:14.2605441Z",
-  "canonical_registry": ".\\config\\canonical_city_registry.json",
-  "alias_map": ".\\config\\city_alias_map.json",
-  "locked_city_count": 116,
-  "matched_city_count": 116,
-  "unmatched_city_count": 0,
-  "gate_status": "pass"
-}

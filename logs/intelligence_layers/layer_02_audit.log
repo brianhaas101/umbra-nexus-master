@@ -1,6 +1,0 @@
-﻿[2026-05-13 16:54:48] LAYER_02 CREATED
-[2026-05-13 16:54:48] CONTRACT: city_local_source_classification
-[2026-05-13 16:54:48] DEPENDS_ON: layer_01
-[2026-05-13 16:54:48] SCOPE: public/intelligence/layers/layer_02
-[2026-05-13 16:54:48] BLACK_DRAGON_COUPLING: false
-[2026-05-13 16:54:48] CLAIM_MUTATION: false

@@ -1,4 +1,9 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
+
+# =========================
+# DEFAULT DENY
+# =========================
+
 *
 
 # =========================
@@ -7,11 +12,28 @@
 
 !.gitignore
 !index.html
+
 !package.json
 !package-lock.json
+!pnpm-lock.yaml
+!yarn.lock
+
 !vite.config.js
+!vite.config.ts
+
 !README.md
 !README.txt
+!LICENSE
+
+!tsconfig.json
+!tsconfig.app.json
+!tsconfig.node.json
+
+!eslint.config.js
+!eslint.config.mjs
+
+!tailwind.config.js
+!postcss.config.js
 
 # =========================
 # KEEP SOURCE CODE TRACKED
@@ -52,6 +74,15 @@
 !playbooks/**
 
 # =========================
+# PYTHON
+# =========================
+
+!requirements.txt
+!requirements-dev.txt
+!pyproject.toml
+!setup.py
+
+# =========================
 # SECURITY EXCLUSIONS
 # =========================
 
@@ -59,15 +90,61 @@ secure/.env
 secure/*.key
 secure/*.secret
 
+.env
+.env.*
+*.pem
+*.p12
+*.crt
+*.cer
+*.der
+*.jks
+
+# =========================
+# LARGE LOCAL-ONLY ASSETS
+# =========================
+
+public/assets/earth_day_21k.jpg
+public/assets/umbra_earth_master_16k.jpg
+public/intelligence/layers/L02_state_intelligence/freeze/L02_registry_rollback_snapshots.json
+
+dist/assets/earth_day_21k.jpg
+dist/assets/umbra_earth_master_16k.jpg
+dist/intelligence/layers/L02_state_intelligence/freeze/L02_registry_rollback_snapshots.json
+
 # =========================
 # GENERATED / TEMP
 # =========================
 
 node_modules/
+
 dist/
+dist/**
+
+build/
+build/**
+
 .vite/
 coverage/
 test-results/
+
 *.log
 *.tmp
+*.temp
 *.bak
+*.swp
+
+# =========================
+# OS / CACHE
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# VENV
+# =========================
+
+venv/
+.venv/
+env/
+ENV/

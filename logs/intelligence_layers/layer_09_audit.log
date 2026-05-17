@@ -1,7 +1,0 @@
-﻿[2026-05-13 17:05:39] LAYER_09 CREATED
-[2026-05-13 17:05:39] CONTRACT: risk_uncertainty_penalty
-[2026-05-13 17:05:39] DEPENDS_ON: layer_01, layer_03, layer_06, layer_07, layer_08
-[2026-05-13 17:05:39] SCOPE: public/intelligence/layers/layer_09
-[2026-05-13 17:05:39] BLACK_DRAGON_COUPLING: false
-[2026-05-13 17:05:39] SCORE_BOOSTS_ALLOWED: false
-[2026-05-13 17:05:39] RUNTIME_PROMOTION_ALLOWED: false
