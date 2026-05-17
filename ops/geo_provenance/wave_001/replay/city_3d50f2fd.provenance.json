@@ -5,17 +5,20 @@
     "source_type":  "test_fixture",
     "source_url":  "local://test_boundary_artifact.geojson",
     "source_license":  "internal_test_fixture",
-    "retrieval_timestamp":  "2026-05-17T16:34:05.4617648-07:00",
+    "retrieval_timestamp":  "2026-05-17T16:47:46.6818478-07:00",
     "raw_artifact_path":  "ops\\geo_provenance\\wave_001\\raw\\test_boundary_artifact.geojson",
-    "raw_artifact_sha256":  "828A413447AF9089B609754886E7CC5FC8FE7258BC347994A1FC0FAC10C4355A",
+    "raw_artifact_sha256":  "8C80FE49F690A414320B4A3C084DACEAC344D854037485C9F1FEE51E2AE27E99",
     "geometry_format":  "geojson",
     "original_crs":  "EPSG:4326",
     "normalized_crs":  "EPSG:4326",
     "bbox":  [
-
+                 -74.1,
+                 40.68,
+                 -73.9,
+                 40.88
              ],
-    "geometry_sha256":  null,
-    "spatial_confidence_class":  "E",
-    "verification_status":  "RAW_INTAKE_ONLY",
+    "geometry_sha256":  "0095ADB118F044CA06C6FB884DC77BFDB98DF1CF456B8BB4A033F4EB0FB9348E",
+    "spatial_confidence_class":  "D",
+    "verification_status":  "GEOMETRY_EXTRACTED",
     "mutation_allowed":  false
 }
