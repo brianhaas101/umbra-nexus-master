@@ -1,0 +1,123 @@
+{
+  "version": "black_dragon_san_diego_propagation_feed_v1",
+  "generated_at": "2026-05-10T22:06:49.062Z",
+  "city": "San Diego",
+  "state": "CA",
+  "client_visible": true,
+  "feed_summary": {
+    "total_paths": 10,
+    "manual_contact_candidate_paths": 9
+  },
+  "propagation_paths": [
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00001",
+      "root_organization": "Born-Free Motorcycle Show",
+      "root_influence_score": 9.19,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00002",
+      "root_organization": "Biltwell Inc.",
+      "root_influence_score": 8.97,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00003",
+      "root_organization": "Biggs Harley-Davidson",
+      "root_influence_score": 8.83,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00004",
+      "root_organization": "Veterans Motorcycle Association San Diego",
+      "root_influence_score": 8.8,
+      "route_validation_status": "ERROR",
+      "contact_ready_candidate": false,
+      "recommended_action": "ROUTE_REVIEW_REQUIRED",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00005",
+      "root_organization": "San Diego Harley Owners Group",
+      "root_influence_score": 8.78,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00006",
+      "root_organization": "San Diego Vintage Motorcycle Swap Meet",
+      "root_influence_score": 8.73,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00007",
+      "root_organization": "Law Tigers California",
+      "root_influence_score": 8.71,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00008",
+      "root_organization": "San Diego Custom Bike Show",
+      "root_influence_score": 8.66,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00009",
+      "root_organization": "Cycle Gear San Diego",
+      "root_influence_score": 8.47,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_SD_PROP_PATH_00010",
+      "root_organization": "SoCal Motorcycle Meetup San Diego",
+      "root_influence_score": 8.45,
+      "route_validation_status": "VALID",
+      "contact_ready_candidate": true,
+      "recommended_action": "MANUAL_REVIEW_THEN_ACTION",
+      "connected_target_count": 9,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

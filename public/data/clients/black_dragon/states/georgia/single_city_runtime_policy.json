@@ -1,0 +1,39 @@
+{
+    "version":  "black_dragon_georgia_single_city_policy_v1",
+    "generated_at":  "2026-05-11T02:07:54.6009229Z",
+    "state":  {
+                  "state_name":  "Georgia",
+                  "state_code":  "GA"
+              },
+    "runtime_policy":  {
+                           "single_city_runtime_only":  true,
+                           "active_runtime_city":  "Atlanta",
+                           "active_runtime_city_id":  "city_atlanta_ga",
+                           "blocked_runtime_cities":  [
+
+                                                      ],
+                           "unmapped_city_expansion_forbidden":  true,
+                           "runtime_city_creation_requires_map_confirmation":  true
+                       },
+    "future_declared_targets":  [
+                                    {
+                                        "sequence":  2,
+                                        "state":  "Texas",
+                                        "city":  null,
+                                        "status":  "DECLARED_NOT_BUILT_CITY_REQUIRED"
+                                    },
+                                    {
+                                        "sequence":  3,
+                                        "state":  "Louisiana",
+                                        "city":  "New Orleans",
+                                        "status":  "DECLARED_NOT_BUILT"
+                                    }
+                                ],
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

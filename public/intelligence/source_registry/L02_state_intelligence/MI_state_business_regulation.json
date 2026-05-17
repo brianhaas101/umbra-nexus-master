@@ -1,0 +1,19 @@
+{
+  "source_id": "state_business_regulation",
+  "state_code": "MI",
+  "state_name": "Michigan",
+  "category": "state_business_regulation",
+  "source_url": "https://www.michigan.gov/lara/business",
+  "status": "source_page_verified_state_business_regulation_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T06:14:04.406Z",
+  "last_refresh": "2026-05-14T06:14:04.406Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

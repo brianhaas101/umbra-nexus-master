@@ -1,0 +1,44 @@
+{
+  "version": "black_dragon_entity_authentication_schema_v1_batch_086",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "authentication_statuses": [
+    "AUTHENTICATION_PENDING",
+    "PUBLIC_SOURCE_FOUND",
+    "PUBLIC_SOURCE_REJECTED",
+    "AUTHENTICATED",
+    "AUTHENTICATION_FAILED",
+    "CONTACT_ROUTE_PENDING",
+    "CONTACT_ROUTE_VERIFIED",
+    "OUTREACH_ELIGIBLE"
+  ],
+
+  "required_authentication_fields": [
+    "entity_id",
+    "organization_name",
+    "region",
+    "country",
+    "source_url",
+    "source_type",
+    "source_confidence",
+    "authentication_status",
+    "reviewed_at"
+  ],
+
+  "source_requirements": {
+    "requires_public_source": true,
+    "requires_organization_match": true,
+    "requires_region_match": true,
+    "requires_non_synthetic_source": true,
+    "requires_manual_review": true
+  },
+
+  "hard_blocks": {
+    "fake_contact_detected": true,
+    "generated_email_detected": true,
+    "generated_phone_detected": true,
+    "private_personal_data_detected": true,
+    "ambiguous_source_detected": true,
+    "missing_public_source": true
+  }
+}

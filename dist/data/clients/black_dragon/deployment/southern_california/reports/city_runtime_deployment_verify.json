@@ -1,0 +1,33 @@
+{
+  "version": "black_dragon_socal_city_runtime_deployment_verify_v1",
+  "generated_at": "2026-05-10T22:38:55.409Z",
+  "total_cities": 3,
+  "runtimes": [
+    {
+      "city": "Long Beach",
+      "runtime_entities": 68,
+      "contact_ready_entities": 10,
+      "duplicate_review_entities": 0,
+      "no_auto_contact": false,
+      "no_auto_promotion": false
+    },
+    {
+      "city": "Los Angeles",
+      "runtime_entities": 10,
+      "runtime_status": "RUNTIME_VISIBLE_CONTACT_LOCKED",
+      "contact_ready_entities": 0,
+      "duplicate_review_entities": 2,
+      "no_auto_contact": true,
+      "no_auto_promotion": true
+    },
+    {
+      "city": "San Diego",
+      "runtime_entities": 10,
+      "runtime_status": "RUNTIME_VISIBLE_CONTACT_LOCKED",
+      "contact_ready_entities": 0,
+      "duplicate_review_entities": 3,
+      "no_auto_contact": true,
+      "no_auto_promotion": true
+    }
+  ]
+}

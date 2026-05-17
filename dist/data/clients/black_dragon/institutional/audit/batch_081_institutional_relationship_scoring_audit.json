@@ -1,0 +1,23 @@
+{
+  "version": "umbra_batch_081_institutional_relationship_scoring_audit_v1",
+  "generated_at": "2026-05-10T01:32:24.412Z",
+  "scoring_integrity": {
+    "relationships": 22176,
+    "regions": 30,
+    "has_top_relationships": true,
+    "has_top_regions": true
+  },
+  "relationship_integrity": {
+    "relationships_present": true,
+    "all_have_credibility_score": true,
+    "all_have_adoption_score": true,
+    "all_have_tiers": true,
+    "all_have_institutional_overlap": true,
+    "all_outreach_blocked": true
+  },
+  "safety_integrity": {
+    "outreach_allowed_zero": true,
+    "all_verify_first": true
+  },
+  "pass": true
+}

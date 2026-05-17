@@ -1,0 +1,57 @@
+{
+  "city_id": "city_936b7d90",
+  "canonical_name": "Tulsa, OK",
+  "state": "OK",
+  "placeholder_allowed": false,
+  "synthetic_allowed": false,
+  "production_status": "hydrated",
+  "source_count": 9,
+  "sources": [
+    {
+      "layer": "gis",
+      "url": "https://maps.cityoftulsa.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "open_data",
+      "url": "https://www.cityoftulsa.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "police",
+      "url": "https://www.cityoftulsa.org/government/departments/police/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "fire",
+      "url": "https://www.cityoftulsa.org/government/departments/fire/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "parks",
+      "url": "https://www.cityoftulsa.org/government/departments/park-and-recreation/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "permits",
+      "url": "https://www.cityoftulsa.org/government/departments/development-services/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "public_works",
+      "url": "https://www.cityoftulsa.org/government/departments/public-works/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "schools",
+      "url": "https://www.tulsaschools.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "council",
+      "url": "https://www.cityoftulsa.org/government/city-council/",
+      "provenance": "verified_profile_source"
+    }
+  ],
+  "generated_utc": "2026-05-12T07:22:05.9918630Z"
+}

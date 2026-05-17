@@ -1,0 +1,16 @@
+{
+  "version": "session_guard_injection_report_v1",
+  "generated_at": "2026-05-09T03:13:29.156Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_session_guard": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_session_guard": true
+    }
+  ]
+}

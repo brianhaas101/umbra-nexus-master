@@ -1,0 +1,706 @@
+{
+  "version": "nexus_layer_normalized_output_v1",
+  "generated_at": "2026-05-08T00:42:26.396Z",
+  "layer_id": "L09",
+  "status": "OPERATIONAL",
+  "entities": [
+    {
+      "entity_id": "ENTITY_L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_003_COMMAND_STAFF_PAGES",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_003_COMMAND_STAFF_PAGES",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_014_ORG_CHART_REFERENCES",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_014_ORG_CHART_REFERENCES",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "entity_type": "contact_decision_maker_source_entity",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "created_at": "2026-05-08T00:42:26.396Z"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.98,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "agency_staff_directory_connector",
+        "parser_strategy": "agency_staff_directory_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_agency_staff_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "entity_id": "ENTITY_L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.97,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "procurement_contact_connector",
+        "parser_strategy": "procurement_contact_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_procurement_contact_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_003_COMMAND_STAFF_PAGES",
+      "entity_id": "ENTITY_L09_SRC_003_COMMAND_STAFF_PAGES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_003_COMMAND_STAFF_PAGES",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.96,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "command_staff_connector",
+        "parser_strategy": "command_staff_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_command_staff_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.95,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "training_coordinator_connector",
+        "parser_strategy": "training_coordinator_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_training_coordinator_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "entity_id": "ENTITY_L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.94,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "executive_leadership_connector",
+        "parser_strategy": "executive_leadership_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_executive_leadership_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.93,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "administrative_contact_connector",
+        "parser_strategy": "administrative_contact_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_administrative_contact_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "entity_id": "ENTITY_L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.92,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "department_head_connector",
+        "parser_strategy": "department_head_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_department_head_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.91,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "vendor_registration_connector",
+        "parser_strategy": "vendor_registration_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_vendor_registration_contact_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.9,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "public_email_directory_connector",
+        "parser_strategy": "public_email_directory_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_public_email_directory_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.89,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "public_phone_directory_connector",
+        "parser_strategy": "public_phone_directory_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_public_phone_directory_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.88,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "linked_role_connector",
+        "parser_strategy": "linked_role_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_linked_role_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "entity_id": "ENTITY_L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.87,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "board_commission_connector",
+        "parser_strategy": "board_commission_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_board_commission_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "entity_id": "ENTITY_L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.86,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "public_meeting_attendee_connector",
+        "parser_strategy": "public_meeting_attendee_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_public_meeting_attendee_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_014_ORG_CHART_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_014_ORG_CHART_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_014_ORG_CHART_REFERENCES",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.85,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "org_chart_connector",
+        "parser_strategy": "org_chart_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_org_chart_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "captured_at": "2026-05-08T00:42:26.396Z",
+      "confidence": 0.84,
+      "lineage": {
+        "acquisition_method": "public_contact_source",
+        "connector_type": "verified_outreach_connector",
+        "parser_strategy": "verified_outreach_parser",
+        "normalizer_strategy": "contact_decision_maker_normalizer",
+        "retention_policy": "retain_with_verified_outreach_trace"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "SIGNAL_L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "signal_type": "CONTACT_AUTHORITY_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "entity_id": "ENTITY_L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "signal_type": "CONTACT_PROCUREMENT_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_003_COMMAND_STAFF_PAGES",
+      "entity_id": "ENTITY_L09_SRC_003_COMMAND_STAFF_PAGES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_003_COMMAND_STAFF_PAGES",
+      "signal_type": "CONTACT_COMMAND_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "signal_type": "CONTACT_TRAINING_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "entity_id": "ENTITY_L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "signal_type": "CONTACT_EXECUTIVE_SIGNAL",
+      "strength": 0.94,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "signal_type": "CONTACT_ADMIN_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "entity_id": "ENTITY_L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "signal_type": "CONTACT_AUTHORITY_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "signal_type": "CONTACT_PROCUREMENT_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "signal_type": "CONTACT_REACHABILITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "signal_type": "CONTACT_REACHABILITY_SIGNAL",
+      "strength": 0.89,
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "signal_type": "CONTACT_ROLE_FIT_SIGNAL",
+      "strength": 0.88,
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "entity_id": "ENTITY_L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "signal_type": "CONTACT_AUTHORITY_SIGNAL",
+      "strength": 0.87,
+      "confidence": 0.87
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "entity_id": "ENTITY_L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "signal_type": "CONTACT_INFLUENCE_SIGNAL",
+      "strength": 0.86,
+      "confidence": 0.86
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_014_ORG_CHART_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_014_ORG_CHART_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_014_ORG_CHART_REFERENCES",
+      "signal_type": "CONTACT_HIERARCHY_SIGNAL",
+      "strength": 0.85,
+      "confidence": 0.85
+    },
+    {
+      "signal_id": "SIGNAL_L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "signal_type": "CONTACT_VERIFIED_SIGNAL",
+      "strength": 0.84,
+      "confidence": 0.84
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "SCORE_L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "entity_id": "ENTITY_L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L09_SRC_003_COMMAND_STAFF_PAGES",
+      "entity_id": "ENTITY_L09_SRC_003_COMMAND_STAFF_PAGES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_003_COMMAND_STAFF_PAGES",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "entity_id": "ENTITY_L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "entity_id": "ENTITY_L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "SCORE_L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "SCORE_L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "score_delta": 9,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "SCORE_L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "entity_id": "ENTITY_L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "score_delta": 9,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "SCORE_L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "score_delta": 9,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "SCORE_L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "entity_id": "ENTITY_L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "score_delta": 9,
+      "confidence": 0.87
+    },
+    {
+      "component_id": "SCORE_L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "entity_id": "ENTITY_L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.86
+    },
+    {
+      "component_id": "SCORE_L09_SRC_014_ORG_CHART_REFERENCES",
+      "entity_id": "ENTITY_L09_SRC_014_ORG_CHART_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_014_ORG_CHART_REFERENCES",
+      "score_delta": 9,
+      "confidence": 0.85
+    },
+    {
+      "component_id": "SCORE_L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "entity_id": "ENTITY_L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "score_delta": 8,
+      "confidence": 0.84
+    }
+  ],
+  "dossier_fields": [
+    {
+      "entity_id": "ENTITY_L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_001_AGENCY_STAFF_DIRECTORIES",
+      "field_type": "agency_staff_profile",
+      "value": "Agency Staff Directories"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_002_PROCUREMENT_CONTACT_RECORDS",
+      "field_type": "procurement_contact_profile",
+      "value": "Procurement Contact Records"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_003_COMMAND_STAFF_PAGES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_003_COMMAND_STAFF_PAGES",
+      "field_type": "command_staff_profile",
+      "value": "Command Staff Pages"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_004_TRAINING_COORDINATOR_REFERENCES",
+      "field_type": "training_coordinator_profile",
+      "value": "Training Coordinator References"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_005_EXECUTIVE_LEADERSHIP_PAGES",
+      "field_type": "executive_leadership_profile",
+      "value": "Executive Leadership Pages"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_006_ADMINISTRATIVE_CONTACTS",
+      "field_type": "administrative_contact_profile",
+      "value": "Administrative Contacts"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_007_DEPARTMENT_HEAD_LISTINGS",
+      "field_type": "department_head_profile",
+      "value": "Department Head Listings"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_008_VENDOR_REGISTRATION_CONTACTS",
+      "field_type": "vendor_registration_contact_profile",
+      "value": "Vendor Registration Contacts"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_009_PUBLIC_EMAIL_DIRECTORIES",
+      "field_type": "public_email_directory_profile",
+      "value": "Public Email Directories"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_010_PUBLIC_PHONE_DIRECTORIES",
+      "field_type": "public_phone_directory_profile",
+      "value": "Public Phone Directories"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_011_LINKED_ROLE_REFERENCES",
+      "field_type": "linked_role_profile",
+      "value": "Linked Role References"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_012_BOARD_COMMISSION_ROSTERS",
+      "field_type": "board_commission_profile",
+      "value": "Board and Commission Rosters"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_013_PUBLIC_MEETING_ATTENDEE_RECORDS",
+      "field_type": "public_meeting_attendee_profile",
+      "value": "Public Meeting Attendee Records"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_014_ORG_CHART_REFERENCES",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_014_ORG_CHART_REFERENCES",
+      "field_type": "org_chart_profile",
+      "value": "Organization Chart References"
+    },
+    {
+      "entity_id": "ENTITY_L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "layer_id": "L09",
+      "source_id": "L09_SRC_015_VERIFIED_OUTREACH_CONTACTS",
+      "field_type": "verified_outreach_profile",
+      "value": "Verified Outreach Contacts"
+    }
+  ]
+}

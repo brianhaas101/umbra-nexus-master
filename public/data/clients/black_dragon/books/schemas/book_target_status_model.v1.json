@@ -1,0 +1,13 @@
+{
+  "version": "book_target_status_model_v1",
+
+  "statuses": [
+    "NOT_CONTACTED",
+    "CONTACTED",
+    "RESPONDED",
+    "INTERESTED",
+    "ENDORSED",
+    "BULK_ORDER",
+    "CLOSED"
+  ]
+}

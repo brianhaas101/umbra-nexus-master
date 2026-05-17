@@ -1,0 +1,226 @@
+{
+  "layer_id": "L10",
+  "generated_at": "2026-05-08T00:51:19.948Z",
+  "completion_status": "COMPLETE",
+  "gates": {
+    "registry_15_sources": true,
+    "registry_fields_valid": true,
+    "connector_coverage_valid": true,
+    "evidence_lineage_valid": true,
+    "signals_valid": true,
+    "scoring_valid": true,
+    "layer_files_present": true
+  },
+  "counts": {
+    "sources": 15,
+    "evidence": 15,
+    "signals": 15,
+    "score_components": 15,
+    "layer_files": 15
+  },
+  "source_ids": [
+    "L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+    "L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+    "L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+    "L10_SRC_004_WEBSITE_CONTACT_PAGES",
+    "L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+    "L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+    "L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+    "L10_SRC_008_DEPARTMENT_INBOXES",
+    "L10_SRC_009_PROCUREMENT_INBOXES",
+    "L10_SRC_010_TRAINING_INBOXES",
+    "L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+    "L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+    "L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+    "L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+    "L10_SRC_015_CHANNEL_QUALITY_INDICATORS"
+  ],
+  "connector_coverage": [
+    {
+      "source_id": "L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_008_DEPARTMENT_INBOXES",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_009_PROCUREMENT_INBOXES",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_010_TRAINING_INBOXES",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "connector_files": [
+        "scripts/intelligence/complete_l10_source_registry.js",
+        "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    }
+  ],
+  "failures": {
+    "invalid_sources": [],
+    "missing_connector_coverage": [],
+    "invalid_evidence": [],
+    "invalid_signals": [],
+    "invalid_score_components": []
+  },
+  "deterministic_hashes": [
+    {
+      "file": "public/data/intelligence/audit/L10_communication_integrity_audit.json",
+      "sha256": "d363d4b5b2ee29bba5488cf1e81896d219e62ea6f8d575d7e9d5f7b8c63998cf"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L10_communication_normalization.registry.json",
+      "sha256": "f610d805eab31b58f54570cab9b10317901b279baac2f2e06111037d44b1c134"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L10_communication_confidence_weighting.json",
+      "sha256": "62b6335f573399af9378481379a535b120371e02e50d244e9beec8908c0a90ce"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L10_COMMUNICATION_INTELLIGENCE.normalized.json",
+      "sha256": "663d2fa8442d0875dbb51204cf8473cc55da470002be9bb19612e893abc65561"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L10_COMMUNICATION_OUTREACH_INTELLIGENCE.normalized.json",
+      "sha256": "d574c365ebba4c6f5ba45817beeb66256da56c3de51d1e19d70be6901b72e46c"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L10_contact_freshness_weighting.json",
+      "sha256": "cc412fa516e11cb9114c652e3eab606bf44498d3ca8faffd5515c0953000b6d0"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+      "sha256": "a4b35a53b866eff620eb1fed43f7f5e527c10d7f817e23ca402ed96c78db2922"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L10_fallback_route_scoring.json",
+      "sha256": "18b8a220a45c860948300fd4d2caff1c91ca2ae3dccc496c8f9c9731b9ac5ca0"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L10_outreach_readiness_synthesis.json",
+      "sha256": "06c2fde37ddc56bab62787f71bcf4aff833377d045ce3f15bcded49081ed014d"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L10_communication_adapter_manifest.json",
+      "sha256": "ce29431d82d2cda8dba3b711b8790018a90f636e2e5d78fe062baeb524ed4b5a"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L10_communication_connector_coverage_manifest.json",
+      "sha256": "be3ade2cf8b0d79a0b1fdabc87859ad739c397a607e655a916fb3721f2953253"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L10_communication_scoring.registry.json",
+      "sha256": "22b97d6f0a1bbdf8f2f81f476201853969f6eff59cf8b9ff44e4a85e1126cab2"
+    },
+    {
+      "file": "public/data/intelligence/sources/L10_communication_channels.sources.json",
+      "sha256": "666a6e18ec0a8ecc6fe01a6ebe9e6a42e79b8e21a9d07c63b9f2c69d065513dd"
+    },
+    {
+      "file": "public/data/intelligence/sources/L10_COMMUNICATION_INTELLIGENCE.sources.json",
+      "sha256": "be4db20a971e14531a485dae5eb44b43ba658d03e05367ddc7d8cde82d903fc4"
+    },
+    {
+      "file": "public/data/intelligence/sources/L10_COMMUNICATION_OUTREACH_INTELLIGENCE.sources.json",
+      "sha256": "48a26cc41e5704fda77762d1c510da593425c6971db7540950125d591c6e9914"
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+{
+    "version":  "black_dragon_canonical_globe_city_registry_v1",
+    "generated_at":  "2026-05-11T04:09:49.6733820Z",
+    "registry_authority":  {
+                               "source_of_truth":  true,
+                               "replaces_unserialized_globe_assumptions":  true,
+                               "required_before_claiming_40_plus_city_coverage":  true,
+                               "current_registry_count":  18,
+                               "intended_future_count":  null,
+                               "intended_future_count_locked":  false
+                           },
+    "cities":  [
+                   {
+                       "city":  "Atlanta",
+                       "folder":  "atlanta",
+                       "city_id":  "city_atlanta_ga",
+                       "state":  "Georgia",
+                       "state_code":  "GA",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Austin",
+                       "folder":  "austin",
+                       "city_id":  "city_austin_tx",
+                       "state":  "Texas",
+                       "state_code":  "TX",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Houston",
+                       "folder":  "houston",
+                       "city_id":  "city_houston_tx",
+                       "state":  "Texas",
+                       "state_code":  "TX",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Las Vegas",
+                       "folder":  "las_vegas",
+                       "city_id":  "city_las_vegas_nv",
+                       "state":  "Nevada",
+                       "state_code":  "NV",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Miami",
+                       "folder":  "miami",
+                       "city_id":  "city_miami_fl",
+                       "state":  "Florida",
+                       "state_code":  "FL",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Nashville",
+                       "folder":  "nashville",
+                       "city_id":  "city_nashville_tn",
+                       "state":  "Tennessee",
+                       "state_code":  "TN",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "New Orleans",
+                       "folder":  "new_orleans",
+                       "city_id":  "city_new_orleans_la",
+                       "state":  "Louisiana",
+                       "state_code":  "LA",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "New York City",
+                       "folder":  "new_york_city",
+                       "city_id":  "city_new_york_city_ny",
+                       "state":  "New York",
+                       "state_code":  "NY",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "San Antonio",
+                       "folder":  "san_antonio",
+                       "city_id":  "city_san_antonio_tx",
+                       "state":  "Texas",
+                       "state_code":  "TX",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Seattle",
+                       "folder":  "seattle",
+                       "city_id":  "city_seattle_wa",
+                       "state":  "Washington",
+                       "state_code":  "WA",
+                       "source":  "canonical",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Long Beach",
+                       "folder":  "long_beach",
+                       "city_id":  "city_long_beach_ca",
+                       "state":  "California",
+                       "state_code":  "CA",
+                       "source":  "legacy_only",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Long Beach Final",
+                       "folder":  "long_beach_final",
+                       "city_id":  "city_long_beach_final_ca",
+                       "state":  "California",
+                       "state_code":  "CA",
+                       "source":  "legacy_only",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Los Angeles",
+                       "folder":  "los_angeles",
+                       "city_id":  "city_los_angeles_ca",
+                       "state":  "California",
+                       "state_code":  "CA",
+                       "source":  "legacy_only",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "San Diego",
+                       "folder":  "san_diego",
+                       "city_id":  "city_san_diego_ca",
+                       "state":  "California",
+                       "state_code":  "CA",
+                       "source":  "legacy_only",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Phoenix",
+                       "folder":  "phoenix",
+                       "city_id":  "city_phoenix_az",
+                       "state":  "Arizona",
+                       "state_code":  "AZ",
+                       "source":  "legacy_only",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Scottsdale",
+                       "folder":  "scottsdale",
+                       "city_id":  "city_scottsdale_az",
+                       "state":  "Arizona",
+                       "state_code":  "AZ",
+                       "source":  "legacy_only",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Mesa",
+                       "folder":  "mesa",
+                       "city_id":  "city_mesa_az",
+                       "state":  "Arizona",
+                       "state_code":  "AZ",
+                       "source":  "legacy_only",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   },
+                   {
+                       "city":  "Tucson",
+                       "folder":  "tucson",
+                       "city_id":  "city_tucson_az",
+                       "state":  "Arizona",
+                       "state_code":  "AZ",
+                       "source":  "legacy_only",
+                       "certification_scope":  {
+                                                   "tier_1_required":  true,
+                                                   "tier_2_required_later":  true,
+                                                   "contact_allowed":  false,
+                                                   "runtime_mutation_allowed":  false
+                                               },
+                       "hardlocks":  {
+                                         "no_auto_contact":  true,
+                                         "no_auto_promotion":  true,
+                                         "no_runtime_mutation":  true,
+                                         "quarantine_before_runtime":  true,
+                                         "manual_review_required_for_contact":  true
+                                     }
+                   }
+               ],
+    "current_scope":  {
+                          "repo_discovered_city_count":  18,
+                          "canonical_seed_count":  10,
+                          "legacy_seed_count":  8,
+                          "forty_plus_city_source_found":  false,
+                          "forty_plus_city_claim_allowed":  false
+                      },
+    "global_policy":  {
+                          "tier_1_before_tier_2":  true,
+                          "all_registry_cities_must_reach_tier_1_before_tier_2":  true,
+                          "no_unregistered_city_activation":  true,
+                          "no_auto_contact":  true,
+                          "no_auto_promotion":  true,
+                          "no_runtime_mutation":  true
+                      },
+    "status":  "CANONICAL_GLOBE_REGISTRY_BOOTSTRAPPED_18_CITY_SCOPE"
+}

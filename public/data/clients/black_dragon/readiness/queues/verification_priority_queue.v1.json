@@ -1,0 +1,5262 @@
+{
+  "version": "black_dragon_verification_priority_queue_v1_batch_082",
+  "generated_at": "2026-05-10T01:36:05.106Z",
+  "totals": {
+    "synthesized_entities": 1000,
+    "outreach_ready": 0,
+    "verification_required": 1000,
+    "verification_queue": 150
+  },
+  "verification_queue": [
+    {
+      "entity_id": "BD_NAT_ECO_000021",
+      "organization_name": "Los Angeles STATE POST ACADEMY",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "STATE_POST_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000022",
+      "organization_name": "Los Angeles REGIONAL POLICE ACADEMY",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000023",
+      "organization_name": "Los Angeles CRIMINAL JUSTICE COLLEGE",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000024",
+      "organization_name": "Los Angeles PUBLIC SAFETY INSTITUTE",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000029",
+      "organization_name": "Los Angeles POLICE MOTOR UNIT",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "POLICE_MOTOR_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000030",
+      "organization_name": "Los Angeles SHERIFF MOTOR DIVISION",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "SHERIFF_MOTOR_DIVISION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000031",
+      "organization_name": "Los Angeles MOTORCYCLE OFFICER ASSOCIATION",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000032",
+      "organization_name": "Los Angeles GANG INTELLIGENCE TRAINING UNIT",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000033",
+      "organization_name": "Los Angeles HARLEY DAVIDSON DEALERSHIP",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "HARLEY_DAVIDSON_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000034",
+      "organization_name": "Los Angeles INDIAN MOTORCYCLE DEALERSHIP",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDIAN_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000035",
+      "organization_name": "Los Angeles INDEPENDENT MOTORCYCLE DEALERSHIP",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000036",
+      "organization_name": "Los Angeles CUSTOM MOTORCYCLE SHOP",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "CUSTOM_MOTORCYCLE_SHOP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000037",
+      "organization_name": "Los Angeles MAJOR RALLY ECOSYSTEM",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "MAJOR_RALLY_ECOSYSTEM",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000038",
+      "organization_name": "Los Angeles REGIONAL RALLY CIRCUIT",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "REGIONAL_RALLY_CIRCUIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000039",
+      "organization_name": "Los Angeles EVENT PROMOTER",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "EVENT_PROMOTER",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000040",
+      "organization_name": "Los Angeles VENDOR ROW OPERATOR",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "VENDOR_ROW_OPERATOR",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000061",
+      "organization_name": "Houston STATE POST ACADEMY",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "STATE_POST_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000062",
+      "organization_name": "Houston REGIONAL POLICE ACADEMY",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000063",
+      "organization_name": "Houston CRIMINAL JUSTICE COLLEGE",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000064",
+      "organization_name": "Houston PUBLIC SAFETY INSTITUTE",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000069",
+      "organization_name": "Houston POLICE MOTOR UNIT",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "POLICE_MOTOR_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000070",
+      "organization_name": "Houston SHERIFF MOTOR DIVISION",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "SHERIFF_MOTOR_DIVISION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000071",
+      "organization_name": "Houston MOTORCYCLE OFFICER ASSOCIATION",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000072",
+      "organization_name": "Houston GANG INTELLIGENCE TRAINING UNIT",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000073",
+      "organization_name": "Houston HARLEY DAVIDSON DEALERSHIP",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "HARLEY_DAVIDSON_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000074",
+      "organization_name": "Houston INDIAN MOTORCYCLE DEALERSHIP",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDIAN_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000075",
+      "organization_name": "Houston INDEPENDENT MOTORCYCLE DEALERSHIP",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000076",
+      "organization_name": "Houston CUSTOM MOTORCYCLE SHOP",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "CUSTOM_MOTORCYCLE_SHOP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000077",
+      "organization_name": "Houston MAJOR RALLY ECOSYSTEM",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "MAJOR_RALLY_ECOSYSTEM",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000078",
+      "organization_name": "Houston REGIONAL RALLY CIRCUIT",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "REGIONAL_RALLY_CIRCUIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000079",
+      "organization_name": "Houston EVENT PROMOTER",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "EVENT_PROMOTER",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000080",
+      "organization_name": "Houston VENDOR ROW OPERATOR",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "VENDOR_ROW_OPERATOR",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000121",
+      "organization_name": "San Antonio STATE POST ACADEMY",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "STATE_POST_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000122",
+      "organization_name": "San Antonio REGIONAL POLICE ACADEMY",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000123",
+      "organization_name": "San Antonio CRIMINAL JUSTICE COLLEGE",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000124",
+      "organization_name": "San Antonio PUBLIC SAFETY INSTITUTE",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000129",
+      "organization_name": "San Antonio POLICE MOTOR UNIT",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "POLICE_MOTOR_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000130",
+      "organization_name": "San Antonio SHERIFF MOTOR DIVISION",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "SHERIFF_MOTOR_DIVISION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000131",
+      "organization_name": "San Antonio MOTORCYCLE OFFICER ASSOCIATION",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000132",
+      "organization_name": "San Antonio GANG INTELLIGENCE TRAINING UNIT",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000133",
+      "organization_name": "San Antonio HARLEY DAVIDSON DEALERSHIP",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "HARLEY_DAVIDSON_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000134",
+      "organization_name": "San Antonio INDIAN MOTORCYCLE DEALERSHIP",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDIAN_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000135",
+      "organization_name": "San Antonio INDEPENDENT MOTORCYCLE DEALERSHIP",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000136",
+      "organization_name": "San Antonio CUSTOM MOTORCYCLE SHOP",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "CUSTOM_MOTORCYCLE_SHOP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000137",
+      "organization_name": "San Antonio MAJOR RALLY ECOSYSTEM",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "MAJOR_RALLY_ECOSYSTEM",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000138",
+      "organization_name": "San Antonio REGIONAL RALLY CIRCUIT",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "REGIONAL_RALLY_CIRCUIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000139",
+      "organization_name": "San Antonio EVENT PROMOTER",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "EVENT_PROMOTER",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000140",
+      "organization_name": "San Antonio VENDOR ROW OPERATOR",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "VENDOR_ROW_OPERATOR",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000141",
+      "organization_name": "San Diego STATE POST ACADEMY",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "STATE_POST_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000142",
+      "organization_name": "San Diego REGIONAL POLICE ACADEMY",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000143",
+      "organization_name": "San Diego CRIMINAL JUSTICE COLLEGE",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000144",
+      "organization_name": "San Diego PUBLIC SAFETY INSTITUTE",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000149",
+      "organization_name": "San Diego POLICE MOTOR UNIT",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "POLICE_MOTOR_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000150",
+      "organization_name": "San Diego SHERIFF MOTOR DIVISION",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "SHERIFF_MOTOR_DIVISION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000151",
+      "organization_name": "San Diego MOTORCYCLE OFFICER ASSOCIATION",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000152",
+      "organization_name": "San Diego GANG INTELLIGENCE TRAINING UNIT",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000153",
+      "organization_name": "San Diego HARLEY DAVIDSON DEALERSHIP",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "HARLEY_DAVIDSON_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000154",
+      "organization_name": "San Diego INDIAN MOTORCYCLE DEALERSHIP",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDIAN_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000155",
+      "organization_name": "San Diego INDEPENDENT MOTORCYCLE DEALERSHIP",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000156",
+      "organization_name": "San Diego CUSTOM MOTORCYCLE SHOP",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "CUSTOM_MOTORCYCLE_SHOP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000157",
+      "organization_name": "San Diego MAJOR RALLY ECOSYSTEM",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "MAJOR_RALLY_ECOSYSTEM",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000158",
+      "organization_name": "San Diego REGIONAL RALLY CIRCUIT",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "REGIONAL_RALLY_CIRCUIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000159",
+      "organization_name": "San Diego EVENT PROMOTER",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "EVENT_PROMOTER",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000160",
+      "organization_name": "San Diego VENDOR ROW OPERATOR",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "VENDOR_ROW_OPERATOR",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000161",
+      "organization_name": "Dallas STATE POST ACADEMY",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "STATE_POST_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000162",
+      "organization_name": "Dallas REGIONAL POLICE ACADEMY",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000163",
+      "organization_name": "Dallas CRIMINAL JUSTICE COLLEGE",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000164",
+      "organization_name": "Dallas PUBLIC SAFETY INSTITUTE",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000169",
+      "organization_name": "Dallas POLICE MOTOR UNIT",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "POLICE_MOTOR_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000170",
+      "organization_name": "Dallas SHERIFF MOTOR DIVISION",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "SHERIFF_MOTOR_DIVISION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000171",
+      "organization_name": "Dallas MOTORCYCLE OFFICER ASSOCIATION",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000172",
+      "organization_name": "Dallas GANG INTELLIGENCE TRAINING UNIT",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000173",
+      "organization_name": "Dallas HARLEY DAVIDSON DEALERSHIP",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "HARLEY_DAVIDSON_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000174",
+      "organization_name": "Dallas INDIAN MOTORCYCLE DEALERSHIP",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDIAN_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000175",
+      "organization_name": "Dallas INDEPENDENT MOTORCYCLE DEALERSHIP",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000176",
+      "organization_name": "Dallas CUSTOM MOTORCYCLE SHOP",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "CUSTOM_MOTORCYCLE_SHOP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000177",
+      "organization_name": "Dallas MAJOR RALLY ECOSYSTEM",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "MAJOR_RALLY_ECOSYSTEM",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000178",
+      "organization_name": "Dallas REGIONAL RALLY CIRCUIT",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "REGIONAL_RALLY_CIRCUIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000179",
+      "organization_name": "Dallas EVENT PROMOTER",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "EVENT_PROMOTER",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000180",
+      "organization_name": "Dallas VENDOR ROW OPERATOR",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "VENDOR_ROW_OPERATOR",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000181",
+      "organization_name": "San Jose STATE POST ACADEMY",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "STATE_POST_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000182",
+      "organization_name": "San Jose REGIONAL POLICE ACADEMY",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000183",
+      "organization_name": "San Jose CRIMINAL JUSTICE COLLEGE",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000184",
+      "organization_name": "San Jose PUBLIC SAFETY INSTITUTE",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000189",
+      "organization_name": "San Jose POLICE MOTOR UNIT",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "POLICE_MOTOR_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000190",
+      "organization_name": "San Jose SHERIFF MOTOR DIVISION",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "SHERIFF_MOTOR_DIVISION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000191",
+      "organization_name": "San Jose MOTORCYCLE OFFICER ASSOCIATION",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000192",
+      "organization_name": "San Jose GANG INTELLIGENCE TRAINING UNIT",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000193",
+      "organization_name": "San Jose HARLEY DAVIDSON DEALERSHIP",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "HARLEY_DAVIDSON_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000194",
+      "organization_name": "San Jose INDIAN MOTORCYCLE DEALERSHIP",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDIAN_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000195",
+      "organization_name": "San Jose INDEPENDENT MOTORCYCLE DEALERSHIP",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000196",
+      "organization_name": "San Jose CUSTOM MOTORCYCLE SHOP",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "CUSTOM_MOTORCYCLE_SHOP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000197",
+      "organization_name": "San Jose MAJOR RALLY ECOSYSTEM",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "MAJOR_RALLY_ECOSYSTEM",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000198",
+      "organization_name": "San Jose REGIONAL RALLY CIRCUIT",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "REGIONAL_RALLY_CIRCUIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000199",
+      "organization_name": "San Jose EVENT PROMOTER",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "EVENT_PROMOTER",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000200",
+      "organization_name": "San Jose VENDOR ROW OPERATOR",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "VENDOR_ROW_OPERATOR",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000201",
+      "organization_name": "Austin STATE POST ACADEMY",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "STATE_POST_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000202",
+      "organization_name": "Austin REGIONAL POLICE ACADEMY",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000203",
+      "organization_name": "Austin CRIMINAL JUSTICE COLLEGE",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000204",
+      "organization_name": "Austin PUBLIC SAFETY INSTITUTE",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000209",
+      "organization_name": "Austin POLICE MOTOR UNIT",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "POLICE_MOTOR_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000210",
+      "organization_name": "Austin SHERIFF MOTOR DIVISION",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "SHERIFF_MOTOR_DIVISION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000211",
+      "organization_name": "Austin MOTORCYCLE OFFICER ASSOCIATION",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000212",
+      "organization_name": "Austin GANG INTELLIGENCE TRAINING UNIT",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000213",
+      "organization_name": "Austin HARLEY DAVIDSON DEALERSHIP",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "HARLEY_DAVIDSON_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000214",
+      "organization_name": "Austin INDIAN MOTORCYCLE DEALERSHIP",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDIAN_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000215",
+      "organization_name": "Austin INDEPENDENT MOTORCYCLE DEALERSHIP",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000216",
+      "organization_name": "Austin CUSTOM MOTORCYCLE SHOP",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "CUSTOM_MOTORCYCLE_SHOP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000217",
+      "organization_name": "Austin MAJOR RALLY ECOSYSTEM",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "MAJOR_RALLY_ECOSYSTEM",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000218",
+      "organization_name": "Austin REGIONAL RALLY CIRCUIT",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "REGIONAL_RALLY_CIRCUIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000219",
+      "organization_name": "Austin EVENT PROMOTER",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "EVENT_PROMOTER",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000220",
+      "organization_name": "Austin VENDOR ROW OPERATOR",
+      "city": "Austin",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "VENDOR_ROW_OPERATOR",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000301",
+      "organization_name": "San Francisco STATE POST ACADEMY",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "STATE_POST_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000302",
+      "organization_name": "San Francisco REGIONAL POLICE ACADEMY",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000303",
+      "organization_name": "San Francisco CRIMINAL JUSTICE COLLEGE",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000304",
+      "organization_name": "San Francisco PUBLIC SAFETY INSTITUTE",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EDUCATION",
+      "entity_class": "EDUCATION_NODE",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 94,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000309",
+      "organization_name": "San Francisco POLICE MOTOR UNIT",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "POLICE_MOTOR_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000310",
+      "organization_name": "San Francisco SHERIFF MOTOR DIVISION",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "SHERIFF_MOTOR_DIVISION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000311",
+      "organization_name": "San Francisco MOTORCYCLE OFFICER ASSOCIATION",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000312",
+      "organization_name": "San Francisco GANG INTELLIGENCE TRAINING UNIT",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "source_category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 96,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000313",
+      "organization_name": "San Francisco HARLEY DAVIDSON DEALERSHIP",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "HARLEY_DAVIDSON_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000314",
+      "organization_name": "San Francisco INDIAN MOTORCYCLE DEALERSHIP",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDIAN_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000315",
+      "organization_name": "San Francisco INDEPENDENT MOTORCYCLE DEALERSHIP",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000316",
+      "organization_name": "San Francisco CUSTOM MOTORCYCLE SHOP",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "DISTRIBUTION",
+      "entity_class": "DEALERSHIP_NODE",
+      "source_category": "CUSTOM_MOTORCYCLE_SHOP",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 95,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000317",
+      "organization_name": "San Francisco MAJOR RALLY ECOSYSTEM",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "MAJOR_RALLY_ECOSYSTEM",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000318",
+      "organization_name": "San Francisco REGIONAL RALLY CIRCUIT",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "REGIONAL_RALLY_CIRCUIT",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000319",
+      "organization_name": "San Francisco EVENT PROMOTER",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "EVENT_PROMOTER",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000320",
+      "organization_name": "San Francisco VENDOR ROW OPERATOR",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_class": "EVENT_NODE",
+      "source_category": "VENDOR_ROW_OPERATOR",
+      "readiness_score": 83,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 97,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000025",
+      "organization_name": "Los Angeles VFW POST",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VFW_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000026",
+      "organization_name": "Los Angeles AMERICAN LEGION POST",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "AMERICAN_LEGION_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000027",
+      "organization_name": "Los Angeles VETERAN RIDING ASSOCIATION",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VETERAN_RIDING_ASSOCIATION",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000028",
+      "organization_name": "Los Angeles COMBAT VETERAN MOTORCYCLE GROUP",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "COMBAT_VETERAN_MOTORCYCLE_GROUP",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000065",
+      "organization_name": "Houston VFW POST",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VFW_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000066",
+      "organization_name": "Houston AMERICAN LEGION POST",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "AMERICAN_LEGION_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000067",
+      "organization_name": "Houston VETERAN RIDING ASSOCIATION",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VETERAN_RIDING_ASSOCIATION",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000068",
+      "organization_name": "Houston COMBAT VETERAN MOTORCYCLE GROUP",
+      "city": "Houston",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "COMBAT_VETERAN_MOTORCYCLE_GROUP",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000125",
+      "organization_name": "San Antonio VFW POST",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VFW_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000126",
+      "organization_name": "San Antonio AMERICAN LEGION POST",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "AMERICAN_LEGION_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000127",
+      "organization_name": "San Antonio VETERAN RIDING ASSOCIATION",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VETERAN_RIDING_ASSOCIATION",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000128",
+      "organization_name": "San Antonio COMBAT VETERAN MOTORCYCLE GROUP",
+      "city": "San Antonio",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "COMBAT_VETERAN_MOTORCYCLE_GROUP",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000145",
+      "organization_name": "San Diego VFW POST",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VFW_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000146",
+      "organization_name": "San Diego AMERICAN LEGION POST",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "AMERICAN_LEGION_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000147",
+      "organization_name": "San Diego VETERAN RIDING ASSOCIATION",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VETERAN_RIDING_ASSOCIATION",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000148",
+      "organization_name": "San Diego COMBAT VETERAN MOTORCYCLE GROUP",
+      "city": "San Diego",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "COMBAT_VETERAN_MOTORCYCLE_GROUP",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000165",
+      "organization_name": "Dallas VFW POST",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VFW_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000166",
+      "organization_name": "Dallas AMERICAN LEGION POST",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "AMERICAN_LEGION_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000167",
+      "organization_name": "Dallas VETERAN RIDING ASSOCIATION",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VETERAN_RIDING_ASSOCIATION",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000168",
+      "organization_name": "Dallas COMBAT VETERAN MOTORCYCLE GROUP",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "COMBAT_VETERAN_MOTORCYCLE_GROUP",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000185",
+      "organization_name": "San Jose VFW POST",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "VFW_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    },
+    {
+      "entity_id": "BD_NAT_ECO_000186",
+      "organization_name": "San Jose AMERICAN LEGION POST",
+      "city": "San Jose",
+      "region": "CA",
+      "country": "USA",
+      "ecosystem": "VETERAN",
+      "entity_class": "VETERAN_NODE",
+      "source_category": "AMERICAN_LEGION_POST",
+      "readiness_score": 82,
+      "readiness_tier": "HIGH_PRIORITY_VERIFICATION",
+      "contributing_scores": {
+        "base_priority": 92,
+        "city_influence": 87,
+        "distribution_density": 81,
+        "institutional_credibility": 91,
+        "institutional_adoption": 83,
+        "propagation": 56
+      },
+      "gates": {
+        "source_verified": false,
+        "contact_verified": false,
+        "outreach_allowed": false,
+        "verification_status": "NEEDS_PUBLIC_SOURCE_DISCOVERY",
+        "contact_status": "NO_CONTACT_ATTACHED"
+      },
+      "operational_status": "VERIFICATION_REQUIRED",
+      "next_action": "VERIFY_PUBLIC_SOURCE_AND_CONTACT_ROUTE",
+      "forbidden_actions": [
+        "NO_OUTREACH",
+        "NO_AUTO_CONTACT",
+        "NO_RESPONSE_GENERATION",
+        "NO_QUEUE_INSERTION_UNTIL_VERIFIED"
+      ]
+    }
+  ]
+}

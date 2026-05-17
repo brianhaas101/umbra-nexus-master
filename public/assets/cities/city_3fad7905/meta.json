@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_3fad7905",
+    "name":  "Milwaukee, WI",
+    "center_lat":  43.0389,
+    "center_lon":  -87.9065,
+    "bounds":  {
+                   "north":  43.3217,
+                   "south":  42.779,
+                   "east":  -87.6213,
+                   "west":  -88.1917
+               },
+    "width_m":  46000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_3fad7905/base.png"
+}

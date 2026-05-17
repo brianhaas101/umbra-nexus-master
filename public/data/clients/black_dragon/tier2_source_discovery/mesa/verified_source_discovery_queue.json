@@ -1,0 +1,305 @@
+{
+    "version":  "black_dragon_mesa_verified_source_discovery_queue_v1",
+    "generated_at":  "2026-05-11T05:13:45.0147963Z",
+    "wave_id":  "tier2_wave_4",
+    "city":  "Mesa",
+    "folder":  "mesa",
+    "state":  "Arizona",
+    "state_code":  "AZ",
+    "city_id":  "city_mesa_az",
+    "category_queues":  [
+                            {
+                                "category":  "motorcycle_dealerships",
+                                "search_queries":  [
+                                                       "\"Mesa\" motorcycle dealership",
+                                                       "\"Mesa\" Harley-Davidson dealer",
+                                                       "\"Mesa\" motorcycle sales"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "motorcycle_repair_and_parts",
+                                "search_queries":  [
+                                                       "\"Mesa\" motorcycle repair",
+                                                       "\"Mesa\" motorcycle parts",
+                                                       "\"Mesa\" motorcycle accessories"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "riding_clubs",
+                                "search_queries":  [
+                                                       "\"Mesa\" motorcycle riding club",
+                                                       "\"Mesa\" riders association",
+                                                       "\"Mesa\" motorcycle group"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "rider_training_schools",
+                                "search_queries":  [
+                                                       "\"Mesa\" motorcycle safety course",
+                                                       "\"Mesa\" rider training",
+                                                       "\"Mesa\" motorcycle training school"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "community_groups",
+                                "search_queries":  [
+                                                       "\"Mesa\" community organizations",
+                                                       "\"Mesa\" local community groups",
+                                                       "\"Mesa\" neighborhood associations"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "event_venues",
+                                "search_queries":  [
+                                                       "\"Mesa\" event venues",
+                                                       "\"Mesa\" motorcycle events",
+                                                       "\"Mesa\" community event venue"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "educational_institutes",
+                                "search_queries":  [
+                                                       "\"Mesa\" colleges",
+                                                       "\"Mesa\" technical schools",
+                                                       "\"Mesa\" adult education"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_media_groups",
+                                "search_queries":  [
+                                                       "\"Mesa\" local newspaper",
+                                                       "\"Mesa\" local radio station",
+                                                       "\"Mesa\" local media outlet"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "business_associations",
+                                "search_queries":  [
+                                                       "\"Mesa\" chamber of commerce",
+                                                       "\"Mesa\" business association",
+                                                       "\"Mesa\" small business network"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "civic_organizations",
+                                "search_queries":  [
+                                                       "\"Mesa\" civic organizations",
+                                                       "\"Mesa\" public agencies directory",
+                                                       "\"Mesa\" city services directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "public_safety_public_directories",
+                                "search_queries":  [
+                                                       "\"Mesa\" police department public directory",
+                                                       "\"Mesa\" fire department public directory",
+                                                       "\"Mesa\" emergency management public directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "lawful_sporting_or_firearms_organizations",
+                                "search_queries":  [
+                                                       "\"Mesa\" lawful sporting club",
+                                                       "\"Mesa\" shooting sports organization",
+                                                       "\"Mesa\" firearms training organization public"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "charity_nonprofit_groups",
+                                "search_queries":  [
+                                                       "\"Mesa\" nonprofit organizations",
+                                                       "\"Mesa\" charities",
+                                                       "\"Mesa\" community nonprofit"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_influencer_or_creator_media",
+                                "search_queries":  [
+                                                       "\"Mesa\" local creators",
+                                                       "\"Mesa\" local podcast",
+                                                       "\"Mesa\" community media"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "regional_geospatial_anchors",
+                                "search_queries":  [
+                                                       "\"Mesa\" landmarks",
+                                                       "\"Mesa\" districts",
+                                                       "\"Mesa\" transportation hubs"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            }
+                        ],
+    "controls":  {
+                     "no_entity_promotion":  true,
+                     "no_contact_enablement":  true,
+                     "no_placeholder_targets":  true,
+                     "verified_source_required":  true,
+                     "manual_review_required":  true
+                 },
+    "status":  "SOURCE_DISCOVERY_QUEUE_READY"
+}

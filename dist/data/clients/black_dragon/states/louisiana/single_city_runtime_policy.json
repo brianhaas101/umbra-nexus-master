@@ -1,0 +1,29 @@
+{
+    "version":  "black_dragon_louisiana_single_city_policy_v1",
+    "generated_at":  "2026-05-11T02:20:49.6831708Z",
+    "state":  {
+                  "state_name":  "Louisiana",
+                  "state_code":  "LA"
+              },
+    "runtime_policy":  {
+                           "single_city_runtime_only":  true,
+                           "active_runtime_city":  "New Orleans",
+                           "active_runtime_city_id":  "city_new_orleans_la",
+                           "map_confirmed_cities":  [
+                                                        "New Orleans"
+                                                    ],
+                           "blocked_runtime_cities":  [
+
+                                                      ],
+                           "unmapped_city_expansion_forbidden":  true,
+                           "runtime_city_creation_requires_map_confirmation":  true,
+                           "multi_city_runtime_forbidden":  true
+                       },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

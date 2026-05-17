@@ -1,0 +1,21 @@
+{
+  "version": "nexus_live_connector_state_v1",
+  "generated_at": "2026-05-08T01:51:45.126Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_001_USA_SPENDING",
+  "connector_id": "L01_LIVE_CONNECTOR_001_L01_SRC_001_USA_SPENDING",
+  "source_name": "USAspending Federal Award Data",
+  "status": "LIVE_FETCH_SUCCESS",
+  "last_attempt_at": "2026-05-08T01:51:45.126Z",
+  "last_success_at": "2026-05-08T01:51:45.126Z",
+  "last_failure_at": null,
+  "failure_count": 0,
+  "last_error": null,
+  "raw_snapshot_exists": true,
+  "normalized_snapshot_exists": true,
+  "lineage_complete": true,
+  "deterministic_replay_ready": true,
+  "raw_snapshot_hash": "0a092e1093690f49126299b0a0a7b765770a43ff18b003751a2efd2b50144ad1",
+  "normalized_snapshot_hash": "898824159c837bf7fb0ca96df3bebc57a4f6032ee93aec581e25b227c18772d5",
+  "live_record_count": 10
+}

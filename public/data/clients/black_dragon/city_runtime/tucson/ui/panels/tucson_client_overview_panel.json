@@ -1,0 +1,48 @@
+{
+  "version": "black_dragon_tucson_client_overview_panel_v1",
+  "generated_at": "2026-05-11T00:12:53.423Z",
+  "city": "Tucson",
+  "state": "AZ",
+  "panel_id": "BD_TUC_CLIENT_OVERVIEW",
+  "panel_title": "Tucson Operational Intelligence",
+  "client_visible": true,
+  "summary_cards": [
+    {
+      "card_id": "TUC_RUNTIME_ENTITIES",
+      "label": "Runtime Entities",
+      "count": 10
+    },
+    {
+      "card_id": "TUC_CONTACT_CANDIDATES",
+      "label": "Manual Contact Candidates",
+      "count": 7
+    },
+    {
+      "card_id": "TUC_GRAPH_EDGES",
+      "label": "Graph Edges",
+      "count": 44
+    },
+    {
+      "card_id": "TUC_PROPAGATION_PATHS",
+      "label": "Propagation Paths",
+      "count": 10
+    },
+    {
+      "card_id": "TUC_ROUTE_REVIEW",
+      "label": "Route Reviews",
+      "count": 3
+    },
+    {
+      "card_id": "TUC_REGIONAL_DUPLICATES",
+      "label": "Regional Overlaps",
+      "count": 3
+    }
+  ],
+  "hardlocks": {
+    "ui_can_recommend": true,
+    "ui_can_auto_contact": false,
+    "ui_can_auto_promote": false,
+    "ui_can_delete_targets": false,
+    "ui_can_mutate_runtime": false
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "entity_id":  "LV_ENTITY_001",
+        "entity_name":  "Las Vegas Metropolitan Police Department",
+        "city":  "Las Vegas",
+        "state":  "Nevada",
+        "contact_readiness_score":  0,
+        "confidence_score":  0,
+        "scoring_status":  "NOT_READY",
+        "reason":  "Entity remains quarantined pending manual review.",
+        "outbound_contact_allowed":  false,
+        "runtime_promotion_allowed":  false
+    },
+    {
+        "entity_id":  "LV_ENTITY_002",
+        "entity_name":  "Clark County Emergency Management",
+        "city":  "Las Vegas",
+        "state":  "Nevada",
+        "contact_readiness_score":  0,
+        "confidence_score":  0,
+        "scoring_status":  "NOT_READY",
+        "reason":  "Entity remains quarantined pending manual review.",
+        "outbound_contact_allowed":  false,
+        "runtime_promotion_allowed":  false
+    },
+    {
+        "entity_id":  "LV_ENTITY_003",
+        "entity_name":  "Nevada POST",
+        "city":  "Las Vegas",
+        "state":  "Nevada",
+        "contact_readiness_score":  0,
+        "confidence_score":  0,
+        "scoring_status":  "NOT_READY",
+        "reason":  "Entity remains quarantined pending manual review.",
+        "outbound_contact_allowed":  false,
+        "runtime_promotion_allowed":  false
+    }
+]

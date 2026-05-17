@@ -1,0 +1,34 @@
+{
+    "version":  "black_dragon_scottsdale_legacy_role_manifest_v1",
+    "generated_at":  "2026-05-11T04:20:50.4153764Z",
+    "city":  {
+                 "city":  "Scottsdale",
+                 "folder":  "scottsdale",
+                 "state":  "Arizona",
+                 "state_code":  "AZ",
+                 "city_id":  "city_scottsdale_az"
+             },
+    "legacy_source":  {
+                          "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale",
+                          "preserved_read_only":  true
+                      },
+    "long_beach_equivalent_roles":  {
+                                        "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\audit\\batch_163_scottsdale_template_initialization_audit.json",
+                                        "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                                        "runtime_summary":  null,
+                                        "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                                        "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json"
+                                    },
+    "intelligence_density_snapshot":  {
+                                          "organization_name_hits":  10,
+                                          "relationship_hits":  0,
+                                          "rank_hits":  50
+                                      },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

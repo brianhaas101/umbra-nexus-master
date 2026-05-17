@@ -1,0 +1,101 @@
+{
+  "version": "nexus_L01_live_sophistication_batch_002_manifest_v1",
+  "generated_at": "2026-05-08T02:22:43.779Z",
+  "layer_id": "L01",
+  "batch_id": "L01_LIVE_SOPHISTICATION_BATCH_002",
+  "batch_name": "Federal enforcement, preparedness, rulemaking, and justice statistics spine",
+  "connector_count": 5,
+  "execution_mode": "deterministic_live_ready",
+  "connectors": [
+    {
+      "execution_id": "L01_BATCH_002B_EXEC_001",
+      "connector_id": "L01_LIVE_CONNECTOR_006_L01_SRC_006_FBI_PUBLIC_DATA",
+      "source_id": "L01_SRC_006_FBI_PUBLIC_DATA",
+      "source_name": "FBI Public Crime and Law Enforcement Data",
+      "acquisition_mode": "public_api",
+      "base_url": "https://www.fbi.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_006",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_006_FBI_PUBLIC_DATA.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_006_FBI_PUBLIC_DATA.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_006_FBI_PUBLIC_DATA.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    },
+    {
+      "execution_id": "L01_BATCH_002B_EXEC_002",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "acquisition_mode": "public_api",
+      "base_url": "https://www.dea.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_007",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_007_DEA_PUBLIC_RELEASES.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_007_DEA_PUBLIC_RELEASES.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_007_DEA_PUBLIC_RELEASES.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    },
+    {
+      "execution_id": "L01_BATCH_002B_EXEC_003",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "acquisition_mode": "public_api",
+      "base_url": "https://www.fema.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_008",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_008_FEMA_PREPAREDNESS_GRANTS.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_008_FEMA_PREPAREDNESS_GRANTS.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_008_FEMA_PREPAREDNESS_GRANTS.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    },
+    {
+      "execution_id": "L01_BATCH_002B_EXEC_004",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "acquisition_mode": "public_api",
+      "base_url": "https://www.federalregister.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_009",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_009_FEDERAL_REGISTER.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_009_FEDERAL_REGISTER.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_009_FEDERAL_REGISTER.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    },
+    {
+      "execution_id": "L01_BATCH_002B_EXEC_005",
+      "connector_id": "L01_LIVE_CONNECTOR_010_L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS",
+      "source_id": "L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS",
+      "source_name": "Bureau of Justice Statistics",
+      "acquisition_mode": "public_api",
+      "base_url": "https://bjs.ojp.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_010",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    }
+  ]
+}

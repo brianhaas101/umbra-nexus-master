@@ -1,0 +1,51 @@
+{
+  "version": "black_dragon_region_Texas_source_discovery_queue_v1_batch_089",
+  "generated_at": "2026-05-10T03:16:31.386Z",
+  "client_id": "black_dragon",
+  "region": "Texas",
+  "count": 1,
+  "public_source_found": 1,
+  "authentication_pending": 0,
+  "contact_ready": 0,
+  "outreach_allowed": 0,
+  "tasks": [
+    {
+      "discovery_task_id": "BD_SRC_DISC_000001",
+      "entity_id": "BD_BOOK_OP_00001",
+      "client_id": "black_dragon",
+      "organization_name": "Texas Confederation of Clubs and Independents",
+      "organization_type": "CONFEDERATION_COUNCIL",
+      "city": null,
+      "region": "Texas",
+      "original_region": "Texas",
+      "country": "USA",
+      "authentication_status": "PUBLIC_SOURCE_FOUND",
+      "source_discovery_status": "SOURCE_PRESENT_REQUIRES_VALIDATION",
+      "original_source_url": "https://www.facebook.com/",
+      "public_source_present": true,
+      "source_validation_required": true,
+      "contact_route_validation_required": true,
+      "manual_review_required": true,
+      "official_source_query": "Texas Confederation of Clubs and Independents Texas official website",
+      "official_contact_query": "Texas Confederation of Clubs and Independents Texas contact official",
+      "search_queries": [
+        "Texas Confederation of Clubs and Independents Texas official website",
+        "Texas Confederation of Clubs and Independents Texas contact official",
+        "Texas Confederation of Clubs and Independents Texas public records",
+        "Texas Confederation of Clubs and Independents Texas official contact"
+      ],
+      "required_validation_checks": [
+        "official_public_source_exists",
+        "organization_name_match",
+        "state_or_region_match",
+        "source_is_not_generated",
+        "contact_route_is_public",
+        "manual_reviewer_approval"
+      ],
+      "visual_review_status": "PENDING_VISUAL_REVIEW",
+      "contact_ready": false,
+      "outreach_allowed": false,
+      "blocked_reason": "Requires official source validation, public contact-route validation, and manual review before contact-ready promotion."
+    }
+  ]
+}

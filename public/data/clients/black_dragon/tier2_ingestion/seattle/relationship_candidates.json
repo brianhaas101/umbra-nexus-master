@@ -1,0 +1,13 @@
+{
+    "version":  "black_dragon_seattle_relationship_rank_candidates_v1",
+    "generated_at":  "2026-05-11T06:29:06.6281575Z",
+    "city":  "Seattle",
+    "folder":  "seattle",
+    "relationships":  [
+
+                      ],
+    "ranked_entities":  [
+
+                        ],
+    "status":  "RELATIONSHIP_AND_RANK_CANDIDATES_QUARANTINED"
+}

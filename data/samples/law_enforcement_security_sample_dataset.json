@@ -1,0 +1,197 @@
+'use strict';
+(function () {
+  const G = window.UmbraGlobe = window.UmbraGlobe || {};
+
+  function ensureResolvedStores() {
+    if (!G.state) G.state = {};
+    if (!G.state.resolvedDossiers) G.state.resolvedDossiers = new Map();
+    if (!G.state.cityMapSnapshots) G.state.cityMapSnapshots = [];
+    if (!Array.isArray(G.state.lawEnforcementPickMeshes)) G.state.lawEnforcementPickMeshes = [];
+    if (!Array.isArray(G.state.lawEnforcementNodeAnchors)) G.state.lawEnforcementNodeAnchors = [];
+  }
+
+  function setLawEnforcementResolvedData({ snapshots = [], dossiers = [] }) {
+    ensureResolvedStores();
+
+    G.state.cityMapSnapshots = Array.isArray(snapshots) ? snapshots.slice() : [];
+    G.state.resolvedDossiers.clear();
+
+    for (const dossier of Array.isArray(dossiers) ? dossiers : []) {
+      if (dossier && dossier.entity_id) {
+        G.state.resolvedDossiers.set(dossier.entity_id, dossier);
+      }
+    }
+
+    return {
+      snapshotCount: G.state.cityMapSnapshots.length,
+      dossierCount: G.state.resolvedDossiers.size
+    };
+  }
+
+  function getSnapshotsForActiveCity(activeCityId) {
+    ensureResolvedStores();
+    const cityId = String(activeCityId || "").trim();
+    return G.state.cityMapSnapshots.filter((s) => s && String(s.city_id || "").trim() === cityId);
+  }
+
+  function removeFromArray(arr, item) {
+    if (!Array.isArray(arr)) return;
+    const idx = arr.indexOf(item);
+    if (idx >= 0) arr.splice(idx, 1);
+  }
+
+  function disposeObjectTree(root) {
+    if (!root) return;
+
+    root.traverse?.((obj) => {
+      const mats = Array.isArray(obj?.material) ? obj.material : (obj?.material ? [obj.material] : []);
+      for (const m of mats) {
+        try { m?.dispose?.(); } catch {}
+      }
+      try { obj?.geometry?.dispose?.(); } catch {}
+    });
+  }
+
+  function clearLawEnforcementNodes() {
+    ensureResolvedStores();
+
+    const maps = G.state?.cityMap || null;
+    const livePickArray = Array.isArray(maps?.pickMeshes) ? maps.pickMeshes : null;
+
+    for (const anchor of G.state.lawEnforcementNodeAnchors) {
+      const pickMesh =
+        anchor?.children?.find?.((c) => c?.name === "pickMesh") ||
+        null;
+
+      if (livePickArray && pickMesh) {
+        removeFromArray(livePickArray, pickMesh);
+      }
+
+      try { anchor?.parent?.remove?.(anchor); } catch {}
+      disposeObjectTree(anchor);
+    }
+
+    G.state.lawEnforcementNodeAnchors.length = 0;
+    G.state.lawEnforcementPickMeshes.length = 0;
+
+    if (livePickArray) {
+      G.state.cityMapPickMeshes = livePickArray;
+      G.state.pickMeshes = livePickArray;
+    }
+  }
+
+  function buildLawEnforcementCityMapNodes({ activeCityId, cityMeta }) {
+    ensureResolvedStores();
+
+    const cityId = String(activeCityId || "").trim();
+    if (!cityId) return { created: 0, skipped: 0 };
+
+    const snapshots = getSnapshotsForActiveCity(cityId);
+    const meta =
+      cityMeta ||
+      G.state?.cityMap?.meta ||
+      G.state?.cityMeta ||
+      null;
+
+    clearLawEnforcementNodes();
+
+    let created = 0;
+    let skipped = 0;
+
+    for (const snap of snapshots) {
+      if (!snap || !snap.entity_id) {
+        skipped += 1;
+        continue;
+      }
+
+      const projected = typeof G.projectCityMapLatLon === "function"
+        ? G.projectCityMapLatLon(snap.lat, snap.lon, meta)
+        : null;
+
+      if (!projected || projected.withinBounds !== true) {
+        skipped += 1;
+        continue;
+      }
+
+      const nodePayload = {
+        entity_id: snap.entity_id,
+        city_id: snap.city_id,
+        industry_id: snap.industry_id || 'law_enforcement_security',
+        organization_type: snap.organization_type || '',
+        x: projected.x,
+        y: projected.y,
+        lat: snap.lat,
+        lon: snap.lon,
+        precision: snap.precision || 'city',
+        umbra_score: snap.umbra_score || 0,
+        node_label: snap.node_label || snap.entity_id,
+        node_priority: snap.node_priority || 0,
+        dossier_ready: snap.dossier_ready === true,
+        projectionNX: projected.nx,
+        projectionNY: projected.ny,
+        projectionReason: projected.reason || '',
+        projectionSource: projected.source || 'latlon'
+      };
+
+      const anchor = typeof G.createCityMapNode === 'function'
+        ? G.createCityMapNode(nodePayload)
+        : null;
+
+      if (!anchor) {
+        skipped += 1;
+        continue;
+      }
+
+      anchor.position.set(projected.x, projected.y, 0);
+      anchor.userData = Object.assign({}, anchor.userData || {}, nodePayload);
+
+      const registeredPick =
+        typeof G.registerCityMapPick === 'function'
+          ? G.registerCityMapPick({
+              mesh: anchor,
+              entity_id: nodePayload.entity_id,
+              city_id: nodePayload.city_id,
+              industry_id: nodePayload.industry_id
+            })
+          : null;
+
+      if (!registeredPick) {
+        try { anchor?.parent?.remove?.(anchor); } catch {}
+        disposeObjectTree(anchor);
+        skipped += 1;
+        continue;
+      }
+
+      registeredPick.userData = Object.assign({}, registeredPick.userData || {}, nodePayload, {
+        pickRole: 'law_enforcement_citymap'
+      });
+
+      G.state.lawEnforcementNodeAnchors.push(anchor);
+      G.state.lawEnforcementPickMeshes.push(registeredPick);
+      created += 1;
+    }
+
+    return { created, skipped };
+  }
+
+  function openLawEnforcementDossier(entityId) {
+    ensureResolvedStores();
+
+    if (!entityId) return null;
+
+    const dossier = G.state.resolvedDossiers.get(entityId) || null;
+    if (!dossier) return null;
+
+    if (typeof G.openDossierFromResolved === 'function') {
+      G.openDossierFromResolved(entityId);
+      return dossier;
+    }
+
+    G.state.currentResolvedDossier = dossier;
+    return dossier;
+  }
+
+  G.setLawEnforcementResolvedData = setLawEnforcementResolvedData;
+  G.buildLawEnforcementCityMapNodes = buildLawEnforcementCityMapNodes;
+  G.openLawEnforcementDossier = openLawEnforcementDossier;
+})();

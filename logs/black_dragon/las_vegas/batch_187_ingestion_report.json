@@ -1,0 +1,16 @@
+{
+    "version":  "black_dragon_las_vegas_ingestion_foundation_v1",
+    "generated_at":  "2026-05-11T00:50:46.1039255Z",
+    "city":  "Las Vegas",
+    "state":  "Nevada",
+    "ingestion_policy":  {
+                             "quarantined_by_default":  true,
+                             "runtime_promotion_forbidden":  true,
+                             "manual_review_required":  true
+                         },
+    "totals":  {
+                   "entities_created":  3,
+                   "runtime_eligible":  0,
+                   "quarantined":  3
+               }
+}

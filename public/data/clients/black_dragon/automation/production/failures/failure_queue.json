@@ -1,0 +1,24 @@
+{
+  "version": "black_dragon_production_failure_queue_v1",
+  "generated_at": "2026-05-10T20:35:50.061Z",
+  "queue_status": "READY",
+  "failure_items": [],
+  "failure_schema": {
+    "failure_id": "string",
+    "job_id": "string",
+    "runner": "string",
+    "city": "string",
+    "state": "string",
+    "failure_type": "string",
+    "failure_message": "string",
+    "occurred_at": "ISO_TIMESTAMP",
+    "retry_count": "number",
+    "founder_review_required": "boolean",
+    "runtime_mutation_performed": "boolean"
+  },
+  "hardlocks": {
+    "failed_jobs_cannot_auto_mutate_runtime": true,
+    "failed_jobs_cannot_auto_contact": true,
+    "failed_jobs_require_review_after_max_retries": true
+  }
+}

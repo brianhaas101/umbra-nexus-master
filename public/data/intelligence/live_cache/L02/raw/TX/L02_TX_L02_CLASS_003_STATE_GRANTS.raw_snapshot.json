@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:11.348Z",
+  "layer_id": "L02",
+  "connector_id": "L02_TX_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "TX",
+  "state_name": "Texas",
+  "source_type": "STATE_GRANTS",
+  "canonical_url": "https://gov.texas.gov/organization/financial-services/grants",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 102455,
+    "extracted_links": [
+      {
+        "href": "https://gov.texas.gov/es/organization/financial-services/grants",
+        "label": "Español"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/appointments/application",
+        "label": "Application"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/women/womens-hof-nominations",
+        "label": "Nomination Application"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/women/outstanding-women-in-texas-government-past-awards",
+        "label": "Past Recipients"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/disabilities/awards",
+        "label": "Award Programs"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/disabilities/awards",
+        "label": "Award Programs Overview"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/disabilities/barbara_jordan_media_awards",
+        "label": "Barbara Jordan Media Awards"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/disabilities/barbara_jordan_media_awards",
+        "label": "Barbara Jordan Media Awards Overview"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/disabilities/bjma_past_winners",
+        "label": "Past Award Winners"
+      },
+      {
+        "href": "https://gov.texas.gov/organization/disabilities/employment_awards",
+        "label": "Lex Frieden Employment Awards"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "db29b2beba000ea3c8e4601a5d5b30d9d347cd9b69085acdb681b5adf943d09e"
+}

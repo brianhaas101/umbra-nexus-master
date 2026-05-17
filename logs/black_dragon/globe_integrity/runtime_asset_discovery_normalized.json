@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-05-12T06:17:20.6094845Z",
+  "canonical_cities": 116,
+  "runtime_complete": 116,
+  "runtime_incomplete": 0,
+  "gate": "pass_runtime_assets_normalized",
+  "note": "Counts deterministic scaffold/runtime manifests as runtime assets. Does not claim full operational payload density.",
+  "failed": []
+}

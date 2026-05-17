@@ -1,0 +1,17 @@
+{
+    "version":  "black_dragon_atlanta_contact_review_queue_v1",
+    "generated_at":  "2026-05-11T04:58:27.1731632Z",
+    "city":  "Atlanta",
+    "folder":  "atlanta",
+    "review_queue":  [
+
+                     ],
+    "contact_policy":  {
+                           "contact_enabled":  false,
+                           "manual_review_required":  true,
+                           "no_private_person_targets":  true,
+                           "no_inferred_contacts":  true,
+                           "no_placeholder_contacts":  true
+                       },
+    "status":  "CONTACT_REVIEW_LOCKED_EMPTY"
+}

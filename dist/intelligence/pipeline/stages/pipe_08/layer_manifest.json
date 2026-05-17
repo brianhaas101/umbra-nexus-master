@@ -1,0 +1,25 @@
+﻿{
+    "id":  "layer_08",
+    "name":  "Cross-Source Corroboration",
+    "version":  "0.1.0",
+    "status":  "active_scaffold",
+    "runtime_scope":  "public/intelligence/layers/layer_08",
+    "black_dragon_coupling":  false,
+    "deterministic":  true,
+    "replayable":  true,
+    "depends_on":  [
+                       "layer_01",
+                       "layer_03",
+                       "layer_05"
+                   ],
+    "purpose":  "Evaluate whether multiple explicit public-source records corroborate the same entity-city claim without creating inferred corroboration.",
+    "allowed_inputs":  [
+                           "record_group_with_explicit_sources"
+                       ],
+    "required_outputs":  [
+                             "corroboration_score",
+                             "corroboration_class",
+                             "corroboration_reasons",
+                             "audit_event"
+                         ]
+}

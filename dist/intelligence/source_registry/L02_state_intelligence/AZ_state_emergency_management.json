@@ -1,0 +1,19 @@
+{
+  "source_id": "state_emergency_management",
+  "state_code": "AZ",
+  "state_name": "Arizona",
+  "category": "state_emergency_management",
+  "source_url": "https://dema.az.gov/",
+  "status": "source_page_verified_state_emergency_management_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T05:10:37.487Z",
+  "last_refresh": "2026-05-14T05:10:37.487Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

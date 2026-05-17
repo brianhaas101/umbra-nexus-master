@@ -1,0 +1,13 @@
+{
+    "version":  "black_dragon_houston_relationship_rank_candidates_v1",
+    "generated_at":  "2026-05-11T06:02:26.0362469Z",
+    "city":  "Houston",
+    "folder":  "houston",
+    "relationships":  [
+
+                      ],
+    "ranked_entities":  [
+
+                        ],
+    "status":  "RELATIONSHIP_AND_RANK_CANDIDATES_QUARANTINED"
+}

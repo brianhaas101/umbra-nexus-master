@@ -1,0 +1,253 @@
+{
+  "version": "black_dragon_arizona_final_statewide_scores_v1",
+  "generated_at": "2026-05-11T00:16:02.961Z",
+  "state": "Arizona",
+  "statewide_entity_scores": [
+    {
+      "state_rank": 1,
+      "organization_name": "Arizona Bike Week",
+      "city": "Phoenix",
+      "state_score": 10.29,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 2,
+      "organization_name": "Arizona Bike Week",
+      "city": "Scottsdale",
+      "state_score": 10.27,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 3,
+      "organization_name": "Arizona Bike Week",
+      "city": "Mesa",
+      "state_score": 10.27,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 4,
+      "organization_name": "Harley-Davidson of Scottsdale",
+      "city": "Phoenix",
+      "state_score": 9.79,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 2
+    },
+    {
+      "state_rank": 5,
+      "organization_name": "Harley-Davidson of Scottsdale",
+      "city": "Scottsdale",
+      "state_score": 9.78,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 2
+    },
+    {
+      "state_rank": 6,
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "city": "Phoenix",
+      "state_score": 9.67,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 7,
+      "organization_name": "Law Tigers Arizona",
+      "city": "Phoenix",
+      "state_score": 9.6,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 8,
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "city": "Scottsdale",
+      "state_score": 9.55,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 9,
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "city": "Mesa",
+      "state_score": 9.55,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 10,
+      "organization_name": "GO AZ Motorcycles",
+      "city": "Scottsdale",
+      "state_score": 9.5,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 2
+    },
+    {
+      "state_rank": 11,
+      "organization_name": "GO AZ Motorcycles",
+      "city": "Mesa",
+      "state_score": 9.5,
+      "state_priority": "ARIZONA_STATE_HOT",
+      "city_diversity": 2
+    },
+    {
+      "state_rank": 12,
+      "organization_name": "Law Tigers Arizona",
+      "city": "Scottsdale",
+      "state_score": 9.48,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 13,
+      "organization_name": "Law Tigers Arizona",
+      "city": "Mesa",
+      "state_score": 9.48,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 3
+    },
+    {
+      "state_rank": 14,
+      "organization_name": "Harley-Davidson of Mesa",
+      "city": "Mesa",
+      "state_score": 9.26,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 15,
+      "organization_name": "Buddy Stubbs Harley-Davidson",
+      "city": "Phoenix",
+      "state_score": 9.05,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 16,
+      "organization_name": "Scottsdale Bike Week Vendor Network",
+      "city": "Scottsdale",
+      "state_score": 8.67,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 17,
+      "organization_name": "Mesa Bike Week Vendor Network",
+      "city": "Mesa",
+      "state_score": 8.67,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 18,
+      "organization_name": "ABATE of Arizona",
+      "city": "Phoenix",
+      "state_score": 8.52,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 19,
+      "organization_name": "WestWorld of Scottsdale Event Network",
+      "city": "Scottsdale",
+      "state_score": 8.52,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 20,
+      "organization_name": "WestWorld of Mesa Event Network",
+      "city": "Mesa",
+      "state_score": 8.52,
+      "state_priority": "ARIZONA_STATE_WARM",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 21,
+      "organization_name": "Scottsdale Custom Motorcycle Culture",
+      "city": "Scottsdale",
+      "state_score": 8.37,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 22,
+      "organization_name": "Mesa Custom Motorcycle Culture",
+      "city": "Mesa",
+      "state_score": 8.37,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 23,
+      "organization_name": "Phoenix Bike Night Network",
+      "city": "Phoenix",
+      "state_score": 8.31,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 24,
+      "organization_name": "Cycle Gear Phoenix",
+      "city": "Phoenix",
+      "state_score": 8.29,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 25,
+      "organization_name": "Scottsdale Motorcycle Riders Network",
+      "city": "Scottsdale",
+      "state_score": 8.27,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 26,
+      "organization_name": "Mesa Motorcycle Riders Network",
+      "city": "Mesa",
+      "state_score": 8.27,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 27,
+      "organization_name": "Phoenix Motorcycle Riders Meetup",
+      "city": "Phoenix",
+      "state_score": 8.17,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 28,
+      "organization_name": "Scottsdale Charity Ride Network",
+      "city": "Scottsdale",
+      "state_score": 8.11,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 29,
+      "organization_name": "Mesa Charity Ride Network",
+      "city": "Mesa",
+      "state_score": 8.11,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    },
+    {
+      "state_rank": 30,
+      "organization_name": "Arizona Motorcycle Safety and Awareness Foundation",
+      "city": "Phoenix",
+      "state_score": 8.05,
+      "state_priority": "ARIZONA_STATE_REVIEW",
+      "city_diversity": 1
+    }
+  ],
+  "statewide_score_statistics": {
+    "total_scored_entities": 30,
+    "hot_entities": 11,
+    "warm_entities": 9,
+    "review_entities": 10
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": "black_dragon_socal_final_deployment_summary_v1",
+  "generated_at": "2026-05-10T22:38:55.585Z",
+  "deployment_scope": "SOUTHERN_CALIFORNIA",
+  "deployment_status": "CLIENT_READY_WITH_MANUAL_ACTION_LOCKS",
+  "operational_cities": 3,
+  "federation_status": "FEDERATION_OPERATIONAL",
+  "client_access_status": "BLACK_DRAGON_CLIENT_ACCESS_READY",
+  "runtime_entities": 88,
+  "regional_opportunities": 25,
+  "review_queues": {
+    "manual_contact_review": 18,
+    "route_issue_review": 5
+  },
+  "deployment_capabilities": [
+    "City runtime intelligence",
+    "Regional overlap scoring",
+    "Propagation intelligence",
+    "Dead-route review",
+    "Manual contact review",
+    "Regional opportunity ranking",
+    "Federated refresh orchestration",
+    "Client-safe dashboards"
+  ],
+  "hardlocks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true,
+    "founder_admin_isolated": true
+  },
+  "deployment_interpretation": {
+    "operational_meaning": "Black Dragon now has an operational Southern California intelligence corridor.",
+    "client_meaning": "The client can safely review opportunities, propagation chains, contact routes, and regional priorities without administrative mutation authority.",
+    "infrastructure_meaning": "The system supports recurring federation refresh, propagation ranking, overlap refinement, and client-safe operational review."
+  }
+}

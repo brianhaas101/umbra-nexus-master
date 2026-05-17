@@ -1,0 +1,764 @@
+{
+    "batch":  "252",
+    "version":  "black_dragon_seattle_external_source_acquisition_queue_v1",
+    "generated_at":  "2026-05-11T07:39:36.3386895Z",
+    "city":  "Seattle",
+    "folder":  "seattle",
+    "state":  "Washington",
+    "state_code":  "WA",
+    "city_id":  "city_seattle_wa",
+    "acquisition_lanes":  [
+                              {
+                                  "category":  "city_government_directory",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington city_government_directory public directory",
+                                                              "Seattle city_government_directory organizations",
+                                                              "Seattle city_government_directory official source",
+                                                              "Seattle city_government_directory open data",
+                                                              "Seattle city_government_directory registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "business_registry",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington business_registry public directory",
+                                                              "Seattle business_registry organizations",
+                                                              "Seattle business_registry official source",
+                                                              "Seattle business_registry open data",
+                                                              "Seattle business_registry registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "chamber_of_commerce",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington chamber_of_commerce public directory",
+                                                              "Seattle chamber_of_commerce organizations",
+                                                              "Seattle chamber_of_commerce official source",
+                                                              "Seattle chamber_of_commerce open data",
+                                                              "Seattle chamber_of_commerce registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_media_directory",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington local_media_directory public directory",
+                                                              "Seattle local_media_directory organizations",
+                                                              "Seattle local_media_directory official source",
+                                                              "Seattle local_media_directory open data",
+                                                              "Seattle local_media_directory registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "education_institutions",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington education_institutions public directory",
+                                                              "Seattle education_institutions organizations",
+                                                              "Seattle education_institutions official source",
+                                                              "Seattle education_institutions open data",
+                                                              "Seattle education_institutions registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "community_organizations",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington community_organizations public directory",
+                                                              "Seattle community_organizations organizations",
+                                                              "Seattle community_organizations official source",
+                                                              "Seattle community_organizations open data",
+                                                              "Seattle community_organizations registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "venue_and_events",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington venue_and_events public directory",
+                                                              "Seattle venue_and_events organizations",
+                                                              "Seattle venue_and_events official source",
+                                                              "Seattle venue_and_events open data",
+                                                              "Seattle venue_and_events registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "retail_and_dealers",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington retail_and_dealers public directory",
+                                                              "Seattle retail_and_dealers organizations",
+                                                              "Seattle retail_and_dealers official source",
+                                                              "Seattle retail_and_dealers open data",
+                                                              "Seattle retail_and_dealers registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "clubs_and_associations",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington clubs_and_associations public directory",
+                                                              "Seattle clubs_and_associations organizations",
+                                                              "Seattle clubs_and_associations official source",
+                                                              "Seattle clubs_and_associations open data",
+                                                              "Seattle clubs_and_associations registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "geospatial_open_data",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington geospatial_open_data public directory",
+                                                              "Seattle geospatial_open_data organizations",
+                                                              "Seattle geospatial_open_data official source",
+                                                              "Seattle geospatial_open_data open data",
+                                                              "Seattle geospatial_open_data registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "transit_and_location_data",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington transit_and_location_data public directory",
+                                                              "Seattle transit_and_location_data organizations",
+                                                              "Seattle transit_and_location_data official source",
+                                                              "Seattle transit_and_location_data open data",
+                                                              "Seattle transit_and_location_data registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "public_safety_and_civic_resources",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington public_safety_and_civic_resources public directory",
+                                                              "Seattle public_safety_and_civic_resources organizations",
+                                                              "Seattle public_safety_and_civic_resources official source",
+                                                              "Seattle public_safety_and_civic_resources open data",
+                                                              "Seattle public_safety_and_civic_resources registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "tourism_and_visitor_bureau",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington tourism_and_visitor_bureau public directory",
+                                                              "Seattle tourism_and_visitor_bureau organizations",
+                                                              "Seattle tourism_and_visitor_bureau official source",
+                                                              "Seattle tourism_and_visitor_bureau open data",
+                                                              "Seattle tourism_and_visitor_bureau registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "neighborhood_districts",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington neighborhood_districts public directory",
+                                                              "Seattle neighborhood_districts organizations",
+                                                              "Seattle neighborhood_districts official source",
+                                                              "Seattle neighborhood_districts open data",
+                                                              "Seattle neighborhood_districts registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_nonprofits",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington local_nonprofits public directory",
+                                                              "Seattle local_nonprofits organizations",
+                                                              "Seattle local_nonprofits official source",
+                                                              "Seattle local_nonprofits open data",
+                                                              "Seattle local_nonprofits registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              }
+                          ],
+    "intake_policy":  {
+                          "no_scraping_executed_by_this_batch":  true,
+                          "no_runtime_promotion":  true,
+                          "no_contact_enablement":  true,
+                          "no_placeholder_entities":  true,
+                          "no_false_targets":  true,
+                          "public_source_required":  true,
+                          "provenance_required":  true,
+                          "manual_review_required":  true
+                      },
+    "expected_downstream_artifacts":  {
+                                          "raw_intake_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\external_source_intake.raw.json",
+                                          "reviewed_intake_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\external_source_intake.reviewed.json",
+                                          "import_manifest":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\external_source_import_manifest.json",
+                                          "rejected_sources":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\external_source_rejections.json"
+                                      },
+    "status":  "EXTERNAL_SOURCE_ACQUISITION_QUEUE_READY"
+}

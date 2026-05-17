@@ -1,0 +1,33 @@
+{
+  "version": "black_dragon_batch_156_socal_live_runtime_deployment_audit_v1",
+  "generated_at": "2026-05-10T22:38:55.638Z",
+  "batch": "156_SOUTHERN_CALIFORNIA_LIVE_RUNTIME_DEPLOYMENT_AUDIT",
+  "deployment_status": "CLIENT_READY_WITH_MANUAL_ACTION_LOCKS",
+  "counts": {
+    "operational_cities": 3,
+    "runtime_entities": 88,
+    "regional_opportunities": 25,
+    "manual_review_queue": 18,
+    "route_review_queue": 5
+  },
+  "gates": {
+    "three_operational_cities": true,
+    "federation_operational": true,
+    "client_dashboard_visible": true,
+    "client_feed_visible": true,
+    "client_queues_visible": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true,
+    "founder_admin_isolated": true
+  },
+  "certification": "SOCAL_DEPLOYMENT_CERTIFIED",
+  "next_recommended_paths": [
+    "Add additional California cities",
+    "Improve client-facing UI language",
+    "Expand propagation confidence",
+    "Increase regional overlap density",
+    "Add additional source systems"
+  ],
+  "status": "PASS"
+}

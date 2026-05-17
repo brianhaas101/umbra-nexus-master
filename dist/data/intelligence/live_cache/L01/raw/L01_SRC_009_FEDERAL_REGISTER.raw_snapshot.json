@@ -1,0 +1,322 @@
+{
+  "version": "nexus_live_raw_snapshot_v1",
+  "captured_at": "2026-05-08T02:56:11.380Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+  "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+  "source_name": "Federal Register",
+  "acquisition_mode": "public_api",
+  "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+  "request": {
+    "method": "GET",
+    "purpose": "federal_register_public_safety_rulemaking_search"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "json",
+    "body": {
+      "description": "Documents matching 'public safety law enforcement grant'",
+      "count": 10000,
+      "total_pages": 50,
+      "next_page_url": "https://www.federalregister.gov/api/v1/documents?conditions%5Bterm%5D=public+safety+law+enforcement+grant&format=json&order=newest&page=2&per_page=10",
+      "results": [
+        {
+          "title": "Semiannual Reporting",
+          "type": "Proposed Rule",
+          "abstract": "The Securities and Exchange Commission (\"Commission\") is proposing amendments to allow companies to file semiannual reports on new Form 10-S in lieu of quarterly reports on Form 10-Q to meet their interim reporting obligations under the Securities Exchange Act of 1934 (\"Exchange Act\"). The Commission is also proposing changes to the financial statement requirements of Regulation S-X to facilitate semiannual reporting and to simplify rules regarding the age of financial statements.",
+          "document_number": "2026-09095",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09095/semiannual-reporting",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-09095.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-09095.pdf?1778071532",
+          "publication_date": "2026-05-07",
+          "agencies": [
+            {
+              "raw_name": "SECURITIES AND EXCHANGE COMMISSION",
+              "name": "Securities and Exchange Commission",
+              "id": 466,
+              "url": "https://www.federalregister.gov/agencies/securities-and-exchange-commission",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/466",
+              "parent_id": null,
+              "slug": "securities-and-exchange-commission"
+            }
+          ],
+          "excerpts": "proposal is one step in a broader Commission effort to encourage more companies to go and remain <span class=\"match\">public</span> by reducing the costs and burdens associated with Exchange Act reporting. A robust <span class=\"match\">public</span> capital market—with more emerging companies and small businesses choosing to become <span class=\"match\">public</span> companies through initial <span class=\"match\">public</span> offerings or other paths—benefits companies and investors alike. Becoming a <span class=\"match\">public</span> company provides companies with access to the <span class=\"match\">public</span> markets that allows them to raise capital to grow their businesses, a broader set of potential investors"
+        },
+        {
+          "title": "Defense Federal Acquisition Regulation Supplement: Mitigating Risks Related to Foreign Ownership, Control, or Influence (DFARS Case 2021-D011)",
+          "type": "Proposed Rule",
+          "abstract": "DoD is proposing to amend the Defense Federal Acquisition Regulation Supplement (DFARS) to implement sections of the National Defense Authorization Act for Fiscal Years 2020 and 2021 to mitigate risks related to beneficial ownership or foreign ownership, control, or influence. This proposed rule also implements elements of a DoD policy.",
+          "document_number": "2026-09067",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09067/defense-federal-acquisition-regulation-supplement-mitigating-risks-related-to-foreign-ownership",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-09067.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-09067.pdf?1778071527",
+          "publication_date": "2026-05-07",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF DEFENSE",
+              "name": "Defense Department",
+              "id": 103,
+              "url": "https://www.federalregister.gov/agencies/defense-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/103",
+              "parent_id": null,
+              "slug": "defense-department"
+            },
+            {
+              "raw_name": "Defense Acquisition Regulations System",
+              "name": "Defense Acquisition Regulations System",
+              "id": 97,
+              "url": "https://www.federalregister.gov/agencies/defense-acquisition-regulations-system",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/97",
+              "parent_id": 103,
+              "slug": "defense-acquisition-regulations-system"
+            }
+          ],
+          "excerpts": " 1905 governs the applicability of <span class=\"match\">laws</span> to contracts or subcontracts in amounts not greater than the simplified acquisition threshold. It limits the applicability of <span class=\"match\">laws</span> to such contracts or subcontracts. The statute at 41 U.S.C. 1905 provides that if a provision of <span class=\"match\">law</span> contains criminal or civil penalties, or if the Federal Acquisition Regulatory Council makes a written determination that it is not in the best interest of the Federal Government to exempt contracts or subcontracts at or below the SAT, the <span class=\"match\">law</span> will apply to them. The Principal Director"
+        },
+        {
+          "title": "Fee Adjustment for U.S. Immigration and Customs Enforcement Form I-246, Application for a Stay of Deportation or Removal",
+          "type": "Proposed Rule",
+          "abstract": "DHS proposes to increase the fee for adjudicating Form I-246, Application for a Stay of Deportation or Removal, from $155 to $755. The rule proposes to adjust the Form I-246 fee to recover costs, which has not been adjusted since 1989. DHS also proposes to make technical edits to the stay of deportation and removal fee regulation.",
+          "document_number": "2026-09007",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09007/fee-adjustment-for-us-immigration-and-customs-enforcement-form-i-246-application-for-a-stay-of",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-09007.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-09007.pdf?1778071518",
+          "publication_date": "2026-05-07",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF HOMELAND SECURITY",
+              "name": "Homeland Security Department",
+              "id": 227,
+              "url": "https://www.federalregister.gov/agencies/homeland-security-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/227",
+              "parent_id": null,
+              "slug": "homeland-security-department"
+            }
+          ],
+          "excerpts": "I-246 \n \n fee, not the representative. Therefore, DHS certifies this proposed rulemaking would not have a significant economic impact on a substantial number of small entities.\n \n C. Small Business Regulatory <span class=\"match\">Enforcement</span> Fairness Act of 1996 \n \n Pursuant to Section 213(a) of the Small Business Regulatory <span class=\"match\">Enforcement</span> Fairness Act of 1996, <span class=\"match\">Public</span> <span class=\"match\">Law</span> 104-121, 110 Stat. 847, 858-59, DHS wants to assist small entities in understanding this proposed rule so that they can better evaluate its effects and participate in the rulemaking. If the proposed rule would"
+        },
+        {
+          "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders",
+          "type": "Notice",
+          "abstract": "FMCSA announces its decision to renew exemptions for seven individuals from the requirement in the Federal Motor Carrier Safety Regulations (FMCSRs) that interstate commercial motor vehicle (CMV) drivers have \"no established medical history or clinical diagnosis of epilepsy or any other condition which is likely to cause loss of consciousness or any loss of ability to control a CMV.\" The exemptions enable these individuals who have had one or more seizures and are taking anti-seizure medication to continue to operate CMVs in interstate commerce.",
+          "document_number": "2026-08990",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-08990/qualification-of-drivers-exemption-applications-epilepsy-and-seizure-disorders",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-08990.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-08990.pdf?1778071514",
+          "publication_date": "2026-05-07",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF TRANSPORTATION",
+              "name": "Transportation Department",
+              "id": 492,
+              "url": "https://www.federalregister.gov/agencies/transportation-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/492",
+              "parent_id": null,
+              "slug": "transportation-department"
+            },
+            {
+              "raw_name": "Federal Motor Carrier Safety Administration",
+              "name": "Federal Motor Carrier Safety Administration",
+              "id": 181,
+              "url": "https://www.federalregister.gov/agencies/federal-motor-carrier-safety-administration",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/181",
+              "parent_id": 492,
+              "slug": "federal-motor-carrier-safety-administration"
+            }
+          ],
+          "excerpts": "31315(b) to <span class=\"match\">grant</span> exemptions from the FMCSRs. FMCSA must publish a notice of each exemption request in the \n Federal Register \n (49 CFR 381.315(a)). The Agency must provide the <span class=\"match\">public</span> an opportunity to inspect the information relevant to the application, including the applicant's <span class=\"match\">safety</span> analysis. The Agency must provide an opportunity for <span class=\"match\">public</span> comment on the request.\n \n \n The Agency reviews the application, <span class=\"match\">safety</span> analyses, and <span class=\"match\">public</span> comments submitted and determines whether <span class=\"match\">granting</span> the exemption would likely achieve a level of <span class=\"match\">safety</span> equivalent"
+        },
+        {
+          "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders",
+          "type": "Notice",
+          "abstract": "FMCSA announces its decision to renew exemptions for 20 individuals from the requirement in the Federal Motor Carrier Safety Regulations (FMCSRs) that interstate commercial motor vehicle (CMV) drivers have \"no established medical history or clinical diagnosis of epilepsy or any other condition which is likely to cause loss of consciousness or any loss of ability to control a CMV.\" The exemptions enable these individuals who have had one or more seizures and are taking anti-seizure medication to continue to operate CMVs in interstate commerce.",
+          "document_number": "2026-08988",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-08988/qualification-of-drivers-exemption-applications-epilepsy-and-seizure-disorders",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-08988.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-08988.pdf?1778071513",
+          "publication_date": "2026-05-07",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF TRANSPORTATION",
+              "name": "Transportation Department",
+              "id": 492,
+              "url": "https://www.federalregister.gov/agencies/transportation-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/492",
+              "parent_id": null,
+              "slug": "transportation-department"
+            },
+            {
+              "raw_name": "Federal Motor Carrier Safety Administration",
+              "name": "Federal Motor Carrier Safety Administration",
+              "id": 181,
+              "url": "https://www.federalregister.gov/agencies/federal-motor-carrier-safety-administration",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/181",
+              "parent_id": 492,
+              "slug": "federal-motor-carrier-safety-administration"
+            }
+          ],
+          "excerpts": "31315(b) to <span class=\"match\">grant</span> exemptions from the FMCSRs. FMCSA must publish a notice of each exemption request in the \n Federal Register \n (49 CFR 381.315(a)). The Agency must provide the <span class=\"match\">public</span> an opportunity to inspect the information relevant to the application, including the applicant's <span class=\"match\">safety</span> analysis. The Agency must provide an opportunity for <span class=\"match\">public</span> comment on the request.\n \n \n The Agency reviews the application, <span class=\"match\">safety</span> analyses, and <span class=\"match\">public</span> comments submitted and determines whether <span class=\"match\">granting</span> the exemption would likely achieve a level of <span class=\"match\">safety</span> equivalent"
+        },
+        {
+          "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a Fixed Site Facility",
+          "type": "Proposed Rule",
+          "abstract": "This action would implement section 2209, of the FAA Extension, Safety and Security Act of 2016, by establishing a process for operators and proprietors of certain fixed site facilities to request and maintain an unmanned aircraft flight restriction. The proposal also establishes requirements for applicants to demonstrate the unmanned aircraft flight restriction is necessary for: aviation safety, protection of people and property on the ground, national security, or homeland security. Lastly, the proposal identifies the types of operations that are allowed in the unmanned aircraft flight restriction UAFR.",
+          "document_number": "2026-08943",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08943.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-08943.pdf?1777985132",
+          "publication_date": "2026-05-06",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF TRANSPORTATION",
+              "name": "Transportation Department",
+              "id": 492,
+              "url": "https://www.federalregister.gov/agencies/transportation-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/492",
+              "parent_id": null,
+              "slug": "transportation-department"
+            },
+            {
+              "raw_name": "Federal Aviation Administration",
+              "name": "Federal Aviation Administration",
+              "id": 159,
+              "url": "https://www.federalregister.gov/agencies/federal-aviation-administration",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/159",
+              "parent_id": 492,
+              "slug": "federal-aviation-administration"
+            }
+          ],
+          "excerpts": "which authorizes FAA to consider in the <span class=\"match\">public</span> interest, among other things, the enhancement of <span class=\"match\">safety</span> and security as the highest priorities in air commerce, the regulation of civil and military operations in the interest of <span class=\"match\">safety</span> and efficiency, and assistance to <span class=\"match\">law</span> <span class=\"match\">enforcement</span> agencies in the <span class=\"match\">enforcement</span> of <span class=\"match\">laws</span> related to regulation of controlled substances, to the extent consistent with aviation <span class=\"match\">safety</span>. \n \n Authority for this particular rulemaking is derived from <span class=\"match\">Public</span> <span class=\"match\">Law</span> 114-190, the FAA Extension, <span class=\"match\">Safety</span>, and Security Act of 2016 (FESSA),"
+        },
+        {
+          "title": "Removing Factoring Criteria for Firearms With Attached “Stabilizing Braces”",
+          "type": "Proposed Rule",
+          "abstract": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (\"ATF\") is proposing to amend Department of Justice (\"Department\") regulations on firearms with attached stabilizing braces. Courts have found that ATF's revisions in the 2023 final rule on the same topic violated the Administrative Procedure Act. Several courts have enjoined, stayed, or vacated the final rule, which has rarely been in effect. ATF is therefore proposing to remove from the regulatory definitions of \"rifle\" the two paragraphs added by the 2023 final rule that defined the term \"designed or redesigned, made or remade, and intended to be fired from the shoulder.\"",
+          "document_number": "2026-08930",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08930/removing-factoring-criteria-for-firearms-with-attached-stabilizing-braces",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08930.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-08930.pdf?1777985130",
+          "publication_date": "2026-05-06",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF JUSTICE",
+              "name": "Justice Department",
+              "id": 268,
+              "url": "https://www.federalregister.gov/agencies/justice-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/268",
+              "parent_id": null,
+              "slug": "justice-department"
+            },
+            {
+              "raw_name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+              "name": "Alcohol, Tobacco, Firearms, and Explosives Bureau",
+              "id": 19,
+              "url": "https://www.federalregister.gov/agencies/alcohol-tobacco-firearms-and-explosives-bureau",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/19",
+              "parent_id": 268,
+              "slug": "alcohol-tobacco-firearms-and-explosives-bureau"
+            }
+          ],
+          "excerpts": "Ammunition Technology Division (“FATD”), Office of <span class=\"match\">Enforcement</span> Programs and Services (“EPS”), classifies firearms pursuant to the GCA and NFA. FATD supports the firearms industry and the general <span class=\"match\">public</span> by, among other things, responding to technical inquiries and by testing and evaluating firearms voluntarily submitted to ATF for classification under federal <span class=\"match\">law</span>.\n \n \n \n 1 \n  Some NFA and GCA provisions still refer to the “Secretary of the Treasury.” However, the Homeland Security Act of 2002, <span class=\"match\">Public</span> <span class=\"match\">Law</span> 107-296, 116 Stat. 2135, transferred the functions"
+        },
+        {
+          "title": "Revising Regulations Defining “Engaged in the Business” as a Dealer in Firearms",
+          "type": "Proposed Rule",
+          "abstract": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (\"ATF\") is proposing to revise regulations implementing the \"engaged in the business\" definition from the Bipartisan Safer Communities Act (\"BSCA\"). Although Congress defined that term in BSCA, the Department of Justice (\"Department\") provided additional definitions in its implementing regulations to further define terms within the statutory definition and to include examples of covered activities that established rebuttable presumptions of being engaged in the business of dealing in firearms. This rule proposes to remove those changes. ATF has determined that the changes have not shown the expected impact on federal firearms licensee applications, administrative licensing actions, civil forfeitures, or other anticipated effects.",
+          "document_number": "2026-08919",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08919/revising-regulations-defining-engaged-in-the-business-as-a-dealer-in-firearms",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08919.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-08919.pdf?1777985129",
+          "publication_date": "2026-05-06",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF JUSTICE",
+              "name": "Justice Department",
+              "id": 268,
+              "url": "https://www.federalregister.gov/agencies/justice-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/268",
+              "parent_id": null,
+              "slug": "justice-department"
+            },
+            {
+              "raw_name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+              "name": "Alcohol, Tobacco, Firearms, and Explosives Bureau",
+              "id": 19,
+              "url": "https://www.federalregister.gov/agencies/alcohol-tobacco-firearms-and-explosives-bureau",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/19",
+              "parent_id": 268,
+              "slug": "alcohol-tobacco-firearms-and-explosives-bureau"
+            }
+          ],
+          "excerpts": "license. Congress made a considered judgment that it did not intend federal <span class=\"match\">law</span> to extend to the noncommercial, intrastate market. \n See \n GCA, <span class=\"match\">Public</span> <span class=\"match\">Law</span> 90-618, sec. 101, 82 Stat. 1213, 1213-14 (1968) (reenacted chapter analysis without change) (declaring that the GCA was enacted to “provide for better control of the interstate traffic of firearms” and that Congress' purpose in creating the GCA was “not . . . to place any undue or unnecessary federal restrictions or burdens on <span class=\"match\">law</span>-abiding citizens with respect to the acquisition, possession, or use of"
+        },
+        {
+          "title": "Clarifying Exceptions to the Brady Act Background Check Requirement",
+          "type": "Proposed Rule",
+          "abstract": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (\"ATF\") proposes amending Department of Justice (\"Department\") regulations to clarify when a state's firearms-related permit meets the requirements under the Gun Control Act of 1968, as amended, as an alternative to the National Instant Criminal Background Check System check and includes minor changes to ensure that the regulatory language adheres closely to the language used in the statute.",
+          "document_number": "2026-08918",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08918/clarifying-exceptions-to-the-brady-act-background-check-requirement",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08918.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-08918.pdf?1777985128",
+          "publication_date": "2026-05-06",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF JUSTICE",
+              "name": "Justice Department",
+              "id": 268,
+              "url": "https://www.federalregister.gov/agencies/justice-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/268",
+              "parent_id": null,
+              "slug": "justice-department"
+            },
+            {
+              "raw_name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+              "name": "Alcohol, Tobacco, Firearms, and Explosives Bureau",
+              "id": 19,
+              "url": "https://www.federalregister.gov/agencies/alcohol-tobacco-firearms-and-explosives-bureau",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/19",
+              "parent_id": 268,
+              "slug": "alcohol-tobacco-firearms-and-explosives-bureau"
+            }
+          ],
+          "excerpts": "example, a state might exempt a <span class=\"match\">law</span> <span class=\"match\">enforcement</span> officer or judge from the background check requirement when obtaining a concealed weapons license. \n See, e.g., \n Fla. Stat. 790.06(5)(b); Del. Code Ann. tit. 11 sec. 1448D (c)(1), (h); Md. Pub. <span class=\"match\">Safety</span> Code sec. 5-305(g) (exempting employees of armored car companies). While the state-issued permit for that <span class=\"match\">law</span> <span class=\"match\">enforcement</span> officer or judge would be valid under state <span class=\"match\">law</span> for its dedicated purposes, it would not qualify as a NICS alternate permit because the state <span class=\"match\">law</span> does not require the licensing official"
+        },
+        {
+          "title": "Allowing Makers To Adopt Certain Markings for National Firearms Act Firearms",
+          "type": "Proposed Rule",
+          "abstract": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (\"ATF\") proposes amending Department of Justice (\"Department\") regulations to allow persons making National Firearms Act (\"NFA\") firearms to adopt certain markings previously placed on the firearm to comply with NFA marking requirements.",
+          "document_number": "2026-08915",
+          "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08915/allowing-makers-to-adopt-certain-markings-for-national-firearms-act-firearms",
+          "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08915.pdf",
+          "public_inspection_pdf_url": "https://public-inspection.federalregister.gov/2026-08915.pdf?1777985128",
+          "publication_date": "2026-05-06",
+          "agencies": [
+            {
+              "raw_name": "DEPARTMENT OF JUSTICE",
+              "name": "Justice Department",
+              "id": 268,
+              "url": "https://www.federalregister.gov/agencies/justice-department",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/268",
+              "parent_id": null,
+              "slug": "justice-department"
+            },
+            {
+              "raw_name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+              "name": "Alcohol, Tobacco, Firearms, and Explosives Bureau",
+              "id": 19,
+              "url": "https://www.federalregister.gov/agencies/alcohol-tobacco-firearms-and-explosives-bureau",
+              "json_url": "https://www.federalregister.gov/api/v1/agencies/19",
+              "parent_id": 268,
+              "slug": "alcohol-tobacco-firearms-and-explosives-bureau"
+            }
+          ],
+          "excerpts": "negatively impact <span class=\"match\">law</span> <span class=\"match\">enforcement's</span> ability to trace an NFA firearm. If <span class=\"match\">law</span> <span class=\"match\">enforcement</span> were to recover an NFA firearm and need to trace it, the firearm could still be traced to the first retail purchaser based on the manufacturer's or importer's markings \n 8 \n \n because the tracing process relies on the records that FFLs maintain pursuant to the GCA (and not information in the NFRTR). Thus, requiring additional markings by a maker is unnecessary for <span class=\"match\">public</span> <span class=\"match\">safety</span> purposes.\n \n \n \n 8 \n  Upon recovering the firearm, <span class=\"match\">law</span> <span class=\"match\">enforcement</span> completes the trace"
+        }
+      ]
+    }
+  },
+  "status": "FETCH_SUCCESS",
+  "source_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd"
+}

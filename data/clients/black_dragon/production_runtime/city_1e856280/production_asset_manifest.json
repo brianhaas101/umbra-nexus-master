@@ -1,0 +1,57 @@
+{
+  "city_id": "city_1e856280",
+  "canonical_name": "Cincinnati, OH",
+  "state": "OH",
+  "placeholder_allowed": false,
+  "synthetic_allowed": false,
+  "production_status": "hydrated",
+  "source_count": 9,
+  "sources": [
+    {
+      "layer": "gis",
+      "url": "https://data.cincinnati-oh.gov/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "open_data",
+      "url": "https://data.cincinnati-oh.gov/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "police",
+      "url": "https://www.cincinnati-oh.gov/police/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "fire",
+      "url": "https://www.cincinnati-oh.gov/fire/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "parks",
+      "url": "https://www.cincinnati-oh.gov/cincyparks/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "permits",
+      "url": "https://www.cincinnati-oh.gov/buildings/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "public_works",
+      "url": "https://www.cincinnati-oh.gov/dote/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "schools",
+      "url": "https://www.cps-k12.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "council",
+      "url": "https://www.cincinnati-oh.gov/council/",
+      "provenance": "verified_profile_source"
+    }
+  ],
+  "generated_utc": "2026-05-12T07:22:05.8473968Z"
+}

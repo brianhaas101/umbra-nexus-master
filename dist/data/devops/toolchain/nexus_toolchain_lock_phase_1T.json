@@ -1,0 +1,69 @@
+{
+    "version":  "nexus_toolchain_lock_phase_1T_v1",
+    "generated_at":  "2026-05-11T01:16:23.0526914Z",
+    "root":  "C:\\Dev\\Nexus_MASTER",
+    "installed_tools":  [
+                            {
+                                "tool":  "PowerShell",
+                                "command":  "pwsh",
+                                "found":  true,
+                                "path":  "C:\\Users\\Brian\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe",
+                                "version":  "PowerShell 7.6.1"
+                            },
+                            {
+                                "tool":  "Git",
+                                "command":  "git",
+                                "found":  true,
+                                "path":  "C:\\Program Files\\Git\\cmd\\git.exe",
+                                "version":  "git version 2.54.0.windows.1"
+                            },
+                            {
+                                "tool":  "Node",
+                                "command":  "node",
+                                "found":  true,
+                                "path":  "C:\\Program Files\\nodejs\\node.exe",
+                                "version":  "v24.15.0"
+                            },
+                            {
+                                "tool":  "NPM",
+                                "command":  "npm",
+                                "found":  true,
+                                "path":  "C:\\Program Files\\nodejs\\npm.ps1",
+                                "version":  "11.12.1"
+                            },
+                            {
+                                "tool":  "ripgrep",
+                                "command":  "rg",
+                                "found":  true,
+                                "path":  "C:\\Users\\Brian\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BurntSushi.ripgrep.MSVC_Microsoft.Winget.Source_8wekyb3d8bbwe\\ripgrep-15.1.0-x86_64-pc-windows-msvc\\rg.exe",
+                                "version":  "ripgrep 15.1.0 (rev af60c2de9d)"
+                            },
+                            {
+                                "tool":  "jq",
+                                "command":  "jq",
+                                "found":  true,
+                                "path":  "C:\\Users\\Brian\\AppData\\Local\\Microsoft\\WinGet\\Packages\\jqlang.jq_Microsoft.Winget.Source_8wekyb3d8bbwe\\jq.exe",
+                                "version":  "jq-1.8.1"
+                            },
+                            {
+                                "tool":  "fd",
+                                "command":  "fd",
+                                "found":  true,
+                                "path":  "C:\\Users\\Brian\\AppData\\Local\\Microsoft\\WinGet\\Packages\\sharkdp.fd_Microsoft.Winget.Source_8wekyb3d8bbwe\\fd-v10.4.2-x86_64-pc-windows-msvc\\fd.exe",
+                                "version":  "fd 10.4.2"
+                            }
+                        ],
+    "node_policy":  {
+                        "current_node_version":  "v24.15.0",
+                        "current_npm_version":  "11.12.1",
+                        "recommended_node_major":  [
+                                                       20,
+                                                       22
+                                                   ],
+                        "detected_node_major":  24,
+                        "node_version_locked":  false,
+                        "stability_risk_detected":  true,
+                        "risk_reason":  "Node is not pinned to LTS major 20 or 22. This may create dependency/runtime drift."
+                    },
+    "phase_1T_status":  "PASS_WITH_NODE_VERSION_REVIEW"
+}

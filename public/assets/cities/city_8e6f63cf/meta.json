@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_8e6f63cf",
+    "name":  "Louisville, KY",
+    "center_lat":  38.2527,
+    "center_lon":  -85.7585,
+    "bounds":  {
+                   "north":  38.5355,
+                   "south":  37.9928,
+                   "east":  -85.4733,
+                   "west":  -86.0438
+               },
+    "width_m":  50000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_8e6f63cf/base.png"
+}

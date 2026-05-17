@@ -1,0 +1,45 @@
+{
+    "version":  "black_dragon_las_vegas_source_registry_v2",
+    "generated_at":  "2026-05-11T01:49:52.0141821Z",
+    "city_scope":  {
+                       "city":  "Las Vegas",
+                       "state":  "Nevada",
+                       "state_code":  "NV",
+                       "statewide_expansion_forbidden":  true,
+                       "unmapped_city_ingestion_forbidden":  true,
+                       "runtime_city_creation_forbidden":  true
+                   },
+    "approved_sources":  [
+                             {
+                                 "source_id":  "LV_SRC_001",
+                                 "source_name":  "Las Vegas Metropolitan Police Department",
+                                 "category":  "LAW_ENFORCEMENT",
+                                 "ingestion_status":  "APPROVED",
+                                 "quarantine_required":  true,
+                                 "runtime_promotion_allowed":  false
+                             },
+                             {
+                                 "source_id":  "LV_SRC_002",
+                                 "source_name":  "Clark County Public Safety",
+                                 "category":  "COUNTY_PUBLIC_SAFETY",
+                                 "ingestion_status":  "APPROVED",
+                                 "quarantine_required":  true,
+                                 "runtime_promotion_allowed":  false
+                             },
+                             {
+                                 "source_id":  "LV_SRC_003",
+                                 "source_name":  "Nevada POST",
+                                 "category":  "STATE_POST",
+                                 "ingestion_status":  "APPROVED_LIMITED",
+                                 "quarantine_required":  true,
+                                 "runtime_promotion_allowed":  false
+                             }
+                         ],
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

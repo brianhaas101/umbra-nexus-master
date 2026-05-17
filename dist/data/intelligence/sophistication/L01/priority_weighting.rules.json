@@ -1,0 +1,97 @@
+{
+  "version": "nexus_L01_priority_weighting_rules_v1",
+  "generated_at": "2026-05-09T00:18:09.004Z",
+  "layer_id": "L01",
+  "rules": [
+    {
+      "source_id": "L01_SRC_001_USA_SPENDING",
+      "priority_weight": 1,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "priority_weight": 0.96,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_003_GRANTS_GOV",
+      "priority_weight": 0.98,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "priority_weight": 0.9,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "priority_weight": 0.92,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_006_FBI_PUBLIC_DATA",
+      "priority_weight": 0.94,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "priority_weight": 0.88,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "priority_weight": 0.93,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "priority_weight": 0.91,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS",
+      "priority_weight": 0.86,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_011_COPS_OFFICE_PROGRAMS",
+      "priority_weight": 0.95,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_012_FEDERAL_ADVISORY_REFERENCES",
+      "priority_weight": 0.72,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_013_FEDERAL_TRAINING_CENTERS",
+      "priority_weight": 0.74,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_014_TREASURY_CRIME_DATA",
+      "priority_weight": 0.99,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_015_CONGRESSIONAL_BUDGET_RELEASES",
+      "priority_weight": 0.89,
+      "scoring_role": "federal_operational_intelligence",
+      "refinement_status": "REGISTERED"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+
+public\index.html:18:    window.__UMBRA_BUILD__ = "FOUNDERV1_UI_ARCH_LOCK_DATA_V1";
+public\index.html:22:  <link rel="stylesheet" href="/style.css?v=FOUNDERV1_UI_ARCH_LOCK_DATA_V1" />
+

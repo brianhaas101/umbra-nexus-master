@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:19.284Z",
+  "layer_id": "L02",
+  "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "GA",
+  "state_name": "Georgia",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://law.georgia.gov",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Loading… Georgia.gov logo Office of the Attorney General",
+        "href": "https://law.georgia.gov/#",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Attorney General Chris Carr",
+        "href": "https://law.georgia.gov/biography-attorney-general",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Organized Retail Crime",
+        "href": "https://law.georgia.gov/key-issues/organized-retail-crime",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Protection",
+        "href": "https://law.georgia.gov/key-issues/consumer-protection",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Crime &amp; Crime Victims",
+        "href": "https://law.georgia.gov/resources/crime-crime-victims",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Press Room",
+        "href": "https://law.georgia.gov/press-releases",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Archived Releases",
+        "href": "https://law.georgia.gov/press-releases/archived-releases",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Attorney General Chris Carr",
+        "href": "https://law.georgia.gov/biography-attorney-general",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Organized Retail Crime",
+        "href": "https://law.georgia.gov/key-issues/organized-retail-crime",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_002_STATE_DOJ_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "state_name": "Georgia",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.284Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://law.georgia.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869",
+        "parser_id": "L02_GA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Cybercrime",
+        "href": "https://law.georgia.gov/key-issues/cybersecurity",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_002_STATE_DOJ_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "GA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    }
+  ],
+  "normalized_snapshot_hash": "b051dda225767745d395a26b6858762d68f8f1b92be74064caa0ebdee6a6c6ce"
+}

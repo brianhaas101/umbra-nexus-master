@@ -1,0 +1,9 @@
+﻿{
+    "record_id":  "l01_example",
+    "authority_score":  90,
+    "relevance_score":  82,
+    "geo_score":  85,
+    "freshness_score":  100,
+    "corroboration_score":  88,
+    "penalty_score":  0
+}

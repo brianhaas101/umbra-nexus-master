@@ -1,0 +1,102 @@
+{
+    "checkpoint_id":  "BLACK_DRAGON_CONTROLLED_REAL_SOURCE_EXPANSION_POST_BATCH_106",
+    "generated_at":  "2026-05-10T17:55:13.0283561Z",
+    "operational_phase":  "CONTROLLED_REAL_SOURCE_EXPANSION",
+    "previous_checkpoint":  "BLACK_DRAGON_REAL_SOURCE_RESOLUTION_POST_BATCH_105",
+    "completed_batches":  [
+                              "104_REAL_SOURCE_IMPORT_EXECUTION_PIPELINE",
+                              "105_REAL_SOURCE_RESOLUTION_PIPELINE",
+                              "106_CONTROLLED_REAL_SOURCE_EXPANSION"
+                          ],
+    "operational_state":  {
+                              "total_verified_real_sources":  10,
+                              "total_founder_review_queue":  10,
+                              "total_validated_sources":  10,
+                              "total_rejected_sources":  0,
+                              "outreach_allowed":  0,
+                              "promotion_allowed":  0
+                          },
+    "operational_gates":  {
+                              "real_public_sources_only":  true,
+                              "outreach_disabled":  true,
+                              "promotion_disabled":  true,
+                              "founder_review_required":  true,
+                              "placeholders_forbidden":  true,
+                              "synthetic_contacts_forbidden":  true,
+                              "no_auto_promotion":  true,
+                              "no_unverified_outreach":  true
+                          },
+    "verified_sources":  [
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0001",
+                                 "resolved_organization_name":  "California Commission on Peace Officer Standards and Training",
+                                 "resolved_source_url":  "https://post.ca.gov/",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0002",
+                                 "resolved_organization_name":  "Georgia Peace Officer Standards \u0026 Training Council",
+                                 "resolved_source_url":  "https://gapost.org/",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0003",
+                                 "resolved_organization_name":  "Georgia POST Training Standards Division",
+                                 "resolved_source_url":  "https://gapost.org/divisions/training-division/",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0004",
+                                 "resolved_organization_name":  "Oregon Department of Public Safety Standards and Training",
+                                 "resolved_source_url":  "https://www.oregon.gov/dpsst/pages/default.aspx",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0005",
+                                 "resolved_organization_name":  "California POST Basic Training Academies",
+                                 "resolved_source_url":  "https://post.ca.gov/basic-training-academies",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0006",
+                                 "resolved_organization_name":  "California POST Training",
+                                 "resolved_source_url":  "https://post.ca.gov/Training",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0007",
+                                 "resolved_organization_name":  "California POST Training Program Services Bureau",
+                                 "resolved_source_url":  "https://post.ca.gov/Training-Program-Services",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0008",
+                                 "resolved_organization_name":  "Oregon DPSST Academy Operations",
+                                 "resolved_source_url":  "https://www.oregon.gov/dpsst/cj/pages/academyoperationscontacts.aspx",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0009",
+                                 "resolved_organization_name":  "Oregon DPSST Regional Training",
+                                 "resolved_source_url":  "https://www.oregon.gov/dpsst/cj/pages/regionaltraining.aspx",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             },
+                             {
+                                 "verified_source_id":  "BD_VERIFIED_SOURCE_0010",
+                                 "resolved_organization_name":  "Florida Criminal Justice Standards \u0026 Training Commission",
+                                 "resolved_source_url":  "https://www.fdle.state.fl.us/cjstc/commission",
+                                 "verification_status":  "VERIFIED_PUBLIC_SOURCE"
+                             }
+                         ],
+    "next_operational_objective":  "BATCH_107_OFFICIAL_CONTACT_ROUTE_RESOLUTION",
+    "next_batch_targets":  [
+                               "Resolve official contact pages",
+                               "Resolve official training divisions",
+                               "Resolve academy contact portals",
+                               "Resolve public-facing training coordinators",
+                               "Maintain lineage integrity",
+                               "Maintain founder review lock",
+                               "Maintain outreach lock",
+                               "Maintain promotion lock"
+                           ]
+}

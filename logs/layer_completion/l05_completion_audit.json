@@ -1,0 +1,214 @@
+{
+  "layer_id": "L05",
+  "generated_at": "2026-05-08T00:08:48.579Z",
+  "completion_status": "COMPLETE",
+  "gates": {
+    "registry_15_sources": true,
+    "registry_fields_valid": true,
+    "connector_coverage_valid": true,
+    "evidence_lineage_valid": true,
+    "signals_valid": true,
+    "scoring_valid": true,
+    "layer_files_present": true
+  },
+  "counts": {
+    "sources": 15,
+    "evidence": 15,
+    "signals": 15,
+    "score_components": 15,
+    "layer_files": 12
+  },
+  "source_ids": [
+    "L05_SRC_001_SEARCH_TREND_SIGNALS",
+    "L05_SRC_002_SOCIAL_DISCUSSION_SIGNALS",
+    "L05_SRC_003_PUBLIC_REVIEW_ACTIVITY",
+    "L05_SRC_004_WEBSITE_CHANGE_SIGNALS",
+    "L05_SRC_005_JOB_POSTING_BEHAVIOR",
+    "L05_SRC_006_EVENT_ATTENDANCE_SIGNALS",
+    "L05_SRC_007_TRAINING_INTEREST_SIGNALS",
+    "L05_SRC_008_PROCUREMENT_INTENT_SIGNALS",
+    "L05_SRC_009_PUBLIC_COMPLAINT_SIGNALS",
+    "L05_SRC_010_COMMUNITY_PRESSURE_SIGNALS",
+    "L05_SRC_011_NEWS_MENTION_ACTIVITY",
+    "L05_SRC_012_FORUM_DISCUSSION_SIGNALS",
+    "L05_SRC_013_VENDOR_RESEARCH_SIGNALS",
+    "L05_SRC_014_POLICY_REACTION_SIGNALS",
+    "L05_SRC_015_DEMAND_SURGE_INDICATORS"
+  ],
+  "connector_coverage": [
+    {
+      "source_id": "L05_SRC_001_SEARCH_TREND_SIGNALS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_002_SOCIAL_DISCUSSION_SIGNALS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_003_PUBLIC_REVIEW_ACTIVITY",
+      "connector_files": [
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_004_WEBSITE_CHANGE_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_005_JOB_POSTING_BEHAVIOR",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_006_EVENT_ATTENDANCE_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_007_TRAINING_INTEREST_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_008_PROCUREMENT_INTENT_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_009_PUBLIC_COMPLAINT_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_010_COMMUNITY_PRESSURE_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_011_NEWS_MENTION_ACTIVITY",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_012_FORUM_DISCUSSION_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_013_VENDOR_RESEARCH_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_014_POLICY_REACTION_SIGNALS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L05_SRC_015_DEMAND_SURGE_INDICATORS",
+      "connector_files": [
+        "scripts/intelligence/complete_l05_source_registry.js",
+        "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    }
+  ],
+  "failures": {
+    "invalid_sources": [],
+    "missing_connector_coverage": [],
+    "invalid_evidence": [],
+    "invalid_signals": [],
+    "invalid_score_components": []
+  },
+  "deterministic_hashes": [
+    {
+      "file": "public/data/intelligence/audit/L05_budget_integrity_audit.json",
+      "sha256": "ff01c8e354530754c7e8f432406f2f6b6ea506f3a89895b7b6f0f1b5784963b2"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L05_behavioral_normalization.registry.json",
+      "sha256": "46641b344d9616a964917f35f9c2681d2695a2e91d1bca36765d3c8a02e6b0d5"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L05_budget_normalization.registry.json",
+      "sha256": "87f7ee6e7133a735a9463737bb5c467860d937cb70eee89626220d891809bfc5"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L05_BEHAVIORAL_DEMAND_SIGNAL_INTELLIGENCE.normalized.json",
+      "sha256": "56636588e0718529aac79baa3ae7db8c0464900ab4cdb3af5adc9b213cba3835"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L05_BUDGET_AND_FUNDING.normalized.json",
+      "sha256": "208075e48ba8462429e482807f8e6a197d229860dbf75cef10878e09874917c3"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L05_behavioral_adapter_manifest.json",
+      "sha256": "75708cf20029b4a8253ad6e3d939edc1a8782ff18f5471ae983c0af50ee0e82b"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L05_behavioral_connector_coverage_manifest.json",
+      "sha256": "649cf13f18123186a93925066952df1e26b0c696ebce58f50b1fb232f54543d3"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L05_budget_adapter_manifest.json",
+      "sha256": "72c03cd8c1daa89d3c80e7d0c7d7b3707c3a7374916983cda806bfd66241743a"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L05_behavioral_scoring.registry.json",
+      "sha256": "9c1798af72b890d0dcac80ff3cf43bba00ff7deaf72e553ec67cf8f33f465f44"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L05_budget_scoring.registry.json",
+      "sha256": "e746bfd7c03ed73f8b4fdea2e7f5af264cee4716ef69d81d0917a3107fc93128"
+    },
+    {
+      "file": "public/data/intelligence/sources/L05_BEHAVIORAL_DEMAND_SIGNAL_INTELLIGENCE.sources.json",
+      "sha256": "13dfa4e28c69fa7698bd84ffe18479ac853e6b6ffada8e33d1b2d84c89c97797"
+    },
+    {
+      "file": "public/data/intelligence/sources/L05_BUDGET_AND_FUNDING.sources.json",
+      "sha256": "b5655758ad9f4971c50e800e675611a508d6d7aba1464a5ff8215dfc83b59a52"
+    }
+  ]
+}

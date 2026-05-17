@@ -1,0 +1,111 @@
+{
+  "version": "black_dragon_books_v2_final_readiness_audit_v1",
+  "generated_at": "2026-05-09T02:19:52.608Z",
+  "file_checks": [
+    {
+      "key": "profile",
+      "file": "public/data/clients/black_dragon/books/black_dragon_books_profile.json",
+      "exists": true
+    },
+    {
+      "key": "schema",
+      "file": "public/data/clients/black_dragon/books/schemas/book_target_schema.v1.json",
+      "exists": true
+    },
+    {
+      "key": "scoringConfig",
+      "file": "public/data/clients/black_dragon/books/schemas/book_propagation_scoring_config.v1.json",
+      "exists": true
+    },
+    {
+      "key": "operationalTargets",
+      "file": "public/data/clients/black_dragon/books/operational/black_dragon_books_operational_targets.v1.json",
+      "exists": true
+    },
+    {
+      "key": "hotwarmIndex",
+      "file": "public/data/clients/black_dragon/books/operational/black_dragon_books_hotwarm_index.v1.json",
+      "exists": true
+    },
+    {
+      "key": "outreachMessages",
+      "file": "public/data/clients/black_dragon/books/outreach/generated/book_outreach_messages.v1.json",
+      "exists": true
+    },
+    {
+      "key": "hotOutreachShortlist",
+      "file": "public/data/clients/black_dragon/books/outreach/generated/book_hot_outreach_shortlist.v1.json",
+      "exists": true
+    },
+    {
+      "key": "trackingSnapshot",
+      "file": "public/data/clients/black_dragon/books/tracking/snapshots/book_outreach_tracking_snapshot.v1.json",
+      "exists": true
+    },
+    {
+      "key": "clientView",
+      "file": "public/data/clients/black_dragon/books/client_view/client_book_targets_view.v1.json",
+      "exists": true
+    },
+    {
+      "key": "kpis",
+      "file": "public/data/clients/black_dragon/books/kpi/book_operational_kpis.v1.json",
+      "exists": true
+    },
+    {
+      "key": "propagationChains",
+      "file": "public/data/clients/black_dragon/books/propagation/chains/book_propagation_chains.v1.json",
+      "exists": true
+    },
+    {
+      "key": "propagationSnapshot",
+      "file": "public/data/clients/black_dragon/books/propagation/snapshots/book_propagation_snapshot.v1.json",
+      "exists": true
+    }
+  ],
+  "totals": {
+    "operational_targets": 4,
+    "hot_targets": 2,
+    "warm_targets": 0,
+    "review_targets": 2,
+    "outreach_messages": 4,
+    "hot_outreach_shortlist": 2,
+    "tracking_records": 4,
+    "client_view_targets": 4,
+    "kpi_targets": 4,
+    "propagation_chains": 4,
+    "propagation_snapshot_chains": 4
+  },
+  "readiness_gates": {
+    "profile_exists": true,
+    "schemas_exist": true,
+    "operational_targets_exist": true,
+    "hotwarm_index_exists": true,
+    "outreach_messages_exist": true,
+    "tracking_exists": true,
+    "client_view_exists": true,
+    "kpi_layer_exists": true,
+    "propagation_chains_exist": true
+  },
+  "integrity": {
+    "missing_operational_entity_ids": 0,
+    "missing_operational_status": 0,
+    "missing_propagation_scores": 0,
+    "missing_why_target": 0,
+    "missing_outreach_messages_for_targets": 0,
+    "missing_tracking_records_for_targets": 0,
+    "missing_client_view_records_for_targets": 0,
+    "missing_propagation_chains_for_targets": 0,
+    "orphan_messages": 0,
+    "invalid_client_ready": 0
+  },
+  "business_logic": {
+    "can_identify_influential_mc_leaders": true,
+    "can_explain_why_target_matters": true,
+    "can_generate_book_outreach": true,
+    "can_track_outreach_status": true,
+    "can_estimate_downstream_purchase_potential": true,
+    "can_track_propagation_chains": true
+  },
+  "pass": true
+}

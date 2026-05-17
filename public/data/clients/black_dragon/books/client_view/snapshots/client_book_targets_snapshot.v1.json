@@ -1,0 +1,44 @@
+{
+  "version": "client_book_targets_snapshot_v1",
+  "generated_at": "2026-05-09T02:15:13.169Z",
+  "totals": {
+    "total_targets": 4,
+    "hot": 2,
+    "warm": 0,
+    "review": 2
+  },
+  "top_targets": [
+    {
+      "organization_name": "Sample Motorcycle Council",
+      "target_name": "UNKNOWN_LEADER",
+      "role": "CHAIRMAN",
+      "propagation_score": 100,
+      "outreach_status": "NOT_CONTACTED",
+      "next_action": "GENERATE_AND_SEND_OUTREACH"
+    },
+    {
+      "organization_name": "Sample Motorcycle Club",
+      "target_name": "UNKNOWN_LEADER",
+      "role": "PRESIDENT",
+      "propagation_score": 92,
+      "outreach_status": "NOT_CONTACTED",
+      "next_action": "GENERATE_AND_SEND_OUTREACH"
+    },
+    {
+      "organization_name": "Sample Motorcycle Ministry",
+      "target_name": "UNKNOWN_LEADER",
+      "role": "CHAPLAIN",
+      "propagation_score": 62,
+      "outreach_status": "NOT_CONTACTED",
+      "next_action": "GENERATE_AND_SEND_OUTREACH"
+    },
+    {
+      "organization_name": "Example Public Motorcycle Organization",
+      "target_name": "UNKNOWN_LEADER",
+      "role": "PRESIDENT",
+      "propagation_score": 0,
+      "outreach_status": "NOT_CONTACTED",
+      "next_action": "GENERATE_AND_SEND_OUTREACH"
+    }
+  ]
+}

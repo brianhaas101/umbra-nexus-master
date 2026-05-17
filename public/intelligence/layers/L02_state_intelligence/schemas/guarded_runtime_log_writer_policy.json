@@ -1,0 +1,16 @@
+﻿{
+  "policy_id": "L02_guarded_runtime_log_writer_policy",
+  "version": "1.0.0",
+  "rules": {
+    "log_write_requires_verified_runtime_success": true,
+    "runtime_success_definition": {
+      "exit_code": 0,
+      "required_token_present": true,
+      "stderr_empty": true,
+      "no_failure_markers": true
+    },
+    "pass_log_after_failed_runtime_forbidden": true,
+    "manual_pass_log_forbidden": true,
+    "client_paths_touched": false
+  }
+}

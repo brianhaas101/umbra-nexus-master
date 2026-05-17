@@ -1,0 +1,57 @@
+{
+  "city_id": "city_e9054367",
+  "canonical_name": "Aurora, CO",
+  "state": "CO",
+  "placeholder_allowed": false,
+  "synthetic_allowed": false,
+  "production_status": "hydrated",
+  "source_count": 9,
+  "sources": [
+    {
+      "layer": "gis",
+      "url": "https://gis.auroragov.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "open_data",
+      "url": "https://www.auroragov.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "police",
+      "url": "https://www.auroragov.org/residents/public_safety/police",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "fire",
+      "url": "https://www.auroragov.org/residents/public_safety/fire_rescue",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "parks",
+      "url": "https://www.auroragov.org/things_to_do/parks__open_space___trails",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "permits",
+      "url": "https://www.auroragov.org/business_services/development_center",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "public_works",
+      "url": "https://www.auroragov.org/cms/one.aspx?pageId=16224673",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "schools",
+      "url": "https://www.aurorak12.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "council",
+      "url": "https://www.auroragov.org/city_hall/mayor___city_council",
+      "provenance": "verified_profile_source"
+    }
+  ],
+  "generated_utc": "2026-05-12T07:22:05.8167740Z"
+}

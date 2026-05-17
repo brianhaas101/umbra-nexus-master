@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_batch_151_southern_california_federation_audit_v1",
+  "generated_at": "2026-05-10T22:09:46.044Z",
+  "batch": "151_SOUTHERN_CALIFORNIA_FEDERATION_AUDIT",
+  "federation_status": "MULTI_CITY_OPERATIONAL",
+  "counts": {
+    "operational_cities": 3,
+    "total_runtime_entities": 88,
+    "overlap_entities": 5,
+    "federation_paths": 5,
+    "regional_scores": 88
+  },
+  "gates": {
+    "three_operational_cities": true,
+    "federation_entity_pool_exists": true,
+    "overlap_engine_active": true,
+    "propagation_paths_exist": true,
+    "regional_scores_exist": true,
+    "no_auto_contact": true,
+    "no_runtime_mutation": true
+  },
+  "interpretation": {
+    "corridor_status": "Southern California federation operational.",
+    "operational_meaning": "Black Dragon now operates on a regional intelligence corridor rather than isolated city runtimes.",
+    "infrastructure_state": "Federated propagation, overlap analysis, and regional ranking active."
+  },
+  "next_phase": "BATCH_152_CORRIDOR_AUTONOMOUS_REFRESH_ORCHESTRATION",
+  "status": "PASS"
+}

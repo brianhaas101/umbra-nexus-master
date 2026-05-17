@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_328b326a",
+    "name":  "Colorado Springs, CO",
+    "center_lat":  38.8339,
+    "center_lon":  -104.8214,
+    "bounds":  {
+                   "north":  39.1167,
+                   "south":  38.574,
+                   "east":  -104.5362,
+                   "west":  -105.1067
+               },
+    "width_m":  49000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_328b326a/base.png"
+}

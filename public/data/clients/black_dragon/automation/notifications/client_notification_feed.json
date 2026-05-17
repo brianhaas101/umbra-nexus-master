@@ -1,0 +1,31 @@
+{
+  "version": "black_dragon_automation_notification_feed_v1",
+  "generated_at": "2026-05-10T20:03:00.725Z",
+  "client_id": "black_dragon_omg_cert_v1",
+  "notifications": [
+    {
+      "notification_id": "BD_NOTIFY_0001",
+      "type": "NEW_CANDIDATES",
+      "title": "5 new Long Beach candidate targets discovered",
+      "severity": "INFO",
+      "client_visible": true,
+      "requires_action": false
+    },
+    {
+      "notification_id": "BD_NOTIFY_0002",
+      "type": "ROUTE_REVALIDATION",
+      "title": "10 contact routes are due for revalidation",
+      "severity": "REVIEW",
+      "client_visible": true,
+      "requires_action": false
+    },
+    {
+      "notification_id": "BD_NOTIFY_0003",
+      "type": "AUTOMATION_LOCK",
+      "title": "Automated outreach remains disabled",
+      "severity": "LOCKED",
+      "client_visible": true,
+      "requires_action": false
+    }
+  ]
+}

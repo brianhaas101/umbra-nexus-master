@@ -1,0 +1,17 @@
+{
+  "version": "black_dragon_books_batch_041_node_picking_audit_v1",
+  "generated_at": "2026-05-09T18:00:07.072Z",
+  "renderer_integrity": {
+    "batch_041_loaded": true,
+    "raycaster_present": true,
+    "pointer_present": true,
+    "click_binding_present": true,
+    "hover_binding_present": true,
+    "sync_selection_present": true,
+    "selection_event_present": true,
+    "selected_global_present": true,
+    "select_by_entity_present": true,
+    "emphasis_present": true
+  },
+  "pass": true
+}

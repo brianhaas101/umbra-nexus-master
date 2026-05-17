@@ -1,0 +1,13 @@
+﻿{
+    "layer_id":  "layer_01",
+    "contract":  "provenance_intake",
+    "status":  "complete_locked",
+    "accepts_unsourced_data":  false,
+    "accepts_synthetic_fillers":  false,
+    "accepts_inferred_contacts":  false,
+    "accepts_runtime_promotion":  false,
+    "validates_url":  true,
+    "validates_timestamp":  true,
+    "emits_deterministic_record_id":  true,
+    "modifies_black_dragon":  false
+}

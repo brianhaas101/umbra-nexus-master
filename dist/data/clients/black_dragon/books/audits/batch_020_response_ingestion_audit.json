@@ -1,0 +1,30 @@
+{
+  "version": "black_dragon_books_batch_020_response_ingestion_audit_v1",
+  "generated_at": "2026-05-09T02:46:09.375Z",
+  "totals": {
+    "raw_responses": 1,
+    "classified_responses": 1,
+    "unmatched_queue_items": 1,
+    "engagement": 1,
+    "interest": 0,
+    "endorsement": 0,
+    "bulk_order": 0,
+    "conversion": 0,
+    "negative_fit": 0,
+    "no_response": 0
+  },
+  "integrity": {
+    "missing_response_ids": 0,
+    "missing_entity_ids": 0,
+    "missing_classification": 0,
+    "invalid_propagation_confidence": 0,
+    "missing_next_action": 0
+  },
+  "operational_state": {
+    "raw_response_template_exists": true,
+    "classified_response_dataset_exists": true,
+    "feedback_snapshot_exists": true,
+    "response_ingestion_pipeline_active": true
+  },
+  "pass": true
+}

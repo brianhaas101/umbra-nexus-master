@@ -1,0 +1,57 @@
+{
+  "city_id": "city_0b8ff86c",
+  "canonical_name": "Duluth, MN",
+  "state": "MN",
+  "placeholder_allowed": false,
+  "synthetic_allowed": false,
+  "production_status": "hydrated",
+  "source_count": 9,
+  "sources": [
+    {
+      "layer": "gis",
+      "url": "https://duluthmn.gov/gis/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "open_data",
+      "url": "https://duluthmn.gov/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "police",
+      "url": "https://duluthmn.gov/police/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "fire",
+      "url": "https://duluthmn.gov/fire/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "parks",
+      "url": "https://duluthmn.gov/parks/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "permits",
+      "url": "https://duluthmn.gov/construction-services-inspections/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "public_works",
+      "url": "https://duluthmn.gov/public-works-utilities/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "schools",
+      "url": "https://www.isd709.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "council",
+      "url": "https://duluthmn.gov/city-council/",
+      "provenance": "verified_profile_source"
+    }
+  ],
+  "generated_utc": "2026-05-12T07:22:05.8625039Z"
+}

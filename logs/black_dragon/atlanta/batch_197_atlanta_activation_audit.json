@@ -1,0 +1,57 @@
+{
+    "batch":  "197",
+    "version":  "black_dragon_georgia_atlanta_single_city_activation_v1",
+    "generated_at":  "2026-05-11T02:07:55.3797167Z",
+    "active_target":  {
+                          "state":  "Georgia",
+                          "state_code":  "GA",
+                          "city":  "Atlanta",
+                          "city_id":  "city_atlanta_ga"
+                      },
+    "future_declared_targets_not_built":  [
+                                              "Texas city pending explicit city selection",
+                                              "Louisiana / New Orleans pending later batch"
+                                          ],
+    "required_artifacts":  {
+                               "required_count":  7,
+                               "missing_count":  4,
+                               "missing":  [
+                                               ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\quarantined_entities.json",
+                                               ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\manual_review_pipeline.json",
+                                               ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\contact_readiness_scores.json",
+                                               ".\\public\\data\\clients\\black_dragon\\runtime\\atlanta\\entities_runtime.json"
+                                           ]
+                           },
+    "json_validation":  {
+                            "files_checked":  3,
+                            "invalid_files":  0,
+                            "results":  [
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\states\\georgia\\single_city_runtime_policy.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\atlanta_operational_manifest.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\atlanta\\runtime_shell.json",
+                                                "valid_json":  true
+                                            }
+                                        ]
+                        },
+    "premature_target_build_check":  {
+                                         "texas_or_louisiana_files_detected":  1,
+                                         "files":  [
+                                                       ".\\public\\data\\clients\\black_dragon\\authentication\\source_discovery\\queues\\region_Texas_source_discovery_queue.v1.json"
+                                                   ]
+                                     },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "FAIL"
+}

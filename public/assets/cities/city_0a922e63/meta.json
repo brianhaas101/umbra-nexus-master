@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_0a922e63",
+    "name":  "Houston, TX",
+    "center_lat":  29.7604,
+    "center_lon":  -95.3698,
+    "bounds":  {
+                   "north":  30.0432,
+                   "south":  29.5005,
+                   "east":  -95.0846,
+                   "west":  -95.6551
+               },
+    "width_m":  55000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_0a922e63/base.png"
+}

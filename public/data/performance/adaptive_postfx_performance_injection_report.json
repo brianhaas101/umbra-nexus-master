@@ -1,0 +1,16 @@
+{
+  "version": "adaptive_postfx_performance_injection_report_v1",
+  "generated_at": "2026-05-09T21:18:49.098Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_adaptive_postfx_performance": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_adaptive_postfx_performance": true
+    }
+  ]
+}

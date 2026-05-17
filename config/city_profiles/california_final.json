@@ -1,0 +1,38 @@
+﻿[
+  {
+    "city": "Long Beach",
+    "gis": "https://longbeachca.maps.arcgis.com/",
+    "open_data": "https://data.longbeach.gov/",
+    "police": "https://www.longbeach.gov/police/",
+    "fire": "https://www.longbeach.gov/fire/",
+    "parks": "https://www.longbeach.gov/park/",
+    "permits": "https://www.longbeach.gov/lbcd/",
+    "public_works": "https://www.longbeach.gov/pw/",
+    "schools": "https://www.lbschools.net/",
+    "council": "https://www.longbeach.gov/citycouncil/"
+  },
+  {
+    "city": "Oakland",
+    "gis": "https://oaklandca.maps.arcgis.com/",
+    "open_data": "https://data.oaklandca.gov/",
+    "police": "https://www.oaklandca.gov/departments/police",
+    "fire": "https://www.oaklandca.gov/departments/fire",
+    "parks": "https://www.oaklandca.gov/departments/parks-recreation-youth-development",
+    "permits": "https://www.oaklandca.gov/departments/planning-and-building",
+    "public_works": "https://www.oaklandca.gov/departments/transportation",
+    "schools": "https://www.ousd.org/",
+    "council": "https://www.oaklandca.gov/departments/city-council"
+  },
+  {
+    "city": "San Francisco",
+    "gis": "https://data.sfgov.org/",
+    "open_data": "https://data.sfgov.org/",
+    "police": "https://www.sanfranciscopolice.org/",
+    "fire": "https://sf-fire.org/",
+    "parks": "https://sfrecpark.org/",
+    "permits": "https://sfplanning.org/",
+    "public_works": "https://sfpublicworks.org/",
+    "schools": "https://www.sfusd.edu/",
+    "council": "https://sfbos.org/"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "version": "umbra_session_security_manifest_v1",
+
+  "required_script": "public/globe/security/session_recovery_guard.js",
+
+  "required_global": "window.UmbraSessionSecurity",
+
+  "required_functions": [
+    "restoreSession",
+    "validateSession",
+    "saveSession",
+    "loadSession",
+    "clearSession",
+    "getDebugState"
+  ],
+
+  "hard_requirements": {
+    "client_sessions_restore_to_client_scope": true,
+    "client_sessions_cannot_restore_global_scope": true,
+    "stale_sessions_reset_to_safe_runtime": true,
+    "session_debug_available": true
+  }
+}

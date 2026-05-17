@@ -1,0 +1,35 @@
+{
+  "queue_id": "TX-VERIFY-002",
+  "agency_name": "Dallas Police Academy",
+  "city": "Dallas",
+  "state": "TX",
+  "country": "US",
+  "verified_contact": {
+    "name": "Earnest Merritt",
+    "title": "Academy Contact",
+    "department": "Dallas Police Academy",
+    "email": "e.merritt@dallaspolice.gov",
+    "phone": "214-671-3654",
+    "extension": "",
+    "source_url": "https://www.tcole.texas.gov/node/2228",
+    "secondary_source_url": "https://www.dallaspolice.net/join-dpd/training-academy",
+    "verified_at": "2026-05-05",
+    "verified_by": "manual_official_source_review"
+  },
+  "contact_path": {
+    "method": "DIRECT_PHONE",
+    "primary_route": "Call Dallas Police Academy listed TCOLE contact Earnest Merritt.",
+    "fallback_phone": "214-671-4409",
+    "fallback_route": "Use Dallas Police Personnel Division contact path for academy/recruit training routing."
+  },
+  "validation": {
+    "email_valid": true,
+    "phone_valid": true,
+    "role_valid": true,
+    "source_verified": true,
+    "meets_strict_contact_rules": true
+  },
+  "status": "READY_TO_CALL",
+  "contact_priority": "HIGH",
+  "notes": "Official TCOLE Dallas Police Academy record verifies phone, email, contact name, and academy role."
+}

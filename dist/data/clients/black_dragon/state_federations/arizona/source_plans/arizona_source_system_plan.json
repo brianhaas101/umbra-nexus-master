@@ -1,0 +1,59 @@
+{
+  "version": "black_dragon_arizona_source_system_plan_v1",
+  "generated_at": "2026-05-10T22:49:23.978Z",
+  "state": "Arizona",
+  "source_categories": [
+    {
+      "category": "DEALERSHIP_NETWORKS",
+      "target_sources": [
+        "Harley-Davidson dealer systems",
+        "independent motorcycle dealers",
+        "used motorcycle dealer groups",
+        "dealer event calendars"
+      ]
+    },
+    {
+      "category": "EVENT_PROPAGATION",
+      "target_sources": [
+        "Arizona motorcycle rallies",
+        "swap meets",
+        "bike nights",
+        "regional event calendars",
+        "charity rides"
+      ]
+    },
+    {
+      "category": "MEDIA_AND_COMMUNITY",
+      "target_sources": [
+        "motorcycle podcasts",
+        "Arizona rider groups",
+        "social riding clubs",
+        "local motorcycle publications"
+      ]
+    },
+    {
+      "category": "VETERAN_AND_NONPROFIT",
+      "target_sources": [
+        "veteran rider groups",
+        "LEMC overlap",
+        "motorcycle nonprofits",
+        "charity organizations"
+      ]
+    },
+    {
+      "category": "CROSS_STATE_PROPAGATION",
+      "target_sources": [
+        "California-Arizona travel routes",
+        "regional event overlap",
+        "shared sponsorship ecosystems",
+        "touring corridors"
+      ]
+    }
+  ],
+  "ingestion_rules": {
+    "all_entities_require_validation": true,
+    "all_contact_routes_require_review": true,
+    "no_auto_contact": true,
+    "quarantine_before_runtime": true
+  }
+}

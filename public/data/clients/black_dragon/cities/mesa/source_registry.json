@@ -1,0 +1,25 @@
+{
+    "version":  "black_dragon_mesa_source_registry_v1",
+    "generated_at":  "2026-05-11T04:20:50.5472006Z",
+    "city_scope":  {
+                       "city":  "Mesa",
+                       "state":  "Arizona",
+                       "state_code":  "AZ",
+                       "city_id":  "city_mesa_az",
+                       "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa",
+                       "city_specific_legacy_assets_preserved":  true
+                   },
+    "approved_legacy_sources":  {
+                                    "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\audit\\batch_163_mesa_template_initialization_audit.json",
+                                    "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\dossiers\\mesa_runtime_dossiers.json",
+                                    "runtime_summary":  null,
+                                    "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\map_nodes\\mesa_runtime_map_nodes.json",
+                                    "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\merged\\mesa_merged_city_entities.json"
+                                },
+    "source_policy":  {
+                          "runtime_promotion_allowed":  false,
+                          "manual_review_required":  true,
+                          "quarantine_required":  true,
+                          "synthetic_entity_creation_allowed":  false
+                      }
+}

@@ -1,0 +1,16 @@
+{
+  "version": "movement_performance_injection_report_v1",
+  "generated_at": "2026-05-09T21:27:36.303Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_movement_performance_mode": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_movement_performance_mode": true
+    }
+  ]
+}

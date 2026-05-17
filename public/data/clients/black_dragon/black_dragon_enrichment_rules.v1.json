@@ -1,0 +1,231 @@
+{
+  "client_id": "black_dragon_omg_cert_v1",
+  "version": "v1",
+  "purpose": "Defines how Black Dragon raw leads are enriched into score-ready intelligence records.",
+
+  "enrichment_order": [
+    "preserve_source_truth",
+    "normalize_identity",
+    "normalize_geography",
+    "infer_agency_type",
+    "infer_agency_size",
+    "extract_signals",
+    "generate_contact_strategy",
+    "generate_outreach_angle",
+    "attach_trace"
+  ],
+
+  "source_truth_rules": {
+    "never_overwrite_verified_fields": true,
+    "preserve_original_source_url": true,
+    "preserve_original_source_text": true,
+    "store_inferred_values_in_trace": true
+  },
+
+  "geo_rules": {
+    "required_fields": [
+      "city",
+      "city_id",
+      "state",
+      "country",
+      "lat",
+      "lon"
+    ],
+    "fallback": "Use state/city map only when lead does not already provide lat/lon.",
+    "invalid_if_missing": [
+      "city_id",
+      "lat",
+      "lon"
+    ]
+  },
+
+  "agency_type_rules": {
+    "gang_unit": [
+      "gang unit",
+      "gang enforcement",
+      "gang task force"
+    ],
+    "task_force": [
+      "task force",
+      "multi-agency",
+      "joint enforcement",
+      "safe streets"
+    ],
+    "training_authority": [
+      "POST",
+      "academy",
+      "training division",
+      "training coordinator",
+      "in-service training",
+      "reimbursable training"
+    ],
+    "state_law_enforcement": [
+      "department of public safety",
+      "state police",
+      "highway patrol"
+    ],
+    "sheriff_office": [
+      "sheriff",
+      "county"
+    ],
+    "federal_law_enforcement": [
+      "FBI",
+      "DOJ",
+      "ATF",
+      "DEA"
+    ],
+    "association_channel": [
+      "IACP",
+      "association",
+      "chiefs of police",
+      "sheriff association"
+    ]
+  },
+
+  "agency_size_rules": {
+    "federal_or_statewide": 1000,
+    "large_metro_police": 1000,
+    "county_sheriff": 300,
+    "task_force_or_gang_unit": 300,
+    "training_authority": 100,
+    "association": 100,
+    "unknown_default": 50
+  },
+
+  "signal_extraction_rules": {
+    "recent_omg_incident": [
+      "outlaw motorcycle",
+      "OMG",
+      "Bandidos",
+      "Hells Angels",
+      "Outlaws Motorcycle",
+      "RICO",
+      "racketeering",
+      "organized crime crackdown",
+      "gang indictment",
+      "federal charges"
+    ],
+    "task_force_participation": [
+      "task force",
+      "multi-agency",
+      "federal partners",
+      "safe streets",
+      "joint enforcement",
+      "violent crime initiative"
+    ],
+    "grant_funding": [
+      "grant",
+      "funding",
+      "COPS Office",
+      "Project Safe Neighborhoods"
+    ],
+    "new_or_expanded_unit": [
+      "unit",
+      "bureau",
+      "division",
+      "specialized",
+      "organized crime",
+      "gang enforcement"
+    ],
+    "training_demand": [
+      "mandatory training",
+      "certification requirement",
+      "training program expansion",
+      "continuing education requirement",
+      "reimbursable training"
+    ],
+    "law_enforcement_training_authority": [
+      "POST commission",
+      "training division",
+      "academy director",
+      "training coordinator",
+      "training commander",
+      "in-service training"
+    ],
+    "gang_unit_match": [
+      "gang unit",
+      "gang enforcement",
+      "gang task force",
+      "gang violence"
+    ],
+    "decision_maker_match": [
+      "commander",
+      "coordinator",
+      "program manager",
+      "training lead",
+      "director"
+    ],
+    "association_channel": [
+      "IACP",
+      "association"
+    ],
+    "institutional_buyer": [
+      "POST",
+      "academy",
+      "commission",
+      "library",
+      "criminal justice program",
+      "training videos",
+      "reimbursable"
+    ]
+  },
+
+  "contact_strategy_rules": {
+    "direct_contact_preferred": [
+      "training division",
+      "academy",
+      "command staff",
+      "professional standards",
+      "procurement",
+      "program manager"
+    ],
+    "fallback_contact_paths": [
+      "official agency contact page",
+      "training division page",
+      "command staff directory",
+      "procurement portal",
+      "public information office"
+    ],
+    "no_contact_path": "Soft research gap only. Must not hard reject an agency-level lead."
+  },
+
+  "outreach_angle_rules": {
+    "recent_omg_incident": "Reference recent OMG or gang enforcement pressure and position the course as fast, specialized, online training.",
+    "training_authority": "Frame the certification as a scalable online asset for POST, academy, in-service, or professional development requirements.",
+    "task_force": "Position the course as standardized training for multi-agency task force members handling gang, organized crime, or violent crime investigations.",
+    "association_channel": "Position as a training partnership, conference education, or member-resource opportunity.",
+    "default": "Lead with specialized OMG knowledge, low-friction online delivery, and relevance to law enforcement training needs."
+  },
+
+  "hard_exclusions": [
+    "private individuals",
+    "civilian general public",
+    "non-US entities",
+    "motorcycle clubs",
+    "biker associations",
+    "private security companies without law-enforcement-adjacent training role"
+  ],
+
+  "validation_requirements": {
+    "required_before_scoring": [
+      "entity_id",
+      "agency_name",
+      "agency_type",
+      "state",
+      "city_id",
+      "lat",
+      "lon",
+      "source_url",
+      "source_text",
+      "signals",
+      "confidence"
+    ],
+    "required_before_client_display": [
+      "tier",
+      "umbraScore",
+      "_scoreTrace.blackDragon",
+      "recommended_outreach_angle",
+      "contact_url"
+    ]
+  }
+}

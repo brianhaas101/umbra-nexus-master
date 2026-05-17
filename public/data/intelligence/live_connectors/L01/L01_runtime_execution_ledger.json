@@ -1,0 +1,193 @@
+{
+  "version": "nexus_L01_runtime_execution_ledger_v1",
+  "generated_at": "2026-05-08T01:41:51.891Z",
+  "layer_id": "L01",
+  "execution_count": 5,
+  "executions": [
+    {
+      "execution_id": "EXEC_L01_SRC_001_USA_SPENDING_1778204511891",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_001_USA_SPENDING",
+      "adapter_id": "L01_FETCH_ADAPTER_001",
+      "execution_state": "READY_FOR_LIVE_FETCH",
+      "execution_mode": "deterministic_controlled",
+      "runtime_status": "READY",
+      "fetch_metadata": {
+        "method": "GET",
+        "base_url": "https://api.usaspending.gov",
+        "expected_format": "json",
+        "timeout_ms": 15000
+      },
+      "validation_rules": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "audit_requirements": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      },
+      "execution_timestamps": {
+        "created_at": "2026-05-08T01:41:51.891Z",
+        "started_at": null,
+        "completed_at": null
+      },
+      "lineage": {
+        "parser_id": "L01_PARSER_001",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "execution_hash": "217b8aa8dc6c541c8ca5cfac08d2ab0957901be21117637bd48118727da25ee8"
+    },
+    {
+      "execution_id": "EXEC_L01_SRC_002_SAM_GOV_1778204511891",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "adapter_id": "L01_FETCH_ADAPTER_002",
+      "execution_state": "READY_FOR_LIVE_FETCH",
+      "execution_mode": "deterministic_controlled",
+      "runtime_status": "READY",
+      "fetch_metadata": {
+        "method": "GET",
+        "base_url": "https://sam.gov",
+        "expected_format": "json",
+        "timeout_ms": 15000
+      },
+      "validation_rules": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "audit_requirements": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      },
+      "execution_timestamps": {
+        "created_at": "2026-05-08T01:41:51.891Z",
+        "started_at": null,
+        "completed_at": null
+      },
+      "lineage": {
+        "parser_id": "L01_PARSER_002",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "execution_hash": "6f0b922b3d51dab6b8774e51a6811e950d5cd67bce9e15d2b6d0f7b1c2486207"
+    },
+    {
+      "execution_id": "EXEC_L01_SRC_003_GRANTS_GOV_1778204511891",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_003_GRANTS_GOV",
+      "adapter_id": "L01_FETCH_ADAPTER_003",
+      "execution_state": "READY_FOR_LIVE_FETCH",
+      "execution_mode": "deterministic_controlled",
+      "runtime_status": "READY",
+      "fetch_metadata": {
+        "method": "GET",
+        "base_url": "https://www.grants.gov",
+        "expected_format": "xml",
+        "timeout_ms": 15000
+      },
+      "validation_rules": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "audit_requirements": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      },
+      "execution_timestamps": {
+        "created_at": "2026-05-08T01:41:51.891Z",
+        "started_at": null,
+        "completed_at": null
+      },
+      "lineage": {
+        "parser_id": "L01_PARSER_003",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "execution_hash": "64de012d3c4d7e2da50db8a429f95aebe9975dcff8e23d8f1073e261b0b5c0e9"
+    },
+    {
+      "execution_id": "EXEC_L01_SRC_004_DOJ_GRANT_PROGRAMS_1778204511891",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "adapter_id": "L01_FETCH_ADAPTER_004",
+      "execution_state": "READY_FOR_LIVE_FETCH",
+      "execution_mode": "deterministic_controlled",
+      "runtime_status": "READY",
+      "fetch_metadata": {
+        "method": "GET",
+        "base_url": "https://www.justice.gov",
+        "expected_format": "html",
+        "timeout_ms": 15000
+      },
+      "validation_rules": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "audit_requirements": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      },
+      "execution_timestamps": {
+        "created_at": "2026-05-08T01:41:51.891Z",
+        "started_at": null,
+        "completed_at": null
+      },
+      "lineage": {
+        "parser_id": "L01_PARSER_004",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "execution_hash": "fa6a41ffad721fae778153084773c23bc3013807adb99a7e51160e314ecd4d0b"
+    },
+    {
+      "execution_id": "EXEC_L01_SRC_005_DHS_GRANT_PROGRAMS_1778204511891",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "adapter_id": "L01_FETCH_ADAPTER_005",
+      "execution_state": "READY_FOR_LIVE_FETCH",
+      "execution_mode": "deterministic_controlled",
+      "runtime_status": "READY",
+      "fetch_metadata": {
+        "method": "GET",
+        "base_url": "https://www.dhs.gov",
+        "expected_format": "html",
+        "timeout_ms": 15000
+      },
+      "validation_rules": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "audit_requirements": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      },
+      "execution_timestamps": {
+        "created_at": "2026-05-08T01:41:51.891Z",
+        "started_at": null,
+        "completed_at": null
+      },
+      "lineage": {
+        "parser_id": "L01_PARSER_005",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "execution_hash": "5fcb48e46ebcd77460bf44b88db2f8ce765fe27b8e62e67d163ff2f4f35eb637"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿{
+    "schema_id":  "layer_07_output_schema",
+    "required":  [
+                     "layer_id",
+                     "record_id",
+                     "retrieved_at",
+                     "freshness_score",
+                     "freshness_class",
+                     "freshness_reasons",
+                     "audit_timestamp"
+                 ],
+    "freshness_classes":  [
+                              "current_30_days",
+                              "recent_90_days",
+                              "usable_180_days",
+                              "stale_365_days",
+                              "archival_over_365_days",
+                              "rejected_invalid_timestamp"
+                          ]
+}

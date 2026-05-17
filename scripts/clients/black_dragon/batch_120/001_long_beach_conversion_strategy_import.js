@@ -1,0 +1,158 @@
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = process.cwd();
+
+const targets = [
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0001",
+    organization_name: "Born-Free Motorcycle Show",
+    organization_type: "EVENT_MEDIA_NETWORK",
+    recommended_conversion_path: "EVENT_TABLE_AND_VENDOR_INSERTION",
+    recommended_action: "Vendor booth, flyer handouts, QR code distribution, creator networking",
+    conversion_probability: 9.5,
+    audience_fit_score: 9.5,
+    scale_potential: 9.25,
+    book_sale_relevance: 9.5,
+    evidence_note: "High-density biker audience with merch/vendor culture."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0002",
+    organization_name: "Biker Trash Network",
+    organization_type: "DIGITAL_MEDIA",
+    recommended_conversion_path: "DIGITAL_MEDIA_FEATURE",
+    recommended_action: "Feature article, podcast appearance, review copy, social repost",
+    conversion_probability: 9.25,
+    audience_fit_score: 9.25,
+    scale_potential: 9.0,
+    book_sale_relevance: 9.25,
+    evidence_note: "Direct biker audience alignment and strong online reach."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0003",
+    organization_name: "Hot Bike Magazine",
+    organization_type: "DIGITAL_PUBLICATION",
+    recommended_conversion_path: "MAGAZINE_EDITORIAL_PLACEMENT",
+    recommended_action: "Editorial pitch, feature article, review distribution",
+    conversion_probability: 9.0,
+    audience_fit_score: 9.25,
+    scale_potential: 9.0,
+    book_sale_relevance: 9.0,
+    evidence_note: "Large custom-bike readership and strong culture overlap."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0004",
+    organization_name: "Harley-Davidson of Long Beach",
+    organization_type: "DEALERSHIP",
+    recommended_conversion_path: "PHYSICAL_BOOK_PLACEMENT",
+    recommended_action: "Front-counter placement, rider-event integration, flyer distribution",
+    conversion_probability: 8.75,
+    audience_fit_score: 9.0,
+    scale_potential: 8.5,
+    book_sale_relevance: 8.75,
+    evidence_note: "High rider foot traffic and biker culture concentration."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0005",
+    organization_name: "Combat Veterans Motorcycle Association Chapter 33-12",
+    organization_type: "VETERAN_CHAPTER_NETWORK",
+    recommended_conversion_path: "BULK_ORDER_AND_CHAPTER_REFERRAL",
+    recommended_action: "Group orders, chapter-level referrals, leadership outreach",
+    conversion_probability: 9.25,
+    audience_fit_score: 9.5,
+    scale_potential: 8.75,
+    book_sale_relevance: 9.5,
+    evidence_note: "Strong veteran structure and chapter/community influence."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0006",
+    organization_name: "Bike Shed Moto Co",
+    organization_type: "COMMUNITY_VENUE",
+    recommended_conversion_path: "COMMUNITY_EVENT_PARTNERSHIP",
+    recommended_action: "Book-signing event, meetup integration, influencer visibility",
+    conversion_probability: 8.75,
+    audience_fit_score: 9.0,
+    scale_potential: 8.5,
+    book_sale_relevance: 8.75,
+    evidence_note: "Motorcycle community venue with recurring rider aggregation."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0007",
+    organization_name: "Cycle Source Magazine",
+    organization_type: "MOTORCYCLE_MEDIA",
+    recommended_conversion_path: "MEDIA_REVIEW_AND_REPOST",
+    recommended_action: "Book review, editorial inclusion, digital reposting",
+    conversion_probability: 8.75,
+    audience_fit_score: 9.0,
+    scale_potential: 8.75,
+    book_sale_relevance: 8.75,
+    evidence_note: "Established motorcycle publication with trusted readership."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0008",
+    organization_name: "Long Beach BMW Riding Groups",
+    organization_type: "RIDING_ORGANIZERS",
+    recommended_conversion_path: "GROUP_REFERRAL_AND_RIDE_INSERTION",
+    recommended_action: "Ride-day distribution, organizer referrals, QR card drops",
+    conversion_probability: 8.5,
+    audience_fit_score: 8.75,
+    scale_potential: 8.25,
+    book_sale_relevance: 8.5,
+    evidence_note: "Recurring organized rides create repeat visibility opportunities."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0009",
+    organization_name: "Law Tigers California",
+    organization_type: "LEGAL_RIDER_NETWORK",
+    recommended_conversion_path: "AFFILIATE_AND_REFERRAL_PARTNERSHIP",
+    recommended_action: "Mutual rider-resource referrals and event co-branding",
+    conversion_probability: 8.25,
+    audience_fit_score: 8.5,
+    scale_potential: 8.25,
+    book_sale_relevance: 8.25,
+    evidence_note: "Rider-service organization with trusted community visibility."
+  },
+
+  {
+    conversion_id: "BD_LB_CONVERSION_0010",
+    organization_name: "Motorcyclist Training Course",
+    organization_type: "RIDER_TRAINING",
+    recommended_conversion_path: "NEW_RIDER_EDUCATION_INSERTION",
+    recommended_action: "Course resource inclusion, rider packet inserts, QR placement",
+    conversion_probability: 8.0,
+    audience_fit_score: 8.25,
+    scale_potential: 8.0,
+    book_sale_relevance: 8.25,
+    evidence_note: "Direct access to new and developing riders."
+  }
+
+];
+
+const out = path.join(
+  ROOT,
+  "public/data/clients/black_dragon/conversion_strategy_layer/imports/long_beach_conversion_strategy_import.json"
+);
+
+fs.writeFileSync(out, JSON.stringify({
+  version: "black_dragon_long_beach_conversion_strategy_import_v1",
+  generated_at: new Date().toISOString(),
+  city: "Long Beach",
+  state: "CA",
+  total_targets: targets.length,
+  targets
+}, null, 2));
+
+console.log(JSON.stringify({
+  status: "LONG_BEACH_CONVERSION_STRATEGY_IMPORT_COMPLETE",
+  total_targets: targets.length,
+  output: out
+}, null, 2));

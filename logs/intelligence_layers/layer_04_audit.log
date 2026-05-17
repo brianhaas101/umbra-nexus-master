@@ -1,0 +1,6 @@
+﻿[2026-05-13 16:57:35] LAYER_04 CREATED
+[2026-05-13 16:57:35] CONTRACT: claim_relevance_scoring
+[2026-05-13 16:57:35] DEPENDS_ON: layer_01, layer_02, layer_03
+[2026-05-13 16:57:35] SCOPE: public/intelligence/layers/layer_04
+[2026-05-13 16:57:35] BLACK_DRAGON_COUPLING: false
+[2026-05-13 16:57:35] CLAIM_MUTATION: false

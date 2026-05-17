@@ -1,0 +1,117 @@
+{
+  "version": "black_dragon_contact_route_evidence_registry_v1",
+  "generated_at": "2026-05-10T21:07:16.526Z",
+  "evidence_records": 10,
+  "evidence": [
+    {
+      "organization_name": "Born-Free Motorcycle Show",
+      "priority_tier": "HOT",
+      "best_score": 9.52,
+      "source_layer_count": 4,
+      "contact_route_type": "PUBLIC_CONTACT_FORM",
+      "public_contact_url": "https://bornfreeshow.com/contact/",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "Combat Veterans Motorcycle Association Chapter 33-12",
+      "priority_tier": "HOT",
+      "best_score": 9.34,
+      "source_layer_count": 3,
+      "contact_route_type": "PUBLIC_CONTACT_FORM",
+      "public_contact_url": "https://www.cvma3312.org/contact",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "Harley-Davidson of Long Beach",
+      "priority_tier": "HOT",
+      "best_score": 9.31,
+      "source_layer_count": 2,
+      "contact_route_type": "DEALERSHIP_CONTACT_PAGE",
+      "public_contact_url": "https://www.hdoflongbeach.com/About-Us",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "Biker Trash Network",
+      "priority_tier": "HOT",
+      "best_score": 9.2,
+      "source_layer_count": 3,
+      "contact_route_type": "PUBLIC_CONTACT_FORM",
+      "public_contact_url": "https://bikertrashnetwork.com/contact/",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "Hot Bike Magazine",
+      "priority_tier": "HOT",
+      "best_score": 9.08,
+      "source_layer_count": 3,
+      "contact_route_type": "PUBLIC_MEDIA_SITE",
+      "public_contact_url": "https://hotbike.com/",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "Roland Sands Design",
+      "priority_tier": "HOT",
+      "best_score": 9.04,
+      "source_layer_count": 1,
+      "contact_route_type": "PUBLIC_CONTACT_PAGE",
+      "public_contact_url": "https://rolandsands.com/pages/contact-us",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "Cycle Source Magazine",
+      "priority_tier": "HOT",
+      "best_score": 8.99,
+      "source_layer_count": 4,
+      "contact_route_type": "PUBLIC_CONTACT_FORM",
+      "public_contact_url": "https://cyclesource.com/contact/",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "IMS Outdoors Long Beach",
+      "priority_tier": "HOT",
+      "best_score": 8.95,
+      "source_layer_count": 1,
+      "contact_route_type": "EVENT_CONTACT_ROUTE",
+      "public_contact_url": "https://motorcycleshows.com/contact/",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "Southern California Motorcycling Association",
+      "priority_tier": "HOT",
+      "best_score": 8.84,
+      "source_layer_count": 2,
+      "contact_route_type": "ASSOCIATION_CONTACT_ROUTE",
+      "public_contact_url": "https://sc-ma.com/contact-us/",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    },
+    {
+      "organization_name": "Warrior Brotherhood MC Leadership",
+      "priority_tier": "HOT",
+      "best_score": 8.82,
+      "source_layer_count": 1,
+      "contact_route_type": "PUBLIC_CONTACT_ROUTE",
+      "public_contact_url": "https://warriorbrotherhoodmc.com/contact/",
+      "contact_route_evidence": "PUBLICALLY_DISCOVERABLE_ROUTE_PRESENT",
+      "manual_review_required": true,
+      "auto_contact_allowed": false
+    }
+  ]
+}

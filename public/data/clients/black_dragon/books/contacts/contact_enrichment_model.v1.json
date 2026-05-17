@@ -1,0 +1,43 @@
+{
+  "version": "black_dragon_books_public_contact_enrichment_model_v1",
+
+  "allowed_contact_types": [
+    "PUBLIC_EMAIL",
+    "PUBLIC_PHONE",
+    "PUBLIC_CONTACT_FORM",
+    "PUBLIC_WEBSITE",
+    "PUBLIC_FACEBOOK_PAGE",
+    "PUBLIC_INSTAGRAM_PAGE",
+    "PUBLIC_YOUTUBE_CHANNEL",
+    "PUBLIC_PODCAST_PAGE",
+    "PUBLIC_EVENT_PAGE"
+  ],
+
+  "hard_rules": {
+    "public_sources_only": true,
+    "no_private_groups": true,
+    "no_login_required_sources": true,
+    "no_scraping_private_profiles": true,
+    "no_fabricated_contacts": true,
+    "unknown_is_allowed": true
+  },
+
+  "contactability_score_weights": {
+    "PUBLIC_EMAIL": 35,
+    "PUBLIC_PHONE": 25,
+    "PUBLIC_CONTACT_FORM": 28,
+    "PUBLIC_WEBSITE": 10,
+    "PUBLIC_FACEBOOK_PAGE": 12,
+    "PUBLIC_INSTAGRAM_PAGE": 8,
+    "PUBLIC_YOUTUBE_CHANNEL": 8,
+    "PUBLIC_PODCAST_PAGE": 8,
+    "PUBLIC_EVENT_PAGE": 6
+  },
+
+  "contactability_thresholds": {
+    "HIGH": 45,
+    "MEDIUM": 20,
+    "LOW": 1,
+    "NONE": 0
+  }
+}

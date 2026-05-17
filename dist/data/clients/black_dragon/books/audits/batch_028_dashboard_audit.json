@@ -1,0 +1,36 @@
+{
+  "version": "black_dragon_books_batch_028_dashboard_audit_v1",
+  "generated_at": "2026-05-09T03:22:12.343Z",
+  "dashboard_integrity": {
+    "dashboard_exists": true,
+    "client_scope_black_dragon": true,
+    "operator_mode_client_safe": true,
+    "has_headline_metrics": true,
+    "has_priority_summary": true,
+    "has_outreach_summary": true,
+    "has_response_summary": true,
+    "has_top_actions": true,
+    "has_operator_workflow": true
+  },
+  "widget_integrity": {
+    "widgets_exist": true,
+    "widget_count_valid": true,
+    "all_widgets_client_visible": true,
+    "has_target_widget": true,
+    "has_outreach_widget": true,
+    "has_revenue_widget": true
+  },
+  "snapshot_integrity": {
+    "snapshot_exists": true,
+    "has_client_scope": true,
+    "has_next_actions": true,
+    "has_metrics": true
+  },
+  "data_shape_integrity": {
+    "total_targets_is_number": true,
+    "outreach_ready_is_number": true,
+    "projected_revenue_is_number": true,
+    "top_actions_have_entity_ids": true
+  },
+  "pass": true
+}

@@ -1,0 +1,15 @@
+{
+  "version": "batch_002_audit_v1",
+  "generated_at": "2026-05-09T02:02:03.868Z",
+  "totals": {
+    "total_targets": 3,
+    "high_propagation": 2,
+    "medium_propagation": 1,
+    "low_propagation": 0
+  },
+  "integrity": {
+    "missing_entity_ids": 0,
+    "missing_why_target": 0,
+    "missing_scores": 0
+  }
+}

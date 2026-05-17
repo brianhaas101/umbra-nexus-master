@@ -1,0 +1,19 @@
+{
+  "source_id": "state_health_services",
+  "state_code": "OR",
+  "state_name": "Oregon",
+  "category": "state_health_services",
+  "source_url": "https://www.oregon.gov/oha/",
+  "status": "source_page_verified_state_health_services_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T07:06:17.065Z",
+  "last_refresh": "2026-05-14T07:06:17.065Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

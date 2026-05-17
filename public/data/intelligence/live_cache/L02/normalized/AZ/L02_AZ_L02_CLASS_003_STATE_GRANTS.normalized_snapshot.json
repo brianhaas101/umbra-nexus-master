@@ -1,0 +1,13 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:19.314Z",
+  "layer_id": "L02",
+  "connector_id": "L02_AZ_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "AZ",
+  "source_type": "STATE_GRANTS",
+  "status": "NORMALIZED_FETCH_EMPTY_OR_FAILED",
+  "evidence": [],
+  "signals": [],
+  "score_components": [],
+  "normalized_snapshot_hash": "2f1f9e9f3bedfefbae30a94873db5d675d19a4aa05a622a3d258fc94396d114b"
+}

@@ -1,0 +1,52 @@
+{
+  "batch": "267",
+  "purpose": "matrix_refresh",
+  "input_batches": [
+    "265",
+    "266"
+  ],
+  "expected_city_count": 5,
+  "actual_city_count": 5,
+  "matrix_parity": "pass",
+  "replay_stability": "pass",
+  "repair_status": "pass",
+  "five_city_lock_status": "locked",
+  "hardlocks": null,
+  "city_matrix": [
+    {
+      "city": "Chicago",
+      "source_count": 1,
+      "replay_stability": "pass",
+      "repair_status": "source_only_no_promotion",
+      "parity_status": "pass"
+    },
+    {
+      "city": "Phoenix",
+      "source_count": 1,
+      "replay_stability": "pass",
+      "repair_status": "source_only_no_promotion",
+      "parity_status": "pass"
+    },
+    {
+      "city": "Atlanta",
+      "source_count": 1,
+      "replay_stability": "pass",
+      "repair_status": "source_only_no_promotion",
+      "parity_status": "pass"
+    },
+    {
+      "city": "Denver",
+      "source_count": 1,
+      "replay_stability": "pass",
+      "repair_status": "source_only_no_promotion",
+      "parity_status": "pass"
+    },
+    {
+      "city": "Boston",
+      "source_count": 1,
+      "replay_stability": "pass",
+      "repair_status": "source_only_no_promotion",
+      "parity_status": "pass"
+    }
+  ]
+}

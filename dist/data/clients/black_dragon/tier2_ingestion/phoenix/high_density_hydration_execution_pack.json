@@ -1,0 +1,316 @@
+{
+    "version":  "black_dragon_phoenix_high_density_hydration_execution_pack_v1",
+    "generated_at":  "2026-05-11T05:25:43.6705995Z",
+    "city":  "Phoenix",
+    "folder":  "phoenix",
+    "state":  "Arizona",
+    "state_code":  "AZ",
+    "city_id":  "city_phoenix_az",
+    "hydration_sequence":  [
+                               "verified_source_collection",
+                               "source_provenance_validation",
+                               "geospatial_anchor_validation",
+                               "quarantined_organization_entity_extraction",
+                               "relationship_candidate_synthesis",
+                               "rank_confidence_scoring",
+                               "long_beach_equivalence_replay"
+                           ],
+    "category_lanes":  [
+                           {
+                               "category":  "motorcycle_dealerships",
+                               "search_queries":  [
+                                                      "\"Phoenix\" motorcycle dealership",
+                                                      "\"Phoenix\" Harley-Davidson dealer",
+                                                      "\"Phoenix\" motorcycle sales"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "motorcycle_repair_and_parts",
+                               "search_queries":  [
+                                                      "\"Phoenix\" motorcycle repair",
+                                                      "\"Phoenix\" motorcycle parts",
+                                                      "\"Phoenix\" motorcycle accessories"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "riding_clubs",
+                               "search_queries":  [
+                                                      "\"Phoenix\" motorcycle riding club",
+                                                      "\"Phoenix\" riders association",
+                                                      "\"Phoenix\" motorcycle group"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "rider_training_schools",
+                               "search_queries":  [
+                                                      "\"Phoenix\" motorcycle safety course",
+                                                      "\"Phoenix\" rider training",
+                                                      "\"Phoenix\" motorcycle training school"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "community_groups",
+                               "search_queries":  [
+                                                      "\"Phoenix\" community organizations",
+                                                      "\"Phoenix\" local community groups",
+                                                      "\"Phoenix\" neighborhood associations"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "event_venues",
+                               "search_queries":  [
+                                                      "\"Phoenix\" event venues",
+                                                      "\"Phoenix\" motorcycle events",
+                                                      "\"Phoenix\" community event venue"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "educational_institutes",
+                               "search_queries":  [
+                                                      "\"Phoenix\" colleges",
+                                                      "\"Phoenix\" technical schools",
+                                                      "\"Phoenix\" adult education"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "local_media_groups",
+                               "search_queries":  [
+                                                      "\"Phoenix\" local newspaper",
+                                                      "\"Phoenix\" local radio station",
+                                                      "\"Phoenix\" local media outlet"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "business_associations",
+                               "search_queries":  [
+                                                      "\"Phoenix\" chamber of commerce",
+                                                      "\"Phoenix\" business association",
+                                                      "\"Phoenix\" small business network"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "civic_organizations",
+                               "search_queries":  [
+                                                      "\"Phoenix\" civic organizations",
+                                                      "\"Phoenix\" public agencies directory",
+                                                      "\"Phoenix\" city services directory"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "public_safety_public_directories",
+                               "search_queries":  [
+                                                      "\"Phoenix\" police department public directory",
+                                                      "\"Phoenix\" fire department public directory",
+                                                      "\"Phoenix\" emergency management public directory"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "lawful_sporting_or_firearms_organizations",
+                               "search_queries":  [
+                                                      "\"Phoenix\" lawful sporting club",
+                                                      "\"Phoenix\" shooting sports organization",
+                                                      "\"Phoenix\" firearms training organization public"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "charity_nonprofit_groups",
+                               "search_queries":  [
+                                                      "\"Phoenix\" nonprofit organizations",
+                                                      "\"Phoenix\" charities",
+                                                      "\"Phoenix\" community nonprofit"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "local_influencer_or_creator_media",
+                               "search_queries":  [
+                                                      "\"Phoenix\" local creators",
+                                                      "\"Phoenix\" local podcast",
+                                                      "\"Phoenix\" community media"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           },
+                           {
+                               "category":  "regional_geospatial_anchors",
+                               "search_queries":  [
+                                                      "\"Phoenix\" landmarks",
+                                                      "\"Phoenix\" districts",
+                                                      "\"Phoenix\" transportation hubs"
+                                                  ],
+                               "candidate_sources":  [
+
+                                                     ],
+                               "verified_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ],
+                               "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                           }
+                       ],
+    "execution_gates":  {
+                            "public_source_required":  true,
+                            "city_match_required":  true,
+                            "category_match_required":  true,
+                            "organization_identity_required":  true,
+                            "confidence_score_required":  true,
+                            "provenance_chain_required":  true,
+                            "geospatial_hint_required_when_available":  true,
+                            "no_placeholder_entities":  true,
+                            "no_false_targets":  true,
+                            "no_private_person_targets":  true,
+                            "no_inferred_contacts":  true,
+                            "no_runtime_promotion":  true,
+                            "no_contact_enablement":  true,
+                            "manual_review_required":  true
+                        },
+    "outputs_expected":  {
+                             "verified_sources":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\verified_sources.json",
+                             "source_provenance":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\source_provenance.json",
+                             "geospatial_anchors":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\geospatial_anchors.json",
+                             "candidate_entities":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\candidate_entities.quarantine.json",
+                             "relationship_candidates":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\relationship_candidates.json",
+                             "contact_review_queue":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\contact_review_queue.json",
+                             "equivalence_audit":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\long_beach_equivalence_audit.json"
+                         },
+    "status":  "READY_FOR_VERIFIED_HYDRATION_EXECUTION"
+}

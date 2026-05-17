@@ -1,0 +1,42 @@
+{
+  "version": "nexus_L02_scoring_rules_v1",
+  "generated_at": "2026-05-09T01:07:16.230Z",
+  "layer_id": "L02",
+  "rules": [
+    {
+      "class_id": "L02_CLASS_001_STATE_POST",
+      "scoring_component": "L02_SCORE_001",
+      "base_weight": 0.96,
+      "scoring_role": "state_public_safety_operational_intelligence",
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_002_STATE_DOJ",
+      "scoring_component": "L02_SCORE_002",
+      "base_weight": 0.92,
+      "scoring_role": "state_public_safety_operational_intelligence",
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_003_STATE_GRANTS",
+      "scoring_component": "L02_SCORE_003",
+      "base_weight": 0.9,
+      "scoring_role": "state_public_safety_operational_intelligence",
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_004_STATE_PROCUREMENT",
+      "scoring_component": "L02_SCORE_004",
+      "base_weight": 0.88,
+      "scoring_role": "state_public_safety_operational_intelligence",
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_005_STATE_ACADEMY",
+      "scoring_component": "L02_SCORE_005",
+      "base_weight": 0.86,
+      "scoring_role": "state_public_safety_operational_intelligence",
+      "status": "REGISTERED"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "version": "black_dragon_batch_123_culture_expansion_audit_v1",
+  "generated_at": "2026-05-10T19:16:56.871Z",
+  "batch": "123_LONG_BEACH_CULTURE_PROPAGATION_EXPANSION",
+  "counts": {
+    "dossiers": 10,
+    "hot": 2,
+    "warm": 7,
+    "review": 1,
+    "podcast_youtube": 3,
+    "tattoo_barber": 2,
+    "charity": 2,
+    "creator_influencer": 3
+  },
+  "gates": {
+    "dossiers_10": true,
+    "runtime_visible": true,
+    "contact_ready_disabled": true,
+    "automated_outreach_disabled": true
+  },
+  "status": "PASS"
+}

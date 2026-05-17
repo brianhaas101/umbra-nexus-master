@@ -1,0 +1,133 @@
+{
+    "batch":  "200",
+    "version":  "black_dragon_texas_houston_single_city_transition_v1",
+    "generated_at":  "2026-05-11T02:18:37.8326429Z",
+    "active_target":  {
+                          "state":  "Texas",
+                          "state_code":  "TX",
+                          "city":  "Houston",
+                          "city_id":  "city_houston_tx"
+                      },
+    "prior_city_references":  [
+                                  {
+                                      "city":  "Austin",
+                                      "city_id":  "city_austin_tx",
+                                      "status":  "CERTIFIED_INACTIVE_REFERENCE",
+                                      "runtime_active":  false
+                                  },
+                                  {
+                                      "city":  "San Antonio",
+                                      "city_id":  "city_san_antonio_tx",
+                                      "status":  "CERTIFIED_INACTIVE_REFERENCE",
+                                      "runtime_active":  false
+                                  }
+                              ],
+    "required_artifacts":  {
+                               "required_count":  11,
+                               "missing_count":  0,
+                               "missing":  [
+
+                                           ]
+                           },
+    "json_validation":  {
+                            "files_checked":  19,
+                            "invalid_files":  0,
+                            "results":  [
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\states\\texas\\single_city_runtime_policy.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\austin\\austin_operational_manifest.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\austin\\contact_readiness_scores.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\austin\\manual_review_pipeline.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\austin\\quarantined_entities.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\austin\\entities_runtime.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\austin\\runtime_shell.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\san_antonio\\contact_readiness_scores.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\san_antonio\\manual_review_pipeline.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\san_antonio\\quarantined_entities.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\san_antonio\\san_antonio_operational_manifest.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\san_antonio\\entities_runtime.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\san_antonio\\runtime_shell.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\houston\\contact_readiness_scores.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\houston\\houston_operational_manifest.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\houston\\manual_review_pipeline.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\houston\\quarantined_entities.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\houston\\entities_runtime.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\houston\\runtime_shell.json",
+                                                "valid_json":  true
+                                            }
+                                        ]
+                        },
+    "texas_runtime_scope":  {
+                                "active_texas_runtime_count":  1,
+                                "active_texas_runtimes":  [
+                                                              {
+                                                                  "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\houston\\runtime_shell.json",
+                                                                  "city":  "Houston",
+                                                                  "active":  true
+                                                              }
+                                                          ],
+                                "multi_city_runtime_forbidden":  true
+                            },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "PASS_HOUSTON_ACTIVATED_SINGLE_CITY_FOUNDATION"
+}

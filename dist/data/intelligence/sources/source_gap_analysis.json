@@ -1,0 +1,94 @@
+{
+  "version": "nexus_source_gap_analysis_v2",
+  "generated_at": "2026-05-06T05:07:03.795Z",
+  "total_gaps": 12,
+  "high_severity": 0,
+  "medium_severity": 7,
+  "low_severity": 5,
+  "gaps": [
+    {
+      "layer_id": "L01_FEDERAL_INTELLIGENCE",
+      "current_coverage": "PARTIAL",
+      "severity": "MEDIUM",
+      "state_dependency": false,
+      "gap_type": "SOURCE_EXPANSION_REQUIRED"
+    },
+    {
+      "layer_id": "L02_STATE_INTELLIGENCE",
+      "current_coverage": "PARTIAL",
+      "severity": "MEDIUM",
+      "state_dependency": true,
+      "gap_type": "SOURCE_EXPANSION_REQUIRED"
+    },
+    {
+      "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+      "current_coverage": "PARTIAL",
+      "severity": "MEDIUM",
+      "state_dependency": true,
+      "gap_type": "SOURCE_EXPANSION_REQUIRED"
+    },
+    {
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "current_coverage": "PARTIAL",
+      "severity": "MEDIUM",
+      "state_dependency": true,
+      "gap_type": "SOURCE_EXPANSION_REQUIRED"
+    },
+    {
+      "layer_id": "L05_BUDGET_AND_FUNDING",
+      "current_coverage": "PRODUCTION_STRUCTURED",
+      "severity": "LOW",
+      "state_dependency": true,
+      "gap_type": "READY_FOR_ADAPTER_IMPLEMENTATION"
+    },
+    {
+      "layer_id": "L06_BEHAVIORAL_ACTIVITY",
+      "current_coverage": "PRODUCTION_STRUCTURED",
+      "severity": "LOW",
+      "state_dependency": true,
+      "gap_type": "READY_FOR_ADAPTER_IMPLEMENTATION"
+    },
+    {
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY",
+      "current_coverage": "PARTIAL",
+      "severity": "MEDIUM",
+      "state_dependency": true,
+      "gap_type": "SOURCE_EXPANSION_REQUIRED"
+    },
+    {
+      "layer_id": "L08_COMMAND_STRUCTURE",
+      "current_coverage": "PRODUCTION_STRUCTURED",
+      "severity": "LOW",
+      "state_dependency": true,
+      "gap_type": "READY_FOR_ADAPTER_IMPLEMENTATION"
+    },
+    {
+      "layer_id": "L09_PROCUREMENT_INTELLIGENCE",
+      "current_coverage": "PRODUCTION_STRUCTURED",
+      "severity": "LOW",
+      "state_dependency": true,
+      "gap_type": "READY_FOR_ADAPTER_IMPLEMENTATION"
+    },
+    {
+      "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+      "current_coverage": "PARTIAL",
+      "severity": "MEDIUM",
+      "state_dependency": true,
+      "gap_type": "SOURCE_EXPANSION_REQUIRED"
+    },
+    {
+      "layer_id": "L11_INCIDENT_AND_RISK",
+      "current_coverage": "PRODUCTION_STRUCTURED",
+      "severity": "LOW",
+      "state_dependency": true,
+      "gap_type": "READY_FOR_ADAPTER_IMPLEMENTATION"
+    },
+    {
+      "layer_id": "L12_ENGAGEMENT_RESPONSE",
+      "current_coverage": "PARTIAL",
+      "severity": "MEDIUM",
+      "state_dependency": false,
+      "gap_type": "SOURCE_EXPANSION_REQUIRED"
+    }
+  ]
+}

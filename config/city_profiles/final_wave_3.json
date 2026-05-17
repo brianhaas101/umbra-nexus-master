@@ -1,0 +1,74 @@
+﻿[
+  {
+    "city": "Omaha",
+    "gis": "https://data.cityofomaha.org/",
+    "open_data": "https://data.cityofomaha.org/",
+    "police": "https://police.cityofomaha.org/",
+    "fire": "https://fire.cityofomaha.org/",
+    "parks": "https://parks.cityofomaha.org/",
+    "permits": "https://planning.cityofomaha.org/",
+    "public_works": "https://publicworks.cityofomaha.org/",
+    "schools": "https://www.ops.org/",
+    "council": "https://cityclerk.cityofomaha.org/city-council"
+  },
+  {
+    "city": "New York",
+    "gis": "https://opendata.cityofnewyork.us/",
+    "open_data": "https://opendata.cityofnewyork.us/",
+    "police": "https://www.nyc.gov/site/nypd/",
+    "fire": "https://www.nyc.gov/site/fdny/",
+    "parks": "https://www.nycgovparks.org/",
+    "permits": "https://www.nyc.gov/site/buildings/",
+    "public_works": "https://www.nyc.gov/",
+    "schools": "https://www.schools.nyc.gov/",
+    "council": "https://council.nyc.gov/"
+  },
+  {
+    "city": "Arlington",
+    "gis": "https://www.arlingtontx.gov/gis",
+    "open_data": "https://data-arlingtontx.opendata.arcgis.com/",
+    "police": "https://www.arlingtontx.gov/city_hall/departments/police",
+    "fire": "https://www.arlingtontx.gov/city_hall/departments/fire",
+    "parks": "https://www.arlingtontx.gov/city_hall/departments/parks_recreation",
+    "permits": "https://www.arlingtontx.gov/city_hall/departments/planning_development_services",
+    "public_works": "https://www.arlingtontx.gov/city_hall/departments/public_works",
+    "schools": "https://www.aisd.net/",
+    "council": "https://www.arlingtontx.gov/city_hall/mayor_and_city_council"
+  },
+  {
+    "city": "San Antonio",
+    "gis": "https://gis.sanantonio.gov/",
+    "open_data": "https://data.sanantonio.gov/",
+    "police": "https://www.sanantonio.gov/sapd",
+    "fire": "https://www.sanantonio.gov/safd",
+    "parks": "https://www.sanantonio.gov/ParksAndRec",
+    "permits": "https://www.sanantonio.gov/DSD",
+    "public_works": "https://www.sanantonio.gov/PublicWorks",
+    "schools": "https://www.saisd.net/",
+    "council": "https://www.sanantonio.gov/council"
+  },
+  {
+    "city": "Virginia Beach",
+    "gis": "https://data.virginiabeach.gov/",
+    "open_data": "https://data.virginiabeach.gov/",
+    "police": "https://police.virginiabeach.gov/",
+    "fire": "https://www.vbgov.com/government/departments/fire",
+    "parks": "https://parks.virginiabeach.gov/",
+    "permits": "https://planning.virginiabeach.gov/",
+    "public_works": "https://pw.virginiabeach.gov/",
+    "schools": "https://www.vbschools.com/",
+    "council": "https://www.vbgov.com/government/departments/city-council"
+  },
+  {
+    "city": "Milwaukee",
+    "gis": "https://data.milwaukee.gov/",
+    "open_data": "https://data.milwaukee.gov/",
+    "police": "https://city.milwaukee.gov/police",
+    "fire": "https://city.milwaukee.gov/MFD",
+    "parks": "https://county.milwaukee.gov/EN/Parks",
+    "permits": "https://city.milwaukee.gov/DNS",
+    "public_works": "https://city.milwaukee.gov/mpw",
+    "schools": "https://mps.milwaukee.k12.wi.us/",
+    "council": "https://city.milwaukee.gov/CommonCouncil"
+  }
+]

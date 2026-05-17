@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:07.299Z",
+  "layer_id": "L02",
+  "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "FL",
+  "state_name": "Florida",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://www.myfloridalegal.com",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 54928,
+    "extracted_links": [
+      {
+        "href": "https://www.myfloridalegal.com/ag-bio",
+        "label": "Meet the Attorney General"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/ag-bio",
+        "label": "Attorney General James Uthmeier"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/consumer-protection",
+        "label": "Consumer Protection"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/consumer-protection/consumer-alerts",
+        "label": "Consumer Alerts"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/criminal-justice",
+        "label": "Criminal Justice Programs"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/seniors-vs-crime",
+        "label": "Seniors vs. Crime"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/ag-bio",
+        "label": "Meet the Attorney General"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/ag-bio",
+        "label": "Attorney General James Uthmeier"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/consumer-protection",
+        "label": "Consumer Protection"
+      },
+      {
+        "href": "https://www.myfloridalegal.com/consumer-protection/consumer-alerts",
+        "label": "Consumer Alerts"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3"
+}

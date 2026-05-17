@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_education_source_discovery_first_pass_report_v1",
+  "generated_at": "2026-05-10T00:29:42.513Z",
+  "input_targets": 600,
+  "selected_targets": 75,
+  "selection_policy": {
+    "max_batch_size": 75,
+    "priority_categories": [
+      "STATE_POST_ACADEMY",
+      "REGIONAL_POLICE_ACADEMY",
+      "SHERIFF_TRAINING_CENTER",
+      "PUBLIC_SAFETY_INSTITUTE",
+      "CRIMINAL_JUSTICE_COLLEGE",
+      "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "GANG_STUDIES_PROGRAM"
+    ],
+    "required_status": "SOURCE_DISCOVERY_PENDING",
+    "required_outreach_status": "OUTREACH_BLOCKED"
+  },
+  "category_counts": {
+    "STATE_POST_ACADEMY": 16,
+    "REGIONAL_POLICE_ACADEMY": 16,
+    "PUBLIC_SAFETY_INSTITUTE": 15,
+    "SHERIFF_TRAINING_CENTER": 7,
+    "CRIMINAL_JUSTICE_COLLEGE": 7,
+    "GANG_STUDIES_PROGRAM": 7,
+    "INTELLIGENCE_ANALYSIS_PROGRAM": 7
+  }
+}

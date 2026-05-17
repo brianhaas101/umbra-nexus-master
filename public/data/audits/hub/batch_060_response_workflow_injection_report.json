@@ -1,0 +1,16 @@
+{
+  "version": "batch_060_response_workflow_injection_report_v1",
+  "generated_at": "2026-05-09T22:59:32.103Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_response_workflow_runtime": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_response_workflow_runtime": true
+    }
+  ]
+}

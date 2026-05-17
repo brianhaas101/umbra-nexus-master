@@ -1,0 +1,13 @@
+﻿{
+    "source_id":  "nist_cyber_publications",
+    "layer_id":  "L01",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "status":  "source_page_verified_nist_cyber_signals",
+    "last_refresh":  "2026-05-14T02:48:55.1690431Z",
+    "expansion_source":  true,
+    "replaces_deferred_source":  null,
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "client_paths_touched":  false
+}

@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_batch_160_phoenix_runtime_merge_graph_audit_v1",
+  "generated_at": "2026-05-10T23:03:13.422Z",
+  "batch": "160_PHOENIX_RUNTIME_MERGE_AND_GRAPH",
+  "counts": {
+    "runtime_entities": 10,
+    "duplicate_review_entities": 0,
+    "dossiers": 10,
+    "map_nodes": 10,
+    "graph_nodes": 10,
+    "graph_edges": 42,
+    "scored_nodes": 10,
+    "propagation_paths": 10
+  },
+  "gates": {
+    "runtime_entities_exist": true,
+    "dossiers_match_runtime": true,
+    "map_nodes_match_runtime": true,
+    "graph_nodes_match_runtime": true,
+    "graph_edges_exist": true,
+    "scored_nodes_match_runtime": true,
+    "propagation_paths_exist": true,
+    "no_contact_ready": true,
+    "no_automated_outreach": true,
+    "no_runtime_mutation": true
+  },
+  "next_phase": "BATCH_161_PHOENIX_LIVE_VALIDATION",
+  "status": "PASS"
+}

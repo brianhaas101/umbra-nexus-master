@@ -1,0 +1,89 @@
+{
+  "version": "black_dragon_region_KY_source_discovery_queue_v1_batch_089",
+  "generated_at": "2026-05-10T03:16:31.376Z",
+  "client_id": "black_dragon",
+  "region": "KY",
+  "count": 2,
+  "public_source_found": 0,
+  "authentication_pending": 2,
+  "contact_ready": 0,
+  "outreach_allowed": 0,
+  "tasks": [
+    {
+      "discovery_task_id": "BD_SRC_DISC_000594",
+      "entity_id": "BD_BOOK_EXP_01102",
+      "client_id": "black_dragon",
+      "organization_name": "LOUISVILLE GANG / VIOLENT CRIME UNIT",
+      "organization_type": "MOTORCYCLE_ORGANIZATION",
+      "city": null,
+      "region": "KY",
+      "original_region": "KY",
+      "country": "USA",
+      "authentication_status": "AUTHENTICATION_PENDING",
+      "source_discovery_status": "SOURCE_DISCOVERY_REQUIRED",
+      "original_source_url": null,
+      "public_source_present": false,
+      "source_validation_required": true,
+      "contact_route_validation_required": true,
+      "manual_review_required": true,
+      "official_source_query": "LOUISVILLE GANG / VIOLENT CRIME UNIT KY official website",
+      "official_contact_query": "LOUISVILLE GANG / VIOLENT CRIME UNIT KY contact official",
+      "search_queries": [
+        "LOUISVILLE GANG / VIOLENT CRIME UNIT KY official website",
+        "LOUISVILLE GANG / VIOLENT CRIME UNIT KY contact official",
+        "LOUISVILLE GANG / VIOLENT CRIME UNIT KY public records",
+        "LOUISVILLE GANG / VIOLENT CRIME UNIT KY official contact"
+      ],
+      "required_validation_checks": [
+        "official_public_source_exists",
+        "organization_name_match",
+        "state_or_region_match",
+        "source_is_not_generated",
+        "contact_route_is_public",
+        "manual_reviewer_approval"
+      ],
+      "visual_review_status": "PENDING_VISUAL_REVIEW",
+      "contact_ready": false,
+      "outreach_allowed": false,
+      "blocked_reason": "Requires official source validation, public contact-route validation, and manual review before contact-ready promotion."
+    },
+    {
+      "discovery_task_id": "BD_SRC_DISC_000595",
+      "entity_id": "BD_BOOK_EXP_01103",
+      "client_id": "black_dragon",
+      "organization_name": "LOUISVILLE NARCOTICS / ORGANIZED CRIME UNIT",
+      "organization_type": "MOTORCYCLE_ORGANIZATION",
+      "city": null,
+      "region": "KY",
+      "original_region": "KY",
+      "country": "USA",
+      "authentication_status": "AUTHENTICATION_PENDING",
+      "source_discovery_status": "SOURCE_DISCOVERY_REQUIRED",
+      "original_source_url": null,
+      "public_source_present": false,
+      "source_validation_required": true,
+      "contact_route_validation_required": true,
+      "manual_review_required": true,
+      "official_source_query": "LOUISVILLE NARCOTICS / ORGANIZED CRIME UNIT KY official website",
+      "official_contact_query": "LOUISVILLE NARCOTICS / ORGANIZED CRIME UNIT KY contact official",
+      "search_queries": [
+        "LOUISVILLE NARCOTICS / ORGANIZED CRIME UNIT KY official website",
+        "LOUISVILLE NARCOTICS / ORGANIZED CRIME UNIT KY contact official",
+        "LOUISVILLE NARCOTICS / ORGANIZED CRIME UNIT KY public records",
+        "LOUISVILLE NARCOTICS / ORGANIZED CRIME UNIT KY official contact"
+      ],
+      "required_validation_checks": [
+        "official_public_source_exists",
+        "organization_name_match",
+        "state_or_region_match",
+        "source_is_not_generated",
+        "contact_route_is_public",
+        "manual_reviewer_approval"
+      ],
+      "visual_review_status": "PENDING_VISUAL_REVIEW",
+      "contact_ready": false,
+      "outreach_allowed": false,
+      "blocked_reason": "Requires official source validation, public contact-route validation, and manual review before contact-ready promotion."
+    }
+  ]
+}

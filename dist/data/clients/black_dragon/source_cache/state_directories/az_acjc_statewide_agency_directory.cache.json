@@ -1,0 +1,20 @@
+{
+  "source_id": "az_acjc_statewide_agency_directory",
+  "state": "AZ",
+  "source_name": "Arizona Criminal Justice Commission Statewide Agency Directory",
+  "source_url": "https://www.azcjc.gov/About-Us/Statewide-Agency-Directory",
+  "cached_at": "2026-05-02T19:54:25.653Z",
+  "byte_count": 131129,
+  "html_file": "state_directories/az_acjc_statewide_agency_directory.html",
+  "top_50_cities_supported": [
+    "Phoenix",
+    "Tucson",
+    "Mesa"
+  ],
+  "live_import_allowed": false,
+  "notes": [
+    "Raw state directory page cached.",
+    "No entities created by this connector.",
+    "Parser/authority filter required before merge."
+  ]
+}

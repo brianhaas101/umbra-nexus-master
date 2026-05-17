@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:09.605Z",
+  "layer_id": "L02",
+  "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "IL",
+  "state_name": "Illinois",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://illinoisattorneygeneral.gov",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "News Room",
+        "href": "https://illinoisattorneygeneral.gov/News-Room",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Protection Protecting consumers and businesses from fraud, deception, and unfair business practices",
+        "href": "https://illinoisattorneygeneral.gov/consumer-protection",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Safer Communities Fighting crime, protecting children, serving crime victims, and providing resources for law enforcement",
+        "href": "https://illinoisattorneygeneral.gov/Safer-Communities",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Rights of the People Defending civil rights. Upholding the rights of workers, immigrants, individuals with disabilities, and veterans & military service members. Advocating for children, women and seniors.",
+        "href": "https://illinoisattorneygeneral.gov/Rights-of-the-People",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "May 08, 2026 ATTORNEY GENERAL RAOUL OBTAINS GUILTY PLEAS, PRISON SENTENCES IN TWO GUN TRAFFICKING CASES",
+        "href": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-obtianis-guilty-pleas-prison-sentences-in-two-gun-trafficking-cases",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "May 08, 2026 ATTORNEY GENERAL RAOUL: COURT RULES AGAINST TRUMP ADMINISTRATION’S ILLEGAL TARIFFS",
+        "href": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-court-rules-against-trump-administrations-illegal-tariffs",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "May 07, 2026 ATTORNEY GENERAL RAOUL PROTECTS CRITICAL HOMELAND SECURITY FUNDING FROM POLITICALLY MOTIVATED CUT",
+        "href": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-protects-critical-homeland-security-funding-from-politically-motivated-cut",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "May 06, 2026 ATTORNEY GENERAL RAOUL REACHES SETTLEMENT WITH MANUFACTURING COMPANY OVER USE OF NO-POACH AGREEMENT",
+        "href": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-reaches-settlement-with-manufacturing-company-over-use-of-no-poach-agreement",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "May 05, 2026 ATTORNEY GENERAL RAOUL: ROCK ISLAND COUNTY JUDGE FINDS CONVICTED SEX OFFENDER SEXUALLY VIOLENT",
+        "href": "https://illinoisattorneygeneral.gov/news/story/attorney-general-raoul-rock-island-county-judge-finds-convicted-sex-offender-sexually-violent",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_002_STATE_DOJ_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "state_name": "Illinois",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:09.605Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://illinoisattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "4c47d64c8c37dd40d8861912cd4a2dae9b76c5bcd852954bd19135750bea35db",
+        "parser_id": "L02_IL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Apply for Crime Victims Compensation",
+        "href": "https://illinoisattorneygeneral.gov/safer-communities/supporting-victims-of-crime/crime-victim-compensation/",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_002_STATE_DOJ_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "IL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    }
+  ],
+  "normalized_snapshot_hash": "1fcda1707549b110eded962bca69ce9eaca8aab2ee9a43a49551952ceeb41270"
+}

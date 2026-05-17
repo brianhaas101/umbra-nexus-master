@@ -1,0 +1,37 @@
+{
+  "version": "nexus_evidence_schema_registry_v1",
+  "generated_at": "2026-05-06T03:12:03.191Z",
+  "evidence_requirements": {
+    "source_traceability_required": true,
+    "timestamp_required": true,
+    "normalization_chain_required": true,
+    "confidence_score_required": true,
+    "conflict_resolution_tracking_required": true,
+    "geospatial_reference_required": false,
+    "entity_reference_required": true
+  },
+  "evidence_object_schema": {
+    "evidence_id": "STRING",
+    "source_id": "STRING",
+    "source_url": "STRING",
+    "collected_at": "ISO_TIMESTAMP",
+    "normalized_at": "ISO_TIMESTAMP",
+    "entity_id": "STRING",
+    "layer_id": "STRING",
+    "evidence_type": "STRING",
+    "confidence_score": "NUMBER",
+    "freshness_score": "NUMBER",
+    "authority_score": "NUMBER",
+    "normalization_adapter": "STRING",
+    "geospatial_reference": "OPTIONAL_OBJECT",
+    "raw_value": "ANY",
+    "normalized_value": "ANY",
+    "validation_status": "STRING"
+  },
+  "validation_rules": {
+    "guessed_values_disallowed": true,
+    "orphaned_evidence_disallowed": true,
+    "invalid_entity_links_disallowed": true,
+    "missing_timestamps_disallowed": true
+  }
+}

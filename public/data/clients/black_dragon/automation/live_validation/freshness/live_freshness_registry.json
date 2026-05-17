@@ -1,0 +1,76 @@
+{
+  "version": "black_dragon_live_freshness_registry_v1",
+  "generated_at": "2026-05-10T20:45:32.431Z",
+  "freshness_records": [
+    {
+      "validation_id": "BD_HTTP_VALIDATE_001",
+      "organization_name": "Born-Free Motorcycle Show",
+      "url": "https://bornfreeshow.com/",
+      "last_seen_at": "2026-05-10T20:45:06.610Z",
+      "freshness_status": "FRESH",
+      "response_time_ms": 207
+    },
+    {
+      "validation_id": "BD_HTTP_VALIDATE_002",
+      "organization_name": "Harley-Davidson of Long Beach",
+      "url": "https://www.hdoflongbeach.com/",
+      "last_seen_at": "2026-05-10T20:45:08.717Z",
+      "freshness_status": "REVIEW_REQUIRED",
+      "response_time_ms": 95
+    },
+    {
+      "validation_id": "BD_HTTP_VALIDATE_003",
+      "organization_name": "Cycle Source Magazine",
+      "url": "https://cyclesource.com/",
+      "last_seen_at": "2026-05-10T20:45:13.367Z",
+      "freshness_status": "FRESH",
+      "response_time_ms": 2642
+    },
+    {
+      "validation_id": "BD_HTTP_VALIDATE_004",
+      "organization_name": "Hot Bike Magazine",
+      "url": "https://hotbike.com/",
+      "last_seen_at": "2026-05-10T20:45:15.557Z",
+      "freshness_status": "FRESH",
+      "response_time_ms": 176
+    },
+    {
+      "validation_id": "BD_HTTP_VALIDATE_005",
+      "organization_name": "Biker Trash Network",
+      "url": "https://bikertrashnetwork.com/",
+      "last_seen_at": "2026-05-10T20:45:17.729Z",
+      "freshness_status": "REVIEW_REQUIRED",
+      "response_time_ms": 161
+    },
+    {
+      "validation_id": "BD_HTTP_VALIDATE_006",
+      "organization_name": "Roland Sands Design",
+      "url": "https://rolandsands.com/",
+      "last_seen_at": "2026-05-10T20:45:19.905Z",
+      "freshness_status": "FRESH",
+      "response_time_ms": 166
+    },
+    {
+      "validation_id": "BD_HTTP_VALIDATE_007",
+      "organization_name": "Patriot Guard Riders",
+      "url": "https://www.patriotguard.org/",
+      "last_seen_at": "2026-05-10T20:45:22.368Z",
+      "freshness_status": "FRESH",
+      "response_time_ms": 456
+    },
+    {
+      "validation_id": "BD_HTTP_VALIDATE_008",
+      "organization_name": "CVMA",
+      "url": "https://combatvet.org/",
+      "last_seen_at": "2026-05-10T20:45:24.490Z",
+      "freshness_status": "REVIEW_REQUIRED",
+      "response_time_ms": 107
+    }
+  ],
+  "freshness_rules": {
+    "successful_validation_refreshes_timestamp": true,
+    "timeout_flags_review_required": true,
+    "repeated_failures_trigger_decay": true,
+    "dead_routes_require_revalidation": true
+  }
+}

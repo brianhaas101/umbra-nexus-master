@@ -1,0 +1,410 @@
+{
+  "version": "black_dragon_ca_manual_verification_queue_v1",
+  "generated_at": "2026-05-06T00:30:32.915Z",
+  "state": "CA",
+  "source": "public/data/clients/black_dragon/state_candidates/ca_review_shortlist.json",
+  "rule": "Manual official-source verification required before any CA target becomes outreach-ready.",
+  "total_queue": 25,
+  "targets": [
+    {
+      "queue_id": "CA-VERIFY-001",
+      "agency_name": "San Diego Community College District Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 85,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-002",
+      "agency_name": "San Francisco Community College District Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 85,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-003",
+      "agency_name": "Los Angeles County Sheriff's Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 78,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-004",
+      "agency_name": "San Diego County Sheriff's Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 78,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-005",
+      "agency_name": "San Francisco County Sheriff's Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 78,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-006",
+      "agency_name": "CSU Los Angeles University Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-007",
+      "agency_name": "CSU San Francisco Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-008",
+      "agency_name": "Los Angeles Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-009",
+      "agency_name": "Los Angeles Port Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-010",
+      "agency_name": "Los Angeles School Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-011",
+      "agency_name": "Los Angeles World Airports Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-012",
+      "agency_name": "Riverside Community College District Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-013",
+      "agency_name": "San Diego Harbor Police Department, Port Of",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-014",
+      "agency_name": "San Diego Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-015",
+      "agency_name": "San Francisco Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-016",
+      "agency_name": "San Jose Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-017",
+      "agency_name": "South San Francisco Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-018",
+      "agency_name": "UC Los Angeles Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-019",
+      "agency_name": "UC San Diego Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-020",
+      "agency_name": "UC San Francisco Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 75,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-021",
+      "agency_name": "Fresno County Sheriff's Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 73,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-022",
+      "agency_name": "Sacramento County Sheriff's Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 73,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-023",
+      "agency_name": "CSU Fresno University Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 70,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-024",
+      "agency_name": "CSU Sacramento Public Safety/University Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 70,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    },
+    {
+      "queue_id": "CA-VERIFY-025",
+      "agency_name": "Fresno Police Department",
+      "state": "CA",
+      "source_url": "https://post.ca.gov/le-agencies",
+      "review_score": 70,
+      "verification_needed": [
+        "official agency contact page",
+        "training/professional standards/academy path if available",
+        "valid phone routing path",
+        "no guessed email"
+      ],
+      "status": "NEEDS_MANUAL_VERIFICATION",
+      "verified_contact_patch_ready": false,
+      "notes": ""
+    }
+  ]
+}

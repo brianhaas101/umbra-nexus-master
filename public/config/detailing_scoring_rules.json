@@ -1,0 +1,36 @@
+{
+  "id": "detailing_sandbox",
+  "label": "Umbra Detailing Sandbox",
+  "type": "detailing",
+  "status": "active",
+
+  "city": "Eugene, OR",
+  "center_lat": 44.0521,
+  "center_lon": -123.0868,
+
+  "coverage": {
+    "description": "Eugene / Springfield / Lane County high-ticket detailing focus.",
+    "radius_km": 40,
+    "notes": [
+      "Primary focus on Eugene / Springfield.",
+      "Acceptable range extends to wider Lane County for strong signals."
+    ]
+  },
+
+  "data_file": "Eugene_detailing.json",
+  "scoring_rules_file": "config/detailing_scoring_rules.json",
+
+  "ui": {
+    "default_zoom": 3.2,
+    "focused_zoom": 1.3,
+    "show_nodes": true,
+    "show_veins": true,
+    "show_starfield": true
+  },
+
+  "notes": [
+    "This mode powers the Ember Sphere when running in Eugene Detailing test configuration.",
+    "Future modes (Portland Detailing, PNW Fleet, Real Estate, etc.) can copy this file and adjust values.",
+    "Python engine should read this to know which data + rules to use when regenerating leads."
+  ]
+}

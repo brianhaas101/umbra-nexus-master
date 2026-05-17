@@ -1,0 +1,11 @@
+{
+  "version": "test_client_shadow_responses_v1",
+  "client_id": "test_client_shadow",
+  "responses": [
+    {
+      "response_id": "SHADOW_RESPONSE_001",
+      "entity_id": "SHADOW_TEST_ENTITY_001",
+      "response_status": "RESPONDED"
+    }
+  ]
+}

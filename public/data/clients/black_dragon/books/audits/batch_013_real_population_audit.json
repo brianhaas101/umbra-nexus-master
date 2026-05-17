@@ -1,0 +1,37 @@
+{
+  "version": "black_dragon_books_batch_013_audit_v1",
+  "generated_at": "2026-05-09T02:24:36.352Z",
+  "totals": {
+    "raw_targets": 10,
+    "operational_targets": 13,
+    "client_targets": 13,
+    "kpi_targets": 13,
+    "hot": 3,
+    "warm": 6,
+    "review": 4
+  },
+  "organization_breakdown": {
+    "RIDING_CLUB": 1,
+    "COUNCIL": 2,
+    "MOTORCYCLE_MINISTRY": 3,
+    "SPECIALTY_GROUP": 1,
+    "CHARITY_MC": 1,
+    "MOTORCYCLE_RIGHTS_ORG": 2,
+    "MOTORCYCLE_CLUB": 1,
+    "VETERANS_MC": 2
+  },
+  "integrity": {
+    "missing_entity_ids": 0,
+    "missing_source_urls": 0,
+    "missing_scores": 0,
+    "missing_client_records": 0
+  },
+  "operational_state": {
+    "real_public_targets_loaded": true,
+    "propagation_scoring_active": true,
+    "outreach_generation_active": true,
+    "client_view_active": true,
+    "kpi_engine_active": true
+  },
+  "pass": true
+}

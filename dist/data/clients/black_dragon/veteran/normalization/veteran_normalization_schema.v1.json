@@ -1,0 +1,38 @@
+{
+  "version": "black_dragon_veteran_normalization_schema_v1_batch_072",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "required_fields": [
+    "organization_name",
+    "organization_type",
+    "entity_class",
+    "region",
+    "country"
+  ],
+
+  "optional_fields": [
+    "post_number",
+    "chapter_name",
+    "chapter_type",
+    "service_affiliation",
+    "event_calendar_url",
+    "website",
+    "contact_email",
+    "contact_phone",
+    "public_contact_form",
+    "leadership_role",
+    "book_distribution_fit",
+    "event_partnership_fit"
+  ],
+
+  "classification_rules": {
+    "VFW": "VFW_POST",
+    "AMERICAN_LEGION": "AMERICAN_LEGION_POST",
+    "VETERAN_RIDING": "VETERAN_RIDING_ASSOCIATION",
+    "COMBAT_VETERAN": "COMBAT_VETERAN_MOTORCYCLE_GROUP",
+    "TRANSITION": "VETERAN_TRANSITION_NONPROFIT",
+    "LEADERSHIP": "VETERAN_LEADERSHIP_PROGRAM",
+    "MILITARY_SUPPORT": "MILITARY_SUPPORT_ORGANIZATION",
+    "EVENT": "VETERAN_EVENT_ORGANIZER"
+  }
+}

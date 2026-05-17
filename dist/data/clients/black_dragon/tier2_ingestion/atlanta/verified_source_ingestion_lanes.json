@@ -1,0 +1,297 @@
+{
+    "version":  "black_dragon_atlanta_verified_source_ingestion_lanes_v1",
+    "generated_at":  "2026-05-11T05:21:40.8450502Z",
+    "city":  "Atlanta",
+    "folder":  "atlanta",
+    "state":  "Georgia",
+    "state_code":  "GA",
+    "city_id":  "city_atlanta_ga",
+    "source_cache_candidates":  [
+
+                                ],
+    "category_source_lanes":  [
+                                  {
+                                      "category":  "motorcycle_dealerships",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" motorcycle dealership",
+                                                             "\"Atlanta\" Harley-Davidson dealer",
+                                                             "\"Atlanta\" motorcycle sales"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "motorcycle_repair_and_parts",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" motorcycle repair",
+                                                             "\"Atlanta\" motorcycle parts",
+                                                             "\"Atlanta\" motorcycle accessories"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "riding_clubs",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" motorcycle riding club",
+                                                             "\"Atlanta\" riders association",
+                                                             "\"Atlanta\" motorcycle group"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "rider_training_schools",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" motorcycle safety course",
+                                                             "\"Atlanta\" rider training",
+                                                             "\"Atlanta\" motorcycle training school"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "community_groups",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" community organizations",
+                                                             "\"Atlanta\" local community groups",
+                                                             "\"Atlanta\" neighborhood associations"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "event_venues",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" event venues",
+                                                             "\"Atlanta\" motorcycle events",
+                                                             "\"Atlanta\" community event venue"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "educational_institutes",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" colleges",
+                                                             "\"Atlanta\" technical schools",
+                                                             "\"Atlanta\" adult education"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "local_media_groups",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" local newspaper",
+                                                             "\"Atlanta\" local radio station",
+                                                             "\"Atlanta\" local media outlet"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "business_associations",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" chamber of commerce",
+                                                             "\"Atlanta\" business association",
+                                                             "\"Atlanta\" small business network"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "civic_organizations",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" civic organizations",
+                                                             "\"Atlanta\" public agencies directory",
+                                                             "\"Atlanta\" city services directory"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "public_safety_public_directories",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" police department public directory",
+                                                             "\"Atlanta\" fire department public directory",
+                                                             "\"Atlanta\" emergency management public directory"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "lawful_sporting_or_firearms_organizations",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" lawful sporting club",
+                                                             "\"Atlanta\" shooting sports organization",
+                                                             "\"Atlanta\" firearms training organization public"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "charity_nonprofit_groups",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" nonprofit organizations",
+                                                             "\"Atlanta\" charities",
+                                                             "\"Atlanta\" community nonprofit"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "local_influencer_or_creator_media",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" local creators",
+                                                             "\"Atlanta\" local podcast",
+                                                             "\"Atlanta\" community media"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "regional_geospatial_anchors",
+                                      "search_queries":  [
+                                                             "\"Atlanta\" landmarks",
+                                                             "\"Atlanta\" districts",
+                                                             "\"Atlanta\" transportation hubs"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  }
+                              ],
+    "controls":  {
+                     "source_url_required":  true,
+                     "public_source_required":  true,
+                     "city_match_required":  true,
+                     "category_match_required":  true,
+                     "organization_identity_required":  true,
+                     "no_placeholder_entities":  true,
+                     "no_false_targets":  true,
+                     "runtime_promotion_allowed":  false,
+                     "contact_enablement_allowed":  false,
+                     "manual_review_required":  true
+                 },
+    "status":  "VERIFIED_SOURCE_INGESTION_LANES_READY"
+}

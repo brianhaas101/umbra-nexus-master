@@ -1,0 +1,24 @@
+﻿{
+    "schema_id":  "layer_01_input_schema",
+    "required":  [
+                     "source_url",
+                     "source_type",
+                     "source_title",
+                     "retrieved_at",
+                     "city",
+                     "entity",
+                     "claim"
+                 ],
+    "optional":  [
+                     "confidence",
+                     "notes",
+                     "source_publisher",
+                     "source_accessed_by"
+                 ],
+    "rejected":  [
+                     "synthetic_contact",
+                     "inferred_email",
+                     "unsourced_claim",
+                     "runtime_generated_entity"
+                 ]
+}

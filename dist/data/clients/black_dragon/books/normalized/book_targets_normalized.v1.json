@@ -1,0 +1,105 @@
+[
+  {
+    "entity_id": "BD_BOOK_NORM_0001",
+    "source_raw_id": "RAW_BD_BOOK_0001",
+    "target_name": "UNKNOWN_LEADER",
+    "organization_name": "Sample Motorcycle Club",
+    "organization_type": "RIDING_CLUB",
+    "leader_role": "PRESIDENT",
+    "country": "USA",
+    "region": "Georgia",
+    "country_tier": "TIER_1",
+    "public_url": null,
+    "social_url": null,
+    "contact_method": null,
+    "high_value_signals": [
+      "prospect_program",
+      "church_meetings",
+      "club_growth"
+    ],
+    "supporting_signals": [
+      "active_social_media"
+    ],
+    "why_target": [
+      "Leadership role has endorsement authority",
+      "Organization appears to support prospect or new-member education",
+      "Formal meeting structure indicates protocol and process alignment"
+    ],
+    "endorsement_likelihood": null,
+    "bulk_order_potential": null,
+    "member_purchase_multiplier": null,
+    "propagation_score": null,
+    "lead_temperature": "REVIEW",
+    "target_classification": "UNSCORED",
+    "outreach_status": "NOT_CONTACTED",
+    "notes": "Template row. Replace with real public target data."
+  },
+  {
+    "entity_id": "BD_BOOK_NORM_0002",
+    "source_raw_id": "RAW_BD_BOOK_0002",
+    "target_name": "UNKNOWN_LEADER",
+    "organization_name": "Sample Motorcycle Council",
+    "organization_type": "COUNCIL",
+    "leader_role": "CHAIRMAN",
+    "country": "Canada",
+    "region": "Ontario",
+    "country_tier": "TIER_1",
+    "public_url": null,
+    "social_url": null,
+    "contact_method": null,
+    "high_value_signals": [
+      "education_focus",
+      "council_involvement",
+      "member_education"
+    ],
+    "supporting_signals": [
+      "regional_mc_presence"
+    ],
+    "why_target": [
+      "Leadership role has endorsement authority",
+      "Council-level involvement can create downstream purchase influence",
+      "Signals indicate interest in education and member development"
+    ],
+    "endorsement_likelihood": null,
+    "bulk_order_potential": null,
+    "member_purchase_multiplier": null,
+    "propagation_score": null,
+    "lead_temperature": "REVIEW",
+    "target_classification": "UNSCORED",
+    "outreach_status": "NOT_CONTACTED",
+    "notes": "Template row. Replace with real public target data."
+  },
+  {
+    "entity_id": "BD_BOOK_NORM_0003",
+    "source_raw_id": "RAW_BD_BOOK_0003",
+    "target_name": "UNKNOWN_LEADER",
+    "organization_name": "Sample Motorcycle Ministry",
+    "organization_type": "MOTORCYCLE_MINISTRY",
+    "leader_role": "CHAPLAIN",
+    "country": "USA",
+    "region": "Texas",
+    "country_tier": "TIER_1",
+    "public_url": null,
+    "social_url": null,
+    "contact_method": null,
+    "high_value_signals": [
+      "education_focus"
+    ],
+    "supporting_signals": [
+      "community_presence",
+      "motorcycle_ministry_activity"
+    ],
+    "why_target": [
+      "Leadership role has endorsement authority",
+      "Signals indicate interest in education and member development"
+    ],
+    "endorsement_likelihood": null,
+    "bulk_order_potential": null,
+    "member_purchase_multiplier": null,
+    "propagation_score": null,
+    "lead_temperature": "REVIEW",
+    "target_classification": "UNSCORED",
+    "outreach_status": "NOT_CONTACTED",
+    "notes": "Template row. Replace with real public target data."
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "version": "v1",
+  "scope": {
+    "geo": "USA",
+    "temporal_horizon": {
+      "primary": "short_term_0_6_months",
+      "allowed": ["short_term_0_6_months"]
+    },
+    "state_vs_change_weights": {
+      "absolute_state": 0.6,
+      "rate_of_change": 0.4
+    }
+  },
+  "optimization": {
+    "multi_objective_weights": {
+      "expected_value": 0.30,
+      "conversion_probability": 0.30,
+      "strategic_value": 0.25,
+      "risk_minimization": 0.15
+    },
+    "units_of_success": [
+      "dollars_per_lead",
+      "expected_irr",
+      "info_value_to_conversion"
+    ],
+    "false_positive_is_worse_than_false_negative": true,
+    "tolerances": {
+      "acceptable_false_positive_rate": 0.05,
+      "acceptable_false_negative_rate": 0.10
+    },
+    "allow_high_risk_high_reward": "yes_if_flagged_and_expected_value_high"
+  },
+  "determinism": {
+    "reproducible_exactly": true,
+    "auditable_post_hoc": true,
+    "legal_defensibility_required": true,
+    "human_override": {
+      "allowed": true,
+      "requires_explicit_justification": true,
+      "justification_logged": true,
+      "audit_trail_required": true
+    }
+  },
+  "missing_data_policy": {
+    "default": "hard_reject",
+    "note": "Hard reject applies to REQUIRED signals. Optional signals may reduce confidence only."
+  },
+  "signals": [
+    {
+      "key": "scores.umbraScore",
+      "label": "Umbra Score",
+      "entity_level": true,
+      "city_level": "derived_from_entities_avg",
+      "range": { "min": 0, "max": 100 },
+      "direction": "higher_is_better",
+      "required": true,
+      "missing_policy": "hard_reject",
+      "explainability": "approx_interpretable",
+      "notes": "Primary composite used in demo; city aggregates are mean(entity umb raScore)."
+    },
+    {
+      "key": "scores.founderScore",
+      "label": "Founder Score",
+      "entity_level": true,
+      "city_level": "derived_from_entities_avg_if_present",
+      "range": { "min": 0, "max": 100 },
+      "direction": "higher_is_better",
+      "required": false,
+      "missing_policy": "reduce_confidence_only",
+      "explainability": "approx_interpretable",
+      "notes": "Optional. Present in source but allowed null."
+    }
+  ],
+  "composition": {
+    "interaction_model": "multiplicative_with_soft_gates",
+    "explainability_requirement": "approx_interpretable",
+    "dominant_vertical_per_city": true,
+    "entity_inherits_city_macro_score": {
+      "enabled": true,
+      "mode": "full_inheritance_then_entity_adjustments",
+      "note": "In v1, city score comes from entity aggregation; later macro layer can modulate."
+    }
+  },
+  "outputs_required": {
+    "ranked_city_list": true,
+    "city_vertical_matrix": true,
+    "entity_lead_list": true,
+    "written_rationale_per_score": true,
+    "alerts_triggers": "optional_pending_spec"
+  }
+}

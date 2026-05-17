@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Nashville",
+    "gis": "https://data.nashville.gov/",
+    "open_data": "https://data.nashville.gov/",
+    "police": "https://www.nashville.gov/departments/police",
+    "fire": "https://www.nashville.gov/departments/fire",
+    "parks": "https://www.nashville.gov/departments/parks",
+    "permits": "https://www.nashville.gov/departments/codes",
+    "public_works": "https://www.nashville.gov/departments/transportation",
+    "schools": "https://www.mnps.org/",
+    "council": "https://www.nashville.gov/departments/council"
+  },
+  {
+    "city": "Memphis",
+    "gis": "https://data.memphistn.gov/",
+    "open_data": "https://data.memphistn.gov/",
+    "police": "https://www.memphispolice.org/",
+    "fire": "https://www.memphistn.gov/government/fire-services/",
+    "parks": "https://memphisparks.com/",
+    "permits": "https://www.memphistn.gov/government/construction-code-enforcement/",
+    "public_works": "https://www.memphistn.gov/government/public-works/",
+    "schools": "https://www.scsk12.org/",
+    "council": "https://memphiscitycouncil.com/"
+  },
+  {
+    "city": "Knoxville",
+    "gis": "https://knoxvilletn.gov/gis",
+    "open_data": "https://knoxvilletn.gov/",
+    "police": "https://knoxvilletn.gov/government/city_departments_offices/police_department",
+    "fire": "https://knoxvilletn.gov/government/city_departments_offices/fire_department",
+    "parks": "https://knoxvilletn.gov/government/city_departments_offices/parks_and_recreation",
+    "permits": "https://knoxvilletn.gov/government/city_departments_offices/plans_review_and_inspections",
+    "public_works": "https://knoxvilletn.gov/government/city_departments_offices/engineering",
+    "schools": "https://www.knoxschools.org/",
+    "council": "https://knoxvilletn.gov/government/city_council"
+  },
+  {
+    "city": "Chattanooga",
+    "gis": "https://gismaps.hamiltontn.gov/",
+    "open_data": "https://chattanooga.gov/",
+    "police": "https://chattanooga.gov/police-department",
+    "fire": "https://chattanooga.gov/fire-department",
+    "parks": "https://chattanooga.gov/parks",
+    "permits": "https://chattanooga.gov/economic-community-development/land-development-office",
+    "public_works": "https://chattanooga.gov/public-works",
+    "schools": "https://www.hcde.org/",
+    "council": "https://chattanooga.gov/city-council"
+  },
+  {
+    "city": "Clarksville",
+    "gis": "https://maps.cityofclarksville.com/",
+    "open_data": "https://www.cityofclarksville.com/",
+    "police": "https://www.cityofclarksville.com/186/Police-Department",
+    "fire": "https://www.cityofclarksville.com/184/Fire-Rescue",
+    "parks": "https://www.cityofclarksville.com/183/Parks-Recreation",
+    "permits": "https://www.cityofclarksville.com/208/Building-Code-Administration",
+    "public_works": "https://www.cityofclarksville.com/204/Street-Department",
+    "schools": "https://www.cmcss.net/",
+    "council": "https://www.cityofclarksville.com/153/City-Council"
+  }
+]

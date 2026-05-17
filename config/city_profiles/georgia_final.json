@@ -1,0 +1,14 @@
+﻿[
+  {
+    "city": "Atlanta",
+    "gis": "https://gis.atlantaga.gov/",
+    "open_data": "https://www.atlantaga.gov/government/departments/city-planning/office-of-zoning-development/open-data",
+    "police": "https://www.atlantapd.org/",
+    "fire": "https://www.atlantafirerescue.com/",
+    "parks": "https://www.atlantaga.gov/government/departments/parks-recreation",
+    "permits": "https://www.atlantaga.gov/government/departments/city-planning/office-of-buildings",
+    "public_works": "https://www.atlantaga.gov/government/departments/public-works",
+    "schools": "https://www.atlantapublicschools.us/",
+    "council": "https://citycouncil.atlantaga.gov/"
+  }
+]

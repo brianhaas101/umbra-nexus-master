@@ -1,0 +1,27 @@
+{
+    "version":  "black_dragon_miami_runtime_shell_v1",
+    "generated_at":  "2026-05-11T02:44:03.2892993Z",
+    "runtime":  {
+                    "runtime_id":  "black_dragon_miami_runtime",
+                    "active":  true,
+                    "state":  "Florida",
+                    "state_code":  "FL",
+                    "city":  "Miami",
+                    "city_id":  "city_miami_fl",
+                    "city_scope_only":  true,
+                    "statewide_scope_forbidden":  true,
+                    "multi_city_scope_forbidden":  true
+                },
+    "ingestion":  {
+                      "source_count":  0,
+                      "entities_loaded":  0,
+                      "quarantined_entities":  0
+                  },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

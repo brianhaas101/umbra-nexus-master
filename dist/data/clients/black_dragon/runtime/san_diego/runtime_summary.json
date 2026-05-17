@@ -1,0 +1,33 @@
+{
+    "version":  "black_dragon_san_diego_canonical_runtime_summary_v1",
+    "generated_at":  "2026-05-11T04:20:50.1415450Z",
+    "city":  {
+                 "city":  "San Diego",
+                 "folder":  "san_diego",
+                 "state":  "California",
+                 "state_code":  "CA",
+                 "city_id":  "city_san_diego_ca"
+             },
+    "canonical_runtime":  {
+                              "tier_1_structural":  true,
+                              "tier_2_intelligence_saturation_pending":  true,
+                              "legacy_assets_preserved":  true,
+                              "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego",
+                              "runtime_shell":  ".\\public\\data\\clients\\black_dragon\\runtime\\san_diego\\runtime_shell.json",
+                              "entities_runtime":  ".\\public\\data\\clients\\black_dragon\\runtime\\san_diego\\entities_runtime.json"
+                          },
+    "long_beach_equivalent_roles":  {
+                                        "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\audit\\batch_148_san_diego_runtime_merge_graph_audit.json",
+                                        "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\dossiers\\san_diego_runtime_dossiers.json",
+                                        "runtime_summary":  null,
+                                        "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\map_nodes\\san_diego_runtime_map_nodes.json",
+                                        "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\merged\\san_diego_merged_city_entities.json",
+                                        "relationship_graph":  ".\\public\\data\\clients\\black_dragon\\runtime\\san_diego\\relationship_graph.json"
+                                    },
+    "controls":  {
+                     "contact_allowed":  false,
+                     "runtime_mutation_allowed":  false,
+                     "outbound_authority":  "DISABLED",
+                     "manual_review_required":  true
+                 }
+}

@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:25.346Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+  "state_abbr": "NC",
+  "state_name": "North Carolina",
+  "source_type": "STATE_ACADEMY",
+  "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 130369,
+    "extracted_links": [
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/",
+        "label": "Law Enforcement Training"
+      },
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/",
+        "label": "Law Enforcement Training &amp; Standards"
+      },
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/",
+        "label": "Criminal Justice Education &#038; Training Standards"
+      },
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/contact/",
+        "label": "Staff Directory"
+      },
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/forms-and-publications/",
+        "label": "Forms &amp; Publications"
+      },
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/officer-certification-programs/",
+        "label": "Officer Certification Programs"
+      },
+      {
+        "href": "https://ncdoj.gov/training-evaluations-for-out-of-state-military-and-federal-law-enforcement-transfers/",
+        "label": "Training Evaluations for Out of State, Military, and Federal Law Enforcement Transfers"
+      },
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/training-certification-programs/",
+        "label": "Training Certification Programs"
+      },
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/professional-certificate-program/",
+        "label": "Professional Certificate Program"
+      },
+      {
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/investigations/",
+        "label": "Investigations"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2"
+}

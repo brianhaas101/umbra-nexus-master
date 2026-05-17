@@ -1,0 +1,764 @@
+{
+    "batch":  "252",
+    "version":  "black_dragon_san_antonio_external_source_acquisition_queue_v1",
+    "generated_at":  "2026-05-11T07:39:36.2551849Z",
+    "city":  "San Antonio",
+    "folder":  "san_antonio",
+    "state":  "Texas",
+    "state_code":  "TX",
+    "city_id":  "city_san_antonio_tx",
+    "acquisition_lanes":  [
+                              {
+                                  "category":  "city_government_directory",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas city_government_directory public directory",
+                                                              "San Antonio city_government_directory organizations",
+                                                              "San Antonio city_government_directory official source",
+                                                              "San Antonio city_government_directory open data",
+                                                              "San Antonio city_government_directory registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "business_registry",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas business_registry public directory",
+                                                              "San Antonio business_registry organizations",
+                                                              "San Antonio business_registry official source",
+                                                              "San Antonio business_registry open data",
+                                                              "San Antonio business_registry registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "chamber_of_commerce",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas chamber_of_commerce public directory",
+                                                              "San Antonio chamber_of_commerce organizations",
+                                                              "San Antonio chamber_of_commerce official source",
+                                                              "San Antonio chamber_of_commerce open data",
+                                                              "San Antonio chamber_of_commerce registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_media_directory",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas local_media_directory public directory",
+                                                              "San Antonio local_media_directory organizations",
+                                                              "San Antonio local_media_directory official source",
+                                                              "San Antonio local_media_directory open data",
+                                                              "San Antonio local_media_directory registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "education_institutions",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas education_institutions public directory",
+                                                              "San Antonio education_institutions organizations",
+                                                              "San Antonio education_institutions official source",
+                                                              "San Antonio education_institutions open data",
+                                                              "San Antonio education_institutions registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "community_organizations",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas community_organizations public directory",
+                                                              "San Antonio community_organizations organizations",
+                                                              "San Antonio community_organizations official source",
+                                                              "San Antonio community_organizations open data",
+                                                              "San Antonio community_organizations registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "venue_and_events",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas venue_and_events public directory",
+                                                              "San Antonio venue_and_events organizations",
+                                                              "San Antonio venue_and_events official source",
+                                                              "San Antonio venue_and_events open data",
+                                                              "San Antonio venue_and_events registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "retail_and_dealers",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas retail_and_dealers public directory",
+                                                              "San Antonio retail_and_dealers organizations",
+                                                              "San Antonio retail_and_dealers official source",
+                                                              "San Antonio retail_and_dealers open data",
+                                                              "San Antonio retail_and_dealers registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "clubs_and_associations",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas clubs_and_associations public directory",
+                                                              "San Antonio clubs_and_associations organizations",
+                                                              "San Antonio clubs_and_associations official source",
+                                                              "San Antonio clubs_and_associations open data",
+                                                              "San Antonio clubs_and_associations registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "geospatial_open_data",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas geospatial_open_data public directory",
+                                                              "San Antonio geospatial_open_data organizations",
+                                                              "San Antonio geospatial_open_data official source",
+                                                              "San Antonio geospatial_open_data open data",
+                                                              "San Antonio geospatial_open_data registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "transit_and_location_data",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas transit_and_location_data public directory",
+                                                              "San Antonio transit_and_location_data organizations",
+                                                              "San Antonio transit_and_location_data official source",
+                                                              "San Antonio transit_and_location_data open data",
+                                                              "San Antonio transit_and_location_data registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "public_safety_and_civic_resources",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas public_safety_and_civic_resources public directory",
+                                                              "San Antonio public_safety_and_civic_resources organizations",
+                                                              "San Antonio public_safety_and_civic_resources official source",
+                                                              "San Antonio public_safety_and_civic_resources open data",
+                                                              "San Antonio public_safety_and_civic_resources registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "tourism_and_visitor_bureau",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas tourism_and_visitor_bureau public directory",
+                                                              "San Antonio tourism_and_visitor_bureau organizations",
+                                                              "San Antonio tourism_and_visitor_bureau official source",
+                                                              "San Antonio tourism_and_visitor_bureau open data",
+                                                              "San Antonio tourism_and_visitor_bureau registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "neighborhood_districts",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas neighborhood_districts public directory",
+                                                              "San Antonio neighborhood_districts organizations",
+                                                              "San Antonio neighborhood_districts official source",
+                                                              "San Antonio neighborhood_districts open data",
+                                                              "San Antonio neighborhood_districts registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_nonprofits",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas local_nonprofits public directory",
+                                                              "San Antonio local_nonprofits organizations",
+                                                              "San Antonio local_nonprofits official source",
+                                                              "San Antonio local_nonprofits open data",
+                                                              "San Antonio local_nonprofits registry"
+                                                          ],
+                                  "acceptance_rules":  {
+                                                           "public_source_required":  true,
+                                                           "city_or_service_area_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "category_match_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "source_url_required":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                                  "output_contract":  {
+                                                          "required_fields":  [
+                                                                                  "source_url",
+                                                                                  "source_title",
+                                                                                  "source_category",
+                                                                                  "city",
+                                                                                  "state",
+                                                                                  "organization_name_or_dataset_name",
+                                                                                  "evidence_text",
+                                                                                  "retrieved_at",
+                                                                                  "manual_review_status"
+                                                                              ],
+                                                          "optional_fields":  [
+                                                                                  "address",
+                                                                                  "latitude",
+                                                                                  "longitude",
+                                                                                  "website",
+                                                                                  "public_phone",
+                                                                                  "public_email",
+                                                                                  "source_notes"
+                                                                              ]
+                                                      },
+                                  "status":  "READY_FOR_EXTERNAL_SOURCE_COLLECTION"
+                              }
+                          ],
+    "intake_policy":  {
+                          "no_scraping_executed_by_this_batch":  true,
+                          "no_runtime_promotion":  true,
+                          "no_contact_enablement":  true,
+                          "no_placeholder_entities":  true,
+                          "no_false_targets":  true,
+                          "public_source_required":  true,
+                          "provenance_required":  true,
+                          "manual_review_required":  true
+                      },
+    "expected_downstream_artifacts":  {
+                                          "raw_intake_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\external_source_intake.raw.json",
+                                          "reviewed_intake_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\external_source_intake.reviewed.json",
+                                          "import_manifest":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\external_source_import_manifest.json",
+                                          "rejected_sources":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\external_source_rejections.json"
+                                      },
+    "status":  "EXTERNAL_SOURCE_ACQUISITION_QUEUE_READY"
+}

@@ -1,0 +1,14 @@
+{
+  "version": "black_dragon_staged_contact_routes_v1_batch_096",
+  "generated_at": "2026-05-10T16:33:32.810Z",
+  "client_id": "black_dragon",
+  "policy": "ONLY_REAL_VALID_CONTACT_ROUTES_CAN_STAGE",
+  "totals": {
+    "validated_sources": 0,
+    "staged_contacts": 0,
+    "blocked_contacts": 0,
+    "contact_ready": 0,
+    "outreach_allowed": 0
+  },
+  "staged_contact_routes": []
+}

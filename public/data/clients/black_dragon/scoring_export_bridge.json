@@ -1,0 +1,182 @@
+{
+  "version": "black_dragon_scoring_export_bridge_v1",
+  "generated_at": "2026-05-06T02:09:03.454Z",
+  "scores": [
+    {
+      "entity_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_MESA_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_MESA_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_AZ_YUMA_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_AZ_YUMA_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    },
+    {
+      "entity_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "component_name": "verified_contact_path",
+      "component_score": 90,
+      "weight": 0.6,
+      "weighted_score": 54
+    },
+    {
+      "entity_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "component_name": "training_relevance",
+      "component_score": 85,
+      "weight": 0.8,
+      "weighted_score": 68
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+    "batch":  "261",
+    "version":  "black_dragon_city_local_reviewed_intake_worksheet_export_v1",
+    "generated_at":  "2026-05-12T00:54:23.0752719Z",
+    "selected_cities":  [
+                            "new_orleans",
+                            "nashville",
+                            "new_york_city",
+                            "seattle",
+                            "san_antonio"
+                        ],
+    "city_results":  [
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "total_rows":  15,
+                             "csv_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_orleans\\city_local_reviewed_source_collection.csv",
+                             "status":  "PASS_CITY_LOCAL_WORKSHEET_EXPORTED"
+                         },
+                         {
+                             "city":  "Nashville",
+                             "folder":  "nashville",
+                             "total_rows":  15,
+                             "csv_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\nashville\\city_local_reviewed_source_collection.csv",
+                             "status":  "PASS_CITY_LOCAL_WORKSHEET_EXPORTED"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "total_rows":  15,
+                             "csv_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\city_local_reviewed_source_collection.csv",
+                             "status":  "PASS_CITY_LOCAL_WORKSHEET_EXPORTED"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "total_rows":  15,
+                             "csv_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\city_local_reviewed_source_collection.csv",
+                             "status":  "PASS_CITY_LOCAL_WORKSHEET_EXPORTED"
+                         },
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "total_rows":  15,
+                             "csv_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\city_local_reviewed_source_collection.csv",
+                             "status":  "PASS_CITY_LOCAL_WORKSHEET_EXPORTED"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  5,
+                    "failed_count":  0,
+                    "total_rows":  75
+                },
+    "hardlocks":  {
+                      "city_local_sources_only":  true,
+                      "no_cross_city_contamination":  true,
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_CITY_LOCAL_REVIEWED_WORKSHEETS_EXPORTED"
+}

@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Las Vegas",
+    "gis": "https://opendata-lasvegas.opendata.arcgis.com/",
+    "open_data": "https://opendata.lasvegasnevada.gov/",
+    "police": "https://www.lvmpd.com/",
+    "fire": "https://www.lasvegasnevada.gov/Government/Departments/Fire-Rescue",
+    "parks": "https://www.lasvegasnevada.gov/Government/Departments/Parks-Recreation",
+    "permits": "https://www.lasvegasnevada.gov/Government/Departments/Building-Safety",
+    "public_works": "https://www.lasvegasnevada.gov/Government/Departments/Public-Works",
+    "schools": "https://www.ccsd.net/",
+    "council": "https://www.lasvegasnevada.gov/Government/Mayor-City-Council"
+  },
+  {
+    "city": "Reno",
+    "gis": "https://gis.reno.gov/",
+    "open_data": "https://www.reno.gov/",
+    "police": "https://www.reno.gov/government/departments/police",
+    "fire": "https://www.reno.gov/government/departments/fire",
+    "parks": "https://www.reno.gov/government/departments/parks-recreation-community-services",
+    "permits": "https://www.reno.gov/government/departments/community-development",
+    "public_works": "https://www.reno.gov/government/departments/public-works",
+    "schools": "https://www.washoeschools.net/",
+    "council": "https://www.reno.gov/government/city-council"
+  },
+  {
+    "city": "Henderson",
+    "gis": "https://maps.cityofhenderson.com/",
+    "open_data": "https://www.cityofhenderson.com/",
+    "police": "https://www.cityofhenderson.com/government/departments/police",
+    "fire": "https://www.cityofhenderson.com/government/departments/fire",
+    "parks": "https://www.cityofhenderson.com/government/departments/parks-and-recreation",
+    "permits": "https://www.cityofhenderson.com/government/departments/community-development-services",
+    "public_works": "https://www.cityofhenderson.com/government/departments/public-works",
+    "schools": "https://www.ccsd.net/",
+    "council": "https://www.cityofhenderson.com/government/mayor-and-council"
+  },
+  {
+    "city": "North Las Vegas",
+    "gis": "https://www.cityofnorthlasvegas.com/government/departments/gis",
+    "open_data": "https://www.cityofnorthlasvegas.com/",
+    "police": "https://www.cityofnorthlasvegas.com/government/departments/police",
+    "fire": "https://www.cityofnorthlasvegas.com/government/departments/fire",
+    "parks": "https://www.cityofnorthlasvegas.com/government/departments/parks-and-recreation",
+    "permits": "https://www.cityofnorthlasvegas.com/government/departments/land-development-and-community-services",
+    "public_works": "https://www.cityofnorthlasvegas.com/government/departments/public-works",
+    "schools": "https://www.ccsd.net/",
+    "council": "https://www.cityofnorthlasvegas.com/government/mayor-and-council"
+  },
+  {
+    "city": "Sparks",
+    "gis": "https://cityofsparks.us/resources/resource/gis-maps/",
+    "open_data": "https://cityofsparks.us/",
+    "police": "https://cityofsparks.us/department/police/",
+    "fire": "https://cityofsparks.us/department/fire/",
+    "parks": "https://cityofsparks.us/department/parks-recreation/",
+    "permits": "https://cityofsparks.us/department/community-services/",
+    "public_works": "https://cityofsparks.us/department/community-services/",
+    "schools": "https://www.washoeschools.net/",
+    "council": "https://cityofsparks.us/government/city-council/"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "version": "nexus_live_raw_snapshot_v1",
+  "captured_at": "2026-05-08T03:16:45.970Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_011_COPS_OFFICE_PROGRAMS",
+  "connector_id": "L01_LIVE_CONNECTOR_011_L01_SRC_011_COPS_OFFICE_PROGRAMS",
+  "source_name": "COPS Office Programs",
+  "acquisition_mode": "public_html",
+  "endpoint": "https://cops.usdoj.gov/grants",
+  "request": {
+    "method": "GET",
+    "purpose": "cops_office_grants_program_live_page_fetch"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 68658,
+    "extracted_links": [
+      {
+        "href": "/sutinaward",
+        "label": "The L. Anthony Sutin Award for Innovative Law Enforcement and Community Partnerships"
+      },
+      {
+        "href": "/grants",
+        "label": "Grants"
+      },
+      {
+        "href": "/notice-of-funding-opportunities-finder",
+        "label": "Notice of Funding Opportunities Finder"
+      },
+      {
+        "href": "/grants",
+        "label": "Funding Opportunities"
+      },
+      {
+        "href": "/programdocuments",
+        "label": "Program Documents"
+      },
+      {
+        "href": "/chp-award",
+        "label": "COPS Hiring Program (CHP)"
+      },
+      {
+        "href": "/pdf/2025AwardDocs/chp/award_list.pdf",
+        "label": "Award List (CHP)"
+      },
+      {
+        "href": "/pdf/2025AwardDocs/chp/aom.pdf",
+        "label": "Award Owner's Manual"
+      },
+      {
+        "href": "/pdf/2025AwardDocs/chp/post_award_fact_sheet.pdf",
+        "label": "Post-Award Fact Sheet"
+      },
+      {
+        "href": "/ctas-award",
+        "label": "Coordinated Tribal Assistance Solicitation (CTAS)"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "source_hash": "999625bfb00f8301bf63ddee80373931e94f5660c9fdc64ac31a967f1933f2f4"
+}

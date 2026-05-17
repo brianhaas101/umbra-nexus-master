@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Boise",
+    "gis": "https://www.cityofboise.org/departments/information-technology/gis/",
+    "open_data": "https://www.cityofboise.org/",
+    "police": "https://www.cityofboise.org/departments/police/",
+    "fire": "https://www.cityofboise.org/departments/fire/",
+    "parks": "https://www.cityofboise.org/departments/parks-and-recreation/",
+    "permits": "https://www.cityofboise.org/departments/planning-and-development-services/",
+    "public_works": "https://www.cityofboise.org/departments/public-works/",
+    "schools": "https://www.boiseschools.org/",
+    "council": "https://www.cityofboise.org/departments/mayor/city-council/"
+  },
+  {
+    "city": "Meridian",
+    "gis": "https://meridiancity.org/community-development/gis/",
+    "open_data": "https://meridiancity.org/",
+    "police": "https://meridiancity.org/police/",
+    "fire": "https://meridiancity.org/fire/",
+    "parks": "https://meridiancity.org/parks/",
+    "permits": "https://meridiancity.org/community-development/",
+    "public_works": "https://meridiancity.org/public-works/",
+    "schools": "https://www.westada.org/",
+    "council": "https://meridiancity.org/mayor-city-council/"
+  },
+  {
+    "city": "Nampa",
+    "gis": "https://www.cityofnampa.us/1209/GIS",
+    "open_data": "https://www.cityofnampa.us/",
+    "police": "https://www.cityofnampa.us/159/Police",
+    "fire": "https://www.cityofnampa.us/150/Fire",
+    "parks": "https://www.cityofnampa.us/157/Parks-Recreation",
+    "permits": "https://www.cityofnampa.us/138/Building",
+    "public_works": "https://www.cityofnampa.us/146/Public-Works",
+    "schools": "https://www.nsd131.org/",
+    "council": "https://www.cityofnampa.us/122/City-Council"
+  },
+  {
+    "city": "Idaho Falls",
+    "gis": "https://www.idahofallsidaho.gov/518/GIS",
+    "open_data": "https://www.idahofallsidaho.gov/",
+    "police": "https://www.idahofallsidaho.gov/331/Police-Department",
+    "fire": "https://www.idahofallsidaho.gov/271/Fire-Department",
+    "parks": "https://www.idahofallsidaho.gov/275/Parks-Recreation",
+    "permits": "https://www.idahofallsidaho.gov/233/Building-Division",
+    "public_works": "https://www.idahofallsidaho.gov/233/Public-Works",
+    "schools": "https://www.ifschools.org/",
+    "council": "https://www.idahofallsidaho.gov/364/City-Council"
+  },
+  {
+    "city": "Pocatello",
+    "gis": "https://www.pocatello.gov/408/GIS",
+    "open_data": "https://www.pocatello.gov/",
+    "police": "https://www.pocatello.gov/370/Police",
+    "fire": "https://www.pocatello.gov/190/Fire",
+    "parks": "https://www.pocatello.gov/281/Parks-Recreation",
+    "permits": "https://www.pocatello.gov/184/Building",
+    "public_works": "https://www.pocatello.gov/372/Public-Works",
+    "schools": "https://www.sd25.us/",
+    "council": "https://www.pocatello.gov/238/City-Council"
+  }
+]

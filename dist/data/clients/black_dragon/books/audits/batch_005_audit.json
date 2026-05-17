@@ -1,0 +1,22 @@
+{
+  "version": "black_dragon_books_batch_005_audit_v1",
+  "generated_at": "2026-05-09T02:05:32.327Z",
+  "totals": {
+    "raw": 1,
+    "reviewed": 1,
+    "approved": 1,
+    "rejected": 0
+  },
+  "safety": {
+    "private_group_access_blocked": true,
+    "login_required_sources_blocked": true,
+    "fabricated_contacts_blocked": true,
+    "public_sources_only": true
+  },
+  "integrity": {
+    "reviewed_equals_raw": true,
+    "approved_plus_rejected_equals_reviewed": true,
+    "invalid_approved": 0
+  },
+  "pass": true
+}

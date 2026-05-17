@@ -1,0 +1,32 @@
+{
+  "version": "umbra_batch_074_distribution_registry_audit_v1",
+  "generated_at": "2026-05-10T01:02:11.406Z",
+  "registry_integrity": {
+    "source_category_count": 8,
+    "has_harley": true,
+    "has_indian": true,
+    "has_independent": true,
+    "has_custom_shop": true,
+    "has_performance_builder": true,
+    "has_parts_distributor": true,
+    "has_biker_apparel": true,
+    "has_motorcycle_retail": true
+  },
+  "normalization_integrity": {
+    "required_fields": true,
+    "optional_fields": true,
+    "classification_rules": true
+  },
+  "scoring_integrity": {
+    "institutional_weights": true,
+    "propagation_multipliers": true,
+    "outreach_safety_locked": true
+  },
+  "audit_rule_integrity": {
+    "minimum_categories": true,
+    "public_source_required": true,
+    "verified_contact_required": true,
+    "no_generated_contacts": true
+  },
+  "pass": true
+}

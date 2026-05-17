@@ -1,0 +1,2665 @@
+{
+  "version": "black_dragon_long_beach_city_dossier_stack_v1",
+  "generated_at": "2026-05-10T19:12:15.374Z",
+  "city": "Long Beach",
+  "state": "CA",
+  "total_dossiers": 63,
+  "dossiers": [
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00001",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00011",
+      "city_rank": 1,
+      "organization_name": "Born-Free Motorcycle Show",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_SHOW",
+        "MOTORCYCLE_EVENT_VENDOR_NETWORK",
+        "EVENT_DIGITAL_AUDIENCE",
+        "EVENT_MEDIA_NETWORK"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA",
+        "BULK_ORDER",
+        "ONLINE_DISTRIBUTION",
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 4,
+      "priority_tier": "HOT",
+      "best_score": 9.52,
+      "max_book_sale_relevance": 9.5,
+      "recommended_conversion_paths": [
+        "EVENT_TABLE_AND_VENDOR_INSERTION"
+      ],
+      "recommended_actions": [
+        "Vendor booth, flyer handouts, QR code distribution, creator networking"
+      ],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0001",
+          "organization_name": "Born-Free Motorcycle Show",
+          "organization_type": "MOTORCYCLE_SHOW",
+          "composite_rank_score": 9.52,
+          "priority_tier": "HOT",
+          "source_url": "https://bornfreeshow.com/",
+          "rank_reason": "One of the most influential custom motorcycle culture events in Southern California."
+        },
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0007",
+          "organization_name": "Born-Free Motorcycle Show Vendor Network",
+          "organization_type": "MOTORCYCLE_EVENT_VENDOR_NETWORK",
+          "composite_rank_score": 8.54,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "High-density biker audience and vendor ecosystem with event merchandising potential."
+        },
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0004",
+          "organization_name": "Born-Free Motorcycle Show Online Audience",
+          "organization_type": "EVENT_DIGITAL_AUDIENCE",
+          "composite_rank_score": 9.19,
+          "priority_tier": "HOT",
+          "source_url": "https://bornfreeshow.com/",
+          "rank_reason": "Event brand with strong digital audience and custom motorcycle culture relevance."
+        },
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0001",
+          "organization_name": "Born-Free Motorcycle Show",
+          "organization_type": "EVENT_MEDIA_NETWORK",
+          "composite_rank_score": 9.45,
+          "priority_tier": "HOT",
+          "source_url": null,
+          "rank_reason": "High-density biker audience with merch/vendor culture."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00002",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00001",
+      "city_rank": 2,
+      "organization_name": "Combat Veterans Motorcycle Association Chapter 33-12",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "VETERAN_RIDING_ASSOCIATION",
+        "VETERAN_CHAPTER_LEADERSHIP_NETWORK",
+        "VETERAN_CHAPTER_NETWORK"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG",
+        "BULK_ORDER",
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 3,
+      "priority_tier": "HOT",
+      "best_score": 9.34,
+      "max_book_sale_relevance": 9.5,
+      "recommended_conversion_paths": [
+        "BULK_ORDER_AND_CHAPTER_REFERRAL"
+      ],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW",
+        "Group orders, chapter-level referrals, leadership outreach"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0006",
+          "organization_name": "Combat Veterans Motorcycle Association Chapter 33-12",
+          "organization_type": "VETERAN_RIDING_ASSOCIATION",
+          "composite_rank_score": 8.88,
+          "priority_tier": "HOT",
+          "source_url": "https://www.longbeachgives.org/organization/Combat-Veterans-Motorcycle-Association-Chapter-33-12",
+          "rank_reason": "Veteran motorcycle association with strong rider identity and community influence."
+        },
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0001",
+          "organization_name": "Combat Veterans Motorcycle Association Chapter 33-12 Leadership",
+          "organization_type": "VETERAN_CHAPTER_LEADERSHIP_NETWORK",
+          "composite_rank_score": 9.34,
+          "priority_tier": "HOT",
+          "source_url": null,
+          "rank_reason": "Strong veteran/chapter leadership structure with high group-purchase potential."
+        },
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0005",
+          "organization_name": "Combat Veterans Motorcycle Association Chapter 33-12",
+          "organization_type": "VETERAN_CHAPTER_NETWORK",
+          "composite_rank_score": 9.26,
+          "priority_tier": "HOT",
+          "source_url": null,
+          "rank_reason": "Strong veteran structure and chapter/community influence."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00003",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00021",
+      "city_rank": 3,
+      "organization_name": "Harley-Davidson of Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_DEALERSHIP",
+        "DEALERSHIP"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL",
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 2,
+      "priority_tier": "HOT",
+      "best_score": 9.31,
+      "max_book_sale_relevance": 9,
+      "recommended_conversion_paths": [
+        "PHYSICAL_BOOK_PLACEMENT"
+      ],
+      "recommended_actions": [
+        "Front-counter placement, rider-event integration, flyer distribution"
+      ],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0002",
+          "organization_name": "Harley-Davidson of Long Beach",
+          "organization_type": "MOTORCYCLE_DEALERSHIP",
+          "composite_rank_score": 9.31,
+          "priority_tier": "HOT",
+          "source_url": null,
+          "rank_reason": "Strong biker culture dealership with recurring rider traffic."
+        },
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0004",
+          "organization_name": "Harley-Davidson of Long Beach",
+          "organization_type": "DEALERSHIP",
+          "composite_rank_score": 8.76,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "High rider foot traffic and biker culture concentration."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00004",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00015",
+      "city_rank": 4,
+      "organization_name": "Biker Trash Network",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_MEDIA",
+        "BIKER_DIGITAL_MEDIA",
+        "DIGITAL_MEDIA"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA",
+        "ONLINE_DISTRIBUTION",
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 3,
+      "priority_tier": "HOT",
+      "best_score": 9.2,
+      "max_book_sale_relevance": 9.25,
+      "recommended_conversion_paths": [
+        "DIGITAL_MEDIA_FEATURE"
+      ],
+      "recommended_actions": [
+        "Feature article, podcast appearance, review copy, social repost"
+      ],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0010",
+          "organization_name": "Biker Trash Network",
+          "organization_type": "MOTORCYCLE_MEDIA",
+          "composite_rank_score": 8.8,
+          "priority_tier": "WARM",
+          "source_url": "https://bikertrashnetwork.com/",
+          "rank_reason": "Independent biker culture media network aligned with MC storytelling audiences."
+        },
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0001",
+          "organization_name": "Biker Trash Network",
+          "organization_type": "BIKER_DIGITAL_MEDIA",
+          "composite_rank_score": 9.06,
+          "priority_tier": "HOT",
+          "source_url": "https://bikertrashnetwork.com/",
+          "rank_reason": "Direct biker-culture media channel aligned with book audience and online propagation."
+        },
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0002",
+          "organization_name": "Biker Trash Network",
+          "organization_type": "DIGITAL_MEDIA",
+          "composite_rank_score": 9.2,
+          "priority_tier": "HOT",
+          "source_url": null,
+          "rank_reason": "Direct biker audience alignment and strong online reach."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00005",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00012",
+      "city_rank": 5,
+      "organization_name": "Hot Bike Magazine",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_MEDIA",
+        "MOTORCYCLE_DIGITAL_PUBLICATION",
+        "DIGITAL_PUBLICATION"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA",
+        "ONLINE_DISTRIBUTION",
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 3,
+      "priority_tier": "HOT",
+      "best_score": 9.08,
+      "max_book_sale_relevance": 9,
+      "recommended_conversion_paths": [
+        "MAGAZINE_EDITORIAL_PLACEMENT"
+      ],
+      "recommended_actions": [
+        "Editorial pitch, feature article, review distribution"
+      ],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0004",
+          "organization_name": "Hot Bike Magazine",
+          "organization_type": "MOTORCYCLE_MEDIA",
+          "composite_rank_score": 9.08,
+          "priority_tier": "HOT",
+          "source_url": "https://hotbike.com/",
+          "rank_reason": "Established custom motorcycle media publication with biker culture audience penetration."
+        },
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0003",
+          "organization_name": "Hot Bike Magazine Digital",
+          "organization_type": "MOTORCYCLE_DIGITAL_PUBLICATION",
+          "composite_rank_score": 9.06,
+          "priority_tier": "HOT",
+          "source_url": "https://hotbike.com/",
+          "rank_reason": "Established digital motorcycle publication with custom-bike audience reach."
+        },
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0003",
+          "organization_name": "Hot Bike Magazine",
+          "organization_type": "DIGITAL_PUBLICATION",
+          "composite_rank_score": 9.06,
+          "priority_tier": "HOT",
+          "source_url": null,
+          "rank_reason": "Large custom-bike readership and strong culture overlap."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00006",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00022",
+      "city_rank": 6,
+      "organization_name": "Roland Sands Design",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "CUSTOM_MOTORCYCLE_BRAND"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "HOT",
+      "best_score": 9.04,
+      "max_book_sale_relevance": 8.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0004",
+          "organization_name": "Roland Sands Design",
+          "organization_type": "CUSTOM_MOTORCYCLE_BRAND",
+          "composite_rank_score": 9.04,
+          "priority_tier": "HOT",
+          "source_url": null,
+          "rank_reason": "High influence custom motorcycle culture brand."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00007",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00013",
+      "city_rank": 7,
+      "organization_name": "Cycle Source Magazine",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_MEDIA",
+        "MOTORCYCLE_MEDIA_DISTRIBUTION",
+        "MOTORCYCLE_DIGITAL_PUBLICATION"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA",
+        "BULK_ORDER",
+        "ONLINE_DISTRIBUTION",
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 4,
+      "priority_tier": "HOT",
+      "best_score": 8.99,
+      "max_book_sale_relevance": 8.75,
+      "recommended_conversion_paths": [
+        "MEDIA_REVIEW_AND_REPOST"
+      ],
+      "recommended_actions": [
+        "Book review, editorial inclusion, digital reposting"
+      ],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0005",
+          "organization_name": "Cycle Source Magazine",
+          "organization_type": "MOTORCYCLE_MEDIA",
+          "composite_rank_score": 8.99,
+          "priority_tier": "WARM",
+          "source_url": "https://cyclesource.com/",
+          "rank_reason": "Motorcycle culture magazine deeply connected to V-twin and biker audiences."
+        },
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0010",
+          "organization_name": "Cycle Source Magazine Distribution Network",
+          "organization_type": "MOTORCYCLE_MEDIA_DISTRIBUTION",
+          "composite_rank_score": 8.5,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Motorcycle media ecosystem with audience distribution leverage."
+        },
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0002",
+          "organization_name": "Cycle Source Digital",
+          "organization_type": "MOTORCYCLE_DIGITAL_PUBLICATION",
+          "composite_rank_score": 8.94,
+          "priority_tier": "HOT",
+          "source_url": "https://cyclesource.com/",
+          "rank_reason": "Motorcycle culture publication with digital reach and audience trust."
+        },
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0007",
+          "organization_name": "Cycle Source Magazine",
+          "organization_type": "MOTORCYCLE_MEDIA",
+          "composite_rank_score": 8.81,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Established motorcycle publication with trusted readership."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00008",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00014",
+      "city_rank": 8,
+      "organization_name": "IMS Outdoors Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_EXPO"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "HOT",
+      "best_score": 8.95,
+      "max_book_sale_relevance": 8.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0002",
+          "organization_name": "IMS Outdoors Long Beach",
+          "organization_type": "MOTORCYCLE_EXPO",
+          "composite_rank_score": 8.95,
+          "priority_tier": "WARM",
+          "source_url": "https://motorcycleshows.com/",
+          "rank_reason": "Major motorcycle industry and rider exposure event network."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00009",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00031",
+      "city_rank": 9,
+      "organization_name": "Southern California Motorcycling Association",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_ASSOCIATION",
+        "RIDING_ASSOCIATION_LEADERSHIP"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION",
+        "BULK_ORDER"
+      ],
+      "source_layer_count": 2,
+      "priority_tier": "HOT",
+      "best_score": 8.84,
+      "max_book_sale_relevance": 9,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0002",
+          "organization_name": "Southern California Motorcycling Association",
+          "organization_type": "MOTORCYCLE_ASSOCIATION",
+          "composite_rank_score": 8.53,
+          "priority_tier": "WARM",
+          "source_url": "https://sc-ma.com/",
+          "rank_reason": "Long-running Southern California ride association with affiliate and event network relevance."
+        },
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0002",
+          "organization_name": "Southern California Motorcycling Association Leadership",
+          "organization_type": "RIDING_ASSOCIATION_LEADERSHIP",
+          "composite_rank_score": 8.84,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Structured riding association with chapter/community distribution potential."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00010",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00050",
+      "city_rank": 10,
+      "organization_name": "Warrior Brotherhood MC Leadership",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "VETERAN_MC_LEADERSHIP"
+      ],
+      "source_layers": [
+        "BULK_ORDER"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "HOT",
+      "best_score": 8.82,
+      "max_book_sale_relevance": 9,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0004",
+          "organization_name": "Warrior Brotherhood MC Leadership",
+          "organization_type": "VETERAN_MC_LEADERSHIP",
+          "composite_rank_score": 8.82,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Veteran motorcycle club with leadership hierarchy and community influence."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00011",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00061",
+      "city_rank": 11,
+      "organization_name": "Bike Shed Moto Co",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "COMMUNITY_VENUE"
+      ],
+      "source_layers": [
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "HOT",
+      "best_score": 8.76,
+      "max_book_sale_relevance": 8.75,
+      "recommended_conversion_paths": [
+        "COMMUNITY_EVENT_PARTNERSHIP"
+      ],
+      "recommended_actions": [
+        "Book-signing event, meetup integration, influencer visibility"
+      ],
+      "source_records": [
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0006",
+          "organization_name": "Bike Shed Moto Co",
+          "organization_type": "COMMUNITY_VENUE",
+          "composite_rank_score": 8.76,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Motorcycle community venue with recurring rider aggregation."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00012",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00055",
+      "city_rank": 12,
+      "organization_name": "Bike Shed Moto Online Community",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_LIFESTYLE_CONTENT_NETWORK"
+      ],
+      "source_layers": [
+        "ONLINE_DISTRIBUTION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.69,
+      "max_book_sale_relevance": 8.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0009",
+          "organization_name": "Bike Shed Moto Online Community",
+          "organization_type": "MOTORCYCLE_LIFESTYLE_CONTENT_NETWORK",
+          "composite_rank_score": 8.69,
+          "priority_tier": "WARM",
+          "source_url": "https://bikeshedmoto.com/",
+          "rank_reason": "Motorcycle lifestyle/community platform with content, events, and retail crossover."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00013",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00034",
+      "city_rank": 13,
+      "organization_name": "Patriot Guard Riders",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "VETERAN_PUBLIC_SERVICE_RIDER_NETWORK",
+        "VETERAN_RIDER_NETWORK"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION",
+        "BULK_ORDER"
+      ],
+      "source_layer_count": 2,
+      "priority_tier": "WARM",
+      "best_score": 8.65,
+      "max_book_sale_relevance": 8.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0003",
+          "organization_name": "Patriot Guard Riders",
+          "organization_type": "VETERAN_PUBLIC_SERVICE_RIDER_NETWORK",
+          "composite_rank_score": 8.22,
+          "priority_tier": "WARM",
+          "source_url": "https://patriotguard.org/",
+          "rank_reason": "Public veteran and first-responder rider network with strong civic respect and rider community reach."
+        },
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0003",
+          "organization_name": "Patriot Guard Riders California",
+          "organization_type": "VETERAN_RIDER_NETWORK",
+          "composite_rank_score": 8.65,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Mission-oriented rider organization with strong group/community structure."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00014",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00023",
+      "city_rank": 14,
+      "organization_name": "Long Beach BMW Motorcycles",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_DEALERSHIP"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.63,
+      "max_book_sale_relevance": 8.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0001",
+          "organization_name": "Long Beach BMW Motorcycles",
+          "organization_type": "MOTORCYCLE_DEALERSHIP",
+          "composite_rank_score": 8.63,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Major motorcycle dealership and rider congregation point."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00015",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00002",
+      "city_rank": 15,
+      "organization_name": "Long Beach BMW Motorcycles Local Riding Groups",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_DEALERSHIP_COMMUNITY_HUB"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.55,
+      "max_book_sale_relevance": 8.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0005",
+          "organization_name": "Long Beach BMW Motorcycles Local Riding Groups",
+          "organization_type": "MOTORCYCLE_DEALERSHIP_COMMUNITY_HUB",
+          "composite_rank_score": 8.55,
+          "priority_tier": "WARM",
+          "source_url": "https://www.longbeachbmwmotorcycles.com/local-riding-groups/",
+          "rank_reason": "Direct rider-community hub with local rides/events; strong book-sales audience relevance."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00016",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00003",
+      "city_rank": 16,
+      "organization_name": "Huntington Beach Harley-Davidson Events",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_DEALERSHIP_EVENT_HUB"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.55,
+      "max_book_sale_relevance": 8.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0009",
+          "organization_name": "Huntington Beach Harley-Davidson Events",
+          "organization_type": "MOTORCYCLE_DEALERSHIP_EVENT_HUB",
+          "composite_rank_score": 8.55,
+          "priority_tier": "WARM",
+          "source_url": "https://hbharley.com/events",
+          "rank_reason": "Nearby dealership event hub with rides and H.O.G.-adjacent audience access."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00017",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00016",
+      "city_rank": 17,
+      "organization_name": "Long Beach Motorcycle Swap Meet Network",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_SWAP_MEET"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.53,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0003",
+          "organization_name": "Long Beach Motorcycle Swap Meet Network",
+          "organization_type": "MOTORCYCLE_SWAP_MEET",
+          "composite_rank_score": 8.53,
+          "priority_tier": "WARM",
+          "source_url": "https://www.socalswapmeet.com/",
+          "rank_reason": "Strong grassroots biker gathering ecosystem with recurring audience circulation."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00018",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00062",
+      "city_rank": 18,
+      "organization_name": "Long Beach BMW Riding Groups",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDING_ORGANIZERS"
+      ],
+      "source_layers": [
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.51,
+      "max_book_sale_relevance": 8.5,
+      "recommended_conversion_paths": [
+        "GROUP_REFERRAL_AND_RIDE_INSERTION"
+      ],
+      "recommended_actions": [
+        "Ride-day distribution, organizer referrals, QR card drops"
+      ],
+      "source_records": [
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0008",
+          "organization_name": "Long Beach BMW Riding Groups",
+          "organization_type": "RIDING_ORGANIZERS",
+          "composite_rank_score": 8.51,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Recurring organized rides create repeat visibility opportunities."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00019",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00041",
+      "city_rank": 19,
+      "organization_name": "Bike Shed Moto Co Los Angeles",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_COMMUNITY_VENUE"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.5,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0008",
+          "organization_name": "Bike Shed Moto Co Los Angeles",
+          "organization_type": "MOTORCYCLE_COMMUNITY_VENUE",
+          "composite_rank_score": 8.5,
+          "priority_tier": "WARM",
+          "source_url": "https://bikeshedmoto.com/pages/los-angeles",
+          "rank_reason": "Nearby motorcycle culture venue with community, retail, food, and event ecosystem."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00020",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00056",
+      "city_rank": 20,
+      "organization_name": "The Cycle Fish California Online Events",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_EVENT_DISCOVERY_PLATFORM"
+      ],
+      "source_layers": [
+        "ONLINE_DISTRIBUTION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.5,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0006",
+          "organization_name": "The Cycle Fish California Online Events",
+          "organization_type": "MOTORCYCLE_EVENT_DISCOVERY_PLATFORM",
+          "composite_rank_score": 8.5,
+          "priority_tier": "WARM",
+          "source_url": "https://www.thecyclefish.com/",
+          "rank_reason": "Online motorcycle event discovery platform with recurring rider search traffic."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00021",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00032",
+      "city_rank": 21,
+      "organization_name": "Warrior Brotherhood Motorcycle Club",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "VETERAN_MOTORCYCLE_CLUB"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.47,
+      "max_book_sale_relevance": 8.35,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0006",
+          "organization_name": "Warrior Brotherhood Motorcycle Club",
+          "organization_type": "VETERAN_MOTORCYCLE_CLUB",
+          "composite_rank_score": 8.47,
+          "priority_tier": "WARM",
+          "source_url": "https://warriorbrotherhoodmc.com/",
+          "rank_reason": "Veterans-helping-veterans motorcycle club with strong book-audience alignment."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00022",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00024",
+      "city_rank": 22,
+      "organization_name": "J&S Custom Cycles",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "CUSTOM_MOTORCYCLE_SHOP"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.46,
+      "max_book_sale_relevance": 8,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0005",
+          "organization_name": "J&S Custom Cycles",
+          "organization_type": "CUSTOM_MOTORCYCLE_SHOP",
+          "composite_rank_score": 8.46,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Independent custom motorcycle builder/shop with rider-network overlap."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00023",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00004",
+      "city_rank": 23,
+      "organization_name": "Combat Veterans Motorcycle Association CA 33-10",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "VETERAN_RIDING_ASSOCIATION"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.45,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0007",
+          "organization_name": "Combat Veterans Motorcycle Association CA 33-10",
+          "organization_type": "VETERAN_RIDING_ASSOCIATION",
+          "composite_rank_score": 8.45,
+          "priority_tier": "WARM",
+          "source_url": "https://cvma33-10.com/",
+          "rank_reason": "Regional Southern California veteran riding association; relevant to book audience propagation."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00024",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00017",
+      "city_rank": 24,
+      "organization_name": "The Cycle Fish California Events",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_EVENT_NETWORK"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.45,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0008",
+          "organization_name": "The Cycle Fish California Events",
+          "organization_type": "MOTORCYCLE_EVENT_NETWORK",
+          "composite_rank_score": 8.45,
+          "priority_tier": "WARM",
+          "source_url": "https://www.thecyclefish.com/",
+          "rank_reason": "Large biker event discovery ecosystem with recurring rider traffic."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00025",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00051",
+      "city_rank": 25,
+      "organization_name": "Bike Shed Moto Community Events Team",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_COMMUNITY_EVENT_ORGANIZERS"
+      ],
+      "source_layers": [
+        "BULK_ORDER"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.44,
+      "max_book_sale_relevance": 8.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0006",
+          "organization_name": "Bike Shed Moto Community Events Team",
+          "organization_type": "MOTORCYCLE_COMMUNITY_EVENT_ORGANIZERS",
+          "composite_rank_score": 8.44,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Large recurring motorcycle community venue with event-based audience aggregation."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00026",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00018",
+      "city_rank": 26,
+      "organization_name": "West Coast Thunder Foundation Ride",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_CHARITY_EVENT"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.41,
+      "max_book_sale_relevance": 8,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0007",
+          "organization_name": "West Coast Thunder Foundation Ride",
+          "organization_type": "MOTORCYCLE_CHARITY_EVENT",
+          "composite_rank_score": 8.41,
+          "priority_tier": "WARM",
+          "source_url": "https://westcoastthunder.com/",
+          "rank_reason": "Large Southern California motorcycle ride event with strong rider participation."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00027",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00052",
+      "city_rank": 27,
+      "organization_name": "Long Beach BMW Riding Community Organizers",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDING_COMMUNITY_ORGANIZERS"
+      ],
+      "source_layers": [
+        "BULK_ORDER"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.4,
+      "max_book_sale_relevance": 8.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0005",
+          "organization_name": "Long Beach BMW Riding Community Organizers",
+          "organization_type": "RIDING_COMMUNITY_ORGANIZERS",
+          "composite_rank_score": 8.4,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Recurring ride organizers with strong rider-network overlap."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00028",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00019",
+      "city_rank": 28,
+      "organization_name": "Law Tigers California",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_COMMUNITY_NETWORK",
+        "MOTORCYCLE_LEGAL_NETWORK",
+        "LEGAL_RIDER_NETWORK"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA",
+        "SUPPORT_INFRASTRUCTURE",
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 3,
+      "priority_tier": "WARM",
+      "best_score": 8.38,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [
+        "AFFILIATE_AND_REFERRAL_PARTNERSHIP"
+      ],
+      "recommended_actions": [
+        "Mutual rider-resource referrals and event co-branding"
+      ],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0006",
+          "organization_name": "Law Tigers California",
+          "organization_type": "MOTORCYCLE_COMMUNITY_NETWORK",
+          "composite_rank_score": 8.38,
+          "priority_tier": "WARM",
+          "source_url": "https://lawtigers.com/",
+          "rank_reason": "Motorcycle community legal network sponsoring biker events and rider ecosystems."
+        },
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0003",
+          "organization_name": "Law Tigers Southern California",
+          "organization_type": "MOTORCYCLE_LEGAL_NETWORK",
+          "composite_rank_score": 8.38,
+          "priority_tier": "WARM",
+          "source_url": "https://lawtigers.com/locations/california/",
+          "rank_reason": "Motorcycle legal/support network with rider community visibility and event overlap."
+        },
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0009",
+          "organization_name": "Law Tigers California",
+          "organization_type": "LEGAL_RIDER_NETWORK",
+          "composite_rank_score": 8.31,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Rider-service organization with trusted community visibility."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00029",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00025",
+      "city_rank": 29,
+      "organization_name": "Del Amo Motorsports Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_DEALERSHIP"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.31,
+      "max_book_sale_relevance": 8,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0003",
+          "organization_name": "Del Amo Motorsports Long Beach",
+          "organization_type": "MOTORCYCLE_DEALERSHIP",
+          "composite_rank_score": 8.31,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "High motorcycle traffic retail environment."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00030",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00005",
+      "city_rank": 30,
+      "organization_name": "SoCal Cruisers Meetup",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDING_COMMUNITY_GROUP"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.3,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0010",
+          "organization_name": "SoCal Cruisers Meetup",
+          "organization_type": "RIDING_COMMUNITY_GROUP",
+          "composite_rank_score": 8.3,
+          "priority_tier": "WARM",
+          "source_url": "https://www.meetup.com/socalharleycruisers/",
+          "rank_reason": "Large regional cruiser/rider community; strong audience-relevance but requires additional contact-route verification."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00031",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00033",
+      "city_rank": 31,
+      "organization_name": "BMW Club of Southern California",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDING_ASSOCIATION"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.25,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0001",
+          "organization_name": "BMW Club of Southern California",
+          "organization_type": "RIDING_ASSOCIATION",
+          "composite_rank_score": 8.25,
+          "priority_tier": "WARM",
+          "source_url": "https://www.longbeachbmwmotorcycles.com/local-riding-groups/",
+          "rank_reason": "Established Southern California rider association visible through Long Beach BMW local riding groups."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00032",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00057",
+      "city_rank": 32,
+      "organization_name": "Meetup SoCal Cruisers Online Community",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDING_COMMUNITY_PLATFORM"
+      ],
+      "source_layers": [
+        "ONLINE_DISTRIBUTION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.25,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0008",
+          "organization_name": "Meetup SoCal Cruisers Online Community",
+          "organization_type": "RIDING_COMMUNITY_PLATFORM",
+          "composite_rank_score": 8.25,
+          "priority_tier": "WARM",
+          "source_url": "https://www.meetup.com/socalharleycruisers/",
+          "rank_reason": "Online rider community platform with recurring ride/event membership activity."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00033",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00006",
+      "city_rank": 33,
+      "organization_name": "Combat Veterans Motorcycle Association CA 33-2",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "VETERAN_RIDING_ASSOCIATION"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.2,
+      "max_book_sale_relevance": 8,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0008",
+          "organization_name": "Combat Veterans Motorcycle Association CA 33-2",
+          "organization_type": "VETERAN_RIDING_ASSOCIATION",
+          "composite_rank_score": 8.2,
+          "priority_tier": "WARM",
+          "source_url": "https://www.combatvets332.com/",
+          "rank_reason": "California veteran riding association with direct motorcycle-rider audience relevance."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00034",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00042",
+      "city_rank": 34,
+      "organization_name": "Russ Brown Motorcycle Attorneys California",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_LEGAL_NETWORK"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.19,
+      "max_book_sale_relevance": 8,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0004",
+          "organization_name": "Russ Brown Motorcycle Attorneys California",
+          "organization_type": "MOTORCYCLE_LEGAL_NETWORK",
+          "composite_rank_score": 8.19,
+          "priority_tier": "WARM",
+          "source_url": "https://russbrown.com/",
+          "rank_reason": "Motorcycle attorney network with biker culture and event community relevance."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00035",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00058",
+      "city_rank": 35,
+      "organization_name": "Law Tigers Rider Community Content",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_COMMUNITY_CONTENT_NETWORK"
+      ],
+      "source_layers": [
+        "ONLINE_DISTRIBUTION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.19,
+      "max_book_sale_relevance": 8,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0005",
+          "organization_name": "Law Tigers Rider Community Content",
+          "organization_type": "MOTORCYCLE_COMMUNITY_CONTENT_NETWORK",
+          "composite_rank_score": 8.19,
+          "priority_tier": "WARM",
+          "source_url": "https://lawtigers.com/blog/",
+          "rank_reason": "Motorcycle legal/community content hub with rider-specific digital audience."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00036",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00026",
+      "city_rank": 36,
+      "organization_name": "Cycle Gear Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_GEAR_STORE"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.18,
+      "max_book_sale_relevance": 8,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0006",
+          "organization_name": "Cycle Gear Long Beach",
+          "organization_type": "MOTORCYCLE_GEAR_STORE",
+          "composite_rank_score": 8.18,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "High rider foot traffic and repeat customer base."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00037",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00035",
+      "city_rank": 37,
+      "organization_name": "Punishers LEMC Southland",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "LAW_ENFORCEMENT_MOTORCYCLE_CLUB"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.12,
+      "max_book_sale_relevance": 8.1,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0007",
+          "organization_name": "Punishers LEMC Southland",
+          "organization_type": "LAW_ENFORCEMENT_MOTORCYCLE_CLUB",
+          "composite_rank_score": 8.12,
+          "priority_tier": "WARM",
+          "source_url": "https://www.riderclubs.com/motorcycle-clubs/united-states/california/long-beach",
+          "rank_reason": "Law-enforcement motorcycle club listing in Southern California; relevant to protocol and leadership book audience."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00038",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00063",
+      "city_rank": 38,
+      "organization_name": "Motorcyclist Training Course",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDER_TRAINING"
+      ],
+      "source_layers": [
+        "CONVERSION_STRATEGY"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.11,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [
+        "NEW_RIDER_EDUCATION_INSERTION"
+      ],
+      "recommended_actions": [
+        "Course resource inclusion, rider packet inserts, QR placement"
+      ],
+      "source_records": [
+        {
+          "layer": "CONVERSION_STRATEGY",
+          "dossier_id": "BD_CONVERSION_DOSSIER_BD_LB_CONVERSION_0010",
+          "organization_name": "Motorcyclist Training Course",
+          "organization_type": "RIDER_TRAINING",
+          "composite_rank_score": 8.11,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Direct access to new and developing riders."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00039",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00027",
+      "city_rank": 39,
+      "organization_name": "Outer Limits Tattoo Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "BIKER_CULTURE_TATTOO_SHOP"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.09,
+      "max_book_sale_relevance": 7.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0008",
+          "organization_name": "Outer Limits Tattoo Long Beach",
+          "organization_type": "BIKER_CULTURE_TATTOO_SHOP",
+          "composite_rank_score": 8.09,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Longstanding tattoo/counterculture crossover environment."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00040",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00036",
+      "city_rank": 40,
+      "organization_name": "Full Throttle Long Beach Motorcycle Club",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "LOCAL_MOTORCYCLE_CLUB"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.07,
+      "max_book_sale_relevance": 8,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0008",
+          "organization_name": "Full Throttle Long Beach Motorcycle Club",
+          "organization_type": "LOCAL_MOTORCYCLE_CLUB",
+          "composite_rank_score": 8.07,
+          "priority_tier": "WARM",
+          "source_url": "https://www.facebook.com/FullThrottleLongBeachMC/",
+          "rank_reason": "Local Long Beach motorcycle club public page; relevant local social layer."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00041",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00053",
+      "city_rank": 41,
+      "organization_name": "BikerDown California Community Leadership",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDER_SUPPORT_LEADERSHIP_NETWORK"
+      ],
+      "source_layers": [
+        "BULK_ORDER"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.07,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0009",
+          "organization_name": "BikerDown California Community Leadership",
+          "organization_type": "RIDER_SUPPORT_LEADERSHIP_NETWORK",
+          "composite_rank_score": 8.07,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Community support nonprofit with strong rider-community trust alignment."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00042",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00043",
+      "city_rank": 42,
+      "organization_name": "Motorcyclist Training Course at Long Beach City College",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_SAFETY_TRAINING"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.06,
+      "max_book_sale_relevance": 7.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0001",
+          "organization_name": "Motorcyclist Training Course at Long Beach City College",
+          "organization_type": "MOTORCYCLE_SAFETY_TRAINING",
+          "composite_rank_score": 8.06,
+          "priority_tier": "WARM",
+          "source_url": "https://www.lbcc.edu/post/motorcyclist-training-course",
+          "rank_reason": "Official local rider training pipeline with recurring new-rider audience."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00043",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00044",
+      "city_rank": 43,
+      "organization_name": "BikerDown California",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDER_SUPPORT_NONPROFIT"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.06,
+      "max_book_sale_relevance": 7.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0010",
+          "organization_name": "BikerDown California",
+          "organization_type": "RIDER_SUPPORT_NONPROFIT",
+          "composite_rank_score": 8.06,
+          "priority_tier": "WARM",
+          "source_url": "https://bikerdown.org/",
+          "rank_reason": "Rider support nonprofit with strong motorcycle community alignment."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00044",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00059",
+      "city_rank": 44,
+      "organization_name": "Deus Ex Machina Digital Motorcycle Culture",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_LIFESTYLE_CONTENT_NETWORK"
+      ],
+      "source_layers": [
+        "ONLINE_DISTRIBUTION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.06,
+      "max_book_sale_relevance": 7.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0010",
+          "organization_name": "Deus Ex Machina Digital Motorcycle Culture",
+          "organization_type": "MOTORCYCLE_LIFESTYLE_CONTENT_NETWORK",
+          "composite_rank_score": 8.06,
+          "priority_tier": "WARM",
+          "source_url": "https://deuscustoms.com/",
+          "rank_reason": "Motorcycle lifestyle brand with online culture reach and regional audience overlap."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00045",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00054",
+      "city_rank": 45,
+      "organization_name": "Motorcyclist Training Course Instruction Staff",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDER_TRAINING_INSTRUCTORS"
+      ],
+      "source_layers": [
+        "BULK_ORDER"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8.04,
+      "max_book_sale_relevance": 8.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "BULK_ORDER",
+          "dossier_id": "BD_BULK_ORDER_DOSSIER_BD_LB_BULK_0008",
+          "organization_name": "Motorcyclist Training Course Instruction Staff",
+          "organization_type": "RIDER_TRAINING_INSTRUCTORS",
+          "composite_rank_score": 8.04,
+          "priority_tier": "WARM",
+          "source_url": null,
+          "rank_reason": "Rider training environment with repeat exposure to new riders."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00046",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00045",
+      "city_rank": 46,
+      "organization_name": "Deus Ex Machina Venice",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_CULTURE_RETAIL_VENUE"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "WARM",
+      "best_score": 8,
+      "max_book_sale_relevance": 7.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0009",
+          "organization_name": "Deus Ex Machina Venice",
+          "organization_type": "MOTORCYCLE_CULTURE_RETAIL_VENUE",
+          "composite_rank_score": 8,
+          "priority_tier": "WARM",
+          "source_url": "https://deuscustoms.com/",
+          "rank_reason": "Regional motorcycle lifestyle/culture venue with event and retail crossover."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00047",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00060",
+      "city_rank": 47,
+      "organization_name": "RiderClubs Long Beach Directory",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_CLUB_DIRECTORY"
+      ],
+      "source_layers": [
+        "ONLINE_DISTRIBUTION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.94,
+      "max_book_sale_relevance": 7.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "ONLINE_DISTRIBUTION",
+          "dossier_id": "BD_ONLINE_DOSSIER_BD_LB_ONLINE_0007",
+          "organization_name": "RiderClubs Long Beach Directory",
+          "organization_type": "MOTORCYCLE_CLUB_DIRECTORY",
+          "composite_rank_score": 7.94,
+          "priority_tier": "REVIEW",
+          "source_url": "https://www.riderclubs.com/motorcycle-clubs/united-states/california/long-beach",
+          "rank_reason": "Online directory useful for discovering additional club/community targets."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00048",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00020",
+      "city_rank": 48,
+      "organization_name": "Harley Night at the Pike",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_COMMUNITY_EVENT"
+      ],
+      "source_layers": [
+        "EVENT_MEDIA"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.91,
+      "max_book_sale_relevance": 7.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "EVENT_MEDIA",
+          "dossier_id": "BD_EVENT_MEDIA_DOSSIER_BD_LB_MEDIA_0009",
+          "organization_name": "Harley Night at the Pike",
+          "organization_type": "MOTORCYCLE_COMMUNITY_EVENT",
+          "composite_rank_score": 7.91,
+          "priority_tier": "REVIEW",
+          "source_url": "https://www.harley-davidson.com/",
+          "rank_reason": "Community-oriented Harley rider gathering ecosystem."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00049",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00037",
+      "city_rank": 49,
+      "organization_name": "RiderClubs Long Beach Motorcycle Clubs Directory",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_CLUB_DIRECTORY"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.9,
+      "max_book_sale_relevance": 7.85,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0010",
+          "organization_name": "RiderClubs Long Beach Motorcycle Clubs Directory",
+          "organization_type": "MOTORCYCLE_CLUB_DIRECTORY",
+          "composite_rank_score": 7.9,
+          "priority_tier": "REVIEW",
+          "source_url": "https://www.riderclubs.com/motorcycle-clubs/united-states/california/long-beach",
+          "rank_reason": "Directory source for identifying additional Long Beach/Southern California club targets."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00050",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00046",
+      "city_rank": 50,
+      "organization_name": "SoCal Motorcycle Training",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MOTORCYCLE_SAFETY_TRAINING"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.88,
+      "max_book_sale_relevance": 7.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0002",
+          "organization_name": "SoCal Motorcycle Training",
+          "organization_type": "MOTORCYCLE_SAFETY_TRAINING",
+          "composite_rank_score": 7.88,
+          "priority_tier": "REVIEW",
+          "source_url": "https://socalmotorcycletraining.com/",
+          "rank_reason": "Regional training provider connected to new and returning motorcycle riders."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00051",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00038",
+      "city_rank": 51,
+      "organization_name": "The Litas Los Angeles",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "WOMENS_MOTORCYCLE_COLLECTIVE"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.86,
+      "max_book_sale_relevance": 7.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0004",
+          "organization_name": "The Litas Los Angeles",
+          "organization_type": "WOMENS_MOTORCYCLE_COLLECTIVE",
+          "composite_rank_score": 7.86,
+          "priority_tier": "REVIEW",
+          "source_url": "https://thelitas.co/",
+          "rank_reason": "Women�s motorcycle collective with local Los Angeles chapter reach near Long Beach."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00052",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00039",
+      "city_rank": 52,
+      "organization_name": "Ruffians M.C.",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "MASONIC_MOTORCYCLE_CLUB"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.86,
+      "max_book_sale_relevance": 7.85,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0009",
+          "organization_name": "Ruffians M.C.",
+          "organization_type": "MASONIC_MOTORCYCLE_CLUB",
+          "composite_rank_score": 7.86,
+          "priority_tier": "REVIEW",
+          "source_url": "https://www.facebook.com/RuffiansMc/",
+          "rank_reason": "Masonic-based motorcycle club public page; potential structured club/protocol audience fit."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00053",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00028",
+      "city_rank": 53,
+      "organization_name": "Belmont Shore Motorcycle Parking Corridor",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "RIDER_GATHERING_ZONE"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.61,
+      "max_book_sale_relevance": 7.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0007",
+          "organization_name": "Belmont Shore Motorcycle Parking Corridor",
+          "organization_type": "RIDER_GATHERING_ZONE",
+          "composite_rank_score": 7.61,
+          "priority_tier": "REVIEW",
+          "source_url": null,
+          "rank_reason": "Public rider congregation and local meetup corridor."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00054",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00040",
+      "city_rank": 54,
+      "organization_name": "BSA Owners Club of Southern California",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "CLASSIC_MOTORCYCLE_CLUB"
+      ],
+      "source_layers": [
+        "CLUB_ASSOCIATION"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.51,
+      "max_book_sale_relevance": 7.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "CLUB_ASSOCIATION",
+          "dossier_id": "BD_CLUB_ASSOC_DOSSIER_BD_LB_CLUB_0005",
+          "organization_name": "BSA Owners Club of Southern California",
+          "organization_type": "CLASSIC_MOTORCYCLE_CLUB",
+          "composite_rank_score": 7.51,
+          "priority_tier": "REVIEW",
+          "source_url": "https://bsaocsc.org/",
+          "rank_reason": "Classic motorcycle club with Southern California rider community overlap."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00055",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00047",
+      "city_rank": 55,
+      "organization_name": "Alex's Bar Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "BIKER_ADJACENT_VENUE"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.5,
+      "max_book_sale_relevance": 7.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0006",
+          "organization_name": "Alex's Bar Long Beach",
+          "organization_type": "BIKER_ADJACENT_VENUE",
+          "composite_rank_score": 7.5,
+          "priority_tier": "REVIEW",
+          "source_url": "https://alexsbar.com/",
+          "rank_reason": "Counterculture venue with local community/event crossover potential."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00056",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00029",
+      "city_rank": 56,
+      "organization_name": "Shoreline Village Event Vendor Network",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "EVENT_VENDOR_ZONE"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.49,
+      "max_book_sale_relevance": 7.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0009",
+          "organization_name": "Shoreline Village Event Vendor Network",
+          "organization_type": "EVENT_VENDOR_ZONE",
+          "composite_rank_score": 7.49,
+          "priority_tier": "REVIEW",
+          "source_url": null,
+          "rank_reason": "Potential physical event/vendor placement ecosystem."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00057",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00048",
+      "city_rank": 57,
+      "organization_name": "The Pike Outlets Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "COMMUNITY_EVENT_VENUE"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.38,
+      "max_book_sale_relevance": 7.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0005",
+          "organization_name": "The Pike Outlets Long Beach",
+          "organization_type": "COMMUNITY_EVENT_VENUE",
+          "composite_rank_score": 7.38,
+          "priority_tier": "REVIEW",
+          "source_url": "https://thepikeoutlets.com/",
+          "rank_reason": "Large public event/meetup zone that can support bike-night style activation."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00058",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00007",
+      "city_rank": 58,
+      "organization_name": "Long Beach Police Department Investigations Bureau",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "PUBLIC_SAFETY_INVESTIGATIONS"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.25,
+      "max_book_sale_relevance": 7,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0002",
+          "organization_name": "Long Beach Police Department Investigations Bureau",
+          "organization_type": "PUBLIC_SAFETY_INVESTIGATIONS",
+          "composite_rank_score": 7.25,
+          "priority_tier": "REVIEW",
+          "source_url": "https://www.longbeach.gov/police/about-the-lbpd/bureaus/investigations-bureau/",
+          "rank_reason": "Official investigations bureau with criminal intelligence and special investigations relevance."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00059",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00049",
+      "city_rank": 59,
+      "organization_name": "Gaslamp Long Beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "LIVE_MUSIC_EVENT_VENUE"
+      ],
+      "source_layers": [
+        "SUPPORT_INFRASTRUCTURE"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 7.19,
+      "max_book_sale_relevance": 7,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "SUPPORT_INFRASTRUCTURE",
+          "dossier_id": "BD_SUPPORT_DOSSIER_BD_LB_SUPPORT_0007",
+          "organization_name": "Gaslamp Long Beach",
+          "organization_type": "LIVE_MUSIC_EVENT_VENUE",
+          "composite_rank_score": 7.19,
+          "priority_tier": "REVIEW",
+          "source_url": "https://www.gaslamplongbeach.com/",
+          "rank_reason": "Live music and event venue with local gathering potential."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00060",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00008",
+      "city_rank": 60,
+      "organization_name": "Long Beach Police Department",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "PUBLIC_SAFETY_AGENCY"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 6.6,
+      "max_book_sale_relevance": 6.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0001",
+          "organization_name": "Long Beach Police Department",
+          "organization_type": "PUBLIC_SAFETY_AGENCY",
+          "composite_rank_score": 6.6,
+          "priority_tier": "REVIEW",
+          "source_url": "https://www.longbeach.gov/police/",
+          "rank_reason": "Official city police department with community/public-safety relevance and potential institutional interest in MC culture materials."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00061",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00030",
+      "city_rank": 61,
+      "organization_name": "Signal Hill Printing & Signs",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "PRINT_AND_PROMO_VENDOR"
+      ],
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 6.59,
+      "max_book_sale_relevance": 6.5,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [],
+      "source_records": [
+        {
+          "layer": "RETAIL_PHYSICAL_CHANNEL",
+          "dossier_id": "BD_RETAIL_DOSSIER_BD_LB_RETAIL_0010",
+          "organization_name": "Signal Hill Printing & Signs",
+          "organization_type": "PRINT_AND_PROMO_VENDOR",
+          "composite_rank_score": 6.59,
+          "priority_tier": "REVIEW",
+          "source_url": null,
+          "rank_reason": "Potential flyer/poster/banner infrastructure provider."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00062",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00009",
+      "city_rank": 62,
+      "organization_name": "Long Beach Police Department Contact Directory",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "PUBLIC_SAFETY_CONTACT_DIRECTORY"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 6.28,
+      "max_book_sale_relevance": 6.25,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0003",
+          "organization_name": "Long Beach Police Department Contact Directory",
+          "organization_type": "PUBLIC_SAFETY_CONTACT_DIRECTORY",
+          "composite_rank_score": 6.28,
+          "priority_tier": "REVIEW",
+          "source_url": "https://www.longbeach.gov/police/contact-us/",
+          "rank_reason": "Official public contact directory useful for routing, but not yet classified as a specific decision-maker."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    },
+    {
+      "dossier_id": "BD_LB_CITY_DOSSIER_00063",
+      "city_runtime_entity_id": "BD_LB_CITY_ENTITY_00010",
+      "city_rank": 63,
+      "organization_name": "Long Beach Police Department West Patrol Division",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_types": [
+        "PUBLIC_SAFETY_LOCAL_DIVISION"
+      ],
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG"
+      ],
+      "source_layer_count": 1,
+      "priority_tier": "REVIEW",
+      "best_score": 5.85,
+      "max_book_sale_relevance": 5.75,
+      "recommended_conversion_paths": [],
+      "recommended_actions": [
+        "SHOW_IN_CLIENT_MAP_AND_DOSSIER_FOR_MANUAL_REVIEW"
+      ],
+      "source_records": [
+        {
+          "layer": "RIDER_COMMUNITY_ORG",
+          "dossier_id": "BD_DOSSIER_BD_LB_ORG_0004",
+          "organization_name": "Long Beach Police Department West Patrol Division",
+          "organization_type": "PUBLIC_SAFETY_LOCAL_DIVISION",
+          "composite_rank_score": 5.85,
+          "priority_tier": "REVIEW",
+          "source_url": "https://locator.lacounty.gov/lac/Location/3068986/long-beach-police-department---west-patrol-division",
+          "rank_reason": "Public local government listing for a Long Beach patrol division; lower book-sales relevance than rider/community nodes."
+        }
+      ],
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "promotion_allowed": false,
+      "dossier_status": "CITY_DOSSIER_READY_FOR_CLIENT_REVIEW"
+    }
+  ]
+}

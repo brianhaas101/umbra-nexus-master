@@ -1,0 +1,82 @@
+{
+  "version": "black_dragon_southern_california_federation_paths_v1",
+  "generated_at": "2026-05-10T22:09:45.868Z",
+  "total_paths": 5,
+  "federation_paths": [
+    {
+      "federation_path_id": "BD_SOCAL_PATH_00001",
+      "root_entity": "Born-Free Motorcycle Show",
+      "participating_cities": [
+        "Long Beach",
+        "San Diego"
+      ],
+      "overlap_count": 2,
+      "propagation_type": "REGIONAL_MULTI_CITY_PROPAGATION",
+      "federation_priority": "HIGH",
+      "estimated_regional_reach": 20,
+      "recommended_strategy": "MULTI_CITY_MANUAL_REVIEW_PRIORITY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "federation_path_id": "BD_SOCAL_PATH_00002",
+      "root_entity": "Roland Sands Design",
+      "participating_cities": [
+        "Long Beach",
+        "Los Angeles"
+      ],
+      "overlap_count": 2,
+      "propagation_type": "REGIONAL_MULTI_CITY_PROPAGATION",
+      "federation_priority": "HIGH",
+      "estimated_regional_reach": 20,
+      "recommended_strategy": "MULTI_CITY_MANUAL_REVIEW_PRIORITY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "federation_path_id": "BD_SOCAL_PATH_00003",
+      "root_entity": "Bike Shed Moto Co Los Angeles",
+      "participating_cities": [
+        "Long Beach",
+        "Los Angeles"
+      ],
+      "overlap_count": 2,
+      "propagation_type": "REGIONAL_MULTI_CITY_PROPAGATION",
+      "federation_priority": "MEDIUM",
+      "estimated_regional_reach": 20,
+      "recommended_strategy": "REGIONAL_REVIEW_QUEUE",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "federation_path_id": "BD_SOCAL_PATH_00004",
+      "root_entity": "Law Tigers California",
+      "participating_cities": [
+        "Long Beach",
+        "San Diego"
+      ],
+      "overlap_count": 2,
+      "propagation_type": "REGIONAL_MULTI_CITY_PROPAGATION",
+      "federation_priority": "MEDIUM",
+      "estimated_regional_reach": 20,
+      "recommended_strategy": "REGIONAL_REVIEW_QUEUE",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "federation_path_id": "BD_SOCAL_PATH_00005",
+      "root_entity": "Biltwell Inc.",
+      "participating_cities": [
+        "Los Angeles",
+        "San Diego"
+      ],
+      "overlap_count": 2,
+      "propagation_type": "REGIONAL_MULTI_CITY_PROPAGATION",
+      "federation_priority": "MEDIUM",
+      "estimated_regional_reach": 20,
+      "recommended_strategy": "REGIONAL_REVIEW_QUEUE",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

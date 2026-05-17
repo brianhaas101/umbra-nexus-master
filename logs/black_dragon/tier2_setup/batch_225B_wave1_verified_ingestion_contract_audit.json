@@ -1,0 +1,56 @@
+{
+    "batch":  "225B",
+    "version":  "black_dragon_wave1_verified_ingestion_contract_audit_v1",
+    "generated_at":  "2026-05-11T04:52:02.3929434Z",
+    "wave_id":  "tier2_wave_1",
+    "cities":  [
+                   {
+                       "city":  "Atlanta",
+                       "folder":  "atlanta",
+                       "contract_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\verified_ingestion_contract.json",
+                       "valid_json":  true,
+                       "status":  "PASS_INGESTION_CONTRACT_READY"
+                   },
+                   {
+                       "city":  "Austin",
+                       "folder":  "austin",
+                       "contract_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\verified_ingestion_contract.json",
+                       "valid_json":  true,
+                       "status":  "PASS_INGESTION_CONTRACT_READY"
+                   },
+                   {
+                       "city":  "Houston",
+                       "folder":  "houston",
+                       "contract_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\verified_ingestion_contract.json",
+                       "valid_json":  true,
+                       "status":  "PASS_INGESTION_CONTRACT_READY"
+                   },
+                   {
+                       "city":  "Las Vegas",
+                       "folder":  "las_vegas",
+                       "contract_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\verified_ingestion_contract.json",
+                       "valid_json":  true,
+                       "status":  "PASS_INGESTION_CONTRACT_READY"
+                   },
+                   {
+                       "city":  "Miami",
+                       "folder":  "miami",
+                       "contract_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\verified_ingestion_contract.json",
+                       "valid_json":  true,
+                       "status":  "PASS_INGESTION_CONTRACT_READY"
+                   }
+               ],
+    "failed_count":  0,
+    "failed":  [
+
+               ],
+    "safety":  {
+                   "no_placeholder_entities":  true,
+                   "no_false_targets":  true,
+                   "no_inferred_contacts":  true,
+                   "no_private_person_targets":  true,
+                   "public_source_required":  true,
+                   "manual_review_required_before_contact":  true
+               },
+    "status":  "PASS_WAVE1_VERIFIED_INGESTION_CONTRACTS_READY"
+}

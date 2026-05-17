@@ -1,0 +1,157 @@
+﻿const fs = require("fs");
+const path = require("path");
+
+const ROOT = process.cwd();
+
+const imports = {
+  version: "black_dragon_san_diego_discovery_import_v1",
+  generated_at: new Date().toISOString(),
+
+  city: "San Diego",
+  state: "CA",
+
+  imported_candidates: [
+    {
+      candidate_id: "BD_SD_IMPORT_001",
+      organization_name: "Biggs Harley-Davidson",
+      organization_type: "DEALERSHIP_NETWORK",
+      source_category: "DEALERSHIP_NETWORKS",
+      estimated_influence_score: 8.8,
+      estimated_conversion_score: 8.7,
+      source_lineage: [
+        "DEALERSHIP_DISCOVERY",
+        "SAN_DIEGO_MOTORCYCLE_NETWORK"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_002",
+      organization_name: "San Diego Harley Owners Group",
+      organization_type: "RIDING_COMMUNITY",
+      source_category: "COMMUNITY_VENUES",
+      estimated_influence_score: 8.9,
+      estimated_conversion_score: 8.4,
+      source_lineage: [
+        "HOG_DISCOVERY",
+        "RIDING_COMMUNITY_SCAN"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_003",
+      organization_name: "Biltwell Inc.",
+      organization_type: "CUSTOM_BRAND",
+      source_category: "MOTORCYCLE_MEDIA",
+      estimated_influence_score: 9.1,
+      estimated_conversion_score: 8.8,
+      source_lineage: [
+        "CUSTOM_BRAND_DISCOVERY",
+        "SOUTHERN_CA_CORRIDOR"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_004",
+      organization_name: "San Diego Vintage Motorcycle Swap Meet",
+      organization_type: "EVENT_NETWORK",
+      source_category: "EVENT_DISCOVERY",
+      estimated_influence_score: 8.7,
+      estimated_conversion_score: 8.5,
+      source_lineage: [
+        "EVENT_DISCOVERY",
+        "SWAP_MEET_NETWORK"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_005",
+      organization_name: "SoCal Motorcycle Meetup San Diego",
+      organization_type: "RIDING_COMMUNITY",
+      source_category: "COMMUNITY_VENUES",
+      estimated_influence_score: 8.3,
+      estimated_conversion_score: 8.1,
+      source_lineage: [
+        "MEETUP_DISCOVERY",
+        "COMMUNITY_GROUP_SCAN"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_006",
+      organization_name: "Cycle Gear San Diego",
+      organization_type: "GEAR_RETAIL",
+      source_category: "DEALERSHIP_NETWORKS",
+      estimated_influence_score: 8.2,
+      estimated_conversion_score: 8.3,
+      source_lineage: [
+        "RETAIL_DISCOVERY",
+        "MOTORCYCLE_RETAIL_SCAN"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_007",
+      organization_name: "Veterans Motorcycle Association San Diego",
+      organization_type: "VETERAN_RIDER_NETWORK",
+      source_category: "VETERAN_AND_LEMC_NETWORKS",
+      estimated_influence_score: 8.8,
+      estimated_conversion_score: 8.6,
+      source_lineage: [
+        "VETERAN_NETWORK_DISCOVERY",
+        "RIDING_GROUP_SCAN"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_008",
+      organization_name: "Born-Free Motorcycle Show",
+      organization_type: "EVENT_NETWORK",
+      source_category: "EVENT_DISCOVERY",
+      estimated_influence_score: 9.4,
+      estimated_conversion_score: 9.1,
+      source_lineage: [
+        "EVENT_DISCOVERY",
+        "SOUTHERN_CA_CORRIDOR"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_009",
+      organization_name: "Law Tigers California",
+      organization_type: "AFFILIATE_NETWORK",
+      source_category: "COMMUNITY_VENUES",
+      estimated_influence_score: 8.5,
+      estimated_conversion_score: 8.7,
+      source_lineage: [
+        "AFFILIATE_DISCOVERY",
+        "STATEWIDE_MOTORCYCLE_NETWORK"
+      ]
+    },
+    {
+      candidate_id: "BD_SD_IMPORT_010",
+      organization_name: "San Diego Custom Bike Show",
+      organization_type: "EVENT_NETWORK",
+      source_category: "EVENT_DISCOVERY",
+      estimated_influence_score: 8.6,
+      estimated_conversion_score: 8.4,
+      source_lineage: [
+        "EVENT_DISCOVERY",
+        "CUSTOM_BIKE_SCENE"
+      ]
+    }
+  ],
+
+  discovery_laws: {
+    candidate_queue_only: true,
+    no_runtime_promotion: true,
+    cross_city_dedupe_required: true,
+    source_lineage_required: true,
+    no_auto_contact: true,
+    no_auto_promotion: true
+  }
+};
+
+const out = path.join(
+  ROOT,
+  "public/data/clients/black_dragon/candidate_queue/san_diego/imports/san_diego_discovery_import.json"
+);
+
+fs.writeFileSync(out, JSON.stringify(imports, null, 2), "utf8");
+
+console.log(JSON.stringify({
+  status: "SAN_DIEGO_DISCOVERY_IMPORT_COMPLETE",
+  imported_candidates: imports.imported_candidates.length,
+  output: out
+}, null, 2));

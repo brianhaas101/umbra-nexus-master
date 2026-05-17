@@ -1,0 +1,33 @@
+﻿{
+    "id":  "layer_12",
+    "name":  "Audit Replay and Convergence Lock",
+    "version":  "0.1.0",
+    "status":  "active_scaffold",
+    "runtime_scope":  "public/intelligence/layers/layer_12",
+    "black_dragon_coupling":  false,
+    "deterministic":  true,
+    "replayable":  true,
+    "depends_on":  [
+                       "layer_01",
+                       "layer_02",
+                       "layer_03",
+                       "layer_04",
+                       "layer_05",
+                       "layer_06",
+                       "layer_07",
+                       "layer_08",
+                       "layer_09",
+                       "layer_10",
+                       "layer_11"
+                   ],
+    "purpose":  "Verify required layer outputs, produce deterministic replay hash, and lock final convergence state.",
+    "allowed_inputs":  [
+                           "full_layer_output_bundle"
+                       ],
+    "required_outputs":  [
+                             "convergence_status",
+                             "replay_hash",
+                             "missing_layers",
+                             "audit_event"
+                         ]
+}

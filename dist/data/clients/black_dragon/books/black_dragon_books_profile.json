@@ -1,0 +1,60 @@
+{
+  "version": "black_dragon_books_profile_v1",
+  "brand_name": "Black Dragon's Biker Club Library",
+  "website": "https://blackdragonsgear.com",
+  "business_model": "motorcycle_club_influence_book_sales",
+
+  "primary_topics": [
+    "motorcycle club protocol",
+    "leadership",
+    "prospecting",
+    "sergeant at arms",
+    "public relations",
+    "church procedure",
+    "club structure",
+    "motorcycle club culture"
+  ],
+
+  "primary_target_roles": [
+    "PRESIDENT",
+    "VICE_PRESIDENT",
+    "SERGEANT_AT_ARMS",
+    "PUBLIC_RELATIONS_OFFICER",
+    "CHAPLAIN",
+    "ROAD_CAPTAIN",
+    "CHAIRMAN",
+    "COMMANDER",
+    "DIRECTOR",
+    "BOARD_MEMBER"
+  ],
+
+  "organization_types": [
+    "MOTORCYCLE_CLUB",
+    "RIDING_CLUB",
+    "WOMENS_MC",
+    "VETERANS_MC",
+    "CHRISTIAN_MC",
+    "POLICE_MC",
+    "CHARITY_MC",
+    "COUNCIL",
+    "COALITION",
+    "MOTORCYCLE_MINISTRY",
+    "MOTORCYCLE_RIGHTS_ORG",
+    "SPECIALTY_GROUP"
+  ],
+
+  "tier_1_regions": [
+    "USA",
+    "CANADA",
+    "AUSTRALIA",
+    "UNITED_KINGDOM",
+    "GERMANY",
+    "SOUTH_AFRICA",
+    "NETHERLANDS",
+    "SWEDEN",
+    "NEW_ZEALAND",
+    "BRAZIL"
+  ],
+
+  "core_goal": "identify influential motorcycle-club leaders capable of creating endorsement-driven downstream book sales"
+}

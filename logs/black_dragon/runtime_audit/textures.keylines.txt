@@ -1,0 +1,21 @@
+
+public\globe\textures.js:13:  if (!window.THREE || !THREE.TextureLoader) {
+public\globe\textures.js:14:    console.error("[textures] THREE missing (TextureLoader unavailable).");
+public\globe\textures.js:134:  G.loadTextures = function loadTextures(paths, onDone) {
+public\globe\textures.js:135:    if (typeof onDone !== "function") {
+public\globe\textures.js:136:      console.warn("[textures] onDone missing");
+public\globe\textures.js:142:      try { onDone({}); } catch {}
+public\globe\textures.js:146:    if (!window.THREE || !THREE.TextureLoader) {
+public\globe\textures.js:147:      try { onDone(nullFilledOut(paths)); } catch {}
+public\globe\textures.js:156:    const loader = new THREE.TextureLoader();
+public\globe\textures.js:164:    const TIMEOUT_MS = (
+public\globe\textures.js:184:      try { onDone(out); }
+public\globe\textures.js:185:      catch (e) { console.error("[textures] onDone threw:", e); }
+public\globe\textures.js:188:    function finishOne(k, texOrNull) {
+public\globe\textures.js:208:          finishOne(k, null);
+public\globe\textures.js:215:          finishOne(k, cached);
+public\globe\textures.js:222:          finishOne(k, null);
+public\globe\textures.js:223:        }, TIMEOUT_MS);
+public\globe\textures.js:238:            finishOne(k, t);
+public\globe\textures.js:245:            finishOne(k, null);
+

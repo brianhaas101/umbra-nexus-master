@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Black Dragon Las Vegas Contact Governance",
+  "type": "object",
+  "required": ["version", "contact_rules", "forbidden_actions", "hardlocks"],
+  "properties": {
+    "contact_rules": {
+      "type": "object",
+      "required": [
+        "no_auto_contact",
+        "manual_review_required_for_contact",
+        "outbound_promotion_disabled",
+        "automated_actions_allowed",
+        "bulk_contact_forbidden",
+        "allowed_contact_statuses"
+      ],
+      "properties": {
+        "no_auto_contact": { "const": true },
+        "manual_review_required_for_contact": { "const": true },
+        "outbound_promotion_disabled": { "const": true },
+        "automated_actions_allowed": { "const": false },
+        "bulk_contact_forbidden": { "const": true },
+        "allowed_contact_statuses": {
+          "type": "array",
+          "contains": { "const": "BLOCKED" }
+        }
+      }
+    },
+    "forbidden_actions": {
+      "type": "array",
+      "contains": { "const": "contact_without_manual_review" }
+    },
+    "hardlocks": {
+      "type": "object",
+      "required": [
+        "no_auto_contact",
+        "no_auto_promotion",
+        "no_runtime_mutation",
+        "quarantine_before_runtime",
+        "manual_review_required_for_contact"
+      ],
+      "properties": {
+        "no_auto_contact": { "const": true },
+        "no_auto_promotion": { "const": true },
+        "no_runtime_mutation": { "const": true },
+        "quarantine_before_runtime": { "const": true },
+        "manual_review_required_for_contact": { "const": true }
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,90 @@
+{
+  "version": "black_dragon_long_beach_autonomous_runtime_checkpoint_v1",
+  "generated_at": "2026-05-10T20:13:17.636Z",
+  "checkpoint_id": "BLACK_DRAGON_LONG_BEACH_AUTONOMOUS_RUNTIME_POST_BATCH_130",
+  "city": "Long Beach",
+  "state": "CA",
+  "operational_status": "LOCKED_AUTONOMOUS_RUNTIME_BASELINE",
+  "readiness_audit_status": "PASS",
+  "readiness_checks": {
+    "total_checks": 25,
+    "passed_checks": 25,
+    "failed_checks": 0
+  },
+  "runtime_counts": {
+    "deduped_entities": 68,
+    "contact_ready_entities": 10,
+    "hot": 13,
+    "warm": 37,
+    "review": 18
+  },
+  "autonomous_capabilities": [
+    "DISCOVERY_ENGINE",
+    "REVALIDATION_ENGINE",
+    "SIGNAL_FRESHNESS_ENGINE",
+    "ENTITY_AGGREGATION_ENGINE",
+    "SCHEDULED_RECURRING_PIPELINES",
+    "CONTINUOUS_ENTITY_REFRESH",
+    "CONTINUOUS_RELATIONSHIP_REFRESH",
+    "CONTINUOUS_SCORE_REFRESH",
+    "SIGNAL_AGE_WEIGHTING",
+    "STALE_ENTITY_DETECTION",
+    "INACTIVE_ORGANIZATION_DECAY",
+    "BROKEN_ROUTE_DECAY",
+    "DEAD_LINK_SUPPRESSION"
+  ],
+  "scheduler_hooks": [
+    {
+      "hook_id": "BD_SCHED_DAILY_FRESHNESS",
+      "cadence": "DAILY",
+      "enabled": true
+    },
+    {
+      "hook_id": "BD_SCHED_WEEKLY_DISCOVERY",
+      "cadence": "WEEKLY",
+      "enabled": true
+    },
+    {
+      "hook_id": "BD_SCHED_WEEKLY_REVALIDATION",
+      "cadence": "WEEKLY",
+      "enabled": true
+    },
+    {
+      "hook_id": "BD_SCHED_WEEKLY_DELTA_FEED",
+      "cadence": "WEEKLY",
+      "enabled": true
+    },
+    {
+      "hook_id": "BD_SCHED_MONTHLY_RERANK",
+      "cadence": "MONTHLY",
+      "enabled": true
+    }
+  ],
+  "client_feed_status": "CLIENT_VISIBLE_READY",
+  "monitoring_health": {
+    "discovery_runner": "READY",
+    "freshness_runner": "READY",
+    "revalidation_runner": "READY",
+    "delta_feed_runner": "READY",
+    "monthly_rerank_runner": "READY",
+    "client_feed": "READY",
+    "scheduler_hooks": "REGISTERED",
+    "utf8_guard": "PASS"
+  },
+  "hardlocks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_delete_without_quarantine": true,
+    "quarantine_before_runtime": true,
+    "verified_route_required_for_contact_ready": true
+  },
+  "replication_policy": {
+    "replication_allowed": true,
+    "architecture_locked_before_replication": true,
+    "future_cities_must_inherit_same_laws": true,
+    "runtime_mutation_requires_logging": true,
+    "freshness_engine_required": true,
+    "revalidation_engine_required": true
+  },
+  "next_phase": "DATABASE_AND_SOURCE_EXPANSION_BEFORE_STATE_REPLICATION"
+}

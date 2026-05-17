@@ -1,0 +1,46 @@
+{
+  "version": "black_dragon_education_promotion_rules_v1_batch_067",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "promotion_rules": {
+
+    "SEED_REVIEW_REQUIRED": [
+      "DISCOVER_PUBLIC_SOURCE"
+    ],
+
+    "SOURCE_DISCOVERED": [
+      "VERIFY_REAL_ORGANIZATION",
+      "VERIFY_CONTACT_ROUTE"
+    ],
+
+    "CONTACT_VERIFIED": [
+      "MANUAL_REVIEW_REQUIRED",
+      "OUTREACH_RELEVANCE_REVIEW"
+    ],
+
+    "OUTREACH_ELIGIBLE": [
+      "ALLOW_QUEUE_INSERTION",
+      "ALLOW_RESPONSE_WORKFLOW"
+    ]
+
+  },
+
+  "blocking_rules": {
+
+    "missing_source_url":
+      "OUTREACH_BLOCKED",
+
+    "missing_real_organization":
+      "OUTREACH_BLOCKED",
+
+    "generated_contact_detected":
+      "OUTREACH_BLOCKED",
+
+    "placeholder_email_detected":
+      "OUTREACH_BLOCKED",
+
+    "placeholder_phone_detected":
+      "OUTREACH_BLOCKED"
+
+  }
+}

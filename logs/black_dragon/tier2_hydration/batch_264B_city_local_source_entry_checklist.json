@@ -1,0 +1,49 @@
+{
+    "batch":  "264B",
+    "version":  "black_dragon_city_local_source_entry_checklist_v1",
+    "generated_at":  "2026-05-12T01:30:01.3785977Z",
+    "selected_cities":  [
+                            "new_orleans",
+                            "nashville",
+                            "new_york_city",
+                            "seattle",
+                            "san_antonio"
+                        ],
+    "city_results":  [
+                         {
+                             "folder":  "new_orleans",
+                             "checklist_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_orleans\\city_local_source_entry_checklist.csv",
+                             "rows":  15,
+                             "status":  "PASS_SOURCE_ENTRY_CHECKLIST_READY"
+                         },
+                         {
+                             "folder":  "nashville",
+                             "checklist_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\nashville\\city_local_source_entry_checklist.csv",
+                             "rows":  15,
+                             "status":  "PASS_SOURCE_ENTRY_CHECKLIST_READY"
+                         },
+                         {
+                             "folder":  "new_york_city",
+                             "checklist_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\city_local_source_entry_checklist.csv",
+                             "rows":  15,
+                             "status":  "PASS_SOURCE_ENTRY_CHECKLIST_READY"
+                         },
+                         {
+                             "folder":  "seattle",
+                             "checklist_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\city_local_source_entry_checklist.csv",
+                             "rows":  15,
+                             "status":  "PASS_SOURCE_ENTRY_CHECKLIST_READY"
+                         },
+                         {
+                             "folder":  "san_antonio",
+                             "checklist_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\city_local_source_entry_checklist.csv",
+                             "rows":  15,
+                             "status":  "PASS_SOURCE_ENTRY_CHECKLIST_READY"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  5,
+                    "total_checklist_rows":  75
+                },
+    "status":  "PASS_SOURCE_ENTRY_CHECKLIST_READY"
+}

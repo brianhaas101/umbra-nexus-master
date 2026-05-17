@@ -1,0 +1,19 @@
+{
+  "source_id": "state_education",
+  "state_code": "NV",
+  "state_name": "Nevada",
+  "category": "state_education",
+  "source_url": "https://doe.nv.gov/",
+  "status": "source_page_verified_state_education_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T06:36:23.010Z",
+  "last_refresh": "2026-05-14T06:36:23.010Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:28.728Z",
+  "layer_id": "L02",
+  "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "GA",
+  "state_name": "Georgia",
+  "source_type": "STATE_PROCUREMENT",
+  "canonical_url": "https://doas.ga.gov/state-purchasing",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 291748,
+    "extracted_links": [
+      {
+        "href": "https://doas.ga.gov/state-purchasing",
+        "label": "State Purchasing"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/purchasing-education-and-training",
+        "label": "Purchasing"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/supplier-training",
+        "label": "Supplier"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/small-business-and-supplier-diversity",
+        "label": "Go to the Small Business and Supplier Diversity page"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/statewide-contracts",
+        "label": "Statewide Contracts"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/team-georgia-marketplace",
+        "label": "Team Georgia Marketplace"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/seven-stages-of-procurement",
+        "label": "Seven Stages of Procurement"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/purchasing-education-and-training",
+        "label": "Purchasing Education and Training"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/gawork-procurement",
+        "label": "GA@WORK Procurement"
+      },
+      {
+        "href": "https://doas.ga.gov/state-purchasing/information-for-state-entities-procurement-professionals",
+        "label": "See All Information for State Entities Procurement Professionals"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a"
+}

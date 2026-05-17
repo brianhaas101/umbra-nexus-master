@@ -1,0 +1,10 @@
+﻿{
+    "source_url":  "https://example.gov/source",
+    "source_type":  "public_source_record",
+    "source_title":  "Example Public Source",
+    "retrieved_at":  "2026-05-13T00:00:00.000Z",
+    "city":  "Example City",
+    "entity":  "Example Entity",
+    "claim":  "Example sourced claim for Layer 01 validation.",
+    "confidence":  80
+}

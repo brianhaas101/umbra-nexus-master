@@ -1,0 +1,30 @@
+{
+  "version": "black_dragon_books_citymap_layer_controls_v1",
+
+  "client_id": "black_dragon",
+  "module": "book_sales_v2",
+
+  "layers": [
+    {
+      "layer_id": "BOOK_TARGETS",
+      "label": "Targets",
+      "enabled_default": true,
+      "renderer_global": "BlackDragonBooksCityMapRenderer",
+      "description": "Individual Black Dragon book-sales targets."
+    },
+    {
+      "layer_id": "REGIONAL_CLUSTERS",
+      "label": "Regional Clusters",
+      "enabled_default": true,
+      "renderer_global": "BlackDragonBooksClusterRenderer",
+      "description": "Regional influence concentration markers."
+    },
+    {
+      "layer_id": "PROPAGATION_PATHS",
+      "label": "Propagation Paths",
+      "enabled_default": true,
+      "renderer_global": "BlackDragonBooksPathRenderer",
+      "description": "Predicted influence flow between regions."
+    }
+  ]
+}

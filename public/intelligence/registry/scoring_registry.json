@@ -1,0 +1,8 @@
+{
+    "runtime_coupling":  false,
+    "explainability":  true,
+    "normalization":  "fixed",
+    "deterministic_scoring":  true,
+    "weighted_execution":  true,
+    "black_dragon_access":  false
+}

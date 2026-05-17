@@ -1,0 +1,57 @@
+{
+  "city_id": "city_c27d5d7f",
+  "canonical_name": "San Antonio, TX",
+  "state": "TX",
+  "placeholder_allowed": false,
+  "synthetic_allowed": false,
+  "production_status": "hydrated",
+  "source_count": 9,
+  "sources": [
+    {
+      "layer": "gis",
+      "url": "https://gis.sanantonio.gov/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "open_data",
+      "url": "https://data.sanantonio.gov/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "police",
+      "url": "https://www.sanantonio.gov/sapd",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "fire",
+      "url": "https://www.sanantonio.gov/safd",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "parks",
+      "url": "https://www.sanantonio.gov/ParksAndRec",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "permits",
+      "url": "https://www.sanantonio.gov/DSD",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "public_works",
+      "url": "https://www.sanantonio.gov/PublicWorks",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "schools",
+      "url": "https://www.saisd.net/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "council",
+      "url": "https://www.sanantonio.gov/council",
+      "provenance": "verified_profile_source"
+    }
+  ],
+  "generated_utc": "2026-05-12T07:22:05.9654882Z"
+}

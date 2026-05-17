@@ -1,0 +1,142 @@
+{
+  "version": "black_dragon_geographic_intelligence_layer_v1",
+  "generated_at": "2026-05-06T02:09:03.978Z",
+  "rule": "Geographic output uses city-centroid coordinates only unless exact agency coordinates are later verified.",
+  "total_records": 11,
+  "geocoded": 11,
+  "missing": 0,
+  "records": [
+    {
+      "entity_key": "AZ|PHOENIX POLICE DEPARTMENT",
+      "agency_name": "PHOENIX POLICE DEPARTMENT",
+      "city": "Phoenix",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 33.4484,
+      "lon": -112.074,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|MESA POLICE DEPARTMENT",
+      "agency_name": "MESA POLICE DEPARTMENT",
+      "city": "Mesa",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 33.4152,
+      "lon": -111.8315,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|CHANDLER POLICE DEPARTMENT",
+      "agency_name": "CHANDLER POLICE DEPARTMENT",
+      "city": "Chandler",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 33.3062,
+      "lon": -111.8413,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|GLENDALE POLICE DEPARTMENT",
+      "agency_name": "GLENDALE POLICE DEPARTMENT",
+      "city": "Glendale",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 33.5387,
+      "lon": -112.186,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|TEMPE POLICE DEPARTMENT",
+      "agency_name": "TEMPE POLICE DEPARTMENT",
+      "city": "Tempe",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 33.4255,
+      "lon": -111.94,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|TUCSON POLICE DEPARTMENT",
+      "agency_name": "TUCSON POLICE DEPARTMENT",
+      "city": "Tucson",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 32.2226,
+      "lon": -110.9747,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|FLAGSTAFF POLICE DEPARTMENT",
+      "agency_name": "FLAGSTAFF POLICE DEPARTMENT",
+      "city": "Flagstaff",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 35.1983,
+      "lon": -111.6513,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|SCOTTSDALE POLICE DEPARTMENT",
+      "agency_name": "SCOTTSDALE POLICE DEPARTMENT",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 33.4942,
+      "lon": -111.9261,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|SURPRISE POLICE DEPARTMENT",
+      "agency_name": "SURPRISE POLICE DEPARTMENT",
+      "city": "Surprise",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 33.6292,
+      "lon": -112.3679,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "AZ|YUMA POLICE DEPARTMENT",
+      "agency_name": "YUMA POLICE DEPARTMENT",
+      "city": "Yuma",
+      "state": "AZ",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 32.6927,
+      "lon": -114.6277,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    },
+    {
+      "entity_key": "CA|SAN DIEGO COMMUNITY COLLEGE DISTRICT POLICE DEPARTMENT",
+      "agency_name": "San Diego Community College District Police Department",
+      "city": "San Diego",
+      "state": "CA",
+      "geocode_status": "GEOCODED_CITY_CENTROID",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "geocode_confidence": 0.75,
+      "exact_agency_location": false,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY"
+    }
+  ]
+}

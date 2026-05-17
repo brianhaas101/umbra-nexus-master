@@ -1,0 +1,1809 @@
+{
+  "version": "black_dragon_public_contact_validator_v1",
+  "generated_at": "2026-05-10T17:43:51.493Z",
+  "total": 180,
+  "passed": 0,
+  "failed": 180,
+  "results": [
+    {
+      "execution_id": "IMPORT_EXEC_0001",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000001",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0002",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000002",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0003",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000003",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0004",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000004",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0005",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000005",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0006",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000006",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0007",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000007",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0008",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000008",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0009",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000009",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0010",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000010",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0011",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000011",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0012",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000012",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0013",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000013",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0014",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000014",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0015",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000015",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0016",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000016",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0017",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000017",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0018",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000018",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0019",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000019",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0020",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000020",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0021",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000021",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0022",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000022",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0023",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000023",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0024",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000024",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0025",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000025",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0026",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000026",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0027",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000027",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0028",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000028",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0029",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000029",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0030",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000030",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0031",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000031",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0032",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000032",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0033",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000033",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0034",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000034",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0035",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000035",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0036",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000036",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0037",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000037",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0038",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000038",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0039",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000039",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0040",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000040",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0041",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000041",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0042",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000042",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0043",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000043",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0044",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000044",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0045",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000045",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0046",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000046",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0047",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000047",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0048",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000048",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0049",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000049",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0050",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000050",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0051",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000051",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0052",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000052",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0053",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000053",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0054",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000054",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0055",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000055",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0056",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000056",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0057",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000057",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0058",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000058",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0059",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000059",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0060",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000060",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0061",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000061",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0062",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000062",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0063",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000063",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0064",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000064",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0065",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000065",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0066",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000066",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0067",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000067",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0068",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000068",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0069",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000069",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0070",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000070",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0071",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000071",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0072",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000072",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0073",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000073",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0074",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000074",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0075",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000075",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0076",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000076",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0077",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000077",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0078",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000078",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0079",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000079",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0080",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000080",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0081",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000081",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0082",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000082",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0083",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000083",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0084",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000084",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0085",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000085",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0086",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000086",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0087",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000087",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0088",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000088",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0089",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000089",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0090",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000090",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0091",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000091",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0092",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000092",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0093",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000093",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0094",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000094",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0095",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000095",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0096",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000096",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0097",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000097",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0098",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000098",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0099",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000099",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0100",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000100",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0101",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000101",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0102",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000102",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0103",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000103",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0104",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000104",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0105",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000105",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0106",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000106",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0107",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000107",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0108",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000108",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0109",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000109",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0110",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000110",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0111",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000111",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0112",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000112",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0113",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000113",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0114",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000114",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0115",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000115",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0116",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000116",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0117",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000117",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0118",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000118",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0119",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000119",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0120",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000120",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0121",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000121",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0122",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000122",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0123",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000123",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0124",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000124",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0125",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000125",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0126",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000126",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0127",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000127",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0128",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000128",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0129",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000129",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0130",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000130",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0131",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000131",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0132",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000132",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0133",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000133",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0134",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000134",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0135",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000135",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0136",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000136",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0137",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000137",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0138",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000138",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0139",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000139",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0140",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000140",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0141",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000141",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0142",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000142",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0143",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000143",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0144",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000144",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0145",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000145",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0146",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000146",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0147",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000147",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0148",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000148",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0149",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000149",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0150",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000150",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0151",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000151",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0152",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000152",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0153",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000153",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0154",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000154",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0155",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000155",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0156",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000156",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0157",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000157",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0158",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000158",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0159",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000159",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0160",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000160",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0161",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000161",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0162",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000162",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0163",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000163",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0164",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000164",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0165",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000165",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0166",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000166",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0167",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000167",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0168",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000168",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0169",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000169",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0170",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000170",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0171",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000171",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0172",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000172",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0173",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000173",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0174",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000174",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0175",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000175",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0176",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000176",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0177",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000177",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0178",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000178",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0179",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000179",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0180",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000180",
+      "contact_route": null,
+      "contact_route_type": null,
+      "contact_person_or_role": null,
+      "public_contact_status": "FAILED",
+      "quarantine_required": true,
+      "reason": "NO_PUBLIC_CONTACT_ROUTE_PRESENT"
+    }
+  ]
+}

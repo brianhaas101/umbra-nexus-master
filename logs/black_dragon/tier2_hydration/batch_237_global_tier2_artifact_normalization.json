@@ -1,0 +1,683 @@
+{
+    "batch":  "237",
+    "version":  "black_dragon_global_tier2_artifact_normalization_v1",
+    "generated_at":  "2026-05-11T06:08:53.3215558Z",
+    "reference":  {
+                      "validated_sources":  19,
+                      "geospatial_candidates":  18,
+                      "organization_candidates":  15,
+                      "relationship_candidates":  30,
+                      "ranked_entities":  15
+                  },
+    "summary":  {
+                    "registered_cities":  18,
+                    "normalized_cities":  18,
+                    "failed_count":  0,
+                    "density_gate_passed_count":  5,
+                    "density_gap_count":  13,
+                    "density_gate_passed_cities":  [
+                                                       "los_angeles",
+                                                       "san_diego",
+                                                       "phoenix",
+                                                       "scottsdale",
+                                                       "mesa"
+                                                   ],
+                    "density_gap_cities":  [
+                                               "atlanta",
+                                               "austin",
+                                               "houston",
+                                               "las_vegas",
+                                               "miami",
+                                               "nashville",
+                                               "new_orleans",
+                                               "new_york_city",
+                                               "san_antonio",
+                                               "seattle",
+                                               "long_beach",
+                                               "long_beach_final",
+                                               "tucson"
+                                           ]
+                },
+    "city_results":  [
+                         {
+                             "city":  "Atlanta",
+                             "folder":  "atlanta",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Austin",
+                             "folder":  "austin",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\validated_sources.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  1
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  14
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Las Vegas",
+                             "folder":  "las_vegas",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  2,
+                                              "geospatial_candidates":  2,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  17,
+                                          "geospatial_candidates":  16,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Miami",
+                             "folder":  "miami",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Nashville",
+                             "folder":  "nashville",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\validated_sources.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\geospatial_anchors.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\candidate_entities.quarantine.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\relationship_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\verified_source_ingestion_lanes.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\validated_sources.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\geospatial_anchors.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\candidate_entities.quarantine.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\relationship_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\verified_source_ingestion_lanes.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\validated_sources.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\geospatial_anchors.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\candidate_entities.quarantine.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\relationship_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\verified_source_ingestion_lanes.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\validated_sources.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\geospatial_anchors.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\candidate_entities.quarantine.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\relationship_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\verified_source_ingestion_lanes.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Long Beach",
+                             "folder":  "long_beach",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach\\validated_sources.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach\\geospatial_anchors.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach\\candidate_entities.quarantine.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach\\relationship_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach\\verified_source_ingestion_lanes.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Long Beach Final",
+                             "folder":  "long_beach_final",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach_final\\validated_sources.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach_final\\geospatial_anchors.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach_final\\candidate_entities.quarantine.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach_final\\relationship_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach_final\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach_final\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\long_beach_final\\verified_source_ingestion_lanes.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Los Angeles",
+                             "folder":  "los_angeles",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\los_angeles\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\los_angeles\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\los_angeles\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\los_angeles\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\los_angeles\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\los_angeles\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\los_angeles\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "San Diego",
+                             "folder":  "san_diego",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_diego\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_diego\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_diego\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_diego\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_diego\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_diego\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_diego\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Phoenix",
+                             "folder":  "phoenix",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Scottsdale",
+                             "folder":  "scottsdale",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\scottsdale\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\scottsdale\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\scottsdale\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\scottsdale\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\scottsdale\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\scottsdale\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\scottsdale\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Mesa",
+                             "folder":  "mesa",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\mesa\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\mesa\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\mesa\\verified_source_ingestion_lanes.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\mesa\\validated_sources.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\mesa\\geospatial_anchors.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\mesa\\candidate_entities.quarantine.json",
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\mesa\\relationship_candidates.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         },
+                         {
+                             "city":  "Tucson",
+                             "folder":  "tucson",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\tucson\\validated_sources.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\tucson\\geospatial_anchors.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\tucson\\candidate_entities.quarantine.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\tucson\\relationship_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\tucson\\density_gap_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\tucson\\long_beach_equivalence_audit.json"
+                                               ],
+                             "files_already_present":  [
+                                                           ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\tucson\\verified_source_ingestion_lanes.json"
+                                                       ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACT_NORMALIZED"
+                         }
+                     ],
+    "hardlocks":  {
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "synthetic_fillers_allowed":  false,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_GLOBAL_TIER2_ARTIFACT_NORMALIZATION_COMPLETE"
+}

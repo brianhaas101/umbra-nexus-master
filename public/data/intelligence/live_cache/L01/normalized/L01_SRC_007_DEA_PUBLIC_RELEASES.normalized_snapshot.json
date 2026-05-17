@@ -1,0 +1,396 @@
+{
+  "version": "nexus_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-08T23:52:43.404Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+  "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+  "source_name": "DEA Public Intelligence and Enforcement Releases",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Operational Divisions",
+        "href": "/who-we-are/operational-divisions",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Law Enforcement",
+        "href": "/law-enforcement",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "DEA Office of Training",
+        "href": "/law-enforcement/office-of-training",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "El Paso Intelligence Center (EPIC)",
+        "href": "/what-we-do/law-enforcement/epic",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Intelligence",
+        "href": "/law-enforcement/intelligence",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Operations",
+        "href": "/operations",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "DEA Asset Forfeiture",
+        "href": "/operations/asset-forfeiture",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Domestic Cannabis Suppression / Eradication Program",
+        "href": "/operations/eradication-program",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "HIDTA",
+        "href": "/operations/hidta",
+        "record_type": "dea_public_release_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_DEA_RELEASE_EVIDENCE_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "source_name": "DEA Public Intelligence and Enforcement Releases",
+      "captured_at": "2026-05-08T23:52:43.404Z",
+      "confidence": 0.91,
+      "lineage": {
+        "endpoint": "https://www.dea.gov/press-releases",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f5830b3cd381d9e0a1dd85fb8ccc38e80d56b192ad0c41e2457dbf99feafd9ea",
+        "parser_id": "DEA_PRESS_RELEASE_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "OCDETF",
+        "href": "/operations/ocdetf",
+        "record_type": "dea_public_release_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "LIVE_DEA_RELEASE_SIGNAL_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "signal_type": "DEA_PUBLIC_RELEASE_LIVE_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "LIVE_DEA_RELEASE_SCORE_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "connector_id": "L01_LIVE_CONNECTOR_007_L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "score_delta": 9,
+      "confidence": 0.91
+    }
+  ],
+  "normalized_hash": "a0de03a8c33dee312bbd7db18678fa5c487de5d316f9a4c6eb443e4084300df3"
+}

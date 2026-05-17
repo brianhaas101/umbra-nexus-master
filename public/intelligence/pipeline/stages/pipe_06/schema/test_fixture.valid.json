@@ -1,0 +1,14 @@
+﻿{
+    "record_id":  "l01_example",
+    "normalized_record":  {
+                              "source_url":  "https://examplecity.gov/economic-development",
+                              "city":  "Example City",
+                              "entity":  "Example Entity, LLC",
+                              "claim":  "The city planning office lists Example Entity, LLC in a public development source.",
+                              "latitude":  35.0001,
+                              "longitude":  -80.0001
+                          },
+    "classification":  "city_local_primary",
+    "entity_key":  "example_entity_llc",
+    "city_key":  "example_city"
+}

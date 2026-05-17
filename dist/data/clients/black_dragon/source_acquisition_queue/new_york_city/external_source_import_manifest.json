@@ -1,0 +1,919 @@
+{
+    "batch":  "253",
+    "version":  "black_dragon_new_york_city_external_source_import_manifest_v1",
+    "generated_at":  "2026-05-11T07:50:00.0433515Z",
+    "city":  "New York City",
+    "folder":  "new_york_city",
+    "state":  "New York",
+    "state_code":  "NY",
+    "city_id":  "city_new_york_city_ny",
+    "manifest_items":  [
+                           {
+                               "manifest_item_id":  "intake_manifest_832fff8a9b254ae5bf0cfd33766fcc1a",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "city_government_directory",
+                               "acquisition_queries":  [
+                                                           "New York City New York city_government_directory public directory",
+                                                           "New York City city_government_directory organizations",
+                                                           "New York City city_government_directory official source",
+                                                           "New York City city_government_directory open data",
+                                                           "New York City city_government_directory registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_32462eb2471b433a9fa92d3057791c17",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "business_registry",
+                               "acquisition_queries":  [
+                                                           "New York City New York business_registry public directory",
+                                                           "New York City business_registry organizations",
+                                                           "New York City business_registry official source",
+                                                           "New York City business_registry open data",
+                                                           "New York City business_registry registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_14f91d5bc7294e03b60d5e53a0431ac3",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "chamber_of_commerce",
+                               "acquisition_queries":  [
+                                                           "New York City New York chamber_of_commerce public directory",
+                                                           "New York City chamber_of_commerce organizations",
+                                                           "New York City chamber_of_commerce official source",
+                                                           "New York City chamber_of_commerce open data",
+                                                           "New York City chamber_of_commerce registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_86636c17bffd4b6eac7534e1d13b6434",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "local_media_directory",
+                               "acquisition_queries":  [
+                                                           "New York City New York local_media_directory public directory",
+                                                           "New York City local_media_directory organizations",
+                                                           "New York City local_media_directory official source",
+                                                           "New York City local_media_directory open data",
+                                                           "New York City local_media_directory registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_bef3f74cc11145baabaa2d32d112e034",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "education_institutions",
+                               "acquisition_queries":  [
+                                                           "New York City New York education_institutions public directory",
+                                                           "New York City education_institutions organizations",
+                                                           "New York City education_institutions official source",
+                                                           "New York City education_institutions open data",
+                                                           "New York City education_institutions registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_ecb5d2166c1947d982f20e92e98b1a2f",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "community_organizations",
+                               "acquisition_queries":  [
+                                                           "New York City New York community_organizations public directory",
+                                                           "New York City community_organizations organizations",
+                                                           "New York City community_organizations official source",
+                                                           "New York City community_organizations open data",
+                                                           "New York City community_organizations registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_51b7f7c9b276428db8087eb51d7d2413",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "venue_and_events",
+                               "acquisition_queries":  [
+                                                           "New York City New York venue_and_events public directory",
+                                                           "New York City venue_and_events organizations",
+                                                           "New York City venue_and_events official source",
+                                                           "New York City venue_and_events open data",
+                                                           "New York City venue_and_events registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_16123d7fd71041e981a0589999cfa3c6",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "retail_and_dealers",
+                               "acquisition_queries":  [
+                                                           "New York City New York retail_and_dealers public directory",
+                                                           "New York City retail_and_dealers organizations",
+                                                           "New York City retail_and_dealers official source",
+                                                           "New York City retail_and_dealers open data",
+                                                           "New York City retail_and_dealers registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_7259ca02d9f24b6d8eba1b9eaa7c1eac",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "clubs_and_associations",
+                               "acquisition_queries":  [
+                                                           "New York City New York clubs_and_associations public directory",
+                                                           "New York City clubs_and_associations organizations",
+                                                           "New York City clubs_and_associations official source",
+                                                           "New York City clubs_and_associations open data",
+                                                           "New York City clubs_and_associations registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_6fe46ae231124cbb97ea4f47251ec17e",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "geospatial_open_data",
+                               "acquisition_queries":  [
+                                                           "New York City New York geospatial_open_data public directory",
+                                                           "New York City geospatial_open_data organizations",
+                                                           "New York City geospatial_open_data official source",
+                                                           "New York City geospatial_open_data open data",
+                                                           "New York City geospatial_open_data registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_a97ab146202c40248c74c8ec1fb12b68",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "transit_and_location_data",
+                               "acquisition_queries":  [
+                                                           "New York City New York transit_and_location_data public directory",
+                                                           "New York City transit_and_location_data organizations",
+                                                           "New York City transit_and_location_data official source",
+                                                           "New York City transit_and_location_data open data",
+                                                           "New York City transit_and_location_data registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_dc1e9045e6274ca196894b89a8d2d703",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "public_safety_and_civic_resources",
+                               "acquisition_queries":  [
+                                                           "New York City New York public_safety_and_civic_resources public directory",
+                                                           "New York City public_safety_and_civic_resources organizations",
+                                                           "New York City public_safety_and_civic_resources official source",
+                                                           "New York City public_safety_and_civic_resources open data",
+                                                           "New York City public_safety_and_civic_resources registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_f0bd0c31f85b4fa0ad1b746c77e1924c",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "tourism_and_visitor_bureau",
+                               "acquisition_queries":  [
+                                                           "New York City New York tourism_and_visitor_bureau public directory",
+                                                           "New York City tourism_and_visitor_bureau organizations",
+                                                           "New York City tourism_and_visitor_bureau official source",
+                                                           "New York City tourism_and_visitor_bureau open data",
+                                                           "New York City tourism_and_visitor_bureau registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_13913ace9b114347b06d4df149f3a560",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "neighborhood_districts",
+                               "acquisition_queries":  [
+                                                           "New York City New York neighborhood_districts public directory",
+                                                           "New York City neighborhood_districts organizations",
+                                                           "New York City neighborhood_districts official source",
+                                                           "New York City neighborhood_districts open data",
+                                                           "New York City neighborhood_districts registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_47602af58edc48ba8bddc6cbd3c6f591",
+                               "city":  "New York City",
+                               "folder":  "new_york_city",
+                               "state":  "New York",
+                               "state_code":  "NY",
+                               "category":  "local_nonprofits",
+                               "acquisition_queries":  [
+                                                           "New York City New York local_nonprofits public directory",
+                                                           "New York City local_nonprofits organizations",
+                                                           "New York City local_nonprofits official source",
+                                                           "New York City local_nonprofits open data",
+                                                           "New York City local_nonprofits registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           }
+                       ],
+    "downstream_contract":  {
+                                "raw_intake_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\external_source_intake.raw.json",
+                                "reviewed_intake_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\external_source_intake.reviewed.json",
+                                "rejected_sources_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\external_source_rejections.json",
+                                "import_manifest_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\external_source_import_manifest.json"
+                            },
+    "status":  "EXTERNAL_SOURCE_IMPORT_MANIFEST_READY"
+}

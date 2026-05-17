@@ -1,0 +1,16 @@
+﻿{
+    "layer_id":  "layer_05",
+    "contract":  "entity_identity_normalization",
+    "depends_on":  [
+                       "layer_01",
+                       "layer_02",
+                       "layer_03",
+                       "layer_04"
+                   ],
+    "creates_entities":  false,
+    "normalizes_explicit_entities_only":  true,
+    "deterministic_key_generation":  true,
+    "accepts_synthetic_fillers":  false,
+    "inferred_contacts_allowed":  false,
+    "modifies_black_dragon":  false
+}

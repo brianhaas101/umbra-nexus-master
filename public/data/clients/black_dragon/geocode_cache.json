@@ -1,0 +1,118 @@
+{
+  "version": "black_dragon_geocode_cache_v1",
+  "generated_at": "2026-05-06T02:09:03.861Z",
+  "rule": "These are city-centroid coordinates for operational visualization only, not exact agency building coordinates.",
+  "precision": "CITY_CENTROID",
+  "records": [
+    {
+      "key": "PHOENIX|AZ",
+      "city": "Phoenix",
+      "state": "AZ",
+      "lat": 33.4484,
+      "lon": -112.074,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "MESA|AZ",
+      "city": "Mesa",
+      "state": "AZ",
+      "lat": 33.4152,
+      "lon": -111.8315,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "CHANDLER|AZ",
+      "city": "Chandler",
+      "state": "AZ",
+      "lat": 33.3062,
+      "lon": -111.8413,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "GLENDALE|AZ",
+      "city": "Glendale",
+      "state": "AZ",
+      "lat": 33.5387,
+      "lon": -112.186,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "TEMPE|AZ",
+      "city": "Tempe",
+      "state": "AZ",
+      "lat": 33.4255,
+      "lon": -111.94,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "TUCSON|AZ",
+      "city": "Tucson",
+      "state": "AZ",
+      "lat": 32.2226,
+      "lon": -110.9747,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "FLAGSTAFF|AZ",
+      "city": "Flagstaff",
+      "state": "AZ",
+      "lat": 35.1983,
+      "lon": -111.6513,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "SCOTTSDALE|AZ",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "lat": 33.4942,
+      "lon": -111.9261,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "SURPRISE|AZ",
+      "city": "Surprise",
+      "state": "AZ",
+      "lat": 33.6292,
+      "lon": -112.3679,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "YUMA|AZ",
+      "city": "Yuma",
+      "state": "AZ",
+      "lat": 32.6927,
+      "lon": -114.6277,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    },
+    {
+      "key": "SAN DIEGO|CA",
+      "city": "San Diego",
+      "state": "CA",
+      "lat": 32.7157,
+      "lon": -117.1611,
+      "confidence": 0.75,
+      "geocode_type": "CITY_CENTROID",
+      "exact_agency_location": false
+    }
+  ]
+}

@@ -1,0 +1,638 @@
+{
+    "batch":  "260",
+    "version":  "black_dragon_nashville_city_local_import_manifest_v1",
+    "generated_at":  "2026-05-12T00:53:19.2000668Z",
+    "city":  "Nashville",
+    "folder":  "nashville",
+    "state":  "Tennessee",
+    "state_code":  "TN",
+    "city_id":  "city_nashville_tn",
+    "manifest_items":  [
+                           {
+                               "manifest_item_id":  "city_local_manifest_10a9ade57193436bab9e31d42a838b89",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "city_government_directory",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee city_government_directory public directory",
+                                                           "Nashville TN city_government_directory official",
+                                                           "Nashville city_government_directory open data",
+                                                           "Nashville city_government_directory registry",
+                                                           "Nashville city_government_directory organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_4dc76ad635c04ab2965902d899a6bb9e",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "business_registry",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee business_registry public directory",
+                                                           "Nashville TN business_registry official",
+                                                           "Nashville business_registry open data",
+                                                           "Nashville business_registry registry",
+                                                           "Nashville business_registry organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_9af0b253b2e04bbc93b7756cef3f2e31",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "chamber_of_commerce",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee chamber_of_commerce public directory",
+                                                           "Nashville TN chamber_of_commerce official",
+                                                           "Nashville chamber_of_commerce open data",
+                                                           "Nashville chamber_of_commerce registry",
+                                                           "Nashville chamber_of_commerce organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_60246fda20104fa889517117422328d0",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "local_media_directory",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee local_media_directory public directory",
+                                                           "Nashville TN local_media_directory official",
+                                                           "Nashville local_media_directory open data",
+                                                           "Nashville local_media_directory registry",
+                                                           "Nashville local_media_directory organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_6a4ea9c13ffc4bd88c075caa39efe2ee",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "education_institutions",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee education_institutions public directory",
+                                                           "Nashville TN education_institutions official",
+                                                           "Nashville education_institutions open data",
+                                                           "Nashville education_institutions registry",
+                                                           "Nashville education_institutions organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_ce4d042186eb4867a8939772e75d7244",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "community_organizations",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee community_organizations public directory",
+                                                           "Nashville TN community_organizations official",
+                                                           "Nashville community_organizations open data",
+                                                           "Nashville community_organizations registry",
+                                                           "Nashville community_organizations organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_90796c5fb4804067bc56a9613478a526",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "venue_and_events",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee venue_and_events public directory",
+                                                           "Nashville TN venue_and_events official",
+                                                           "Nashville venue_and_events open data",
+                                                           "Nashville venue_and_events registry",
+                                                           "Nashville venue_and_events organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_a64ec11f254949aa9e05b361a3223b1c",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "retail_and_dealers",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee retail_and_dealers public directory",
+                                                           "Nashville TN retail_and_dealers official",
+                                                           "Nashville retail_and_dealers open data",
+                                                           "Nashville retail_and_dealers registry",
+                                                           "Nashville retail_and_dealers organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_a7ba5f7b1593477e86285ae419a5e450",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "clubs_and_associations",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee clubs_and_associations public directory",
+                                                           "Nashville TN clubs_and_associations official",
+                                                           "Nashville clubs_and_associations open data",
+                                                           "Nashville clubs_and_associations registry",
+                                                           "Nashville clubs_and_associations organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_3e7dff1cddaa4361bad9116f8539e31e",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "geospatial_open_data",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee geospatial_open_data public directory",
+                                                           "Nashville TN geospatial_open_data official",
+                                                           "Nashville geospatial_open_data open data",
+                                                           "Nashville geospatial_open_data registry",
+                                                           "Nashville geospatial_open_data organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_e8fab5f5b4c140519b38c2a805171f2b",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "transit_and_location_data",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee transit_and_location_data public directory",
+                                                           "Nashville TN transit_and_location_data official",
+                                                           "Nashville transit_and_location_data open data",
+                                                           "Nashville transit_and_location_data registry",
+                                                           "Nashville transit_and_location_data organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_816d8022bb864c71a7b36396a8b6e084",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "public_safety_and_civic_resources",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee public_safety_and_civic_resources public directory",
+                                                           "Nashville TN public_safety_and_civic_resources official",
+                                                           "Nashville public_safety_and_civic_resources open data",
+                                                           "Nashville public_safety_and_civic_resources registry",
+                                                           "Nashville public_safety_and_civic_resources organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_ba6161d3d1fe474aa60b0cb6d983ab58",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "tourism_and_visitor_bureau",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee tourism_and_visitor_bureau public directory",
+                                                           "Nashville TN tourism_and_visitor_bureau official",
+                                                           "Nashville tourism_and_visitor_bureau open data",
+                                                           "Nashville tourism_and_visitor_bureau registry",
+                                                           "Nashville tourism_and_visitor_bureau organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_1af8e1d3c588480c8051ebcd94ff2cb3",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "neighborhood_districts",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee neighborhood_districts public directory",
+                                                           "Nashville TN neighborhood_districts official",
+                                                           "Nashville neighborhood_districts open data",
+                                                           "Nashville neighborhood_districts registry",
+                                                           "Nashville neighborhood_districts organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_a727215458f84bf4a8568e3c10e1f867",
+                               "city":  "Nashville",
+                               "folder":  "nashville",
+                               "state":  "Tennessee",
+                               "state_code":  "TN",
+                               "category":  "local_nonprofits",
+                               "acquisition_queries":  [
+                                                           "Nashville Tennessee local_nonprofits public directory",
+                                                           "Nashville TN local_nonprofits official",
+                                                           "Nashville local_nonprofits open data",
+                                                           "Nashville local_nonprofits registry",
+                                                           "Nashville local_nonprofits organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "Nashville",
+                                                           "required_state":  "Tennessee",
+                                                           "required_state_code":  "TN",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           }
+                       ],
+    "hardlocks":  {
+                      "long_beach_benchmark_only":  true,
+                      "city_local_sources_only":  true,
+                      "no_cross_city_contamination":  true,
+                      "no_synthetic_fillers":  true,
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "CITY_LOCAL_IMPORT_MANIFEST_READY"
+}

@@ -1,0 +1,33 @@
+{
+    "version":  "black_dragon_san_antonio_geospatial_anchor_candidates_v1",
+    "generated_at":  "2026-05-11T06:29:06.7915564Z",
+    "city":  "San Antonio",
+    "folder":  "san_antonio",
+    "anchors":  [
+                    {
+                        "anchor_id":  "geo_anchor_0c62901a3b934d0c9f75d746f7531f01",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\san_antonio\\san_antonio_operational_manifest.json",
+                        "city":  "San Antonio",
+                        "folder":  "san_antonio",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_3e34cba63f904a50a27e8f6180f89400",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\san_antonio\\san_antonio_operational_manifest.json",
+                        "city":  "San Antonio",
+                        "folder":  "san_antonio",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    }
+                ],
+    "status":  "GEOSPATIAL_CANDIDATES_QUARANTINED"
+}

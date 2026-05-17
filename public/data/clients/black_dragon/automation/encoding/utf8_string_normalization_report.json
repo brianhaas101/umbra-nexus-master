@@ -1,0 +1,13 @@
+{
+  "version": "black_dragon_utf8_string_normalization_report_v1",
+  "generated_at": "2026-05-10T20:03:00.234Z",
+  "target_file": "automation/client_feed/client_updates_feed.json",
+  "repaired_strings": 1,
+  "encoding_policy": {
+    "utf8_required": true,
+    "unicode_normalization": "NFC",
+    "replacement_character_forbidden": true,
+    "mojibake_repair_enabled": true
+  },
+  "status": "PASS"
+}

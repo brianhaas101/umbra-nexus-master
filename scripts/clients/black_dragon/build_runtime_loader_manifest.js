@@ -1,0 +1,33 @@
+const fs = require("fs");
+const path = require("path");
+
+const OUT = "public/data/clients/black_dragon/runtime_loader_manifest.json";
+
+const manifest = {
+  version: "black_dragon_runtime_loader_manifest_v1",
+  generated_at: new Date().toISOString(),
+  client_key: "black_dragon",
+  load_order: [
+    "runtime_authority_map.json",
+    "black_dragon_client_sync.json",
+    "dossier_targets.json",
+    "national_verified_outreach_shortlist.json",
+    "normalized_intelligence_outputs.json",
+    "geographic_intelligence_layer.json",
+    "territory_clusters.json",
+    "globe_sync_export.real.json",
+    "outreach_execution_log.json"
+  ],
+  rules: {
+    client_sync_is_runtime_authority: true,
+    real_globe_export_replaces_placeholder_export: true,
+    dossiers_require_normalized_outputs: true,
+    outreach_requires_verified_contact_path: true
+  }
+};
+
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
+fs.writeFileSync(OUT, JSON.stringify(manifest, null, 2));
+
+console.log("[RUNTIME LOADER MANIFEST] COMPLETE");
+console.log("[RUNTIME LOADER MANIFEST] Files:", manifest.load_order.length);

@@ -1,0 +1,34 @@
+﻿{
+    "source_id":  "fbi_field_offices",
+    "layer_id":  "L01",
+    "source_name":  "FBI Field Offices",
+    "canonical_url":  "https://www.fbi.gov/contact-us/field-offices",
+    "authority_type":  "federal_public_source",
+    "access_method":  "public_directory",
+    "refresh_interval":  "monthly",
+    "failure_policy":  "fail_closed_no_synthetic_records",
+    "parser_script":  "public/intelligence/layers/L01_federal_intelligence/connectors/fbi_field_offices_connector.js",
+    "normalizer_script":  "public/intelligence/layers/L01_federal_intelligence/normalizers/fbi_field_offices_normalizer.js",
+    "entity_targets":  [
+                           "agency",
+                           "field_office",
+                           "jurisdiction"
+                       ],
+    "score_targets":  [
+                          "authority_score",
+                          "federal_relevance_score",
+                          "freshness_score"
+                      ],
+    "dossier_targets":  [
+                            "federal_sources",
+                            "federal_enforcement_context"
+                        ],
+    "authority_weight":  0.9,
+    "status":  "http_403_blocked",
+    "connector_active":  false,
+    "normalizer_active":  false,
+    "last_refresh":  null,
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "black_dragon_coupling":  false
+}

@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:20.690Z",
+  "layer_id": "L02",
+  "connector_id": "L02_IL_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "IL",
+  "state_name": "Illinois",
+  "source_type": "STATE_PROCUREMENT",
+  "canonical_url": "https://www.bidbuy.illinois.gov",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 146780,
+    "extracted_links": [
+      {
+        "href": "https://ipg.illinois.gov/",
+        "label": "Illinois Procurement Gateway (IPG)"
+      },
+      {
+        "href": "https://www.bidbuy.illinois.gov/bso/view/search/external/advancedSearchBid.xhtml?openBids=true",
+        "label": "Open Bids Browse open bid opportunities."
+      },
+      {
+        "href": "https://www.bidbuy.illinois.gov/bso/view/search/external/advancedSearchContractBlanket.xhtml?view=activeContracts",
+        "label": "Active Blankets Browse active Blankets."
+      },
+      {
+        "href": "https://pathway2procurement.illinois.gov/bidbuy.html",
+        "label": "How to Register in BidBuy Guides and Videos"
+      },
+      {
+        "href": "https://pathway2procurement.illinois.gov/content/dam/soi/en/web/cpo-pathway-to-procurement/documents/bidbuy-documents/23-bidbuy-vendor-seller-functional-manual-v1-final.pdf",
+        "label": "Vendor Seller Manual"
+      },
+      {
+        "href": "https://www2.illinois.gov/cpo/pathwaytoprocurement/pages/default.aspx",
+        "label": "Pathway to Procurement"
+      },
+      {
+        "href": "https://ipg.illinois.gov/",
+        "label": "Illinois Procurement Gateway"
+      },
+      {
+        "href": "https://cpo-general.illinois.gov/bidbuy/job-aids.html",
+        "label": "Training Manuals and Job Aids"
+      },
+      {
+        "href": "https://youtu.be/_6d8zz4ElnY",
+        "label": "Vendors: Reasons your Bid or Offer may be Deemed Non-Responsive (Disqualified)"
+      },
+      {
+        "href": "https://youtu.be/sFLH9kIvCck",
+        "label": "Vendors: Pricing Lockbox (for RFPs) and Required Quote Attachments"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "65ea7f31dafe1294342cda6fbae82fddcd553fb40e32b1a3abaee25b0b20d276"
+}

@@ -1,0 +1,225 @@
+{
+  "version": "nexus_entity_deduplication_output_v1",
+  "generated_at": "2026-05-07T02:30:00.153Z",
+  "input_entities": 24,
+  "unique_entities": 12,
+  "duplicate_entities_removed": 12,
+  "entities": [
+    {
+      "entity_id": "AZ_PHOENIX_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "PHOENIX POLICE DEPARTMENT",
+      "canonical_name": "PHOENIX POLICE DEPARTMENT",
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.268Z",
+      "updated_at": "2026-05-07T02:30:00.152Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_MESA_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "MESA POLICE DEPARTMENT",
+      "canonical_name": "MESA POLICE DEPARTMENT",
+      "city": "Mesa",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.152Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_CHANDLER_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "CHANDLER POLICE DEPARTMENT",
+      "canonical_name": "CHANDLER POLICE DEPARTMENT",
+      "city": "Chandler",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_GLENDALE_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "GLENDALE POLICE DEPARTMENT",
+      "canonical_name": "GLENDALE POLICE DEPARTMENT",
+      "city": "Glendale",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_TEMPE_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "TEMPE POLICE DEPARTMENT",
+      "canonical_name": "TEMPE POLICE DEPARTMENT",
+      "city": "Tempe",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_TUCSON_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "TUCSON POLICE DEPARTMENT",
+      "canonical_name": "TUCSON POLICE DEPARTMENT",
+      "city": "Tucson",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "FLAGSTAFF POLICE DEPARTMENT",
+      "canonical_name": "FLAGSTAFF POLICE DEPARTMENT",
+      "city": "Flagstaff",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "SCOTTSDALE POLICE DEPARTMENT",
+      "canonical_name": "SCOTTSDALE POLICE DEPARTMENT",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_SURPRISE_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "SURPRISE POLICE DEPARTMENT",
+      "canonical_name": "SURPRISE POLICE DEPARTMENT",
+      "city": "Surprise",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "AZ_YUMA_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "YUMA POLICE DEPARTMENT",
+      "canonical_name": "YUMA POLICE DEPARTMENT",
+      "city": "Yuma",
+      "state": "AZ",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/manual_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "San Diego Community College District Police Department",
+      "canonical_name": "SAN DIEGO COMMUNITY COLLEGE DISTRICT POLICE DEPARTMENT",
+      "city": "San Diego",
+      "state": "CA",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/state_candidates/ca_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    },
+    {
+      "entity_id": "TX_DALLAS_POLICE_ACADEMY",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "display_name": "Dallas Police Academy",
+      "canonical_name": "DALLAS POLICE ACADEMY",
+      "city": "Dallas",
+      "state": "TX",
+      "country": "US",
+      "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "confidence_score": 0.95,
+      "created_at": "2026-05-06T13:28:10.269Z",
+      "updated_at": "2026-05-07T02:30:00.153Z",
+      "source_traces": [
+        "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+        "public/data/clients/black_dragon/state_candidates/tx_verified_contacts.json"
+      ],
+      "duplicate_count": 2
+    }
+  ]
+}

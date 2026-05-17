@@ -1,0 +1,21 @@
+{
+  "version": "black_dragon_books_outreach_test_pack_001_results_v1",
+  "generated_at": null,
+
+  "instructions": {
+    "status_values": [
+      "PENDING",
+      "SENT",
+      "RESPONDED",
+      "INTERESTED",
+      "ENDORSED",
+      "BULK_ORDER",
+      "CLOSED",
+      "NO_RESPONSE",
+      "NOT_A_FIT"
+    ],
+    "manual_only": true
+  },
+
+  "results": []
+}

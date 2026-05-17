@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    window.UMBRA_TEX_LON_OFFSET_DEG = 90;
+    console.log("[EARLY LOCK] TEX OFFSET =", window.UMBRA_TEX_LON_OFFSET_DEG);
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>UMBRA NEXUS — ROOT LIVE CHECK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <script>
+    window.__UMBRA_BUILD__ = "FOUNDERV1_UI_ARCH_LOCK_DATA_V1";
+    console.log("[BUILD]", window.__UMBRA_BUILD__);
+  </script>
+
+  <link rel="stylesheet" href="/style.css?v=FOUNDERV1_UI_ARCH_LOCK_DATA_V1" />
+</head>
+
+<body>
+  <div class="app-shell" id="appShell">
+    <header class="top-bar">
+      <div class="top-brand">LIVE ROOT CHECK</div>
+
+      <div class="top-center">
+        <div class="nav-logo-wrap" aria-hidden="true"></div>
+
+        <nav id="mainNav" class="top-nav" aria-label="Primary">
+          <ul>
+            <li><button type="button" class="nav-link active" data-view="hub">UMBRA HUB</button></li>
+            <li><button type="button" class="nav-link" data-view="profile">PROFILE</button></li>
+            <li><button type="button" class="nav-link" data-view="account">ACCOUNT</button></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="top-spacer"></div>
+    </header>
+
+    <main class="main-layout hub-layout" id="uiRoot">
+      <section class="panel panel-left" id="leftNav">
+        <div class="panel-section">
+          <div class="panel-header">COMMAND DECK</div>
+          <button class="btn-ghost" data-view="hub">ACCESS</button>
+          <button class="btn-ghost" data-view="profile">PROFILE</button>
+          <button class="btn-ghost" data-view="account">ACCOUNT</button>
+        </div>
+
+        <div class="panel-section">
+          <div class="panel-section-label">HUBS</div>
+          <div class="hub-list" id="hubNav">
+            <button class="hub-item active" data-hub-section="leads">Leads Engine</button>
+            <button class="hub-item" data-hub-section="clients">Clients</button>
+            <button class="hub-item" data-hub-section="operations">Operations</button>
+            <button class="hub-item" data-hub-section="safeguards">Safeguards</button>
+          </div>
+        </div>
+
+        <div class="panel-section">
+          <div class="panel-section-label">SYSTEM STATUS</div>
+          <div class="status-value" id="systemStatusValue">SECURE</div>
+        </div>
+
+        <div class="panel-section panel-section-hub-detail">
+          <div class="panel-section-label">ACTIVE MODULE</div>
+          <div class="hub-module-card">
+            <div class="hub-module-title" id="hubModuleTitle">Leads Engine</div>
+            <div class="hub-module-copy" id="hubModuleCopy">
+              City-first target acquisition...
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel-center" id="centerStage">
+        <div class="panel-header panel-header-center" id="centerPanelTitle">UMBRA HUB</div>
+
+        <div class="ui-view-stack">
+
+          <!-- HUB -->
+          <section class="ui-view is-active" id="viewHub" data-view-panel="hub">
+            <div class="globe-shell">
+              <div id="globeContainer" class="globe-container"></div>
+            </div>
+          </section>
+
+          <!-- PROFILE -->
+          <section class="ui-view" id="viewProfile" data-view-panel="profile" hidden>
+            <div class="content-view-card">
+              <div class="content-view-head">
+                <div class="content-view-title">Founder Profile</div>
+              </div>
+
+              <div class="content-grid">
+                <input id="profileName" class="content-input" placeholder="Name" />
+                <input id="profileEmail" class="content-input" placeholder="Email" />
+                <input id="profileCompany" class="content-input" placeholder="Company" />
+                <input id="profileRole" class="content-input" placeholder="Role (admin/user)" />
+              </div>
+            </div>
+          </section>
+
+          <!-- ACCOUNT -->
+          <section class="ui-view" id="viewAccount" data-view-panel="account" hidden>
+            <div class="content-view-card">
+              <div class="content-view-head">
+                <div class="content-view-title">Account Control</div>
+              </div>
+
+              <div class="content-grid">
+                <input id="accountWorkspace" class="content-input" />
+                <input id="accountLicense" class="content-input" />
+                <input id="accountSecurity" class="content-input" />
+                <input id="accountRouting" class="content-input" />
+              </div>
+
+              <!-- 🔥 ADMIN PANEL (FINAL) -->
+              <div id="adminPanel" class="content-block admin-panel" hidden>
+                <div class="panel-section-label">Admin Control</div>
+
+                <div class="admin-controls">
+                  <label for="userSelect">Users</label>
+                  <select id="userSelect" class="user-select">
+                    <option disabled selected>Loading users...</option>
+                  </select>
+
+                  <button id="userCreate" class="user-create">
+                    + Create User
+                  </button>
+                </div>
+
+                <div class="content-copy">
+                  Admin-only control panel. Manage users and system access.
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+      <aside class="panel panel-right">
+        <div class="panel-header">INTELLIGENCE PANEL</div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="/globe/ui.js"></script>
+  <script src="/globe/security/frontend_runtime_guard.js"></script>
+  <script src="/globe/security/ui_panel_security_hook.js"></script>
+  <script src="/globe/security/session_recovery_guard.js"></script>
+  <script src="/globe/security/dataset_access_guard.js"></script>
+  <script src="/globe/security/export_security_guard.js"></script>
+  <script src="/globe/clients/black_dragon/books/client_dashboard_renderer.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_selection_bus.js"></script>
+  <script src="/globe/clients/black_dragon/books/dossier_sync_runtime.js"></script>
+  <script src="/globe/clients/black_dragon/books/outreach_queue_ui.js"></script>
+  <script src="/globe/clients/black_dragon/books/outreach_queue_actions.js"></script>
+  <script src="/globe/clients/black_dragon/books/response_persistence_store.js"></script>
+  <script src="/globe/clients/black_dragon/books/response_logging_ui.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_map_nodes_runtime.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_citymap_renderer.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_cluster_renderer.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_path_renderer.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_layer_controls.js"></script>
+  <script src="/globe/performance/adaptive_postfx_performance_mode.js"></script>
+  <script src="/globe/performance/movement_performance_mode.js"></script>
+  <script src="/globe/performance/postfx_resize_throttle.js"></script>
+  <script src="/globe/performance/render_stability_probe.js"></script>
+  <script src="/globe/command_deck_runtime.js"></script>
+  <script src="/globe/intelligence_panel_live_state.js"></script>
+  <script src="/globe/clients/black_dragon/books/response_workflow_runtime.js"></script>
+  <script src="/globe/security/access_control_runtime.js"></script>
+</body>
+</html>

@@ -1,0 +1,706 @@
+{
+  "version": "nexus_layer_normalized_output_v1",
+  "generated_at": "2026-05-08T00:51:07.746Z",
+  "layer_id": "L10",
+  "status": "OPERATIONAL",
+  "entities": [
+    {
+      "entity_id": "ENTITY_L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_008_DEPARTMENT_INBOXES",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_008_DEPARTMENT_INBOXES",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_009_PROCUREMENT_INBOXES",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_009_PROCUREMENT_INBOXES",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_010_TRAINING_INBOXES",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_010_TRAINING_INBOXES",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "entity_type": "communication_outreach_source_entity",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "created_at": "2026-05-08T00:51:07.746Z"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.98,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "public_email_channel_connector",
+        "parser_strategy": "public_email_channel_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_public_email_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.97,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "public_phone_channel_connector",
+        "parser_strategy": "public_phone_channel_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_public_phone_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "entity_id": "ENTITY_L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.96,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "contact_form_endpoint_connector",
+        "parser_strategy": "contact_form_endpoint_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_contact_form_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "entity_id": "ENTITY_L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.95,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "website_contact_page_connector",
+        "parser_strategy": "website_contact_page_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_website_contact_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.94,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "social_media_channel_connector",
+        "parser_strategy": "social_media_channel_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_social_media_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "entity_id": "ENTITY_L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.93,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "newsletter_signup_connector",
+        "parser_strategy": "newsletter_signup_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_newsletter_signup_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.92,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "public_helpdesk_connector",
+        "parser_strategy": "public_helpdesk_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_public_helpdesk_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_008_DEPARTMENT_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_008_DEPARTMENT_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_008_DEPARTMENT_INBOXES",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.91,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "department_inbox_connector",
+        "parser_strategy": "department_inbox_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_department_inbox_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_009_PROCUREMENT_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_009_PROCUREMENT_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_009_PROCUREMENT_INBOXES",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.9,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "procurement_inbox_connector",
+        "parser_strategy": "procurement_inbox_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_procurement_inbox_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_010_TRAINING_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_010_TRAINING_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_010_TRAINING_INBOXES",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.89,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "training_inbox_connector",
+        "parser_strategy": "training_inbox_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_training_inbox_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.88,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "media_relations_connector",
+        "parser_strategy": "media_relations_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_media_relations_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.87,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "public_calendar_connector",
+        "parser_strategy": "public_calendar_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_public_calendar_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.86,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "event_registration_connector",
+        "parser_strategy": "event_registration_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_event_registration_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "entity_id": "ENTITY_L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.85,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "outreach_response_connector",
+        "parser_strategy": "outreach_response_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_outreach_response_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "entity_id": "ENTITY_L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "captured_at": "2026-05-08T00:51:07.746Z",
+      "confidence": 0.84,
+      "lineage": {
+        "acquisition_method": "public_communication_source",
+        "connector_type": "channel_quality_connector",
+        "parser_strategy": "channel_quality_parser",
+        "normalizer_strategy": "communication_outreach_normalizer",
+        "retention_policy": "retain_with_channel_quality_trace"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "SIGNAL_L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "signal_type": "COMMUNICATION_EMAIL_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "signal_type": "COMMUNICATION_PHONE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "entity_id": "ENTITY_L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "signal_type": "COMMUNICATION_FORM_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "entity_id": "ENTITY_L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "signal_type": "COMMUNICATION_WEB_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "signal_type": "COMMUNICATION_SOCIAL_SIGNAL",
+      "strength": 0.94,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "entity_id": "ENTITY_L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "signal_type": "COMMUNICATION_OPTIN_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "signal_type": "COMMUNICATION_HELPDESK_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_008_DEPARTMENT_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_008_DEPARTMENT_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_008_DEPARTMENT_INBOXES",
+      "signal_type": "COMMUNICATION_EMAIL_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_009_PROCUREMENT_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_009_PROCUREMENT_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_009_PROCUREMENT_INBOXES",
+      "signal_type": "COMMUNICATION_PROCUREMENT_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_010_TRAINING_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_010_TRAINING_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_010_TRAINING_INBOXES",
+      "signal_type": "COMMUNICATION_TRAINING_SIGNAL",
+      "strength": 0.89,
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "signal_type": "COMMUNICATION_MEDIA_SIGNAL",
+      "strength": 0.88,
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "signal_type": "COMMUNICATION_CALENDAR_SIGNAL",
+      "strength": 0.87,
+      "confidence": 0.87
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "signal_type": "COMMUNICATION_EVENT_SIGNAL",
+      "strength": 0.86,
+      "confidence": 0.86
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "entity_id": "ENTITY_L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "signal_type": "COMMUNICATION_RESPONSE_SIGNAL",
+      "strength": 0.85,
+      "confidence": 0.85
+    },
+    {
+      "signal_id": "SIGNAL_L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "entity_id": "ENTITY_L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "signal_type": "COMMUNICATION_QUALITY_SIGNAL",
+      "strength": 0.84,
+      "confidence": 0.84
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "SCORE_L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "entity_id": "ENTITY_L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "entity_id": "ENTITY_L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "entity_id": "ENTITY_L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "SCORE_L10_SRC_008_DEPARTMENT_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_008_DEPARTMENT_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_008_DEPARTMENT_INBOXES",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "SCORE_L10_SRC_009_PROCUREMENT_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_009_PROCUREMENT_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_009_PROCUREMENT_INBOXES",
+      "score_delta": 9,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "SCORE_L10_SRC_010_TRAINING_INBOXES",
+      "entity_id": "ENTITY_L10_SRC_010_TRAINING_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_010_TRAINING_INBOXES",
+      "score_delta": 9,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "SCORE_L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "score_delta": 9,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "SCORE_L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "score_delta": 9,
+      "confidence": 0.87
+    },
+    {
+      "component_id": "SCORE_L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "entity_id": "ENTITY_L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "score_delta": 9,
+      "confidence": 0.86
+    },
+    {
+      "component_id": "SCORE_L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "entity_id": "ENTITY_L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "score_delta": 9,
+      "confidence": 0.85
+    },
+    {
+      "component_id": "SCORE_L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "entity_id": "ENTITY_L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "score_delta": 8,
+      "confidence": 0.84
+    }
+  ],
+  "dossier_fields": [
+    {
+      "entity_id": "ENTITY_L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_001_PUBLIC_EMAIL_CHANNELS",
+      "field_type": "public_email_channel_profile",
+      "value": "Public Email Channels"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_002_PUBLIC_PHONE_CHANNELS",
+      "field_type": "public_phone_channel_profile",
+      "value": "Public Phone Channels"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_003_CONTACT_FORM_ENDPOINTS",
+      "field_type": "contact_form_endpoint_profile",
+      "value": "Contact Form Endpoints"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_004_WEBSITE_CONTACT_PAGES",
+      "field_type": "website_contact_profile",
+      "value": "Website Contact Pages"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_005_SOCIAL_MEDIA_CHANNELS",
+      "field_type": "social_media_channel_profile",
+      "value": "Social Media Channels"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_006_NEWSLETTER_SIGNUP_ENDPOINTS",
+      "field_type": "newsletter_signup_profile",
+      "value": "Newsletter Signup Endpoints"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_007_PUBLIC_HELPDESK_CHANNELS",
+      "field_type": "public_helpdesk_profile",
+      "value": "Public Helpdesk Channels"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_008_DEPARTMENT_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_008_DEPARTMENT_INBOXES",
+      "field_type": "department_inbox_profile",
+      "value": "Department Inboxes"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_009_PROCUREMENT_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_009_PROCUREMENT_INBOXES",
+      "field_type": "procurement_inbox_profile",
+      "value": "Procurement Inboxes"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_010_TRAINING_INBOXES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_010_TRAINING_INBOXES",
+      "field_type": "training_inbox_profile",
+      "value": "Training Inboxes"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_011_MEDIA_RELATIONS_CHANNELS",
+      "field_type": "media_relations_profile",
+      "value": "Media Relations Channels"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_012_PUBLIC_CALENDAR_CHANNELS",
+      "field_type": "public_calendar_profile",
+      "value": "Public Calendar Channels"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_013_EVENT_REGISTRATION_CHANNELS",
+      "field_type": "event_registration_profile",
+      "value": "Event Registration Channels"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_014_OUTREACH_RESPONSE_REFERENCES",
+      "field_type": "outreach_response_profile",
+      "value": "Outreach Response References"
+    },
+    {
+      "entity_id": "ENTITY_L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "layer_id": "L10",
+      "source_id": "L10_SRC_015_CHANNEL_QUALITY_INDICATORS",
+      "field_type": "channel_quality_profile",
+      "value": "Channel Quality Indicators"
+    }
+  ]
+}

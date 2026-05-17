@@ -1,0 +1,44 @@
+{
+  "version": "black_dragon_books_batch_004_audit_v1",
+  "generated_at": "2026-05-09T02:04:24.479Z",
+  "totals": {
+    "total_targets": 3,
+    "hot": 2,
+    "warm": 0,
+    "review": 1
+  },
+  "classifications": {
+    "high_propagation": 2,
+    "medium_propagation": 0,
+    "low_propagation": 1
+  },
+  "integrity": {
+    "missing_scores": 0,
+    "missing_trace": 0,
+    "invalid_temperature": 0
+  },
+  "top_targets": [
+    {
+      "entity_id": "BD_BOOK_NORM_0002",
+      "organization_name": "Sample Motorcycle Council",
+      "role": "CHAIRMAN",
+      "propagation_score": 100,
+      "lead_temperature": "HOT"
+    },
+    {
+      "entity_id": "BD_BOOK_NORM_0001",
+      "organization_name": "Sample Motorcycle Club",
+      "role": "PRESIDENT",
+      "propagation_score": 92,
+      "lead_temperature": "HOT"
+    },
+    {
+      "entity_id": "BD_BOOK_NORM_0003",
+      "organization_name": "Sample Motorcycle Ministry",
+      "role": "CHAPLAIN",
+      "propagation_score": 62,
+      "lead_temperature": "REVIEW"
+    }
+  ],
+  "pass": true
+}

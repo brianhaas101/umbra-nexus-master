@@ -1,0 +1,515 @@
+{
+    "version":  "black_dragon_los_angeles_quarantined_candidate_entities_v1",
+    "generated_at":  "2026-05-11T05:34:04.9880431Z",
+    "city":  "Los Angeles",
+    "folder":  "los_angeles",
+    "entities":  [
+                     {
+                         "entity_id":  "candidate_entity_3d2394c0d8764de48c8aaddedad4bc9b",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\los_angeles\\dedupe\\los_angeles_cross_city_dedupe.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\los_angeles\\dedupe\\los_angeles_cross_city_dedupe.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_a59a3624fd0142e8b6d971827f7db3f8",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\los_angeles\\raw\\los_angeles_raw_candidates.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\los_angeles\\raw\\los_angeles_raw_candidates.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_1dfd0f4284344ad4809ff51eedae5ccd",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\los_angeles\\validated\\los_angeles_validated_candidates.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\los_angeles\\validated\\los_angeles_validated_candidates.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_c4faad8693c94a32a708f5f891605b0f",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\dossiers\\los_angeles_runtime_dossiers.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\dossiers\\los_angeles_runtime_dossiers.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_26f81131da9b44a59b354179616af5de",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\map_nodes\\los_angeles_runtime_map_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\map_nodes\\los_angeles_runtime_map_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_2b813bdf444b43f1a5617b59eaafe6b2",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\merged\\los_angeles_merged_city_entities.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\merged\\los_angeles_merged_city_entities.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_0e065440d6144728be13040adacffc18",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\ui\\node_cards\\los_angeles_client_node_cards.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\ui\\node_cards\\los_angeles_client_node_cards.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_800d74ec0e094909863791294884d5ab",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\ui\\panels\\los_angeles_client_overview_panel.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\ui\\panels\\los_angeles_client_overview_panel.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_609708dbdcb9474daf883ad5b8d4e018",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\ui\\propagation_feed\\los_angeles_client_propagation_feed.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\ui\\propagation_feed\\los_angeles_client_propagation_feed.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_044aae45724e41e09f3fd72f368489dc",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\multi_city\\comparison\\long_beach_los_angeles_comparison.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\multi_city\\comparison\\long_beach_los_angeles_comparison.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_62c29bad574147a19082f8bb8142380a",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\los_angeles\\edges\\los_angeles_graph_edges.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\los_angeles\\edges\\los_angeles_graph_edges.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_46487256568049558761219525761fe9",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\los_angeles\\nodes\\los_angeles_graph_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\los_angeles\\nodes\\los_angeles_graph_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_ca986a4e11fe4020930177b63a5ef0a4",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\los_angeles\\paths\\los_angeles_propagation_paths.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\los_angeles\\paths\\los_angeles_propagation_paths.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_71ad85c4febb4e51ad7aa43f1b262fca",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\los_angeles\\scores\\los_angeles_graph_influence_scores.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\los_angeles\\scores\\los_angeles_graph_influence_scores.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_c89d8f3432fb48609564463ade0270a4",
+                         "city":  "Los Angeles",
+                         "folder":  "los_angeles",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\template_alignment\\los_angeles\\exports\\los_angeles_discovery_source_plan.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\template_alignment\\los_angeles\\exports\\los_angeles_discovery_source_plan.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     }
+                 ],
+    "policy":  {
+                   "source_url_required_before_promotion":  true,
+                   "category_required_before_promotion":  true,
+                   "organization_identity_required_before_promotion":  true,
+                   "no_placeholder_entities":  true,
+                   "no_false_targets":  true,
+                   "no_private_person_targets":  true,
+                   "runtime_promotion_allowed":  false,
+                   "contact_enablement_allowed":  false,
+                   "manual_review_required":  true
+               },
+    "status":  "ORGANIZATION_CANDIDATES_QUARANTINED"
+}

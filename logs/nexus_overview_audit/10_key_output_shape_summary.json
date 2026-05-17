@@ -1,0 +1,394 @@
+[
+  {
+    "path": "public/data/intelligence/outputs/L01_FEDERAL_INTELLIGENCE.normalized.json",
+    "exists": true,
+    "bytes": 299,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L02_STATE_INTELLIGENCE.normalized.json",
+    "exists": true,
+    "bytes": 297,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L03_LOCAL_AGENCY_INTELLIGENCE.normalized.json",
+    "exists": true,
+    "bytes": 48337,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 12
+  },
+  {
+    "path": "public/data/intelligence/outputs/L04_TRAINING_INFRASTRUCTURE.normalized.json",
+    "exists": true,
+    "bytes": 302,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L05_BUDGET_AND_FUNDING.normalized.json",
+    "exists": true,
+    "bytes": 297,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L06_BEHAVIORAL_ACTIVITY.normalized.json",
+    "exists": true,
+    "bytes": 298,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L07_GEOGRAPHIC_TERRITORY.normalized.json",
+    "exists": true,
+    "bytes": 299,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L08_COMMAND_STRUCTURE.normalized.json",
+    "exists": true,
+    "bytes": 296,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L09_PROCUREMENT_INTELLIGENCE.normalized.json",
+    "exists": true,
+    "bytes": 303,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L10_COMMUNICATION_INTELLIGENCE.normalized.json",
+    "exists": true,
+    "bytes": 59085,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 12
+  },
+  {
+    "path": "public/data/intelligence/outputs/L11_INCIDENT_AND_RISK.normalized.json",
+    "exists": true,
+    "bytes": 296,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L12_ENGAGEMENT_RESPONSE.normalized.json",
+    "exists": true,
+    "bytes": 26381,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "layer_id",
+      "status",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields"
+    ],
+    "count": 0
+  },
+  {
+    "path": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+    "exists": true,
+    "bytes": 35836,
+    "topType": "array",
+    "keys": [],
+    "count": 24
+  },
+  {
+    "path": "public/data/intelligence/outputs/L10_communication_confidence_weighting.json",
+    "exists": true,
+    "bytes": 35942,
+    "topType": "array",
+    "keys": [],
+    "count": 24
+  },
+  {
+    "path": "public/data/intelligence/outputs/L10_fallback_route_scoring.json",
+    "exists": true,
+    "bytes": 28670,
+    "topType": "array",
+    "keys": [],
+    "count": 24
+  },
+  {
+    "path": "public/data/intelligence/outputs/L10_outreach_readiness_synthesis.json",
+    "exists": true,
+    "bytes": 64708,
+    "topType": "array",
+    "keys": [],
+    "count": 24
+  },
+  {
+    "path": "public/data/intelligence/outputs/L12_engagement_state_scoring.json",
+    "exists": true,
+    "bytes": 1234,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "total",
+      "states"
+    ],
+    "count": null
+  },
+  {
+    "path": "public/data/intelligence/outputs/L12_response_quality_weighting.json",
+    "exists": true,
+    "bytes": 1447,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "total",
+      "quality"
+    ],
+    "count": null
+  },
+  {
+    "path": "public/data/intelligence/outputs/L12_follow_up_prioritization.json",
+    "exists": true,
+    "bytes": 1798,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "total",
+      "priorities"
+    ],
+    "count": null
+  },
+  {
+    "path": "public/data/intelligence/outputs/L12_relationship_strength_scoring.json",
+    "exists": true,
+    "bytes": 1416,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "total",
+      "relationships"
+    ],
+    "count": null
+  },
+  {
+    "path": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+    "exists": true,
+    "bytes": 133343,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "status",
+      "layer_count",
+      "entities",
+      "evidence",
+      "signals",
+      "score_components",
+      "dossier_fields",
+      "fusion_summary"
+    ],
+    "count": 24
+  },
+  {
+    "path": "public/data/intelligence/outputs/entity_deduplication_output.json",
+    "exists": true,
+    "bytes": 9088,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "input_entities",
+      "unique_entities",
+      "duplicate_entities_removed",
+      "entities"
+    ],
+    "count": 12
+  },
+  {
+    "path": "public/data/intelligence/outputs/unified_entity_intelligence_index.json",
+    "exists": true,
+    "bytes": 5191,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "total_entities",
+      "entities"
+    ],
+    "count": 12
+  },
+  {
+    "path": "public/data/intelligence/outputs/unified_score_aggregation.json",
+    "exists": true,
+    "bytes": 22065,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "total_scored_entities",
+      "scores"
+    ],
+    "count": null
+  },
+  {
+    "path": "public/data/intelligence/outputs/unified_dossier_synthesis.json",
+    "exists": true,
+    "bytes": 25774,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "total_dossiers",
+      "dossiers"
+    ],
+    "count": 12
+  },
+  {
+    "path": "public/data/intelligence/runtime/entity_runtime_cache.json",
+    "exists": false
+  },
+  {
+    "path": "public/data/intelligence/audit/first_5_layer_operational_audit.json",
+    "exists": true,
+    "bytes": 187,
+    "topType": "object",
+    "keys": [
+      "version",
+      "generated_at",
+      "status",
+      "required_files",
+      "missing_files",
+      "missing"
+    ],
+    "count": null
+  }
+]

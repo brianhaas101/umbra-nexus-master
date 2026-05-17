@@ -1,0 +1,19 @@
+{
+  "city_id": "city_7e936870",
+  "name": "Jacksonville",
+  "center_lat": 30.3322,
+  "center_lon": -81.6557,
+
+  "bounds": {
+    "north": 30.50,
+    "south": 30.15,
+    "east": -81.45,
+    "west": -81.90
+  },
+
+  "width_m": 42000,
+  "height_m": 38000,
+  "rotation_deg": 0,
+
+  "image": "/assets/cities/city_7e936870/base.png"
+}

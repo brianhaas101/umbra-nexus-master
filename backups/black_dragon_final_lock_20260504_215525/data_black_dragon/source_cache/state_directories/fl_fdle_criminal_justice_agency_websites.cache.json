@@ -1,0 +1,15 @@
+{
+  "source_id": "fl_fdle_criminal_justice_agency_websites",
+  "state": "FL",
+  "source_name": "Florida Criminal Justice Agency Websites",
+  "source_url": "https://www.fdle.state.fl.us/cjstc/publications/criminal-justice-agency-links",
+  "cached_at": "2026-05-02T19:54:00.580Z",
+  "byte_count": 59306,
+  "html_file": "state_directories/fl_fdle_criminal_justice_agency_websites.html",
+  "live_import_allowed": false,
+  "notes": [
+    "Raw official FDLE page cached.",
+    "No entities created by this connector.",
+    "Parser/authority filter required before merge."
+  ]
+}

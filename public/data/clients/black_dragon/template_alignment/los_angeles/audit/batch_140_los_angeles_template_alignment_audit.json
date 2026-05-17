@@ -1,0 +1,25 @@
+{
+  "version": "black_dragon_batch_140_los_angeles_template_alignment_audit_v1",
+  "generated_at": "2026-05-10T21:11:17.914Z",
+  "batch": "140_LOS_ANGELES_TEMPLATE_ALIGNMENT",
+  "counts": {
+    "inherited_components": 12,
+    "inherited_hardlocks": 5,
+    "source_categories": 5,
+    "source_count": 25,
+    "runtime_entities": 0
+  },
+  "gates": {
+    "inheritance_manifest_exists": true,
+    "source_plan_exists": true,
+    "runtime_shell_exists": true,
+    "graph_shell_exists": true,
+    "live_validation_shell_exists": true,
+    "no_placeholder_runtime_entities": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "quarantine_before_runtime": true
+  },
+  "next_phase": "BATCH_141_LOS_ANGELES_ENTITY_DISCOVERY_IMPORT",
+  "status": "PASS"
+}

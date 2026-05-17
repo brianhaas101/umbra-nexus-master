@@ -1,0 +1,16 @@
+{
+  "version": "response_logging_ui_injection_report_v1",
+  "generated_at": "2026-05-09T03:35:32.180Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_response_logging_ui": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_response_logging_ui": true
+    }
+  ]
+}

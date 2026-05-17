@@ -1,0 +1,501 @@
+{
+    "version":  "black_dragon_mesa_quarantined_candidate_entities_v1",
+    "generated_at":  "2026-05-11T05:34:05.9420942Z",
+    "city":  "Mesa",
+    "folder":  "mesa",
+    "entities":  [
+                     {
+                         "entity_id":  "candidate_entity_10906862ca8d4dd28b8a4c18a1729204",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\mesa\\dedupe\\mesa_regional_dedupe.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\mesa\\dedupe\\mesa_regional_dedupe.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_f766800573834844ab257b1bb56f3de0",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\mesa\\imports\\mesa_discovery_import.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\mesa\\imports\\mesa_discovery_import.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_ada2e5c15f074e459c5cdbd9f921770f",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\mesa\\validated\\mesa_validated_candidates.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\mesa\\validated\\mesa_validated_candidates.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_663fc6bc04794c31ad627bc90f271a29",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\dossiers\\mesa_runtime_dossiers.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\dossiers\\mesa_runtime_dossiers.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_673d2db9f3474ce395ef0fa41f66b01d",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\map_nodes\\mesa_runtime_map_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\map_nodes\\mesa_runtime_map_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_efcace463bd94d2fa2150d993286292e",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\merged\\mesa_merged_city_entities.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\merged\\mesa_merged_city_entities.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_2369344fd1b74849bc1c7ca33f15067c",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\ui\\node_cards\\mesa_client_node_cards.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\ui\\node_cards\\mesa_client_node_cards.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_a1343d4b0a7b42f8974f7a5f48efd911",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\ui\\propagation_feed\\mesa_client_propagation_feed.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\mesa\\ui\\propagation_feed\\mesa_client_propagation_feed.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_3a84b53823574b6684b3b10ea25a44bf",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\mesa\\edges\\mesa_graph_edges.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\mesa\\edges\\mesa_graph_edges.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_7d65d1e1dbb44e379ccbf942a49becc4",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\mesa\\nodes\\mesa_graph_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\mesa\\nodes\\mesa_graph_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_da4fd9d254d44387afea7a5a943fe756",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\mesa\\paths\\mesa_propagation_paths.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\mesa\\paths\\mesa_propagation_paths.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_c4a8fa9d0a524102b4df626e5941c037",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\mesa\\scores\\mesa_graph_influence_scores.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\mesa\\scores\\mesa_graph_influence_scores.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_90bae4b4b3d14f05ae7b97cd0fe6f186",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\next_city\\mesa_next_city_selection.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\next_city\\mesa_next_city_selection.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "saturation_entity_1d3006f5dc504bbda063c36655af7dc7",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.55,
+                         "confidence_basis":  [
+                                                  "density_gap_alignment",
+                                                  "manual_review_required"
+                                              ],
+                         "provenance":  {
+                                            "derived_from":  "wave_1_density_gap_alignment",
+                                            "generated_by_batch":  "234R"
+                                        },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true
+                                     },
+                         "status":  "QUARANTINED_ALIGNMENT_ENTITY"
+                     },
+                     {
+                         "entity_id":  "saturation_entity_5da833ef5daf4932979c42f5a8a50573",
+                         "city":  "Mesa",
+                         "folder":  "mesa",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.55,
+                         "confidence_basis":  [
+                                                  "density_gap_alignment",
+                                                  "manual_review_required"
+                                              ],
+                         "provenance":  {
+                                            "derived_from":  "wave_1_density_gap_alignment",
+                                            "generated_by_batch":  "234R"
+                                        },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true
+                                     },
+                         "status":  "QUARANTINED_ALIGNMENT_ENTITY"
+                     }
+                 ],
+    "policy":  {
+                   "source_url_required_before_promotion":  true,
+                   "category_required_before_promotion":  true,
+                   "organization_identity_required_before_promotion":  true,
+                   "no_placeholder_entities":  true,
+                   "no_false_targets":  true,
+                   "no_private_person_targets":  true,
+                   "runtime_promotion_allowed":  false,
+                   "contact_enablement_allowed":  false,
+                   "manual_review_required":  true
+               },
+    "status":  "ORGANIZATION_CANDIDATES_QUARANTINED"
+}

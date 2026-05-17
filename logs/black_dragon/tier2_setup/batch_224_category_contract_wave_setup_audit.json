@@ -1,0 +1,22 @@
+{
+    "batch":  "224",
+    "version":  "black_dragon_long_beach_category_contract_and_wave_setup_audit_v1",
+    "generated_at":  "2026-05-11T04:42:26.3374320Z",
+    "contract_file":  ".\\public\\data\\clients\\black_dragon\\contracts\\long_beach_category_coverage_contract.json",
+    "wave_file":  ".\\public\\data\\clients\\black_dragon\\waves\\five_city_tier2_wave_plan.json",
+    "category_count":  15,
+    "registry_city_count":  18,
+    "wave_count":  4,
+    "invalid_json_count":  0,
+    "invalid_json":  [
+
+                     ],
+    "safety":  {
+                   "no_placeholder_targets":  true,
+                   "no_false_contacts":  true,
+                   "public_source_required":  true,
+                   "manual_review_required_for_contact":  true,
+                   "contact_enabled":  false
+               },
+    "status":  "PASS_FIVE_CITY_LONG_BEACH_PARITY_SYSTEM_READY"
+}

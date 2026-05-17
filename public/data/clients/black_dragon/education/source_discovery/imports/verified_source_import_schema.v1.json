@@ -1,0 +1,37 @@
+{
+  "version": "black_dragon_verified_source_import_schema_v1_batch_070",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "required_import_fields": [
+    "task_id",
+    "entity_id",
+    "organization_name",
+    "source_url",
+    "source_type",
+    "domain_classification",
+    "source_confidence",
+    "validation_status"
+  ],
+
+  "allowed_validation_statuses": [
+    "SOURCE_DISCOVERED",
+    "AMBIGUOUS_REVIEW_REQUIRED",
+    "SOURCE_REJECTED"
+  ],
+
+  "promotion_requirements": {
+    "minimum_source_confidence": 0.75,
+    "must_have_source_url": true,
+    "must_have_official_domain_classification": true,
+    "must_not_be_ambiguous": true,
+    "must_not_contain_generated_contacts": true
+  },
+
+  "hard_blocks": {
+    "generated_email_detected": true,
+    "generated_phone_detected": true,
+    "placeholder_contact_detected": true,
+    "private_personal_data_detected": true,
+    "invalid_domain_detected": true
+  }
+}

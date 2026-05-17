@@ -1,0 +1,57 @@
+{
+  "city_id": "city_5c4c1c64",
+  "canonical_name": "Grand Rapids, MI",
+  "state": "MI",
+  "placeholder_allowed": false,
+  "synthetic_allowed": false,
+  "production_status": "hydrated",
+  "source_count": 9,
+  "sources": [
+    {
+      "layer": "gis",
+      "url": "https://www.grandrapidsmi.gov/Government/Departments/Enterprise-GIS",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "open_data",
+      "url": "https://www.grandrapidsmi.gov/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "police",
+      "url": "https://www.grandrapidsmi.gov/Government/Departments/Police-Department",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "fire",
+      "url": "https://www.grandrapidsmi.gov/Government/Departments/Fire-Department",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "parks",
+      "url": "https://www.grandrapidsmi.gov/Government/Departments/Parks-and-Recreation",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "permits",
+      "url": "https://www.grandrapidsmi.gov/Government/Departments/Development-Center",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "public_works",
+      "url": "https://www.grandrapidsmi.gov/Government/Departments/Public-Works",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "schools",
+      "url": "https://www.grps.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "council",
+      "url": "https://www.grandrapidsmi.gov/Government/City-Commission",
+      "provenance": "verified_profile_source"
+    }
+  ],
+  "generated_utc": "2026-05-12T07:22:05.8782039Z"
+}

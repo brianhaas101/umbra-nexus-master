@@ -1,0 +1,474 @@
+{
+  "version": "nexus_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-08T02:56:11.380Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+  "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+  "source_name": "Federal Register",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-09095",
+        "title": "Semiannual Reporting",
+        "type": "Proposed Rule",
+        "agency_names": [
+          "Securities and Exchange Commission"
+        ],
+        "publication_date": "2026-05-07",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09095/semiannual-reporting",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-09095.pdf",
+        "abstract": "The Securities and Exchange Commission (\"Commission\") is proposing amendments to allow companies to file semiannual reports on new Form 10-S in lieu of quarterly reports on Form 10-Q to meet their interim reporting obligations under the Securities Exchange Act of 1934 (\"Exchange Act\"). The Commission is also proposing changes to the financial statement requirements of Regulation S-X to facilitate semiannual reporting and to simplify rules regarding the age of financial statements."
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-09067",
+        "title": "Defense Federal Acquisition Regulation Supplement: Mitigating Risks Related to Foreign Ownership, Control, or Influence (DFARS Case 2021-D011)",
+        "type": "Proposed Rule",
+        "agency_names": [
+          "Defense Department",
+          "Defense Acquisition Regulations System"
+        ],
+        "publication_date": "2026-05-07",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09067/defense-federal-acquisition-regulation-supplement-mitigating-risks-related-to-foreign-ownership",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-09067.pdf",
+        "abstract": "DoD is proposing to amend the Defense Federal Acquisition Regulation Supplement (DFARS) to implement sections of the National Defense Authorization Act for Fiscal Years 2020 and 2021 to mitigate risks related to beneficial ownership or foreign ownership, control, or influence. This proposed rule also implements elements of a DoD policy."
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-09007",
+        "title": "Fee Adjustment for U.S. Immigration and Customs Enforcement Form I-246, Application for a Stay of Deportation or Removal",
+        "type": "Proposed Rule",
+        "agency_names": [
+          "Homeland Security Department"
+        ],
+        "publication_date": "2026-05-07",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-09007/fee-adjustment-for-us-immigration-and-customs-enforcement-form-i-246-application-for-a-stay-of",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-09007.pdf",
+        "abstract": "DHS proposes to increase the fee for adjudicating Form I-246, Application for a Stay of Deportation or Removal, from $155 to $755. The rule proposes to adjust the Form I-246 fee to recover costs, which has not been adjusted since 1989. DHS also proposes to make technical edits to the stay of deportation and removal fee regulation."
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-08990",
+        "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders",
+        "type": "Notice",
+        "agency_names": [
+          "Transportation Department",
+          "Federal Motor Carrier Safety Administration"
+        ],
+        "publication_date": "2026-05-07",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-08990/qualification-of-drivers-exemption-applications-epilepsy-and-seizure-disorders",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-08990.pdf",
+        "abstract": "FMCSA announces its decision to renew exemptions for seven individuals from the requirement in the Federal Motor Carrier Safety Regulations (FMCSRs) that interstate commercial motor vehicle (CMV) drivers have \"no established medical history or clinical diagnosis of epilepsy or any other condition which is likely to cause loss of consciousness or any loss of ability to control a CMV.\" The exemptions enable these individuals who have had one or more seizures and are taking anti-seizure medication to continue to operate CMVs in interstate commerce."
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-08988",
+        "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders",
+        "type": "Notice",
+        "agency_names": [
+          "Transportation Department",
+          "Federal Motor Carrier Safety Administration"
+        ],
+        "publication_date": "2026-05-07",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/07/2026-08988/qualification-of-drivers-exemption-applications-epilepsy-and-seizure-disorders",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-07/pdf/2026-08988.pdf",
+        "abstract": "FMCSA announces its decision to renew exemptions for 20 individuals from the requirement in the Federal Motor Carrier Safety Regulations (FMCSRs) that interstate commercial motor vehicle (CMV) drivers have \"no established medical history or clinical diagnosis of epilepsy or any other condition which is likely to cause loss of consciousness or any loss of ability to control a CMV.\" The exemptions enable these individuals who have had one or more seizures and are taking anti-seizure medication to continue to operate CMVs in interstate commerce."
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-08943",
+        "title": "Designation-Restrict the Operation of Unmanned Aircraft in Close Proximity to a Fixed Site Facility",
+        "type": "Proposed Rule",
+        "agency_names": [
+          "Transportation Department",
+          "Federal Aviation Administration"
+        ],
+        "publication_date": "2026-05-06",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08943/designation-restrict-the-operation-of-unmanned-aircraft-in-close-proximity-to-a-fixed-site-facility",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08943.pdf",
+        "abstract": "This action would implement section 2209, of the FAA Extension, Safety and Security Act of 2016, by establishing a process for operators and proprietors of certain fixed site facilities to request and maintain an unmanned aircraft flight restriction. The proposal also establishes requirements for applicants to demonstrate the unmanned aircraft flight restriction is necessary for: aviation safety, protection of people and property on the ground, national security, or homeland security. Lastly, the proposal identifies the types of operations that are allowed in the unmanned aircraft flight restriction UAFR."
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-08930",
+        "title": "Removing Factoring Criteria for Firearms With Attached “Stabilizing Braces”",
+        "type": "Proposed Rule",
+        "agency_names": [
+          "Justice Department",
+          "Alcohol, Tobacco, Firearms, and Explosives Bureau"
+        ],
+        "publication_date": "2026-05-06",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08930/removing-factoring-criteria-for-firearms-with-attached-stabilizing-braces",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08930.pdf",
+        "abstract": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (\"ATF\") is proposing to amend Department of Justice (\"Department\") regulations on firearms with attached stabilizing braces. Courts have found that ATF's revisions in the 2023 final rule on the same topic violated the Administrative Procedure Act. Several courts have enjoined, stayed, or vacated the final rule, which has rarely been in effect. ATF is therefore proposing to remove from the regulatory definitions of \"rifle\" the two paragraphs added by the 2023 final rule that defined the term \"designed or redesigned, made or remade, and intended to be fired from the shoulder.\""
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-08919",
+        "title": "Revising Regulations Defining “Engaged in the Business” as a Dealer in Firearms",
+        "type": "Proposed Rule",
+        "agency_names": [
+          "Justice Department",
+          "Alcohol, Tobacco, Firearms, and Explosives Bureau"
+        ],
+        "publication_date": "2026-05-06",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08919/revising-regulations-defining-engaged-in-the-business-as-a-dealer-in-firearms",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08919.pdf",
+        "abstract": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (\"ATF\") is proposing to revise regulations implementing the \"engaged in the business\" definition from the Bipartisan Safer Communities Act (\"BSCA\"). Although Congress defined that term in BSCA, the Department of Justice (\"Department\") provided additional definitions in its implementing regulations to further define terms within the statutory definition and to include examples of covered activities that established rebuttable presumptions of being engaged in the business of dealing in firearms. This rule proposes to remove those changes. ATF has determined that the changes have not shown the expected impact on federal firearms licensee applications, administrative licensing actions, civil forfeitures, or other anticipated effects."
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-08918",
+        "title": "Clarifying Exceptions to the Brady Act Background Check Requirement",
+        "type": "Proposed Rule",
+        "agency_names": [
+          "Justice Department",
+          "Alcohol, Tobacco, Firearms, and Explosives Bureau"
+        ],
+        "publication_date": "2026-05-06",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08918/clarifying-exceptions-to-the-brady-act-background-check-requirement",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08918.pdf",
+        "abstract": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (\"ATF\") proposes amending Department of Justice (\"Department\") regulations to clarify when a state's firearms-related permit meets the requirements under the Gun Control Act of 1968, as amended, as an alternative to the National Instant Criminal Background Check System check and includes minor changes to ensure that the regulatory language adheres closely to the language used in the statute."
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEDERAL_REGISTER_EVIDENCE_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "source_name": "Federal Register",
+      "captured_at": "2026-05-08T02:56:11.380Z",
+      "confidence": 0.95,
+      "lineage": {
+        "endpoint": "https://www.federalregister.gov/api/v1/documents.json?per_page=10&order=newest&conditions%5Bterm%5D=public%20safety%20law%20enforcement%20grant",
+        "acquisition_mode": "public_api",
+        "raw_snapshot_hash": "220042691ccd4c103cfc6929149dba5ad4059830e681639f6cb3f0db477af5fd",
+        "parser_id": "FEDERAL_REGISTER_API_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "document_number": "2026-08915",
+        "title": "Allowing Makers To Adopt Certain Markings for National Firearms Act Firearms",
+        "type": "Proposed Rule",
+        "agency_names": [
+          "Justice Department",
+          "Alcohol, Tobacco, Firearms, and Explosives Bureau"
+        ],
+        "publication_date": "2026-05-06",
+        "html_url": "https://www.federalregister.gov/documents/2026/05/06/2026-08915/allowing-makers-to-adopt-certain-markings-for-national-firearms-act-firearms",
+        "pdf_url": "https://www.govinfo.gov/content/pkg/FR-2026-05-06/pdf/2026-08915.pdf",
+        "abstract": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives (\"ATF\") proposes amending Department of Justice (\"Department\") regulations to allow persons making National Firearms Act (\"NFA\") firearms to adopt certain markings previously placed on the firearm to comply with NFA marking requirements."
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    },
+    {
+      "signal_id": "LIVE_FEDERAL_REGISTER_SIGNAL_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "signal_type": "FEDERAL_RULEMAKING_LIVE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.95
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    },
+    {
+      "component_id": "LIVE_FEDERAL_REGISTER_SCORE_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "connector_id": "L01_LIVE_CONNECTOR_009_L01_SRC_009_FEDERAL_REGISTER",
+      "score_delta": 9,
+      "confidence": 0.95
+    }
+  ],
+  "normalized_hash": "d56cff7d8b5d64a46d5ccba71cf8937fc9f7606a48c34fabead4cd7eefb7afa5"
+}

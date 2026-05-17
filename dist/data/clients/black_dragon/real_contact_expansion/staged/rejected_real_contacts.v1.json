@@ -1,0 +1,13 @@
+{
+  "version": "black_dragon_real_contact_expansion_rejected_v1_batch_101",
+  "generated_at": "2026-05-10T17:21:53.294Z",
+  "client_id": "black_dragon",
+  "totals": {
+    "imported": 0,
+    "staged": 0,
+    "rejected": 0,
+    "contact_ready": 0,
+    "outreach_allowed": 0
+  },
+  "rejected_real_contacts": []
+}

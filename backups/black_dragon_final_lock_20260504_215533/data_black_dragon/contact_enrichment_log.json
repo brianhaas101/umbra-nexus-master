@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-05-05T04:45:10.292Z",
+  "input_targets": 73,
+  "manual_overrides_loaded": 210,
+  "ready_targets": 0,
+  "still_needs_enrichment": 73,
+  "strict_rules": {
+    "no_generic_emails": true,
+    "no_missing_phone_numbers": true,
+    "no_incomplete_agencies": true,
+    "only_contact_ready_passes": true
+  }
+}

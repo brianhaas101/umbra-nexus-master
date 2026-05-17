@@ -1,0 +1,30 @@
+{
+  "version": "umbra_batch_064_multi_role_taxonomy_audit_v1",
+  "generated_at": "2026-05-10T00:12:40.628Z",
+  "taxonomy_integrity": {
+    "entity_class_count": 15,
+    "has_education_nodes": true,
+    "has_training_nodes": true,
+    "has_law_enforcement_nodes": true,
+    "has_motor_unit_nodes": true,
+    "has_veteran_nodes": true,
+    "has_dealership_nodes": true,
+    "has_event_nodes": true,
+    "has_distribution_nodes": true,
+    "has_propagation_nodes": true
+  },
+  "relationship_integrity": {
+    "relationship_count": 20,
+    "curriculum_adoption_present": true,
+    "media_propagation_present": true,
+    "influence_propagation_present": true,
+    "institutional_adoption_present": true
+  },
+  "scoring_integrity": {
+    "scoring_categories": true
+  },
+  "rendering_integrity": {
+    "render_classes": true
+  },
+  "pass": true
+}

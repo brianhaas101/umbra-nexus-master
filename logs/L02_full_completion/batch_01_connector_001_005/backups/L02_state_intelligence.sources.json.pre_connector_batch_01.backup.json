@@ -1,0 +1,281 @@
+{
+    "version":  "nexus_L02_state_intelligence_sources_v1",
+    "generated_at":  "2026-05-07T04:49:00.711Z",
+    "layer_id":  "L02_STATE_INTELLIGENCE",
+    "target_sources":  15,
+    "production_ready":  true,
+    "source_classes":  [
+                           {
+                               "source_id":  "STATE_POST_DATABASES",
+                               "authority":  "STATE",
+                               "type":  "training_certification",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_CRIME_REPORTS",
+                               "authority":  "STATE",
+                               "type":  "crime_statistics",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_PROCUREMENT_PORTALS",
+                               "authority":  "STATE",
+                               "type":  "procurement_activity",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_BUDGET_BOOKS",
+                               "authority":  "STATE",
+                               "type":  "budget_intelligence",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_GRANT_PROGRAMS",
+                               "authority":  "STATE",
+                               "type":  "funding_activity",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_LEGISLATIVE_TRACKERS",
+                               "authority":  "STATE",
+                               "type":  "regulatory_change",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_COURT_SYSTEMS",
+                               "authority":  "STATE",
+                               "type":  "legal_activity",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_AGENCY_DIRECTORIES",
+                               "authority":  "STATE",
+                               "type":  "agency_structure",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_EMERGENCY_MANAGEMENT",
+                               "authority":  "STATE",
+                               "type":  "risk_and_response",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_OPEN_DATA_PORTALS",
+                               "authority":  "STATE",
+                               "type":  "structured_data",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_TRAINING_ACADEMIES",
+                               "authority":  "STATE",
+                               "type":  "academy_activity",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_ASSOCIATION_ROSTERS",
+                               "authority":  "STATE",
+                               "type":  "professional_networks",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_TRANSPARENCY_PORTALS",
+                               "authority":  "STATE",
+                               "type":  "financial_visibility",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_PRESS_RELEASES",
+                               "authority":  "STATE",
+                               "type":  "operational_activity",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "STATE_PUBLIC_RECORDS_SYSTEMS",
+                               "authority":  "STATE",
+                               "type":  "records_access",
+                               "coverage":  "STATE"
+                           }
+                       ],
+    "sources":  [
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "certification_authority",
+                        "authority":  "STATE",
+                        "source_name":  "State POST Boards",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_001_STATE_POST_BOARDS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "academy_infrastructure",
+                        "authority":  "STATE",
+                        "source_name":  "State Law Enforcement Academy Systems",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "state_enforcement_data",
+                        "authority":  "STATE",
+                        "source_name":  "State DOJ Portals",
+                        "update_frequency":  "monthly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_003_STATE_DOJ_PORTALS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf_csv"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "state_grant_funding",
+                        "authority":  "STATE",
+                        "source_name":  "State Grant Offices",
+                        "update_frequency":  "monthly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_004_STATE_GRANT_OFFICES",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "state_procurement",
+                        "authority":  "STATE",
+                        "source_name":  "State Procurement Systems",
+                        "update_frequency":  "daily",
+                        "active":  true,
+                        "source_id":  "L02_SRC_005_STATE_PROCUREMENT_SYSTEMS",
+                        "access_method":  "public_web",
+                        "format":  "html_csv_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "training_schedule",
+                        "authority":  "STATE",
+                        "source_name":  "State Training Calendars",
+                        "update_frequency":  "monthly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_006_STATE_TRAINING_CALENDARS",
+                        "access_method":  "public_web",
+                        "format":  "html_ics_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "criminal_justice_oversight",
+                        "authority":  "STATE",
+                        "source_name":  "State Criminal Justice Commissions",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_007_STATE_CRIMINAL_JUSTICE_COMMISSIONS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "state_financial_transparency",
+                        "authority":  "STATE",
+                        "source_name":  "State Transparency Portals",
+                        "update_frequency":  "monthly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_008_STATE_TRANSPARENCY_PORTALS",
+                        "access_method":  "public_web",
+                        "format":  "html_csv_json"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "state_budget",
+                        "authority":  "STATE",
+                        "source_name":  "State Budget Books",
+                        "update_frequency":  "annual",
+                        "active":  true,
+                        "source_id":  "L02_SRC_009_STATE_BUDGET_BOOKS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "agency_directory",
+                        "authority":  "STATE",
+                        "source_name":  "State Public Safety Directories",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_010_STATE_PUBLIC_SAFETY_DIRECTORIES",
+                        "access_method":  "public_web",
+                        "format":  "html_csv_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "preparedness_authority",
+                        "authority":  "STATE",
+                        "source_name":  "State Emergency Management Agencies",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_011_STATE_EMERGENCY_MANAGEMENT",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "policy_movement",
+                        "authority":  "STATE",
+                        "source_name":  "State Legislative Records",
+                        "update_frequency":  "daily",
+                        "active":  true,
+                        "source_id":  "L02_SRC_012_STATE_LEGISLATIVE_RECORDS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "certification_registry",
+                        "authority":  "STATE",
+                        "source_name":  "State Certification Registries",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_013_STATE_CERTIFICATION_REGISTRIES",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf_csv"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "crime_reporting",
+                        "authority":  "STATE",
+                        "source_name":  "State Crime Reporting Systems",
+                        "update_frequency":  "monthly",
+                        "active":  true,
+                        "source_id":  "L02_SRC_014_STATE_CRIME_REPORTING_SYSTEMS",
+                        "access_method":  "public_web",
+                        "format":  "html_csv_json"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "financial_audit",
+                        "authority":  "STATE",
+                        "source_name":  "State Audit Reports",
+                        "update_frequency":  "annual",
+                        "active":  true,
+                        "source_id":  "L02_SRC_015_STATE_AUDIT_REPORTS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    }
+                ]
+}

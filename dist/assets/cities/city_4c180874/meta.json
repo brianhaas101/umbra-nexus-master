@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_4c180874",
+    "name":  "Chicago, IL",
+    "center_lat":  41.8781,
+    "center_lon":  -87.6298,
+    "bounds":  {
+                   "north":  42.1609,
+                   "south":  41.6182,
+                   "east":  -87.3445,
+                   "west":  -87.915
+               },
+    "width_m":  47000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_4c180874/base.png"
+}

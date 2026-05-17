@@ -1,0 +1,33 @@
+{
+    "version":  "black_dragon_new_orleans_geospatial_anchor_candidates_v1",
+    "generated_at":  "2026-05-11T06:29:07.4142804Z",
+    "city":  "New Orleans",
+    "folder":  "new_orleans",
+    "anchors":  [
+                    {
+                        "anchor_id":  "geo_anchor_e45b5bd4b0974dbcac68025be107cb33",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\new_orleans_operational_manifest.json",
+                        "city":  "New Orleans",
+                        "folder":  "new_orleans",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_d1931847f43644d0a975298c1ce6960a",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\new_orleans_operational_manifest.json",
+                        "city":  "New Orleans",
+                        "folder":  "new_orleans",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    }
+                ],
+    "status":  "GEOSPATIAL_CANDIDATES_QUARANTINED"
+}

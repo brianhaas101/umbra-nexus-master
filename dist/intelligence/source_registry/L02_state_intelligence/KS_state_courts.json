@@ -1,0 +1,19 @@
+{
+  "source_id": "state_courts",
+  "state_code": "KS",
+  "state_name": "Kansas",
+  "category": "state_courts",
+  "source_url": "https://www.kscourts.org/",
+  "status": "source_page_verified_state_courts_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T05:54:31.451Z",
+  "last_refresh": "2026-05-14T05:54:31.451Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

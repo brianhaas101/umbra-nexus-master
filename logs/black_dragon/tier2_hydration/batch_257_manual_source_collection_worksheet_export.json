@@ -1,0 +1,54 @@
+{
+    "batch":  "257",
+    "version":  "black_dragon_manual_source_collection_worksheet_export_v1",
+    "generated_at":  "2026-05-11T08:14:05.4955504Z",
+    "city_results":  [
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "worksheet":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\reviewed_source_collection_worksheet.csv",
+                             "rows":  15,
+                             "status":  "PASS_WORKSHEET_EXPORTED"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "worksheet":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\reviewed_source_collection_worksheet.csv",
+                             "rows":  15,
+                             "status":  "PASS_WORKSHEET_EXPORTED"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "worksheet":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_orleans\\reviewed_source_collection_worksheet.csv",
+                             "rows":  15,
+                             "status":  "PASS_WORKSHEET_EXPORTED"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "worksheet":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\reviewed_source_collection_worksheet.csv",
+                             "rows":  15,
+                             "status":  "PASS_WORKSHEET_EXPORTED"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "worksheet":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\houston\\reviewed_source_collection_worksheet.csv",
+                             "rows":  15,
+                             "status":  "PASS_WORKSHEET_EXPORTED"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  5,
+                    "failed_count":  0,
+                    "total_rows":  75
+                },
+    "hardlocks":  {
+                      "no_scraping_executed":  true,
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_MANUAL_SOURCE_COLLECTION_WORKSHEETS_EXPORTED"
+}

@@ -1,0 +1,744 @@
+{
+    "version":  "black_dragon_scottsdale_relationship_rank_candidates_v1",
+    "generated_at":  "2026-05-11T05:37:52.5403341Z",
+    "city":  "Scottsdale",
+    "folder":  "scottsdale",
+    "relationships":  [
+                          {
+                              "relationship_id":  "relationship_f0e35868f5f44aaba8672620ec8f0a5a",
+                              "source_entity_id":  "candidate_entity_715a90061ac549a89466e14d11f62e3e",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\dedupe\\scottsdale_regional_dedupe.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\dedupe\\scottsdale_regional_dedupe.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_0ee90b959462420ba4e4053109e9777e",
+                              "source_entity_id":  "candidate_entity_715a90061ac549a89466e14d11f62e3e",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_9769576b2506441b83cdf73ccaeca3ce",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\dedupe\\scottsdale_regional_dedupe.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_c47706ab6f8441eead75ff8c6ae743d0",
+                              "source_entity_id":  "candidate_entity_fe70e5d7beb443d995387ee1a98133a3",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\imports\\scottsdale_discovery_import.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\imports\\scottsdale_discovery_import.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_7b7072c40a22426ab908cb80b2c319f3",
+                              "source_entity_id":  "candidate_entity_fe70e5d7beb443d995387ee1a98133a3",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_d133badc778249ba83f8b3d3c2a8d9e2",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\imports\\scottsdale_discovery_import.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_38d467c0325d4eefa7a53966383eda52",
+                              "source_entity_id":  "candidate_entity_055799de40154d239a22cc82b00360dc",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\validated\\scottsdale_validated_candidates.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\validated\\scottsdale_validated_candidates.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_57e3a895bc5c407480a19b66659ac9e0",
+                              "source_entity_id":  "candidate_entity_055799de40154d239a22cc82b00360dc",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_120bb913b77e4d60a4e425a2287f5ee0",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\validated\\scottsdale_validated_candidates.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_64ae80cffb0e40c4a59cfaee75dd3015",
+                              "source_entity_id":  "candidate_entity_e6df644094ad42fe91802d894434a759",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_af1c185f598c4c1b93eab5837fa3e3e3",
+                              "source_entity_id":  "candidate_entity_e6df644094ad42fe91802d894434a759",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_8206dd7eb91b45849d8cb580ed8ca516",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_113dd6fd9e164ecdbac0821683d1b7eb",
+                              "source_entity_id":  "candidate_entity_7da9893b7aa5413899039a39407e9b1a",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_47d72015f0fc4d4aaf8a719c1821e3ed",
+                              "source_entity_id":  "candidate_entity_7da9893b7aa5413899039a39407e9b1a",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_99cfa51dade3426d9740e7e963309dbd",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_3b998b4df70c4b54b949e2d5b74f15e4",
+                              "source_entity_id":  "candidate_entity_037a87cfc531413e9488c0d9ff72ddb5",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_d163db63521e422583d297bba24c75f7",
+                              "source_entity_id":  "candidate_entity_037a87cfc531413e9488c0d9ff72ddb5",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_8640fcb69c174fd990e76d3e88ced4b1",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_825bbc4ce0884342baea0ca767337af6",
+                              "source_entity_id":  "candidate_entity_141e2697ef3b4d73b5a191851ac90a46",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\node_cards\\scottsdale_client_node_cards.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\node_cards\\scottsdale_client_node_cards.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_d76fb4e9149b41d1a0dae21411cb6cb9",
+                              "source_entity_id":  "candidate_entity_141e2697ef3b4d73b5a191851ac90a46",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_0f32497f224a4ab6815beaa564e46279",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\node_cards\\scottsdale_client_node_cards.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_855ad8e7df5e4f86acd0b3e79b9e7a3d",
+                              "source_entity_id":  "candidate_entity_8a66e8dbbd7c4205ab096f906b463027",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\propagation_feed\\scottsdale_client_propagation_feed.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\propagation_feed\\scottsdale_client_propagation_feed.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_70a0fb1c082b4ad28cf9a022db84d9e5",
+                              "source_entity_id":  "candidate_entity_8a66e8dbbd7c4205ab096f906b463027",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_5d035a8bd3834b4b9ed1f7830c6a8301",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\propagation_feed\\scottsdale_client_propagation_feed.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_426315a40be845c9941bea45234c5b7e",
+                              "source_entity_id":  "candidate_entity_57ea73131f1d4fa99cff03533647a003",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\edges\\scottsdale_graph_edges.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\edges\\scottsdale_graph_edges.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_60523882128d4927a6c97e0c27540e53",
+                              "source_entity_id":  "candidate_entity_9b43f965811d4ff1bb05a165e0c5c74f",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\nodes\\scottsdale_graph_nodes.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\nodes\\scottsdale_graph_nodes.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_b4745ed0747448259f738cbe7ea49003",
+                              "source_entity_id":  "candidate_entity_9b43f965811d4ff1bb05a165e0c5c74f",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_d03fa4d3cb014882947b44fab4b30e27",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\nodes\\scottsdale_graph_nodes.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_bfc6f8f26c884eb98d3340b4dc568973",
+                              "source_entity_id":  "candidate_entity_620025371ca94e26b4d049626b2325a9",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\paths\\scottsdale_propagation_paths.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\paths\\scottsdale_propagation_paths.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_b754fbc676fe48d7bd73c9707ed538fd",
+                              "source_entity_id":  "candidate_entity_aed4f79f3ae54994bc738241db5bdead",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\scores\\scottsdale_graph_influence_scores.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\scores\\scottsdale_graph_influence_scores.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_26c196fbaed64da59a93e2f506be74cb",
+                              "source_entity_id":  "candidate_entity_a0504584df584b91ab945d45952f2ec7",
+                              "target_type":  "validated_source",
+                              "target_ref":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                              "relationship_type":  "ENTITY_DERIVED_FROM_SOURCE",
+                              "confidence_score":  0.75,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                                                 "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "relationship_cc5377909ba947cbb2a767dcdbbba82d",
+                              "source_entity_id":  "candidate_entity_a0504584df584b91ab945d45952f2ec7",
+                              "target_type":  "geospatial_anchor",
+                              "target_ref":  "geo_anchor_4fc6b56d46bc45398da5c499a6d9c814",
+                              "relationship_type":  "ENTITY_HAS_GEOSPATIAL_SIGNAL",
+                              "confidence_score":  0.65,
+                              "provenance":  {
+                                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                                                 "coordinates_verified":  false,
+                                                 "address_verified":  false
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_RELATIONSHIP_CANDIDATE"
+                          },
+                          {
+                              "relationship_id":  "saturation_relationship_6b9b23cb2e7741b8ac4e1068daaae502",
+                              "source_entity_id":  "candidate_entity_037a87cfc531413e9488c0d9ff72ddb5",
+                              "relationship_type":  "SATURATION_ALIGNMENT_RELATIONSHIP",
+                              "confidence_score":  0.6,
+                              "provenance":  {
+                                                 "derived_from":  "wave_1_density_gap_alignment",
+                                                 "generated_by_batch":  "234R"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_ALIGNMENT_RELATIONSHIP"
+                          },
+                          {
+                              "relationship_id":  "saturation_relationship_0853482e54364927accc993bb2fa3051",
+                              "source_entity_id":  "saturation_entity_27a497944ea146c0b3a1f96bd1332139",
+                              "relationship_type":  "SATURATION_ALIGNMENT_RELATIONSHIP",
+                              "confidence_score":  0.6,
+                              "provenance":  {
+                                                 "derived_from":  "wave_1_density_gap_alignment",
+                                                 "generated_by_batch":  "234R"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_ALIGNMENT_RELATIONSHIP"
+                          },
+                          {
+                              "relationship_id":  "saturation_relationship_45a750a437514235b99f845be0315e9a",
+                              "source_entity_id":  "candidate_entity_9b43f965811d4ff1bb05a165e0c5c74f",
+                              "relationship_type":  "SATURATION_ALIGNMENT_RELATIONSHIP",
+                              "confidence_score":  0.6,
+                              "provenance":  {
+                                                 "derived_from":  "wave_1_density_gap_alignment",
+                                                 "generated_by_batch":  "234R"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_ALIGNMENT_RELATIONSHIP"
+                          },
+                          {
+                              "relationship_id":  "saturation_relationship_4d7736b04256424aa9cae02c62662b45",
+                              "source_entity_id":  "candidate_entity_57ea73131f1d4fa99cff03533647a003",
+                              "relationship_type":  "SATURATION_ALIGNMENT_RELATIONSHIP",
+                              "confidence_score":  0.6,
+                              "provenance":  {
+                                                 "derived_from":  "wave_1_density_gap_alignment",
+                                                 "generated_by_batch":  "234R"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_ALIGNMENT_RELATIONSHIP"
+                          },
+                          {
+                              "relationship_id":  "saturation_relationship_110215037a5a482ab25aa35788c14de6",
+                              "source_entity_id":  "candidate_entity_fe70e5d7beb443d995387ee1a98133a3",
+                              "relationship_type":  "SATURATION_ALIGNMENT_RELATIONSHIP",
+                              "confidence_score":  0.6,
+                              "provenance":  {
+                                                 "derived_from":  "wave_1_density_gap_alignment",
+                                                 "generated_by_batch":  "234R"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_ALIGNMENT_RELATIONSHIP"
+                          },
+                          {
+                              "relationship_id":  "saturation_relationship_d6a31d34c9dc4b5c83be8a8447a71432",
+                              "source_entity_id":  "candidate_entity_8a66e8dbbd7c4205ab096f906b463027",
+                              "relationship_type":  "SATURATION_ALIGNMENT_RELATIONSHIP",
+                              "confidence_score":  0.6,
+                              "provenance":  {
+                                                 "derived_from":  "wave_1_density_gap_alignment",
+                                                 "generated_by_batch":  "234R"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_ALIGNMENT_RELATIONSHIP"
+                          },
+                          {
+                              "relationship_id":  "saturation_relationship_d930c409a7f6411fbbefe96dd1499aa2",
+                              "source_entity_id":  "candidate_entity_037a87cfc531413e9488c0d9ff72ddb5",
+                              "relationship_type":  "SATURATION_ALIGNMENT_RELATIONSHIP",
+                              "confidence_score":  0.6,
+                              "provenance":  {
+                                                 "derived_from":  "wave_1_density_gap_alignment",
+                                                 "generated_by_batch":  "234R"
+                                             },
+                              "runtime_promotion_allowed":  false,
+                              "manual_review_required":  true,
+                              "status":  "QUARANTINED_ALIGNMENT_RELATIONSHIP"
+                          }
+                      ],
+    "ranked_entities":  [
+                            {
+                                "entity_id":  "candidate_entity_715a90061ac549a89466e14d11f62e3e",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\dedupe\\scottsdale_regional_dedupe.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_fe70e5d7beb443d995387ee1a98133a3",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\imports\\scottsdale_discovery_import.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_055799de40154d239a22cc82b00360dc",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\validated\\scottsdale_validated_candidates.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_e6df644094ad42fe91802d894434a759",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_7da9893b7aa5413899039a39407e9b1a",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_037a87cfc531413e9488c0d9ff72ddb5",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_141e2697ef3b4d73b5a191851ac90a46",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\node_cards\\scottsdale_client_node_cards.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_8a66e8dbbd7c4205ab096f906b463027",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\propagation_feed\\scottsdale_client_propagation_feed.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_57ea73131f1d4fa99cff03533647a003",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\edges\\scottsdale_graph_edges.json",
+                                "confidence_score":  0.75,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_9b43f965811d4ff1bb05a165e0c5c74f",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\nodes\\scottsdale_graph_nodes.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_620025371ca94e26b4d049626b2325a9",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\paths\\scottsdale_propagation_paths.json",
+                                "confidence_score":  0.75,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_aed4f79f3ae54994bc738241db5bdead",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\scores\\scottsdale_graph_influence_scores.json",
+                                "confidence_score":  0.75,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "candidate_entity_a0504584df584b91ab945d45952f2ec7",
+                                "city":  "Scottsdale",
+                                "folder":  "scottsdale",
+                                "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                                "confidence_score":  0.85,
+                                "rank_state":  "QUARANTINED_RANK_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "validated_local_source_candidate",
+                                                         "organization_signal_detected",
+                                                         "city_match_detected",
+                                                         "geospatial_signal_if_present"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "rank_repair_entity_1a55088765b04ca28e4b1adffdb67d62",
+                                "folder":  "scottsdale",
+                                "confidence_score":  0.6,
+                                "rank_state":  "QUARANTINED_RANK_REPAIR_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "ranked_entity_propagation_repair",
+                                                         "manual_review_required"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            },
+                            {
+                                "entity_id":  "rank_repair_entity_f9443c94cb384914b7e340151d36f854",
+                                "folder":  "scottsdale",
+                                "confidence_score":  0.6,
+                                "rank_state":  "QUARANTINED_RANK_REPAIR_CANDIDATE",
+                                "confidence_basis":  [
+                                                         "ranked_entity_propagation_repair",
+                                                         "manual_review_required"
+                                                     ],
+                                "promotion":  {
+                                                  "runtime_promotion_allowed":  false,
+                                                  "contact_enablement_allowed":  false,
+                                                  "manual_review_required":  true
+                                              }
+                            }
+                        ],
+    "graph_policy":  {
+                         "source_backed_relationships_only":  true,
+                         "no_inferred_edges_without_source":  true,
+                         "no_placeholder_scores":  true,
+                         "confidence_score_required":  true,
+                         "provenance_required":  true,
+                         "runtime_promotion_allowed":  false,
+                         "contact_enablement_allowed":  false,
+                         "manual_review_required":  true
+                     },
+    "status":  "RELATIONSHIP_AND_RANK_CANDIDATES_QUARANTINED"
+}

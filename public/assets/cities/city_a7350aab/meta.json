@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_a7350aab",
+    "name":  "Baltimore, MD",
+    "center_lat":  39.2904,
+    "center_lon":  -76.6122,
+    "bounds":  {
+                   "north":  39.5732,
+                   "south":  39.0305,
+                   "east":  -76.3269,
+                   "west":  -76.8974
+               },
+    "width_m":  49000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_a7350aab/base.png"
+}

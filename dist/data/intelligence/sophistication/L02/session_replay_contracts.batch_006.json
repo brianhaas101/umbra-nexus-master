@@ -1,0 +1,147 @@
+{
+  "version": "nexus_L02_session_replay_contracts_batch_006_v1",
+  "generated_at": "2026-05-09T01:38:02.654Z",
+  "layer_id": "L02",
+  "contracts": [
+    {
+      "connector_id": "L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "CA",
+      "source_type": "STATE_PROCUREMENT",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/CA/L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "TX",
+      "source_type": "STATE_ACADEMY",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/TX/L02_TX_L02_CLASS_005_STATE_ACADEMY",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "FL",
+      "source_type": "STATE_PROCUREMENT",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/FL/L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "AZ",
+      "source_type": "STATE_GRANTS",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/AZ/L02_AZ_L02_CLASS_003_STATE_GRANTS",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "OH",
+      "source_type": "STATE_GRANTS",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/OH/L02_OH_L02_CLASS_003_STATE_GRANTS",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "OH",
+      "source_type": "STATE_PROCUREMENT",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/OH/L02_OH_L02_CLASS_004_STATE_PROCUREMENT",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "NC",
+      "source_type": "STATE_GRANTS",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/NC/L02_NC_L02_CLASS_003_STATE_GRANTS",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NC",
+      "source_type": "STATE_PROCUREMENT",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/NC/L02_NC_L02_CLASS_004_STATE_PROCUREMENT",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "WA",
+      "source_type": "STATE_GRANTS",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/WA/L02_WA_L02_CLASS_003_STATE_GRANTS",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "WA",
+      "source_type": "STATE_PROCUREMENT",
+      "replay_status": "REGISTERED",
+      "replay_store": "public/data/intelligence/replay/L02/WA/L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+      "required_artifacts": [
+        "request_metadata",
+        "response_metadata",
+        "raw_snapshot_hash",
+        "normalized_snapshot_hash",
+        "recovery_adapter_hash"
+      ]
+    }
+  ]
+}

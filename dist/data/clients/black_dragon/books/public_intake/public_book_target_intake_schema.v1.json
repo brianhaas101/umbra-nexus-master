@@ -1,0 +1,38 @@
+{
+  "version": "public_book_target_intake_schema_v1",
+
+  "required_fields": [
+    "raw_id",
+    "organization_name",
+    "organization_type_hint",
+    "country",
+    "region",
+    "source_type",
+    "source_url",
+    "known_leader_name",
+    "known_leader_role",
+    "observed_signals",
+    "contact_method",
+    "notes"
+  ],
+
+  "allowed_source_types": [
+    "PUBLIC_WEBSITE",
+    "PUBLIC_FACEBOOK_PAGE",
+    "PUBLIC_INSTAGRAM_PAGE",
+    "PUBLIC_YOUTUBE_CHANNEL",
+    "PUBLIC_PODCAST",
+    "PUBLIC_COUNCIL_DIRECTORY",
+    "PUBLIC_EVENT_PAGE",
+    "MANUAL_RESEARCH"
+  ],
+
+  "hard_rules": {
+    "no_private_groups": true,
+    "no_login_required_sources": true,
+    "no_scraping_non_public_content": true,
+    "no_fabricated_contacts": true,
+    "no_fake_leaders": true,
+    "public_sources_only": true
+  }
+}

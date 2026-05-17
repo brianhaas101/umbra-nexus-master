@@ -1,0 +1,10 @@
+﻿{
+    "source_id":  "state_environmental_agency",
+    "layer_id":  "L02",
+    "state_code":  "CA",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "status":  "source_page_verified_state_environmental_signals",
+    "last_refresh":  "2026-05-14T03:41:30.3218951Z",
+    "client_paths_touched":  false
+}

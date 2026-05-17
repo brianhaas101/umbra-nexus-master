@@ -1,0 +1,209 @@
+{
+  "version": "black_dragon_scottsdale_validated_candidates_v1",
+  "generated_at": "2026-05-10T23:28:04.257Z",
+  "city": "Scottsdale",
+  "state": "AZ",
+  "validated_candidate_count": 10,
+  "validated_candidates": [
+    {
+      "candidate_id": "BD_SCT_IMPORT_001",
+      "organization_name": "Harley-Davidson of Scottsdale",
+      "organization_type": "DEALERSHIP_NETWORK",
+      "source_category": "DEALERSHIP_NETWORKS",
+      "estimated_influence_score": 9.3,
+      "estimated_conversion_score": 9.2,
+      "public_route_url": "https://www.hdofscottsdale.com/",
+      "source_lineage": [
+        "ARIZONA_DEALERSHIP_DISCOVERY",
+        "SCOTTSDALE_LUXURY_MOTO_OVERLAP"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_002",
+      "organization_name": "Arizona Bike Week",
+      "organization_type": "EVENT_NETWORK",
+      "source_category": "EVENT_PROPAGATION",
+      "estimated_influence_score": 9.7,
+      "estimated_conversion_score": 9.1,
+      "public_route_url": "https://azbikeweek.com/",
+      "source_lineage": [
+        "ARIZONA_EVENT_DISCOVERY",
+        "SCOTTSDALE_REGIONAL_RALLY_NETWORK"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_003",
+      "organization_name": "Scottsdale Bike Week Vendor Network",
+      "organization_type": "EVENT_VENDOR_NETWORK",
+      "source_category": "EVENT_PROPAGATION",
+      "estimated_influence_score": 8.8,
+      "estimated_conversion_score": 8.5,
+      "public_route_url": "https://azbikeweek.com/vendors/",
+      "source_lineage": [
+        "VENDOR_NETWORK_DISCOVERY",
+        "ARIZONA_BIKE_WEEK_ECOSYSTEM"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_004",
+      "organization_name": "GO AZ Motorcycles",
+      "organization_type": "POWERSPORTS_DEALERSHIP",
+      "source_category": "DEALERSHIP_NETWORKS",
+      "estimated_influence_score": 8.9,
+      "estimated_conversion_score": 8.8,
+      "public_route_url": "https://www.goaz.com/",
+      "source_lineage": [
+        "POWERSPORTS_DEALER_DISCOVERY",
+        "SCOTTSDALE_RETAIL_NETWORK"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_005",
+      "organization_name": "Scottsdale Motorcycle Riders Network",
+      "organization_type": "RIDING_COMMUNITY",
+      "source_category": "MEDIA_AND_COMMUNITY",
+      "estimated_influence_score": 8.4,
+      "estimated_conversion_score": 8.1,
+      "public_route_url": "https://www.meetup.com/",
+      "source_lineage": [
+        "COMMUNITY_GROUP_SCAN",
+        "SCOTTSDALE_RIDER_NETWORK"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_006",
+      "organization_name": "WestWorld of Scottsdale Event Network",
+      "organization_type": "EVENT_VENUE_NETWORK",
+      "source_category": "EVENT_PROPAGATION",
+      "estimated_influence_score": 8.7,
+      "estimated_conversion_score": 8.3,
+      "public_route_url": "https://westworldaz.com/",
+      "source_lineage": [
+        "EVENT_VENUE_DISCOVERY",
+        "SCOTTSDALE_EVENT_INFRASTRUCTURE"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_007",
+      "organization_name": "Law Tigers Arizona",
+      "organization_type": "AFFILIATE_NETWORK",
+      "source_category": "CROSS_STATE_PROPAGATION",
+      "estimated_influence_score": 8.6,
+      "estimated_conversion_score": 8.7,
+      "public_route_url": "https://lawtigers.com/",
+      "source_lineage": [
+        "AFFILIATE_DISCOVERY",
+        "ARIZONA_MOTORCYCLE_LEGAL_NETWORK"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_008",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "organization_type": "VETERAN_RIDER_NETWORK",
+      "source_category": "VETERAN_AND_NONPROFIT",
+      "estimated_influence_score": 8.8,
+      "estimated_conversion_score": 8.6,
+      "public_route_url": "https://www.vma-usa.org/",
+      "source_lineage": [
+        "VETERAN_NETWORK_DISCOVERY",
+        "ARIZONA_RIDER_TRUST_NETWORK"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_009",
+      "organization_name": "Scottsdale Charity Ride Network",
+      "organization_type": "CHARITY_RIDE_NETWORK",
+      "source_category": "VETERAN_AND_NONPROFIT",
+      "estimated_influence_score": 8.2,
+      "estimated_conversion_score": 8,
+      "public_route_url": "https://www.eventbrite.com/",
+      "source_lineage": [
+        "CHARITY_RIDE_DISCOVERY",
+        "SCOTTSDALE_COMMUNITY_EVENTS"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "candidate_id": "BD_SCT_IMPORT_010",
+      "organization_name": "Scottsdale Custom Motorcycle Culture",
+      "organization_type": "CUSTOM_MOTORCYCLE_COMMUNITY",
+      "source_category": "MEDIA_AND_COMMUNITY",
+      "estimated_influence_score": 8.5,
+      "estimated_conversion_score": 8.2,
+      "public_route_url": "https://www.facebook.com/search/top?q=scottsdale%20motorcycle",
+      "source_lineage": [
+        "CUSTOM_CULTURE_DISCOVERY",
+        "SCOTTSDALE_MOTORCYCLE_COMMUNITY"
+      ],
+      "validation_status": "VALIDATED",
+      "source_lineage_verified": true,
+      "quarantine_status": "QUARANTINED_PENDING_DEDUPE",
+      "runtime_visible": false,
+      "contact_ready": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

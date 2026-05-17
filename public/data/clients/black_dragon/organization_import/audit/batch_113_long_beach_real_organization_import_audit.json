@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_batch_113_long_beach_real_organization_import_audit_v1",
+  "generated_at": "2026-05-10T18:44:13.503Z",
+  "batch": "113_REAL_ORGANIZATION_IMPORT",
+  "city": "Long Beach",
+  "state": "CA",
+  "counts": {
+    "imported": 10,
+    "validated": 10,
+    "rejected": 0,
+    "dossiers": 10,
+    "runtime_map_nodes": 10,
+    "hot": 1,
+    "warm": 5,
+    "review": 4,
+    "contact_ready": 0
+  },
+  "gates": {
+    "imported_10": true,
+    "all_validated": true,
+    "dossiers_match_validated": true,
+    "runtime_nodes_match_dossiers": true,
+    "all_nodes_visible": true,
+    "no_contact_ready_until_route_verified": true,
+    "automated_outreach_disabled": true,
+    "promotion_disabled": true
+  },
+  "status": "PASS"
+}

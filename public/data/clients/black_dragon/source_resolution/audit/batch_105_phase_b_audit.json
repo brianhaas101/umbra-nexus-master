@@ -1,0 +1,22 @@
+{
+  "version": "black_dragon_batch_105_phase_b_audit_v1",
+  "generated_at": "2026-05-10T17:47:56.618Z",
+  "batch": "105_REAL_SOURCE_RESOLUTION_PIPELINE",
+  "phase": "B_MANUAL_REAL_SOURCE_RESOLUTION",
+  "counts": {
+    "workbook_rows": 180,
+    "unresolved_sources": 180,
+    "resolved_template_rows": 0,
+    "csv_exists": true
+  },
+  "gates": {
+    "workbook_rows_180": true,
+    "unresolved_sources_180": true,
+    "resolved_template_empty": true,
+    "csv_export_exists": true,
+    "no_outreach_allowed": true,
+    "no_promotion_allowed": true,
+    "founder_review_required": true
+  },
+  "status": "PASS"
+}

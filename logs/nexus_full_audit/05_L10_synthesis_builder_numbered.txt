@@ -1,0 +1,51 @@
+   1: const fs = require("fs");
+   2: 
+   3: const A = "public/data/intelligence/outputs/L10_contact_score_refinement.json";
+   4: const B = "public/data/intelligence/outputs/L10_communication_confidence_weighting.json";
+   5: const C = "public/data/intelligence/outputs/L10_fallback_route_scoring.json";
+   6: const D = "public/data/intelligence/outputs/L10_contact_freshness_weighting.json";
+   7: 
+   8: const OUT = "public/data/intelligence/outputs/L10_outreach_readiness_synthesis.json";
+   9: 
+  10: const a = JSON.parse(fs.readFileSync(A, "utf8"));
+  11: const b = JSON.parse(fs.readFileSync(B, "utf8"));
+  12: const c = JSON.parse(fs.readFileSync(C, "utf8"));
+  13: const d = JSON.parse(fs.readFileSync(D, "utf8"));
+  14: 
+  15: const conf = new Map(
+  16:   b.weights.map(x => [x.entity_id, x.combined_contact_confidence])
+  17: );
+  18: 
+  19: const route = new Map(
+  20:   c.routes.map(x => [x.entity_id, x.fallback_route_score])
+  21: );
+  22: 
+  23: const fresh = new Map(
+  24:   d.freshness.map(x => [x.entity_id, x.freshness_score])
+  25: );
+  26: 
+  27: const synthesis = a.refined.map(x => ({
+  28:   entity_id: x.entity_id,
+  29:   outreach_readiness_score:
+  30:     Math.round(
+  31:       (
+  32:         (x.refined_score * 0.45) +
+  33:         ((conf.get(x.entity_id) || 0) * 100 * 0.25) +
+  34:         ((route.get(x.entity_id) || 0) * 0.2) +
+  35:         ((fresh.get(x.entity_id) || 0) * 100 * 0.1)
+  36:       ) * 100
+  37:     ) / 100,
+  38:   reason:
+  39:     "Synthesized from refined score, contact confidence, route strength, and freshness."
+  40: }));
+  41: 
+  42: const output = {
+  43:   version: "nexus_L10_outreach_readiness_synthesis_v1",
+  44:   generated_at: new Date().toISOString(),
+  45:   total: synthesis.length,
+  46:   synthesis
+  47: };
+  48: 
+  49: fs.writeFileSync(OUT, JSON.stringify(output, null, 2));
+  50: 
+  51: console.log("[L10 OUTREACH SYNTHESIS] COMPLETE", output.total);

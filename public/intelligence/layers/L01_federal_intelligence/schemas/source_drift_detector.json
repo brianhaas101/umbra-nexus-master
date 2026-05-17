@@ -1,0 +1,14 @@
+﻿{
+  "contract_id": "L01_source_drift_detector",
+  "version": "1.0.0",
+  "checks": [
+    "status_code",
+    "content_type",
+    "payload_size_floor",
+    "identity_markers",
+    "parser_status",
+    "source_hash_delta"
+  ],
+  "fail_policy": "fail_closed_no_promotion",
+  "client_paths_touched": false
+}

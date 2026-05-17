@@ -1,0 +1,19 @@
+﻿{
+    "layer_id":  "layer_11",
+    "contract":  "explainable_output_serialization",
+    "depends_on":  [
+                       "layer_01",
+                       "layer_03",
+                       "layer_04",
+                       "layer_06",
+                       "layer_07",
+                       "layer_08",
+                       "layer_09",
+                       "layer_10"
+                   ],
+    "creates_claims":  false,
+    "hidden_weighting_allowed":  false,
+    "deterministic_explanation_id":  true,
+    "modifies_prior_outputs":  false,
+    "modifies_black_dragon":  false
+}

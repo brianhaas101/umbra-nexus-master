@@ -1,0 +1,296 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:18.568Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "NY",
+  "source_type": "STATE_PROCUREMENT",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Current Bid Opportunities",
+        "href": "https://ogs.ny.gov/construction-opportunities",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Construction Contractors",
+        "href": "https://ogs.ny.gov/design-construction/contractor-bid-information",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Emergency Construction",
+        "href": "https://ogs.ny.gov/design-construction/construction-emergency-contracting",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Previously Approved Construction Vendors",
+        "href": "https://online2.ogs.ny.gov/dnc/contractorConsultant/esb/SpecialNotices.asp?strId=43",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Procurement",
+        "href": "https://ogs.ny.gov/procurement",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Procurement",
+        "href": "https://ogs.ny.gov/procurement",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Contracts",
+        "href": "https://ogs.ny.gov/procurement/ogs-centralized-contracts-list",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Bid Opportunities",
+        "href": "https://ogs.ny.gov/procurement/bid-opportunities",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Bid Opening Results",
+        "href": "https://ogs.ny.gov/procurement/bid-opening-results",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://ogs.ny.gov/procurement",
+        "raw_snapshot_hash": "40df12529c576826977d7ae5259361a6d03dd07f8d01e019a81267e815044e37",
+        "parser_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Procurement Resources",
+        "href": "https://ogs.ny.gov/procurement-resources",
+        "record_type": "state_procurement_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_001",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_002",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_003",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_004",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_005",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_006",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_007",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_008",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_009",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_010",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_001",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_002",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_003",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_004",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_005",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_006",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_007",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_008",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_009",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT_SCORE_010",
+      "score_delta": 9,
+      "confidence": 0.91
+    }
+  ],
+  "normalized_snapshot_hash": "d7d0754725f77f684a1ec061f5f25fc753b3d49b30e696e631f1e124ba03cc6d"
+}

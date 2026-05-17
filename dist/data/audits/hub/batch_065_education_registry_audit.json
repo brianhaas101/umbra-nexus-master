@@ -1,0 +1,31 @@
+{
+  "version": "umbra_batch_065_education_registry_audit_v1",
+  "generated_at": "2026-05-10T00:15:02.118Z",
+  "registry_integrity": {
+    "source_category_count": 12,
+    "has_post_academies": true,
+    "has_police_academies": true,
+    "has_sheriff_training": true,
+    "has_criminal_justice": true,
+    "has_intelligence_programs": true,
+    "has_public_safety": true,
+    "has_rider_education": true,
+    "has_msf": true,
+    "has_veteran_programs": true
+  },
+  "normalization_integrity": {
+    "required_fields": true,
+    "optional_fields": true,
+    "classification_rules": true
+  },
+  "scoring_integrity": {
+    "institutional_weights": true,
+    "propagation_multipliers": true
+  },
+  "audit_integrity": {
+    "minimum_categories": true,
+    "curriculum_support_required": true,
+    "instructor_support_required": true
+  },
+  "pass": true
+}

@@ -1,0 +1,305 @@
+{
+    "version":  "black_dragon_austin_verified_source_discovery_queue_v1",
+    "generated_at":  "2026-05-11T04:47:34.6215956Z",
+    "wave_id":  "tier2_wave_1",
+    "city":  "Austin",
+    "folder":  "austin",
+    "state":  "Texas",
+    "state_code":  "TX",
+    "city_id":  "city_austin_tx",
+    "category_queues":  [
+                            {
+                                "category":  "motorcycle_dealerships",
+                                "search_queries":  [
+                                                       "\"Austin\" motorcycle dealership",
+                                                       "\"Austin\" Harley-Davidson dealer",
+                                                       "\"Austin\" motorcycle sales"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "motorcycle_repair_and_parts",
+                                "search_queries":  [
+                                                       "\"Austin\" motorcycle repair",
+                                                       "\"Austin\" motorcycle parts",
+                                                       "\"Austin\" motorcycle accessories"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "riding_clubs",
+                                "search_queries":  [
+                                                       "\"Austin\" motorcycle riding club",
+                                                       "\"Austin\" riders association",
+                                                       "\"Austin\" motorcycle group"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "rider_training_schools",
+                                "search_queries":  [
+                                                       "\"Austin\" motorcycle safety course",
+                                                       "\"Austin\" rider training",
+                                                       "\"Austin\" motorcycle training school"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "community_groups",
+                                "search_queries":  [
+                                                       "\"Austin\" community organizations",
+                                                       "\"Austin\" local community groups",
+                                                       "\"Austin\" neighborhood associations"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "event_venues",
+                                "search_queries":  [
+                                                       "\"Austin\" event venues",
+                                                       "\"Austin\" motorcycle events",
+                                                       "\"Austin\" community event venue"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "educational_institutes",
+                                "search_queries":  [
+                                                       "\"Austin\" colleges",
+                                                       "\"Austin\" technical schools",
+                                                       "\"Austin\" adult education"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_media_groups",
+                                "search_queries":  [
+                                                       "\"Austin\" local newspaper",
+                                                       "\"Austin\" local radio station",
+                                                       "\"Austin\" local media outlet"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "business_associations",
+                                "search_queries":  [
+                                                       "\"Austin\" chamber of commerce",
+                                                       "\"Austin\" business association",
+                                                       "\"Austin\" small business network"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "civic_organizations",
+                                "search_queries":  [
+                                                       "\"Austin\" civic organizations",
+                                                       "\"Austin\" public agencies directory",
+                                                       "\"Austin\" city services directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "public_safety_public_directories",
+                                "search_queries":  [
+                                                       "\"Austin\" police department public directory",
+                                                       "\"Austin\" fire department public directory",
+                                                       "\"Austin\" emergency management public directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "lawful_sporting_or_firearms_organizations",
+                                "search_queries":  [
+                                                       "\"Austin\" lawful sporting club",
+                                                       "\"Austin\" shooting sports organization",
+                                                       "\"Austin\" firearms training organization public"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "charity_nonprofit_groups",
+                                "search_queries":  [
+                                                       "\"Austin\" nonprofit organizations",
+                                                       "\"Austin\" charities",
+                                                       "\"Austin\" community nonprofit"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_influencer_or_creator_media",
+                                "search_queries":  [
+                                                       "\"Austin\" local creators",
+                                                       "\"Austin\" local podcast",
+                                                       "\"Austin\" community media"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "regional_geospatial_anchors",
+                                "search_queries":  [
+                                                       "\"Austin\" landmarks",
+                                                       "\"Austin\" districts",
+                                                       "\"Austin\" transportation hubs"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            }
+                        ],
+    "controls":  {
+                     "no_entity_promotion":  true,
+                     "no_contact_enablement":  true,
+                     "no_placeholder_targets":  true,
+                     "verified_source_required":  true,
+                     "manual_review_required":  true
+                 },
+    "status":  "SOURCE_DISCOVERY_QUEUE_READY"
+}

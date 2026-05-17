@@ -1,0 +1,47 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:29.442Z",
+  "layer_id": "L02",
+  "connector_id": "L02_WA_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "WA",
+  "state_name": "Washington",
+  "source_type": "STATE_GRANTS",
+  "canonical_url": "https://www.commerce.wa.gov/serving-communities/grants-loans/",
+  "status": "FETCH_EMPTY_OR_FAILED",
+  "response": {
+    "ok": false,
+    "status": 404,
+    "html_length": 69613,
+    "extracted_links": [
+      {
+        "href": "https://www.commerce.wa.gov/programs/",
+        "label": "Programs"
+      },
+      {
+        "href": "https://www.commerce.wa.gov/contracting/",
+        "label": "Funding"
+      },
+      {
+        "href": "https://www.commerce.wa.gov/programs/",
+        "label": "Programs"
+      },
+      {
+        "href": "https://www.commerce.wa.gov/contracting/",
+        "label": "Funding"
+      },
+      {
+        "href": "https://www.commerce.wa.gov/programs-divisions/",
+        "label": "Programs & Divisions"
+      },
+      {
+        "href": "https://www.commerce.wa.gov/programs/",
+        "label": "Programs"
+      },
+      {
+        "href": "https://www.commerce.wa.gov/contracting/",
+        "label": "Funding"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "23307f6dbf1de28ba97ebb07cf96aaef2c3b149d287bb28474d655707f808285"
+}

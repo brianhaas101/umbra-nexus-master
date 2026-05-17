@@ -1,0 +1,38 @@
+{
+  "version": "black_dragon_patch_046A_client_scope_normalization_v1",
+  "generated_at": "2026-05-09T18:54:06.776Z",
+  "report": [
+    {
+      "file": "public/data/clients/black_dragon/books/operational/black_dragon_books_operational_targets.v1.json",
+      "normalized_records": 23
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json",
+      "normalized_records": 1866
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/adaptive_priority/adaptive_priority_index.v1.json",
+      "normalized_records": 1334
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/kpi/book_operational_kpis.v1.json",
+      "normalized_records": 1334
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/map/layers/book_propagation_map_layer.v1.json",
+      "normalized_records": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/map/runtime/book_citymap_nodes.v1.json",
+      "normalized_records": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/map/clusters/book_regional_influence_clusters.v1.json",
+      "normalized_records": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/map/paths/book_propagation_paths.v1.json",
+      "normalized_records": 0
+    }
+  ]
+}

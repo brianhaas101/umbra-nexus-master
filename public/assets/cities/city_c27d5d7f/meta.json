@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_c27d5d7f",
+    "name":  "San Antonio, TX",
+    "center_lat":  29.4241,
+    "center_lon":  -98.4936,
+    "bounds":  {
+                   "north":  29.7069,
+                   "south":  29.1642,
+                   "east":  -98.2083,
+                   "west":  -98.7788
+               },
+    "width_m":  55000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_c27d5d7f/base.png"
+}

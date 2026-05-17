@@ -1,0 +1,23 @@
+{
+  "version": "black_dragon_batch_145_city_two_comparison_audit_v1",
+  "generated_at": "2026-05-10T21:44:28.761Z",
+  "batch": "145_CITY_TWO_COMPARISON_AND_NEXT_CITY_SELECTION",
+  "counts": {
+    "cities_operational": 2,
+    "combined_runtime_entities": 78,
+    "combined_graph_edges": 557,
+    "combined_propagation_paths": 25,
+    "combined_contact_ready_or_candidate_routes": 19,
+    "cross_city_overlap_entities": 2
+  },
+  "gates": {
+    "two_cities_operational": true,
+    "combined_runtime_entities_exist": true,
+    "combined_graph_edges_exist": true,
+    "combined_propagation_paths_exist": true,
+    "next_city_selected": true,
+    "hardlocks_inherited": true
+  },
+  "next_phase": "BATCH_146_SAN_DIEGO_TEMPLATE_ALIGNMENT",
+  "status": "PASS"
+}

@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-05-12T04:48:26.3211755Z",
+  "canonical_city_count": 116,
+  "cities_with_assets": 54,
+  "cities_without_assets": 62,
+  "tile_asset_cities": 1,
+  "dossier_asset_cities": 16,
+  "node_asset_cities": 17,
+  "boundary_asset_cities": 0,
+  "gate_status": "asset_recovery_possible"
+}

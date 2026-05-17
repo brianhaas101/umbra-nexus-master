@@ -1,0 +1,38 @@
+{
+  "version": "black_dragon_distribution_normalization_schema_v1_batch_074",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "required_fields": [
+    "organization_name",
+    "organization_type",
+    "entity_class",
+    "region",
+    "country"
+  ],
+
+  "optional_fields": [
+    "dealer_group",
+    "shop_type",
+    "brand_affiliation",
+    "event_calendar_url",
+    "website",
+    "contact_email",
+    "contact_phone",
+    "public_contact_form",
+    "showroom_capacity",
+    "waiting_area_present",
+    "distribution_fit",
+    "regional_influence_score"
+  ],
+
+  "classification_rules": {
+    "HARLEY": "HARLEY_DAVIDSON_DEALERSHIP",
+    "INDIAN": "INDIAN_MOTORCYCLE_DEALERSHIP",
+    "INDEPENDENT": "INDEPENDENT_MOTORCYCLE_DEALERSHIP",
+    "CUSTOM": "CUSTOM_MOTORCYCLE_SHOP",
+    "PERFORMANCE": "PERFORMANCE_BUILDER",
+    "PARTS": "PARTS_DISTRIBUTOR",
+    "APPAREL": "BIKER_APPAREL_STORE",
+    "RETAIL": "MOTORCYCLE_RETAIL_STORE"
+  }
+}

@@ -1,0 +1,65 @@
+﻿$ErrorActionPreference = "Stop"
+
+$BatchDir = ".\batches"
+$ConfigDir = ".\config\black_dragon"
+$LogDir = ".\logs\black_dragon\full_saturation"
+$DataDir = ".\data\clients\black_dragon\full_saturation"
+
+New-Item -ItemType Directory -Force $BatchDir,$ConfigDir,$LogDir,$DataDir | Out-Null
+
+$Manifest = [ordered]@{
+  benchmark = "Long Beach"
+  benchmark_role = "process_schema_parity_only_not_donor_data"
+  accuracy_contract = [ordered]@{
+    accepted_records_must_be_city_specific = $true
+    provenance_required_for_every_record = $true
+    official_or_city_local_source_required = $true
+    replay_required = $true
+    synthetic_fillers_allowed = $false
+    placeholder_entities_allowed = $false
+    copied_long_beach_data_allowed = $false
+    inferred_contacts_allowed = $false
+    cross_city_substitution_allowed = $false
+    missing_data_behavior = "gap_report_only"
+  }
+  required_layers = @(
+    "city_boundary",
+    "neighborhoods_or_districts",
+    "council_districts",
+    "police_beats_or_reporting_districts",
+    "fire_stations_or_service_areas",
+    "parcels_or_zoning",
+    "streets_or_transport_corridors",
+    "public_facilities",
+    "parks",
+    "schools",
+    "public_safety_incidents_or_calls",
+    "permits_or_code_enforcement",
+    "civic_governance",
+    "public_works_or_infrastructure"
+  )
+  required_entity_classes = @(
+    "agencies",
+    "departments",
+    "districts",
+    "facilities",
+    "civic_bodies",
+    "geographic_zones",
+    "infrastructure_nodes",
+    "operational_groups"
+  )
+  required_relationship_classes = @(
+    "agency_to_jurisdiction",
+    "facility_to_city",
+    "district_to_boundary",
+    "source_to_entity",
+    "geo_layer_to_entity",
+    "operational_area_to_public_source"
+  )
+}
+
+$ManifestPath = Join-Path $ConfigDir "long_beach_parity_manifest.json"
+$Manifest | ConvertTo-Json -Depth 20 | Set-Content -Encoding UTF8 $ManifestPath
+
+Write-Host "Created parity manifest:"
+Write-Host $ManifestPath

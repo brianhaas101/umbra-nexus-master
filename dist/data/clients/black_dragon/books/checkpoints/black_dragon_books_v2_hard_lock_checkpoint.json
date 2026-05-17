@@ -1,0 +1,65 @@
+{
+  "version": "black_dragon_books_v2_hard_lock_checkpoint_v1",
+  "checkpoint_id": "BLACK_DRAGON_BOOK_SALES_V2_HARD_LOCK",
+  "generated_at": "2026-05-09T02:19:52.683Z",
+  "pass": true,
+  "locked_scope": {
+    "client": "black_dragon",
+    "phase": "book_sales_v2",
+    "active_business_model": "motorcycle_club_influence_book_sales",
+    "expansion_allowed": false,
+    "course_sales_phase_frozen": true
+  },
+  "completed_capabilities": {
+    "mc_leader_identification": true,
+    "organization_type_normalization": true,
+    "public_target_intake_review": true,
+    "approved_target_integration": true,
+    "propagation_scoring": true,
+    "hot_warm_review_classification": true,
+    "book_outreach_generation": true,
+    "outreach_tracking": true,
+    "client_view_data": true,
+    "kpi_revenue_estimation": true,
+    "propagation_chain_tracking": true
+  },
+  "required_next_phase_after_lock": {
+    "next_phase": "client_ui_connection_or_real_target_population",
+    "blocked_until_pass_true": true
+  },
+  "audit_summary": {
+    "totals": {
+      "operational_targets": 4,
+      "hot_targets": 2,
+      "warm_targets": 0,
+      "review_targets": 2,
+      "outreach_messages": 4,
+      "hot_outreach_shortlist": 2,
+      "tracking_records": 4,
+      "client_view_targets": 4,
+      "kpi_targets": 4,
+      "propagation_chains": 4,
+      "propagation_snapshot_chains": 4
+    },
+    "integrity": {
+      "missing_operational_entity_ids": 0,
+      "missing_operational_status": 0,
+      "missing_propagation_scores": 0,
+      "missing_why_target": 0,
+      "missing_outreach_messages_for_targets": 0,
+      "missing_tracking_records_for_targets": 0,
+      "missing_client_view_records_for_targets": 0,
+      "missing_propagation_chains_for_targets": 0,
+      "orphan_messages": 0,
+      "invalid_client_ready": 0
+    },
+    "business_logic": {
+      "can_identify_influential_mc_leaders": true,
+      "can_explain_why_target_matters": true,
+      "can_generate_book_outreach": true,
+      "can_track_outreach_status": true,
+      "can_estimate_downstream_purchase_potential": true,
+      "can_track_propagation_chains": true
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "version": "nexus_L02_browser_adapter_manifest_v1",
+  "generated_at": "2026-05-09T01:44:19.841Z",
+  "layer_id": "L02",
+  "batch_id": "L02_BATCH_007",
+  "status": "REGISTERED",
+  "purpose": "Prepare safe browser-rendered recovery adapters for blocked L02 connectors.",
+  "safety_policy": {
+    "captcha_bypass": false,
+    "unauthorized_access": false,
+    "credential_leakage": false,
+    "rate_limit_abuse": false,
+    "fake_evidence_allowed": false
+  },
+  "required_runtime": {
+    "node": true,
+    "playwright_optional": true,
+    "puppeteer_optional": true
+  },
+  "targets": [
+    {
+      "connector_id": "L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "CA",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "TX",
+      "source_type": "STATE_ACADEMY",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_TX_L02_CLASS_005_STATE_ACADEMY",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "FL",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "AZ",
+      "source_type": "STATE_GRANTS",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_AZ_L02_CLASS_003_STATE_GRANTS",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "OH",
+      "source_type": "STATE_GRANTS",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_OH_L02_CLASS_003_STATE_GRANTS",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "OH",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_OH_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "NC",
+      "source_type": "STATE_GRANTS",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_NC_L02_CLASS_003_STATE_GRANTS",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NC",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_NC_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "WA",
+      "source_type": "STATE_GRANTS",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_WA_L02_CLASS_003_STATE_GRANTS",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "WA",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_RECOVERY_L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "SCAFFOLD_REGISTERED",
+      "execution_mode": "SAFE_BROWSER_RENDERED_FETCH",
+      "can_emit_operational_evidence": false,
+      "activation_requires": [
+        "browser_runtime_available",
+        "source_fetch_success",
+        "deterministic_snapshot_written",
+        "normalized_evidence_verified"
+      ]
+    }
+  ]
+}

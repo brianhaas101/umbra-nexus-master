@@ -1,0 +1,58 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:12.140Z",
+  "layer_id": "L02",
+  "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "OH",
+  "state_name": "Ohio",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://www.ohioattorneygeneral.gov",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 31423,
+    "extracted_links": [
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Individuals-and-Families/Consumers/Robocall",
+        "label": ""
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Individuals-and-Families/Consumers",
+        "label": "Consumers"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Individuals-and-Families/Victims/Task-Force-on-Criminal-Justice-and-Mental-Illness",
+        "label": "Task Force on Criminal Justice and Mental Illness"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement",
+        "label": "LAW ENFORCEMENT"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Law-Enforcement-Gateway",
+        "label": "Ohio Law Enforcement Gateway"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/About-AG/Service-Divisions/Organized-Crime-Investigations-Commission",
+        "label": "Ohio Organized Crime Investigations Commission"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Media/News-Releases",
+        "label": "News Releases"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Media/Newsletters",
+        "label": "Newsletters"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89"
+}

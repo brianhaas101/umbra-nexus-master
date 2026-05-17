@@ -1,0 +1,956 @@
+{
+  "created_utc": "2026-05-12T07:22:14.7341142Z",
+  "scanned_files": 147,
+  "blocker_hits": 237,
+  "gate": "fail_placeholders_detected",
+  "hits": [
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\full_saturation\\wave_20260511_212251_long_beach_parity_checklist.csv",
+      "pattern": "pending"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\full_saturation\\wave_20260511_213333_long_beach_parity_checklist.csv",
+      "pattern": "pending"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\full_saturation\\wave_20260511_213445_long_beach_parity_checklist.csv",
+      "pattern": "pending"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\full_saturation\\wave_20260511_220947_long_beach_parity_checklist.csv",
+      "pattern": "pending"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\full_saturation\\wave_20260511_232439_long_beach_parity_checklist.csv",
+      "pattern": "pending"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_01f3a5ed\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_01f3a5ed\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0a31d438\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0a31d438\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0a922e63\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0a922e63\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0b8ff86c\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0b8ff86c\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0c5b904d\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0c5b904d\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0d4f6d2f\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0d4f6d2f\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0e003b8d\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_0e003b8d\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1138b2d4\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1138b2d4\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_127606b4\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_127606b4\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_154a8fe9\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_154a8fe9\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_16a23f41\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_16a23f41\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_16f77904\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_16f77904\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_17fcb829\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_17fcb829\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_18d738e7\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_18d738e7\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1ae44e4f\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1ae44e4f\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1e4fcd97\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1e4fcd97\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1e856280\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1e856280\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1f98af58\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1f98af58\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1fd1b37f\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_1fd1b37f\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_20eb3715\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_20eb3715\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_254d227a\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_254d227a\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_29cb8e76\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_29cb8e76\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_29ef5eb4\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_29ef5eb4\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_2a5ba728\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_2a5ba728\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_328b326a\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_328b326a\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_350fa856\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_350fa856\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_39d61699\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_39d61699\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_3c08e197\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_3c08e197\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_3d50f2fd\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_3d50f2fd\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_3fad7905\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_3fad7905\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_3fbbe606\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_3fbbe606\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_400670ba\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_400670ba\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_46d49fea\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_46d49fea\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_46ea53ac\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_46ea53ac\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_47748120\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_47748120\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_47b59fac\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_47b59fac\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_49bcf5c9\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_49bcf5c9\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_4ada292b\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_4ada292b\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_4c180874\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_4c180874\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_4cbdb331\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_4cbdb331\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5090c3c6\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5090c3c6\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_53389926\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_53389926\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5abab5f6\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5abab5f6\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5c4c1c64\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5c4c1c64\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5cbb095a\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5cbb095a\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5e423e03\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5e423e03\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5fedc010\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_5fedc010\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_60b147f2\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_60b147f2\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_6509ecc5\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_6509ecc5\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_6536761e\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_6536761e\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_66635fc3\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_66635fc3\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_668d0bd6\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_668d0bd6\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_6cabf985\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_6cabf985\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_70207d8e\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_70207d8e\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_70af1d0e\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_70af1d0e\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_72c8b2f9\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_72c8b2f9\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_756cb4ea\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_756cb4ea\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_759cd460\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_759cd460\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_763449ef\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_763449ef\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_7662680f\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_7662680f\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_78ccf400\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_78ccf400\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_7d043dae\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_7d043dae\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_7e936870\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_7e936870\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_7eb25064\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_7eb25064\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_82649311\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_82649311\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_828fab47\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_828fab47\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_82e75d40\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_82e75d40\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_852df262\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_852df262\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_85e83faa\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_85e83faa\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_8635d5db\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_8635d5db\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_878f11ab\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_878f11ab\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_8e6f63cf\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_8e6f63cf\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_8f664c09\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_8f664c09\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_936b7d90\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_936b7d90\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_936f1437\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_936f1437\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_95b0c3ba\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_95b0c3ba\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_9814694d\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_9814694d\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_990961e3\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_990961e3\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_9b7d017c\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_9b7d017c\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_9ba60036\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_9ba60036\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_9e7d2fb8\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_9e7d2fb8\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_a2cbee70\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_a2cbee70\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_a324d561\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_a324d561\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_a7350aab\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_a7350aab\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_ab77b2a8\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_ab77b2a8\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_af6fd06c\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_af6fd06c\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b0c51a5d\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b0c51a5d\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b0cd67a6\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b0cd67a6\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b183167f\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b183167f\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b27a62e8\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b27a62e8\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b5ad2562\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b5ad2562\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b6773437\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b6773437\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b7aea338\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b7aea338\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b7ea02a9\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b7ea02a9\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b903b4d0\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_b903b4d0\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_bf66ad64\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_bf66ad64\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c084361b\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c084361b\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c1a02fde\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c1a02fde\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c27d5d7f\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c27d5d7f\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c2cf7437\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c2cf7437\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c4822ada\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c4822ada\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c79509a4\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c79509a4\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c94decbe\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_c94decbe\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_d2941d41\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_d2941d41\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_dd17b133\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_dd17b133\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_e1fe8704\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_e1fe8704\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_e9054367\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_e9054367\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_eedb043f\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_eedb043f\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_ef557a57\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_ef557a57\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_f03b8f57\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_f03b8f57\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_f48df4c8\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_f48df4c8\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_f7bb5b9c\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_f7bb5b9c\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_f8eaf382\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_f8eaf382\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_fa4dd02c\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_fa4dd02c\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_fc1b220f\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_fc1b220f\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_fd630896\\production_asset_manifest.json",
+      "pattern": "placeholder"
+    },
+    {
+      "file": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\production_runtime\\city_fd630896\\production_asset_manifest.json",
+      "pattern": "synthetic"
+    }
+  ]
+}

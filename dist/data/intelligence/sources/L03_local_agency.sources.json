@@ -1,0 +1,35 @@
+{
+  "version": "L03_local_agency_sources_v1",
+  "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+  "name": "Local Agency Intelligence",
+  "rule": "Local agency validation must come from official municipal, county, campus, tribal, or agency-owned pages.",
+  "status": "ACTIVE_FOR_BLACK_DRAGON",
+  "source_types": [
+    "official_police_department_page",
+    "official_sheriff_office_page",
+    "official_campus_police_page",
+    "official_public_safety_page",
+    "official_city_or_county_directory"
+  ],
+  "accepted_agency_types": [
+    "Police Department",
+    "Sheriff Office",
+    "Campus Police",
+    "Tribal Police",
+    "Public Safety Department"
+  ],
+  "forbidden_final_targets": [
+    "courts",
+    "prosecutors",
+    "clerks",
+    "generic city pages with no agency confirmation",
+    "third-party-only directory records"
+  ],
+  "outputs": [
+    "agency identity",
+    "agency type",
+    "city/state jurisdiction",
+    "official contact route",
+    "local source trace"
+  ]
+}

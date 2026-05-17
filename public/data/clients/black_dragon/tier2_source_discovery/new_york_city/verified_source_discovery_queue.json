@@ -1,0 +1,305 @@
+{
+    "version":  "black_dragon_new_york_city_wave2_verified_source_discovery_queue_v1",
+    "generated_at":  "2026-05-11T05:09:49.2776713Z",
+    "wave_id":  "tier2_wave_2",
+    "city":  "New York City",
+    "folder":  "new_york_city",
+    "state":  "New York",
+    "state_code":  "NY",
+    "city_id":  "city_new_york_city_ny",
+    "category_queues":  [
+                            {
+                                "category":  "motorcycle_dealerships",
+                                "search_queries":  [
+                                                       "\"New York City\" motorcycle dealership",
+                                                       "\"New York City\" Harley-Davidson dealer",
+                                                       "\"New York City\" motorcycle sales"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "motorcycle_repair_and_parts",
+                                "search_queries":  [
+                                                       "\"New York City\" motorcycle repair",
+                                                       "\"New York City\" motorcycle parts",
+                                                       "\"New York City\" motorcycle accessories"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "riding_clubs",
+                                "search_queries":  [
+                                                       "\"New York City\" motorcycle riding club",
+                                                       "\"New York City\" riders association",
+                                                       "\"New York City\" motorcycle group"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "rider_training_schools",
+                                "search_queries":  [
+                                                       "\"New York City\" motorcycle safety course",
+                                                       "\"New York City\" rider training",
+                                                       "\"New York City\" motorcycle training school"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "community_groups",
+                                "search_queries":  [
+                                                       "\"New York City\" community organizations",
+                                                       "\"New York City\" local community groups",
+                                                       "\"New York City\" neighborhood associations"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "event_venues",
+                                "search_queries":  [
+                                                       "\"New York City\" event venues",
+                                                       "\"New York City\" motorcycle events",
+                                                       "\"New York City\" community event venue"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "educational_institutes",
+                                "search_queries":  [
+                                                       "\"New York City\" colleges",
+                                                       "\"New York City\" technical schools",
+                                                       "\"New York City\" adult education"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_media_groups",
+                                "search_queries":  [
+                                                       "\"New York City\" local newspaper",
+                                                       "\"New York City\" local radio station",
+                                                       "\"New York City\" local media outlet"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "business_associations",
+                                "search_queries":  [
+                                                       "\"New York City\" chamber of commerce",
+                                                       "\"New York City\" business association",
+                                                       "\"New York City\" small business network"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "civic_organizations",
+                                "search_queries":  [
+                                                       "\"New York City\" civic organizations",
+                                                       "\"New York City\" public agencies directory",
+                                                       "\"New York City\" city services directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "public_safety_public_directories",
+                                "search_queries":  [
+                                                       "\"New York City\" police department public directory",
+                                                       "\"New York City\" fire department public directory",
+                                                       "\"New York City\" emergency management public directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "lawful_sporting_or_firearms_organizations",
+                                "search_queries":  [
+                                                       "\"New York City\" lawful sporting club",
+                                                       "\"New York City\" shooting sports organization",
+                                                       "\"New York City\" firearms training organization public"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "charity_nonprofit_groups",
+                                "search_queries":  [
+                                                       "\"New York City\" nonprofit organizations",
+                                                       "\"New York City\" charities",
+                                                       "\"New York City\" community nonprofit"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_influencer_or_creator_media",
+                                "search_queries":  [
+                                                       "\"New York City\" local creators",
+                                                       "\"New York City\" local podcast",
+                                                       "\"New York City\" community media"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "regional_geospatial_anchors",
+                                "search_queries":  [
+                                                       "\"New York City\" landmarks",
+                                                       "\"New York City\" districts",
+                                                       "\"New York City\" transportation hubs"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            }
+                        ],
+    "controls":  {
+                     "no_entity_promotion":  true,
+                     "no_contact_enablement":  true,
+                     "no_placeholder_targets":  true,
+                     "verified_source_required":  true,
+                     "manual_review_required":  true
+                 },
+    "status":  "SOURCE_DISCOVERY_QUEUE_READY"
+}

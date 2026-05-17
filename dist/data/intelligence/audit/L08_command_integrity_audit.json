@@ -1,0 +1,8 @@
+{
+  "version": "nexus_L08_command_integrity_audit_v1",
+  "generated_at": "2026-05-06T04:28:39.087Z",
+  "status": "PASS",
+  "required_files": 4,
+  "missing_files": 0,
+  "missing": []
+}

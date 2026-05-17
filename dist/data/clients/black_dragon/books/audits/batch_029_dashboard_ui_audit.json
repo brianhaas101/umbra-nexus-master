@@ -1,0 +1,63 @@
+{
+  "version": "black_dragon_books_batch_029_dashboard_ui_audit_v1",
+  "generated_at": "2026-05-09T03:27:38.122Z",
+  "file_checks": [
+    {
+      "key": "renderer",
+      "file": "public/globe/clients/black_dragon/books/client_dashboard_renderer.js",
+      "exists": true
+    },
+    {
+      "key": "manifest",
+      "file": "public/data/clients/black_dragon/books/dashboard/dashboard_ui_manifest.v1.json",
+      "exists": true
+    },
+    {
+      "key": "injectionReport",
+      "file": "public/data/clients/black_dragon/books/dashboard/dashboard_renderer_injection_report.v1.json",
+      "exists": true
+    },
+    {
+      "key": "dashboardData",
+      "file": "public/data/clients/black_dragon/books/dashboard/client_operator_dashboard.v1.json",
+      "exists": true
+    },
+    {
+      "key": "widgetsData",
+      "file": "public/data/clients/black_dragon/books/dashboard/widgets/client_dashboard_widgets.v1.json",
+      "exists": true
+    },
+    {
+      "key": "queueData",
+      "file": "public/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json",
+      "exists": true
+    }
+  ],
+  "renderer_integrity": {
+    "defines_global": true,
+    "has_load": true,
+    "has_render": true,
+    "has_debug_state": true,
+    "uses_frontend_security": true,
+    "uses_dataset_security": true,
+    "marks_black_dragon_panel": true,
+    "marks_outreach_queue": true
+  },
+  "manifest_integrity": {
+    "required_script_declared": true,
+    "required_global_declared": true,
+    "functions_declared": true,
+    "data_sources_declared": true
+  },
+  "injection_integrity": {
+    "entrypoints_checked": true,
+    "all_checked_have_renderer": true
+  },
+  "data_integrity": {
+    "dashboard_client_black_dragon": true,
+    "widgets_available": true,
+    "queue_available": true,
+    "top_actions_available": true
+  },
+  "pass": true
+}

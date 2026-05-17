@@ -1,0 +1,25 @@
+{
+  "version": "black_dragon_books_response_feedback_snapshot_v1",
+  "generated_at": "2026-05-09T02:46:09.042Z",
+  "totals": {
+    "raw_responses": 1,
+    "classified_responses": 1,
+    "unmatched_queue_items": 1,
+    "engagement": 1,
+    "interest": 0,
+    "endorsement": 0,
+    "bulk_order": 0,
+    "conversion": 0,
+    "negative_fit": 0,
+    "no_response": 0
+  },
+  "high_confidence_feedback": [],
+  "followups_required": [
+    {
+      "entity_id": "PASTE_ENTITY_ID_HERE",
+      "organization_name": "PASTE_ORGANIZATION_NAME_HERE",
+      "response_status": "RESPONDED",
+      "next_action": "QUALIFY_INTEREST"
+    }
+  ]
+}

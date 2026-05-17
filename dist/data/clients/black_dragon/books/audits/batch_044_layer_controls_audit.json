@@ -1,0 +1,26 @@
+{
+  "version": "black_dragon_books_batch_044_layer_controls_audit_v1",
+  "generated_at": "2026-05-09T18:33:24.573Z",
+  "controls_integrity": {
+    "controls_exist": true,
+    "client_scope_black_dragon": true,
+    "has_three_layers": true,
+    "has_targets_layer": true,
+    "has_clusters_layer": true,
+    "has_paths_layer": true
+  },
+  "renderer_integrity": {
+    "renderer_global": true,
+    "has_load": true,
+    "has_render": true,
+    "has_set_layer_visible": true,
+    "uses_local_storage": true,
+    "uses_renderer_groups": true,
+    "has_debug_state": true
+  },
+  "injection_integrity": {
+    "entrypoints_checked": true,
+    "injected_everywhere": true
+  },
+  "pass": true
+}

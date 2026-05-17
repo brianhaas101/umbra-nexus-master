@@ -1,0 +1,128 @@
+{
+  "version": "black_dragon_tucson_contact_route_review_v1",
+  "generated_at": "2026-05-11T00:12:45.295Z",
+  "review_count": 10,
+  "contact_ready_candidates": 7,
+  "contact_review": [
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00001",
+      "organization_name": "Harley-Davidson of Tucson",
+      "city_rank": 1,
+      "route_validation_status": "ERROR",
+      "public_contact_url": "https://www.hdtucson.com/",
+      "contact_ready_candidate": false,
+      "manual_contact_possible_after_review": false,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00004",
+      "organization_name": "Law Tigers Arizona",
+      "city_rank": 2,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://lawtigers.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00008",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "city_rank": 3,
+      "route_validation_status": "ERROR",
+      "public_contact_url": "https://www.vma-usa.org/",
+      "contact_ready_candidate": false,
+      "manual_contact_possible_after_review": false,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00002",
+      "organization_name": "Tucson Harley Owners Group",
+      "city_rank": 4,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://www.harley-davidson.com/us/en/content/hog.html",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00005",
+      "organization_name": "ABATE of Arizona",
+      "city_rank": 5,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://abateofaz.org/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00007",
+      "organization_name": "Tucson Bike Night Network",
+      "city_rank": 6,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://www.eventbrite.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00010",
+      "organization_name": "Tucson Custom Motorcycle Culture",
+      "city_rank": 7,
+      "route_validation_status": "REVIEW_REQUIRED",
+      "public_contact_url": "https://www.facebook.com/search/top?q=tucson%20motorcycle",
+      "contact_ready_candidate": false,
+      "manual_contact_possible_after_review": false,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00003",
+      "organization_name": "Cycle Gear Tucson",
+      "city_rank": 8,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://www.cyclegear.com/stores",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00006",
+      "organization_name": "Tucson Motorcycle Riders Network",
+      "city_rank": 9,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://www.meetup.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00009",
+      "organization_name": "Tucson Charity Ride Network",
+      "city_rank": 10,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://www.eventbrite.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

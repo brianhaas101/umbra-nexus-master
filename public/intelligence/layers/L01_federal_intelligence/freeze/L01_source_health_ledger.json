@@ -1,0 +1,13 @@
+﻿{
+  "ledger_id": "L01_source_health_ledger",
+  "version": "1.0.0",
+  "policy": {
+    "append_only": true,
+    "records_status_code": true,
+    "records_failure_reason": true,
+    "records_last_success": true,
+    "records_last_failure": true,
+    "client_paths_touched": false
+  },
+  "entries": []
+}

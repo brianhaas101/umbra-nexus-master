@@ -1,0 +1,112 @@
+{
+  "version": "nexus_L01_historical_replay_plan_v1",
+  "generated_at": "2026-05-09T00:18:09.004Z",
+  "layer_id": "L01",
+  "plans": [
+    {
+      "source_id": "L01_SRC_001_USA_SPENDING",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_001_USA_SPENDING",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_002_SAM_GOV",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_003_GRANTS_GOV",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_003_GRANTS_GOV",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_006_FBI_PUBLIC_DATA",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_006_FBI_PUBLIC_DATA",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_009_FEDERAL_REGISTER",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_011_COPS_OFFICE_PROGRAMS",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_011_COPS_OFFICE_PROGRAMS",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_012_FEDERAL_ADVISORY_REFERENCES",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_012_FEDERAL_ADVISORY_REFERENCES",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_013_FEDERAL_TRAINING_CENTERS",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_013_FEDERAL_TRAINING_CENTERS",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_014_TREASURY_CRIME_DATA",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_014_TREASURY_CRIME_DATA",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    },
+    {
+      "source_id": "L01_SRC_015_CONGRESSIONAL_BUDGET_RELEASES",
+      "replay_store": "public/data/intelligence/replay/L01/L01_SRC_015_CONGRESSIONAL_BUDGET_RELEASES",
+      "raw_snapshot_hash_required": true,
+      "normalized_snapshot_hash_required": true,
+      "replay_status": "REGISTERED"
+    }
+  ]
+}

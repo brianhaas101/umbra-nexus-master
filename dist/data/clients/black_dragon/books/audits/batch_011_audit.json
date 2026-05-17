@@ -1,0 +1,25 @@
+{
+  "version": "black_dragon_books_batch_011_audit_v1",
+  "generated_at": "2026-05-09T02:17:38.966Z",
+  "totals": {
+    "chains": 4,
+    "snapshot_total": 4
+  },
+  "integrity": {
+    "missing_chain_ids": 0,
+    "missing_source_entity_ids": 0,
+    "missing_source_orgs": 0,
+    "invalid_chain_statuses": 0,
+    "missing_events_array": 0,
+    "missing_downstream_orgs_array": 0,
+    "invalid_downstream_orders": 0,
+    "invalid_downstream_revenue": 0
+  },
+  "operational_state": {
+    "chain_model_exists": true,
+    "chain_dataset_exists": true,
+    "snapshot_exists": true,
+    "propagation_chain_tracking_active": true
+  },
+  "pass": true
+}

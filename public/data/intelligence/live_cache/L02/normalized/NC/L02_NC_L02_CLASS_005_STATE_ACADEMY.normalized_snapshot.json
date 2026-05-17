@@ -1,0 +1,296 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:25.346Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+  "state_abbr": "NC",
+  "source_type": "STATE_ACADEMY",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Law Enforcement Training",
+        "href": "https://ncdoj.gov/law-enforcement-training/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Law Enforcement Training &amp; Standards",
+        "href": "https://ncdoj.gov/law-enforcement-training/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Criminal Justice Education &#038; Training Standards",
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Staff Directory",
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/contact/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Forms &amp; Publications",
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/forms-and-publications/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Officer Certification Programs",
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/officer-certification-programs/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Training Evaluations for Out of State, Military, and Federal Law Enforcement Transfers",
+        "href": "https://ncdoj.gov/training-evaluations-for-out-of-state-military-and-federal-law-enforcement-transfers/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Training Certification Programs",
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/training-certification-programs/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Professional Certificate Program",
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/professional-certificate-program/",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://ncdoj.gov/law-enforcement-training/",
+        "raw_snapshot_hash": "64a99fd32ba4dbca0cb747cba4e11adb6abf8a4b145df94d35cf43cc8e42dfd2",
+        "parser_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Investigations",
+        "href": "https://ncdoj.gov/law-enforcement-training/criminal-justice/investigations/",
+        "record_type": "state_academy_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_001",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_002",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_003",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_004",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_005",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_006",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_007",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_008",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_009",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SIGNAL_010",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_001",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_002",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_003",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_004",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_005",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_006",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_007",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_008",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_009",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY_SCORE_010",
+      "score_delta": 8,
+      "confidence": 0.89
+    }
+  ],
+  "normalized_snapshot_hash": "6034e9b740f333df7f2e96c43e5d5ba4284f4414e321858bc3815cfd6d0feb8d"
+}

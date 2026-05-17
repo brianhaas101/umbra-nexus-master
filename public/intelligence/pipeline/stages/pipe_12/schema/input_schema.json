@@ -1,0 +1,28 @@
+﻿{
+    "schema_id":  "layer_12_input_schema",
+    "required":  [
+                     "record_id",
+                     "entity_key",
+                     "city_key",
+                     "layers"
+                 ],
+    "required_layers":  [
+                            "layer_01",
+                            "layer_02",
+                            "layer_03",
+                            "layer_04",
+                            "layer_05",
+                            "layer_06",
+                            "layer_07",
+                            "layer_08",
+                            "layer_09",
+                            "layer_10",
+                            "layer_11"
+                        ],
+    "rejected":  [
+                     "runtime_promotion",
+                     "manual_convergence_override",
+                     "black_dragon_runtime_reference",
+                     "synthetic_replay_hash"
+                 ]
+}

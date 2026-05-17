@@ -1,0 +1,254 @@
+{
+  "version": "black_dragon_books_client_dashboard_widgets_v1",
+  "generated_at": "2026-05-09T18:41:51.736Z",
+  "widgets": [
+    {
+      "widget_id": "BD_WIDGET_TARGET_TOTALS",
+      "title": "Operational Targets",
+      "type": "metric_card",
+      "value": 1334,
+      "client_visible": true
+    },
+    {
+      "widget_id": "BD_WIDGET_OUTREACH_READY",
+      "title": "Outreach Ready",
+      "type": "metric_card",
+      "value": 532,
+      "client_visible": true
+    },
+    {
+      "widget_id": "BD_WIDGET_CONTACT_ENRICHMENT",
+      "title": "Needs Contact Enrichment",
+      "type": "metric_card",
+      "value": 802,
+      "client_visible": true
+    },
+    {
+      "widget_id": "BD_WIDGET_PROJECTED_REVENUE",
+      "title": "Projected Revenue",
+      "type": "metric_card",
+      "value": 0,
+      "client_visible": true
+    },
+    {
+      "widget_id": "BD_WIDGET_PRIORITY_SUMMARY",
+      "title": "Priority Summary",
+      "type": "summary_panel",
+      "value": {
+        "critical": 2,
+        "high": 27,
+        "medium": 510,
+        "low": 795,
+        "none": 0
+      },
+      "client_visible": true
+    },
+    {
+      "widget_id": "BD_WIDGET_RESPONSE_SUMMARY",
+      "title": "Response Summary",
+      "type": "summary_panel",
+      "value": {
+        "engagement": 0,
+        "interest": 0,
+        "endorsement": 0,
+        "bulk_order": 0,
+        "conversion": 0,
+        "negative_fit": 0,
+        "no_response": 0
+      },
+      "client_visible": true
+    },
+    {
+      "widget_id": "BD_WIDGET_TOP_ACTIONS",
+      "title": "Top Operational Actions",
+      "type": "action_list",
+      "value": [
+        {
+          "queue_id": "BD_BOOK_QUEUE_00002",
+          "entity_id": "BD_BOOK_NORM_0002",
+          "organization_name": "Sample Motorcycle Council",
+          "target_name": "UNKNOWN_LEADER",
+          "leader_role": "CHAIRMAN",
+          "organization_type": "COUNCIL",
+          "region": "Ontario",
+          "queue_status": "NEEDS_CONTACT_ENRICHMENT",
+          "unified_priority_score": 100,
+          "unified_priority_tier": "CRITICAL",
+          "recommended_action": "IMMEDIATE_OUTREACH",
+          "best_contact_route": null,
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00001",
+          "entity_id": "BD_BOOK_NORM_0001",
+          "organization_name": "Sample Motorcycle Club",
+          "target_name": "UNKNOWN_LEADER",
+          "leader_role": "PRESIDENT",
+          "organization_type": "RIDING_CLUB",
+          "region": "Georgia",
+          "queue_status": "NEEDS_CONTACT_ENRICHMENT",
+          "unified_priority_score": 92,
+          "unified_priority_tier": "CRITICAL",
+          "recommended_action": "IMMEDIATE_OUTREACH",
+          "best_contact_route": null,
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00024",
+          "entity_id": "BD_BOOK_EXP_00001",
+          "organization_name": "Eugene Police Department",
+          "target_name": "Eugene Police Department",
+          "leader_role": "UNKNOWN_LEADER",
+          "organization_type": "MOTORCYCLE_ORGANIZATION",
+          "region": "OR",
+          "queue_status": "READY",
+          "unified_priority_score": 73,
+          "unified_priority_tier": "HIGH",
+          "recommended_action": "REVIEW_AND_ENRICH",
+          "best_contact_route": {
+            "contact_type": "PUBLIC_SOURCE_URL",
+            "value": "https://www.eugene-or.gov/539/Contacts-and-Services"
+          },
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00025",
+          "entity_id": "BD_BOOK_EXP_00002",
+          "organization_name": "Lane County Sheriff's Office",
+          "target_name": "Lane County Sheriff's Office",
+          "leader_role": "UNKNOWN_LEADER",
+          "organization_type": "MOTORCYCLE_ORGANIZATION",
+          "region": "OR",
+          "queue_status": "READY",
+          "unified_priority_score": 73,
+          "unified_priority_tier": "HIGH",
+          "recommended_action": "REVIEW_AND_ENRICH",
+          "best_contact_route": {
+            "contact_type": "PUBLIC_SOURCE_URL",
+            "value": "https://www.lanecountyor.gov/government/county_departments/sheriff_s_office/frequently_asked_questions_and_answers"
+          },
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00026",
+          "entity_id": "BD_BOOK_EXP_00003",
+          "organization_name": "Portland Police Bureau",
+          "target_name": "Portland Police Bureau",
+          "leader_role": "UNKNOWN_LEADER",
+          "organization_type": "MOTORCYCLE_ORGANIZATION",
+          "region": "OR",
+          "queue_status": "READY",
+          "unified_priority_score": 73,
+          "unified_priority_tier": "HIGH",
+          "recommended_action": "REVIEW_AND_ENRICH",
+          "best_contact_route": {
+            "contact_type": "PUBLIC_SOURCE_URL",
+            "value": "https://www.portland.gov/police"
+          },
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00027",
+          "entity_id": "BD_BOOK_EXP_00004",
+          "organization_name": "Multnomah County Sheriff's Office",
+          "target_name": "Multnomah County Sheriff's Office",
+          "leader_role": "UNKNOWN_LEADER",
+          "organization_type": "MOTORCYCLE_ORGANIZATION",
+          "region": "OR",
+          "queue_status": "READY",
+          "unified_priority_score": 73,
+          "unified_priority_tier": "HIGH",
+          "recommended_action": "REVIEW_AND_ENRICH",
+          "best_contact_route": {
+            "contact_type": "PUBLIC_SOURCE_URL",
+            "value": "https://www.mcso.us/contact-us"
+          },
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00028",
+          "entity_id": "BD_BOOK_EXP_00005",
+          "organization_name": "Seattle Police Department",
+          "target_name": "Seattle Police Department",
+          "leader_role": "UNKNOWN_LEADER",
+          "organization_type": "MOTORCYCLE_ORGANIZATION",
+          "region": "WA",
+          "queue_status": "READY",
+          "unified_priority_score": 73,
+          "unified_priority_tier": "HIGH",
+          "recommended_action": "REVIEW_AND_ENRICH",
+          "best_contact_route": {
+            "contact_type": "PUBLIC_SOURCE_URL",
+            "value": "https://www.seattle.gov/police/about-us/contact-us"
+          },
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00029",
+          "entity_id": "BD_BOOK_EXP_00006",
+          "organization_name": "King County Sheriff's Office",
+          "target_name": "King County Sheriff's Office",
+          "leader_role": "UNKNOWN_LEADER",
+          "organization_type": "MOTORCYCLE_ORGANIZATION",
+          "region": "WA",
+          "queue_status": "READY",
+          "unified_priority_score": 73,
+          "unified_priority_tier": "HIGH",
+          "recommended_action": "REVIEW_AND_ENRICH",
+          "best_contact_route": {
+            "contact_type": "PUBLIC_SOURCE_URL",
+            "value": "https://kingcounty.gov/en/dept/sheriff/about-king-county/about-sheriff-office/about-kcso/contact"
+          },
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00030",
+          "entity_id": "BD_BOOK_EXP_00007",
+          "organization_name": "Los Angeles Police Department",
+          "target_name": "Los Angeles Police Department",
+          "leader_role": "UNKNOWN_LEADER",
+          "organization_type": "MOTORCYCLE_ORGANIZATION",
+          "region": "CA",
+          "queue_status": "READY",
+          "unified_priority_score": 73,
+          "unified_priority_tier": "HIGH",
+          "recommended_action": "REVIEW_AND_ENRICH",
+          "best_contact_route": {
+            "contact_type": "PUBLIC_SOURCE_URL",
+            "value": "https://www.lapdonline.org/contact-us/"
+          },
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        },
+        {
+          "queue_id": "BD_BOOK_QUEUE_00031",
+          "entity_id": "BD_BOOK_EXP_00008",
+          "organization_name": "Los Angeles County Sheriff's Department",
+          "target_name": "Los Angeles County Sheriff's Department",
+          "leader_role": "UNKNOWN_LEADER",
+          "organization_type": "MOTORCYCLE_ORGANIZATION",
+          "region": "CA",
+          "queue_status": "READY",
+          "unified_priority_score": 73,
+          "unified_priority_tier": "HIGH",
+          "recommended_action": "REVIEW_AND_ENRICH",
+          "best_contact_route": {
+            "contact_type": "PUBLIC_SOURCE_URL",
+            "value": "https://lasd.org/contact-us/"
+          },
+          "message_subject": "Motorcycle Leadership Resource",
+          "message_body": "Hello � I wanted to share a motorcycle leadership and culture resource that may be relevant for your organization. If there is a better contact for this, please let me know."
+        }
+      ],
+      "client_visible": true
+    }
+  ]
+}

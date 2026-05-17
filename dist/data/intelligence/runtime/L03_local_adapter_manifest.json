@@ -1,0 +1,32 @@
+﻿{
+  "version": "nexus_L03_local_adapter_manifest_v1",
+  "generated_at": "2026-05-07T00:00:00.000Z",
+  "layer_id": "L03",
+  "adapters": [
+    {
+      "adapter_id": "COUNTY_SHERIFF_ADAPTER",
+      "input_type": "LOCAL_WEB_HTML_API",
+      "normalization_registry": "L03_local_normalization.registry.json"
+    },
+    {
+      "adapter_id": "MUNICIPAL_POLICE_ADAPTER",
+      "input_type": "LOCAL_WEB_HTML_API",
+      "normalization_registry": "L03_local_normalization.registry.json"
+    },
+    {
+      "adapter_id": "LOCAL_PROCUREMENT_ADAPTER",
+      "input_type": "LOCAL_PROCUREMENT_API_HTML",
+      "normalization_registry": "L03_local_normalization.registry.json"
+    },
+    {
+      "adapter_id": "LOCAL_BUDGET_ADAPTER",
+      "input_type": "PDF_HTML_CSV",
+      "normalization_registry": "L03_local_normalization.registry.json"
+    },
+    {
+      "adapter_id": "LOCAL_TRAINING_ADAPTER",
+      "input_type": "HTML_RSS_PDF",
+      "normalization_registry": "L03_local_normalization.registry.json"
+    }
+  ]
+}

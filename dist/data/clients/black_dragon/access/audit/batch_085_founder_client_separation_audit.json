@@ -1,0 +1,34 @@
+{
+  "version": "umbra_batch_085_founder_client_separation_audit_v1",
+  "generated_at": "2026-05-10T02:14:27.017Z",
+  "client_profile_integrity": {
+    "client_id_locked": true,
+    "client_only_scope": true,
+    "cross_client_read_blocked": true,
+    "cross_client_write_blocked": true,
+    "founder_override_blocked": true,
+    "founder_admin_blocked": true,
+    "client_switcher_blocked": true,
+    "fake_contacts_blocked": true,
+    "unverified_outreach_blocked": true
+  },
+  "founder_profile_integrity": {
+    "founder_id": true,
+    "founder_override_allowed": true,
+    "cross_client_read_allowed": true,
+    "cross_client_write_allowed": true
+  },
+  "runtime_integrity": {
+    "global_present": true,
+    "can_present": true,
+    "can_view_present": true,
+    "client_scope_present": true,
+    "switch_guard_present": true,
+    "debug_present": true
+  },
+  "injection_integrity": {
+    "entrypoints_checked": true,
+    "injected_everywhere": true
+  },
+  "pass": true
+}

@@ -1,0 +1,73 @@
+{
+  "version": "nexus_L01_live_batch_002_audit_v1",
+  "generated_at": "2026-05-08T01:44:04.348Z",
+  "layer_id": "L01",
+  "batch_id": "L01_LIVE_BATCH_002",
+  "status": "PASS",
+  "failures": [],
+  "gates": {
+    "manifest_5_connectors": true,
+    "fetch_adapters_5": true,
+    "execution_ledger_5": true,
+    "raw_snapshots_present": true,
+    "normalized_snapshots_present": true,
+    "state_files_present": true,
+    "lineage_complete": true,
+    "execution_states_valid": true
+  },
+  "counts": {
+    "manifest_connectors": 5,
+    "adapters": 5,
+    "executions": 5,
+    "raw_snapshots": 5,
+    "normalized_snapshots": 5,
+    "state_files": 5
+  },
+  "source_report": [
+    {
+      "source_id": "L01_SRC_001_USA_SPENDING",
+      "raw_snapshot": true,
+      "normalized_snapshot": true,
+      "state_file": true,
+      "lineage_complete": true,
+      "deterministic_replay_ready": true,
+      "status": "READY_FOR_FETCH_ADAPTER"
+    },
+    {
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "raw_snapshot": true,
+      "normalized_snapshot": true,
+      "state_file": true,
+      "lineage_complete": true,
+      "deterministic_replay_ready": true,
+      "status": "READY_FOR_FETCH_ADAPTER"
+    },
+    {
+      "source_id": "L01_SRC_003_GRANTS_GOV",
+      "raw_snapshot": true,
+      "normalized_snapshot": true,
+      "state_file": true,
+      "lineage_complete": true,
+      "deterministic_replay_ready": true,
+      "status": "READY_FOR_FETCH_ADAPTER"
+    },
+    {
+      "source_id": "L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "raw_snapshot": true,
+      "normalized_snapshot": true,
+      "state_file": true,
+      "lineage_complete": true,
+      "deterministic_replay_ready": true,
+      "status": "READY_FOR_FETCH_ADAPTER"
+    },
+    {
+      "source_id": "L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "raw_snapshot": true,
+      "normalized_snapshot": true,
+      "state_file": true,
+      "lineage_complete": true,
+      "deterministic_replay_ready": true,
+      "status": "READY_FOR_FETCH_ADAPTER"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "version":  "black_dragon_san_diego_source_registry_v1",
+    "generated_at":  "2026-05-11T04:20:50.1435444Z",
+    "city_scope":  {
+                       "city":  "San Diego",
+                       "state":  "California",
+                       "state_code":  "CA",
+                       "city_id":  "city_san_diego_ca",
+                       "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego",
+                       "city_specific_legacy_assets_preserved":  true
+                   },
+    "approved_legacy_sources":  {
+                                    "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\audit\\batch_148_san_diego_runtime_merge_graph_audit.json",
+                                    "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\dossiers\\san_diego_runtime_dossiers.json",
+                                    "runtime_summary":  null,
+                                    "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\map_nodes\\san_diego_runtime_map_nodes.json",
+                                    "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\merged\\san_diego_merged_city_entities.json"
+                                },
+    "source_policy":  {
+                          "runtime_promotion_allowed":  false,
+                          "manual_review_required":  true,
+                          "quarantine_required":  true,
+                          "synthetic_entity_creation_allowed":  false
+                      }
+}

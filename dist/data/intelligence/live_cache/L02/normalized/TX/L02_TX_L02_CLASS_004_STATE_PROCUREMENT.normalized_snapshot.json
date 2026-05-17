@@ -1,0 +1,296 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:14.443Z",
+  "layer_id": "L02",
+  "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "TX",
+  "source_type": "STATE_PROCUREMENT",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Contracts",
+        "href": "https://www.txsmartbuy.com/#",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Browse Contracts",
+        "href": "https://www.txsmartbuy.com/browsecontracts",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Contractors/Dealers",
+        "href": "https://www.txsmartbuy.com/dealers",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Vendor",
+        "href": "https://www.txsmartbuy.com/#",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "ESBD Bid Opportunities",
+        "href": "https://www.txsmartbuy.com/esbd",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "CMBL",
+        "href": "https://comptroller.texas.gov/purchasing/vendor/cmbl/",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "NIGP Codebook",
+        "href": "https://comptroller.texas.gov/purchasing/nigp/",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "TXMAS",
+        "href": "https://comptroller.texas.gov/purchasing/contracts/txmas/",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "DIR",
+        "href": "https://dir.texas.gov/View-Contracts-And-Services/Landing.aspx",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://www.txsmartbuy.com",
+        "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c",
+        "parser_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "CTCD/CTCM Training",
+        "href": "https://comptroller.texas.gov/purchasing/training/",
+        "record_type": "state_procurement_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_001",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_002",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_003",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_004",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_005",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_006",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_007",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_008",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_009",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_010",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_001",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_002",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_003",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_004",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_005",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_006",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_007",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_008",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_009",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT_SCORE_010",
+      "score_delta": 9,
+      "confidence": 0.91
+    }
+  ],
+  "normalized_snapshot_hash": "86afcdcc1f80554f416698c25a466d54a827e8cac1e59b18f08df46b97e2235b"
+}

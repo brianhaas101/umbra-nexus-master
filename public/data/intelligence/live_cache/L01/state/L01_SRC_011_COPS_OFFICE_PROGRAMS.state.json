@@ -1,0 +1,23 @@
+{
+  "version": "nexus_live_connector_state_v1",
+  "generated_at": "2026-05-08T03:16:45.970Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_011_COPS_OFFICE_PROGRAMS",
+  "connector_id": "L01_LIVE_CONNECTOR_011_L01_SRC_011_COPS_OFFICE_PROGRAMS",
+  "source_name": "COPS Office Programs",
+  "status": "LIVE_FETCH_SUCCESS",
+  "last_attempt_at": "2026-05-08T03:16:45.970Z",
+  "last_success_at": "2026-05-08T03:16:45.970Z",
+  "last_failure_at": null,
+  "failure_count": 0,
+  "last_error": null,
+  "raw_snapshot_exists": true,
+  "normalized_snapshot_exists": true,
+  "lineage_complete": true,
+  "deterministic_replay_ready": true,
+  "raw_snapshot_hash": "999625bfb00f8301bf63ddee80373931e94f5660c9fdc64ac31a967f1933f2f4",
+  "normalized_snapshot_hash": "9e921995976302cd3b8309e8fa072b19a3f723c5d3a0e350709e0128426222b0",
+  "live_record_count": 10,
+  "binding_required": null,
+  "upgraded_from_reference": true
+}

@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Seattle",
+    "gis": "https://data-seattlecitygis.opendata.arcgis.com/",
+    "open_data": "https://data.seattle.gov/",
+    "police": "https://www.seattle.gov/police",
+    "fire": "https://www.seattle.gov/fire",
+    "parks": "https://www.seattle.gov/parks",
+    "permits": "https://www.seattle.gov/sdci",
+    "public_works": "https://www.seattle.gov/transportation",
+    "schools": "https://www.seattleschools.org/",
+    "council": "https://www.seattle.gov/council"
+  },
+  {
+    "city": "Tacoma",
+    "gis": "https://geohub.cityoftacoma.org/",
+    "open_data": "https://data.cityoftacoma.org/",
+    "police": "https://www.cityoftacoma.org/government/city_departments/police",
+    "fire": "https://www.cityoftacoma.org/government/city_departments/fire",
+    "parks": "https://www.metroparkstacoma.org/",
+    "permits": "https://www.cityoftacoma.org/government/city_departments/planning_and_permits",
+    "public_works": "https://www.cityoftacoma.org/government/city_departments/public_works",
+    "schools": "https://www.tacomaschools.org/",
+    "council": "https://www.cityoftacoma.org/government/city_council"
+  },
+  {
+    "city": "Spokane",
+    "gis": "https://data-spokane.opendata.arcgis.com/",
+    "open_data": "https://my.spokanecity.org/opendata/",
+    "police": "https://my.spokanecity.org/police/",
+    "fire": "https://my.spokanecity.org/fire/",
+    "parks": "https://my.spokanecity.org/parksrec/",
+    "permits": "https://my.spokanecity.org/business/permits/",
+    "public_works": "https://my.spokanecity.org/publicworks/",
+    "schools": "https://www.spokaneschools.org/",
+    "council": "https://my.spokanecity.org/citycouncil/"
+  },
+  {
+    "city": "Vancouver",
+    "gis": "https://cityofvancouver.maps.arcgis.com/",
+    "open_data": "https://www.cityofvancouver.us/",
+    "police": "https://www.cityofvancouver.us/government/department/vancouver-police-department/",
+    "fire": "https://www.cityofvancouver.us/government/department/vancouver-fire-department/",
+    "parks": "https://www.cityofvancouver.us/government/department/parks-recreation-and-cultural-services/",
+    "permits": "https://www.cityofvancouver.us/government/department/community-development/",
+    "public_works": "https://www.cityofvancouver.us/government/department/public-works/",
+    "schools": "https://vansd.org/",
+    "council": "https://www.cityofvancouver.us/government/city-council/"
+  },
+  {
+    "city": "Bellevue",
+    "gis": "https://bellevuewa.gov/city-government/departments/ITD/services/maps",
+    "open_data": "https://bellevuewa.gov/city-government/open-data",
+    "police": "https://bellevuewa.gov/city-government/departments/police",
+    "fire": "https://bellevuewa.gov/city-government/departments/fire",
+    "parks": "https://bellevuewa.gov/city-government/departments/parks",
+    "permits": "https://bellevuewa.gov/city-government/departments/development",
+    "public_works": "https://bellevuewa.gov/city-government/departments/transportation",
+    "schools": "https://bsd405.org/",
+    "council": "https://bellevuewa.gov/city-government/city-council"
+  }
+]

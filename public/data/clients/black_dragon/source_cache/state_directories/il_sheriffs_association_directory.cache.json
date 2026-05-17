@@ -1,0 +1,18 @@
+{
+  "source_id": "il_sheriffs_association_directory",
+  "state": "IL",
+  "source_name": "Illinois Sheriffs' Association Directory",
+  "source_url": "https://www.ilsheriff.org/sheriffs-directory/",
+  "cached_at": "2026-05-02T19:54:27.540Z",
+  "byte_count": 284500,
+  "html_file": "state_directories/il_sheriffs_association_directory.html",
+  "top_50_cities_supported": [
+    "Chicago"
+  ],
+  "live_import_allowed": false,
+  "notes": [
+    "Raw state directory page cached.",
+    "No entities created by this connector.",
+    "Parser/authority filter required before merge."
+  ]
+}

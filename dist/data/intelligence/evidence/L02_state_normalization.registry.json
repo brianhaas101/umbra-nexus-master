@@ -1,0 +1,42 @@
+﻿{
+  "version": "nexus_L02_state_normalization_registry_v1",
+  "generated_at": "2026-05-07T00:00:00.000Z",
+  "layer_id": "L02",
+  "normalization_rules": {
+    "state_source_id_required": true,
+    "state_required": true,
+    "agency_or_program_required": true,
+    "jurisdiction_required": true,
+    "source_trace_required": true,
+    "date_observed_required": true,
+    "entity_linking_required": true
+  },
+  "normalized_fields": [
+    "state_source",
+    "state",
+    "agency_name",
+    "program_name",
+    "certification_body",
+    "training_body",
+    "procurement_reference",
+    "grant_reference",
+    "jurisdiction",
+    "county",
+    "city",
+    "related_entity",
+    "signal_type",
+    "signal_value",
+    "state_relevance",
+    "source_category",
+    "confidence_score",
+    "freshness_score"
+  ],
+  "blocked_conditions": [
+    "missing_state_source",
+    "missing_state",
+    "missing_source_trace",
+    "unlinked_entity",
+    "unsupported_state_signal",
+    "unresolved_jurisdiction"
+  ]
+}

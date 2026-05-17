@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_outreach_response_capture_schema_v1",
+  "generated_at": "2026-05-10T18:04:26.214Z",
+  "policy": {
+    "response_capture_only": true,
+    "auto_reply_forbidden": true,
+    "founder_review_required": true,
+    "response_lineage_required": true
+  },
+  "required_fields": [
+    "response_id",
+    "attempt_id",
+    "verified_contact_route_id",
+    "organization_name",
+    "response_received_at",
+    "response_channel",
+    "response_summary",
+    "next_action_recommendation",
+    "founder_review_status"
+  ],
+  "allowed_response_channels": [
+    "EMAIL_REPLY",
+    "PHONE_CALLBACK",
+    "CONTACT_FORM_REPLY",
+    "LINKEDIN_REPLY",
+    "OTHER_PUBLIC_ROUTE_REPLY"
+  ],
+  "captured_responses": []
+}

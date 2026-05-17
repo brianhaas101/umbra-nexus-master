@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "Weighting config for Umbra Nexus intelligence scoring engine.",
+  "components": {
+    "property": 20,
+    "business": 20,
+    "legal": 15,
+    "demographic": 15,
+    "wealth": 15,
+    "behavior": 15
+  },
+  "modifiers": {
+    "urgencyBoostMax": 10,
+    "riskPenaltyMax": 15
+  }
+}

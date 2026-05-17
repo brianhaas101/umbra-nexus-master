@@ -1,0 +1,66 @@
+{
+  "batch": "263",
+  "purpose": "city_local_csv_to_reviewed_intake_importer",
+  "source_csv": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\reviewed_intake\\wave_20260511_185734_starter_sources.csv",
+  "run_id": "20260511_185758",
+  "total_rows": 5,
+  "imported_count": 5,
+  "rejected_count": 0,
+  "imported_sources": [
+    {
+      "city": "Chicago",
+      "source_name": "Crimes - 2001 to Present",
+      "source_type": "public_safety_crime_incidents",
+      "source_url": "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2",
+      "city_locality_check": "pass",
+      "manual_review_status": "reviewed",
+      "provenance_status": "verified",
+      "eligible_for_import": "true",
+      "notes": "Official City of Chicago data portal source."
+    },
+    {
+      "city": "Phoenix",
+      "source_name": "Police Calls for Service",
+      "source_type": "public_safety_calls_for_service",
+      "source_url": "https://www.phoenixopendata.com/dataset/police-calls-for-service",
+      "city_locality_check": "pass",
+      "manual_review_status": "reviewed",
+      "provenance_status": "verified",
+      "eligible_for_import": "true",
+      "notes": "Official Phoenix Open Data source."
+    },
+    {
+      "city": "Atlanta",
+      "source_name": "Crime Data Downloads",
+      "source_type": "public_safety_crime_incidents",
+      "source_url": "https://www.atlantapd.org/i-want-to/crime-data-downloads",
+      "city_locality_check": "pass",
+      "manual_review_status": "reviewed",
+      "provenance_status": "verified",
+      "eligible_for_import": "true",
+      "notes": "Official Atlanta Police Department source."
+    },
+    {
+      "city": "Denver",
+      "source_name": "Crime",
+      "source_type": "public_safety_crime_incidents",
+      "source_url": "https://www.denvergov.org/opendata/dataset/city-and-county-of-denver-crime",
+      "city_locality_check": "pass",
+      "manual_review_status": "reviewed",
+      "provenance_status": "verified",
+      "eligible_for_import": "true",
+      "notes": "Official City and County of Denver Open Data source."
+    },
+    {
+      "city": "Boston",
+      "source_name": "Crime Incident Reports",
+      "source_type": "public_safety_crime_incidents",
+      "source_url": "https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system",
+      "city_locality_check": "pass",
+      "manual_review_status": "reviewed",
+      "provenance_status": "verified",
+      "eligible_for_import": "true",
+      "notes": "Official Analyze Boston source."
+    }
+  ]
+}

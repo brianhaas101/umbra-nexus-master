@@ -1,0 +1,919 @@
+{
+    "batch":  "253",
+    "version":  "black_dragon_houston_external_source_import_manifest_v1",
+    "generated_at":  "2026-05-11T07:50:00.1341446Z",
+    "city":  "Houston",
+    "folder":  "houston",
+    "state":  "Texas",
+    "state_code":  "TX",
+    "city_id":  "city_houston_tx",
+    "manifest_items":  [
+                           {
+                               "manifest_item_id":  "intake_manifest_f114abdaed754122b3e60e3db92778cf",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "city_government_directory",
+                               "acquisition_queries":  [
+                                                           "Houston Texas city_government_directory public directory",
+                                                           "Houston city_government_directory organizations",
+                                                           "Houston city_government_directory official source",
+                                                           "Houston city_government_directory open data",
+                                                           "Houston city_government_directory registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_e8ed96e7a19947f7b254fce149cf89e2",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "business_registry",
+                               "acquisition_queries":  [
+                                                           "Houston Texas business_registry public directory",
+                                                           "Houston business_registry organizations",
+                                                           "Houston business_registry official source",
+                                                           "Houston business_registry open data",
+                                                           "Houston business_registry registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_4e67b9e7d4dd4e0ea6520f0405ebecb3",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "chamber_of_commerce",
+                               "acquisition_queries":  [
+                                                           "Houston Texas chamber_of_commerce public directory",
+                                                           "Houston chamber_of_commerce organizations",
+                                                           "Houston chamber_of_commerce official source",
+                                                           "Houston chamber_of_commerce open data",
+                                                           "Houston chamber_of_commerce registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_14097273cebb422fbc970aa0294a67f7",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "local_media_directory",
+                               "acquisition_queries":  [
+                                                           "Houston Texas local_media_directory public directory",
+                                                           "Houston local_media_directory organizations",
+                                                           "Houston local_media_directory official source",
+                                                           "Houston local_media_directory open data",
+                                                           "Houston local_media_directory registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_d5e59ca068d2406d8347f356ecb2ff8d",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "education_institutions",
+                               "acquisition_queries":  [
+                                                           "Houston Texas education_institutions public directory",
+                                                           "Houston education_institutions organizations",
+                                                           "Houston education_institutions official source",
+                                                           "Houston education_institutions open data",
+                                                           "Houston education_institutions registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_3b2192f1eb2a42afb200ef3ffd82e633",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "community_organizations",
+                               "acquisition_queries":  [
+                                                           "Houston Texas community_organizations public directory",
+                                                           "Houston community_organizations organizations",
+                                                           "Houston community_organizations official source",
+                                                           "Houston community_organizations open data",
+                                                           "Houston community_organizations registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_5fba3ff1c66e4d678ea921a5f3823f06",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "venue_and_events",
+                               "acquisition_queries":  [
+                                                           "Houston Texas venue_and_events public directory",
+                                                           "Houston venue_and_events organizations",
+                                                           "Houston venue_and_events official source",
+                                                           "Houston venue_and_events open data",
+                                                           "Houston venue_and_events registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_09ed471eb61b487db0e1fa24fe019683",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "retail_and_dealers",
+                               "acquisition_queries":  [
+                                                           "Houston Texas retail_and_dealers public directory",
+                                                           "Houston retail_and_dealers organizations",
+                                                           "Houston retail_and_dealers official source",
+                                                           "Houston retail_and_dealers open data",
+                                                           "Houston retail_and_dealers registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_db47ca83acde4229be7988e956235352",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "clubs_and_associations",
+                               "acquisition_queries":  [
+                                                           "Houston Texas clubs_and_associations public directory",
+                                                           "Houston clubs_and_associations organizations",
+                                                           "Houston clubs_and_associations official source",
+                                                           "Houston clubs_and_associations open data",
+                                                           "Houston clubs_and_associations registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_87fc848e5cd249baa39eab4726b2e69b",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "geospatial_open_data",
+                               "acquisition_queries":  [
+                                                           "Houston Texas geospatial_open_data public directory",
+                                                           "Houston geospatial_open_data organizations",
+                                                           "Houston geospatial_open_data official source",
+                                                           "Houston geospatial_open_data open data",
+                                                           "Houston geospatial_open_data registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_af7e5adaa26e4c92b7d2b0b69095d9b2",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "transit_and_location_data",
+                               "acquisition_queries":  [
+                                                           "Houston Texas transit_and_location_data public directory",
+                                                           "Houston transit_and_location_data organizations",
+                                                           "Houston transit_and_location_data official source",
+                                                           "Houston transit_and_location_data open data",
+                                                           "Houston transit_and_location_data registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_45693483849b4accaf28e6d5ae30ce88",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "public_safety_and_civic_resources",
+                               "acquisition_queries":  [
+                                                           "Houston Texas public_safety_and_civic_resources public directory",
+                                                           "Houston public_safety_and_civic_resources organizations",
+                                                           "Houston public_safety_and_civic_resources official source",
+                                                           "Houston public_safety_and_civic_resources open data",
+                                                           "Houston public_safety_and_civic_resources registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_ebeae09f2ce64352a4ae711f1620b098",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "tourism_and_visitor_bureau",
+                               "acquisition_queries":  [
+                                                           "Houston Texas tourism_and_visitor_bureau public directory",
+                                                           "Houston tourism_and_visitor_bureau organizations",
+                                                           "Houston tourism_and_visitor_bureau official source",
+                                                           "Houston tourism_and_visitor_bureau open data",
+                                                           "Houston tourism_and_visitor_bureau registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_f8844353def3417cb2112ae5a95cd8e1",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "neighborhood_districts",
+                               "acquisition_queries":  [
+                                                           "Houston Texas neighborhood_districts public directory",
+                                                           "Houston neighborhood_districts organizations",
+                                                           "Houston neighborhood_districts official source",
+                                                           "Houston neighborhood_districts open data",
+                                                           "Houston neighborhood_districts registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           },
+                           {
+                               "manifest_item_id":  "intake_manifest_0e8b22e0f08148f1abbd261e71914739",
+                               "city":  "Houston",
+                               "folder":  "houston",
+                               "state":  "Texas",
+                               "state_code":  "TX",
+                               "category":  "local_nonprofits",
+                               "acquisition_queries":  [
+                                                           "Houston Texas local_nonprofits public directory",
+                                                           "Houston local_nonprofits organizations",
+                                                           "Houston local_nonprofits official source",
+                                                           "Houston local_nonprofits open data",
+                                                           "Houston local_nonprofits registry"
+                                                       ],
+                               "acceptance_rules":  {
+                                                        "public_source_required":  true,
+                                                        "city_or_service_area_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "category_match_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "source_url_required":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "manual_review_required":  true
+                                                    },
+                               "output_contract":  {
+                                                       "required_fields":  [
+                                                                               "source_url",
+                                                                               "source_title",
+                                                                               "source_category",
+                                                                               "city",
+                                                                               "state",
+                                                                               "organization_name_or_dataset_name",
+                                                                               "evidence_text",
+                                                                               "retrieved_at",
+                                                                               "manual_review_status"
+                                                                           ],
+                                                       "optional_fields":  [
+                                                                               "address",
+                                                                               "latitude",
+                                                                               "longitude",
+                                                                               "website",
+                                                                               "public_phone",
+                                                                               "public_email",
+                                                                               "source_notes"
+                                                                           ]
+                                                   },
+                               "intake_status":  "READY_FOR_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false,
+                               "hardlocks":  {
+                                                 "no_contact_enablement":  true,
+                                                 "no_runtime_promotion":  true,
+                                                 "no_placeholder_entities":  true,
+                                                 "no_inferred_contacts":  true,
+                                                 "manual_review_required":  true
+                                             }
+                           }
+                       ],
+    "downstream_contract":  {
+                                "raw_intake_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\houston\\external_source_intake.raw.json",
+                                "reviewed_intake_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\houston\\external_source_intake.reviewed.json",
+                                "rejected_sources_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\houston\\external_source_rejections.json",
+                                "import_manifest_file":  ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\houston\\external_source_import_manifest.json"
+                            },
+    "status":  "EXTERNAL_SOURCE_IMPORT_MANIFEST_READY"
+}

@@ -1,0 +1,34 @@
+﻿{
+    "source_id":  "dhs_advisories",
+    "layer_id":  "L01",
+    "source_name":  "DHS News and Advisories",
+    "canonical_url":  "https://www.dhs.gov/news",
+    "authority_type":  "federal_public_source",
+    "access_method":  "html",
+    "refresh_interval":  "daily",
+    "failure_policy":  "fail_closed_no_synthetic_records",
+    "parser_script":  "public/intelligence/layers/L01_federal_intelligence/connectors/dhs_advisories_connector.js",
+    "normalizer_script":  "public/intelligence/layers/L01_federal_intelligence/normalizers/dhs_advisories_normalizer.js",
+    "entity_targets":  [
+                           "agency",
+                           "advisory",
+                           "risk_signal"
+                       ],
+    "score_targets":  [
+                          "authority_score",
+                          "risk_signal_score",
+                          "freshness_score"
+                      ],
+    "dossier_targets":  [
+                            "federal_sources",
+                            "federal_risk_context"
+                        ],
+    "authority_weight":  0.93,
+    "status":  "source_page_verified_dhs_signals",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "last_refresh":  "2026-05-14T01:23:04.5668005Z",
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "black_dragon_coupling":  false
+}

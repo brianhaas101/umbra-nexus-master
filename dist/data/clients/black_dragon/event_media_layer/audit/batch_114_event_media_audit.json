@@ -1,0 +1,21 @@
+{
+  "version": "black_dragon_batch_114_event_media_audit_v1",
+  "generated_at": "2026-05-10T18:47:08.591Z",
+  "batch": "114_LONG_BEACH_EVENT_AND_MEDIA_LAYER",
+  "counts": {
+    "imported": 10,
+    "validated": 10,
+    "dossiers": 10,
+    "hot": 2,
+    "warm": 7,
+    "review": 1
+  },
+  "gates": {
+    "imported_10": true,
+    "validated_10": true,
+    "dossiers_match": true,
+    "all_runtime_visible": true,
+    "no_contact_ready": true
+  },
+  "status": "PASS"
+}

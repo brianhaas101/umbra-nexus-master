@@ -1,0 +1,87 @@
+{
+  "version": "black_dragon_veteran_source_registry_v1_batch_072",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "source_categories": [
+    {
+      "source_id": "BD_VET_SRC_001",
+      "category": "VFW_POST",
+      "entity_class": "VETERAN_NODE",
+      "priority_weight": 0.92,
+      "supports_bulk_orders": true,
+      "supports_event_partnerships": true,
+      "supports_leadership_propagation": true,
+      "supports_distribution": true
+    },
+    {
+      "source_id": "BD_VET_SRC_002",
+      "category": "AMERICAN_LEGION_POST",
+      "entity_class": "VETERAN_NODE",
+      "priority_weight": 0.91,
+      "supports_bulk_orders": true,
+      "supports_event_partnerships": true,
+      "supports_leadership_propagation": true,
+      "supports_distribution": true
+    },
+    {
+      "source_id": "BD_VET_SRC_003",
+      "category": "VETERAN_RIDING_ASSOCIATION",
+      "entity_class": "VETERAN_NODE",
+      "priority_weight": 0.95,
+      "supports_bulk_orders": true,
+      "supports_event_partnerships": true,
+      "supports_leadership_propagation": true,
+      "supports_distribution": true
+    },
+    {
+      "source_id": "BD_VET_SRC_004",
+      "category": "COMBAT_VETERAN_MOTORCYCLE_GROUP",
+      "entity_class": "VETERAN_NODE",
+      "priority_weight": 0.96,
+      "supports_bulk_orders": true,
+      "supports_event_partnerships": true,
+      "supports_leadership_propagation": true,
+      "supports_distribution": true
+    },
+    {
+      "source_id": "BD_VET_SRC_005",
+      "category": "VETERAN_TRANSITION_NONPROFIT",
+      "entity_class": "VETERAN_NODE",
+      "priority_weight": 0.90,
+      "supports_bulk_orders": true,
+      "supports_event_partnerships": true,
+      "supports_leadership_propagation": true,
+      "supports_distribution": false
+    },
+    {
+      "source_id": "BD_VET_SRC_006",
+      "category": "VETERAN_LEADERSHIP_PROGRAM",
+      "entity_class": "VETERAN_NODE",
+      "priority_weight": 0.89,
+      "supports_bulk_orders": true,
+      "supports_event_partnerships": true,
+      "supports_leadership_propagation": true,
+      "supports_distribution": false
+    },
+    {
+      "source_id": "BD_VET_SRC_007",
+      "category": "MILITARY_SUPPORT_ORGANIZATION",
+      "entity_class": "VETERAN_NODE",
+      "priority_weight": 0.86,
+      "supports_bulk_orders": true,
+      "supports_event_partnerships": true,
+      "supports_leadership_propagation": false,
+      "supports_distribution": false
+    },
+    {
+      "source_id": "BD_VET_SRC_008",
+      "category": "VETERAN_EVENT_ORGANIZER",
+      "entity_class": "EVENT_NODE",
+      "priority_weight": 0.93,
+      "supports_bulk_orders": true,
+      "supports_event_partnerships": true,
+      "supports_leadership_propagation": true,
+      "supports_distribution": true
+    }
+  ]
+}

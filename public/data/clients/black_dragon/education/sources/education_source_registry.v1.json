@@ -1,0 +1,152 @@
+{
+  "version": "black_dragon_education_source_registry_v1_batch_065",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "source_categories": [
+
+    {
+      "source_id": "BD_EDU_SRC_001",
+      "category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "institution_type": "LAW_ENFORCEMENT_TRAINING",
+      "priority_weight": 0.99,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": true
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_002",
+      "category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "institution_type": "PUBLIC_SAFETY_TRAINING",
+      "priority_weight": 0.96,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": true
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_003",
+      "category": "SHERIFF_TRAINING_CENTER",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "institution_type": "SHERIFF_TRAINING",
+      "priority_weight": 0.95,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": true
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_004",
+      "category": "CRIMINAL_JUSTICE_COLLEGE",
+      "entity_class": "EDUCATION_NODE",
+      "institution_type": "HIGHER_EDUCATION",
+      "priority_weight": 0.94,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": false
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_005",
+      "category": "COMMUNITY_COLLEGE_CJ_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "institution_type": "COMMUNITY_EDUCATION",
+      "priority_weight": 0.91,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": false
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_006",
+      "category": "GANG_STUDIES_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "institution_type": "SPECIALIZED_RESEARCH",
+      "priority_weight": 0.97,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": false
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_007",
+      "category": "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "institution_type": "INTELLIGENCE_EDUCATION",
+      "priority_weight": 0.96,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": true
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_008",
+      "category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "institution_type": "PUBLIC_SAFETY",
+      "priority_weight": 0.95,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": true
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_009",
+      "category": "HOMELAND_SECURITY_PROGRAM",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "institution_type": "HOMELAND_SECURITY",
+      "priority_weight": 0.96,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": true
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_010",
+      "category": "RIDER_EDUCATION_PROGRAM",
+      "entity_class": "TRAINING_NODE",
+      "institution_type": "MOTORCYCLE_EDUCATION",
+      "priority_weight": 0.88,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": false,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": false
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_011",
+      "category": "MSF_ALIGNED_PROGRAM",
+      "entity_class": "TRAINING_NODE",
+      "institution_type": "MOTORCYCLE_SAFETY",
+      "priority_weight": 0.89,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": false,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": true
+    },
+
+    {
+      "source_id": "BD_EDU_SRC_012",
+      "category": "VETERAN_TRANSITION_PROGRAM",
+      "entity_class": "VETERAN_NODE",
+      "institution_type": "VETERAN_SUPPORT",
+      "priority_weight": 0.92,
+      "supports_bulk_orders": true,
+      "supports_curriculum_adoption": true,
+      "supports_instructor_propagation": true,
+      "supports_certification_relationships": false
+    }
+
+  ]
+}

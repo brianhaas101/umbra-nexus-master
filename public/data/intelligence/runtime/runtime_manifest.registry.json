@@ -1,0 +1,97 @@
+{
+  "version": "nexus_runtime_manifest_registry_v1",
+  "generated_at": "2026-05-06T03:12:03.236Z",
+  "runtime_rules": {
+    "runtime_registration_required": true,
+    "deterministic_execution_required": true,
+    "layer_isolation_required": true,
+    "cross_layer_fusion_allowed": true,
+    "audit_logging_required": true
+  },
+  "runtime_manifests": [
+    {
+      "layer_id": "L01_FEDERAL_INTELLIGENCE",
+      "supports_geospatial": true,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L02_STATE_INTELLIGENCE",
+      "supports_geospatial": true,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+      "supports_geospatial": true,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "supports_geospatial": false,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L05_BUDGET_AND_FUNDING",
+      "supports_geospatial": false,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L06_BEHAVIORAL_ACTIVITY",
+      "supports_geospatial": true,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY",
+      "supports_geospatial": true,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L08_COMMAND_STRUCTURE",
+      "supports_geospatial": false,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": false
+    },
+    {
+      "layer_id": "L09_PROCUREMENT_INTELLIGENCE",
+      "supports_geospatial": false,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+      "supports_geospatial": false,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": false
+    },
+    {
+      "layer_id": "L11_INCIDENT_AND_RISK",
+      "supports_geospatial": true,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    },
+    {
+      "layer_id": "L12_ENGAGEMENT_RESPONSE",
+      "supports_geospatial": false,
+      "supports_dossiers": true,
+      "supports_scoring": true,
+      "supports_runtime_alerts": true
+    }
+  ]
+}

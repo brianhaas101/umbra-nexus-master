@@ -1,0 +1,17 @@
+﻿{
+  "contract_id": "L02_official_source_url_registry_contract",
+  "version": "1.0.0",
+  "input_matrix": "schemas/state_coverage_matrix.json",
+  "output_registry": "schemas/official_source_url_registry.json",
+  "rules": {
+    "official_state_source_required": true,
+    "no_synthetic_urls": true,
+    "no_inferred_contacts": true,
+    "unresolved_targets_must_remain_null": true,
+    "manual_review_allowed": true,
+    "automated_discovery_allowed": true,
+    "activation_requires_probe_pass": true,
+    "l01_mutation_allowed": false,
+    "client_paths_touched": false
+  }
+}

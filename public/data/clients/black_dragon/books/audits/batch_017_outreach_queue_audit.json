@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_books_batch_017_outreach_queue_audit_v1",
+  "generated_at": "2026-05-09T02:34:22.569Z",
+  "totals": {
+    "total_queue_items": 13,
+    "ready": 10,
+    "needs_contact_enrichment": 3,
+    "critical": 0,
+    "high": 0,
+    "medium": 4,
+    "low": 9
+  },
+  "integrity": {
+    "missing_queue_ids": 0,
+    "missing_entity_ids": 0,
+    "missing_queue_status": 0,
+    "missing_recommended_action": 0,
+    "ready_without_message": 0,
+    "ready_without_contact_route": 0,
+    "invalid_priority_scores": 0
+  },
+  "operational_state": {
+    "queue_exists": true,
+    "snapshot_exists": true,
+    "outreach_queue_active": true,
+    "ready_and_enrichment_split_active": true
+  },
+  "pass": true
+}

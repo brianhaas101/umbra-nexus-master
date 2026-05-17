@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_b5ad2562",
+    "name":  "New Orleans, LA",
+    "center_lat":  29.9511,
+    "center_lon":  -90.0715,
+    "bounds":  {
+                   "north":  30.2339,
+                   "south":  29.6912,
+                   "east":  -89.7863,
+                   "west":  -90.3567
+               },
+    "width_m":  55000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_b5ad2562/base.png"
+}

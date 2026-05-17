@@ -1,0 +1,36 @@
+{
+    "batch":  "254",
+    "version":  "black_dragon_san_antonio_external_source_intake_raw_v1",
+    "generated_at":  "2026-05-11T07:54:42.8419870Z",
+    "city":  "San Antonio",
+    "folder":  "san_antonio",
+    "state":  "Texas",
+    "state_code":  "TX",
+    "city_id":  "city_san_antonio_tx",
+    "raw_sources":  [
+
+                    ],
+    "required_record_contract":  {
+                                     "required_fields":  [
+                                                             "source_url",
+                                                             "source_title",
+                                                             "source_category",
+                                                             "city",
+                                                             "state",
+                                                             "organization_name_or_dataset_name",
+                                                             "evidence_text",
+                                                             "retrieved_at",
+                                                             "manual_review_status"
+                                                         ],
+                                     "optional_fields":  [
+                                                             "address",
+                                                             "latitude",
+                                                             "longitude",
+                                                             "website",
+                                                             "public_phone",
+                                                             "public_email",
+                                                             "source_notes"
+                                                         ]
+                                 },
+    "status":  "RAW_INTAKE_READY_EMPTY"
+}

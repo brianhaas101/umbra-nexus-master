@@ -1,0 +1,18 @@
+{
+  "version": "black_dragon_final_visual_review_gate_v1_batch_093",
+  "generated_at": "2026-05-10T16:14:02.422Z",
+  "client_id": "black_dragon",
+  "client_access_allowed": false,
+  "contact_ready_targets": 0,
+  "pending_visual_review": 637,
+  "blocked_candidates": 637,
+  "quarantined_entities": 697,
+  "founder_required_action": "Complete visual review and approve only entities with official source, verified contact route, and exact organization/region match.",
+  "hard_blocks": [
+    "NO_BLACK_DRAGON_ACCESS",
+    "NO_UNVERIFIED_CONTACTS",
+    "NO_SYNTHETIC_PLACEHOLDER_CONTACTS",
+    "NO_AUTO_PROMOTION",
+    "NO_OUTREACH_WITHOUT_MANUAL_APPROVAL"
+  ]
+}

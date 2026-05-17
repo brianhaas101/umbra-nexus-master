@@ -1,0 +1,214 @@
+{
+  "layer_id": "L04",
+  "generated_at": "2026-05-08T00:01:15.532Z",
+  "completion_status": "COMPLETE",
+  "gates": {
+    "registry_15_sources": true,
+    "registry_fields_valid": true,
+    "connector_coverage_valid": true,
+    "evidence_lineage_valid": true,
+    "signals_valid": true,
+    "scoring_valid": true,
+    "layer_files_present": true
+  },
+  "counts": {
+    "sources": 15,
+    "evidence": 15,
+    "signals": 15,
+    "score_components": 15,
+    "layer_files": 12
+  },
+  "source_ids": [
+    "L04_SRC_001_BUSINESS_REGISTRIES",
+    "L04_SRC_002_COMMERCIAL_PROCUREMENT_SYSTEMS",
+    "L04_SRC_003_VENDOR_DIRECTORIES",
+    "L04_SRC_004_CORPORATE_FILINGS",
+    "L04_SRC_005_INDUSTRY_ASSOCIATION_DATABASES",
+    "L04_SRC_006_COMMERCIAL_LICENSING_SYSTEMS",
+    "L04_SRC_007_BUSINESS_STAFFING_JOB_BOARDS",
+    "L04_SRC_008_COMMERCIAL_REAL_ESTATE_MOVEMENT",
+    "L04_SRC_009_FRANCHISE_EXPANSION_NOTICES",
+    "L04_SRC_010_COMMERCIAL_PERMIT_SYSTEMS",
+    "L04_SRC_011_SUPPLIER_MANUFACTURER_NETWORKS",
+    "L04_SRC_012_COMMERCIAL_EVENT_PARTICIPATION",
+    "L04_SRC_013_B2B_PARTNERSHIP_REFERENCES",
+    "L04_SRC_014_INDUSTRY_PUBLICATION_FEEDS",
+    "L04_SRC_015_COMMERCIAL_OPERATIONAL_ADVISORIES"
+  ],
+  "connector_coverage": [
+    {
+      "source_id": "L04_SRC_001_BUSINESS_REGISTRIES",
+      "connector_files": [
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_002_COMMERCIAL_PROCUREMENT_SYSTEMS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_003_VENDOR_DIRECTORIES",
+      "connector_files": [
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_004_CORPORATE_FILINGS",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_005_INDUSTRY_ASSOCIATION_DATABASES",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_006_COMMERCIAL_LICENSING_SYSTEMS",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_007_BUSINESS_STAFFING_JOB_BOARDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_008_COMMERCIAL_REAL_ESTATE_MOVEMENT",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_009_FRANCHISE_EXPANSION_NOTICES",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_010_COMMERCIAL_PERMIT_SYSTEMS",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_011_SUPPLIER_MANUFACTURER_NETWORKS",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_012_COMMERCIAL_EVENT_PARTICIPATION",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_013_B2B_PARTNERSHIP_REFERENCES",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_014_INDUSTRY_PUBLICATION_FEEDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L04_SRC_015_COMMERCIAL_OPERATIONAL_ADVISORIES",
+      "connector_files": [
+        "scripts/intelligence/complete_l04_source_registry.js",
+        "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    }
+  ],
+  "failures": {
+    "invalid_sources": [],
+    "missing_connector_coverage": [],
+    "invalid_evidence": [],
+    "invalid_signals": [],
+    "invalid_score_components": []
+  },
+  "deterministic_hashes": [
+    {
+      "file": "public/data/intelligence/audit/L04_training_integrity_audit.json",
+      "sha256": "b895f1efbdcd4b15dbf8498efc962105b3003f81e6d6fff9f5a2f634dfc7e291"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L04_commercial_normalization.registry.json",
+      "sha256": "ec040f17b0382704b1aff4a886a04ef10f5f8ec32fbbdadc547d13826615feb2"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L04_training_normalization.registry.json",
+      "sha256": "02678ec50b38c0250dd34811fe3d98175bf6646f986e54bfdddef270cc14e6b5"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L04_PRIVATE_SECTOR_COMMERCIAL_INTELLIGENCE.normalized.json",
+      "sha256": "98f499303711ae0498bdc0946d3aabf703b9dcede58a9c20fba0082db02c9234"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L04_TRAINING_INFRASTRUCTURE.normalized.json",
+      "sha256": "d32dcca075727280e8024697aeba9c07ee6bbe61fd8d498b1049cac7c54ca1ce"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L04_commercial_adapter_manifest.json",
+      "sha256": "53cb0da4a1c1c7cbc51203ab0d439abaadf6eabc658570fe3c5c25b8b90fc580"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L04_commercial_connector_coverage_manifest.json",
+      "sha256": "5ea37ce8edb9ef39eac5e396f87fb88cf3b2c2d07d29f32a63df94d3dea5dd4d"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L04_training_adapter_manifest.json",
+      "sha256": "fe8aad6cf21050bafb54c415f2c98ddfef7963a6b8f5b0a3a15ff83af6fb0a7b"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L04_commercial_scoring.registry.json",
+      "sha256": "667ccae48de9390f66285b7094ac64ab229d6c4ca24ce6e3b1b4a2383e00ccb7"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L04_training_scoring.registry.json",
+      "sha256": "aa09621bd4527e3c2e9179675211249c98b34215b8ae390b2488761d57248159"
+    },
+    {
+      "file": "public/data/intelligence/sources/L04_PRIVATE_SECTOR_COMMERCIAL_INTELLIGENCE.sources.json",
+      "sha256": "bb94221ea826accc855f8ce8bf66c315f8efa22a122b987b792717fa2e28eb98"
+    },
+    {
+      "file": "public/data/intelligence/sources/L04_training_infrastructure.sources.json",
+      "sha256": "6efe77515fd9d20a4d137043e3e3cb4cfb7fa14502cffacbee28a10da42df04b"
+    }
+  ]
+}

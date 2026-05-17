@@ -1,0 +1,125 @@
+[
+  {
+    "entity_id": "BD_BOOK_0001",
+
+    "target_name": "Example MC President",
+    "organization_name": "Iron Brotherhood MC",
+    "organization_type": "MOTORCYCLE_CLUB",
+
+    "leader_role": "PRESIDENT",
+
+    "country": "USA",
+    "country_tier": "TIER_1",
+
+    "high_value_signals": [
+      "prospect_program",
+      "church_meetings",
+      "education_focus",
+      "leadership_development"
+    ],
+
+    "supporting_signals": [
+      "active_social_media",
+      "event_activity"
+    ],
+
+    "why_target": [
+      "Club appears to maintain structured prospect education",
+      "Leadership role has endorsement authority",
+      "Club shows interest in protocol and organization"
+    ],
+
+    "endorsement_likelihood": 91,
+    "bulk_order_potential": 78,
+    "member_purchase_multiplier": 88,
+    "propagation_score": 90,
+
+    "lead_temperature": "HOT",
+
+    "outreach_status": "NOT_CONTACTED",
+
+    "notes": null
+  },
+
+  {
+    "entity_id": "BD_BOOK_0002",
+
+    "target_name": "Example Council Chairman",
+    "organization_name": "Regional Confederation of Clubs",
+    "organization_type": "COUNCIL",
+
+    "leader_role": "CHAIRMAN",
+
+    "country": "CANADA",
+    "country_tier": "TIER_1",
+
+    "high_value_signals": [
+      "council_involvement",
+      "member_education",
+      "leadership_development"
+    ],
+
+    "supporting_signals": [
+      "regional_mc_presence",
+      "community_presence"
+    ],
+
+    "why_target": [
+      "Council-level influence can create downstream member purchases",
+      "Leadership role has strong recommendation authority",
+      "Potential to influence multiple clubs simultaneously"
+    ],
+
+    "endorsement_likelihood": 94,
+    "bulk_order_potential": 83,
+    "member_purchase_multiplier": 95,
+    "propagation_score": 96,
+
+    "lead_temperature": "HOT",
+
+    "outreach_status": "NOT_CONTACTED",
+
+    "notes": null
+  },
+
+  {
+    "entity_id": "BD_BOOK_0003",
+
+    "target_name": "Example MC Sergeant At Arms",
+    "organization_name": "Steel Legion MC",
+    "organization_type": "MOTORCYCLE_CLUB",
+
+    "leader_role": "SERGEANT_AT_ARMS",
+
+    "country": "AUSTRALIA",
+    "country_tier": "TIER_1",
+
+    "high_value_signals": [
+      "officer_training",
+      "protocol_discussions",
+      "church_meetings"
+    ],
+
+    "supporting_signals": [
+      "officer_visibility",
+      "active_social_media"
+    ],
+
+    "why_target": [
+      "SAA role aligns directly with Black Dragon educational material",
+      "Club appears operationally active",
+      "Strong fit for officer-development books"
+    ],
+
+    "endorsement_likelihood": 82,
+    "bulk_order_potential": 67,
+    "member_purchase_multiplier": 74,
+    "propagation_score": 80,
+
+    "lead_temperature": "WARM",
+
+    "outreach_status": "NOT_CONTACTED",
+
+    "notes": null
+  }
+]

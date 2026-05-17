@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:14.443Z",
+  "layer_id": "L02",
+  "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "TX",
+  "state_name": "Texas",
+  "source_type": "STATE_PROCUREMENT",
+  "canonical_url": "https://www.txsmartbuy.com",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 29467,
+    "extracted_links": [
+      {
+        "href": "https://www.txsmartbuy.com/#",
+        "label": "Contracts"
+      },
+      {
+        "href": "https://www.txsmartbuy.com/browsecontracts",
+        "label": "Browse Contracts"
+      },
+      {
+        "href": "https://www.txsmartbuy.com/dealers",
+        "label": "Contractors/Dealers"
+      },
+      {
+        "href": "https://www.txsmartbuy.com/#",
+        "label": "Vendor"
+      },
+      {
+        "href": "https://www.txsmartbuy.com/esbd",
+        "label": "ESBD Bid Opportunities"
+      },
+      {
+        "href": "https://comptroller.texas.gov/purchasing/vendor/cmbl/",
+        "label": "CMBL"
+      },
+      {
+        "href": "https://comptroller.texas.gov/purchasing/nigp/",
+        "label": "NIGP Codebook"
+      },
+      {
+        "href": "https://comptroller.texas.gov/purchasing/contracts/txmas/",
+        "label": "TXMAS"
+      },
+      {
+        "href": "https://dir.texas.gov/View-Contracts-And-Services/Landing.aspx",
+        "label": "DIR"
+      },
+      {
+        "href": "https://comptroller.texas.gov/purchasing/training/",
+        "label": "CTCD/CTCM Training"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "2a22041f1fe67e49baf74e5ff1835ec5a3c3c6eaa07fae9d3b7ad3f2669fe66c"
+}

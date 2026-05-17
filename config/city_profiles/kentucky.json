@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Louisville",
+    "gis": "https://data.louisvilleky.gov/",
+    "open_data": "https://data.louisvilleky.gov/",
+    "police": "https://louisville-police.org/",
+    "fire": "https://louisvilleky.gov/government/fire",
+    "parks": "https://louisvilleky.gov/government/parks",
+    "permits": "https://louisvilleky.gov/government/codes-regulations",
+    "public_works": "https://louisvilleky.gov/government/public-works",
+    "schools": "https://www.jefferson.kyschools.us/",
+    "council": "https://louisvilleky.gov/government/metro-council"
+  },
+  {
+    "city": "Lexington",
+    "gis": "https://data.lexingtonky.gov/",
+    "open_data": "https://data.lexingtonky.gov/",
+    "police": "https://www.lexingtonky.gov/police",
+    "fire": "https://www.lexingtonky.gov/fire",
+    "parks": "https://www.lexingtonky.gov/parks-and-recreation",
+    "permits": "https://www.lexingtonky.gov/planning-and-development",
+    "public_works": "https://www.lexingtonky.gov/public-works",
+    "schools": "https://www.fcps.net/",
+    "council": "https://www.lexingtonky.gov/urban-county-council"
+  },
+  {
+    "city": "Bowling Green",
+    "gis": "https://data.bgky.org/",
+    "open_data": "https://data.bgky.org/",
+    "police": "https://www.bgky.org/police",
+    "fire": "https://www.bgky.org/fire",
+    "parks": "https://www.bgky.org/parks",
+    "permits": "https://www.bgky.org/neighborhood-community-services",
+    "public_works": "https://www.bgky.org/publicworks",
+    "schools": "https://www.warrencountyschools.org/",
+    "council": "https://www.bgky.org/city-commission"
+  },
+  {
+    "city": "Owensboro",
+    "gis": "https://www.owensboro.org/gis",
+    "open_data": "https://www.owensboro.org/",
+    "police": "https://www.owensboro.org/police",
+    "fire": "https://www.owensboro.org/fire",
+    "parks": "https://www.owensboro.org/parks",
+    "permits": "https://www.owensboro.org/metropolitan-planning",
+    "public_works": "https://www.owensboro.org/publicworks",
+    "schools": "https://www.owensboro.kyschools.us/",
+    "council": "https://www.owensboro.org/city-commission"
+  },
+  {
+    "city": "Covington",
+    "gis": "https://www.covingtonky.gov/government/departments/gis",
+    "open_data": "https://www.covingtonky.gov/",
+    "police": "https://www.covingtonky.gov/government/departments/police",
+    "fire": "https://www.covingtonky.gov/government/departments/fire",
+    "parks": "https://www.covingtonky.gov/government/departments/parks-recreation",
+    "permits": "https://www.covingtonky.gov/government/departments/development",
+    "public_works": "https://www.covingtonky.gov/government/departments/public-works",
+    "schools": "https://www.covington.kyschools.us/",
+    "council": "https://www.covingtonky.gov/government/city-commission"
+  }
+]

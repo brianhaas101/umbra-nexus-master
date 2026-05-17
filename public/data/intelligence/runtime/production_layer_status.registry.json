@@ -1,0 +1,20 @@
+{
+  "version": "nexus_production_layer_status_registry_v1",
+  "generated_at": "2026-05-06T05:07:03.648Z",
+  "production_layers": [
+    "L05_BUDGET_AND_FUNDING",
+    "L06_BEHAVIORAL_ACTIVITY",
+    "L08_COMMAND_STRUCTURE",
+    "L09_PROCUREMENT_INTELLIGENCE",
+    "L11_INCIDENT_AND_RISK"
+  ],
+  "partial_layers": [
+    "L01_FEDERAL_INTELLIGENCE",
+    "L02_STATE_INTELLIGENCE",
+    "L03_LOCAL_AGENCY_INTELLIGENCE",
+    "L04_TRAINING_INFRASTRUCTURE",
+    "L07_GEOGRAPHIC_TERRITORY",
+    "L10_COMMUNICATION_INTELLIGENCE",
+    "L12_ENGAGEMENT_RESPONSE"
+  ]
+}

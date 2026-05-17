@@ -1,0 +1,21 @@
+﻿{
+    "schema_id":  "layer_08_input_schema",
+    "required":  [
+                     "record_group_id",
+                     "entity_key",
+                     "city_key",
+                     "records"
+                 ],
+    "record_required":  [
+                            "record_id",
+                            "source_url",
+                            "source_type",
+                            "claim",
+                            "authority_score"
+                        ],
+    "rejected":  [
+                     "synthetic_source",
+                     "inferred_corroboration",
+                     "runtime_generated_record"
+                 ]
+}

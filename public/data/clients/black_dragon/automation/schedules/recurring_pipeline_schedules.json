@@ -1,0 +1,36 @@
+{
+  "version": "black_dragon_recurring_pipeline_schedules_v1",
+  "generated_at": "2026-05-10T19:31:53.676Z",
+  "schedules": [
+    {
+      "pipeline_id": "DISCOVERY_WEEKLY",
+      "frequency": "WEEKLY",
+      "enabled": true,
+      "purpose": "Discover new candidate organizations."
+    },
+    {
+      "pipeline_id": "SIGNAL_REFRESH_DAILY",
+      "frequency": "DAILY",
+      "enabled": true,
+      "purpose": "Refresh freshness timestamps and scores."
+    },
+    {
+      "pipeline_id": "CONTACT_ROUTE_REVALIDATION_WEEKLY",
+      "frequency": "WEEKLY",
+      "enabled": true,
+      "purpose": "Recheck verified public contact routes."
+    },
+    {
+      "pipeline_id": "FULL_CITY_RERANK_MONTHLY",
+      "frequency": "MONTHLY",
+      "enabled": true,
+      "purpose": "Re-rank all city entities using fresh signals."
+    },
+    {
+      "pipeline_id": "DELTA_FEED_GENERATION_WEEKLY",
+      "frequency": "WEEKLY",
+      "enabled": true,
+      "purpose": "Generate client-visible update feed."
+    }
+  ]
+}

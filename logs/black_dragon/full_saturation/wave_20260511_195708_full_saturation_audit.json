@@ -1,0 +1,29 @@
+{
+  "wave_id": "20260511_195708",
+  "client_id": "black_dragon",
+  "cities": [
+    "Philadelphia",
+    "Pittsburgh",
+    "Allentown",
+    "Erie",
+    "Reading"
+  ],
+  "benchmark": "Long Beach",
+  "benchmark_role": "schema_process_parity_only",
+  "copied_long_beach_data": false,
+  "full_saturation_lock": "not_locked",
+  "checklist_csv": "C:\\Dev\\Nexus_MASTER\\data\\clients\\black_dragon\\full_saturation\\wave_20260511_195708_long_beach_parity_checklist.csv",
+  "gap_report_csv": "C:\\Dev\\Nexus_MASTER\\logs\\black_dragon\\full_saturation\\wave_20260511_195708_saturation_gap_report.csv",
+  "hardlocks": {
+    "no_synthetic_fillers": true,
+    "no_runtime_promotion": true,
+    "no_contact_enablement": true,
+    "no_placeholder_entities": true,
+    "no_false_targets": true,
+    "provenance_required": true,
+    "manual_review_required": true,
+    "city_local_sources_only": true,
+    "no_cross_city_contamination": true,
+    "copied_benchmark_data_forbidden": true
+  }
+}

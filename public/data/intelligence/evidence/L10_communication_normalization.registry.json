@@ -1,0 +1,48 @@
+﻿{
+  "version": "nexus_L10_communication_normalization_registry_v1",
+  "generated_at": "2026-05-08T00:00:00.000Z",
+  "layer_id": "L10",
+  "normalization_rules": {
+    "communication_source_id_required": true,
+    "channel_required": true,
+    "organization_or_entity_required": true,
+    "source_trace_required": true,
+    "date_observed_required": true,
+    "entity_linking_required": true
+  },
+  "normalized_fields": [
+    "communication_source",
+    "channel_type",
+    "channel_value",
+    "channel_owner",
+    "organization_name",
+    "department_name",
+    "email",
+    "phone",
+    "contact_form_url",
+    "social_url",
+    "calendar_url",
+    "event_registration_url",
+    "response_reference",
+    "quality_reference",
+    "state",
+    "county",
+    "city",
+    "jurisdiction",
+    "related_entity",
+    "signal_type",
+    "signal_value",
+    "communication_relevance",
+    "source_category",
+    "confidence_score",
+    "freshness_score"
+  ],
+  "blocked_conditions": [
+    "missing_communication_source",
+    "missing_channel",
+    "missing_organization_or_entity",
+    "missing_source_trace",
+    "unlinked_entity",
+    "unsupported_communication_signal"
+  ]
+}

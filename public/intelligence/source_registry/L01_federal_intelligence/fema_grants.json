@@ -1,0 +1,35 @@
+﻿{
+    "source_id":  "fema_grants",
+    "layer_id":  "L01",
+    "source_name":  "FEMA Grants",
+    "canonical_url":  "https://www.fema.gov/grants",
+    "authority_type":  "federal_public_source",
+    "access_method":  "public_portal_or_dataset",
+    "refresh_interval":  "weekly",
+    "failure_policy":  "fail_closed_no_synthetic_records",
+    "parser_script":  "public/intelligence/layers/L01_federal_intelligence/connectors/fema_grants_connector.js",
+    "normalizer_script":  "public/intelligence/layers/L01_federal_intelligence/normalizers/fema_grants_normalizer.js",
+    "entity_targets":  [
+                           "agency",
+                           "grant",
+                           "program",
+                           "federal_opportunity"
+                       ],
+    "score_targets":  [
+                          "authority_score",
+                          "grant_signal_score",
+                          "freshness_score"
+                      ],
+    "dossier_targets":  [
+                            "federal_sources",
+                            "federal_grants"
+                        ],
+    "authority_weight":  0.9,
+    "status":  "source_page_verified_grant_signals",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "last_refresh":  "2026-05-14T01:16:10.4790272Z",
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "black_dragon_coupling":  false
+}

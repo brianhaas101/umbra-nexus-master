@@ -1,0 +1,1322 @@
+[
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_CHANDLER_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Chandler",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_cfa212ef9a912808",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_5a7399c1f5aabce5",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Flagstaff",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_652c92d4153f0ae1",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_4325436d387d1519",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_GLENDALE_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Glendale",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_21812db0e6025656",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_22d3e52a90d40dba",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_MESA_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Mesa",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_111356bafdfe7077",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_2433cba1283076c3",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_PHOENIX_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Phoenix",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_32dcdb55f2508aad",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_d546bbf7b8e6248c",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Scottsdale",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_ef83cebca5a3c1c1",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_a644e8eaf35f47f6",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_SURPRISE_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Surprise",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_df46839d1c2d2fb4",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_bcffe8687562981e",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_TEMPE_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Tempe",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_cde10966eddf79e2",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_f01a1edefad566be",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_TUCSON_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Tucson",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_b7747aa7ed82a6f9",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_cae4fb237250d730",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "AZ_YUMA_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "Yuma",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_4bbdd35481ac22df",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_ce20fbf12d74cbac",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+    "agency": "unknown_agency",
+    "city": "San Diego",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_96d8450aede4c4d6",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_00d5e7ae073b112a",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_09d215d8768c6bb2",
+    "agency": "San Diego Community College District Police Department",
+    "city": "San Diego",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_624ad9e2f5c61003",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_5f26954547af2d4b",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_2308fe0c505dafb8",
+    "agency": "GLENDALE POLICE DEPARTMENT",
+    "city": "Glendale",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_a39b23c39f01cc5f",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_26b21ba747b7bd7c",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_27010c9494b430c2",
+    "agency": "MESA POLICE DEPARTMENT",
+    "city": "Mesa",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_c1f95c6ca27b3553",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_d2456d46e6caa3f5",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_29f09e13c739bf6e",
+    "agency": "SURPRISE POLICE DEPARTMENT",
+    "city": "Surprise",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_74efbf0c048fad39",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_a29a14004919d040",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_31e5b8c7562ebf86",
+    "agency": "FLAGSTAFF POLICE DEPARTMENT",
+    "city": "Flagstaff",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_8e244f61bb10a76a",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_f4b8a1b1c1a93082",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_3be9f31f16828c81",
+    "agency": "YUMA POLICE DEPARTMENT",
+    "city": "Yuma",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_98f1582e3a7a6f3e",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_8c9d68690760b378",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_48ef59c4549152e1",
+    "agency": "PHOENIX POLICE DEPARTMENT",
+    "city": "Phoenix",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_08f86cb350428937",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_7a38b8da1bcb6e28",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_833f1da3fb4fa134",
+    "agency": "TUCSON POLICE DEPARTMENT",
+    "city": "Tucson",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_26b6ac710b5af948",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_690c2b084eb1eaa5",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_8e8ae8b7de7e320c",
+    "agency": "TEMPE POLICE DEPARTMENT",
+    "city": "Tempe",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_024a3a6772a4d9a0",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_f6581b9e00e1604e",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_c9af6927030fbed5",
+    "agency": "CHANDLER POLICE DEPARTMENT",
+    "city": "Chandler",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_589ca48a933d4815",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_0436307e61c6ff79",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_e4b727af219e35fd",
+    "agency": "SCOTTSDALE POLICE DEPARTMENT",
+    "city": "Scottsdale",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_9c9d29308b1703b0",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_27e1655c6796e648",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "ent_fe090ab861587eba",
+    "agency": "Dallas Police Academy",
+    "city": "Dallas",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_4c9e32e761ea008f",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_2f99e3ca95cb20e7",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  },
+  {
+    "layer_id": "L10",
+    "layer_name": "communication_and_outreach_readiness",
+    "entity_id": "TX_DALLAS_POLICE_ACADEMY",
+    "agency": "unknown_agency",
+    "city": "Dallas",
+    "communication_confidence": 0.3115,
+    "confidence_weight": 0.3115,
+    "confidence_class": "REVIEW_REQUIRED",
+    "outreach_ready": false,
+    "contact_score": 28,
+    "contact": {
+      "name": null,
+      "role": "unknown_role",
+      "email": null,
+      "phone": null
+    },
+    "signals": [
+      {
+        "signal_id": "sig_8f847b9df6199b2f",
+        "layer_id": "L10",
+        "signal_type": "communication_confidence_weighting",
+        "value": 0.3115,
+        "confidence": 0.3115
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "sig_b9d3c917f51833ff",
+        "layer_id": "L10",
+        "source_file": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+        "evidence_type": "derived_confidence_weighting",
+        "confidence": 0.3115
+      }
+    ],
+    "score_components": [
+      {
+        "layer_id": "L10",
+        "component": "channel_completeness",
+        "value": 0.35
+      },
+      {
+        "layer_id": "L10",
+        "component": "confidence_from_contact_score",
+        "value": 0.28
+      },
+      {
+        "layer_id": "L10",
+        "component": "source_confidence",
+        "value": 0.28
+      }
+    ],
+    "_source": "L10_communication_confidence_weighting",
+    "_version": "nexus_L10_communication_confidence_weighting_v1"
+  }
+]

@@ -1,0 +1,20 @@
+﻿{
+    "schema_id":  "layer_02_output_schema",
+    "required":  [
+                     "layer_id",
+                     "record_id",
+                     "city",
+                     "entity",
+                     "city_local_score",
+                     "classification",
+                     "classification_reasons",
+                     "audit_timestamp"
+                 ],
+    "classifications":  [
+                            "city_local_primary",
+                            "city_local_secondary",
+                            "regional_or_ambiguous",
+                            "non_city_local",
+                            "rejected_prior_layer"
+                        ]
+}

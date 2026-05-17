@@ -1,0 +1,246 @@
+{
+    "version":  "black_dragon_san_antonio_wave2_source_acquisition_manifest_v1",
+    "generated_at":  "2026-05-11T05:09:49.3666761Z",
+    "wave_id":  "tier2_wave_2",
+    "city":  "San Antonio",
+    "folder":  "san_antonio",
+    "state":  "Texas",
+    "state_code":  "TX",
+    "city_id":  "city_san_antonio_tx",
+    "category_source_acquisition":  [
+                                        {
+                                            "category":  "motorcycle_dealerships",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" motorcycle dealership",
+                                                                   "\"San Antonio\" Harley-Davidson dealer",
+                                                                   "\"San Antonio\" motorcycle sales"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "motorcycle_repair_and_parts",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" motorcycle repair",
+                                                                   "\"San Antonio\" motorcycle parts",
+                                                                   "\"San Antonio\" motorcycle accessories"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "riding_clubs",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" motorcycle riding club",
+                                                                   "\"San Antonio\" riders association",
+                                                                   "\"San Antonio\" motorcycle group"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "rider_training_schools",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" motorcycle safety course",
+                                                                   "\"San Antonio\" rider training",
+                                                                   "\"San Antonio\" motorcycle training school"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "community_groups",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" community organizations",
+                                                                   "\"San Antonio\" local community groups",
+                                                                   "\"San Antonio\" neighborhood associations"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "event_venues",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" event venues",
+                                                                   "\"San Antonio\" motorcycle events",
+                                                                   "\"San Antonio\" community event venue"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "educational_institutes",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" colleges",
+                                                                   "\"San Antonio\" technical schools",
+                                                                   "\"San Antonio\" adult education"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "local_media_groups",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" local newspaper",
+                                                                   "\"San Antonio\" local radio station",
+                                                                   "\"San Antonio\" local media outlet"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "business_associations",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" chamber of commerce",
+                                                                   "\"San Antonio\" business association",
+                                                                   "\"San Antonio\" small business network"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "civic_organizations",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" civic organizations",
+                                                                   "\"San Antonio\" public agencies directory",
+                                                                   "\"San Antonio\" city services directory"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "public_safety_public_directories",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" police department public directory",
+                                                                   "\"San Antonio\" fire department public directory",
+                                                                   "\"San Antonio\" emergency management public directory"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "lawful_sporting_or_firearms_organizations",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" lawful sporting club",
+                                                                   "\"San Antonio\" shooting sports organization",
+                                                                   "\"San Antonio\" firearms training organization public"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "charity_nonprofit_groups",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" nonprofit organizations",
+                                                                   "\"San Antonio\" charities",
+                                                                   "\"San Antonio\" community nonprofit"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "local_influencer_or_creator_media",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" local creators",
+                                                                   "\"San Antonio\" local podcast",
+                                                                   "\"San Antonio\" community media"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "regional_geospatial_anchors",
+                                            "search_queries":  [
+                                                                   "\"San Antonio\" landmarks",
+                                                                   "\"San Antonio\" districts",
+                                                                   "\"San Antonio\" transportation hubs"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        }
+                                    ],
+    "controls":  {
+                     "entity_creation_allowed":  false,
+                     "runtime_promotion_allowed":  false,
+                     "contact_enablement_allowed":  false,
+                     "placeholder_generation_allowed":  false,
+                     "inferred_contact_generation_allowed":  false,
+                     "source_collection_required_first":  true
+                 },
+    "status":  "SOURCE_ACQUISITION_MANIFEST_READY"
+}

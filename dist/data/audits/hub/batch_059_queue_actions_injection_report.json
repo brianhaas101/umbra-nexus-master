@@ -1,0 +1,16 @@
+{
+  "version": "batch_059_queue_actions_injection_report_v1",
+  "generated_at": "2026-05-09T22:54:22.508Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_outreach_queue_actions": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_outreach_queue_actions": true
+    }
+  ]
+}

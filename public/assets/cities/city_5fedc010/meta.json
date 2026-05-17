@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_5fedc010",
+    "name":  "Washington, DC",
+    "center_lat":  38.9072,
+    "center_lon":  -77.0369,
+    "bounds":  {
+                   "north":  39.19,
+                   "south":  38.6473,
+                   "east":  -76.7516,
+                   "west":  -77.3221
+               },
+    "width_m":  49000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_5fedc010/base.png"
+}

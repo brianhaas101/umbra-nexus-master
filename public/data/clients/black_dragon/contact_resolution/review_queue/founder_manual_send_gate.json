@@ -1,0 +1,52 @@
+{
+  "version": "black_dragon_founder_manual_send_gate_v1",
+  "generated_at": "2026-05-10T18:01:12.506Z",
+  "total_records": 5,
+  "gate_records": [
+    {
+      "manual_outreach_record_id": "BD_MANUAL_OUTREACH_BD_VERIFIED_CONTACT_ROUTE_0001",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0001",
+      "organization_name": "California Commission on Peace Officer Standards and Training",
+      "founder_send_approval": false,
+      "automated_send_allowed": false,
+      "outreach_execution_mode": "MANUAL_ONLY",
+      "founder_review_required": true
+    },
+    {
+      "manual_outreach_record_id": "BD_MANUAL_OUTREACH_BD_VERIFIED_CONTACT_ROUTE_0002",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0002",
+      "organization_name": "Oregon Department of Public Safety Standards and Training",
+      "founder_send_approval": false,
+      "automated_send_allowed": false,
+      "outreach_execution_mode": "MANUAL_ONLY",
+      "founder_review_required": true
+    },
+    {
+      "manual_outreach_record_id": "BD_MANUAL_OUTREACH_BD_VERIFIED_CONTACT_ROUTE_0003",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0003",
+      "organization_name": "Oregon DPSST Academy Operations",
+      "founder_send_approval": false,
+      "automated_send_allowed": false,
+      "outreach_execution_mode": "MANUAL_ONLY",
+      "founder_review_required": true
+    },
+    {
+      "manual_outreach_record_id": "BD_MANUAL_OUTREACH_BD_VERIFIED_CONTACT_ROUTE_0004",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0004",
+      "organization_name": "Florida Criminal Justice Standards & Training Commission",
+      "founder_send_approval": false,
+      "automated_send_allowed": false,
+      "outreach_execution_mode": "MANUAL_ONLY",
+      "founder_review_required": true
+    },
+    {
+      "manual_outreach_record_id": "BD_MANUAL_OUTREACH_BD_VERIFIED_CONTACT_ROUTE_0005",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0005",
+      "organization_name": "FDLE Training Curriculum Contacts",
+      "founder_send_approval": false,
+      "automated_send_allowed": false,
+      "outreach_execution_mode": "MANUAL_ONLY",
+      "founder_review_required": true
+    }
+  ]
+}

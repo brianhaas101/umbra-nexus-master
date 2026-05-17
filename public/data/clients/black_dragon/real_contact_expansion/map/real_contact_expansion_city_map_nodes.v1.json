@@ -1,0 +1,12 @@
+{
+  "version": "black_dragon_real_contact_expansion_city_map_nodes_v1_batch_101",
+  "generated_at": "2026-05-10T17:21:53.294Z",
+  "client_id": "black_dragon",
+  "layer_id": "BLACK_DRAGON_REAL_CONTACT_EXPANSION_REVIEW",
+  "totals": {
+    "map_nodes": 0,
+    "contact_ready": 0,
+    "outreach_allowed": 0
+  },
+  "nodes": []
+}

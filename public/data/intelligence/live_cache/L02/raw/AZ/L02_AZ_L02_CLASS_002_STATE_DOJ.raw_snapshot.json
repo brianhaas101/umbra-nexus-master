@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:08.857Z",
+  "layer_id": "L02",
+  "connector_id": "L02_AZ_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "AZ",
+  "state_name": "Arizona",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://www.azag.gov",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 78475,
+    "extracted_links": [
+      {
+        "href": "https://www.azag.gov/kris-mayes",
+        "label": "Kris Mayes, Attorney General"
+      },
+      {
+        "href": "https://www.azag.gov/complaints/consumer",
+        "label": "Consumer Complaint"
+      },
+      {
+        "href": "https://www.azag.gov/issues/reproductive-rights/ag-actions",
+        "label": "Attorney General Actions"
+      },
+      {
+        "href": "https://www.azag.gov/issues/reproductive-rights/consumer",
+        "label": "Consumer Alerts"
+      },
+      {
+        "href": "https://www.azag.gov/consumer",
+        "label": "Frauds and Scams"
+      },
+      {
+        "href": "https://www.azag.gov/consumer/about",
+        "label": "About Consumer Protection"
+      },
+      {
+        "href": "https://www.azag.gov/consumer/tips",
+        "label": "Consumer Tips"
+      },
+      {
+        "href": "https://www.azag.gov/consumer/topics/crypto",
+        "label": "Cryptocurrency ATM Fraud"
+      },
+      {
+        "href": "https://www.azag.gov/consumer/data-breach",
+        "label": "Data Privacy &amp; Data Breach Reporting"
+      },
+      {
+        "href": "https://www.azag.gov/consumer/data-breach/faq",
+        "label": "Data-Breach FAQ"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "ed379ffd55976c18cfe391021ed35b560d5ad6dc4dff0e9b4ca5467f7cd06dc7"
+}

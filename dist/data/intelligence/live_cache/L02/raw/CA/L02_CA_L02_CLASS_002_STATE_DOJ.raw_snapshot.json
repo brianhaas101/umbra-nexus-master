@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:05.034Z",
+  "layer_id": "L02",
+  "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "CA",
+  "state_name": "California",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://oag.ca.gov",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 127740,
+    "extracted_links": [
+      {
+        "href": "https://oag.ca.gov/news/feed",
+        "label": ""
+      },
+      {
+        "href": "https://oag.ca.gov/office",
+        "label": "About the Office of the Attorney General"
+      },
+      {
+        "href": "https://oag.ca.gov/careers/aboutus/psle",
+        "label": "Public Safety"
+      },
+      {
+        "href": "https://oag.ca.gov/consumers",
+        "label": "Consumer Protection"
+      },
+      {
+        "href": "https://oag.ca.gov/economic",
+        "label": "Consumer Protection and Economic Opportunity"
+      },
+      {
+        "href": "https://oag.ca.gov/environment/justice",
+        "label": "Environmental Justice"
+      },
+      {
+        "href": "https://oag.ca.gov/immigrant",
+        "label": "Immigration"
+      },
+      {
+        "href": "https://openjustice.doj.ca.gov/",
+        "label": "OpenJustice"
+      },
+      {
+        "href": "https://oag.ca.gov/media/news",
+        "label": "Press Releases"
+      },
+      {
+        "href": "https://www.linkedin.com/company/california-department-of-justice/",
+        "label": "LinkedIn"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2"
+}

@@ -1,0 +1,8 @@
+﻿{
+    "record_id":  "l01_example",
+    "authority_score":  90,
+    "authority_class":  "primary_authority",
+    "geo_status":  "geo_coherent_explicit_city",
+    "freshness_class":  "current_30_days",
+    "corroboration_class":  "strong_multi_source_corroboration"
+}

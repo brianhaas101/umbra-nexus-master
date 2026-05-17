@@ -1,0 +1,12 @@
+﻿{
+    "schema_id":  "layer_01_output_schema",
+    "required":  [
+                     "layer_id",
+                     "record_id",
+                     "normalized_record",
+                     "provenance_status",
+                     "accepted",
+                     "rejection_reasons",
+                     "audit_timestamp"
+                 ]
+}

@@ -1,0 +1,99 @@
+{
+  "version": "black_dragon_books_hotwarm_index_v1",
+  "generated_at": "2026-05-09T02:36:48.400Z",
+  "totals": {
+    "total_targets": 23,
+    "hot": 2,
+    "warm": 0,
+    "review": 21
+  },
+  "hot_targets": [
+    {
+      "entity_id": "BD_BOOK_NORM_0002",
+      "source_raw_id": "RAW_BD_BOOK_0002",
+      "target_name": "UNKNOWN_LEADER",
+      "organization_name": "Sample Motorcycle Council",
+      "organization_type": "COUNCIL",
+      "leader_role": "CHAIRMAN",
+      "country": "Canada",
+      "region": "Ontario",
+      "country_tier": "TIER_1",
+      "public_url": null,
+      "social_url": null,
+      "contact_method": null,
+      "high_value_signals": [
+        "education_focus",
+        "council_involvement",
+        "member_education"
+      ],
+      "supporting_signals": [
+        "regional_mc_presence"
+      ],
+      "why_target": [
+        "Leadership role has endorsement authority",
+        "Council-level involvement can create downstream purchase influence",
+        "Signals indicate interest in education and member development"
+      ],
+      "endorsement_likelihood": 92,
+      "bulk_order_potential": 84,
+      "member_purchase_multiplier": 95,
+      "propagation_score": 100,
+      "lead_temperature": "HOT",
+      "target_classification": "HIGH_PROPAGATION",
+      "outreach_status": "NOT_CONTACTED",
+      "notes": "Template row. Replace with real public target data.",
+      "_score_trace": {
+        "roleScore": 28,
+        "orgScore": 30,
+        "highSignalScore": 55,
+        "supportingSignalScore": 6,
+        "countryScore": 12,
+        "total": 131
+      }
+    },
+    {
+      "entity_id": "BD_BOOK_NORM_0001",
+      "source_raw_id": "RAW_BD_BOOK_0001",
+      "target_name": "UNKNOWN_LEADER",
+      "organization_name": "Sample Motorcycle Club",
+      "organization_type": "RIDING_CLUB",
+      "leader_role": "PRESIDENT",
+      "country": "USA",
+      "region": "Georgia",
+      "country_tier": "TIER_1",
+      "public_url": null,
+      "social_url": null,
+      "contact_method": null,
+      "high_value_signals": [
+        "prospect_program",
+        "church_meetings",
+        "club_growth"
+      ],
+      "supporting_signals": [
+        "active_social_media"
+      ],
+      "why_target": [
+        "Leadership role has endorsement authority",
+        "Organization appears to support prospect or new-member education",
+        "Formal meeting structure indicates protocol and process alignment"
+      ],
+      "endorsement_likelihood": 85,
+      "bulk_order_potential": 77,
+      "member_purchase_multiplier": 87,
+      "propagation_score": 92,
+      "lead_temperature": "HOT",
+      "target_classification": "HIGH_PROPAGATION",
+      "outreach_status": "NOT_CONTACTED",
+      "notes": "Template row. Replace with real public target data.",
+      "_score_trace": {
+        "roleScore": 25,
+        "orgScore": 10,
+        "highSignalScore": 40,
+        "supportingSignalScore": 5,
+        "countryScore": 12,
+        "total": 92
+      }
+    }
+  ],
+  "warm_targets": []
+}

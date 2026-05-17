@@ -1,0 +1,35 @@
+﻿{
+  "contract_id": "L02_category_hostname_heuristics",
+  "version": "1.0.0",
+  "rules": {
+    "candidate_urls_are_not_verified": true,
+    "probe_required_before_activation": true,
+    "state_official_bias_required": true,
+    "blocked_targets_deferred": true,
+    "synthetic_promotion_allowed": false,
+    "l01_mutation_allowed": false,
+    "client_paths_touched": false
+  },
+  "category_patterns": {
+    "state_open_data_portals": [
+      "https://data.{state_domain}/",
+      "https://opendata.{state_domain}/",
+      "https://{state_code_lower}.opendata.arcgis.com/",
+      "https://{state_name_slug}.opendata.arcgis.com/"
+    ],
+    "state_emergency_management": [
+      "https://emergency.{state_domain}/",
+      "https://em.{state_domain}/",
+      "https://disaster.{state_domain}/",
+      "https://www.{state_domain}/emergency-management/",
+      "https://www.{state_domain}/emergency/"
+    ],
+    "state_police_public_safety": [
+      "https://dps.{state_domain}/",
+      "https://statepolice.{state_domain}/",
+      "https://troopers.{state_domain}/",
+      "https://highwaypatrol.{state_domain}/",
+      "https://www.{state_domain}/public-safety/"
+    ]
+  }
+}

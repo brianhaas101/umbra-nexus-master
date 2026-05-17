@@ -1,0 +1,28 @@
+{
+  "version": "black_dragon_nevada_single_city_plan_v1",
+  "generated_at": "2026-05-11T00:45:02.642Z",
+  "state": "Nevada",
+  "operational_city_sequence": [
+    {
+      "order": 1,
+      "city": "Las Vegas",
+      "role": "NEVADA_STATE_RUNTIME",
+      "reasoning": "Use only the Nevada city currently intended for Nexus map/runtime expansion."
+    }
+  ],
+  "blocked_city_candidates": [
+    {
+      "city": "Reno",
+      "reason": "Do not build until confirmed in current Nexus map system."
+    },
+    {
+      "city": "Henderson",
+      "reason": "Do not build until confirmed in current Nexus map system."
+    },
+    {
+      "city": "Sparks",
+      "reason": "Do not build until confirmed in current Nexus map system."
+    }
+  ],
+  "statewide_completion_target": "NEVADA_SINGLE_CITY_STATE_DEPLOYMENT_CERTIFICATION"
+}

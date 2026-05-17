@@ -1,0 +1,24 @@
+{
+  "version": "black_dragon_batch_111_repair_city_normalization_audit_v1",
+  "generated_at": "2026-05-10T18:26:26.167Z",
+  "repair": "BATCH_111_REPAIR_CITY_NORMALIZATION",
+  "counts": {
+    "seed_records": 1014,
+    "city_extracted": 580,
+    "unresolved_city_records": 434,
+    "normalized_city_buckets": 54,
+    "cities_at_or_above_20": 0,
+    "cities_needing_expansion": 54,
+    "expansion_tasks": 54,
+    "total_new_verified_targets_needed": 500
+  },
+  "gates": {
+    "seed_records_preserved": true,
+    "organization_not_equal_city_repaired": true,
+    "expansion_queue_matches_needing_expansion": true,
+    "target_goal_is_20": true,
+    "no_runtime_visibility_granted": true
+  },
+  "next_phase": "BATCH_112_TARGET_EXPANSION_SOURCE_RESOLUTION",
+  "status": "PASS"
+}

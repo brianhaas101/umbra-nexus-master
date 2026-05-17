@@ -1,0 +1,446 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    window.UMBRA_TEX_LON_OFFSET_DEG = 90;
+    console.log("[EARLY LOCK] TEX OFFSET =", window.UMBRA_TEX_LON_OFFSET_DEG);
+  </script>
+
+  <script>
+    window.UMBRA_CLIENT_KEY = "black_dragon";
+    console.log("[CLIENT LOCK] UMBRA_CLIENT_KEY =", window.UMBRA_CLIENT_KEY);
+  </script>
+
+  <meta charset="UTF-8" />
+  <title>UMBRA NEXUS â€” ROOT LIVE CHECK</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+
+  <script>
+    window.__UMBRA_BUILD__ = "FOUNDERV1_UI_ARCH_LOCK_DATA_V1";
+    console.log("[BUILD]", window.__UMBRA_BUILD__);
+  </script>
+
+  <link rel="stylesheet" href="/style.css?v=FOUNDERV1_UI_ARCH_LOCK_DATA_V1" />
+</head>
+
+<body>
+  <div class="app-shell" id="appShell">
+    <header class="top-bar">
+      <div class="top-brand">BLACK DRAGON NEXUS</div>
+
+      <div class="top-center">
+        <div class="nav-logo-wrap" aria-hidden="true"></div>
+
+        <nav id="mainNav" class="top-nav" aria-label="Primary">
+          <ul>
+            <li><button type="button" class="nav-link active" data-view="hub">UMBRA HUB</button></li>
+            <li><button type="button" class="nav-link" data-view="profile">PROFILE</button></li>
+            <li><button type="button" class="nav-link" data-view="account">ACCOUNT</button></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="top-spacer"></div>
+    </header>
+
+    <main class="main-layout hub-layout" id="uiRoot">
+      <section class="panel panel-left" id="leftNav" aria-label="Command Deck">
+        <div class="panel-section">
+          <div class="panel-header">COMMAND DECK</div>
+          <button class="btn-ghost" type="button" data-view="hub">ACCESS</button>
+          <button class="btn-ghost" type="button" data-view="profile">PROFILE</button>
+          <button class="btn-ghost" type="button" data-view="account">ACCOUNT</button>
+        </div>
+
+        <div class="panel-section">
+          <div class="panel-section-label">HUBS</div>
+          <div class="hub-list" id="hubNav">
+            <button type="button" class="hub-item active" data-hub-section="leads">Leads Engine</button>
+            <button type="button" class="hub-item" data-hub-section="clients">Clients</button>
+            <button type="button" class="hub-item" data-hub-section="operations">Operations</button>
+            <button type="button" class="hub-item" data-hub-section="safeguards">Safeguards</button>
+          </div>
+        </div>
+
+        <div class="panel-section">
+          <div class="panel-section-label">SYSTEM STATUS</div>
+          <div class="status-value" id="systemStatusValue">SECURE</div>
+        </div>
+
+        <div class="panel-section panel-section-hub-detail">
+          <div class="panel-section-label">ACTIVE MODULE</div>
+          <div class="hub-module-card" id="hubModuleCard">
+            <div class="hub-module-title" id="hubModuleTitle">Leads Engine</div>
+            <div class="hub-module-copy" id="hubModuleCopy">
+              City-first target acquisition, entity visibility, dossier access, and deterministic sequencing.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel-center" id="centerStage">
+        <div class="panel-header panel-header-center" id="centerPanelTitle">UMBRA HUB</div>
+
+        <div class="ui-view-stack">
+          <section class="ui-view is-active" id="viewHub" data-view-panel="hub" aria-label="Hub View">
+            <div class="globe-shell">
+              <div id="globeContainer" class="globe-container"></div>
+            </div>
+          </section>
+
+          <section class="ui-view" id="viewProfile" data-view-panel="profile" aria-label="Profile View" hidden>
+            <div class="content-view-card">
+              <div class="content-view-head">
+                <div class="content-view-title">Operator Profile</div>
+                <div class="content-view-sub">Identity, role, access posture, and operating context.</div>
+              </div>
+
+              <div class="content-grid">
+                <div class="content-stat-card">
+                  <div class="content-stat-label">Name</div>
+                  <input id="profileName" class="content-input" placeholder="Enter name" />
+                </div>
+
+                <div class="content-stat-card">
+                  <div class="content-stat-label">Email</div>
+                  <input id="profileEmail" class="content-input" placeholder="Enter email" />
+                </div>
+
+                <div class="content-stat-card">
+                  <div class="content-stat-label">Company</div>
+                  <input id="profileCompany" class="content-input" placeholder="Enter company" />
+                </div>
+
+                <div class="content-stat-card">
+                  <div class="content-stat-label">Role</div>
+                  <input id="profileRole" class="content-input" placeholder="Enter role" />
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="panel-section-label">Profile Notes</div>
+                <div class="content-copy">
+                  This page is a real UI destination and remains scene-independent. It does not mutate globe state or
+                  interaction state.
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="ui-view" id="viewAccount" data-view-panel="account" aria-label="Account View" hidden>
+            <div class="content-view-card">
+              <div class="content-view-head">
+                <div class="content-view-title">Account Control</div>
+                <div class="content-view-sub">Organization context, access posture, and operating shell controls.</div>
+              </div>
+
+              <div class="content-grid">
+                <div class="content-stat-card">
+                  <div class="content-stat-label">Workspace</div>
+                  <input id="accountWorkspace" class="content-input" placeholder="Enter workspace" />
+                </div>
+                <div class="content-stat-card">
+                  <div class="content-stat-label">License State</div>
+                  <input id="accountLicense" class="content-input" placeholder="Enter license state" />
+                </div>
+                <div class="content-stat-card">
+                  <div class="content-stat-label">Security</div>
+                  <input id="accountSecurity" class="content-input" placeholder="Enter security state" />
+                </div>
+                <div class="content-stat-card">
+                  <div class="content-stat-label">Routing</div>
+                  <input id="accountRouting" class="content-input" placeholder="Enter routing state" />
+                </div>
+              </div>
+
+              <div class="content-block">
+                <div class="panel-section-label">Account Notes</div>
+                <div class="content-copy">
+                  This page is a live destination for account-facing controls and can be expanded later without
+                  coupling UI state to scene state.
+                </div>
+              </div>
+
+              <div class="content-block client-config-panel" id="clientConfigPanel">
+  <div class="panel-section-label">Client Configuration</div>
+
+  <div class="client-config-grid">
+    <div class="client-config-item">
+      <div class="client-config-k">Industry</div>
+      <div class="client-config-v" id="clientConfigIndustry">â€”</div>
+    </div>
+
+    <div class="client-config-item">
+      <div class="client-config-k">Use Case</div>
+      <div class="client-config-v" id="clientConfigUseCase">â€”</div>
+    </div>
+
+    <div class="client-config-item">
+      <div class="client-config-k">Scope</div>
+      <div class="client-config-v" id="clientConfigScope">â€”</div>
+    </div>
+
+    <div class="client-config-item">
+      <div class="client-config-k">Target Types</div>
+      <div class="client-config-v" id="clientConfigTargets">â€”</div>
+    </div>
+
+    <div class="client-config-item">
+      <div class="client-config-k">Priority Signals</div>
+      <div class="client-config-v" id="clientConfigSignals">â€”</div>
+    </div>
+
+    <div class="client-config-item">
+      <div class="client-config-k">Primary Regions</div>
+      <div class="client-config-v" id="clientConfigRegions">â€”</div>
+    </div>
+  </div>
+  </div>
+
+              <div class="content-block admin-panel" id="adminPanel" hidden>
+                <div class="panel-section-label">Admin Control</div>
+
+               <div class="admin-controls">
+  <select id="userSelect" class="user-select" aria-label="User Management"></select>
+  <button id="userCreate" class="user-create" type="button" aria-label="Create user">+</button>
+</div>
+
+<div class="admin-client-config">
+  <div class="panel-section-label">Client Setup</div>
+
+  <div class="admin-client-row">
+    <select id="clientPresetSelect" class="user-select">
+      <option value="" disabled selected>Select Client Preset</option>
+      <option value="black_dragon">Black Dragon</option>
+    </select>
+
+    <button id="applyClientPreset" class="user-create" type="button">
+      Apply
+    </button>
+  </div>
+</div>
+
+<div class="content-copy">
+  Admin-only control panel. Manage users, switch contexts, and oversee system accounts.
+</div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <aside class="panel panel-right" id="rightPanel">
+        <div class="panel-header" id="rightPanelHeader">INTELLIGENCE PANEL</div>
+
+        <section class="context-view is-active" id="contextHub" data-context-view="hub">
+          <div class="telemetry-section">
+            <div class="telemetry-label">SYSTEM STATUS</div>
+            <div class="telemetry-value" id="telemetryStatus">STANDBY</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">MODE</div>
+            <div class="telemetry-value" id="telemetryMode">â€”</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">DATASET</div>
+            <div class="telemetry-value" id="telemetryDataset">â€”</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">SELECTION</div>
+            <div class="telemetry-value" id="telemetrySelection">â€”</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">REGION</div>
+            <div class="telemetry-value" id="telemetryRegion">â€”</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">COORDINATES</div>
+            <div class="telemetry-value" id="telemetryCoords">â€”</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">NODES</div>
+            <div class="telemetry-value" id="telemetryNodes">â€”</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">VECTORS</div>
+            <div class="telemetry-value" id="telemetryVectors">â€”</div>
+          </div>
+
+          <div class="panel-section dossier-panel" id="dossierPanel">
+            <div class="panel-section-label" id="leadPanelTitle">Lead Dossier</div>
+            <div class="dossier-body" id="leadContent">
+              <div class="dossier-wrap">
+                <div class="d-v">No selection.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="context-view" id="contextProfile" data-context-view="profile" hidden>
+          <div class="telemetry-section">
+            <div class="telemetry-label">PROFILE STATUS</div>
+            <div class="telemetry-value">Operator Context Active</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">ACCESS POSTURE</div>
+            <div class="telemetry-value">Client Operator</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">NOTES</div>
+            <div class="telemetry-value">
+              Profile is UI-only and does not change scene, math, or interaction state.
+            </div>
+          </div>
+        </section>
+
+        <section class="context-view" id="contextAccount" data-context-view="account" hidden>
+          <div class="telemetry-section">
+            <div class="telemetry-label">ACCOUNT STATUS</div>
+            <div class="telemetry-value">Workspace Ready</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">ROUTING</div>
+            <div class="telemetry-value">Locked View Authority</div>
+          </div>
+
+          <div class="telemetry-section">
+            <div class="telemetry-label">NOTES</div>
+            <div class="telemetry-value">
+              Account remains a UI destination and can expand later without affecting the scene graph.
+            </div>
+          </div>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <script src="/vendor/three.min.js"></script>
+
+  <!-- POST FX DEPENDENCIES -->
+  <script src="/vendor/postprocessing/Pass.js"></script>
+  <script src="/vendor/postprocessing/CopyShader.js"></script>
+  <script src="/vendor/postprocessing/LuminosityHighPassShader.js"></script>
+  <script src="/vendor/postprocessing/ShaderPass.js"></script>
+  <script src="/vendor/postprocessing/EffectComposer.js"></script>
+  <script src="/vendor/postprocessing/RenderPass.js"></script>
+  <script src="/vendor/postprocessing/UnrealBloomPass.js"></script>
+
+  <!-- CORE -->
+  <script src="/globe/core.js"></script>
+  <script src="/globe/postfx.js"></script>
+
+  <!-- PURE MODULES -->
+  <script src="/globe/textures.js"></script>
+  <script src="/globe/layers.js"></script>
+  <script src="/globe/shader_veins.js"></script>
+  <script src="/globe/sun_sheen.js"></script>
+  <script src="/globe/atmo_halo.js"></script>
+
+  <script src="/globe/umbra_data.v1.js"></script>
+  <script src="/globe/data_loader.js"></script>
+  <script src="/globe/scoring.v1.js"></script>
+
+  <script src="/globe/intel/registry.js"></script>
+  <script src="/globe/intel/pipeline.js"></script>
+  <script src="/globe/intel/adapters/private_primary.adapter.js"></script>
+
+  <!-- BASELINE INTELLIGENCE LAYERS -->
+  <script src="/globe/intel/layers/intelligence_layers.registry.js"></script>
+  <script src="/globe/intel/layers/source_catalog.v1.js"></script>
+  <script src="/globe/intel/layers/source_catalog.completion.v1.js"></script>
+  <script src="/globe/intel/layers/layer_weights.v1.js"></script>
+  <script src="/globe/intel/layers/layer_integrity.check.js"></script>
+  <script src="/globe/intel/layers/layer_score.engine.v1.js"></script>
+
+  <!-- SOURCE REGISTRIES -->
+  <script src="/globe/intel/sources/black_dragon_source_registry.loader.js"></script>
+  <script src="/globe/intel/sources/black_dragon_state_agency_directory_registry.loader.js"></script>
+
+  <!-- CLIENT PRESET: BLACK DRAGON -->
+<script src="/globe/intel/clients/black_dragon.intake.config.js"></script>
+<script src="/globe/intel/clients/black_dragon.signal_definitions.js"></script>
+<script src="/globe/intel/clients/black_dragon.lead_normalizer.js"></script>
+<script src="/globe/intel/clients/black_dragon.enrichment.adapter.js"></script>
+<script src="/globe/intel/clients/black_dragon.scoring.adapter.js"></script>
+<script src="/globe/intel/clients/black_dragon.pipeline.adapter.js"></script>
+<script src="/globe/intel/clients/black_dragon.dossier.adapter.js"></script>
+<script src="/globe/intel/clients/black_dragon.layer_bridge.js"></script>
+<script src="/globe/intel/clients/black_dragon.dossier_layer.enhancer.js"></script>
+
+<script src="/globe/intel/clients/black_dragon.processor.v1.js"></script>
+<script src="/globe/intel/clients/black_dragon.data_loader.js"></script>
+
+<script src="/globe/intel/clients/black_dragon.client_preset.bridge.js"></script>
+<script src="/globe/intel/clients/black_dragon.integrity.check.js"></script>
+
+  <script src="/globe/nodes.founder.v1.js"></script>
+  <script src="/globe/dossiers.js"></script>
+  <script src="/globe/telemetry.js"></script>
+  <script src="/globe/ui.js"></script>
+  <script src="/globe/client_config.v1.js"></script>
+  <script src="/globe/umbra_logo.js"></script>
+  <script src="/globe/integrity.js"></script>
+
+  <!-- CITY SYSTEM -->
+  <script src="/globe/city_tiles.js"></script>
+  <script src="/globe/city_loader.js"></script>
+  <script src="/globe/city_map.js"></script>
+  <script src="/globe/city_view.js"></script>
+
+  <!-- INTERACTION -->
+  <script src="/globe/interaction.js"></script>
+
+  <!-- INTELLIGENCE DEBUG + INTEGRATION (SAFE LAYER) -->
+  <script src="/globe/debug/city_map_validation.js"></script>
+  <script src="/globe/debug/law_enforcement_citymap_debug.js"></script>
+
+  <script src="/globe/integrations/law_enforcement_citymap_integration.js"></script>
+  <script src="/globe/integrations/law_enforcement_adapter.js"></script>
+  <script src="/globe/integrations/law_enforcement_dossier_renderer.js"></script>
+  <script src="/globe/integrations/law_enforcement_loader_example.js"></script>
+
+  <!-- SCENE ORCHESTRATOR -->
+  <script src="/scene.js"></script>
+  <script src="/globe/security/frontend_runtime_guard.js"></script>
+  <script src="/globe/security/ui_panel_security_hook.js"></script>
+  <script src="/globe/security/session_recovery_guard.js"></script>
+  <script src="/globe/security/dataset_access_guard.js"></script>
+  <script src="/globe/security/export_security_guard.js"></script>
+  <script src="/globe/clients/black_dragon/books/client_dashboard_renderer.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_selection_bus.js"></script>
+  <script src="/globe/clients/black_dragon/books/dossier_sync_runtime.js"></script>
+  <script src="/globe/clients/black_dragon/books/outreach_queue_ui.js"></script>
+  <script src="/globe/clients/black_dragon/books/outreach_queue_actions.js"></script>
+  <script src="/globe/clients/black_dragon/books/response_persistence_store.js"></script>
+  <script src="/globe/clients/black_dragon/books/response_logging_ui.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_map_nodes_runtime.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_citymap_renderer.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_cluster_renderer.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_path_renderer.js"></script>
+  <script src="/globe/clients/black_dragon/books/book_layer_controls.js"></script>
+  <script src="/globe/performance/adaptive_postfx_performance_mode.js"></script>
+  <script src="/globe/performance/movement_performance_mode.js"></script>
+  <script src="/globe/performance/postfx_resize_throttle.js"></script>
+  <script src="/globe/performance/render_stability_probe.js"></script>
+  <script src="/globe/command_deck_runtime.js"></script>
+  <script src="/globe/intelligence_panel_live_state.js"></script>
+  <script src="/globe/clients/black_dragon/books/response_workflow_runtime.js"></script>
+  <script src="/globe/security/access_control_runtime.js"></script>
+  <script src="/black_dragon_activity_tracker.v1.js"></script>
+</body>
+</html>
+

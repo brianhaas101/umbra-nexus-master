@@ -1,0 +1,62 @@
+{
+  "version": "black_dragon_multi_state_candidate_agencies_v1",
+  "generated_at": "2026-05-06T00:18:56.275Z",
+  "rule": "Candidate agencies only. No outreach-ready contacts are produced by this parser.",
+  "active_states": [
+    "CA",
+    "FL",
+    "GA",
+    "TX"
+  ],
+  "states": [
+    {
+      "state_code": "CA",
+      "state_name": "California",
+      "sources_checked": 1,
+      "sources_ok": 1,
+      "candidates_found": 0,
+      "errors": []
+    },
+    {
+      "state_code": "FL",
+      "state_name": "Florida",
+      "sources_checked": 1,
+      "sources_ok": 0,
+      "candidates_found": 0,
+      "errors": [
+        {
+          "source_url": "https://www.fdle.state.fl.us/contacts/agency-directory",
+          "error": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "state_code": "GA",
+      "state_name": "Georgia",
+      "sources_checked": 1,
+      "sources_ok": 0,
+      "candidates_found": 0,
+      "errors": [
+        {
+          "source_url": "https://gapost.org/agency-directory",
+          "error": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "state_code": "TX",
+      "state_name": "Texas",
+      "sources_checked": 1,
+      "sources_ok": 0,
+      "candidates_found": 0,
+      "errors": [
+        {
+          "source_url": "https://www.tcole.texas.gov/content/law-enforcement-agencies",
+          "error": "HTTP 404"
+        }
+      ]
+    }
+  ],
+  "candidates": [],
+  "total_candidates": 0
+}

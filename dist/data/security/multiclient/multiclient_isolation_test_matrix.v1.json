@@ -1,0 +1,28 @@
+{
+  "version": "umbra_multiclient_isolation_test_matrix_v1",
+
+  "clients": [
+    {
+      "client_id": "black_dragon",
+      "dataset_root": "public/data/clients/black_dragon",
+      "allowed_modules": [
+        "books",
+        "courses"
+      ]
+    },
+    {
+      "client_id": "test_client_shadow",
+      "dataset_root": "public/data/clients/test_client_shadow",
+      "allowed_modules": []
+    }
+  ],
+
+  "isolation_rules": {
+    "client_cannot_access_other_client_root": true,
+    "client_cannot_access_other_client_queue": true,
+    "client_cannot_access_other_client_responses": true,
+    "client_cannot_access_other_client_adaptive_priority": true,
+    "client_cannot_export_other_client_data": true,
+    "founder_can_validate_all_clients": true
+  }
+}

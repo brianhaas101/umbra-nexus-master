@@ -1,0 +1,167 @@
+{
+  "version": "black_dragon_books_operational_kpis_v1",
+  "generated_at": "2026-05-09T03:18:39.230Z",
+  "targets": [
+    {
+      "entity_id": "BD_BOOK_NORM_0001",
+      "organization_name": "Sample Motorcycle Club",
+      "projected_revenue": 0,
+      "propagation_score": 92,
+      "operational_priority": 92
+    },
+    {
+      "entity_id": "BD_BOOK_NORM_0002",
+      "organization_name": "Sample Motorcycle Council",
+      "projected_revenue": 0,
+      "propagation_score": 100,
+      "operational_priority": 100
+    },
+    {
+      "entity_id": "BD_BOOK_NORM_0003",
+      "organization_name": "Sample Motorcycle Ministry",
+      "projected_revenue": 0,
+      "propagation_score": 62,
+      "operational_priority": 62
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00001",
+      "organization_name": "Texas Confederation of Clubs and Independents",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00002",
+      "organization_name": "Bikers for Christ",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00003",
+      "organization_name": "Christian Motorcyclists Association",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00004",
+      "organization_name": "Widow Sons Masonic Riders Association",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00005",
+      "organization_name": "BACA International",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00006",
+      "organization_name": "American Motorcyclist Association",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00007",
+      "organization_name": "ABATE of Indiana",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00008",
+      "organization_name": "Iron Order Motorcycle Club",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00009",
+      "organization_name": "Combat Veterans Motorcycle Association",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00010",
+      "organization_name": "Nam Knights Motorcycle Club",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00011",
+      "organization_name": "ABATE of Florida",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00012",
+      "organization_name": "ABATE of Iowa",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00013",
+      "organization_name": "Bikers Against Child Abuse Arizona",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00014",
+      "organization_name": "Christian Motorcyclists Association Oklahoma",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00015",
+      "organization_name": "Vietnam Vets Legacy Vets MC",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00016",
+      "organization_name": "Blue Knights International",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00017",
+      "organization_name": "Law Tigers",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00018",
+      "organization_name": "National Coalition of Motorcyclists",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00019",
+      "organization_name": "Buffalo Soldiers Motorcycle Club",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00020",
+      "organization_name": "US Military Vets MC",
+      "projected_revenue": 0,
+      "propagation_score": 50,
+      "operational_priority": 50
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿{
+    "source_id":  "bja_grant_systems",
+    "layer_id":  "L01",
+    "source_name":  "BJA Funding and Awards",
+    "canonical_url":  "https://bja.ojp.gov/funding",
+    "authority_type":  "federal_public_source",
+    "access_method":  "public_portal",
+    "refresh_interval":  "weekly",
+    "failure_policy":  "fail_closed_no_synthetic_records",
+    "parser_script":  "public/intelligence/layers/L01_federal_intelligence/connectors/bja_grant_systems_connector.js",
+    "normalizer_script":  "public/intelligence/layers/L01_federal_intelligence/normalizers/bja_grant_systems_normalizer.js",
+    "entity_targets":  [
+                           "agency",
+                           "grant",
+                           "program",
+                           "federal_opportunity"
+                       ],
+    "score_targets":  [
+                          "authority_score",
+                          "grant_signal_score",
+                          "freshness_score"
+                      ],
+    "dossier_targets":  [
+                            "federal_sources",
+                            "federal_grants"
+                        ],
+    "authority_weight":  0.88,
+    "status":  "source_page_verified_funding_signals",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "last_refresh":  "2026-05-14T01:15:01.0266550Z",
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "black_dragon_coupling":  false
+}

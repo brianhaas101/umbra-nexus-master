@@ -1,0 +1,202 @@
+{
+  "layer_id": "L02",
+  "generated_at": "2026-05-07T23:42:58.642Z",
+  "completion_status": "COMPLETE",
+  "gates": {
+    "registry_15_sources": true,
+    "registry_fields_valid": true,
+    "connector_coverage_valid": true,
+    "evidence_lineage_valid": true,
+    "signals_valid": true,
+    "scoring_valid": true,
+    "layer_files_present": true
+  },
+  "counts": {
+    "sources": 15,
+    "evidence": 15,
+    "signals": 15,
+    "score_components": 15,
+    "layer_files": 9
+  },
+  "source_ids": [
+    "L02_SRC_001_STATE_POST_BOARDS",
+    "L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+    "L02_SRC_003_STATE_DOJ_PORTALS",
+    "L02_SRC_004_STATE_GRANT_OFFICES",
+    "L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+    "L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+    "L02_SRC_007_STATE_TRAINING_BULLETINS",
+    "L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+    "L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+    "L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+    "L02_SRC_011_STATE_FUSION_CENTERS",
+    "L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+    "L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+    "L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+    "L02_SRC_015_STATE_TASK_FORCE_NOTICES"
+  ],
+  "connector_coverage": [
+    {
+      "source_id": "L02_SRC_001_STATE_POST_BOARDS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_003_STATE_DOJ_PORTALS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_004_STATE_GRANT_OFFICES",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_011_STATE_FUSION_CENTERS",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "connector_files": [
+        "scripts/intelligence/complete_l02_source_registry.js",
+        "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    }
+  ],
+  "failures": {
+    "invalid_sources": [],
+    "missing_connector_coverage": [],
+    "invalid_evidence": [],
+    "invalid_signals": [],
+    "invalid_score_components": []
+  },
+  "deterministic_hashes": [
+    {
+      "file": "public/data/intelligence/audit/L02_state_integrity_audit.json",
+      "sha256": "858e4b69f73af994bdfabf6fc86507b86d31e2e4918d15c94e9f461799cbb846"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L02_state_normalization.registry.json",
+      "sha256": "6f70be5ad8c3c896a8327141cb00d76ad9d126f5fbbba1e5eb8e53932ac39768"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L02_STATE_INTELLIGENCE.normalized.json",
+      "sha256": "ee7e7b4dae759e01325e4d623ac20eb42ad5ef99fa634a73899cafb1a68d49f7"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L02_STATE_PUBLIC_SAFETY_INTELLIGENCE.normalized.json",
+      "sha256": "9751848240bba45c75f99780c223f9ec8441f741f250c39e0b728e53f59fa4e5"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L02_state_adapter_manifest.json",
+      "sha256": "006b639f9020ac9c22df0c90c6ac03f0b6cfec100528cab65eb331a1d698b33e"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L02_state_connector_coverage_manifest.json",
+      "sha256": "e3b5a24183a56f9c2c4c94aa0f6bb6af17c3e1225c0c06f52226f25c13557eee"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L02_state_scoring.registry.json",
+      "sha256": "6e46850639df1f2de784f6c0e42c6011cf67cfb1c4a868a4fb6e992aea667f79"
+    },
+    {
+      "file": "public/data/intelligence/sources/L02_state_intelligence.sources.json",
+      "sha256": "b769143b18c75d5573803625c73d585ac17e246680997cbcc47994f2d595de90"
+    },
+    {
+      "file": "public/data/intelligence/sources/L02_STATE_PUBLIC_SAFETY_INTELLIGENCE.sources.json",
+      "sha256": "1c3e15f9d264d7b21bbdf3a12b1bcd65a463b097e2d40123a72490b1617b4023"
+    }
+  ]
+}

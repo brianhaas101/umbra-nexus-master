@@ -1,0 +1,2412 @@
+{
+  "version": "black_dragon_source_discovery_promotions_v1_batch_070",
+  "generated_at": "2026-05-10T00:40:39.711Z",
+  "totals": {
+    "import_records": 0,
+    "promoted": 0,
+    "blocked": 600
+  },
+  "promoted_records": [],
+  "blocked_records": [
+    {
+      "entity_id": "BD_EDU_OP_00001",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00002",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00003",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00004",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00005",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00006",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00007",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00008",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00009",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00010",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00011",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00012",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00013",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00014",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00015",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00016",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00017",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00018",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00019",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00020",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00021",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00022",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00023",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00024",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00025",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00026",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00027",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00028",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00029",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00030",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00031",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00032",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00033",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00034",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00035",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00036",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00037",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00038",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00039",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00040",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00041",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00042",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00043",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00044",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00045",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00046",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00047",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00048",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00049",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00050",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00051",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00052",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00053",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00054",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00055",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00056",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00057",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00058",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00059",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00060",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00061",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00062",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00063",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00064",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00065",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00066",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00067",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00068",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00069",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00070",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00071",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00072",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00073",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00074",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00075",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00076",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00077",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00078",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00079",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00080",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00081",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00082",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00083",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00084",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00085",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00086",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00087",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00088",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00089",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00090",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00091",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00092",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00093",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00094",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00095",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00096",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00097",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00098",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00099",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00100",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00101",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00102",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00103",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00104",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00105",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00106",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00107",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00108",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00109",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00110",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00111",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00112",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00113",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00114",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00115",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00116",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00117",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00118",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00119",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00120",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00121",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00122",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00123",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00124",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00125",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00126",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00127",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00128",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00129",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00130",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00131",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00132",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00133",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00134",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00135",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00136",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00137",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00138",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00139",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00140",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00141",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00142",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00143",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00144",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00145",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00146",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00147",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00148",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00149",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00150",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00151",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00152",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00153",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00154",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00155",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00156",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00157",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00158",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00159",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00160",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00161",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00162",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00163",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00164",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00165",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00166",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00167",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00168",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00169",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00170",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00171",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00172",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00173",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00174",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00175",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00176",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00177",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00178",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00179",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00180",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00181",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00182",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00183",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00184",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00185",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00186",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00187",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00188",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00189",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00190",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00191",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00192",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00193",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00194",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00195",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00196",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00197",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00198",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00199",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00200",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00201",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00202",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00203",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00204",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00205",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00206",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00207",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00208",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00209",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00210",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00211",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00212",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00213",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00214",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00215",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00216",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00217",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00218",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00219",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00220",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00221",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00222",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00223",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00224",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00225",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00226",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00227",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00228",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00229",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00230",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00231",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00232",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00233",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00234",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00235",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00236",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00237",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00238",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00239",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00240",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00241",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00242",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00243",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00244",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00245",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00246",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00247",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00248",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00249",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00250",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00251",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00252",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00253",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00254",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00255",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00256",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00257",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00258",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00259",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00260",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00261",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00262",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00263",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00264",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00265",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00266",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00267",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00268",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00269",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00270",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00271",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00272",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00273",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00274",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00275",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00276",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00277",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00278",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00279",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00280",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00281",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00282",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00283",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00284",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00285",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00286",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00287",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00288",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00289",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00290",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00291",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00292",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00293",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00294",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00295",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00296",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00297",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00298",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00299",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00300",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00301",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00302",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00303",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00304",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00305",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00306",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00307",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00308",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00309",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00310",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00311",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00312",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00313",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00314",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00315",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00316",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00317",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00318",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00319",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00320",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00321",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00322",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00323",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00324",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00325",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00326",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00327",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00328",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00329",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00330",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00331",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00332",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00333",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00334",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00335",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00336",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00337",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00338",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00339",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00340",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00341",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00342",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00343",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00344",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00345",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00346",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00347",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00348",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00349",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00350",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00351",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00352",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00353",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00354",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00355",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00356",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00357",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00358",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00359",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00360",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00361",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00362",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00363",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00364",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00365",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00366",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00367",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00368",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00369",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00370",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00371",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00372",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00373",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00374",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00375",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00376",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00377",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00378",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00379",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00380",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00381",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00382",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00383",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00384",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00385",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00386",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00387",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00388",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00389",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00390",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00391",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00392",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00393",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00394",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00395",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00396",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00397",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00398",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00399",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00400",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00401",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00402",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00403",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00404",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00405",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00406",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00407",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00408",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00409",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00410",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00411",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00412",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00413",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00414",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00415",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00416",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00417",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00418",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00419",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00420",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00421",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00422",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00423",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00424",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00425",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00426",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00427",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00428",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00429",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00430",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00431",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00432",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00433",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00434",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00435",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00436",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00437",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00438",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00439",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00440",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00441",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00442",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00443",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00444",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00445",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00446",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00447",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00448",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00449",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00450",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00451",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00452",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00453",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00454",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00455",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00456",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00457",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00458",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00459",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00460",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00461",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00462",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00463",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00464",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00465",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00466",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00467",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00468",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00469",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00470",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00471",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00472",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00473",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00474",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00475",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00476",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00477",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00478",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00479",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00480",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00481",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00482",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00483",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00484",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00485",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00486",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00487",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00488",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00489",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00490",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00491",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00492",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00493",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00494",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00495",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00496",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00497",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00498",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00499",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00500",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00501",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00502",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00503",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00504",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00505",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00506",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00507",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00508",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00509",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00510",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00511",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00512",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00513",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00514",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00515",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00516",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00517",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00518",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00519",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00520",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00521",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00522",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00523",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00524",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00525",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00526",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00527",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00528",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00529",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00530",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00531",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00532",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00533",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00534",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00535",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00536",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00537",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00538",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00539",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00540",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00541",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00542",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00543",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00544",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00545",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00546",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00547",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00548",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00549",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00550",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00551",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00552",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00553",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00554",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00555",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00556",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00557",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00558",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00559",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00560",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00561",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00562",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00563",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00564",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00565",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00566",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00567",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00568",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00569",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00570",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00571",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00572",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00573",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00574",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00575",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00576",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00577",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00578",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00579",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00580",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00581",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00582",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00583",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00584",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00585",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00586",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00587",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00588",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00589",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00590",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00591",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00592",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00593",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00594",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00595",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00596",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00597",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00598",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00599",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    },
+    {
+      "entity_id": "BD_EDU_OP_00600",
+      "reason": "NO_VERIFIED_IMPORT_RECORD"
+    }
+  ]
+}

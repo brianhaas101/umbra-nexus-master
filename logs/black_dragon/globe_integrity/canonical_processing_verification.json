@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-05-12T06:57:14.3200289Z",
+  "purpose": "canonical_city_processing_verification",
+  "canonical_cities": 116,
+  "processed_cities": 116,
+  "unprocessed_cities": 0,
+  "gate_status": "pass_all_canonical_cities_processed",
+  "unprocessed": [],
+  "reports": {
+    "csv": ".\\logs\\black_dragon\\globe_integrity\\canonical_processing_verification.csv",
+    "json": ".\\logs\\black_dragon\\globe_integrity\\canonical_processing_verification.json"
+  }
+}

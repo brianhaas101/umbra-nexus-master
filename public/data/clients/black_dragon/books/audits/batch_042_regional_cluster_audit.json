@@ -1,0 +1,25 @@
+{
+  "version": "black_dragon_books_batch_042_regional_cluster_audit_v1",
+  "generated_at": "2026-05-09T18:23:58.214Z",
+  "data_integrity": {
+    "clusters_exist": true,
+    "target_total_positive": true,
+    "every_cluster_has_region": true,
+    "every_cluster_has_coords": true,
+    "every_cluster_has_entities": true
+  },
+  "renderer_integrity": {
+    "renderer_global": true,
+    "has_load": true,
+    "has_mount": true,
+    "has_cluster_mesh": true,
+    "has_scene_resolver": true,
+    "has_debug_state": true,
+    "marks_cluster_userdata": true
+  },
+  "injection_integrity": {
+    "entrypoints_checked": true,
+    "injected_everywhere": true
+  },
+  "pass": true
+}

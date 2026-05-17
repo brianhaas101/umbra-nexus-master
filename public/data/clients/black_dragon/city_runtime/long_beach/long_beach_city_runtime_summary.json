@@ -1,0 +1,139 @@
+{
+  "version": "black_dragon_long_beach_city_runtime_summary_v1",
+  "generated_at": "2026-05-10T19:12:15.476Z",
+  "city": "Long Beach",
+  "state": "CA",
+  "totals": {
+    "raw_layer_rows": 80,
+    "deduped_city_entities": 63,
+    "city_dossiers": 63,
+    "map_nodes": 63,
+    "hot": 11,
+    "warm": 35,
+    "review": 17,
+    "contact_ready": 0
+  },
+  "top_10": [
+    {
+      "rank": 1,
+      "organization_name": "Born-Free Motorcycle Show",
+      "priority_tier": "HOT",
+      "best_score": 9.52,
+      "source_layer_count": 4,
+      "source_layers": [
+        "EVENT_MEDIA",
+        "BULK_ORDER",
+        "ONLINE_DISTRIBUTION",
+        "CONVERSION_STRATEGY"
+      ]
+    },
+    {
+      "rank": 2,
+      "organization_name": "Combat Veterans Motorcycle Association Chapter 33-12",
+      "priority_tier": "HOT",
+      "best_score": 9.34,
+      "source_layer_count": 3,
+      "source_layers": [
+        "RIDER_COMMUNITY_ORG",
+        "BULK_ORDER",
+        "CONVERSION_STRATEGY"
+      ]
+    },
+    {
+      "rank": 3,
+      "organization_name": "Harley-Davidson of Long Beach",
+      "priority_tier": "HOT",
+      "best_score": 9.31,
+      "source_layer_count": 2,
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL",
+        "CONVERSION_STRATEGY"
+      ]
+    },
+    {
+      "rank": 4,
+      "organization_name": "Biker Trash Network",
+      "priority_tier": "HOT",
+      "best_score": 9.2,
+      "source_layer_count": 3,
+      "source_layers": [
+        "EVENT_MEDIA",
+        "ONLINE_DISTRIBUTION",
+        "CONVERSION_STRATEGY"
+      ]
+    },
+    {
+      "rank": 5,
+      "organization_name": "Hot Bike Magazine",
+      "priority_tier": "HOT",
+      "best_score": 9.08,
+      "source_layer_count": 3,
+      "source_layers": [
+        "EVENT_MEDIA",
+        "ONLINE_DISTRIBUTION",
+        "CONVERSION_STRATEGY"
+      ]
+    },
+    {
+      "rank": 6,
+      "organization_name": "Roland Sands Design",
+      "priority_tier": "HOT",
+      "best_score": 9.04,
+      "source_layer_count": 1,
+      "source_layers": [
+        "RETAIL_PHYSICAL_CHANNEL"
+      ]
+    },
+    {
+      "rank": 7,
+      "organization_name": "Cycle Source Magazine",
+      "priority_tier": "HOT",
+      "best_score": 8.99,
+      "source_layer_count": 4,
+      "source_layers": [
+        "EVENT_MEDIA",
+        "BULK_ORDER",
+        "ONLINE_DISTRIBUTION",
+        "CONVERSION_STRATEGY"
+      ]
+    },
+    {
+      "rank": 8,
+      "organization_name": "IMS Outdoors Long Beach",
+      "priority_tier": "HOT",
+      "best_score": 8.95,
+      "source_layer_count": 1,
+      "source_layers": [
+        "EVENT_MEDIA"
+      ]
+    },
+    {
+      "rank": 9,
+      "organization_name": "Southern California Motorcycling Association",
+      "priority_tier": "HOT",
+      "best_score": 8.84,
+      "source_layer_count": 2,
+      "source_layers": [
+        "CLUB_ASSOCIATION",
+        "BULK_ORDER"
+      ]
+    },
+    {
+      "rank": 10,
+      "organization_name": "Warrior Brotherhood MC Leadership",
+      "priority_tier": "HOT",
+      "best_score": 8.82,
+      "source_layer_count": 1,
+      "source_layers": [
+        "BULK_ORDER"
+      ]
+    }
+  ],
+  "usage_state": {
+    "client_can_view_on_city_map": true,
+    "client_can_open_dossiers": true,
+    "client_can_mark_for_review": true,
+    "client_can_contact_now": false,
+    "automated_outreach_allowed": false
+  }
+}

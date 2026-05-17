@@ -1,0 +1,14 @@
+﻿[
+  {
+    "city": "Washington",
+    "gis": "https://opendata.dc.gov/",
+    "open_data": "https://opendata.dc.gov/",
+    "police": "https://mpdc.dc.gov/",
+    "fire": "https://fems.dc.gov/",
+    "parks": "https://dpr.dc.gov/",
+    "permits": "https://dob.dc.gov/",
+    "public_works": "https://dpw.dc.gov/",
+    "schools": "https://dcps.dc.gov/",
+    "council": "https://dccouncil.gov/"
+  }
+]

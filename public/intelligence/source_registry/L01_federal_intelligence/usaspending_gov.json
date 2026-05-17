@@ -1,0 +1,39 @@
+﻿{
+    "source_id":  "usaspending_gov",
+    "layer_id":  "L01",
+    "source_name":  "USAspending.gov",
+    "canonical_url":  "https://api.usaspending.gov/",
+    "authority_type":  "federal_public_source",
+    "access_method":  "api",
+    "refresh_interval":  "daily",
+    "failure_policy":  "fail_closed_no_synthetic_records",
+    "parser_script":  "public/intelligence/layers/L01_federal_intelligence/connectors/usaspending_gov_connector.js",
+    "normalizer_script":  "public/intelligence/layers/L01_federal_intelligence/normalizers/usaspending_gov_normalizer.js",
+    "entity_targets":  [
+                           "agency",
+                           "award",
+                           "contract",
+                           "grant",
+                           "recipient"
+                       ],
+    "score_targets":  [
+                          "authority_score",
+                          "procurement_signal_score",
+                          "grant_signal_score",
+                          "freshness_score"
+                      ],
+    "dossier_targets":  [
+                            "federal_sources",
+                            "federal_contracts",
+                            "federal_grants",
+                            "federal_procurement_context"
+                        ],
+    "authority_weight":  0.96,
+    "status":  "live_connector_verified",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "last_refresh":  "2026-05-14T01:35:49.9970492Z",
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "black_dragon_coupling":  false
+}

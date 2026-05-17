@@ -1,0 +1,296 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:10.378Z",
+  "layer_id": "L02",
+  "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "CA",
+  "source_type": "STATE_GRANTS",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "California Grants Portal",
+        "href": "https://www.grants.ca.gov/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Find Grants",
+        "href": "https://www.grants.ca.gov/?s",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Overview",
+        "href": "https://www.grants.ca.gov/about-this-site/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Statistics Dashboard",
+        "href": "https://www.grants.ca.gov/statistics-dashboard/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Annual Reports",
+        "href": "https://www.grants.ca.gov/legislative-annual-reports/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "FAQ",
+        "href": "https://www.grants.ca.gov/faq/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Glossary",
+        "href": "https://www.grants.ca.gov/glossary/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Grant Data Submission",
+        "href": "https://www.grants.ca.gov/for-state-agencies/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Subscribe",
+        "href": "https://www.grants.ca.gov/subscribe-to-updates/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://www.grants.ca.gov",
+        "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753",
+        "parser_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "News",
+        "href": "https://www.grants.ca.gov/news/",
+        "record_type": "state_grants_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_001",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_002",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_003",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_004",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_005",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_006",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_007",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_008",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_009",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SIGNAL_010",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_001",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_002",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_003",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_004",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_005",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_006",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_007",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_008",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_009",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_003_STATE_GRANTS_SCORE_010",
+      "score_delta": 7,
+      "confidence": 0.88
+    }
+  ],
+  "normalized_snapshot_hash": "65b13d78dff1d86e371e10a274f269047b4e63ebe2acc9ca63229b689f141a90"
+}

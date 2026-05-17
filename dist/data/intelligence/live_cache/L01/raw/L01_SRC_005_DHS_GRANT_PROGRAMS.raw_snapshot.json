@@ -1,0 +1,65 @@
+{
+  "version": "nexus_live_raw_snapshot_v1",
+  "captured_at": "2026-05-08T23:35:29.594Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_005_DHS_GRANT_PROGRAMS",
+  "connector_id": "L01_LIVE_CONNECTOR_005_L01_SRC_005_DHS_GRANT_PROGRAMS",
+  "source_name": "DHS Grant Programs",
+  "acquisition_mode": "public_html",
+  "endpoint": "https://www.dhs.gov/grants",
+  "request": {
+    "method": "GET",
+    "purpose": "dhs_homeland_security_grants_live_page_fetch"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 330878,
+    "extracted_links": [
+      {
+        "href": "/topics/secretary-homeland-security",
+        "label": "Secretary Markwayne Mullin"
+      },
+      {
+        "href": "/topics/border-security",
+        "label": "Border Security"
+      },
+      {
+        "href": "/topics/cybersecurity",
+        "label": "Cybersecurity"
+      },
+      {
+        "href": "/topics/election-security",
+        "label": "Election Security"
+      },
+      {
+        "href": "/topics/homeland-security-enterprise",
+        "label": "Homeland Security Enterprise"
+      },
+      {
+        "href": "/dhs-financial-assistance",
+        "label": "Financial Assistance"
+      },
+      {
+        "href": "https://www.ice.gov/about-ice/hsi",
+        "label": "Homeland Security Investigations"
+      },
+      {
+        "href": "/veterans-and-homeland-security",
+        "label": "Veterans and Homeland Security"
+      },
+      {
+        "href": "/topics/trade-and-economic-security",
+        "label": "Trade and Economic Security"
+      },
+      {
+        "href": "/topics/transportation-security",
+        "label": "Transportation Security"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "source_hash": "a2a89f9eecee9e7c2d68d6bb1a2e38c9caa66212382ab799588e2e3468c24832"
+}

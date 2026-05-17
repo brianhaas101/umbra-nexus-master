@@ -1,0 +1,13 @@
+
+Path                                                                               Status Type                       Bytes  Html
+----                                                                               ------ ----                       -----  ----
+/                                                                                     200 text/html                  19939  True
+/client_setup_black_dragon.html                                                       200 text/html; charset=utf-8    2042  True
+/scene.js                                                                             200 text/javascript            24422 False
+/globe/umbra_data.v1.js                                                               200 text/javascript            16235 False
+/data/clients/black_dragon/black_dragon_pass4_outreach_enabled.json                   200 application/json         1937965 False
+/data/clients/black_dragon/books/map/runtime/book_citymap_nodes.v1.json               200 application/json         1360797 False
+/data/clients/black_dragon/books/dashboard/client_operator_dashboard.v1.json          200 application/json           16853 False
+/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json                   200 application/json         1735011 False
+/data/clients/black_dragon/books/responses/classified/classified_responses.v1.json    200 application/json            1215 False
+

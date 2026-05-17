@@ -1,0 +1,34 @@
+{
+    "version":  "black_dragon_tucson_legacy_role_manifest_v1",
+    "generated_at":  "2026-05-11T04:20:50.6780597Z",
+    "city":  {
+                 "city":  "Tucson",
+                 "folder":  "tucson",
+                 "state":  "Arizona",
+                 "state_code":  "AZ",
+                 "city_id":  "city_tucson_az"
+             },
+    "legacy_source":  {
+                          "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson",
+                          "preserved_read_only":  true
+                      },
+    "long_beach_equivalent_roles":  {
+                                        "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\audit\\batch_163_tucson_template_initialization_audit.json",
+                                        "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\dossiers\\tucson_runtime_dossiers.json",
+                                        "runtime_summary":  null,
+                                        "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\map_nodes\\tucson_runtime_map_nodes.json",
+                                        "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\merged\\tucson_merged_city_entities.json"
+                                    },
+    "intelligence_density_snapshot":  {
+                                          "organization_name_hits":  10,
+                                          "relationship_hits":  0,
+                                          "rank_hits":  50
+                                      },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

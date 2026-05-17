@@ -1,0 +1,328 @@
+{
+    "version":  "black_dragon_long_beach_final_verified_ingestion_contract_v1",
+    "generated_at":  "2026-05-11T05:13:44.8286917Z",
+    "wave_id":  "tier2_wave_3",
+    "city":  "Long Beach Final",
+    "folder":  "long_beach_final",
+    "state":  "California",
+    "state_code":  "CA",
+    "city_id":  "city_long_beach_final_ca",
+    "long_beach_equivalence_rule":  {
+                                        "replicate_category_coverage":  true,
+                                        "replicate_source_quality":  true,
+                                        "replicate_dossier_depth":  true,
+                                        "replicate_geospatial_mapping":  true,
+                                        "replicate_relationship_graph_depth":  true,
+                                        "do_not_copy_long_beach_entities":  true,
+                                        "all_entities_must_be_city_specific":  true
+                                    },
+    "contact_policy":  {
+                           "organization_level_contacts_allowed":  true,
+                           "public_role_contacts_allowed":  true,
+                           "private_person_targets_allowed":  false,
+                           "inferred_contacts_allowed":  false,
+                           "scraped_personal_contacts_allowed":  false,
+                           "placeholder_contacts_allowed":  false,
+                           "sales_ready_without_manual_review":  false,
+                           "manual_review_required_before_any_contact":  true
+                       },
+    "entity_acceptance_gate":  {
+                                   "source_url_required":  true,
+                                   "public_source_required":  true,
+                                   "city_match_required":  true,
+                                   "category_match_required":  true,
+                                   "organization_identity_required":  true,
+                                   "confidence_score_required":  true,
+                                   "provenance_chain_required":  true,
+                                   "no_placeholder_entities":  true,
+                                   "no_false_targets":  true
+                               },
+    "category_queues":  [
+                            {
+                                "category":  "motorcycle_dealerships",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" motorcycle dealership",
+                                                       "\"Long Beach Final\" Harley-Davidson dealer",
+                                                       "\"Long Beach Final\" motorcycle sales"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "motorcycle_repair_and_parts",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" motorcycle repair",
+                                                       "\"Long Beach Final\" motorcycle parts",
+                                                       "\"Long Beach Final\" motorcycle accessories"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "riding_clubs",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" motorcycle riding club",
+                                                       "\"Long Beach Final\" riders association",
+                                                       "\"Long Beach Final\" motorcycle group"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "rider_training_schools",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" motorcycle safety course",
+                                                       "\"Long Beach Final\" rider training",
+                                                       "\"Long Beach Final\" motorcycle training school"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "community_groups",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" community organizations",
+                                                       "\"Long Beach Final\" local community groups",
+                                                       "\"Long Beach Final\" neighborhood associations"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "event_venues",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" event venues",
+                                                       "\"Long Beach Final\" motorcycle events",
+                                                       "\"Long Beach Final\" community event venue"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "educational_institutes",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" colleges",
+                                                       "\"Long Beach Final\" technical schools",
+                                                       "\"Long Beach Final\" adult education"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_media_groups",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" local newspaper",
+                                                       "\"Long Beach Final\" local radio station",
+                                                       "\"Long Beach Final\" local media outlet"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "business_associations",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" chamber of commerce",
+                                                       "\"Long Beach Final\" business association",
+                                                       "\"Long Beach Final\" small business network"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "civic_organizations",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" civic organizations",
+                                                       "\"Long Beach Final\" public agencies directory",
+                                                       "\"Long Beach Final\" city services directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "public_safety_public_directories",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" police department public directory",
+                                                       "\"Long Beach Final\" fire department public directory",
+                                                       "\"Long Beach Final\" emergency management public directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "lawful_sporting_or_firearms_organizations",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" lawful sporting club",
+                                                       "\"Long Beach Final\" shooting sports organization",
+                                                       "\"Long Beach Final\" firearms training organization public"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "charity_nonprofit_groups",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" nonprofit organizations",
+                                                       "\"Long Beach Final\" charities",
+                                                       "\"Long Beach Final\" community nonprofit"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_influencer_or_creator_media",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" local creators",
+                                                       "\"Long Beach Final\" local podcast",
+                                                       "\"Long Beach Final\" community media"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "regional_geospatial_anchors",
+                                "search_queries":  [
+                                                       "\"Long Beach Final\" landmarks",
+                                                       "\"Long Beach Final\" districts",
+                                                       "\"Long Beach Final\" transportation hubs"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            }
+                        ],
+    "status":  "READY_FOR_VERIFIED_SOURCE_INGESTION"
+}

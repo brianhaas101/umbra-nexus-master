@@ -1,0 +1,19 @@
+{
+  "name": "nexus",
+  "version": "1.0.0",
+  "description": "Umbra Nexus is the interactive mission-control environment for the Umbra system. It visualizes lead data and activity intelligence through an elegant, cinematic, Forerunner-style interface.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "vite": "^5.4.0"
+  }
+}

@@ -1,0 +1,305 @@
+{
+    "version":  "black_dragon_long_beach_verified_source_discovery_queue_v1",
+    "generated_at":  "2026-05-11T05:13:44.7726915Z",
+    "wave_id":  "tier2_wave_3",
+    "city":  "Long Beach",
+    "folder":  "long_beach",
+    "state":  "California",
+    "state_code":  "CA",
+    "city_id":  "city_long_beach_ca",
+    "category_queues":  [
+                            {
+                                "category":  "motorcycle_dealerships",
+                                "search_queries":  [
+                                                       "\"Long Beach\" motorcycle dealership",
+                                                       "\"Long Beach\" Harley-Davidson dealer",
+                                                       "\"Long Beach\" motorcycle sales"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "motorcycle_repair_and_parts",
+                                "search_queries":  [
+                                                       "\"Long Beach\" motorcycle repair",
+                                                       "\"Long Beach\" motorcycle parts",
+                                                       "\"Long Beach\" motorcycle accessories"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "riding_clubs",
+                                "search_queries":  [
+                                                       "\"Long Beach\" motorcycle riding club",
+                                                       "\"Long Beach\" riders association",
+                                                       "\"Long Beach\" motorcycle group"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "rider_training_schools",
+                                "search_queries":  [
+                                                       "\"Long Beach\" motorcycle safety course",
+                                                       "\"Long Beach\" rider training",
+                                                       "\"Long Beach\" motorcycle training school"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "community_groups",
+                                "search_queries":  [
+                                                       "\"Long Beach\" community organizations",
+                                                       "\"Long Beach\" local community groups",
+                                                       "\"Long Beach\" neighborhood associations"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "event_venues",
+                                "search_queries":  [
+                                                       "\"Long Beach\" event venues",
+                                                       "\"Long Beach\" motorcycle events",
+                                                       "\"Long Beach\" community event venue"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "educational_institutes",
+                                "search_queries":  [
+                                                       "\"Long Beach\" colleges",
+                                                       "\"Long Beach\" technical schools",
+                                                       "\"Long Beach\" adult education"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_media_groups",
+                                "search_queries":  [
+                                                       "\"Long Beach\" local newspaper",
+                                                       "\"Long Beach\" local radio station",
+                                                       "\"Long Beach\" local media outlet"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "business_associations",
+                                "search_queries":  [
+                                                       "\"Long Beach\" chamber of commerce",
+                                                       "\"Long Beach\" business association",
+                                                       "\"Long Beach\" small business network"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "civic_organizations",
+                                "search_queries":  [
+                                                       "\"Long Beach\" civic organizations",
+                                                       "\"Long Beach\" public agencies directory",
+                                                       "\"Long Beach\" city services directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "public_safety_public_directories",
+                                "search_queries":  [
+                                                       "\"Long Beach\" police department public directory",
+                                                       "\"Long Beach\" fire department public directory",
+                                                       "\"Long Beach\" emergency management public directory"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "lawful_sporting_or_firearms_organizations",
+                                "search_queries":  [
+                                                       "\"Long Beach\" lawful sporting club",
+                                                       "\"Long Beach\" shooting sports organization",
+                                                       "\"Long Beach\" firearms training organization public"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "charity_nonprofit_groups",
+                                "search_queries":  [
+                                                       "\"Long Beach\" nonprofit organizations",
+                                                       "\"Long Beach\" charities",
+                                                       "\"Long Beach\" community nonprofit"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "local_influencer_or_creator_media",
+                                "search_queries":  [
+                                                       "\"Long Beach\" local creators",
+                                                       "\"Long Beach\" local podcast",
+                                                       "\"Long Beach\" community media"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            },
+                            {
+                                "category":  "regional_geospatial_anchors",
+                                "search_queries":  [
+                                                       "\"Long Beach\" landmarks",
+                                                       "\"Long Beach\" districts",
+                                                       "\"Long Beach\" transportation hubs"
+                                                   ],
+                                "acceptance_required":  {
+                                                            "public_source_required":  true,
+                                                            "organization_identity_required":  true,
+                                                            "city_match_required":  true,
+                                                            "source_url_required":  true,
+                                                            "confidence_score_required":  true,
+                                                            "no_placeholder_entities":  true,
+                                                            "no_private_individual_targets":  true,
+                                                            "manual_review_before_contact":  true
+                                                        },
+                                "status":  "READY_FOR_VERIFIED_SOURCE_DISCOVERY"
+                            }
+                        ],
+    "controls":  {
+                     "no_entity_promotion":  true,
+                     "no_contact_enablement":  true,
+                     "no_placeholder_targets":  true,
+                     "verified_source_required":  true,
+                     "manual_review_required":  true
+                 },
+    "status":  "SOURCE_DISCOVERY_QUEUE_READY"
+}

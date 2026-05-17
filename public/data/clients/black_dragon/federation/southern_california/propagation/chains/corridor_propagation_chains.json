@@ -1,0 +1,1137 @@
+{
+  "version": "black_dragon_southern_california_corridor_propagation_chains_v1",
+  "generated_at": "2026-05-10T22:25:56.123Z",
+  "chain_count": 70,
+  "chains": [
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00001",
+      "root_organization": "Born-Free Motorcycle Show",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach",
+        "San Diego"
+      ],
+      "city_span": 2,
+      "regional_score": 10.52,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00002",
+      "root_organization": "Born-Free Motorcycle Show",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "Long Beach",
+        "San Diego"
+      ],
+      "city_span": 2,
+      "regional_score": 10.27,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00003",
+      "root_organization": "Roland Sands Design",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach",
+        "Los Angeles"
+      ],
+      "city_span": 2,
+      "regional_score": 10.04,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00004",
+      "root_organization": "Biltwell Inc.",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "Los Angeles",
+        "San Diego"
+      ],
+      "city_span": 2,
+      "regional_score": 9.96,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00005",
+      "root_organization": "Bike Shed Moto Co Los Angeles",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Long Beach",
+        "Los Angeles"
+      ],
+      "city_span": 2,
+      "regional_score": 9.89,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00006",
+      "root_organization": "Roland Sands Design",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Long Beach",
+        "Los Angeles"
+      ],
+      "city_span": 2,
+      "regional_score": 9.85,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00007",
+      "root_organization": "Combat Veterans Motorcycle Association Chapter 33-12",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.84,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00008",
+      "root_organization": "Harley-Davidson of Long Beach",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.81,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00009",
+      "root_organization": "Bike Shed Moto Co Los Angeles",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach",
+        "Los Angeles"
+      ],
+      "city_span": 2,
+      "regional_score": 9.76,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00010",
+      "root_organization": "Biker Trash Network",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.7,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00011",
+      "root_organization": "Biltwell Inc.",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Los Angeles",
+        "San Diego"
+      ],
+      "city_span": 2,
+      "regional_score": 9.69,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00012",
+      "root_organization": "Law Tigers California",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "Long Beach",
+        "San Diego"
+      ],
+      "city_span": 2,
+      "regional_score": 9.59,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00013",
+      "root_organization": "Hot Bike Magazine",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.58,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00014",
+      "root_organization": "Born-Free Motorcycle Show Los Angeles Community",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Los Angeles"
+      ],
+      "city_span": 1,
+      "regional_score": 9.5,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "HIGH",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00015",
+      "root_organization": "Cycle Source Magazine",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.49,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00016",
+      "root_organization": "Bartels' Harley-Davidson",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Los Angeles"
+      ],
+      "city_span": 1,
+      "regional_score": 9.46,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00017",
+      "root_organization": "IMS Outdoors Long Beach",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.45,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00018",
+      "root_organization": "Biltwell YouTube Community",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.4,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00019",
+      "root_organization": "ChopCult Community",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.4,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00020",
+      "root_organization": "Law Tigers California",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach",
+        "San Diego"
+      ],
+      "city_span": 2,
+      "regional_score": 9.38,
+      "propagation_chain_type": "CROSS_CITY_PROPAGATION_CHAIN",
+      "recommended_strategy": "REGIONAL_MANUAL_REVIEW_PRIORITY",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00021",
+      "root_organization": "Southern California Motorcycling Association",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.34,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00022",
+      "root_organization": "Warrior Brotherhood MC Leadership",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.32,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00023",
+      "root_organization": "Biggs Harley-Davidson",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "San Diego"
+      ],
+      "city_span": 1,
+      "regional_score": 9.26,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00024",
+      "root_organization": "Deus Ex Machina Los Angeles",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Los Angeles"
+      ],
+      "city_span": 1,
+      "regional_score": 9.22,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00025",
+      "root_organization": "Veterans Motorcycle Association San Diego",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "San Diego"
+      ],
+      "city_span": 1,
+      "regional_score": 9.21,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00026",
+      "root_organization": "Dice Magazine",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.2,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00027",
+      "root_organization": "San Diego Harley Owners Group",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "San Diego"
+      ],
+      "city_span": 1,
+      "regional_score": 9.18,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00028",
+      "root_organization": "Patriot Guard Riders",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.15,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00029",
+      "root_organization": "Lowbrow Customs Garage Podcast",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.15,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00030",
+      "root_organization": "CycleDrag Motorcycle YouTube",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.15,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00031",
+      "root_organization": "Long Beach BMW Motorcycles",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.13,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00032",
+      "root_organization": "San Diego Vintage Motorcycle Swap Meet",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "San Diego"
+      ],
+      "city_span": 1,
+      "regional_score": 9.11,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00033",
+      "root_organization": "Love Ride Foundation Network",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.1,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00034",
+      "root_organization": "ChopCult Los Angeles Community",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Los Angeles"
+      ],
+      "city_span": 1,
+      "regional_score": 9.09,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00035",
+      "root_organization": "Long Beach BMW Motorcycles Local Riding Groups",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.05,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00036",
+      "root_organization": "Huntington Beach Harley-Davidson Events",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.05,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00037",
+      "root_organization": "Long Beach Motorcycle Swap Meet Network",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.03,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00038",
+      "root_organization": "The Fast Life Garage",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.03,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00039",
+      "root_organization": "The Congregation Show",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Los Angeles"
+      ],
+      "city_span": 1,
+      "regional_score": 9.03,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00040",
+      "root_organization": "Long Beach BMW Riding Groups",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9.01,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00041",
+      "root_organization": "San Diego Custom Bike Show",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "San Diego"
+      ],
+      "city_span": 1,
+      "regional_score": 9.01,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00042",
+      "root_organization": "The Cycle Fish California Online Events",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 9,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00043",
+      "root_organization": "Warrior Brotherhood Motorcycle Club",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.97,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00044",
+      "root_organization": "J&S Custom Cycles",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.96,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00045",
+      "root_organization": "Combat Veterans Motorcycle Association CA 33-10",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.95,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00046",
+      "root_organization": "The Cycle Fish California Events",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.95,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00047",
+      "root_organization": "West Coast Thunder Foundation Ride",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.91,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00048",
+      "root_organization": "Long Beach BMW Riding Community Organizers",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.9,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00049",
+      "root_organization": "Bikers Against Child Abuse California",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.88,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00050",
+      "root_organization": "Del Amo Motorsports Long Beach",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.81,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00051",
+      "root_organization": "SoCal Cruisers Meetup",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.8,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00052",
+      "root_organization": "BMW Club of Southern California",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.75,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00053",
+      "root_organization": "Meetup SoCal Cruisers Online Community",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.75,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00054",
+      "root_organization": "Cycle Gear Los Angeles",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Los Angeles"
+      ],
+      "city_span": 1,
+      "regional_score": 8.75,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00055",
+      "root_organization": "Cycle Gear San Diego",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "San Diego"
+      ],
+      "city_span": 1,
+      "regional_score": 8.75,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00056",
+      "root_organization": "Los Angeles Motorcycle Riders Meetup",
+      "root_city": "Los Angeles",
+      "participating_cities": [
+        "Los Angeles"
+      ],
+      "city_span": 1,
+      "regional_score": 8.73,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00057",
+      "root_organization": "SoCal Motorcycle Meetup San Diego",
+      "root_city": "San Diego",
+      "participating_cities": [
+        "San Diego"
+      ],
+      "city_span": 1,
+      "regional_score": 8.71,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00058",
+      "root_organization": "Outer Limits Tattoo Long Beach",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.7,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00059",
+      "root_organization": "Combat Veterans Motorcycle Association CA 33-2",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.7,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00060",
+      "root_organization": "Russ Brown Motorcycle Attorneys California",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.69,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00061",
+      "root_organization": "Law Tigers Rider Community Content",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.69,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00062",
+      "root_organization": "Cycle Gear Long Beach",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.68,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00063",
+      "root_organization": "Punishers LEMC Southland",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.62,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00064",
+      "root_organization": "Motorcyclist Training Course",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.61,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00065",
+      "root_organization": "BikerDown California",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.57,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00066",
+      "root_organization": "Full Throttle Long Beach Motorcycle Club",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.57,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00067",
+      "root_organization": "Motorcyclist Training Course at Long Beach City College",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.56,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00068",
+      "root_organization": "Deus Ex Machina Digital Motorcycle Culture",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.56,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00069",
+      "root_organization": "Motorcyclist Training Course Instruction Staff",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.54,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "corridor_chain_id": "BD_SOCAL_PROP_CHAIN_00070",
+      "root_organization": "Deus Ex Machina Venice",
+      "root_city": "Long Beach",
+      "participating_cities": [
+        "Long Beach"
+      ],
+      "city_span": 1,
+      "regional_score": 8.5,
+      "propagation_chain_type": "SINGLE_CITY_HIGH_VALUE_CHAIN",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "chain_strength": "MEDIUM",
+      "client_action_class": "MANUAL_REVIEW_ONLY",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

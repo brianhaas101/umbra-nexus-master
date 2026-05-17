@@ -1,0 +1,80 @@
+﻿{
+  "resolver_id": "L01_source_acquisition_resolver",
+  "version": "1.0.0",
+  "priority_order": [
+    "official_api",
+    "official_rss_or_feed",
+    "official_downloadable_dataset",
+    "official_static_json_or_csv",
+    "official_public_html",
+    "manual_review_required"
+  ],
+  "source_resolution": {
+    "usaspending_gov": {
+      "approved_method": "official_api",
+      "status": "live_verified"
+    },
+    "sam_gov": {
+      "approved_method": "official_api_with_key",
+      "status": "requires_valid_api_key_and_endpoint_recheck"
+    },
+    "doj_announcements": {
+      "approved_method": "official_rss_or_feed",
+      "status": "html_failed_identity_check"
+    },
+    "fbi_field_offices": {
+      "approved_method": "manual_review_required",
+      "status": "html_403"
+    },
+    "fbi_press_releases": {
+      "approved_method": "official_rss_or_feed",
+      "status": "pending"
+    },
+    "fbi_crime_data_explorer": {
+      "approved_method": "official_api_or_dataset",
+      "status": "pending"
+    },
+    "fbi_ucr": {
+      "approved_method": "official_api_or_dataset",
+      "status": "pending"
+    },
+    "atf_public_advisories": {
+      "approved_method": "official_public_html_or_feed",
+      "status": "pending"
+    },
+    "dea_public_reports": {
+      "approved_method": "official_downloadable_dataset_or_pdf",
+      "status": "pending"
+    },
+    "dhs_advisories": {
+      "approved_method": "official_public_html_or_feed",
+      "status": "pending"
+    },
+    "fema_grants": {
+      "approved_method": "official_api_or_dataset",
+      "status": "pending"
+    },
+    "fusion_center_advisories": {
+      "approved_method": "manual_review_required",
+      "status": "pending"
+    },
+    "cbp_corridor_reports": {
+      "approved_method": "official_public_html_or_feed",
+      "status": "pending"
+    },
+    "us_marshals_notices": {
+      "approved_method": "official_public_html_or_feed",
+      "status": "pending"
+    },
+    "bja_grant_systems": {
+      "approved_method": "official_public_portal_or_feed",
+      "status": "pending"
+    }
+  },
+  "rules": {
+    "no_html_scrape_promotion_after_403": true,
+    "no_parser_promotion_without_pass_token": true,
+    "no_manual_status_promotion": true,
+    "no_black_dragon_coupling": true
+  }
+}

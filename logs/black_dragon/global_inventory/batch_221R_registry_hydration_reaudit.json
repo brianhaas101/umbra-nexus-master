@@ -1,0 +1,454 @@
+{
+    "batch":  "221R",
+    "version":  "black_dragon_registry_hydration_reaudit_v1",
+    "generated_at":  "2026-05-11T04:25:05.7228691Z",
+    "registry_city_count":  18,
+    "hydrated_count":  8,
+    "incomplete_count":  10,
+    "hydrated_cities":  [
+                            "long_beach",
+                            "long_beach_final",
+                            "los_angeles",
+                            "san_diego",
+                            "phoenix",
+                            "scottsdale",
+                            "mesa",
+                            "tucson"
+                        ],
+    "incomplete_cities":  [
+                              "atlanta",
+                              "austin",
+                              "houston",
+                              "las_vegas",
+                              "miami",
+                              "nashville",
+                              "new_orleans",
+                              "new_york_city",
+                              "san_antonio",
+                              "seattle"
+                          ],
+    "city_results":  [
+                         {
+                             "city":  "Atlanta",
+                             "folder":  "atlanta",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "Austin",
+                             "folder":  "austin",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "Las Vegas",
+                             "folder":  "las_vegas",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  false,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "Miami",
+                             "folder":  "miami",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "Nashville",
+                             "folder":  "nashville",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "source":  "canonical",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  false
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  false,
+                                                   "relationship_graph":  false,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  false
+                                               },
+                             "hydration_state":  "INCOMPLETE"
+                         },
+                         {
+                             "city":  "Long Beach",
+                             "folder":  "long_beach",
+                             "source":  "legacy_only",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  true
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  true,
+                                                   "relationship_graph":  true,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  true
+                                               },
+                             "hydration_state":  "HYDRATED"
+                         },
+                         {
+                             "city":  "Long Beach Final",
+                             "folder":  "long_beach_final",
+                             "source":  "legacy_only",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  true
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  true,
+                                                   "relationship_graph":  true,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  true
+                                               },
+                             "hydration_state":  "HYDRATED"
+                         },
+                         {
+                             "city":  "Los Angeles",
+                             "folder":  "los_angeles",
+                             "source":  "legacy_only",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  true
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  true,
+                                                   "relationship_graph":  true,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  true
+                                               },
+                             "hydration_state":  "HYDRATED"
+                         },
+                         {
+                             "city":  "San Diego",
+                             "folder":  "san_diego",
+                             "source":  "legacy_only",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  true
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  true,
+                                                   "relationship_graph":  true,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  true
+                                               },
+                             "hydration_state":  "HYDRATED"
+                         },
+                         {
+                             "city":  "Phoenix",
+                             "folder":  "phoenix",
+                             "source":  "legacy_only",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  true
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  true,
+                                                   "relationship_graph":  true,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  true
+                                               },
+                             "hydration_state":  "HYDRATED"
+                         },
+                         {
+                             "city":  "Scottsdale",
+                             "folder":  "scottsdale",
+                             "source":  "legacy_only",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  true
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  true,
+                                                   "relationship_graph":  true,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  true
+                                               },
+                             "hydration_state":  "HYDRATED"
+                         },
+                         {
+                             "city":  "Mesa",
+                             "folder":  "mesa",
+                             "source":  "legacy_only",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  true
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  true,
+                                                   "relationship_graph":  true,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  true
+                                               },
+                             "hydration_state":  "HYDRATED"
+                         },
+                         {
+                             "city":  "Tucson",
+                             "folder":  "tucson",
+                             "source":  "legacy_only",
+                             "paths":  {
+                                           "city_exists":  true,
+                                           "runtime_exists":  true,
+                                           "legacy_exists":  true
+                                       },
+                             "certification":  {
+                                                   "runtime_shell":  true,
+                                                   "runtime_summary":  true,
+                                                   "relationship_graph":  true,
+                                                   "entities_runtime":  true,
+                                                   "dossier_stack":  true,
+                                                   "invalid_json_files":  0,
+                                                   "invalid_json":  [
+
+                                                                    ],
+                                                   "tier_1_certified":  true
+                                               },
+                             "hydration_state":  "HYDRATED"
+                         }
+                     ],
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "FAIL_REGISTRY_HYDRATION_GAPS_REMAIN"
+}

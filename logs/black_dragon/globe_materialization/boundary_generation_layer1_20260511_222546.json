@@ -1,0 +1,814 @@
+[
+  {
+    "city_id": "city_66635fc3",
+    "canonical_name": "Akron, OH",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_66635fc3\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_756cb4ea",
+    "canonical_name": "Albuquerque, NM",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_756cb4ea\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_3c08e197",
+    "canonical_name": "Allentown, PA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_3c08e197\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_fd630896",
+    "canonical_name": "Ann Arbor, MI",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_fd630896\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_6cabf985",
+    "canonical_name": "Arlington, TX",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_6cabf985\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_7eb25064",
+    "canonical_name": "Atlanta, GA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_7eb25064\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_e9054367",
+    "canonical_name": "Aurora, CO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_e9054367\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_a324d561",
+    "canonical_name": "Austin, TX",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_a324d561\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_a7350aab",
+    "canonical_name": "Baltimore, MD",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_a7350aab\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_c2cf7437",
+    "canonical_name": "Bellevue, WA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c2cf7437\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_668d0bd6",
+    "canonical_name": "Bloomington, MN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_668d0bd6\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_29ef5eb4",
+    "canonical_name": "Boise, ID",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_29ef5eb4\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_95b0c3ba",
+    "canonical_name": "Boston, MA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_95b0c3ba\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_9814694d",
+    "canonical_name": "Bowling Green, KY",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_9814694d\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_c4822ada",
+    "canonical_name": "Broken Arrow, OK",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c4822ada\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_46d49fea",
+    "canonical_name": "Chandler, AZ",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_46d49fea\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_5090c3c6",
+    "canonical_name": "Charlotte, NC",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5090c3c6\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b7aea338",
+    "canonical_name": "Chattanooga, TN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b7aea338\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_4c180874",
+    "canonical_name": "Chicago, IL",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_4c180874\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_1e856280",
+    "canonical_name": "Cincinnati, OH",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1e856280\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_5cbb095a",
+    "canonical_name": "Clarksville, TN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5cbb095a\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_350fa856",
+    "canonical_name": "Cleveland, OH",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_350fa856\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_328b326a",
+    "canonical_name": "Colorado Springs, CO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_328b326a\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_878f11ab",
+    "canonical_name": "Columbia, MO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_878f11ab\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_85e83faa",
+    "canonical_name": "Columbus, OH",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_85e83faa\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_f8eaf382",
+    "canonical_name": "Covington, KY",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_f8eaf382\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_5abab5f6",
+    "canonical_name": "Dallas, TX",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5abab5f6\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_39d61699",
+    "canonical_name": "Denver, CO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_39d61699\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_6536761e",
+    "canonical_name": "Detroit, MI",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_6536761e\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_0b8ff86c",
+    "canonical_name": "Duluth, MN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0b8ff86c\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_78ccf400",
+    "canonical_name": "Durham, NC",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_78ccf400\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_0c5b904d",
+    "canonical_name": "Edmond, OK",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0c5b904d\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_990961e3",
+    "canonical_name": "El Paso, TX",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_990961e3\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_46ea53ac",
+    "canonical_name": "Erie, PA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_46ea53ac\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_eedb043f",
+    "canonical_name": "Eugene, OR",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_eedb043f\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_9ba60036",
+    "canonical_name": "Flint, MI",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_9ba60036\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_254d227a",
+    "canonical_name": "Fort Collins, CO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_254d227a\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_47b59fac",
+    "canonical_name": "Fort Worth, TX",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_47b59fac\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_c94decbe",
+    "canonical_name": "Fresno, CA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c94decbe\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_5c4c1c64",
+    "canonical_name": "Grand Rapids, MI",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5c4c1c64\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_0e003b8d",
+    "canonical_name": "Greensboro, NC",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0e003b8d\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_400670ba",
+    "canonical_name": "Gresham, OR",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_400670ba\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_fc1b220f",
+    "canonical_name": "Henderson, NV",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_fc1b220f\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_bf66ad64",
+    "canonical_name": "Hillsboro, OR",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_bf66ad64\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_0a922e63",
+    "canonical_name": "Houston, TX",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0a922e63\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_3fbbe606",
+    "canonical_name": "Idaho Falls, ID",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_3fbbe606\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_16a23f41",
+    "canonical_name": "Independence, MO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_16a23f41\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_1ae44e4f",
+    "canonical_name": "Indianapolis, IN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1ae44e4f\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_7e936870",
+    "canonical_name": "Jacksonville, FL",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_7e936870\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_828fab47",
+    "canonical_name": "Kansas City, MO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_828fab47\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_20eb3715",
+    "canonical_name": "Knoxville, TN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_20eb3715\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_1138b2d4",
+    "canonical_name": "Lakewood, CO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1138b2d4\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b0cd67a6",
+    "canonical_name": "Lansing, MI",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b0cd67a6\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_fa4dd02c",
+    "canonical_name": "Las Cruces, NM",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_fa4dd02c\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_f03b8f57",
+    "canonical_name": "Las Vegas, NV",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_f03b8f57\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_6509ecc5",
+    "canonical_name": "Lexington, KY",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_6509ecc5\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_0a31d438",
+    "canonical_name": "Long Beach, CA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0a31d438\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_1f98af58",
+    "canonical_name": "Los Angeles, CA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1f98af58\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_8e6f63cf",
+    "canonical_name": "Louisville, KY",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_8e6f63cf\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_c79509a4",
+    "canonical_name": "Memphis, TN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c79509a4\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_72c8b2f9",
+    "canonical_name": "Meridian, ID",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_72c8b2f9\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_7d043dae",
+    "canonical_name": "Mesa, AZ",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_7d043dae\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_53389926",
+    "canonical_name": "Miami, FL",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_53389926\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_3fad7905",
+    "canonical_name": "Milwaukee, WI",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_3fad7905\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_1fd1b37f",
+    "canonical_name": "Minneapolis, MN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1fd1b37f\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_70af1d0e",
+    "canonical_name": "Nampa, ID",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_70af1d0e\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_154a8fe9",
+    "canonical_name": "Nashville, TN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_154a8fe9\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b5ad2562",
+    "canonical_name": "New Orleans, LA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b5ad2562\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_3d50f2fd",
+    "canonical_name": "New York, NY",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_3d50f2fd\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_9e7d2fb8",
+    "canonical_name": "Norman, OK",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_9e7d2fb8\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_7662680f",
+    "canonical_name": "North Las Vegas, NV",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_7662680f\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_8f664c09",
+    "canonical_name": "Oakland, CA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_8f664c09\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_a2cbee70",
+    "canonical_name": "Oklahoma City, OK",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_a2cbee70\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_127606b4",
+    "canonical_name": "Omaha, NE",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_127606b4\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_1e4fcd97",
+    "canonical_name": "Orem, UT",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1e4fcd97\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_18d738e7",
+    "canonical_name": "Orlando, FL",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_18d738e7\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_17fcb829",
+    "canonical_name": "Owensboro, KY",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_17fcb829\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_01f3a5ed",
+    "canonical_name": "Philadelphia, PA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_01f3a5ed\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_8635d5db",
+    "canonical_name": "Phoenix, AZ",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_8635d5db\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_49bcf5c9",
+    "canonical_name": "Pittsburgh, PA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_49bcf5c9\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_4ada292b",
+    "canonical_name": "Pocatello, ID",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_4ada292b\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_ab77b2a8",
+    "canonical_name": "Portland, OR",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_ab77b2a8\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b0c51a5d",
+    "canonical_name": "Provo, UT",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b0c51a5d\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_16f77904",
+    "canonical_name": "Raleigh, NC",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_16f77904\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b183167f",
+    "canonical_name": "Reading, PA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b183167f\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_f48df4c8",
+    "canonical_name": "Reno, NV",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_f48df4c8\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_5e423e03",
+    "canonical_name": "Rio Rancho, NM",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5e423e03\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_0d4f6d2f",
+    "canonical_name": "Rochester, MN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0d4f6d2f\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_e1fe8704",
+    "canonical_name": "Roswell, NM",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_e1fe8704\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_47748120",
+    "canonical_name": "Sacramento, CA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_47748120\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b27a62e8",
+    "canonical_name": "Salem, OR",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b27a62e8\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_9b7d017c",
+    "canonical_name": "Salt Lake City, UT",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_9b7d017c\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_c27d5d7f",
+    "canonical_name": "San Antonio, TX",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c27d5d7f\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_dd17b133",
+    "canonical_name": "San Diego, CA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_dd17b133\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_d2941d41",
+    "canonical_name": "San Francisco, CA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_d2941d41\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_759cd460",
+    "canonical_name": "San Jose, CA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_759cd460\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_60b147f2",
+    "canonical_name": "Santa Fe, NM",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_60b147f2\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_c1a02fde",
+    "canonical_name": "Scottsdale, AZ",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c1a02fde\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b7ea02a9",
+    "canonical_name": "Seattle, WA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b7ea02a9\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_f7bb5b9c",
+    "canonical_name": "Sparks, NV",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_f7bb5b9c\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_852df262",
+    "canonical_name": "Spokane, WA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_852df262\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_82649311",
+    "canonical_name": "Springfield, MO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_82649311\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_2a5ba728",
+    "canonical_name": "St Louis, MO",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_2a5ba728\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_70207d8e",
+    "canonical_name": "St Paul, MN",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_70207d8e\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_936f1437",
+    "canonical_name": "St Petersburg, FL",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_936f1437\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_ef557a57",
+    "canonical_name": "Tacoma, WA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_ef557a57\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_af6fd06c",
+    "canonical_name": "Tampa, FL",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_af6fd06c\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_4cbdb331",
+    "canonical_name": "Toledo, OH",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_4cbdb331\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b903b4d0",
+    "canonical_name": "Tucson, AZ",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b903b4d0\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_936b7d90",
+    "canonical_name": "Tulsa, OK",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_936b7d90\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_82e75d40",
+    "canonical_name": "Vancouver, WA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_82e75d40\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_29cb8e76",
+    "canonical_name": "Virginia Beach, VA",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_29cb8e76\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_5fedc010",
+    "canonical_name": "Washington, DC",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5fedc010\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_c084361b",
+    "canonical_name": "West Jordan, UT",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c084361b\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_b6773437",
+    "canonical_name": "West Valley City, UT",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b6773437\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  },
+  {
+    "city_id": "city_763449ef",
+    "canonical_name": "Winston-Salem, NC",
+    "boundary_count": 1,
+    "boundary_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_763449ef\\boundaries\\boundary_manifest.json",
+    "status": "boundary_initialized"
+  }
+]

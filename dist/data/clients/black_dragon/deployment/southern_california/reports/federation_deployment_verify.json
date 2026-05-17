@@ -1,0 +1,42 @@
+{
+  "version": "black_dragon_socal_federation_deployment_verify_v1",
+  "generated_at": "2026-05-10T22:38:55.467Z",
+  "federation_status": "MULTI_CITY_OPERATIONAL",
+  "federation_counts": {
+    "operational_cities": 3,
+    "total_runtime_entities": 88,
+    "overlap_entities": 5,
+    "federation_paths": 5,
+    "regional_scores": 88
+  },
+  "automation_counts": {
+    "operational_cities": 3,
+    "scheduled_jobs": 8,
+    "locks": 5,
+    "jobs": 5,
+    "refresh_phases": 5
+  },
+  "propagation_counts": {
+    "propagation_roots": 70,
+    "propagation_chains": 70,
+    "role_records": 88,
+    "client_opportunities": 25,
+    "regional_opportunities": 10,
+    "city_level_opportunities": 15
+  },
+  "refinement_counts": {
+    "overlap_confidence_records": 5,
+    "refined_regional_scores": 88,
+    "propagation_certainty_records": 70,
+    "refined_client_opportunities": 25,
+    "high_certainty_opportunities": 0,
+    "medium_certainty_opportunities": 15,
+    "review_certainty_opportunities": 10
+  },
+  "deployment_state": "FEDERATION_OPERATIONAL",
+  "safety_locks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true
+  }
+}

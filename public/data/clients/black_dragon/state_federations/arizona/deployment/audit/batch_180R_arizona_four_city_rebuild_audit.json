@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_batch_180R_arizona_four_city_rebuild_audit_v1",
+  "generated_at": "2026-05-11T00:23:57.916Z",
+  "batch": "180R_ARIZONA_FOUR_CITY_FEDERATION_REBUILD",
+  "state": "Arizona",
+  "counts": {
+    "operational_cities": 4,
+    "federation_entities": 40,
+    "overlap_entities": 6,
+    "statewide_scores": 40,
+    "statewide_paths": 25,
+    "manual_contact_candidates": 28,
+    "route_review_items": 12
+  },
+  "gates": {
+    "four_operational_cities": true,
+    "tucson_included": true,
+    "statewide_entity_pool_exists": true,
+    "statewide_scores_exist": true,
+    "statewide_paths_exist": true,
+    "review_surface_operational": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true
+  },
+  "certification": "ARIZONA_FULL_STATE_DEPLOYMENT_CERTIFIED_REPAIRED",
+  "next_phase": "BATCH_181_NEVADA_MASTER_STATE_INITIALIZATION",
+  "status": "PASS"
+}

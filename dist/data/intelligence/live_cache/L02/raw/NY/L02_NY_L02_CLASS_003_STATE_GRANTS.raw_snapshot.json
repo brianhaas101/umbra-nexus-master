@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:18.292Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NY_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "NY",
+  "state_name": "New York",
+  "source_type": "STATE_GRANTS",
+  "canonical_url": "https://grantsmanagement.ny.gov",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 37384,
+    "extracted_links": [
+      {
+        "href": "https://grantsmanagement.ny.gov/",
+        "label": "Grants Management"
+      },
+      {
+        "href": "https://grantsmanagement.ny.gov/search-funding-sfs",
+        "label": "Search For Funding"
+      },
+      {
+        "href": "https://grantsmanagement.ny.gov/resources-grant-applicants",
+        "label": "For Grant Applicants"
+      },
+      {
+        "href": "https://esupplier.sfs.ny.gov/psp/fscm/SUPPLIER/ERP/c/NY_SUPPUB_FL.AUC_RESP_INQ_AUC.GBL",
+        "label": "Search for Grants in SFS"
+      },
+      {
+        "href": "https://grantsmanagement.ny.gov/search-funding-sfs",
+        "label": "card image"
+      },
+      {
+        "href": "https://grantsmanagement.ny.gov/search-funding-sfs",
+        "label": "Search for Funding in SFS"
+      },
+      {
+        "href": "https://grantsmanagement.ny.gov/search-funding-sfs#overview",
+        "label": "Overview"
+      },
+      {
+        "href": "https://grantsmanagement.ny.gov/search-funding-sfs#find-opportunities",
+        "label": "Find Opportunities"
+      },
+      {
+        "href": "https://grantsmanagement.ny.gov/search-funding-sfs#receive-notifications",
+        "label": "Receive Notifications"
+      },
+      {
+        "href": "https://grantsmanagement.ny.gov/search-funding-sfs",
+        "label": "LEARN MORE"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "b0cfeb95619a6770a8eb92a02243419d5b62121f108099986f38e627987762d1"
+}

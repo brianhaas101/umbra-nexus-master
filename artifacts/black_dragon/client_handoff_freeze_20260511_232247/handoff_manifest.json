@@ -1,0 +1,17 @@
+{
+  "client_id": "black_dragon",
+  "created_utc": "2026-05-12T06:22:47.9195738Z",
+  "handoff_status": "ready_after_access_package",
+  "gates": {
+    "dossiers": "pass",
+    "runtime_loader": "pass",
+    "nodes": "pass",
+    "saturation": "pass",
+    "adjacency": "pass",
+    "replay": "pass",
+    "boundaries": "pass",
+    "canonical_registry": "pass",
+    "tiles": "pass"
+  },
+  "freeze_path": ".\\artifacts\\black_dragon\\client_handoff_freeze_20260511_232247"
+}

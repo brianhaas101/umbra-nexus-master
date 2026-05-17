@@ -1,0 +1,699 @@
+{
+  "version": "black_dragon_long_beach_propagation_paths_v1",
+  "generated_at": "2026-05-10T20:53:56.550Z",
+  "city": "Long Beach",
+  "state": "CA",
+  "total_paths": 15,
+  "paths": [
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00001",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00001",
+      "root_organization": "Born-Free Motorcycle Show",
+      "root_influence_score": 8.58,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Cycle Source Magazine",
+          "edge_weight": 1,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Biker Trash Network",
+          "edge_weight": 0.927,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Hot Bike Magazine",
+          "edge_weight": 0.926,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.923,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Combat Veterans Motorcycle Association Chapter 33-12",
+          "edge_weight": 0.709,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00002",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00007",
+      "root_organization": "Cycle Source Magazine",
+      "root_influence_score": 8.35,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Born-Free Motorcycle Show",
+          "edge_weight": 1,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Biker Trash Network",
+          "edge_weight": 0.922,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Hot Bike Magazine",
+          "edge_weight": 0.921,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.917,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Combat Veterans Motorcycle Association Chapter 33-12",
+          "edge_weight": 0.703,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00003",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00002",
+      "root_organization": "Combat Veterans Motorcycle Association Chapter 33-12",
+      "root_influence_score": 8.3,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Born-Free Motorcycle Show",
+          "edge_weight": 0.709,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Cycle Source Magazine",
+          "edge_weight": 0.703,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.701,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Harley-Davidson of Long Beach",
+          "edge_weight": 0.486,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Biker Trash Network",
+          "edge_weight": 0.485,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00004",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00004",
+      "root_organization": "Biker Trash Network",
+      "root_influence_score": 8.24,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Born-Free Motorcycle Show",
+          "edge_weight": 0.927,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Hot Bike Magazine",
+          "edge_weight": 0.923,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Cycle Source Magazine",
+          "edge_weight": 0.922,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.7,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Law Tigers California",
+          "edge_weight": 0.696,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00005",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00013",
+      "root_organization": "Bike Shed Moto Co Los Angeles",
+      "root_influence_score": 8.24,
+      "recommended_use": "PROPAGATION_REVIEW_BEFORE_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Born-Free Motorcycle Show",
+          "edge_weight": 0.923,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Cycle Source Magazine",
+          "edge_weight": 0.917,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Combat Veterans Motorcycle Association Chapter 33-12",
+          "edge_weight": 0.701,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Biker Trash Network",
+          "edge_weight": 0.7,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Hot Bike Magazine",
+          "edge_weight": 0.698,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00006",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00005",
+      "root_organization": "Hot Bike Magazine",
+      "root_influence_score": 8.19,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Born-Free Motorcycle Show",
+          "edge_weight": 0.926,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Biker Trash Network",
+          "edge_weight": 0.923,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Cycle Source Magazine",
+          "edge_weight": 0.921,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.698,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Law Tigers California",
+          "edge_weight": 0.695,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00007",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00003",
+      "root_organization": "Harley-Davidson of Long Beach",
+      "root_influence_score": 8.09,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Southern California Motorcycling Association",
+          "edge_weight": 0.611,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Patriot Guard Riders",
+          "edge_weight": 0.61,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Warrior Brotherhood Motorcycle Club",
+          "edge_weight": 0.608,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "BMW Club of Southern California",
+          "edge_weight": 0.606,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Punishers LEMC Southland",
+          "edge_weight": 0.604,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00008",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00011",
+      "root_organization": "Southern California Motorcycling Association",
+      "root_influence_score": 7.88,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Patriot Guard Riders",
+          "edge_weight": 0.695,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Harley-Davidson of Long Beach",
+          "edge_weight": 0.611,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.609,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "COMMUNITY_TO_EVENT_PROPAGATION",
+          "connected_organization": "Long Beach Motorcycle Swap Meet Network",
+          "edge_weight": 0.604,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "COMMUNITY_TO_EVENT_PROPAGATION",
+          "connected_organization": "The Cycle Fish California Events",
+          "edge_weight": 0.603,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00009",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00032",
+      "root_organization": "Law Tigers California",
+      "root_influence_score": 7.87,
+      "recommended_use": "PROPAGATION_REVIEW_BEFORE_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Born-Free Motorcycle Show",
+          "edge_weight": 0.699,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Biker Trash Network",
+          "edge_weight": 0.696,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Hot Bike Magazine",
+          "edge_weight": 0.695,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Cycle Source Magazine",
+          "edge_weight": 0.694,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.611,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00010",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00015",
+      "root_organization": "Patriot Guard Riders",
+      "root_influence_score": 7.79,
+      "recommended_use": "PROPAGATION_REVIEW_BEFORE_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "SHARED_SOURCE_LAYER",
+          "connected_organization": "Southern California Motorcycling Association",
+          "edge_weight": 0.695,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Harley-Davidson of Long Beach",
+          "edge_weight": 0.61,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.607,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "COMMUNITY_TO_EVENT_PROPAGATION",
+          "connected_organization": "Long Beach Motorcycle Swap Meet Network",
+          "edge_weight": 0.522,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "COMMUNITY_TO_EVENT_PROPAGATION",
+          "connected_organization": "The Cycle Fish California Events",
+          "edge_weight": 0.521,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00011",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00006",
+      "root_organization": "Roland Sands Design",
+      "root_influence_score": 7.77,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Southern California Motorcycling Association",
+          "edge_weight": 0.609,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Patriot Guard Riders",
+          "edge_weight": 0.607,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Warrior Brotherhood Motorcycle Club",
+          "edge_weight": 0.605,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "BMW Club of Southern California",
+          "edge_weight": 0.603,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Punishers LEMC Southland",
+          "edge_weight": 0.602,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00012",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00008",
+      "root_organization": "IMS Outdoors Long Beach",
+      "root_influence_score": 7.59,
+      "recommended_use": "DIRECT_MANUAL_ACTION_PLUS_PROPAGATION",
+      "connected_targets": [
+        {
+          "relationship_type": "EVENT_TO_DIGITAL_AMPLIFICATION",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.607,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "EVENT_TO_DIGITAL_AMPLIFICATION",
+          "connected_organization": "The Cycle Fish California Online Events",
+          "edge_weight": 0.604,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "EVENT_TO_DIGITAL_AMPLIFICATION",
+          "connected_organization": "Meetup SoCal Cruisers Online Community",
+          "edge_weight": 0.602,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "EVENT_TO_DIGITAL_AMPLIFICATION",
+          "connected_organization": "Law Tigers Rider Community Content",
+          "edge_weight": 0.601,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "EVENT_TO_DIGITAL_AMPLIFICATION",
+          "connected_organization": "Deus Ex Machina Digital Motorcycle Culture",
+          "edge_weight": 0.6,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00013",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00038",
+      "root_organization": "Outer Limits Tattoo Long Beach",
+      "root_influence_score": 7.59,
+      "recommended_use": "PROPAGATION_REVIEW_BEFORE_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Punishers LEMC Southland",
+          "edge_weight": 0.513,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Full Throttle Long Beach Motorcycle Club",
+          "edge_weight": 0.513,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "RiderClubs Long Beach Motorcycle Clubs Directory",
+          "edge_weight": 0.511,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "The Litas Los Angeles",
+          "edge_weight": 0.511,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Ruffians M.C.",
+          "edge_weight": 0.511,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00014",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00018",
+      "root_organization": "Long Beach BMW Motorcycles",
+      "root_influence_score": 7.58,
+      "recommended_use": "PROPAGATION_REVIEW_BEFORE_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Warrior Brotherhood Motorcycle Club",
+          "edge_weight": 0.521,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "BMW Club of Southern California",
+          "edge_weight": 0.519,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Punishers LEMC Southland",
+          "edge_weight": 0.517,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "Full Throttle Long Beach Motorcycle Club",
+          "edge_weight": 0.517,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_RIDER_COMMUNITY",
+          "connected_organization": "RiderClubs Long Beach Motorcycle Clubs Directory",
+          "edge_weight": 0.515,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LB_PROP_PATH_00015",
+      "root_graph_node_id": "BD_LB_GRAPH_NODE_00025",
+      "root_organization": "The Cycle Fish California Online Events",
+      "root_influence_score": 7.53,
+      "recommended_use": "PROPAGATION_REVIEW_BEFORE_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "EVENT_TO_DIGITAL_AMPLIFICATION",
+          "connected_organization": "IMS Outdoors Long Beach",
+          "edge_weight": 0.604,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "CULTURE_TO_DIGITAL_PROPAGATION",
+          "connected_organization": "Biltwell YouTube Community",
+          "edge_weight": 0.524,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "CULTURE_TO_DIGITAL_PROPAGATION",
+          "connected_organization": "ChopCult Community",
+          "edge_weight": 0.524,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "CULTURE_TO_DIGITAL_PROPAGATION",
+          "connected_organization": "Dice Magazine",
+          "edge_weight": 0.522,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "CULTURE_TO_DIGITAL_PROPAGATION",
+          "connected_organization": "Lowbrow Customs Garage Podcast",
+          "edge_weight": 0.521,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

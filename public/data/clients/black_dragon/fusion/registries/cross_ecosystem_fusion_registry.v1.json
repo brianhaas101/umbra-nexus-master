@@ -1,0 +1,79 @@
+{
+  "version": "black_dragon_cross_ecosystem_fusion_registry_v1_batch_076",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "ecosystems": [
+    {
+      "ecosystem_id": "BD_ECO_001",
+      "ecosystem": "EDUCATION",
+      "entity_classes": [
+        "EDUCATION_NODE",
+        "TRAINING_NODE",
+        "LAW_ENFORCEMENT_NODE"
+      ]
+    },
+    {
+      "ecosystem_id": "BD_ECO_002",
+      "ecosystem": "VETERAN",
+      "entity_classes": [
+        "VETERAN_NODE",
+        "EVENT_NODE"
+      ]
+    },
+    {
+      "ecosystem_id": "BD_ECO_003",
+      "ecosystem": "LAW_ENFORCEMENT_MOTOR",
+      "entity_classes": [
+        "MOTOR_UNIT_NODE",
+        "LAW_ENFORCEMENT_NODE",
+        "TRAINING_NODE"
+      ]
+    },
+    {
+      "ecosystem_id": "BD_ECO_004",
+      "ecosystem": "DISTRIBUTION",
+      "entity_classes": [
+        "DEALERSHIP_NODE",
+        "SHOP_NODE",
+        "RETAIL_NODE",
+        "DISTRIBUTION_NODE"
+      ]
+    },
+    {
+      "ecosystem_id": "BD_ECO_005",
+      "ecosystem": "EVENT_INFRASTRUCTURE",
+      "entity_classes": [
+        "EVENT_NODE",
+        "VENUE_NODE",
+        "DISTRIBUTION_NODE"
+      ]
+    }
+  ],
+
+  "fusion_relationships": [
+    {
+      "relationship": "EVENT_TO_DISTRIBUTION",
+      "strength": 0.95
+    },
+    {
+      "relationship": "VETERAN_TO_EVENT",
+      "strength": 0.94
+    },
+    {
+      "relationship": "MOTOR_UNIT_TO_TRAINING",
+      "strength": 0.97
+    },
+    {
+      "relationship": "EDUCATION_TO_LAW_ENFORCEMENT",
+      "strength": 0.98
+    },
+    {
+      "relationship": "DISTRIBUTION_TO_RIDER_NETWORK",
+      "strength": 0.93
+    },
+    {
+      "relationship": "EVENT_TO_PROPAGATION",
+      "strength": 1.00
+    }
+  ]
+}

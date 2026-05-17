@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_16f77904",
+    "name":  "Raleigh, NC",
+    "center_lat":  35.7796,
+    "center_lon":  -78.6382,
+    "bounds":  {
+                   "north":  36.0624,
+                   "south":  35.5197,
+                   "east":  -78.353,
+                   "west":  -78.9235
+               },
+    "width_m":  52000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_16f77904/base.png"
+}

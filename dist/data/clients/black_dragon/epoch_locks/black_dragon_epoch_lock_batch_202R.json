@@ -1,0 +1,114 @@
+{
+    "batch":  "202R",
+    "version":  "black_dragon_multi_city_epoch_lock_repaired_v1",
+    "generated_at":  "2026-05-11T02:36:23.5317876Z",
+    "certified_city_set":  [
+                               {
+                                   "state":  "Nevada",
+                                   "state_code":  "NV",
+                                   "city":  "Las Vegas",
+                                   "city_id":  "city_las_vegas_nv",
+                                   "status":  "CERTIFIED_REFERENCE"
+                               },
+                               {
+                                   "state":  "Georgia",
+                                   "state_code":  "GA",
+                                   "city":  "Atlanta",
+                                   "city_id":  "city_atlanta_ga",
+                                   "status":  "CERTIFIED_REFERENCE"
+                               },
+                               {
+                                   "state":  "Texas",
+                                   "state_code":  "TX",
+                                   "city":  "Austin",
+                                   "city_id":  "city_austin_tx",
+                                   "status":  "CERTIFIED_INACTIVE_REFERENCE"
+                               },
+                               {
+                                   "state":  "Texas",
+                                   "state_code":  "TX",
+                                   "city":  "San Antonio",
+                                   "city_id":  "city_san_antonio_tx",
+                                   "status":  "CERTIFIED_INACTIVE_REFERENCE"
+                               },
+                               {
+                                   "state":  "Texas",
+                                   "state_code":  "TX",
+                                   "city":  "Houston",
+                                   "city_id":  "city_houston_tx",
+                                   "status":  "ACTIVE_CERTIFIED_REFERENCE"
+                               },
+                               {
+                                   "state":  "Louisiana",
+                                   "state_code":  "LA",
+                                   "city":  "New Orleans",
+                                   "city_id":  "city_new_orleans_la",
+                                   "status":  "ACTIVE_CERTIFIED_REFERENCE"
+                               }
+                           ],
+    "current_active_runtime_by_state":  {
+                                            "Nevada":  [
+                                                           {
+                                                               "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\las_vegas\\runtime_shell.json",
+                                                               "city":  "Las Vegas",
+                                                               "state":  "Nevada",
+                                                               "active":  true
+                                                           }
+                                                       ],
+                                            "Louisiana":  [
+                                                              {
+                                                                  "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\new_orleans\\runtime_shell.json",
+                                                                  "city":  "New Orleans",
+                                                                  "state":  "Louisiana",
+                                                                  "active":  true
+                                                              }
+                                                          ],
+                                            "Georgia":  [
+                                                            {
+                                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\atlanta\\runtime_shell.json",
+                                                                "city":  "Atlanta",
+                                                                "state":  "Georgia",
+                                                                "active":  true
+                                                            }
+                                                        ],
+                                            "Texas":  [
+                                                          {
+                                                              "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\houston\\runtime_shell.json",
+                                                              "city":  "Houston",
+                                                              "state":  "Texas",
+                                                              "active":  true
+                                                          }
+                                                      ]
+                                        },
+    "repair_actions":  {
+                           "invalid_questionnaire_quarantined":  true,
+                           "invalid_questionnaire_original_removed":  true,
+                           "quarantine_location":  ".\\public\\data\\clients\\black_dragon\\quarantine\\invalid_json\\questionnaire.invalid_json.quarantined.txt"
+                       },
+    "invariant_contract":  {
+                               "every_future_city_must_pass_json_validation":  true,
+                               "every_future_city_must_pass_ajv_validation":  true,
+                               "every_future_city_must_pass_pester_invariants":  true,
+                               "every_future_city_must_pass_drift_scans":  true,
+                               "every_future_city_must_preserve_hardlocks":  true,
+                               "one_active_runtime_per_state":  true,
+                               "no_unmapped_city_builds":  true,
+                               "no_auto_contact":  true,
+                               "no_auto_promotion":  true,
+                               "no_runtime_mutation":  true,
+                               "quarantine_before_runtime":  true,
+                               "manual_review_required_for_contact":  true
+                           },
+    "validation":  {
+                       "state_policy_files_required":  4,
+                       "missing_state_policy_files":  0,
+                       "runtime_shells_checked":  6,
+                       "state_runtime_violations":  0,
+                       "json_files_checked":  898,
+                       "invalid_json_files":  0,
+                       "forbidden_scan_hits":  10,
+                       "potential_runtime_violations":  0,
+                       "forbidden_scan_classification_log":  ".\\logs\\black_dragon\\epoch\\batch_202R_forbidden_scan_classified.json"
+                   },
+    "status":  "PASS_MULTI_CITY_EPOCH_LOCKED"
+}

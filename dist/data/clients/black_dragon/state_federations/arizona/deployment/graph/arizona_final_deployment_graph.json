@@ -1,0 +1,24 @@
+{
+  "version": "black_dragon_arizona_final_deployment_graph_v1",
+  "generated_at": "2026-05-11T00:16:02.960Z",
+  "deployment_id": "BLACK_DRAGON_ARIZONA_STATE_DEPLOYMENT",
+  "state": "Arizona",
+  "deployment_status": "FULL_STATE_DEPLOYMENT_READY",
+  "operational_cities": [
+    "Phoenix",
+    "Scottsdale",
+    "Mesa"
+  ],
+  "federation_entity_count": 30,
+  "overlap_entity_count": 5,
+  "state_propagation_paths": 25,
+  "highest_state_score": 10.29,
+  "deployment_hardlocks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true,
+    "no_delete_without_quarantine": true,
+    "manual_review_required_for_contact": true,
+    "statewide_overlap_review_required": true
+  }
+}

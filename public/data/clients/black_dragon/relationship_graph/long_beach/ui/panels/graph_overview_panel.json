@@ -1,0 +1,123 @@
+{
+  "version": "black_dragon_long_beach_graph_ui_overview_panel_v1",
+  "generated_at": "2026-05-10T20:59:33.354Z",
+  "city": "Long Beach",
+  "state": "CA",
+  "panel_id": "RELATIONSHIP_GRAPH_OVERVIEW",
+  "panel_title": "Long Beach Relationship Graph",
+  "client_visible": true,
+  "summary_cards": [
+    {
+      "card_id": "GRAPH_NODES",
+      "label": "Graph Nodes",
+      "count": 68,
+      "meaning": "Organizations currently visible in the Long Beach relationship graph."
+    },
+    {
+      "card_id": "GRAPH_EDGES",
+      "label": "Relationship Edges",
+      "count": 512,
+      "meaning": "Detected relationship pathways between organizations."
+    },
+    {
+      "card_id": "PROPAGATION_PATHS",
+      "label": "Propagation Paths",
+      "count": 15,
+      "meaning": "Recommended influence paths for manual sales or media strategy."
+    },
+    {
+      "card_id": "GRAPH_WARM",
+      "label": "Graph-Warm Influence Nodes",
+      "count": 15,
+      "meaning": "Nodes with meaningful influence inside the local ecosystem."
+    }
+  ],
+  "top_influence_nodes": [
+    {
+      "graph_influence_rank": 1,
+      "organization_name": "Born-Free Motorcycle Show",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 8.58,
+      "graph_degree": 25,
+      "contact_ready": true
+    },
+    {
+      "graph_influence_rank": 2,
+      "organization_name": "Cycle Source Magazine",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 8.35,
+      "graph_degree": 25,
+      "contact_ready": true
+    },
+    {
+      "graph_influence_rank": 3,
+      "organization_name": "Combat Veterans Motorcycle Association Chapter 33-12",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 8.3,
+      "graph_degree": 24,
+      "contact_ready": true
+    },
+    {
+      "graph_influence_rank": 4,
+      "organization_name": "Biker Trash Network",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 8.24,
+      "graph_degree": 19,
+      "contact_ready": true
+    },
+    {
+      "graph_influence_rank": 5,
+      "organization_name": "Bike Shed Moto Co Los Angeles",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 8.24,
+      "graph_degree": 30,
+      "contact_ready": false
+    },
+    {
+      "graph_influence_rank": 6,
+      "organization_name": "Hot Bike Magazine",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 8.19,
+      "graph_degree": 19,
+      "contact_ready": true
+    },
+    {
+      "graph_influence_rank": 7,
+      "organization_name": "Harley-Davidson of Long Beach",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 8.09,
+      "graph_degree": 28,
+      "contact_ready": true
+    },
+    {
+      "graph_influence_rank": 8,
+      "organization_name": "Southern California Motorcycling Association",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 7.88,
+      "graph_degree": 24,
+      "contact_ready": true
+    },
+    {
+      "graph_influence_rank": 9,
+      "organization_name": "Law Tigers California",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 7.87,
+      "graph_degree": 29,
+      "contact_ready": false
+    },
+    {
+      "graph_influence_rank": 10,
+      "organization_name": "Patriot Guard Riders",
+      "influence_tier": "GRAPH_WARM",
+      "influence_score": 7.79,
+      "graph_degree": 24,
+      "contact_ready": false
+    }
+  ],
+  "hardlocks": {
+    "graph_ui_can_display": true,
+    "graph_ui_can_trigger_contact": false,
+    "graph_ui_can_auto_promote": false,
+    "graph_ui_can_mutate_runtime": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source_id": "state_elections",
+  "state_code": "MS",
+  "state_name": "Mississippi",
+  "category": "state_elections",
+  "source_url": "https://www.sos.ms.gov/elections-voting",
+  "status": "source_page_verified_state_elections_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T06:23:09.016Z",
+  "last_refresh": "2026-05-14T06:23:09.016Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_phoenix_dead_route_review_queue_v1",
+  "generated_at": "2026-05-10T23:03:39.435Z",
+  "review_item_count": 2,
+  "dead_route_items": [
+    {
+      "dead_route_id": "BD_PHX_ROUTE_REVIEW_00001",
+      "validation_id": "BD_PHX_HTTP_VALIDATE_003",
+      "organization_name": "Buddy Stubbs Harley-Davidson",
+      "route_type": "DEALERSHIP_NETWORK",
+      "url": "https://www.buddystubbshd.com/",
+      "failure_status": "REVIEW_REQUIRED",
+      "founder_review_required": true,
+      "automatic_delete_allowed": false,
+      "automated_outreach_allowed": false
+    },
+    {
+      "dead_route_id": "BD_PHX_ROUTE_REVIEW_00002",
+      "validation_id": "BD_PHX_HTTP_VALIDATE_004",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "route_type": "VETERAN_RIDER_NETWORK",
+      "url": "https://www.vma-usa.org/",
+      "failure_status": "ERROR",
+      "founder_review_required": true,
+      "automatic_delete_allowed": false,
+      "automated_outreach_allowed": false
+    }
+  ]
+}

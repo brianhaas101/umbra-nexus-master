@@ -1,0 +1,34 @@
+{
+    "version":  "black_dragon_austin_canonical_relationship_graph_v1",
+    "generated_at":  "2026-05-11T04:28:58.7280589Z",
+    "city":  {
+                 "city":  "Austin",
+                 "folder":  "austin",
+                 "state":  "Texas",
+                 "state_code":  "TX",
+                 "city_id":  "city_austin_tx"
+             },
+    "graph_state":  {
+                        "tier_1_graph_artifact_present":  true,
+                        "tier_2_graph_saturation_pending":  true,
+                        "synthetic_entities_created":  false,
+                        "relationship_edges_promoted_to_runtime":  false
+                    },
+    "graph_metrics":  {
+                          "organization_name_hits":  0,
+                          "relationship_hits":  0,
+                          "rank_hits":  0
+                      },
+    "source_artifacts":  {
+                             "city_artifact_count":  8,
+                             "runtime_artifact_count":  2,
+                             "audit_artifact_count":  2
+                         },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

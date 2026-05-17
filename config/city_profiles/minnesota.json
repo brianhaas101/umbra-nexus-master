@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Minneapolis",
+    "gis": "https://opendata.minneapolismn.gov",
+    "open_data": "https://opendata.minneapolismn.gov",
+    "police": "https://www.minneapolismn.gov/government/departments/police/",
+    "fire": "https://www.minneapolismn.gov/government/departments/fire/",
+    "parks": "https://www.minneapolisparks.org/",
+    "permits": "https://www.minneapolismn.gov/business-services/licenses-permits-inspections/",
+    "public_works": "https://www.minneapolismn.gov/government/departments/public-works/",
+    "schools": "https://www.mpschools.org/",
+    "council": "https://www.minneapolismn.gov/government/city-council/"
+  },
+  {
+    "city": "St Paul",
+    "gis": "https://information.stpaul.gov/",
+    "open_data": "https://information.stpaul.gov/",
+    "police": "https://www.stpaul.gov/departments/police",
+    "fire": "https://www.stpaul.gov/departments/fire-paramedics",
+    "parks": "https://www.stpaul.gov/departments/parks-and-recreation",
+    "permits": "https://www.stpaul.gov/departments/safety-inspections",
+    "public_works": "https://www.stpaul.gov/departments/public-works",
+    "schools": "https://www.spps.org/",
+    "council": "https://www.stpaul.gov/department/city-council"
+  },
+  {
+    "city": "Rochester",
+    "gis": "https://www.rochestermn.gov/departments/information-technology/gis-mapping",
+    "open_data": "https://www.rochestermn.gov/",
+    "police": "https://www.rochestermn.gov/departments/police",
+    "fire": "https://www.rochestermn.gov/departments/fire",
+    "parks": "https://www.rochestermn.gov/departments/parks-and-recreation",
+    "permits": "https://www.rochestermn.gov/departments/community-development",
+    "public_works": "https://www.rochestermn.gov/departments/public-works",
+    "schools": "https://www.rochesterschools.org/",
+    "council": "https://www.rochestermn.gov/government/city-council"
+  },
+  {
+    "city": "Duluth",
+    "gis": "https://duluthmn.gov/gis/",
+    "open_data": "https://duluthmn.gov/",
+    "police": "https://duluthmn.gov/police/",
+    "fire": "https://duluthmn.gov/fire/",
+    "parks": "https://duluthmn.gov/parks/",
+    "permits": "https://duluthmn.gov/construction-services-inspections/",
+    "public_works": "https://duluthmn.gov/public-works-utilities/",
+    "schools": "https://www.isd709.org/",
+    "council": "https://duluthmn.gov/city-council/"
+  },
+  {
+    "city": "Bloomington",
+    "gis": "https://www.bloomingtonmn.gov/gis",
+    "open_data": "https://www.bloomingtonmn.gov/",
+    "police": "https://www.bloomingtonmn.gov/pd",
+    "fire": "https://www.bloomingtonmn.gov/fd",
+    "parks": "https://www.bloomingtonmn.gov/pr",
+    "permits": "https://www.bloomingtonmn.gov/building-inspections",
+    "public_works": "https://www.bloomingtonmn.gov/pw",
+    "schools": "https://www.bloomington.k12.mn.us/",
+    "council": "https://www.bloomingtonmn.gov/council"
+  }
+]

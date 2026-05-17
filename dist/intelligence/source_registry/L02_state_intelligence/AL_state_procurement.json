@@ -1,0 +1,19 @@
+{
+  "source_id": "state_procurement",
+  "state_code": "AL",
+  "state_name": "Alabama",
+  "category": "state_procurement",
+  "source_url": "https://procurement.alabama.gov/",
+  "status": "source_page_verified_state_procurement_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T05:03:55.956Z",
+  "last_refresh": "2026-05-14T05:03:55.956Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

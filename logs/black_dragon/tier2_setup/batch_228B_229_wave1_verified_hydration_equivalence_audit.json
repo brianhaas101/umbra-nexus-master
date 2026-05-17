@@ -1,0 +1,113 @@
+{
+    "batch":  "228B_228C_228D_228E_229",
+    "version":  "black_dragon_wave1_verified_hydration_and_equivalence_scoring_v1",
+    "generated_at":  "2026-05-11T05:05:55.1613947Z",
+    "wave":  "tier2_wave_1",
+    "city_results":  [
+                         {
+                             "city":  "Atlanta",
+                             "folder":  "atlanta",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\verified_source_harvest_queues.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\geospatial_anchor_extraction.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\quarantined_organization_entities.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\relationship_graph_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\atlanta\\long_beach_equivalence_score.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "equivalence_state":  "NOT_LONG_BEACH_EQUIVALENT_YET_VERIFIED_HYDRATION_REQUIRED",
+                             "status":  "PASS_WAVE1_VERIFIED_HYDRATION_LANES_READY_FAIL_CLOSED"
+                         },
+                         {
+                             "city":  "Austin",
+                             "folder":  "austin",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\verified_source_harvest_queues.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\geospatial_anchor_extraction.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\quarantined_organization_entities.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\relationship_graph_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\austin\\long_beach_equivalence_score.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "equivalence_state":  "NOT_LONG_BEACH_EQUIVALENT_YET_VERIFIED_HYDRATION_REQUIRED",
+                             "status":  "PASS_WAVE1_VERIFIED_HYDRATION_LANES_READY_FAIL_CLOSED"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\verified_source_harvest_queues.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\geospatial_anchor_extraction.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\quarantined_organization_entities.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\relationship_graph_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\houston\\long_beach_equivalence_score.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "equivalence_state":  "NOT_LONG_BEACH_EQUIVALENT_YET_VERIFIED_HYDRATION_REQUIRED",
+                             "status":  "PASS_WAVE1_VERIFIED_HYDRATION_LANES_READY_FAIL_CLOSED"
+                         },
+                         {
+                             "city":  "Las Vegas",
+                             "folder":  "las_vegas",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\verified_source_harvest_queues.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\geospatial_anchor_extraction.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\quarantined_organization_entities.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\relationship_graph_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\las_vegas\\long_beach_equivalence_score.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "equivalence_state":  "NOT_LONG_BEACH_EQUIVALENT_YET_VERIFIED_HYDRATION_REQUIRED",
+                             "status":  "PASS_WAVE1_VERIFIED_HYDRATION_LANES_READY_FAIL_CLOSED"
+                         },
+                         {
+                             "city":  "Miami",
+                             "folder":  "miami",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\verified_source_harvest_queues.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\geospatial_anchor_extraction.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\quarantined_organization_entities.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\relationship_graph_candidates.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\miami\\long_beach_equivalence_score.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "equivalence_state":  "NOT_LONG_BEACH_EQUIVALENT_YET_VERIFIED_HYDRATION_REQUIRED",
+                             "status":  "PASS_WAVE1_VERIFIED_HYDRATION_LANES_READY_FAIL_CLOSED"
+                         }
+                     ],
+    "failed_count":  0,
+    "failed":  [
+
+               ],
+    "interpretation":  {
+                           "wave1_pipeline_lanes_ready":  true,
+                           "long_beach_equivalence_claimed":  false,
+                           "tier2_claim_allowed":  false,
+                           "reason":  "Hydration lanes are ready, but verified sources/entities/geospatial anchors/relationships are not populated yet.",
+                           "next_wave_allowed_for_scaffold_setup":  true
+                       },
+    "hardlocks":  {
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_WAVE1_HYDRATION_LANES_READY_MOVE_TO_NEXT_WAVE_SCAFFOLD"
+}

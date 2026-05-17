@@ -1,0 +1,3173 @@
+[
+  {
+    "entity_id": "BD-001",
+    "department": "Eugene Police Department",
+
+    "budget": {
+      "total_budget_estimate": 95000000,
+      "training_budget_estimate": 950000,
+      "tech_budget_estimate": 1900000,
+      "discretionary_spend_estimate": 300000,
+      "purchase_capacity": "mid"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Division Commander",
+      "City Procurement Officer"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_commander", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1",
+      "spending_push_period": "Q3-Q4",
+      "grant_cycles": ["state_training_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "de-escalation"],
+      "estimated_training_events_per_year": 8,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "low",
+      "estimated_sales_cycle_days": 30,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-002",
+    "department": "Lane County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 80000000,
+      "training_budget_estimate": 800000,
+      "tech_budget_estimate": 1500000,
+      "discretionary_spend_estimate": 250000,
+      "purchase_capacity": "mid"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Coordinator",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "direct",
+      "bid_threshold_estimate": 40000,
+      "approval_layers": ["training_coordinator", "sheriff"],
+      "contract_required": false,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1",
+      "spending_push_period": "Q3-Q4",
+      "grant_cycles": ["county_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "leadership"],
+      "estimated_training_events_per_year": 6,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": false,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "low"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "low",
+      "estimated_sales_cycle_days": 21,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_coordinator"]
+    }
+  },
+
+  {
+    "entity_id": "BD-003",
+    "department": "Portland Police Bureau",
+
+    "budget": {
+      "total_budget_estimate": 250000000,
+      "training_budget_estimate": 2500000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 800000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Division",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["community_policing", "leadership"],
+      "estimated_training_events_per_year": 15,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_division", "city_programs"]
+    }
+  },
+
+  {
+    "entity_id": "BD-004",
+    "department": "Multnomah County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 180000000,
+      "training_budget_estimate": 1800000,
+      "tech_budget_estimate": 3000000,
+      "discretionary_spend_estimate": 600000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Unit",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 60000,
+      "approval_layers": ["training_unit", "sheriff", "county_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "leadership"],
+      "estimated_training_events_per_year": 10,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_unit"]
+    }
+  },
+
+  {
+    "entity_id": "BD-005",
+    "department": "Seattle Police Department",
+
+    "budget": {
+      "total_budget_estimate": 400000000,
+      "training_budget_estimate": 4000000,
+      "tech_budget_estimate": 8000000,
+      "discretionary_spend_estimate": 1200000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Division",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_division", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "bias_training"],
+      "estimated_training_events_per_year": 20,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_division"]
+    }
+  }
+]
+
+
+
+  [
+  {
+    "entity_id": "BD-006",
+    "department": "King County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 220000000,
+      "training_budget_estimate": 2200000,
+      "tech_budget_estimate": 4000000,
+      "discretionary_spend_estimate": 700000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Unit Commander",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training_unit", "sheriff", "county_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "tactical", "compliance"],
+      "estimated_training_events_per_year": 14,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_unit"]
+    }
+  },
+
+  {
+    "entity_id": "BD-007",
+    "department": "Los Angeles Police Department",
+
+    "budget": {
+      "total_budget_estimate": 1800000000,
+      "training_budget_estimate": 18000000,
+      "tech_budget_estimate": 30000000,
+      "discretionary_spend_estimate": 5000000,
+      "purchase_capacity": "enterprise"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Bureau Command",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 150000,
+      "approval_layers": ["training_bureau", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants", "state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "use_of_force", "specialized_units"],
+      "estimated_training_events_per_year": 40,
+      "openness_to_external_training": "low"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "very_high",
+      "estimated_sales_cycle_days": 180,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_bureau", "special_programs"]
+    }
+  },
+
+  {
+    "entity_id": "BD-008",
+    "department": "Los Angeles County Sheriff's Department",
+
+    "budget": {
+      "total_budget_estimate": 3500000000,
+      "training_budget_estimate": 35000000,
+      "tech_budget_estimate": 60000000,
+      "discretionary_spend_estimate": 10000000,
+      "purchase_capacity": "enterprise"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Bureau",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 200000,
+      "approval_layers": ["training_bureau", "sheriff", "county_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "leadership", "tactical"],
+      "estimated_training_events_per_year": 50,
+      "openness_to_external_training": "low"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": true,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "very_high",
+      "estimated_sales_cycle_days": 180,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_bureau"]
+    }
+  },
+
+  {
+    "entity_id": "BD-009",
+    "department": "San Francisco Police Department",
+
+    "budget": {
+      "total_budget_estimate": 800000000,
+      "training_budget_estimate": 8000000,
+      "tech_budget_estimate": 12000000,
+      "discretionary_spend_estimate": 2500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Division",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_division", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["policy", "leadership", "community_policing"],
+      "estimated_training_events_per_year": 20,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-010",
+    "department": "San Francisco Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 1000000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Unit",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 80000,
+      "approval_layers": ["training_unit", "sheriff", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "leadership"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 75,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_unit"]
+    }
+  }
+]
+
+
+
+[
+  {
+    "entity_id": "BD-011",
+    "department": "Chicago Police Department",
+
+    "budget": {
+      "total_budget_estimate": 1700000000,
+      "training_budget_estimate": 17000000,
+      "tech_budget_estimate": 30000000,
+      "discretionary_spend_estimate": 5000000,
+      "purchase_capacity": "enterprise"
+    },
+
+    "decision_roles": [
+      "Superintendent",
+      "Training Division Command",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 150000,
+      "approval_layers": ["training_division", "superintendent", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants", "state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "use_of_force", "community_policing", "tactical"],
+      "estimated_training_events_per_year": 40,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "very_high",
+      "estimated_sales_cycle_days": 180,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_division", "professional_development"]
+    }
+  },
+
+  {
+    "entity_id": "BD-012",
+    "department": "Cook County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 700000000,
+      "training_budget_estimate": 7000000,
+      "tech_budget_estimate": 12000000,
+      "discretionary_spend_estimate": 2500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Command",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_command", "sheriff", "county_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-12-01",
+      "fiscal_year_end": "2026-11-30",
+      "budget_planning_window": "Q2-Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants", "county_public_safety_funds"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "leadership", "tactical", "corrections"],
+      "estimated_training_events_per_year": 25,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_command", "corrections_training"]
+    }
+  },
+
+  {
+    "entity_id": "BD-013",
+    "department": "New York Police Department",
+
+    "budget": {
+      "total_budget_estimate": 5600000000,
+      "training_budget_estimate": 56000000,
+      "tech_budget_estimate": 90000000,
+      "discretionary_spend_estimate": 15000000,
+      "purchase_capacity": "enterprise"
+    },
+
+    "decision_roles": [
+      "Police Commissioner",
+      "Training Bureau",
+      "NYC Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 250000,
+      "approval_layers": ["training_bureau", "commissioner_office", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants", "state_grants", "homeland_security_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["academy", "leadership", "counterterrorism", "community_policing", "specialized_units"],
+      "estimated_training_events_per_year": 75,
+      "openness_to_external_training": "low"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "very_high",
+      "estimated_sales_cycle_days": 240,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_bureau", "specialized_units", "professional_development"]
+    }
+  },
+
+  {
+    "entity_id": "BD-014",
+    "department": "New York Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 200000000,
+      "training_budget_estimate": 2000000,
+      "tech_budget_estimate": 3500000,
+      "discretionary_spend_estimate": 750000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Operations Command",
+      "NYC Finance / Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["operations_command", "sheriff", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["city_public_safety_funds", "state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["civil_enforcement", "custody", "leadership", "field_operations"],
+      "estimated_training_events_per_year": 10,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": false,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["operations_command", "administration"]
+    }
+  },
+
+  {
+    "entity_id": "BD-015",
+    "department": "Miami Police Department",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 6000000,
+      "discretionary_spend_estimate": 1000000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Unit",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training_unit", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2-Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants", "homeland_security_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "leadership", "tourism_zone_policing", "community_policing"],
+      "estimated_training_events_per_year": 18,
+      "openness_to_external_training": "medium_high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_unit", "community_programs"]
+    }
+  }
+]
+
+  [
+  {
+    "entity_id": "BD-016",
+    "department": "Miami-Dade Police Department",
+
+    "budget": {
+      "total_budget_estimate": 900000000,
+      "training_budget_estimate": 9000000,
+      "tech_budget_estimate": 15000000,
+      "discretionary_spend_estimate": 3000000,
+      "purchase_capacity": "enterprise"
+    },
+
+    "decision_roles": [
+      "Director of Police",
+      "Training Bureau",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_bureau", "director", "county_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2-Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants", "state_grants", "homeland_security"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "tactical", "specialized_units"],
+      "estimated_training_events_per_year": 30,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium_high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_bureau"]
+    }
+  },
+
+  {
+    "entity_id": "BD-017",
+    "department": "Dallas Police Department",
+
+    "budget": {
+      "total_budget_estimate": 600000000,
+      "training_budget_estimate": 6000000,
+      "tech_budget_estimate": 10000000,
+      "discretionary_spend_estimate": 2000000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Academy",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training_academy", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "use_of_force", "community_policing"],
+      "estimated_training_events_per_year": 20,
+      "openness_to_external_training": "medium_high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium_high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_academy"]
+    }
+  },
+
+  {
+    "entity_id": "BD-018",
+    "department": "Dallas County Sheriff's Department",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 1000000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 60000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county_funding"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "leadership"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-019",
+    "department": "Phoenix Police Department",
+
+    "budget": {
+      "total_budget_estimate": 900000000,
+      "training_budget_estimate": 9000000,
+      "tech_budget_estimate": 14000000,
+      "discretionary_spend_estimate": 3000000,
+      "purchase_capacity": "enterprise"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Bureau",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_bureau", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "tactical", "specialized_units"],
+      "estimated_training_events_per_year": 25,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_bureau"]
+    }
+  },
+
+  {
+    "entity_id": "BD-020",
+    "department": "Maricopa County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 700000000,
+      "training_budget_estimate": 7000000,
+      "tech_budget_estimate": 12000000,
+      "discretionary_spend_estimate": 2500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 90000,
+      "approval_layers": ["training_division", "sheriff", "county_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "leadership", "tactical"],
+      "estimated_training_events_per_year": 18,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": true,
+      "public_pressure_level": "medium_high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  }
+]
+
+[
+  {
+    "entity_id": "BD-021",
+    "department": "Denver Police Department",
+
+    "budget": {
+      "total_budget_estimate": 350000000,
+      "training_budget_estimate": 3500000,
+      "tech_budget_estimate": 6000000,
+      "discretionary_spend_estimate": 1200000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Division",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training_division", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "use_of_force", "community_policing"],
+      "estimated_training_events_per_year": 18,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium_high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-022",
+    "department": "Denver Sheriff's Department",
+
+    "budget": {
+      "total_budget_estimate": 200000000,
+      "training_budget_estimate": 2000000,
+      "tech_budget_estimate": 3500000,
+      "discretionary_spend_estimate": 800000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Unit",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 60000,
+      "approval_layers": ["training_unit", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["city_public_safety"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "leadership"],
+      "estimated_training_events_per_year": 10,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_unit"]
+    }
+  },
+
+  {
+    "entity_id": "BD-023",
+    "department": "Atlanta Police Department",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 1000000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Academy",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training_academy", "chief", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "community_policing", "tactical"],
+      "estimated_training_events_per_year": 15,
+      "openness_to_external_training": "medium_high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": true,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium_high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_academy"]
+    }
+  },
+
+  {
+    "entity_id": "BD-024",
+    "department": "Fulton County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 180000000,
+      "training_budget_estimate": 1800000,
+      "tech_budget_estimate": 3000000,
+      "discretionary_spend_estimate": 700000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 60000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county_funding"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "leadership"],
+      "estimated_training_events_per_year": 10,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-025",
+    "department": "Boston Police Department",
+
+    "budget": {
+      "total_budget_estimate": 450000000,
+      "training_budget_estimate": 4500000,
+      "tech_budget_estimate": 7000000,
+      "discretionary_spend_estimate": 1500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Police Commissioner",
+      "Training Division",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_division", "commissioner", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "community_policing", "policy_training"],
+      "estimated_training_events_per_year": 20,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": false,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_division"]
+    }
+  }
+]
+
+  [
+  {
+    "entity_id": "BD-026",
+    "department": "Suffolk County Sheriff's Department",
+
+    "budget": {
+      "total_budget_estimate": 160000000,
+      "training_budget_estimate": 1600000,
+      "tech_budget_estimate": 2500000,
+      "discretionary_spend_estimate": 600000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Administration"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_public_safety"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "rehabilitation", "leadership"],
+      "estimated_training_events_per_year": 8,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-027",
+    "department": "Washington Metropolitan Police Department",
+
+    "budget": {
+      "total_budget_estimate": 600000000,
+      "training_budget_estimate": 6000000,
+      "tech_budget_estimate": 9000000,
+      "discretionary_spend_estimate": 2000000,
+      "purchase_capacity": "very_high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Academy",
+      "DC Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_academy", "chief", "procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2-Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_grants", "homeland_security"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["leadership", "policy", "federal_compliance"],
+      "estimated_training_events_per_year": 25,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "medium",
+      "decision_speed": "slow",
+      "warm_entry_paths": ["training_academy"]
+    }
+  },
+
+  {
+    "entity_id": "BD-028",
+    "department": "DC Department of Corrections",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 1200000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Director of Corrections",
+      "Training Division",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training_division", "director"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2-Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["federal_corrections_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "compliance", "leadership"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium_high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-029",
+    "department": "Houston Police Department",
+
+    "budget": {
+      "total_budget_estimate": 1000000000,
+      "training_budget_estimate": 10000000,
+      "tech_budget_estimate": 15000000,
+      "discretionary_spend_estimate": 4000000,
+      "purchase_capacity": "very_high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Academy",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_academy", "chief", "procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "leadership", "community_policing"],
+      "estimated_training_events_per_year": 30,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_academy"]
+    }
+  },
+
+  {
+    "entity_id": "BD-030",
+    "department": "Harris County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 600000000,
+      "training_budget_estimate": 6000000,
+      "tech_budget_estimate": 9000000,
+      "discretionary_spend_estimate": 2000000,
+      "purchase_capacity": "very_high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2-Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county_funding", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "tactical", "leadership"],
+      "estimated_training_events_per_year": 20,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  }
+]
+
+[
+  {
+    "entity_id": "BD-031",
+    "department": "San Diego Police Department",
+
+    "budget": {
+      "total_budget_estimate": 600000000,
+      "training_budget_estimate": 6000000,
+      "tech_budget_estimate": 9000000,
+      "discretionary_spend_estimate": 2500000,
+      "purchase_capacity": "very_high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Division",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_division", "chief", "procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants", "federal_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "leadership", "community_policing"],
+      "estimated_training_events_per_year": 25,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-032",
+    "department": "San Diego County Sheriff's Department",
+
+    "budget": {
+      "total_budget_estimate": 1200000000,
+      "training_budget_estimate": 12000000,
+      "tech_budget_estimate": 18000000,
+      "discretionary_spend_estimate": 5000000,
+      "purchase_capacity": "extreme"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_division", "sheriff", "procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county", "state", "federal"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "tactical", "leadership"],
+      "estimated_training_events_per_year": 30,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "very_high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-033",
+    "department": "Las Vegas Metropolitan Police Department",
+
+    "budget": {
+      "total_budget_estimate": 800000000,
+      "training_budget_estimate": 8000000,
+      "tech_budget_estimate": 12000000,
+      "discretionary_spend_estimate": 3000000,
+      "purchase_capacity": "very_high"
+    },
+
+    "decision_roles": [
+      "Sheriff (LVMPD)",
+      "Training Bureau",
+      "Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_bureau", "sheriff", "procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state", "federal"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "event_security", "leadership"],
+      "estimated_training_events_per_year": 20,
+      "openness_to_external_training": "medium_high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_bureau"]
+    }
+  },
+
+  {
+    "entity_id": "BD-034",
+    "department": "Clark County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 500000000,
+      "training_budget_estimate": 5000000,
+      "tech_budget_estimate": 8000000,
+      "discretionary_spend_estimate": 2000000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 75000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county", "state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "operations", "leadership"],
+      "estimated_training_events_per_year": 15,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 75,
+      "budget_flexibility": "high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-035",
+    "department": "Orlando Police Department",
+
+    "budget": {
+      "total_budget_estimate": 250000000,
+      "training_budget_estimate": 2500000,
+      "tech_budget_estimate": 4000000,
+      "discretionary_spend_estimate": 1200000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Unit",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_unit", "chief"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2-Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["community_policing", "leadership", "tactical"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_unit"]
+    }
+  }
+]
+
+  [
+  {
+    "entity_id": "BD-036",
+    "department": "Orange County Sheriff's Office (FL)",
+
+    "budget": {
+      "total_budget_estimate": 900000000,
+      "training_budget_estimate": 9000000,
+      "tech_budget_estimate": 14000000,
+      "discretionary_spend_estimate": 3500000,
+      "purchase_capacity": "very_high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_division", "sheriff", "procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-10-01",
+      "fiscal_year_end": "2026-09-30",
+      "budget_planning_window": "Q2-Q3",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state", "federal"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "custody", "leadership"],
+      "estimated_training_events_per_year": 25,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 75,
+      "budget_flexibility": "very_high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-037",
+    "department": "Nashville Police Department",
+
+    "budget": {
+      "total_budget_estimate": 350000000,
+      "training_budget_estimate": 3500000,
+      "tech_budget_estimate": 6000000,
+      "discretionary_spend_estimate": 1500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Academy",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_academy", "chief"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["community_policing", "leadership", "tactical"],
+      "estimated_training_events_per_year": 15,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium_high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_academy"]
+    }
+  },
+
+  {
+    "entity_id": "BD-038",
+    "department": "Davidson County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 250000000,
+      "training_budget_estimate": 2500000,
+      "tech_budget_estimate": 4000000,
+      "discretionary_spend_estimate": 1200000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Administration"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "rehabilitation", "leadership"],
+      "estimated_training_events_per_year": 10,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-039",
+    "department": "Minneapolis Police Department",
+
+    "budget": {
+      "total_budget_estimate": 200000000,
+      "training_budget_estimate": 2000000,
+      "tech_budget_estimate": 3500000,
+      "discretionary_spend_estimate": 1000000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Division",
+      "City Oversight / Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "city_oversight"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3-Q4",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state", "federal_reform_grants"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["policy_reform", "de-escalation", "leadership"],
+      "estimated_training_events_per_year": 18,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": true,
+      "public_pressure_level": "extreme"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "medium_high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-040",
+    "department": "Hennepin County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 1500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3-Q4",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state", "federal"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "community", "leadership"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  }
+]
+
+[
+  {
+    "entity_id": "BD-041",
+    "department": "Detroit Police Department",
+
+    "budget": {
+      "total_budget_estimate": 350000000,
+      "training_budget_estimate": 3500000,
+      "tech_budget_estimate": 6000000,
+      "discretionary_spend_estimate": 1500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Division",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "city_procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state", "federal"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "community_policing", "leadership"],
+      "estimated_training_events_per_year": 18,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium_high",
+      "estimated_sales_cycle_days": 90,
+      "budget_flexibility": "high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-042",
+    "department": "Wayne County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 250000000,
+      "training_budget_estimate": 2500000,
+      "tech_budget_estimate": 4000000,
+      "discretionary_spend_estimate": 1200000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Administration"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3-Q4",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county", "state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "operations", "leadership"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium_high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-043",
+    "department": "Charlotte-Mecklenburg Police Department",
+
+    "budget": {
+      "total_budget_estimate": 400000000,
+      "training_budget_estimate": 4000000,
+      "tech_budget_estimate": 7000000,
+      "discretionary_spend_estimate": 1800000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Chief of Police",
+      "Training Academy",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_academy", "chief"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state", "federal"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["community_policing", "leadership", "tactical"],
+      "estimated_training_events_per_year": 15,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_academy"]
+    }
+  },
+
+  {
+    "entity_id": "BD-044",
+    "department": "Mecklenburg County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 1400000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": [
+      "Sheriff",
+      "Training Division",
+      "County Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county", "state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "operations", "leadership"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-045",
+    "department": "Philadelphia Police Department",
+
+    "budget": {
+      "total_budget_estimate": 850000000,
+      "training_budget_estimate": 8500000,
+      "tech_budget_estimate": 13000000,
+      "discretionary_spend_estimate": 3500000,
+      "purchase_capacity": "very_high"
+    },
+
+    "decision_roles": [
+      "Police Commissioner",
+      "Training Bureau",
+      "City Procurement"
+    ],
+
+    "procurement": {
+      "purchase_method": "bid_required",
+      "bid_threshold_estimate": 100000,
+      "approval_layers": ["training_bureau", "commissioner", "procurement"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state", "federal"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "leadership", "policy"],
+      "estimated_training_events_per_year": 25,
+      "openness_to_external_training": "medium"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "high",
+      "estimated_sales_cycle_days": 120,
+      "budget_flexibility": "high",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["training_bureau"]
+    }
+  }
+]
+
+ [
+  {
+    "entity_id": "BD-046",
+    "department": "Philadelphia Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 120000000,
+      "training_budget_estimate": 1200000,
+      "tech_budget_estimate": 2000000,
+      "discretionary_spend_estimate": 600000,
+      "purchase_capacity": "medium"
+    },
+
+    "decision_roles": ["Sheriff", "Command Staff", "City Administration"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["command_staff", "city_admin"],
+      "contract_required": true,
+      "vendor_registration_required": true
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["city", "state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["court_security", "custody", "leadership"],
+      "estimated_training_events_per_year": 8,
+      "openness_to_external_training": "medium_high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "medium",
+      "decision_speed": "moderate",
+      "warm_entry_paths": ["command_staff"]
+    }
+  },
+
+  {
+    "entity_id": "BD-047",
+    "department": "Columbus Police Department",
+
+    "budget": {
+      "total_budget_estimate": 350000000,
+      "training_budget_estimate": 3500000,
+      "tech_budget_estimate": 6000000,
+      "discretionary_spend_estimate": 1500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": ["Chief of Police", "Training Division", "City Procurement"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "chief"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3-Q4",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state", "federal"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["community_policing", "leadership", "tactical"],
+      "estimated_training_events_per_year": 14,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-048",
+    "department": "Franklin County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 250000000,
+      "training_budget_estimate": 2500000,
+      "tech_budget_estimate": 4000000,
+      "discretionary_spend_estimate": 1200000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": ["Sheriff", "Training Division", "County Procurement"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3-Q4",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county", "state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "operations", "leadership"],
+      "estimated_training_events_per_year": 10,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-049",
+    "department": "Indianapolis Metropolitan Police Department",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 1400000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": ["Chief of Police", "Training Division", "City Procurement"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "chief"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3-Q4",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "leadership", "community"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-050",
+    "department": "Marion County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 200000000,
+      "training_budget_estimate": 2000000,
+      "tech_budget_estimate": 3500000,
+      "discretionary_spend_estimate": 1000000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": ["Sheriff", "Command Staff", "County Administration"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["command_staff", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-01-01",
+      "fiscal_year_end": "2025-12-31",
+      "budget_planning_window": "Q3-Q4",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "operations", "leadership"],
+      "estimated_training_events_per_year": 8,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "medium_high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["command_staff"]
+    }
+  },
+
+  {
+    "entity_id": "BD-051",
+    "department": "Kansas City Police Department",
+
+    "budget": {
+      "total_budget_estimate": 300000000,
+      "training_budget_estimate": 3000000,
+      "tech_budget_estimate": 5000000,
+      "discretionary_spend_estimate": 1500000,
+      "purchase_capacity": "high"
+    },
+
+    "decision_roles": ["Chief of Police", "Training Division", "City Procurement"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "chief"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-05-01",
+      "fiscal_year_end": "2026-04-30",
+      "budget_planning_window": "Q4-Q1",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "community", "leadership"],
+      "estimated_training_events_per_year": 12,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": true,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium_high"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-052",
+    "department": "Jackson County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 180000000,
+      "training_budget_estimate": 1800000,
+      "tech_budget_estimate": 3000000,
+      "discretionary_spend_estimate": 900000,
+      "purchase_capacity": "medium"
+    },
+
+    "decision_roles": ["Sheriff", "Command Staff", "County Administration"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["command_staff", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-05-01",
+      "fiscal_year_end": "2026-04-30",
+      "budget_planning_window": "Q4-Q1",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "operations", "leadership"],
+      "estimated_training_events_per_year": 8,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "medium",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["command_staff"]
+    }
+  },
+
+  {
+    "entity_id": "BD-053",
+    "department": "Salt Lake City Police Department",
+
+    "budget": {
+      "total_budget_estimate": 200000000,
+      "training_budget_estimate": 2000000,
+      "tech_budget_estimate": 3500000,
+      "discretionary_spend_estimate": 1000000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": ["Chief of Police", "Training Division", "City Procurement"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "chief"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["state"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["tactical", "community", "leadership"],
+      "estimated_training_events_per_year": 10,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  },
+
+  {
+    "entity_id": "BD-054",
+    "department": "Salt Lake County Sheriff's Office",
+
+    "budget": {
+      "total_budget_estimate": 250000000,
+      "training_budget_estimate": 2500000,
+      "tech_budget_estimate": 4000000,
+      "discretionary_spend_estimate": 1200000,
+      "purchase_capacity": "mid_high"
+    },
+
+    "decision_roles": ["Sheriff", "Training Division", "County Procurement"],
+
+    "procurement": {
+      "purchase_method": "hybrid",
+      "bid_threshold_estimate": 50000,
+      "approval_layers": ["training_division", "sheriff"],
+      "contract_required": true,
+      "vendor_registration_required": false
+    },
+
+    "budget_timing": {
+      "fiscal_year_start": "2025-07-01",
+      "fiscal_year_end": "2026-06-30",
+      "budget_planning_window": "Q1-Q2",
+      "spending_push_period": "Q4",
+      "grant_cycles": ["county"]
+    },
+
+    "training_environment": {
+      "has_internal_training_unit": true,
+      "uses_external_vendors": true,
+      "typical_training_types": ["custody", "operations", "leadership"],
+      "estimated_training_events_per_year": 10,
+      "openness_to_external_training": "high"
+    },
+
+    "purchase_triggers": {
+      "recent_incidents": false,
+      "policy_changes": true,
+      "staffing_shortages": true,
+      "leadership_change": false,
+      "public_pressure_level": "medium"
+    },
+
+    "sales_profile": {
+      "sales_cycle_difficulty": "medium",
+      "estimated_sales_cycle_days": 60,
+      "budget_flexibility": "high",
+      "decision_speed": "fast",
+      "warm_entry_paths": ["training_division"]
+    }
+  }
+]

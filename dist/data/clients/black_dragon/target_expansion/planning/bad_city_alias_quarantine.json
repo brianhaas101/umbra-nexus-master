@@ -1,0 +1,34 @@
+{
+    "version":  "black_dragon_bad_city_alias_quarantine_v1",
+    "generated_at":  "2026-05-10T18:27:58.2853541Z",
+    "total_quarantined_city_buckets":  3,
+    "quarantined_city_buckets":  [
+                                     {
+                                         "city":  "Washington",
+                                         "state":  "OR",
+                                         "clean_seed_count":  1,
+                                         "target_goal":  20,
+                                         "expansion_gap":  19,
+                                         "quarantine_reason":  "BAD_CITY_STATE_ALIAS_OR_ARTIFACT",
+                                         "expansion_allowed":  false
+                                     },
+                                     {
+                                         "city":  "Washington",
+                                         "state":  "TX",
+                                         "clean_seed_count":  1,
+                                         "target_goal":  20,
+                                         "expansion_gap":  19,
+                                         "quarantine_reason":  "BAD_CITY_STATE_ALIAS_OR_ARTIFACT",
+                                         "expansion_allowed":  false
+                                     },
+                                     {
+                                         "city":  "Wichita",
+                                         "state":  "TX",
+                                         "clean_seed_count":  1,
+                                         "target_goal":  20,
+                                         "expansion_gap":  19,
+                                         "quarantine_reason":  "BAD_CITY_STATE_ALIAS_OR_ARTIFACT",
+                                         "expansion_allowed":  false
+                                     }
+                                 ]
+}

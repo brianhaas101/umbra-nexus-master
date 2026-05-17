@@ -1,0 +1,16 @@
+{
+  "version": "book_layer_controls_injection_report_v1",
+  "generated_at": "2026-05-09T18:33:23.198Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_layer_controls": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_layer_controls": true
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+    "version":  "black_dragon_miami_verified_source_ingestion_lanes_v1",
+    "generated_at":  "2026-05-11T05:21:40.9709867Z",
+    "city":  "Miami",
+    "folder":  "miami",
+    "state":  "Florida",
+    "state_code":  "FL",
+    "city_id":  "city_miami_fl",
+    "source_cache_candidates":  [
+
+                                ],
+    "category_source_lanes":  [
+                                  {
+                                      "category":  "motorcycle_dealerships",
+                                      "search_queries":  [
+                                                             "\"Miami\" motorcycle dealership",
+                                                             "\"Miami\" Harley-Davidson dealer",
+                                                             "\"Miami\" motorcycle sales"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "motorcycle_repair_and_parts",
+                                      "search_queries":  [
+                                                             "\"Miami\" motorcycle repair",
+                                                             "\"Miami\" motorcycle parts",
+                                                             "\"Miami\" motorcycle accessories"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "riding_clubs",
+                                      "search_queries":  [
+                                                             "\"Miami\" motorcycle riding club",
+                                                             "\"Miami\" riders association",
+                                                             "\"Miami\" motorcycle group"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "rider_training_schools",
+                                      "search_queries":  [
+                                                             "\"Miami\" motorcycle safety course",
+                                                             "\"Miami\" rider training",
+                                                             "\"Miami\" motorcycle training school"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "community_groups",
+                                      "search_queries":  [
+                                                             "\"Miami\" community organizations",
+                                                             "\"Miami\" local community groups",
+                                                             "\"Miami\" neighborhood associations"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "event_venues",
+                                      "search_queries":  [
+                                                             "\"Miami\" event venues",
+                                                             "\"Miami\" motorcycle events",
+                                                             "\"Miami\" community event venue"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "educational_institutes",
+                                      "search_queries":  [
+                                                             "\"Miami\" colleges",
+                                                             "\"Miami\" technical schools",
+                                                             "\"Miami\" adult education"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "local_media_groups",
+                                      "search_queries":  [
+                                                             "\"Miami\" local newspaper",
+                                                             "\"Miami\" local radio station",
+                                                             "\"Miami\" local media outlet"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "business_associations",
+                                      "search_queries":  [
+                                                             "\"Miami\" chamber of commerce",
+                                                             "\"Miami\" business association",
+                                                             "\"Miami\" small business network"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "civic_organizations",
+                                      "search_queries":  [
+                                                             "\"Miami\" civic organizations",
+                                                             "\"Miami\" public agencies directory",
+                                                             "\"Miami\" city services directory"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "public_safety_public_directories",
+                                      "search_queries":  [
+                                                             "\"Miami\" police department public directory",
+                                                             "\"Miami\" fire department public directory",
+                                                             "\"Miami\" emergency management public directory"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "lawful_sporting_or_firearms_organizations",
+                                      "search_queries":  [
+                                                             "\"Miami\" lawful sporting club",
+                                                             "\"Miami\" shooting sports organization",
+                                                             "\"Miami\" firearms training organization public"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "charity_nonprofit_groups",
+                                      "search_queries":  [
+                                                             "\"Miami\" nonprofit organizations",
+                                                             "\"Miami\" charities",
+                                                             "\"Miami\" community nonprofit"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "local_influencer_or_creator_media",
+                                      "search_queries":  [
+                                                             "\"Miami\" local creators",
+                                                             "\"Miami\" local podcast",
+                                                             "\"Miami\" community media"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "regional_geospatial_anchors",
+                                      "search_queries":  [
+                                                             "\"Miami\" landmarks",
+                                                             "\"Miami\" districts",
+                                                             "\"Miami\" transportation hubs"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  }
+                              ],
+    "controls":  {
+                     "source_url_required":  true,
+                     "public_source_required":  true,
+                     "city_match_required":  true,
+                     "category_match_required":  true,
+                     "organization_identity_required":  true,
+                     "no_placeholder_entities":  true,
+                     "no_false_targets":  true,
+                     "runtime_promotion_allowed":  false,
+                     "contact_enablement_allowed":  false,
+                     "manual_review_required":  true
+                 },
+    "status":  "VERIFIED_SOURCE_INGESTION_LANES_READY"
+}

@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:06.290Z",
+  "layer_id": "L02",
+  "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "TX",
+  "state_name": "Texas",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://www.texasattorneygeneral.gov",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 136995,
+    "extracted_links": [
+      {
+        "href": "https://www.texasattorneygeneral.gov/news",
+        "label": "News"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/crime-victims",
+        "label": "Crime Victims"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program",
+        "label": "Crime Victims’ Compensation Program"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program",
+        "label": "Crime Victims’ Compensation Program"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/victims-crime",
+        "label": "Victims of Crime"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program",
+        "label": "Crime Victims’ Compensation Program"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/cvsd-help-center",
+        "label": "How May We Help You?"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/advocate-resources",
+        "label": "Advocate Resources"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/consumer-protection",
+        "label": "Consumer Protection"
+      },
+      {
+        "href": "https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint",
+        "label": "File a Consumer Complaint"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d"
+}

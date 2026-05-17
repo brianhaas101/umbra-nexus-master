@@ -1,0 +1,27 @@
+﻿{
+    "id":  "layer_04",
+    "name":  "Claim Relevance Scoring",
+    "version":  "0.1.0",
+    "status":  "active_scaffold",
+    "runtime_scope":  "public/intelligence/layers/layer_04",
+    "black_dragon_coupling":  false,
+    "deterministic":  true,
+    "replayable":  true,
+    "depends_on":  [
+                       "layer_01",
+                       "layer_02",
+                       "layer_03"
+                   ],
+    "purpose":  "Score whether a sourced claim is operationally relevant based on explicit civic, economic, infrastructure, entity, or location terms.",
+    "allowed_inputs":  [
+                           "layer_01.normalized_record",
+                           "layer_02.city_local_classification",
+                           "layer_03.authority_score"
+                       ],
+    "required_outputs":  [
+                             "relevance_score",
+                             "relevance_class",
+                             "relevance_reasons",
+                             "audit_event"
+                         ]
+}

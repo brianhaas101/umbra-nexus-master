@@ -1,0 +1,32 @@
+{
+  "version": "black_dragon_discovery_engine_registry_v1",
+  "generated_at": "2026-05-10T19:31:53.322Z",
+  "engine_id": "BD_DISCOVERY_ENGINE_V1",
+  "city_scope": [
+    "Long Beach"
+  ],
+  "enabled": true,
+  "discovery_targets": [
+    "motorcycle_podcasts",
+    "motorcycle_youtube_channels",
+    "motorcycle_events",
+    "motorcycle_swap_meets",
+    "motorcycle_dealerships",
+    "motorcycle_media",
+    "motorcycle_clubs",
+    "motorcycle_nonprofits",
+    "motorcycle_influencers",
+    "motorcycle_community_venues",
+    "motorcycle_tattoo_shops",
+    "motorcycle_barber_networks",
+    "motorcycle_fundraisers",
+    "motorcycle_event_vendors"
+  ],
+  "candidate_queue_only": true,
+  "direct_runtime_promotion_allowed": false,
+  "automated_contact_allowed": false,
+  "quarantine_unknown_entities": true,
+  "duplicate_prevention_enabled": true,
+  "entity_aggregation_enabled": true,
+  "review_required_before_contact_ready": true
+}

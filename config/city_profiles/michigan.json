@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Ann Arbor",
+    "gis": "https://www.a2gov.org/services/data/Pages/default.aspx",
+    "open_data": "https://www.a2gov.org/services/data/Pages/default.aspx",
+    "police": "https://www.a2gov.org/departments/police/",
+    "fire": "https://www.a2gov.org/departments/fire/",
+    "parks": "https://www.a2gov.org/departments/Parks-Recreation/",
+    "permits": "https://www.a2gov.org/departments/build-rent-inspect/",
+    "public_works": "https://www.a2gov.org/departments/public-works/",
+    "schools": "https://www.a2schools.org/",
+    "council": "https://www.a2gov.org/departments/city-council/"
+  },
+  {
+    "city": "Detroit",
+    "gis": "https://data.detroitmi.gov/",
+    "open_data": "https://data.detroitmi.gov/",
+    "police": "https://detroitmi.gov/departments/police-department",
+    "fire": "https://detroitmi.gov/departments/detroit-fire-department",
+    "parks": "https://detroitmi.gov/departments/parks-recreation",
+    "permits": "https://detroitmi.gov/departments/buildings-safety-engineering-and-environmental-department",
+    "public_works": "https://detroitmi.gov/departments/department-public-works",
+    "schools": "https://www.detroitk12.org/",
+    "council": "https://detroitmi.gov/government/city-council"
+  },
+  {
+    "city": "Flint",
+    "gis": "https://www.cityofflint.com/",
+    "open_data": "https://www.cityofflint.com/",
+    "police": "https://www.cityofflint.com/public-safety/",
+    "fire": "https://www.cityofflint.com/fire/",
+    "parks": "https://www.cityofflint.com/parks/",
+    "permits": "https://www.cityofflint.com/building-safety-inspections/",
+    "public_works": "https://www.cityofflint.com/public-works/",
+    "schools": "https://www.flintschools.org/",
+    "council": "https://www.cityofflint.com/city-council/"
+  },
+  {
+    "city": "Grand Rapids",
+    "gis": "https://www.grandrapidsmi.gov/Government/Departments/Enterprise-GIS",
+    "open_data": "https://www.grandrapidsmi.gov/",
+    "police": "https://www.grandrapidsmi.gov/Government/Departments/Police-Department",
+    "fire": "https://www.grandrapidsmi.gov/Government/Departments/Fire-Department",
+    "parks": "https://www.grandrapidsmi.gov/Government/Departments/Parks-and-Recreation",
+    "permits": "https://www.grandrapidsmi.gov/Government/Departments/Development-Center",
+    "public_works": "https://www.grandrapidsmi.gov/Government/Departments/Public-Works",
+    "schools": "https://www.grps.org/",
+    "council": "https://www.grandrapidsmi.gov/Government/City-Commission"
+  },
+  {
+    "city": "Lansing",
+    "gis": "https://www.lansingmi.gov/",
+    "open_data": "https://www.lansingmi.gov/",
+    "police": "https://www.lansingmi.gov/199/Police",
+    "fire": "https://www.lansingmi.gov/198/Fire",
+    "parks": "https://www.lansingmi.gov/433/Parks-Recreation",
+    "permits": "https://www.lansingmi.gov/179/Code-Compliance",
+    "public_works": "https://www.lansingmi.gov/185/Public-Service",
+    "schools": "https://www.lansingschools.net/",
+    "council": "https://www.lansingmi.gov/151/City-Council"
+  }
+]

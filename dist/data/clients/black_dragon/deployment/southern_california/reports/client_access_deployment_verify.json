@@ -1,0 +1,21 @@
+{
+  "version": "black_dragon_socal_client_access_deployment_verify_v1",
+  "generated_at": "2026-05-10T22:38:55.529Z",
+  "client_id": "black_dragon_omg_cert_v1",
+  "certification": "BLACK_DRAGON_CLIENT_ACCESS_READY",
+  "dashboard_visible": true,
+  "feed_visible": true,
+  "queues_visible": true,
+  "visible_counts": {
+    "dashboard_runtime_entities": 88,
+    "refined_client_opportunities": 25,
+    "manual_contact_review_items": 18,
+    "route_issue_review_items": 5
+  },
+  "client_locks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true,
+    "founder_admin_forbidden": true
+  }
+}

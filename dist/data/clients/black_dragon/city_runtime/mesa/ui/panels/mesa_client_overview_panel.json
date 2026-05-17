@@ -1,0 +1,48 @@
+{
+  "version": "black_dragon_mesa_client_overview_panel_v1",
+  "generated_at": "2026-05-10T23:57:08.796Z",
+  "city": "Mesa",
+  "state": "AZ",
+  "panel_id": "BD_MSA_CLIENT_OVERVIEW",
+  "panel_title": "Mesa Operational Intelligence",
+  "client_visible": true,
+  "summary_cards": [
+    {
+      "card_id": "MSA_RUNTIME_ENTITIES",
+      "label": "Runtime Entities",
+      "count": 10
+    },
+    {
+      "card_id": "MSA_CONTACT_CANDIDATES",
+      "label": "Manual Contact Candidates",
+      "count": 6
+    },
+    {
+      "card_id": "MSA_GRAPH_EDGES",
+      "label": "Graph Edges",
+      "count": 44
+    },
+    {
+      "card_id": "MSA_PROPAGATION_PATHS",
+      "label": "Propagation Paths",
+      "count": 10
+    },
+    {
+      "card_id": "MSA_ROUTE_REVIEW",
+      "label": "Route Reviews",
+      "count": 4
+    },
+    {
+      "card_id": "MSA_REGIONAL_DUPLICATES",
+      "label": "Regional Overlaps",
+      "count": 3
+    }
+  ],
+  "hardlocks": {
+    "ui_can_recommend": true,
+    "ui_can_auto_contact": false,
+    "ui_can_auto_promote": false,
+    "ui_can_delete_targets": false,
+    "ui_can_mutate_runtime": false
+  }
+}

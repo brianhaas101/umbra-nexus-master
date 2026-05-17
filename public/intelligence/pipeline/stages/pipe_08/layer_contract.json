@@ -1,0 +1,16 @@
+﻿{
+    "layer_id":  "layer_08",
+    "contract":  "cross_source_corroboration",
+    "depends_on":  [
+                       "layer_01",
+                       "layer_03",
+                       "layer_05"
+                   ],
+    "web_search_allowed":  false,
+    "inferred_corroboration_allowed":  false,
+    "synthetic_sources_allowed":  false,
+    "deterministic_score":  true,
+    "modifies_claims":  false,
+    "creates_entities":  false,
+    "modifies_black_dragon":  false
+}

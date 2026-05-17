@@ -1,0 +1,132 @@
+{
+  "version": "umbra_batch_054_hub_interaction_empty_state_audit_v1",
+  "generated_at": "2026-05-09T22:16:58.420Z",
+  "audit_type": "READ_ONLY_INTERACTION_AND_EMPTY_STATE_DISCOVERY",
+  "file_integrity": {
+    "rootIndex": true,
+    "publicIndex": true,
+    "globeIndex": false,
+    "ui": true,
+    "core": true,
+    "cityMap": true,
+    "interaction": true,
+    "dataLoader": true,
+    "dossiers": true,
+    "dashboardRenderer": true,
+    "queueUi": true,
+    "responseUi": true,
+    "mapNodes": true,
+    "cityMapRenderer": true,
+    "clusterRenderer": true,
+    "pathRenderer": true,
+    "layerControls": true,
+    "performancePostfx": true,
+    "performanceMovement": true,
+    "performanceResize": true,
+    "dashboardData": true,
+    "widgetsData": true,
+    "queueData": true,
+    "responseData": true,
+    "controlsData": true,
+    "finalAccess": true
+  },
+  "entrypoint_integrity": {
+    "entrypoints_found": 2,
+    "expected_scripts_missing_by_entrypoint": [
+      {
+        "entrypoint": "index.html",
+        "missing": []
+      },
+      {
+        "entrypoint": "public/index.html",
+        "missing": []
+      }
+    ],
+    "all_existing_entrypoints_have_expected_scripts": true
+  },
+  "command_deck_interaction": {
+    "access_label_present": true,
+    "profile_label_present": true,
+    "account_label_present": true,
+    "leads_engine_label_present": true,
+    "clients_label_present": true,
+    "operations_label_present": true,
+    "safeguards_label_present": true,
+    "button_click_handlers_detected": true,
+    "active_module_state_detected": false
+  },
+  "intelligence_panel_integrity": {
+    "status_present": true,
+    "mode_present": false,
+    "dataset_present": true,
+    "selection_present": true,
+    "region_present": false,
+    "coordinates_present": false,
+    "nodes_present": true,
+    "live_update_hooks_detected": true
+  },
+  "globe_interaction_integrity": {
+    "world_mode_present": true,
+    "city_map_mode_present": true,
+    "city_map_ready_logic_present": true,
+    "interaction_pick_trace_present": true,
+    "dossier_sync_present": true
+  },
+  "black_dragon_dashboard_integrity": {
+    "data_exists": true,
+    "client_scope": true,
+    "operator_mode_client_safe": true,
+    "widgets_exist": true,
+    "renderer_global_present": true,
+    "renderer_fetches_data": true,
+    "renderer_mounts_dom": true,
+    "empty_state_handling_detected": false
+  },
+  "outreach_queue_integrity": {
+    "queue_exists": true,
+    "queue_items": 1334,
+    "ready_items": 532,
+    "renderer_global_present": true,
+    "copy_actions_present": true,
+    "selection_list_present": true,
+    "empty_state_handling_detected": true
+  },
+  "response_logging_integrity": {
+    "response_data_exists": true,
+    "response_records_array": true,
+    "renderer_global_present": true,
+    "generate_action_present": true,
+    "copy_json_present": true,
+    "form_fields_present": true,
+    "persistence_warning": true
+  },
+  "map_layer_controls_integrity": {
+    "controls_exist": true,
+    "has_targets_layer": true,
+    "has_clusters_layer": true,
+    "has_paths_layer": true,
+    "controls_global_present": true,
+    "set_layer_visible_exposed": true,
+    "get_layer_visible_exposed": true
+  },
+  "performance_runtime_integrity": {
+    "adaptive_postfx_present": true,
+    "movement_performance_present": true,
+    "hard_movement_mode_present": true,
+    "resize_throttle_present": true
+  },
+  "access_checkpoint_integrity": {
+    "final_access_exists": true,
+    "final_access_passed": true,
+    "final_access_targets": 1334
+  },
+  "findings": [
+    {
+      "severity": "MEDIUM",
+      "area": "Response Logging",
+      "issue": "Response logging appears to generate/copy records, but durable persistence is not detected.",
+      "recommendation": "Decide whether response records are copy-only for pilot or should persist locally/server-side."
+    }
+  ],
+  "pass": true
+}

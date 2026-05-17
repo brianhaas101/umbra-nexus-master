@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Oklahoma City",
+    "gis": "https://data.okc.gov/",
+    "open_data": "https://data.okc.gov/",
+    "police": "https://www.okc.gov/departments/police",
+    "fire": "https://www.okc.gov/departments/fire",
+    "parks": "https://www.okc.gov/departments/parks-recreation",
+    "permits": "https://www.okc.gov/departments/development-services",
+    "public_works": "https://www.okc.gov/departments/public-works",
+    "schools": "https://www.okcps.org/",
+    "council": "https://www.okc.gov/government/city-council"
+  },
+  {
+    "city": "Tulsa",
+    "gis": "https://maps.cityoftulsa.org/",
+    "open_data": "https://www.cityoftulsa.org/",
+    "police": "https://www.cityoftulsa.org/government/departments/police/",
+    "fire": "https://www.cityoftulsa.org/government/departments/fire/",
+    "parks": "https://www.cityoftulsa.org/government/departments/park-and-recreation/",
+    "permits": "https://www.cityoftulsa.org/government/departments/development-services/",
+    "public_works": "https://www.cityoftulsa.org/government/departments/public-works/",
+    "schools": "https://www.tulsaschools.org/",
+    "council": "https://www.cityoftulsa.org/government/city-council/"
+  },
+  {
+    "city": "Norman",
+    "gis": "https://www.normanok.gov/gis",
+    "open_data": "https://www.normanok.gov/",
+    "police": "https://www.normanok.gov/public-safety/police-department",
+    "fire": "https://www.normanok.gov/public-safety/fire-department",
+    "parks": "https://www.normanok.gov/parks-and-recreation",
+    "permits": "https://www.normanok.gov/departments/planning-and-community-development",
+    "public_works": "https://www.normanok.gov/departments/public-works",
+    "schools": "https://www.normanpublicschools.org/",
+    "council": "https://www.normanok.gov/your-government/city-council"
+  },
+  {
+    "city": "Broken Arrow",
+    "gis": "https://www.brokenarrowok.gov/government/information-technology/gis",
+    "open_data": "https://www.brokenarrowok.gov/",
+    "police": "https://www.brokenarrowok.gov/government/police",
+    "fire": "https://www.brokenarrowok.gov/government/fire",
+    "parks": "https://www.brokenarrowok.gov/government/parks",
+    "permits": "https://www.brokenarrowok.gov/government/community-development",
+    "public_works": "https://www.brokenarrowok.gov/government/public-works",
+    "schools": "https://www.baschools.org/",
+    "council": "https://www.brokenarrowok.gov/government/city-council"
+  },
+  {
+    "city": "Edmond",
+    "gis": "https://edmondok.gov/gis",
+    "open_data": "https://edmondok.gov/",
+    "police": "https://edmondok.gov/police",
+    "fire": "https://edmondok.gov/fire",
+    "parks": "https://edmondok.gov/parks-recreation",
+    "permits": "https://edmondok.gov/community-development",
+    "public_works": "https://edmondok.gov/public-works",
+    "schools": "https://www.edmondschools.net/",
+    "council": "https://edmondok.gov/city-council"
+  }
+]

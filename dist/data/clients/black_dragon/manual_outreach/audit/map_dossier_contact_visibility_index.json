@@ -1,0 +1,77 @@
+{
+  "version": "black_dragon_map_dossier_contact_visibility_index_v1",
+  "generated_at": "2026-05-10T18:07:50.073Z",
+  "total_visibility_records": 5,
+  "visibility_index": [
+    {
+      "visibility_record_id": "BD_CONTACT_VISIBILITY_0001",
+      "client_id": "black_dragon_omg_cert_v1",
+      "client_contact_workflow_id": "BD_CLIENT_CONTACT_WORKFLOW_0001",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0001",
+      "organization_name": "California Commission on Peace Officer Standards and Training",
+      "city_map_node_visible_to_client": true,
+      "dossier_visible_to_client": true,
+      "contact_route_visible_to_client": true,
+      "contact_route_actionable_by_client": false,
+      "founder_integrity_lock": true,
+      "automated_contact_allowed": false,
+      "promotion_allowed": false
+    },
+    {
+      "visibility_record_id": "BD_CONTACT_VISIBILITY_0002",
+      "client_id": "black_dragon_omg_cert_v1",
+      "client_contact_workflow_id": "BD_CLIENT_CONTACT_WORKFLOW_0002",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0002",
+      "organization_name": "Oregon Department of Public Safety Standards and Training",
+      "city_map_node_visible_to_client": true,
+      "dossier_visible_to_client": true,
+      "contact_route_visible_to_client": true,
+      "contact_route_actionable_by_client": false,
+      "founder_integrity_lock": true,
+      "automated_contact_allowed": false,
+      "promotion_allowed": false
+    },
+    {
+      "visibility_record_id": "BD_CONTACT_VISIBILITY_0003",
+      "client_id": "black_dragon_omg_cert_v1",
+      "client_contact_workflow_id": "BD_CLIENT_CONTACT_WORKFLOW_0003",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0003",
+      "organization_name": "Oregon DPSST Academy Operations",
+      "city_map_node_visible_to_client": true,
+      "dossier_visible_to_client": true,
+      "contact_route_visible_to_client": true,
+      "contact_route_actionable_by_client": false,
+      "founder_integrity_lock": true,
+      "automated_contact_allowed": false,
+      "promotion_allowed": false
+    },
+    {
+      "visibility_record_id": "BD_CONTACT_VISIBILITY_0004",
+      "client_id": "black_dragon_omg_cert_v1",
+      "client_contact_workflow_id": "BD_CLIENT_CONTACT_WORKFLOW_0004",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0004",
+      "organization_name": "Florida Criminal Justice Standards & Training Commission",
+      "city_map_node_visible_to_client": true,
+      "dossier_visible_to_client": true,
+      "contact_route_visible_to_client": true,
+      "contact_route_actionable_by_client": false,
+      "founder_integrity_lock": true,
+      "automated_contact_allowed": false,
+      "promotion_allowed": false
+    },
+    {
+      "visibility_record_id": "BD_CONTACT_VISIBILITY_0005",
+      "client_id": "black_dragon_omg_cert_v1",
+      "client_contact_workflow_id": "BD_CLIENT_CONTACT_WORKFLOW_0005",
+      "verified_contact_route_id": "BD_VERIFIED_CONTACT_ROUTE_0005",
+      "organization_name": "FDLE Training Curriculum Contacts",
+      "city_map_node_visible_to_client": true,
+      "dossier_visible_to_client": true,
+      "contact_route_visible_to_client": true,
+      "contact_route_actionable_by_client": false,
+      "founder_integrity_lock": true,
+      "automated_contact_allowed": false,
+      "promotion_allowed": false
+    }
+  ]
+}

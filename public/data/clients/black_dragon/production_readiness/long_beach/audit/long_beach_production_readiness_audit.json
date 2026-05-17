@@ -1,0 +1,57 @@
+{
+  "version": "black_dragon_long_beach_production_readiness_audit_v1",
+  "generated_at": "2026-05-10T21:01:45.494Z",
+  "city": "Long Beach",
+  "state": "CA",
+  "certification_target": "TEMPLATE_CITY_FOR_STATE_REPLICATION",
+  "counts": {
+    "merged_entities": 68,
+    "contact_ready_entities": 10,
+    "graph_edges": 512,
+    "graph_scored_nodes": 68,
+    "propagation_paths": 15,
+    "direct_manual_action_paths": 9,
+    "review_before_action_paths": 6,
+    "live_validation_routes": 8,
+    "valid_live_routes": 5,
+    "dead_or_review_routes": 3
+  },
+  "integrity": {
+    "no_duplicate_runtime_entities": true,
+    "no_orphan_graph_nodes": true,
+    "no_empty_propagation_paths": true,
+    "no_runtime_mutation": true,
+    "no_automated_outreach": true
+  },
+  "production_systems": {
+    "entity_runtime": true,
+    "graph_runtime": true,
+    "propagation_runtime": true,
+    "freshness_runtime": true,
+    "dead_route_runtime": true,
+    "client_ui_runtime": true,
+    "continuous_refresh_foundation": true,
+    "relationship_intelligence": true,
+    "live_validation": true
+  },
+  "replication_readiness": {
+    "city_template_ready": true,
+    "scheduler_ready": true,
+    "graph_engine_ready": true,
+    "freshness_engine_ready": true,
+    "dead_route_decay_ready": true,
+    "propagation_engine_ready": true,
+    "state_scaling_ready": true
+  },
+  "remaining_before_national_scale": [
+    "STATE_ORCHESTRATION_LAYER",
+    "MULTI_CITY_SCHEDULER_BALANCING",
+    "CROSS_CITY_DEDUPE",
+    "REGIONAL_GRAPH_FEDERATION",
+    "STATE_LEVEL_REFRESH_COORDINATION",
+    "FOUNDER_COMMAND_CENTER",
+    "NATIONAL_RUNTIME_OPTIMIZATION"
+  ],
+  "certification": "LONG_BEACH_TEMPLATE_CITY_APPROVED",
+  "status": "PASS"
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "entity_id": "BD_BOOK_OP_00001",
+    "organization_name": "Texas Confederation of Clubs and Independents",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_FACEBOOK_PAGE",
+        "value": "https://www.facebook.com/",
+        "source_url": "https://www.facebook.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00002",
+    "organization_name": "Bikers for Christ",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://www.bikersforchrist.org/",
+        "source_url": "https://www.bikersforchrist.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00003",
+    "organization_name": "Christian Motorcyclists Association",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://cmausa.org/",
+        "source_url": "https://cmausa.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00004",
+    "organization_name": "Widow Sons Masonic Riders Association",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://widowsons.org/",
+        "source_url": "https://widowsons.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00005",
+    "organization_name": "BACA International",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://bacaworld.org/",
+        "source_url": "https://bacaworld.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00006",
+    "organization_name": "American Motorcyclist Association",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://americanmotorcyclist.com/",
+        "source_url": "https://americanmotorcyclist.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00007",
+    "organization_name": "ABATE of Indiana",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://abateindiana.org/",
+        "source_url": "https://abateindiana.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00008",
+    "organization_name": "Iron Order Motorcycle Club",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://ironordermc.com/",
+        "source_url": "https://ironordermc.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00009",
+    "organization_name": "Combat Veterans Motorcycle Association",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://cvma.org/",
+        "source_url": "https://cvma.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00010",
+    "organization_name": "Nam Knights Motorcycle Club",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://namknights.org/",
+        "source_url": "https://namknights.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00011",
+    "organization_name": "ABATE of Florida",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://abateflorida.com/",
+        "source_url": "https://abateflorida.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://abateflorida.com/contact/",
+        "source_url": "https://abateflorida.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00012",
+    "organization_name": "ABATE of Iowa",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://abateiowa.org/",
+        "source_url": "https://abateiowa.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://abateiowa.org/contact/",
+        "source_url": "https://abateiowa.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00013",
+    "organization_name": "Bikers Against Child Abuse Arizona",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_FACEBOOK_PAGE",
+        "value": "https://www.facebook.com/bacaarizona/",
+        "source_url": "https://www.facebook.com/bacaarizona/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://www.facebook.com/bacaarizona/",
+        "source_url": "https://www.facebook.com/bacaarizona/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00014",
+    "organization_name": "Christian Motorcyclists Association Oklahoma",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://okcma.com/",
+        "source_url": "https://okcma.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://okcma.com/contact/",
+        "source_url": "https://okcma.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00015",
+    "organization_name": "Vietnam Vets Legacy Vets MC",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://vnvetslvmc.org/",
+        "source_url": "https://vnvetslvmc.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://vnvetslvmc.org/contact/",
+        "source_url": "https://vnvetslvmc.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00016",
+    "organization_name": "Blue Knights International",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://blueknights.org/",
+        "source_url": "https://blueknights.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://blueknights.org/contact/",
+        "source_url": "https://blueknights.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00017",
+    "organization_name": "Law Tigers",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://lawtigers.com/",
+        "source_url": "https://lawtigers.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://lawtigers.com/contact/",
+        "source_url": "https://lawtigers.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00018",
+    "organization_name": "National Coalition of Motorcyclists",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://onabike.com/",
+        "source_url": "https://onabike.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://onabike.com/contact/",
+        "source_url": "https://onabike.com/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00019",
+    "organization_name": "Buffalo Soldiers Motorcycle Club",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://buffalosoldiersnational.us/",
+        "source_url": "https://buffalosoldiersnational.us/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://buffalosoldiersnational.us/contact/",
+        "source_url": "https://buffalosoldiersnational.us/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  },
+  {
+    "entity_id": "BD_BOOK_OP_00020",
+    "organization_name": "US Military Vets MC",
+    "contact_paths": [
+      {
+        "contact_type": "PUBLIC_WEBSITE",
+        "value": "https://usmvmc.org/",
+        "source_url": "https://usmvmc.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public source route from approved Black Dragon book target intake."
+      },
+      {
+        "contact_type": "PUBLIC_CONTACT_FORM",
+        "value": "https://usmvmc.org/contact/",
+        "source_url": "https://usmvmc.org/",
+        "visibility": "PUBLIC",
+        "notes": "Public contact route supplied through approved intake."
+      }
+    ]
+  }
+]

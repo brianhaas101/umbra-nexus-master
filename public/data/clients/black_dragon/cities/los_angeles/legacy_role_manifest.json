@@ -1,0 +1,34 @@
+{
+    "version":  "black_dragon_los_angeles_legacy_role_manifest_v1",
+    "generated_at":  "2026-05-11T04:20:49.9873121Z",
+    "city":  {
+                 "city":  "Los Angeles",
+                 "folder":  "los_angeles",
+                 "state":  "California",
+                 "state_code":  "CA",
+                 "city_id":  "city_los_angeles_ca"
+             },
+    "legacy_source":  {
+                          "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles",
+                          "preserved_read_only":  true
+                      },
+    "long_beach_equivalent_roles":  {
+                                        "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\audit\\batch_142_los_angeles_runtime_merge_graph_audit.json",
+                                        "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\dossiers\\los_angeles_runtime_dossiers.json",
+                                        "runtime_summary":  null,
+                                        "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\map_nodes\\los_angeles_runtime_map_nodes.json",
+                                        "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\los_angeles\\merged\\los_angeles_merged_city_entities.json"
+                                    },
+    "intelligence_density_snapshot":  {
+                                          "organization_name_hits":  10,
+                                          "relationship_hits":  0,
+                                          "rank_hits":  50
+                                      },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

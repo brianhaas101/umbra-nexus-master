@@ -1,0 +1,33 @@
+{
+  "version": "black_dragon_mesa_production_readiness_audit_v1",
+  "generated_at": "2026-05-10T23:57:08.799Z",
+  "city": "Mesa",
+  "state": "AZ",
+  "certification_target": "ARIZONA_THIRD_OPERATIONAL_CITY",
+  "counts": {
+    "runtime_entities": 10,
+    "graph_edges": 44,
+    "propagation_paths": 10,
+    "validation_routes": 10,
+    "valid_routes": 6,
+    "contact_ready_candidates": 6,
+    "regional_duplicate_entities": 3,
+    "ui_node_cards": 10
+  },
+  "gates": {
+    "runtime_active": true,
+    "runtime_entities_exist": true,
+    "graph_active": true,
+    "propagation_active": true,
+    "live_validation_active": true,
+    "contact_review_active": true,
+    "ui_surface_active": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_automated_outreach": true,
+    "no_contact_ready_promotion": true
+  },
+  "certification": "MESA_OPERATIONAL_CITY_APPROVED",
+  "next_phase": "BATCH_168_ARIZONA_TWO_CITY_COMPARISON_AND_MESA_SELECTION",
+  "status": "PASS"
+}

@@ -1,0 +1,62 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:06.740Z",
+  "layer_id": "L02",
+  "connector_id": "L02_FL_L02_CLASS_001_STATE_POST",
+  "state_abbr": "FL",
+  "state_name": "Florida",
+  "source_type": "POST",
+  "canonical_url": "https://www.fdle.state.fl.us/CJSTC",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 27143,
+    "extracted_links": [
+      {
+        "href": "https://www.fdle.state.fl.us/",
+        "label": "Florida Department of Law Enforcement"
+      },
+      {
+        "href": "https://www.fdle.state.fl.us/cjstc/sworn-training-unit",
+        "label": "Sworn Training Unit"
+      },
+      {
+        "href": "https://www.fdle.state.fl.us/cjstc/training-resources",
+        "label": "Criminal Justice Training Resources"
+      },
+      {
+        "href": "https://www.fdle.state.fl.us/cjstc/school-guardian-training-course-calendar",
+        "label": "School Guardian Training Course Calendar"
+      },
+      {
+        "href": "https://www.fdle.state.fl.us/CJSTC/Officer-Requirements/Basic-Abilities-Test.aspx",
+        "label": "Basic Abilities Test ( BAT )"
+      },
+      {
+        "href": "https://www.fdle.state.fl.us/CJSTC/Commission.aspx",
+        "label": "Criminal Justice Standards &amp; Training Commission ( CJSTC )"
+      },
+      {
+        "href": "https://www.fdle.state.fl.us/CJSTC/FLEOHOF.aspx",
+        "label": "Florida Law Enforcement Officers' Hall of Fame ( FLEOHOF )"
+      },
+      {
+        "href": "https://www.fdle.state.fl.us/MEC/MEC-Home.aspx",
+        "label": "Medical Examiners Commission ( MEC )"
+      },
+      {
+        "href": "https://www.fdle.state.fl.us/CJSTC/Exam.aspx",
+        "label": "State Officer Certification Exam ( SOCE )"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "320287d91d961aad7e5750b7f2620f7d2efe75324840b81571b14560358e0ecf"
+}

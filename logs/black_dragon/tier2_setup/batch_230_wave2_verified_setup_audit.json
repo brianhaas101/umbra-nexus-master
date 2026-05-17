@@ -1,0 +1,91 @@
+{
+    "batch":  "230",
+    "version":  "black_dragon_wave2_verified_setup_audit_v1",
+    "generated_at":  "2026-05-11T05:09:49.4785140Z",
+    "wave":  "tier2_wave_2",
+    "city_results":  [
+                         {
+                             "city":  "Nashville",
+                             "folder":  "nashville",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_source_discovery\\nashville\\verified_source_discovery_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\verified_ingestion_contract.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\nashville\\verified_source_acquisition_manifest.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_WAVE2_CITY_SETUP_READY"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_source_discovery\\new_orleans\\verified_source_discovery_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\verified_ingestion_contract.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_orleans\\verified_source_acquisition_manifest.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_WAVE2_CITY_SETUP_READY"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_source_discovery\\new_york_city\\verified_source_discovery_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\verified_ingestion_contract.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\new_york_city\\verified_source_acquisition_manifest.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_WAVE2_CITY_SETUP_READY"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_source_discovery\\seattle\\verified_source_discovery_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\verified_ingestion_contract.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\seattle\\verified_source_acquisition_manifest.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_WAVE2_CITY_SETUP_READY"
+                         },
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_source_discovery\\san_antonio\\verified_source_discovery_queue.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\verified_ingestion_contract.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_antonio\\verified_source_acquisition_manifest.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_WAVE2_CITY_SETUP_READY"
+                         }
+                     ],
+    "failed_count":  0,
+    "failed":  [
+
+               ],
+    "hardlocks":  {
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_WAVE2_VERIFIED_SETUP_READY"
+}

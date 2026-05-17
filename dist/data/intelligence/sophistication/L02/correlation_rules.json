@@ -1,0 +1,112 @@
+{
+  "version": "nexus_L02_correlation_rules_v1",
+  "generated_at": "2026-05-09T01:07:16.230Z",
+  "layer_id": "L02",
+  "rules": [
+    {
+      "class_id": "L02_CLASS_001_STATE_POST",
+      "correlation_targets": [
+        "L01",
+        "L03",
+        "L04",
+        "L09",
+        "L11",
+        "L12"
+      ],
+      "correlation_keys": [
+        "state",
+        "agency",
+        "program",
+        "training",
+        "grant",
+        "procurement",
+        "date"
+      ],
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_002_STATE_DOJ",
+      "correlation_targets": [
+        "L01",
+        "L03",
+        "L04",
+        "L09",
+        "L11",
+        "L12"
+      ],
+      "correlation_keys": [
+        "state",
+        "agency",
+        "program",
+        "training",
+        "grant",
+        "procurement",
+        "date"
+      ],
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_003_STATE_GRANTS",
+      "correlation_targets": [
+        "L01",
+        "L03",
+        "L04",
+        "L09",
+        "L11",
+        "L12"
+      ],
+      "correlation_keys": [
+        "state",
+        "agency",
+        "program",
+        "training",
+        "grant",
+        "procurement",
+        "date"
+      ],
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_004_STATE_PROCUREMENT",
+      "correlation_targets": [
+        "L01",
+        "L03",
+        "L04",
+        "L09",
+        "L11",
+        "L12"
+      ],
+      "correlation_keys": [
+        "state",
+        "agency",
+        "program",
+        "training",
+        "grant",
+        "procurement",
+        "date"
+      ],
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_005_STATE_ACADEMY",
+      "correlation_targets": [
+        "L01",
+        "L03",
+        "L04",
+        "L09",
+        "L11",
+        "L12"
+      ],
+      "correlation_keys": [
+        "state",
+        "agency",
+        "program",
+        "training",
+        "grant",
+        "procurement",
+        "date"
+      ],
+      "status": "REGISTERED"
+    }
+  ]
+}

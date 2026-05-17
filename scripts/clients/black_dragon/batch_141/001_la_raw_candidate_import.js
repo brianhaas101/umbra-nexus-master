@@ -1,0 +1,158 @@
+﻿const fs = require("fs");
+const path = require("path");
+
+const ROOT = process.cwd();
+
+const candidates = [
+
+  {
+    candidate_id: "BD_LA_0001",
+    organization_name: "Bartels' Harley-Davidson",
+    organization_type: "MOTORCYCLE_DEALERSHIP",
+    source_category: "DEALERSHIP_NETWORK",
+    source_lineage: ["Harley-Davidson Dealer Network"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 8.85,
+    estimated_conversion_score: 9.10,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0002",
+    organization_name: "Deus Ex Machina Los Angeles",
+    organization_type: "MOTORCYCLE_CULTURE_VENUE",
+    source_category: "COMMUNITY_VENUES",
+    source_lineage: ["Moto Community Venues"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 8.94,
+    estimated_conversion_score: 8.45,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0003",
+    organization_name: "Born-Free Motorcycle Show Los Angeles Community",
+    organization_type: "EVENT_COMMUNITY_NETWORK",
+    source_category: "EVENT_DISCOVERY",
+    source_lineage: ["CycleFish", "Eventbrite Motorcycle Events"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 9.20,
+    estimated_conversion_score: 8.75,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0004",
+    organization_name: "Bike Shed Moto Co Los Angeles",
+    organization_type: "MOTORCYCLE_COMMUNITY_VENUE",
+    source_category: "COMMUNITY_VENUES",
+    source_lineage: ["Moto Community Venues"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 9.05,
+    estimated_conversion_score: 8.70,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0005",
+    organization_name: "Roland Sands Design",
+    organization_type: "CUSTOM_MOTORCYCLE_BRAND",
+    source_category: "MEDIA_AND_BRANDS",
+    source_lineage: ["Motorcycle Creator Networks"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 9.10,
+    estimated_conversion_score: 8.55,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0006",
+    organization_name: "The Congregation Show",
+    organization_type: "MOTORCYCLE_EVENT_NETWORK",
+    source_category: "EVENT_DISCOVERY",
+    source_lineage: ["Motorcycle Event Networks"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 8.78,
+    estimated_conversion_score: 8.22,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0007",
+    organization_name: "Biltwell Inc.",
+    organization_type: "MOTORCYCLE_BRAND",
+    source_category: "MEDIA_AND_BRANDS",
+    source_lineage: ["Motorcycle Creator Networks"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 8.92,
+    estimated_conversion_score: 8.40,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0008",
+    organization_name: "Los Angeles Motorcycle Riders Meetup",
+    organization_type: "RIDING_COMMUNITY_NETWORK",
+    source_category: "COMMUNITY_NETWORKS",
+    source_lineage: ["Meetup Riding Groups"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 8.44,
+    estimated_conversion_score: 7.98,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0009",
+    organization_name: "Cycle Gear Los Angeles",
+    organization_type: "MOTORCYCLE_GEAR_STORE",
+    source_category: "DEALERSHIP_NETWORK",
+    source_lineage: ["PowerSports Dealer Registries"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 8.18,
+    estimated_conversion_score: 8.34,
+    candidate_status: "DISCOVERED"
+  },
+
+  {
+    candidate_id: "BD_LA_0010",
+    organization_name: "ChopCult Los Angeles Community",
+    organization_type: "DIGITAL_MOTORCYCLE_COMMUNITY",
+    source_category: "MEDIA_AND_BRANDS",
+    source_lineage: ["Motorcycle Creator Networks"],
+    city: "Los Angeles",
+    state: "CA",
+    estimated_influence_score: 8.98,
+    estimated_conversion_score: 8.12,
+    candidate_status: "DISCOVERED"
+  }
+
+];
+
+const out = path.join(
+  ROOT,
+  "public/data/clients/black_dragon/candidate_queue/los_angeles/raw/los_angeles_raw_candidates.json"
+);
+
+fs.writeFileSync(out, JSON.stringify({
+  version: "black_dragon_los_angeles_raw_candidates_v1",
+  generated_at: new Date().toISOString(),
+  city: "Los Angeles",
+  state: "CA",
+  raw_candidate_count: candidates.length,
+  candidates
+}, null, 2), "utf8");
+
+console.log(JSON.stringify({
+  status: "LOS_ANGELES_RAW_CANDIDATES_COMPLETE",
+  raw_candidate_count: candidates.length,
+  output: out
+}, null, 2));

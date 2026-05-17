@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Chicago",
+    "gis": "https://data.cityofchicago.org/",
+    "open_data": "https://data.cityofchicago.org/",
+    "police": "https://home.chicagopolice.org/",
+    "fire": "https://www.chicago.gov/city/en/depts/cfd.html",
+    "parks": "https://www.chicagoparkdistrict.com/",
+    "permits": "https://www.chicago.gov/city/en/depts/bldgs.html",
+    "public_works": "https://www.chicago.gov/city/en/depts/cdot.html",
+    "schools": "https://www.cps.edu/",
+    "council": "https://www.chicityclerk.com/city-council"
+  },
+  {
+    "city": "Indianapolis",
+    "gis": "https://data.indy.gov/",
+    "open_data": "https://data.indy.gov/",
+    "police": "https://www.indy.gov/agency/indianapolis-metropolitan-police-department",
+    "fire": "https://www.indy.gov/agency/indianapolis-fire-department",
+    "parks": "https://www.indy.gov/agency/department-of-parks-and-recreation",
+    "permits": "https://www.indy.gov/agency/department-of-business-and-neighborhood-services",
+    "public_works": "https://www.indy.gov/agency/department-of-public-works",
+    "schools": "https://myips.org/",
+    "council": "https://www.indy.gov/agency/city-county-council"
+  },
+  {
+    "city": "New Orleans",
+    "gis": "https://data.nola.gov/",
+    "open_data": "https://data.nola.gov/",
+    "police": "https://nola.gov/nopd/",
+    "fire": "https://nola.gov/nofd/",
+    "parks": "https://nordc.org/",
+    "permits": "https://nola.gov/safety-and-permits/",
+    "public_works": "https://nola.gov/public-works/",
+    "schools": "https://nolapublicschools.com/",
+    "council": "https://council.nola.gov/"
+  },
+  {
+    "city": "Boston",
+    "gis": "https://data.boston.gov/",
+    "open_data": "https://data.boston.gov/",
+    "police": "https://police.boston.gov/",
+    "fire": "https://www.boston.gov/departments/fire-department",
+    "parks": "https://www.boston.gov/departments/parks-and-recreation",
+    "permits": "https://www.boston.gov/departments/inspectional-services",
+    "public_works": "https://www.boston.gov/departments/public-works",
+    "schools": "https://www.bostonpublicschools.org/",
+    "council": "https://www.boston.gov/departments/city-council"
+  },
+  {
+    "city": "Baltimore",
+    "gis": "https://data.baltimorecity.gov/",
+    "open_data": "https://data.baltimorecity.gov/",
+    "police": "https://www.baltimorepolice.org/",
+    "fire": "https://fire.baltimorecity.gov/",
+    "parks": "https://bcrp.baltimorecity.gov/",
+    "permits": "https://dhcd.baltimorecity.gov/",
+    "public_works": "https://publicworks.baltimorecity.gov/",
+    "schools": "https://www.baltimorecityschools.org/",
+    "council": "https://citycouncil.baltimorecity.gov/"
+  }
+]

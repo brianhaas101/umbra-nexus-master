@@ -1,0 +1,37 @@
+{
+    "batch":  "237",
+    "version":  "black_dragon_phoenix_density_gap_queue_v1",
+    "generated_at":  "2026-05-11T06:08:52.9492309Z",
+    "city":  "Phoenix",
+    "folder":  "phoenix",
+    "reference":  {
+                      "validated_sources":  19,
+                      "geospatial_candidates":  18,
+                      "organization_candidates":  15,
+                      "relationship_candidates":  30,
+                      "ranked_entities":  15
+                  },
+    "observed":  {
+                     "validated_sources":  19,
+                     "geospatial_candidates":  18,
+                     "organization_candidates":  15,
+                     "relationship_candidates":  30,
+                     "ranked_entities":  15
+                 },
+    "gaps":  {
+                 "validated_sources":  0,
+                 "geospatial_candidates":  0,
+                 "organization_candidates":  0,
+                 "relationship_candidates":  0,
+                 "ranked_entities":  0
+             },
+    "density_gate_passed":  true,
+    "repair_policy":  {
+                          "synthetic_fillers_allowed":  false,
+                          "verified_sources_required":  true,
+                          "manual_review_required":  true,
+                          "runtime_promotion_allowed":  false,
+                          "contact_enablement_allowed":  false
+                      },
+    "status":  "DENSITY_PARITY_REACHED_REVIEW_REQUIRED"
+}

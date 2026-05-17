@@ -1,0 +1,94 @@
+{
+  "version": "umbra_intelligence_layers_registry_v1",
+  "generated_at": "2026-05-05",
+  "system": "Umbra Nexus",
+  "rule": "Every intelligence layer must feed scoring, dossier generation, targeting, or operational decision support. No decorative layers allowed.",
+  "minimum_sources_per_layer": 10,
+  "target_sources_per_layer": 15,
+  "layers": [
+    {
+      "layer_id": "L01_FEDERAL_INTELLIGENCE",
+      "name": "Federal Intelligence",
+      "purpose": "Identify federal-level law enforcement, public safety, grant, training, and risk signals relevant to target agencies.",
+      "feeds": ["scoring", "dossiers", "risk_context"],
+      "status": "REGISTRY_LOCKED_SOURCE_BUILD_REQUIRED"
+    },
+    {
+      "layer_id": "L02_STATE_INTELLIGENCE",
+      "name": "State-Level Intelligence",
+      "purpose": "Map state POST, training commissions, agency directories, certification bodies, and state law enforcement structures.",
+      "feeds": ["target_discovery", "scoring", "dossiers"],
+      "status": "ACTIVE_FOR_BLACK_DRAGON"
+    },
+    {
+      "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+      "name": "Local Agency Intelligence",
+      "purpose": "Validate municipal, county, campus, tribal, and public safety agencies using official local sources.",
+      "feeds": ["verified_contacts", "dossiers", "outreach_paths"],
+      "status": "ACTIVE_FOR_BLACK_DRAGON"
+    },
+    {
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "name": "Training Infrastructure",
+      "purpose": "Detect training divisions, academies, field training programs, professional standards units, and officer development paths.",
+      "feeds": ["contact_path", "dossiers", "target_priority"],
+      "status": "ACTIVE_FOR_BLACK_DRAGON"
+    },
+    {
+      "layer_id": "L05_BUDGET_AND_FUNDING",
+      "name": "Budget and Funding Signals",
+      "purpose": "Identify budgets, grants, procurement cycles, public safety funding, and training allocation signals.",
+      "feeds": ["sales_timing", "scoring", "dossiers"],
+      "status": "SOURCE_BUILD_REQUIRED"
+    },
+    {
+      "layer_id": "L06_BEHAVIORAL_ACTIVITY",
+      "name": "Behavioral / Activity Signals",
+      "purpose": "Capture activity patterns, regional pressure, public safety incidents, and relevant operational signals.",
+      "feeds": ["risk_context", "target_priority", "dossiers"],
+      "status": "SOURCE_BUILD_REQUIRED"
+    },
+    {
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY",
+      "name": "Geographic / Territory Signals",
+      "purpose": "Map agency jurisdiction, regional clusters, travel corridors, city density, and operational proximity.",
+      "feeds": ["map_visualization", "scoring", "dossiers"],
+      "status": "PARTIAL_GLOBE_SUPPORT_EXISTS"
+    },
+    {
+      "layer_id": "L08_COMMAND_STRUCTURE",
+      "name": "Command Structure",
+      "purpose": "Infer and verify command staff, training commanders, academy leaders, and internal routing hierarchy.",
+      "feeds": ["contact_path", "dossiers", "verified_outreach"],
+      "status": "ACTIVE_FOR_BLACK_DRAGON"
+    },
+    {
+      "layer_id": "L09_PROCUREMENT_PATHWAYS",
+      "name": "Procurement Pathways",
+      "purpose": "Identify how agencies approve training, who routes vendor inquiries, and where purchasing authority sits.",
+      "feeds": ["sales_strategy", "dossiers", "follow_up_logic"],
+      "status": "SOURCE_BUILD_REQUIRED"
+    },
+    {
+      "layer_id": "L10_COMMUNICATION_CHANNELS",
+      "name": "Communication Channels",
+      "purpose": "Validate phone paths, department routing, official contact pages, and verified non-generic access points.",
+      "feeds": ["verified_contacts", "execution_log", "dossiers"],
+      "status": "ACTIVE_FOR_BLACK_DRAGON"
+    },
+    {
+      "layer_id": "L11_INCIDENT_AND_RISK",
+      "name": "Incident / Risk Signals",
+      "purpose": "Track relevant incidents, regional enforcement concerns, motorcycle-club activity context, and officer safety relevance.",
+      "feeds": ["risk_context", "dossiers", "target_priority"],
+      "status": "SOURCE_BUILD_REQUIRED"
+    },
+    {
+      "layer_id": "L12_ENGAGEMENT_RESPONSE",
+      "name": "Engagement / Response Tracking",
+      "purpose": "Track calls, referrals, replies, follow-ups, interest, and conversion state.",
+      "feeds": ["execution_log", "sales_pipeline", "dossiers"],
+      "status": "PARTIAL_EXECUTION_LOG_EXISTS"
+    }
+  ]
+}

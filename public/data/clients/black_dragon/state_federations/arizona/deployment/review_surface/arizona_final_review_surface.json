@@ -1,0 +1,15 @@
+{
+  "version": "black_dragon_arizona_final_review_surface_v1",
+  "generated_at": "2026-05-11T00:16:02.964Z",
+  "state": "Arizona",
+  "client_visible": true,
+  "statewide_manual_contact_candidates": 21,
+  "statewide_route_review_items": 9,
+  "review_surface_status": "STATEWIDE_REVIEW_OPERATIONAL",
+  "review_hardlocks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true,
+    "no_delete_without_quarantine": true
+  }
+}

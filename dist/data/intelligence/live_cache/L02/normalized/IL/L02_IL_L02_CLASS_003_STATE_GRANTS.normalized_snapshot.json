@@ -1,0 +1,296 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:20.397Z",
+  "layer_id": "L02",
+  "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "IL",
+  "source_type": "STATE_GRANTS",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "CSFA",
+        "href": "https://gata.illinois.gov/grants/csfa.html",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Grantee Links",
+        "href": "https://gata.illinois.gov/grantee.html",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Pre-Award Requirements",
+        "href": "https://gata.illinois.gov/grantee/pre-award-requirements.html",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Grantee Portal",
+        "href": "https://gata.illinois.gov/grantee/grantee-portal.html",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Grantee Portal FAQ",
+        "href": "https://gata.illinois.gov/grantee/grantee-portal-faq.html",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Centralized Indirect Cost Rate System",
+        "href": "https://gata.illinois.gov/grantee/centralized-indirect-cost-rate-system.html",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "CSFA link",
+        "href": "https://gata.illinois.gov/grants/csfa.html",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Grantee Portal",
+        "href": "https://grants.illinois.gov/portal/",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Grantee Links",
+        "href": "https://gata.illinois.gov/grantee.html",
+        "record_type": "state_grants_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "confidence": 0.88,
+      "lineage": {
+        "canonical_url": "https://gata.illinois.gov",
+        "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08",
+        "parser_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Catalog of State Financial Assistance",
+        "href": "https://gata.illinois.gov/grants/csfa.html",
+        "record_type": "state_grants_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_001",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_002",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_003",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_004",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_005",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_006",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_007",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_008",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_009",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SIGNAL_010",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "confidence": 0.88
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_001",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_002",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_003",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_004",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_005",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_006",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_007",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_008",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_009",
+      "score_delta": 7,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "L02_IL_L02_CLASS_003_STATE_GRANTS_SCORE_010",
+      "score_delta": 7,
+      "confidence": 0.88
+    }
+  ],
+  "normalized_snapshot_hash": "fef96736dbf33742cb5282e4877c6cb8e27c4a6fabbc2de6ced764c018b4618f"
+}

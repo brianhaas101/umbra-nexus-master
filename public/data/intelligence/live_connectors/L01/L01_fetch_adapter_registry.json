@@ -1,0 +1,203 @@
+{
+  "version": "nexus_L01_fetch_adapter_registry_v1",
+  "generated_at": "2026-05-08T01:40:36.907Z",
+  "layer_id": "L01",
+  "adapter_count": 5,
+  "adapters": [
+    {
+      "adapter_id": "L01_FETCH_ADAPTER_001",
+      "connector_id": "L01_LIVE_CONNECTOR_001_L01_SRC_001_USA_SPENDING",
+      "source_id": "L01_SRC_001_USA_SPENDING",
+      "source_name": "USAspending Federal Award Data",
+      "runtime": {
+        "enabled": false,
+        "execution_mode": "deterministic_controlled",
+        "acquisition_mode": "public_api"
+      },
+      "endpoint": {
+        "base_url": "https://api.usaspending.gov",
+        "expected_format": "json",
+        "method": "GET",
+        "timeout_ms": 15000
+      },
+      "validation": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "parser_binding": {
+        "parser_id": "L01_PARSER_001",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "runtime_tracking": {
+        "health_score": 1,
+        "successful_fetches": 0,
+        "failed_fetches": 0,
+        "last_runtime_status": "READY"
+      },
+      "audit": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      }
+    },
+    {
+      "adapter_id": "L01_FETCH_ADAPTER_002",
+      "connector_id": "L01_LIVE_CONNECTOR_002_L01_SRC_002_SAM_GOV",
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "source_name": "SAM.gov Contract Opportunities",
+      "runtime": {
+        "enabled": false,
+        "execution_mode": "deterministic_controlled",
+        "acquisition_mode": "public_api"
+      },
+      "endpoint": {
+        "base_url": "https://sam.gov",
+        "expected_format": "json",
+        "method": "GET",
+        "timeout_ms": 15000
+      },
+      "validation": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "parser_binding": {
+        "parser_id": "L01_PARSER_002",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "runtime_tracking": {
+        "health_score": 1,
+        "successful_fetches": 0,
+        "failed_fetches": 0,
+        "last_runtime_status": "READY"
+      },
+      "audit": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      }
+    },
+    {
+      "adapter_id": "L01_FETCH_ADAPTER_003",
+      "connector_id": "L01_LIVE_CONNECTOR_003_L01_SRC_003_GRANTS_GOV",
+      "source_id": "L01_SRC_003_GRANTS_GOV",
+      "source_name": "Grants.gov Funding Opportunities",
+      "runtime": {
+        "enabled": false,
+        "execution_mode": "deterministic_controlled",
+        "acquisition_mode": "public_api"
+      },
+      "endpoint": {
+        "base_url": "https://www.grants.gov",
+        "expected_format": "xml",
+        "method": "GET",
+        "timeout_ms": 15000
+      },
+      "validation": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "parser_binding": {
+        "parser_id": "L01_PARSER_003",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "runtime_tracking": {
+        "health_score": 1,
+        "successful_fetches": 0,
+        "failed_fetches": 0,
+        "last_runtime_status": "READY"
+      },
+      "audit": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      }
+    },
+    {
+      "adapter_id": "L01_FETCH_ADAPTER_004",
+      "connector_id": "L01_LIVE_CONNECTOR_004_L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "source_id": "L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "source_name": "DOJ Grant Programs",
+      "runtime": {
+        "enabled": false,
+        "execution_mode": "deterministic_controlled",
+        "acquisition_mode": "public_api"
+      },
+      "endpoint": {
+        "base_url": "https://www.justice.gov",
+        "expected_format": "html",
+        "method": "GET",
+        "timeout_ms": 15000
+      },
+      "validation": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "parser_binding": {
+        "parser_id": "L01_PARSER_004",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "runtime_tracking": {
+        "health_score": 1,
+        "successful_fetches": 0,
+        "failed_fetches": 0,
+        "last_runtime_status": "READY"
+      },
+      "audit": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      }
+    },
+    {
+      "adapter_id": "L01_FETCH_ADAPTER_005",
+      "connector_id": "L01_LIVE_CONNECTOR_005_L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "source_id": "L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "source_name": "DHS Grant Programs",
+      "runtime": {
+        "enabled": false,
+        "execution_mode": "deterministic_controlled",
+        "acquisition_mode": "public_api"
+      },
+      "endpoint": {
+        "base_url": "https://www.dhs.gov",
+        "expected_format": "html",
+        "method": "GET",
+        "timeout_ms": 15000
+      },
+      "validation": {
+        "require_status_200": true,
+        "require_nonempty_body": true,
+        "require_expected_format": true,
+        "require_lineage_tracking": true
+      },
+      "parser_binding": {
+        "parser_id": "L01_PARSER_005",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "runtime_tracking": {
+        "health_score": 1,
+        "successful_fetches": 0,
+        "failed_fetches": 0,
+        "last_runtime_status": "READY"
+      },
+      "audit": {
+        "deterministic_replay_required": true,
+        "raw_snapshot_required": true,
+        "normalized_snapshot_required": true,
+        "audit_logging_required": true
+      }
+    }
+  ]
+}

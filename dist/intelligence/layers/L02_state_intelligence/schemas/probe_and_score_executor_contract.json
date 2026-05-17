@@ -1,0 +1,16 @@
+﻿{
+  "contract_id": "L02_probe_and_score_executor",
+  "version": "1.0.0",
+  "rules": {
+    "minimum_payload_bytes": 1000,
+    "minimum_score_for_verified": 70,
+    "challenge_page_score": 0,
+    "failed_fetch_score": 0,
+    "generic_landing_page_requires_defer": true,
+    "promotion_requires_score_pass": true,
+    "registry_mutation_allowed_only_after_pass": true,
+    "synthetic_promotion_allowed": false,
+    "l01_mutation_allowed": false,
+    "client_paths_touched": false
+  }
+}

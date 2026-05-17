@@ -1,0 +1,17 @@
+.\public\data\clients\black_dragon\states\nevada\single_city_runtime_policy.json:12:                                                          "Reno",
+.\public\data\clients\black_dragon\states\nevada\single_city_runtime_policy.json:13:                                                          "Henderson",
+.\public\data\clients\black_dragon\states\nevada\single_city_runtime_policy.json:14:                                                          "Sparks"
+.\public\data\clients\black_dragon\state_federations\nevada\cities\nevada_city_plan.json:15:      "city": "Reno",
+.\public\data\clients\black_dragon\state_federations\nevada\cities\nevada_city_plan.json:19:      "city": "Henderson",
+.\public\data\clients\black_dragon\state_federations\nevada\cities\nevada_city_plan.json:23:      "city": "Sparks",
+.\public\data\clients\black_dragon\state_federations\nevada\foundation\nevada_master_state_foundation.json:16:    "Reno",
+.\public\data\clients\black_dragon\state_federations\nevada\foundation\nevada_master_state_foundation.json:17:    "Henderson",
+.\public\data\clients\black_dragon\state_federations\nevada\foundation\nevada_master_state_foundation.json:18:    "Sparks"
+.\public\data\clients\black_dragon\state_candidates\tx_candidate_agencies.json:1137:      "agency_name": "Henderson County Sheriff&#039;S Office",
+.\public\data\clients\black_dragon\state_candidates\tx_candidate_agencies.json:1247:      "agency_name": "Henderson Co. Sheriff&#039;s Office Test Site",
+.\public\data\clients\black_dragon\state_candidates\tx_review_shortlist.json:2234:      "agency_name": "Henderson County Sheriff'S Office",
+.\public\data\clients\black_dragon\source_cache\states\tx\TX_TCOLE_TRAINING_PROVIDER_REGION_6.html:837:          <a href="/node/2476" hreflang="en">Henderson County Sheriff&#039;S Office</a>          </th>
+.\public\data\clients\black_dragon\source_cache\states\tx\TX_TCOLE_TRAINING_PROVIDER_REGION_6.html:1049:          <a href="/node/2617" hreflang="en">Henderson Co. Sheriff&#039;s Office Test Site</a>          </th>
+.\public\data\clients\black_dragon\source_cache\states\tx\TX_TCOLE_TRAINING_PROVIDER_REGION_9.html:1061:          Clay Sparks          </td>
+.\public\data\clients\black_dragon\source_cache\state_directories\il_sheriffs_association_directory.candidates.json:12:      "agency_name": "the Sheriff in your county and across the state! Select a County View More Adams Alexander Bond Boone Brown Bureau Calhoun Carroll Cass Champaign Christian Clark Clay Clinton Coles Cook Crawford Cumberland DeKalb DeWitt Douglas DuPage Edgar Edwards Effingham Fayette Ford Franklin Fulton Gallatin Greene Grundy Hamilton Hancock Hardin Henderson Henry Iroquois Jackson Jasper Jefferson Jersey Jo Daviess Johnson Kane Kankakee Kendall Knox Lake LaSalle Lawrence Lee Livingston Logan Macon Macoupin Madison Marion Marshall Mason Massac McDonough McHenry McLean Menard Mercer Monroe Montgomery Morgan Moultrie Ogle Peoria Perry Piatt Pike Pope Pulaski Putnam Randolph Richland Rock Island Saline Sangamon Schuyler Scott Shelby St. Clair Stark Stephenson Tazewell Union Vermilion Wabash Warren Washington Wayne White Whiteside Will Williamson Winnebago Woodford",
+.\public\data\clients\black_dragon\source_cache\state_directories\il_sheriffs_association_directory.html:924:<li id="menu-item-1570" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1570"><a href="/county/henderson">Henderson</a></li>

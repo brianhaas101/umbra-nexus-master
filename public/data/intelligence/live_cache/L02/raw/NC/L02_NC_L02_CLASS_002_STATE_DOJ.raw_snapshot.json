@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:15.104Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NC_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "NC",
+  "state_name": "North Carolina",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://ncdoj.gov",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 153311,
+    "extracted_links": [
+      {
+        "href": "https://ncdoj.gov/file-a-complaint/consumer-complaint/",
+        "label": "File a Consumer Complaint"
+      },
+      {
+        "href": "https://ncdoj.gov/about-ncdoj/the-attorney-general/",
+        "label": "About the Attorney General"
+      },
+      {
+        "href": "https://ncdoj.gov/file-a-complaint/consumer-complaint/",
+        "label": "General Consumer"
+      },
+      {
+        "href": "https://ncdoj.gov/protecting-consumers/senior-citizens/",
+        "label": "Elder Fraud"
+      },
+      {
+        "href": "https://ncdoj.gov/responding-to-crime/health-fraud/",
+        "label": "Medicaid Provider Fraud and Patient Abuse"
+      },
+      {
+        "href": "https://ncdoj.gov/newsroom/enewsletter-subscription/",
+        "label": "News &#038; Alerts Signup"
+      },
+      {
+        "href": "https://ncdoj.gov/protecting-consumers/protecting-your-identity/free-security-freeze/",
+        "label": "Free Credit Freeze"
+      },
+      {
+        "href": "https://ncdoj.gov/protecting-consumers/protecting-your-identity/lifting-a-security-freeze/",
+        "label": "Lift Security Freeze"
+      },
+      {
+        "href": "https://ncdoj.gov/protecting-consumers/protecting-your-identity/free-annual-credit-report/",
+        "label": "Free Credit Report"
+      },
+      {
+        "href": "https://ncdoj.gov/protecting-consumers/protecting-your-identity/protect-your-business-from-id-theft/report-a-security-breach/",
+        "label": "Security Breach"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "5fc1757917488b6193e5d382d182677c537161c6cfa6dd5a124e71033f9dc36f"
+}

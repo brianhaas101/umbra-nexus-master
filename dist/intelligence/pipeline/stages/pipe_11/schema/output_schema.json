@@ -1,0 +1,20 @@
+﻿{
+    "schema_id":  "layer_11_output_schema",
+    "required":  [
+                     "layer_id",
+                     "record_id",
+                     "explanation_id",
+                     "entity_key",
+                     "city_key",
+                     "summary",
+                     "score_trace",
+                     "provenance_trace",
+                     "audit_timestamp"
+                 ],
+    "explanation_constraints":  [
+                                    "no_generated_claims",
+                                    "no_hidden_weights",
+                                    "no_black_dragon_references",
+                                    "deterministic_serialization"
+                                ]
+}

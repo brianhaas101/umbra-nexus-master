@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_dd17b133",
+    "name":  "San Diego, CA",
+    "center_lat":  32.7157,
+    "center_lon":  -117.1611,
+    "bounds":  {
+                   "north":  32.9985,
+                   "south":  32.4558,
+                   "east":  -116.8758,
+                   "west":  -117.4463
+               },
+    "width_m":  53000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_dd17b133/base.png"
+}

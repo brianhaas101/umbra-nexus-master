@@ -1,0 +1,28 @@
+{
+  "version": "nexus_L01_blocked_evidence_policy_registry_v1",
+  "generated_at": "2026-05-09T00:16:13.938Z",
+  "layer_id": "L01",
+  "policies": [
+    {
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "policy": "BLOCKED_OR_AUTH_MISSING_SOURCES_MUST_NOT_GENERATE_OPERATIONAL_EVIDENCE",
+      "evidence_allowed_without_auth": false,
+      "signals_allowed_without_auth": false,
+      "score_components_allowed_without_auth": false
+    },
+    {
+      "source_id": "L01_SRC_006_FBI_PUBLIC_DATA",
+      "policy": "BLOCKED_OR_AUTH_MISSING_SOURCES_MUST_NOT_GENERATE_OPERATIONAL_EVIDENCE",
+      "evidence_allowed_without_auth": false,
+      "signals_allowed_without_auth": false,
+      "score_components_allowed_without_auth": false
+    },
+    {
+      "source_id": "L01_SRC_015_CONGRESSIONAL_BUDGET_RELEASES",
+      "policy": "BLOCKED_OR_AUTH_MISSING_SOURCES_MUST_NOT_GENERATE_OPERATIONAL_EVIDENCE",
+      "evidence_allowed_without_auth": false,
+      "signals_allowed_without_auth": false,
+      "score_components_allowed_without_auth": false
+    }
+  ]
+}

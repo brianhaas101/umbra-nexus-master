@@ -1,0 +1,32 @@
+{
+  "version": "black_dragon_motor_unit_scoring_v1_batch_073",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "institutional_weights": {
+    "POLICE_MOTOR_UNIT": 0.97,
+    "SHERIFF_MOTOR_DIVISION": 0.96,
+    "STATE_POLICE_MOTOR_UNIT": 0.95,
+    "TRAFFIC_ENFORCEMENT_MOTOR_TEAM": 0.90,
+    "MOTORCYCLE_OFFICER_ASSOCIATION": 0.94,
+    "POLICE_MOTOR_TRAINING_PROGRAM": 0.96,
+    "LAW_ENFORCEMENT_TRAINING_COORDINATOR": 0.93,
+    "GANG_INTELLIGENCE_TRAINING_UNIT": 0.98
+  },
+
+  "propagation_multipliers": {
+    "training_adoption": 1.9,
+    "agency_network": 1.8,
+    "motor_unit_visibility": 1.6,
+    "event_presence": 1.5,
+    "gang_intelligence_overlap": 2.0,
+    "institutional_relationship": 1.7
+  },
+
+  "outreach_safety": {
+    "requires_public_source": true,
+    "requires_verified_contact_route": true,
+    "forbids_generated_contacts": true,
+    "requires_manual_review": true,
+    "requires_client_safe_language": true
+  }
+}

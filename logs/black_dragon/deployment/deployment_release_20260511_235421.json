@@ -1,0 +1,12 @@
+﻿{
+    "created_utc":  "2026-05-12T06:54:21.1561628Z",
+    "client_id":  "black_dragon",
+    "registry_freeze":  ".\\artifacts\\black_dragon\\registry_freeze_20260511_234308",
+    "client_handoff_freeze":  ".\\artifacts\\black_dragon\\client_handoff_freeze_20260511_234311",
+    "runtime_status":  "operational",
+    "replay_validation":  "pass",
+    "runtime_loader":  "pass",
+    "integrity_gate":  "pass",
+    "founder_isolation":  "verified",
+    "account_delivery_ready":  true
+}

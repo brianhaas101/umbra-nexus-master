@@ -1,0 +1,36 @@
+{
+  "version": "umbra_dataset_export_security_manifest_v1",
+
+  "required_scripts": [
+    "public/globe/security/dataset_access_guard.js",
+    "public/globe/security/export_security_guard.js"
+  ],
+
+  "required_globals": [
+    "window.UmbraDatasetSecurity",
+    "window.UmbraExportSecurity"
+  ],
+
+  "required_functions": {
+    "dataset_guard": [
+      "canAccessDataset",
+      "canExport",
+      "guardedFetch",
+      "getDebugState"
+    ],
+
+    "export_guard": [
+      "canExport",
+      "guardedExport",
+      "getDebugState"
+    ]
+  },
+
+  "restricted_dataset_roots": [
+    "public/data/security",
+    "public/data/intelligence",
+    "public/data/global",
+    "public/data/founder",
+    "public/data/system"
+  ]
+}

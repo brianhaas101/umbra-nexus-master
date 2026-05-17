@@ -1,0 +1,30 @@
+{
+  "version": "black_dragon_books_outreach_queue_ui_manifest_v1",
+
+  "required_script": "public/globe/clients/black_dragon/books/outreach_queue_ui.js",
+
+  "required_global": "window.BlackDragonBooksQueueUI",
+
+  "required_functions": [
+    "load",
+    "render",
+    "selectItem",
+    "copyText",
+    "getDebugState"
+  ],
+
+  "required_panels": [
+    "OUTREACH_QUEUE"
+  ],
+
+  "data_sources": [
+    "public/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json"
+  ],
+
+  "client_actions": [
+    "copy_subject",
+    "copy_message",
+    "copy_full_outreach",
+    "copy_contact_route"
+  ]
+}

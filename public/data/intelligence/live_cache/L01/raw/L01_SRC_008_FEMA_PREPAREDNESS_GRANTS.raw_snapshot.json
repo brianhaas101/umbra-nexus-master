@@ -1,0 +1,65 @@
+{
+  "version": "nexus_live_raw_snapshot_v1",
+  "captured_at": "2026-05-08T03:21:23.915Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+  "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+  "source_name": "FEMA Preparedness Grants",
+  "acquisition_mode": "public_html",
+  "endpoint": "https://www.fema.gov/grants/preparedness",
+  "request": {
+    "method": "GET",
+    "purpose": "fema_preparedness_grants_live_page_fetch"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 131385,
+    "extracted_links": [
+      {
+        "href": "/grants/preparedness",
+        "label": "English"
+      },
+      {
+        "href": "/es/grants/preparedness",
+        "label": "Español"
+      },
+      {
+        "href": "/fr/grants/preparedness",
+        "label": "Français"
+      },
+      {
+        "href": "/ht/grants/preparedness",
+        "label": "Kreyòl"
+      },
+      {
+        "href": "/vi/grants/preparedness",
+        "label": "Tiếng Việt"
+      },
+      {
+        "href": "/zh-hans/grants/preparedness",
+        "label": "简体中文"
+      },
+      {
+        "href": "/ko/grants/preparedness",
+        "label": "한국어"
+      },
+      {
+        "href": "https://www.disasterassistance.gov",
+        "label": "Apply for Assistance"
+      },
+      {
+        "href": "/assistance",
+        "label": "Assistance After a Disaster"
+      },
+      {
+        "href": "/assistance/businesses",
+        "label": "Businesses"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "source_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e"
+}

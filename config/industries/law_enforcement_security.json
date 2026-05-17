@@ -1,0 +1,30 @@
+{
+  "industry_id": "law_enforcement_security",
+  "label": "Law Enforcement & Security",
+  "target_use_case": "Find organizations likely to buy motorcycle-club interaction training",
+  "audience_context": {
+    "seller_name": "Black Dragon",
+    "brand_reference": "Black Dragon Biker TV",
+    "offering": "Training for agencies and security organizations on how to communicate with, work with, and deal with 1% motorcycle clubs"
+  },
+  "target_segments": [
+    "police_department",
+    "sheriff_office",
+    "state_police",
+    "highway_patrol",
+    "gang_unit",
+    "narcotics_unit",
+    "motorcycle_unit",
+    "private_security_firm",
+    "private_investigator_firm",
+    "corporate_security_team",
+    "event_security_company"
+  ],
+  "priority_sources": [
+    "local_gov_directory",
+    "state_agency_directory",
+    "security_firm_registry",
+    "investigator_registry",
+    "commercial_site"
+  ]
+}

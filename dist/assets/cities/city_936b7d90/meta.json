@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_936b7d90",
+    "name":  "Tulsa, OK",
+    "center_lat":  36.154,
+    "center_lon":  -95.9928,
+    "bounds":  {
+                   "north":  36.4368,
+                   "south":  35.8941,
+                   "east":  -95.7075,
+                   "west":  -96.278
+               },
+    "width_m":  51000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_936b7d90/base.png"
+}

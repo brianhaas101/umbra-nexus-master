@@ -1,0 +1,16 @@
+{
+  "version": "dashboard_renderer_injection_report_v1",
+  "generated_at": "2026-05-09T03:27:37.783Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_dashboard_renderer": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_dashboard_renderer": true
+    }
+  ]
+}

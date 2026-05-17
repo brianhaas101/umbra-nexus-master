@@ -1,0 +1,352 @@
+[
+  {
+    "city_id": "city_756cb4ea",
+    "name": "Albuquerque, NM",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_756cb4ea/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_6cabf985",
+    "name": "Arlington, TX",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_6cabf985/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_7eb25064",
+    "name": "Atlanta, GA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_7eb25064/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_a324d561",
+    "name": "Austin, TX",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_a324d561/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_a7350aab",
+    "name": "Baltimore, MD",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_a7350aab/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_95b0c3ba",
+    "name": "Boston, MA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_95b0c3ba/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_5090c3c6",
+    "name": "Charlotte, NC",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_5090c3c6/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_4c180874",
+    "name": "Chicago, IL",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_4c180874/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_328b326a",
+    "name": "Colorado Springs, CO",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_328b326a/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_85e83faa",
+    "name": "Columbus, OH",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_85e83faa/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_5abab5f6",
+    "name": "Dallas, TX",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_5abab5f6/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_39d61699",
+    "name": "Denver, CO",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_39d61699/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_6536761e",
+    "name": "Detroit, MI",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_6536761e/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_990961e3",
+    "name": "El Paso, TX",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_990961e3/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_47b59fac",
+    "name": "Fort Worth, TX",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_47b59fac/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_c94decbe",
+    "name": "Fresno, CA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_c94decbe/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_0a922e63",
+    "name": "Houston, TX",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_0a922e63/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_1ae44e4f",
+    "name": "Indianapolis, IN",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_1ae44e4f/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_7e936870",
+    "name": "Jacksonville, FL",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_7e936870/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_828fab47",
+    "name": "Kansas City, MO",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_828fab47/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_f03b8f57",
+    "name": "Las Vegas, NV",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_f03b8f57/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_0a31d438",
+    "name": "Long Beach, CA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_0a31d438/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_1f98af58",
+    "name": "Los Angeles, CA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_1f98af58/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_8e6f63cf",
+    "name": "Louisville, KY",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_8e6f63cf/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_c79509a4",
+    "name": "Memphis, TN",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_c79509a4/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_7d043dae",
+    "name": "Mesa, AZ",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_7d043dae/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_53389926",
+    "name": "Miami, FL",
+    "scaffold_status": "city_map_ready_reference",
+    "bounds_status": "verified_reference",
+    "tiles_url": "/assets/city_tiles/city_53389926/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_3fad7905",
+    "name": "Milwaukee, WI",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_3fad7905/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_1fd1b37f",
+    "name": "Minneapolis, MN",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_1fd1b37f/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_154a8fe9",
+    "name": "Nashville, TN",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_154a8fe9/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_b5ad2562",
+    "name": "New Orleans, LA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_b5ad2562/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_3d50f2fd",
+    "name": "New York, NY",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_3d50f2fd/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_8f664c09",
+    "name": "Oakland, CA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_8f664c09/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_a2cbee70",
+    "name": "Oklahoma City, OK",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_a2cbee70/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_127606b4",
+    "name": "Omaha, NE",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_127606b4/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_01f3a5ed",
+    "name": "Philadelphia, PA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_01f3a5ed/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_8635d5db",
+    "name": "Phoenix, AZ",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_8635d5db/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_ab77b2a8",
+    "name": "Portland, OR",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_ab77b2a8/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_16f77904",
+    "name": "Raleigh, NC",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_16f77904/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_47748120",
+    "name": "Sacramento, CA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_47748120/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_c27d5d7f",
+    "name": "San Antonio, TX",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_c27d5d7f/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_dd17b133",
+    "name": "San Diego, CA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_dd17b133/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_d2941d41",
+    "name": "San Francisco, CA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_d2941d41/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_759cd460",
+    "name": "San Jose, CA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_759cd460/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_b7ea02a9",
+    "name": "Seattle, WA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_b7ea02a9/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_af6fd06c",
+    "name": "Tampa, FL",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_af6fd06c/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_b903b4d0",
+    "name": "Tucson, AZ",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_b903b4d0/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_936b7d90",
+    "name": "Tulsa, OK",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_936b7d90/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_29cb8e76",
+    "name": "Virginia Beach, VA",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_29cb8e76/{z}/{x}/{y}.jpg"
+  },
+  {
+    "city_id": "city_5fedc010",
+    "name": "Washington, DC",
+    "scaffold_status": "asset_scaffold_only",
+    "bounds_status": "unverified_scaffold_from_entity_extent",
+    "tiles_url": "/assets/city_tiles/city_5fedc010/{z}/{x}/{y}.jpg"
+  }
+]

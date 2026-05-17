@@ -1,0 +1,69 @@
+{
+    "version":  "black_dragon_long_beach_category_coverage_contract_v1",
+    "generated_at":  "2026-05-11T04:42:25.9529368Z",
+    "reference_city":  {
+                           "city":  "Long Beach",
+                           "folder":  "long_beach",
+                           "role":  "CATEGORY_AND_DENSITY_REFERENCE"
+                       },
+    "required_category_coverage":  [
+                                       "motorcycle_dealerships",
+                                       "motorcycle_repair_and_parts",
+                                       "riding_clubs",
+                                       "rider_training_schools",
+                                       "community_groups",
+                                       "event_venues",
+                                       "educational_institutes",
+                                       "local_media_groups",
+                                       "business_associations",
+                                       "civic_organizations",
+                                       "public_safety_public_directories",
+                                       "lawful_sporting_or_firearms_organizations",
+                                       "charity_nonprofit_groups",
+                                       "local_influencer_or_creator_media",
+                                       "regional_geospatial_anchors"
+                                   ],
+    "entity_acceptance_rules":  {
+                                    "public_source_required":  true,
+                                    "city_match_required":  true,
+                                    "category_match_required":  true,
+                                    "organization_identity_required":  true,
+                                    "source_url_required":  true,
+                                    "confidence_score_required":  true,
+                                    "provenance_chain_required":  true,
+                                    "manual_review_before_contact":  true,
+                                    "no_private_individual_targets":  true,
+                                    "no_placeholder_entities":  true,
+                                    "no_inferred_contacts":  true,
+                                    "no_scraped_personal_contacts":  true,
+                                    "no_auto_sales_leads":  true
+                                },
+    "regulated_category_rules":  {
+                                     "applies_to":  [
+                                                        "lawful_sporting_or_firearms_organizations",
+                                                        "public_safety_public_directories"
+                                                    ],
+                                     "organization_level_only":  true,
+                                     "public_lawful_source_only":  true,
+                                     "no_private_person_targeting":  true,
+                                     "no_sensitive_personal_data":  true,
+                                     "manual_review_required":  true,
+                                     "outbound_contact_disabled":  true
+                                 },
+    "five_city_wave_rules":  {
+                                 "max_parallel_cities":  5,
+                                 "all_outputs_city_specific":  true,
+                                 "no_copying_long_beach_entities":  true,
+                                 "replicate_category_coverage_not_targets":  true,
+                                 "audit_after_each_wave":  true,
+                                 "fail_closed_on_uncertainty":  true
+                             },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "LONG_BEACH_CATEGORY_COVERAGE_CONTRACT_LOCKED"
+}

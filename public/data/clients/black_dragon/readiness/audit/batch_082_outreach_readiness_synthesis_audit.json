@@ -1,0 +1,29 @@
+{
+  "version": "umbra_batch_082_outreach_readiness_synthesis_audit_v1",
+  "generated_at": "2026-05-10T01:36:05.425Z",
+  "synthesis_integrity": {
+    "synthesized_entities": 1000,
+    "outreach_ready": 0,
+    "verification_required": 1000,
+    "verification_queue": 150,
+    "has_top_verification_targets": true
+  },
+  "readiness_integrity": {
+    "all_have_scores": true,
+    "all_have_tiers": true,
+    "all_have_gates": true,
+    "all_have_next_action": true,
+    "all_blocked_if_unverified": true
+  },
+  "queue_integrity": {
+    "queue_exists": true,
+    "queue_limit_respected": true,
+    "all_queue_items_need_verification": true,
+    "all_queue_items_have_verify_action": true
+  },
+  "safety_integrity": {
+    "no_unverified_outreach_ready": true,
+    "unverified_entities_blocked": true
+  },
+  "pass": true
+}

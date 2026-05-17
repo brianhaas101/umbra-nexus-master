@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_6cabf985",
+    "name":  "Arlington, TX",
+    "center_lat":  32.7357,
+    "center_lon":  -97.1081,
+    "bounds":  {
+                   "north":  33.0185,
+                   "south":  32.4758,
+                   "east":  -96.8229,
+                   "west":  -97.3933
+               },
+    "width_m":  53000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_6cabf985/base.png"
+}

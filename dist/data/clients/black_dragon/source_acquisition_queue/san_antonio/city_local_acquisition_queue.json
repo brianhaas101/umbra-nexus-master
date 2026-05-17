@@ -1,0 +1,576 @@
+{
+    "batch":  "259",
+    "version":  "black_dragon_san_antonio_city_local_acquisition_queue_v1",
+    "generated_at":  "2026-05-12T00:48:13.1041848Z",
+    "city":  "San Antonio",
+    "folder":  "san_antonio",
+    "state":  "Texas",
+    "state_code":  "TX",
+    "city_id":  "city_san_antonio_tx",
+    "acquisition_lanes":  [
+                              {
+                                  "category":  "city_government_directory",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas city_government_directory public directory",
+                                                              "San Antonio TX city_government_directory official",
+                                                              "San Antonio city_government_directory open data",
+                                                              "San Antonio city_government_directory registry",
+                                                              "San Antonio city_government_directory organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "business_registry",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas business_registry public directory",
+                                                              "San Antonio TX business_registry official",
+                                                              "San Antonio business_registry open data",
+                                                              "San Antonio business_registry registry",
+                                                              "San Antonio business_registry organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "chamber_of_commerce",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas chamber_of_commerce public directory",
+                                                              "San Antonio TX chamber_of_commerce official",
+                                                              "San Antonio chamber_of_commerce open data",
+                                                              "San Antonio chamber_of_commerce registry",
+                                                              "San Antonio chamber_of_commerce organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_media_directory",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas local_media_directory public directory",
+                                                              "San Antonio TX local_media_directory official",
+                                                              "San Antonio local_media_directory open data",
+                                                              "San Antonio local_media_directory registry",
+                                                              "San Antonio local_media_directory organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "education_institutions",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas education_institutions public directory",
+                                                              "San Antonio TX education_institutions official",
+                                                              "San Antonio education_institutions open data",
+                                                              "San Antonio education_institutions registry",
+                                                              "San Antonio education_institutions organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "community_organizations",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas community_organizations public directory",
+                                                              "San Antonio TX community_organizations official",
+                                                              "San Antonio community_organizations open data",
+                                                              "San Antonio community_organizations registry",
+                                                              "San Antonio community_organizations organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "venue_and_events",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas venue_and_events public directory",
+                                                              "San Antonio TX venue_and_events official",
+                                                              "San Antonio venue_and_events open data",
+                                                              "San Antonio venue_and_events registry",
+                                                              "San Antonio venue_and_events organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "retail_and_dealers",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas retail_and_dealers public directory",
+                                                              "San Antonio TX retail_and_dealers official",
+                                                              "San Antonio retail_and_dealers open data",
+                                                              "San Antonio retail_and_dealers registry",
+                                                              "San Antonio retail_and_dealers organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "clubs_and_associations",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas clubs_and_associations public directory",
+                                                              "San Antonio TX clubs_and_associations official",
+                                                              "San Antonio clubs_and_associations open data",
+                                                              "San Antonio clubs_and_associations registry",
+                                                              "San Antonio clubs_and_associations organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "geospatial_open_data",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas geospatial_open_data public directory",
+                                                              "San Antonio TX geospatial_open_data official",
+                                                              "San Antonio geospatial_open_data open data",
+                                                              "San Antonio geospatial_open_data registry",
+                                                              "San Antonio geospatial_open_data organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "transit_and_location_data",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas transit_and_location_data public directory",
+                                                              "San Antonio TX transit_and_location_data official",
+                                                              "San Antonio transit_and_location_data open data",
+                                                              "San Antonio transit_and_location_data registry",
+                                                              "San Antonio transit_and_location_data organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "public_safety_and_civic_resources",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas public_safety_and_civic_resources public directory",
+                                                              "San Antonio TX public_safety_and_civic_resources official",
+                                                              "San Antonio public_safety_and_civic_resources open data",
+                                                              "San Antonio public_safety_and_civic_resources registry",
+                                                              "San Antonio public_safety_and_civic_resources organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "tourism_and_visitor_bureau",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas tourism_and_visitor_bureau public directory",
+                                                              "San Antonio TX tourism_and_visitor_bureau official",
+                                                              "San Antonio tourism_and_visitor_bureau open data",
+                                                              "San Antonio tourism_and_visitor_bureau registry",
+                                                              "San Antonio tourism_and_visitor_bureau organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "neighborhood_districts",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas neighborhood_districts public directory",
+                                                              "San Antonio TX neighborhood_districts official",
+                                                              "San Antonio neighborhood_districts open data",
+                                                              "San Antonio neighborhood_districts registry",
+                                                              "San Antonio neighborhood_districts organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_nonprofits",
+                                  "city":  "San Antonio",
+                                  "folder":  "san_antonio",
+                                  "state":  "Texas",
+                                  "state_code":  "TX",
+                                  "acquisition_queries":  [
+                                                              "San Antonio Texas local_nonprofits public directory",
+                                                              "San Antonio TX local_nonprofits official",
+                                                              "San Antonio local_nonprofits open data",
+                                                              "San Antonio local_nonprofits registry",
+                                                              "San Antonio local_nonprofits organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "San Antonio",
+                                                              "required_state":  "Texas",
+                                                              "required_state_code":  "TX",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              }
+                          ],
+    "policy":  {
+                   "long_beach_is_benchmark_not_source_donor":  true,
+                   "city_local_provenance_required":  true,
+                   "no_cross_city_contamination":  true,
+                   "no_runtime_promotion":  true,
+                   "no_contact_enablement":  true,
+                   "manual_review_required":  true
+               },
+    "status":  "CITY_LOCAL_ACQUISITION_QUEUE_READY"
+}

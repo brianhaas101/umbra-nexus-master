@@ -1,0 +1,31 @@
+{
+  "version": "umbra_batch_080_distribution_density_mapping_audit_v1",
+  "generated_at": "2026-05-10T01:26:36.303Z",
+  "mapping_integrity": {
+    "distribution_entities": 200,
+    "regions": 30,
+    "cities": 50,
+    "has_top_regions": true,
+    "has_top_cities": true
+  },
+  "region_integrity": {
+    "regions_present": true,
+    "all_have_scores": true,
+    "all_have_tiers": true,
+    "all_have_distribution_entities": true,
+    "all_outreach_blocked": true
+  },
+  "city_integrity": {
+    "cities_present": true,
+    "all_have_scores": true,
+    "all_have_tiers": true,
+    "all_have_coordinates": true,
+    "all_outreach_blocked": true
+  },
+  "safety_integrity": {
+    "outreach_allowed_zero": true,
+    "all_regions_verify_first": true,
+    "all_cities_verify_first": true
+  },
+  "pass": true
+}

@@ -1,0 +1,177 @@
+{
+  "version": "nexus_L02_browser_adapter_contracts_batch_006_v1",
+  "generated_at": "2026-05-09T01:38:02.654Z",
+  "layer_id": "L02",
+  "adapters": [
+    {
+      "connector_id": "L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "CA",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "REQUIRED_PENDING_IMPLEMENTATION",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "TX",
+      "source_type": "STATE_ACADEMY",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_TX_L02_CLASS_005_STATE_ACADEMY",
+      "adapter_status": "OPTIONAL_PENDING_SOURCE_REVIEW",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "FL",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "REQUIRED_PENDING_IMPLEMENTATION",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "AZ",
+      "source_type": "STATE_GRANTS",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_AZ_L02_CLASS_003_STATE_GRANTS",
+      "adapter_status": "OPTIONAL_PENDING_SOURCE_REVIEW",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "OH",
+      "source_type": "STATE_GRANTS",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_OH_L02_CLASS_003_STATE_GRANTS",
+      "adapter_status": "OPTIONAL_PENDING_SOURCE_REVIEW",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "OH",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_OH_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "REQUIRED_PENDING_IMPLEMENTATION",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "NC",
+      "source_type": "STATE_GRANTS",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_NC_L02_CLASS_003_STATE_GRANTS",
+      "adapter_status": "OPTIONAL_PENDING_SOURCE_REVIEW",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NC",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_NC_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "REQUIRED_PENDING_IMPLEMENTATION",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "WA",
+      "source_type": "STATE_GRANTS",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_WA_L02_CLASS_003_STATE_GRANTS",
+      "adapter_status": "OPTIONAL_PENDING_SOURCE_REVIEW",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "WA",
+      "source_type": "STATE_PROCUREMENT",
+      "adapter_id": "L02_BROWSER_ADAPTER_L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+      "adapter_status": "REQUIRED_PENDING_IMPLEMENTATION",
+      "headless_allowed": true,
+      "deterministic_snapshot_required": true,
+      "replay_capture_required": true,
+      "output_contract": {
+        "raw_snapshot": true,
+        "normalized_snapshot": true,
+        "evidence": true,
+        "signals": true,
+        "score_components": true
+      }
+    }
+  ]
+}

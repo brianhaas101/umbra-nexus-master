@@ -1,0 +1,21 @@
+{
+  "version": "umbra_batch_068_education_source_discovery_first_pass_audit_v1",
+  "generated_at": "2026-05-10T00:29:42.735Z",
+  "queue_integrity": {
+    "task_count": 75,
+    "max_batch_respected": true,
+    "all_queued_for_discovery": true,
+    "all_outreach_blocked": true,
+    "all_no_contacts_attached": true,
+    "all_have_search_queries": true,
+    "all_require_official_source": true,
+    "all_have_forbidden_result_types": true
+  },
+  "report_integrity": {
+    "input_targets": true,
+    "selected_targets_match": true,
+    "selection_policy_present": true,
+    "category_counts_present": true
+  },
+  "pass": true
+}

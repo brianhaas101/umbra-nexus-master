@@ -1,0 +1,17 @@
+﻿{
+    "schema_id":  "layer_03_input_schema",
+    "required":  [
+                     "record_id",
+                     "normalized_record",
+                     "city_local_score",
+                     "classification"
+                 ],
+    "normalized_record_required":  [
+                                       "source_url",
+                                       "source_type",
+                                       "source_title",
+                                       "city",
+                                       "entity",
+                                       "claim"
+                                   ]
+}

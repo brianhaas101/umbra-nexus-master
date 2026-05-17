@@ -1,0 +1,325 @@
+{
+  "version": "nexus_L02_batch_005_v1",
+  "generated_at": "2026-05-09T01:34:31.812Z",
+  "layer_id": "L02",
+  "batch_id": "L02_BATCH_005",
+  "status": "PASS",
+  "counts": {
+    "attempted_connectors": 30,
+    "live_fetch_success": 20,
+    "blocked_or_empty": 10,
+    "total_evidence": 200,
+    "total_signals": 200,
+    "total_score_components": 200
+  },
+  "gates": {
+    "thirty_connectors_attempted": true,
+    "replay_registered": true,
+    "lineage_registered": true,
+    "no_fake_data_policy_preserved": true,
+    "evidence_signal_score_alignment": true
+  },
+  "results": [
+    {
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "CA",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "CA",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_CA_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "CA",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "TX",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "TX",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "TX",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "FL",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "FL",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "FL",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_NY_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "NY",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NY",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "AZ",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "AZ",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "IL",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_IL_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "IL",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_IL_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "IL",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "OH",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "OH",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "OH",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "NC",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "NC",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NC",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_GA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "GA",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_GA_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "GA",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_003_STATE_GRANTS",
+      "state_abbr": "WA",
+      "source_type": "STATE_GRANTS",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "WA",
+      "source_type": "STATE_PROCUREMENT",
+      "status": "LIVE_FETCH_EMPTY_OR_FAILED",
+      "evidence": 0,
+      "signals": 0,
+      "score_components": 0,
+      "success": false
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "WA",
+      "source_type": "STATE_ACADEMY",
+      "status": "LIVE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    }
+  ],
+  "report_hash": "6bcb0e78d529b00d6800c72fd3580026785ab542179a5dca4c9a9528944e88c1"
+}

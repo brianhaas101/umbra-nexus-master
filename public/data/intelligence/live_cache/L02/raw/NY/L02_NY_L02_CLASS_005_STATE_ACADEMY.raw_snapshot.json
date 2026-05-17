@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:18.864Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+  "state_abbr": "NY",
+  "state_name": "New York",
+  "source_type": "STATE_ACADEMY",
+  "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 19222,
+    "extracted_links": [
+      {
+        "href": "https://www.criminaljustice.ny.gov/ojis/dir_training.htm",
+        "label": "Domestic Incident Report Form"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/Officer_Decertification.htm",
+        "label": "Police / Peace Officer Decertification"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/ops/training/index.htm",
+        "label": "Police Training"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/ops/sgtraining/index.htm",
+        "label": "Security Guard Training"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/ops/training/trainingnews.htm",
+        "label": "Naloxone Training Materials"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/ops/training/index.htm",
+        "label": "Training Catalog"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/ops/sgtraining/index.htm",
+        "label": "Security Guard Training"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/ops/training/bcpo/bcpo01.htm",
+        "label": "Basic Course for Police"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/ops/training/bcpo/bcpo02.htm",
+        "label": "Police Refresher Course"
+      },
+      {
+        "href": "https://www.criminaljustice.ny.gov/ops/training/bcpo/bcpo03.htm",
+        "label": "Police Equivalency Course"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866"
+}

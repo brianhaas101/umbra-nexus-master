@@ -1,0 +1,15 @@
+﻿{
+    "layer_id":  "layer_04",
+    "contract":  "claim_relevance_scoring",
+    "depends_on":  [
+                       "layer_01",
+                       "layer_02",
+                       "layer_03"
+                   ],
+    "deterministic_score":  true,
+    "modifies_claims":  false,
+    "creates_entities":  false,
+    "accepts_synthetic_fillers":  false,
+    "inferred_contacts_allowed":  false,
+    "modifies_black_dragon":  false
+}

@@ -1,0 +1,119 @@
+{
+  "sources": [
+    {
+      "source_id": "local_gov_directory",
+      "layer": "commercial",
+      "industry_tags": [
+        "law_enforcement_security"
+      ],
+      "access_type": "public_web",
+      "base_url": "",
+      "auth_type": "none",
+      "refresh_mode": "monthly",
+      "reliability": 0.9,
+      "entity_keys": [
+        "name",
+        "city",
+        "state",
+        "website"
+      ],
+      "geo_strategy": "address_parse_then_geocode",
+      "fallback_sources": [
+        "state_agency_directory"
+      ],
+      "usage_class": "public",
+      "status": "seed"
+    },
+    {
+      "source_id": "state_agency_directory",
+      "layer": "state",
+      "industry_tags": [
+        "law_enforcement_security"
+      ],
+      "access_type": "public_web_or_api",
+      "base_url": "",
+      "auth_type": "none_or_varies",
+      "refresh_mode": "monthly",
+      "reliability": 0.92,
+      "entity_keys": [
+        "name",
+        "jurisdiction",
+        "state",
+        "website"
+      ],
+      "geo_strategy": "address_parse_then_geocode",
+      "fallback_sources": [
+        "local_gov_directory"
+      ],
+      "usage_class": "public",
+      "status": "seed"
+    },
+    {
+      "source_id": "security_firm_registry",
+      "layer": "state",
+      "industry_tags": [
+        "law_enforcement_security"
+      ],
+      "access_type": "state_specific",
+      "base_url": "",
+      "auth_type": "varies",
+      "refresh_mode": "varies",
+      "reliability": 0.86,
+      "entity_keys": [
+        "license_id",
+        "name",
+        "address"
+      ],
+      "geo_strategy": "address_then_geocode",
+      "fallback_sources": [
+        "commercial_site"
+      ],
+      "usage_class": "public",
+      "status": "seed"
+    },
+    {
+      "source_id": "investigator_registry",
+      "layer": "state",
+      "industry_tags": [
+        "law_enforcement_security"
+      ],
+      "access_type": "state_specific",
+      "base_url": "",
+      "auth_type": "varies",
+      "refresh_mode": "varies",
+      "reliability": 0.86,
+      "entity_keys": [
+        "license_id",
+        "name",
+        "address"
+      ],
+      "geo_strategy": "address_then_geocode",
+      "fallback_sources": [
+        "commercial_site"
+      ],
+      "usage_class": "public",
+      "status": "seed"
+    },
+    {
+      "source_id": "commercial_site",
+      "layer": "commercial",
+      "industry_tags": [
+        "law_enforcement_security"
+      ],
+      "access_type": "public_web",
+      "base_url": "",
+      "auth_type": "none",
+      "refresh_mode": "weekly",
+      "reliability": 0.72,
+      "entity_keys": [
+        "domain",
+        "name",
+        "phone"
+      ],
+      "geo_strategy": "address_parse_then_geocode",
+      "fallback_sources": [],
+      "usage_class": "public",
+      "status": "seed"
+    }
+  ]
+}

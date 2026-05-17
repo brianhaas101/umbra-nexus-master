@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Kansas City",
+    "gis": "https://maps.kcmo.org/apps/parcelviewer/",
+    "open_data": "https://data.kcmo.org/",
+    "police": "https://www.kcpd.org/",
+    "fire": "https://www.kcmo.gov/city-hall/departments/fire",
+    "parks": "https://kcparks.org/",
+    "permits": "https://www.kcmo.gov/city-hall/departments/city-planning-development",
+    "public_works": "https://www.kcmo.gov/city-hall/departments/public-works",
+    "schools": "https://www.kckschools.org/",
+    "council": "https://www.kcmo.gov/city-hall/city-officials/city-council"
+  },
+  {
+    "city": "St Louis",
+    "gis": "https://www.stlouis-mo.gov/data/",
+    "open_data": "https://www.stlouis-mo.gov/data/",
+    "police": "https://www.slmpd.org/",
+    "fire": "https://www.stlouis-mo.gov/government/departments/public-safety/fire/",
+    "parks": "https://www.stlouis-mo.gov/government/departments/parks/",
+    "permits": "https://www.stlouis-mo.gov/government/departments/public-safety/building/",
+    "public_works": "https://www.stlouis-mo.gov/government/departments/street/",
+    "schools": "https://www.slps.org/",
+    "council": "https://www.stlouis-mo.gov/government/departments/aldermen/"
+  },
+  {
+    "city": "Springfield",
+    "gis": "https://maps.springfieldmo.gov/",
+    "open_data": "https://data.springfieldmo.gov/",
+    "police": "https://www.springfieldmo.gov/172/Police",
+    "fire": "https://www.springfieldmo.gov/181/Fire",
+    "parks": "https://www.parkboard.org/",
+    "permits": "https://www.springfieldmo.gov/143/Building-Development-Services",
+    "public_works": "https://www.springfieldmo.gov/129/Public-Works",
+    "schools": "https://www.sps.org/",
+    "council": "https://www.springfieldmo.gov/107/City-Council"
+  },
+  {
+    "city": "Columbia",
+    "gis": "https://gis.gocolumbiamo.com/",
+    "open_data": "https://www.como.gov/",
+    "police": "https://www.como.gov/police/",
+    "fire": "https://www.como.gov/fire/",
+    "parks": "https://www.como.gov/parks-and-recreation/",
+    "permits": "https://www.como.gov/community-development/",
+    "public_works": "https://www.como.gov/public-works/",
+    "schools": "https://www.cpsk12.org/",
+    "council": "https://www.como.gov/city-council/"
+  },
+  {
+    "city": "Independence",
+    "gis": "https://www.indepmo.org/GIS",
+    "open_data": "https://www.indepmo.org/",
+    "police": "https://www.indepmo.org/police",
+    "fire": "https://www.indepmo.org/fire",
+    "parks": "https://www.indepmo.org/parksandrec",
+    "permits": "https://www.indepmo.org/communitydevelopment",
+    "public_works": "https://www.indepmo.org/publicworks",
+    "schools": "https://www.isdschools.org/",
+    "council": "https://www.indepmo.org/citycouncil"
+  }
+]

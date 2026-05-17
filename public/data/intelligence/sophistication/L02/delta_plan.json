@@ -1,0 +1,1507 @@
+{
+  "version": "nexus_L02_delta_plan_v1",
+  "generated_at": "2026-05-09T01:07:16.230Z",
+  "layer_id": "L02",
+  "plans": [
+    {
+      "connector_id": "L02_AL_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AL_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AL_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AL_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AL_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AK_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AK_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AK_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AK_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AK_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AZ_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AR_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AR_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AR_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AR_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_AR_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CA_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CA_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CO_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CO_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CO_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CO_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CO_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CT_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CT_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CT_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CT_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_CT_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_DE_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_DE_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_DE_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_DE_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_DE_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_FL_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_GA_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_GA_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_GA_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_HI_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_HI_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_HI_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_HI_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_HI_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ID_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ID_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ID_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ID_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ID_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IL_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IL_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IL_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IL_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IN_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IN_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IN_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IN_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IN_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IA_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IA_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IA_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IA_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_IA_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KS_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KS_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KS_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KS_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KS_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KY_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KY_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KY_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KY_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_KY_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_LA_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_LA_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_LA_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_LA_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_LA_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ME_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ME_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ME_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ME_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ME_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MD_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MD_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MD_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MD_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MD_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MA_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MA_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MA_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MA_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MA_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MI_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MI_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MI_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MI_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MI_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MN_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MN_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MN_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MN_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MN_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MS_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MS_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MS_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MS_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MS_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MO_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MO_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MO_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MO_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MO_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MT_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MT_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MT_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MT_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_MT_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NE_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NE_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NE_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NE_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NE_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NV_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NV_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NV_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NV_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NV_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NH_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NH_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NH_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NH_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NH_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NJ_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NJ_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NJ_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NJ_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NJ_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NM_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NM_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NM_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NM_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NM_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NY_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NY_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NY_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_NC_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ND_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ND_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ND_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ND_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_ND_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OH_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OK_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OK_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OK_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OK_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OK_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OR_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OR_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OR_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OR_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_OR_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_PA_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_PA_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_PA_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_PA_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_PA_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_RI_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_RI_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_RI_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_RI_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_RI_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SC_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SC_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SC_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SC_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SC_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SD_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SD_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SD_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SD_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_SD_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TN_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TN_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TN_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TN_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TN_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_TX_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_UT_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_UT_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_UT_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_UT_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_UT_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VT_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VT_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VT_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VT_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VT_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VA_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VA_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VA_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VA_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_VA_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WA_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WV_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WV_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WV_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WV_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WV_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WI_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WI_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WI_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WI_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WI_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WY_L02_CLASS_001_STATE_POST",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WY_L02_CLASS_002_STATE_DOJ",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WY_L02_CLASS_003_STATE_GRANTS",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WY_L02_CLASS_004_STATE_PROCUREMENT",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    },
+    {
+      "connector_id": "L02_WY_L02_CLASS_005_STATE_ACADEMY",
+      "delta_strategy": "compare_current_normalized_hash_to_previous_hash",
+      "emits_added_removed_changed": true,
+      "status": "REGISTERED"
+    }
+  ]
+}

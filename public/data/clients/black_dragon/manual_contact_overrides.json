@@ -1,0 +1,19 @@
+{
+  "version": "black_dragon_manual_contact_overrides_v1",
+  "updated_at": "2026-05-05T05:04:33.992Z",
+  "strict_rules": {
+    "no_generic_emails": true,
+    "no_missing_phone_numbers": true,
+    "no_incomplete_agencies": true,
+    "only_contact_ready_passes": true
+  },
+  "contacts": [],
+  "schema_notes": {
+    "purpose": "Manual verified contact injection layer for strict outreach readiness",
+    "promotion_rule": "ONLY real verified contacts pass",
+    "email_requirements": "No generic inboxes",
+    "phone_requirements": "Must be real working number",
+    "role_requirements": "Must match decision-maker roles",
+    "scaling_strategy": "Start small, validate, then expand"
+  }
+}

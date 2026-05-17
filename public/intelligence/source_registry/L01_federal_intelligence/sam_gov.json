@@ -1,0 +1,36 @@
+﻿{
+    "source_id":  "sam_gov",
+    "layer_id":  "L01",
+    "source_name":  "SAM.gov Contract Opportunities",
+    "canonical_url":  "https://sam.gov/content/opportunities",
+    "authority_type":  "federal_public_source",
+    "access_method":  "api_or_public_portal",
+    "refresh_interval":  "daily",
+    "failure_policy":  "fail_closed_no_synthetic_records",
+    "parser_script":  "public/intelligence/layers/L01_federal_intelligence/connectors/sam_gov_connector.js",
+    "normalizer_script":  "public/intelligence/layers/L01_federal_intelligence/normalizers/sam_gov_normalizer.js",
+    "entity_targets":  [
+                           "agency",
+                           "contract",
+                           "procurement_opportunity",
+                           "vendor"
+                       ],
+    "score_targets":  [
+                          "authority_score",
+                          "procurement_signal_score",
+                          "freshness_score"
+                      ],
+    "dossier_targets":  [
+                            "federal_sources",
+                            "federal_contracts",
+                            "federal_procurement_context"
+                        ],
+    "authority_weight":  0.96,
+    "status":  "governed_stub_ready",
+    "connector_active":  false,
+    "normalizer_active":  false,
+    "last_refresh":  null,
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "black_dragon_coupling":  false
+}

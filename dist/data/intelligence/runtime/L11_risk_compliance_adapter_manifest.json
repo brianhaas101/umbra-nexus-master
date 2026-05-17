@@ -1,0 +1,12 @@
+﻿{
+  "version": "nexus_L11_risk_compliance_adapter_manifest_v1",
+  "generated_at": "2026-05-08T00:00:00.000Z",
+  "layer_id": "L11",
+  "adapters": [
+    { "adapter_id": "REGULATORY_ENFORCEMENT_ADAPTER", "input_type": "HTML_API_CSV", "normalization_registry": "L11_risk_compliance_normalization.registry.json" },
+    { "adapter_id": "PUBLIC_LAWSUIT_ADAPTER", "input_type": "HTML_PDF_API", "normalization_registry": "L11_risk_compliance_normalization.registry.json" },
+    { "adapter_id": "COMPLIANCE_VIOLATION_ADAPTER", "input_type": "HTML_CSV_API", "normalization_registry": "L11_risk_compliance_normalization.registry.json" },
+    { "adapter_id": "AUDIT_FINDING_ADAPTER", "input_type": "PDF_HTML_CSV", "normalization_registry": "L11_risk_compliance_normalization.registry.json" },
+    { "adapter_id": "COURT_DOCKET_ADAPTER", "input_type": "HTML_API_MANUAL_REVIEW", "normalization_registry": "L11_risk_compliance_normalization.registry.json" }
+  ]
+}

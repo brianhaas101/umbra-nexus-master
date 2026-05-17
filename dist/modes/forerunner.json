@@ -1,0 +1,14 @@
+{
+  "globeColorHex":        "0x00040a",
+  "globeEmissiveHex":     "0x001a33",
+  "globeEmissiveIntensity": 0.7,
+
+  "atmoColorHex":         "0x00aaff",
+  "atmoOpacity":          0.08,
+
+  "veinColorHex":         "0xffb347",
+  "pulseColorHex":        "0xffdd99",
+
+  "nodeCoreColorHex":     "0xffb347",
+  "nodeHaloColorHex":     "0xffdd99"
+}

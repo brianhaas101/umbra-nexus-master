@@ -1,0 +1,23 @@
+{
+  "version": "umbra_dataset_access_policy_v1",
+
+  "allowed_client_dataset_roots": [
+    "public/data/clients/black_dragon"
+  ],
+
+  "restricted_dataset_roots": [
+    "public/data/security",
+    "public/data/intelligence",
+    "public/data/global",
+    "public/data/founder",
+    "public/data/system"
+  ],
+
+  "runtime_rules": {
+    "client_scope_required": true,
+    "cross_client_dataset_fetch_forbidden": true,
+    "founder_required_for_restricted_roots": true,
+    "adaptive_priority_scope_lock_required": true,
+    "response_ingestion_scope_lock_required": true
+  }
+}

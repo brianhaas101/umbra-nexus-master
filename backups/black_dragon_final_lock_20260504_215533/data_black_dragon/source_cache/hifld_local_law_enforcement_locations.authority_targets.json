@@ -1,0 +1,3465 @@
+{
+  "source_id": "hifld_local_law_enforcement_locations",
+  "generated_at": "2026-05-02T16:07:15.056Z",
+  "input_consolidated_count": 289,
+  "authority_target_count": 60,
+  "rejected_count": 229,
+  "live_import_allowed": false,
+  "authority_rules": {
+    "keep": [
+      "municipal police departments",
+      "county sheriff offices",
+      "state public safety agencies",
+      "state police agencies",
+      "highway patrol agencies"
+    ],
+    "reject": [
+      "campus/school/seminary police",
+      "hospital/medical police",
+      "airport/transit/railroad police",
+      "jail/detention/corrections facilities",
+      "substations/divisions/precincts/headquarters",
+      "task-specific or facility-specific branches"
+    ],
+    "no_leads_master_write": true
+  },
+  "targets": [
+    {
+      "authority_target_id": "HIFLD-AUTH-0001",
+      "source_entity_id": "HIFLD-ENTITY-0001",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "HOUSTON POLICE DEPARTMENT",
+      "display_name": "HOUSTON POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "HOUSTON",
+      "state": "TX",
+      "county": "HARRIS",
+      "country": "US",
+      "lat": 29.9672039681765,
+      "lon": -95.3627168463607,
+      "address": "17000 ALDINE WESTFIELD",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "NOT AVAILABLE",
+        "(713) 635-0200",
+        "(713) 773-7900",
+        "(713) 731-5000",
+        "(713) 314-3900",
+        "(281) 584-4700",
+        "(713) 247-4400",
+        "(281) 218-3800",
+        "(713) 928-4600",
+        "(713) 308-1200",
+        "(713) 744-0900",
+        "(832) 394-0200",
+        "(281) 405-5300"
+      ],
+      "agency_size_estimate": 6756,
+      "priority_score": 68,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "law_enforcement_type",
+        "large_agency_1000_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "HOUSTON POLICE DEPARTMENT|HOUSTON|TX",
+        "records_merged": 13,
+        "selected_record": "HIFLD-IMPORT-0001",
+        "selected_quality_score": 90,
+        "merged_from_names": [
+          "HOUSTON POLICE DEPARTMENT",
+          "HOUSTON POLICE DEPARTMENT - NORTHEAST DIVISION",
+          "HOUSTON POLICE DEPARTMENT - FONDREN DIVISION",
+          "HOUSTON POLICE DEPARTMENT - SOUTHEAST DIVISION",
+          "HOUSTON POLICE DEPARTMENT - SOUTHWEST DIVISION",
+          "HOUSTON POLICE DEPARTMENT - WESTSIDE DIVISION",
+          "HOUSTON POLICE DEPARTMENT - CENTRAL DIVISION",
+          "HOUSTON POLICE DEPARTMENT - CLEAR LAKE DIVISION",
+          "HOUSTON POLICE DEPARTMENT - EASTSIDE DIVISION",
+          "HOUSTON POLICE DEPARTMENT - HEADQUARTERS",
+          "HOUSTON POLICE DEPARTMENT - NORTHWEST DIVISION",
+          "HOUSTON POLICE DEPARTMENT - SOUTH CENTRAL DIVISION",
+          "HOUSTON POLICE DEPARTMENT - NORTH DIVISION"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0002",
+      "source_entity_id": "HIFLD-ENTITY-0002",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "DALLAS POLICE DEPARTMENT",
+      "display_name": "DALLAS POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "DALLAS",
+      "state": "TX",
+      "county": "DALLAS",
+      "country": "US",
+      "lat": 32.7678427000167,
+      "lon": -96.7946202997821,
+      "address": "1400 SOUTH LAMAR STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(214) 671-3901"
+      ],
+      "agency_size_estimate": 4344,
+      "priority_score": 68,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "law_enforcement_type",
+        "large_agency_1000_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "DALLAS POLICE DEPARTMENT|DALLAS|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0002",
+        "selected_quality_score": 90,
+        "merged_from_names": [
+          "DALLAS POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0003",
+      "source_entity_id": "HIFLD-ENTITY-0004",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "HARRIS COUNTY SHERIFFS OFFICE",
+      "display_name": "HARRIS COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "HOUSTON",
+      "state": "TX",
+      "county": "HARRIS",
+      "country": "US",
+      "lat": 29.7635637997742,
+      "lon": -95.3561318997823,
+      "address": "1200 BAKER STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(713) 755-6044"
+      ],
+      "agency_size_estimate": 4027,
+      "priority_score": 64,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "sheriff_office",
+        "large_agency_1000_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "HARRIS COUNTY SHERIFFS OFFICE|HOUSTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0004",
+        "selected_quality_score": 86,
+        "merged_from_names": [
+          "HARRIS COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0004",
+      "source_entity_id": "HIFLD-ENTITY-0005",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "SPRING VALLEY POLICE DEPARTMENT",
+      "display_name": "SPRING VALLEY POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "HOUSTON",
+      "state": "TX",
+      "county": "HARRIS",
+      "country": "US",
+      "lat": 29.7873655997122,
+      "lon": -95.5154597000948,
+      "address": "1025 CAMPBELL ROAD",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(713) 465-8323"
+      ],
+      "agency_size_estimate": 31,
+      "priority_score": 58,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "SPRING VALLEY POLICE DEPARTMENT|HOUSTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0005",
+        "selected_quality_score": 80,
+        "merged_from_names": [
+          "SPRING VALLEY POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0005",
+      "source_entity_id": "HIFLD-ENTITY-0006",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "JERSEY VILLAGE POLICE DEPARTMENT",
+      "display_name": "JERSEY VILLAGE POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "HOUSTON",
+      "state": "TX",
+      "county": "HARRIS",
+      "country": "US",
+      "lat": 29.8838363001008,
+      "lon": -95.5705571996997,
+      "address": "16401 LAKEVIEW DRIVE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(713) 466-5824"
+      ],
+      "agency_size_estimate": 33,
+      "priority_score": 58,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "JERSEY VILLAGE POLICE DEPARTMENT|HOUSTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0006",
+        "selected_quality_score": 80,
+        "merged_from_names": [
+          "JERSEY VILLAGE POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0006",
+      "source_entity_id": "HIFLD-ENTITY-0007",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "SOUTHSIDE PLACE POLICE DEPARTMENT",
+      "display_name": "SOUTHSIDE PLACE POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "HOUSTON",
+      "state": "TX",
+      "county": "HARRIS",
+      "country": "US",
+      "lat": 29.7146933252384,
+      "lon": -95.4336015121435,
+      "address": "6309 EDLOE STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(713) 668-2341"
+      ],
+      "agency_size_estimate": 8,
+      "priority_score": 58,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "SOUTHSIDE PLACE POLICE DEPARTMENT|HOUSTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0007",
+        "selected_quality_score": 80,
+        "merged_from_names": [
+          "SOUTHSIDE PLACE POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0007",
+      "source_entity_id": "HIFLD-ENTITY-0008",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "HEDWIG VILLAGE POLICE DEPARTMENT",
+      "display_name": "HEDWIG VILLAGE POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "HOUSTON",
+      "state": "TX",
+      "county": "HARRIS",
+      "country": "US",
+      "lat": 29.783049099727,
+      "lon": -95.5104896998185,
+      "address": "9000 GAYLORD STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(713) 461-4797"
+      ],
+      "agency_size_estimate": 24,
+      "priority_score": 58,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "HEDWIG VILLAGE POLICE DEPARTMENT|HOUSTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0008",
+        "selected_quality_score": 80,
+        "merged_from_names": [
+          "HEDWIG VILLAGE POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0008",
+      "source_entity_id": "HIFLD-ENTITY-0009",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "JACINTO CITY POLICE DEPARTMENT",
+      "display_name": "JACINTO CITY POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "HOUSTON",
+      "state": "TX",
+      "county": "HARRIS",
+      "country": "US",
+      "lat": 29.7678521998288,
+      "lon": -95.2440791998363,
+      "address": "10429 MARKET STREET ROAD",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(713) 672-2455"
+      ],
+      "agency_size_estimate": 25,
+      "priority_score": 58,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "JACINTO CITY POLICE DEPARTMENT|HOUSTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0009",
+        "selected_quality_score": 80,
+        "merged_from_names": [
+          "JACINTO CITY POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0009",
+      "source_entity_id": "HIFLD-ENTITY-0010",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "MEMORIAL VILLAGES POLICE DEPARTMENT",
+      "display_name": "MEMORIAL VILLAGES POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "HOUSTON",
+      "state": "TX",
+      "county": "HARRIS",
+      "country": "US",
+      "lat": 29.7620556001845,
+      "lon": -95.5387971999476,
+      "address": "11981 MEMORIAL DRIVE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(713) 468-7878"
+      ],
+      "agency_size_estimate": 40,
+      "priority_score": 58,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "MEMORIAL VILLAGES POLICE DEPARTMENT|HOUSTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0010",
+        "selected_quality_score": 80,
+        "merged_from_names": [
+          "MEMORIAL VILLAGES POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0010",
+      "source_entity_id": "HIFLD-ENTITY-0014",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "HIGHLAND PARK DEPARTMENT OF PUBLIC SAFETY",
+      "display_name": "HIGHLAND PARK DEPARTMENT OF PUBLIC SAFETY",
+      "authority_type": "state_public_safety_authority",
+      "agency_type": "state_law_enforcement",
+      "city": "DALLAS",
+      "state": "TX",
+      "county": "DALLAS",
+      "country": "US",
+      "lat": 32.8284130997174,
+      "lon": -96.7966011002549,
+      "address": "4700 DREXEL DRIVE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(214) 559-9326"
+      ],
+      "agency_size_estimate": 67,
+      "priority_score": 55,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "public_safety",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "HIGHLAND PARK DEPARTMENT OF PUBLIC SAFETY|DALLAS|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0026",
+        "selected_quality_score": 77,
+        "merged_from_names": [
+          "HIGHLAND PARK DEPARTMENT OF PUBLIC SAFETY"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0011",
+      "source_entity_id": "HIFLD-ENTITY-0015",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "PARKLAND POLICE DEPARTMENT",
+      "display_name": "PARKLAND POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "DALLAS",
+      "state": "TX",
+      "county": "DALLAS",
+      "country": "US",
+      "lat": 32.8108455000712,
+      "lon": -96.8384602999943,
+      "address": "5201 HARRY HINES BOULEVARD",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(214) 590-8362"
+      ],
+      "agency_size_estimate": 84,
+      "priority_score": 54,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "priority_county",
+        "police_department",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "PARKLAND POLICE DEPARTMENT|DALLAS|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0027",
+        "selected_quality_score": 76,
+        "merged_from_names": [
+          "PARKLAND POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0012",
+      "source_entity_id": "HIFLD-ENTITY-0021",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "ATLANTA POLICE DEPARTMENT",
+      "display_name": "ATLANTA POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "ATLANTA",
+      "state": "TX",
+      "county": "CASS",
+      "country": "US",
+      "lat": 33.1190068043571,
+      "lon": -94.1660996021498,
+      "address": "310 NORTH LOUISE STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(903) 796-7973"
+      ],
+      "agency_size_estimate": 19,
+      "priority_score": 46,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "police_department",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "ATLANTA POLICE DEPARTMENT|ATLANTA|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0033",
+        "selected_quality_score": 68,
+        "merged_from_names": [
+          "ATLANTA POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0013",
+      "source_entity_id": "HIFLD-ENTITY-0022",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "PORTLAND POLICE DEPARTMENT",
+      "display_name": "PORTLAND POLICE DEPARTMENT",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "PORTLAND",
+      "state": "TX",
+      "county": "SAN PATRICIO",
+      "country": "US",
+      "lat": 27.8778463000827,
+      "lon": -97.3294969002381,
+      "address": "902 MOORE AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(361) 643-2546"
+      ],
+      "agency_size_estimate": 36,
+      "priority_score": 46,
+      "priority_reasons": [
+        "priority_state",
+        "priority_city",
+        "police_department",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "PORTLAND POLICE DEPARTMENT|PORTLAND|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0034",
+        "selected_quality_score": 68,
+        "merged_from_names": [
+          "PORTLAND POLICE DEPARTMENT"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0014",
+      "source_entity_id": "HIFLD-ENTITY-0024",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "KING COUNTY SHERIFFS OFFICE",
+      "display_name": "KING COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "GUTHRIE",
+      "state": "TX",
+      "county": "KING",
+      "country": "US",
+      "lat": 33.618678805892,
+      "lon": -100.322198493876,
+      "address": "800 SOUTH BAKER STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(806) 596-4413"
+      ],
+      "agency_size_estimate": 2,
+      "priority_score": 39,
+      "priority_reasons": [
+        "priority_state",
+        "priority_county",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "KING COUNTY SHERIFFS OFFICE|GUTHRIE|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0036",
+        "selected_quality_score": 61,
+        "merged_from_names": [
+          "KING COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0015",
+      "source_entity_id": "HIFLD-ENTITY-0029",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "TARRANT COUNTY SHERIFFS OFFICE - ADMINISTRATION",
+      "display_name": "TARRANT COUNTY SHERIFFS OFFICE - ADMINISTRATION",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "FORT WORTH",
+      "state": "TX",
+      "county": "TARRANT",
+      "country": "US",
+      "lat": 32.7549871998677,
+      "lon": -97.3354157002191,
+      "address": "200 TAYLOR STREET, 7TH FLOOR TARRANT COUNTY PLAZA BUILDING",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(817) 884-3099"
+      ],
+      "agency_size_estimate": 1323,
+      "priority_score": 37,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "large_agency_1000_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "TARRANT COUNTY SHERIFFS OFFICE - ADMINISTRATION|FORT WORTH|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0041",
+        "selected_quality_score": 53,
+        "merged_from_names": [
+          "TARRANT COUNTY SHERIFFS OFFICE - ADMINISTRATION"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0016",
+      "source_entity_id": "HIFLD-ENTITY-0040",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "WILLIAMSON COUNTY SHERIFF OFFICE",
+      "display_name": "WILLIAMSON COUNTY SHERIFF OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "GEORGETOWN",
+      "state": "TX",
+      "county": "WILLIAMSON",
+      "country": "US",
+      "lat": 30.6393064240346,
+      "lon": -97.6796626890161,
+      "address": "508 SOUTH ROCK STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(512) 943-1300"
+      ],
+      "agency_size_estimate": 473,
+      "priority_score": 34,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "large_agency_300_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "WILLIAMSON COUNTY SHERIFF OFFICE|GEORGETOWN|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0052",
+        "selected_quality_score": 56,
+        "merged_from_names": [
+          "WILLIAMSON COUNTY SHERIFF OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0017",
+      "source_entity_id": "HIFLD-ENTITY-0041",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "JEFFERSON COUNTY SHERIFFS OFFICE",
+      "display_name": "JEFFERSON COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "BEAUMONT",
+      "state": "TX",
+      "county": "JEFFERSON",
+      "country": "US",
+      "lat": 30.0794440330741,
+      "lon": -94.0935857463778,
+      "address": "1001 PEARL STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(409) 835-8411"
+      ],
+      "agency_size_estimate": 366,
+      "priority_score": 34,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "large_agency_300_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "JEFFERSON COUNTY SHERIFFS OFFICE|BEAUMONT|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0053",
+        "selected_quality_score": 56,
+        "merged_from_names": [
+          "JEFFERSON COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0018",
+      "source_entity_id": "HIFLD-ENTITY-0042",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "CAMERON COUNTY SHERIFFS OFFICE",
+      "display_name": "CAMERON COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "OLMITO",
+      "state": "TX",
+      "county": "CAMERON",
+      "country": "US",
+      "lat": 26.0174696003457,
+      "lon": -97.5113526000418,
+      "address": "7300 OLD ALICE ROAD",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(956) 554-6700"
+      ],
+      "agency_size_estimate": 409,
+      "priority_score": 34,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "large_agency_300_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "CAMERON COUNTY SHERIFFS OFFICE|OLMITO|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0054",
+        "selected_quality_score": 56,
+        "merged_from_names": [
+          "CAMERON COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0019",
+      "source_entity_id": "HIFLD-ENTITY-0043",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "COLLIN COUNTY SHERIFFS OFFICE",
+      "display_name": "COLLIN COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "MCKINNEY",
+      "state": "TX",
+      "county": "COLLIN",
+      "country": "US",
+      "lat": 33.2439337998667,
+      "lon": -96.6351383000578,
+      "address": "4300 COMMUNITY AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(972) 547-5100"
+      ],
+      "agency_size_estimate": 486,
+      "priority_score": 34,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "large_agency_300_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "COLLIN COUNTY SHERIFFS OFFICE|MCKINNEY|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0055",
+        "selected_quality_score": 56,
+        "merged_from_names": [
+          "COLLIN COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0020",
+      "source_entity_id": "HIFLD-ENTITY-0062",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "JOHNSON COUNTY SHERIFFS OFFICE",
+      "display_name": "JOHNSON COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "CLEBURNE",
+      "state": "TX",
+      "county": "JOHNSON",
+      "country": "US",
+      "lat": 32.3729174003372,
+      "lon": -97.3867528996554,
+      "address": "1102 EAST KILPATRICK STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(817) 556-6058"
+      ],
+      "agency_size_estimate": 136,
+      "priority_score": 31,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "mid_size_agency_100_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "JOHNSON COUNTY SHERIFFS OFFICE|CLEBURNE|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0074",
+        "selected_quality_score": 53,
+        "merged_from_names": [
+          "JOHNSON COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0021",
+      "source_entity_id": "HIFLD-ENTITY-0063",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "TOM GREEN COUNTY SHERIFFS OFFICE",
+      "display_name": "TOM GREEN COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "SAN ANGELO",
+      "state": "TX",
+      "county": "TOM GREEN",
+      "country": "US",
+      "lat": 31.4629222996257,
+      "lon": -100.441584199877,
+      "address": "222 WEST HARRIS AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(325) 655-8111"
+      ],
+      "agency_size_estimate": 172,
+      "priority_score": 31,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "mid_size_agency_100_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "TOM GREEN COUNTY SHERIFFS OFFICE|SAN ANGELO|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0075",
+        "selected_quality_score": 53,
+        "merged_from_names": [
+          "TOM GREEN COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0022",
+      "source_entity_id": "HIFLD-ENTITY-0066",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "POTTER COUNTY SHERIFFS OFFICE",
+      "display_name": "POTTER COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "AMARILLO",
+      "state": "TX",
+      "county": "POTTER",
+      "country": "US",
+      "lat": 35.2069283998482,
+      "lon": -101.833684099865,
+      "address": "608 SOUTH PIERCE STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(806) 379-2900"
+      ],
+      "agency_size_estimate": 205,
+      "priority_score": 31,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "mid_size_agency_100_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "POTTER COUNTY SHERIFFS OFFICE|AMARILLO|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0078",
+        "selected_quality_score": 53,
+        "merged_from_names": [
+          "POTTER COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0023",
+      "source_entity_id": "HIFLD-ENTITY-0069",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "BRAZOS COUNTY SHERIFFS OFFICE",
+      "display_name": "BRAZOS COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "BRYAN",
+      "state": "TX",
+      "county": "BRAZOS",
+      "country": "US",
+      "lat": 30.6763422002685,
+      "lon": -96.393527999756,
+      "address": "1700 STATE HIGHWAY 21 WEST",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(979) 361-4900"
+      ],
+      "agency_size_estimate": 216,
+      "priority_score": 31,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "mid_size_agency_100_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "BRAZOS COUNTY SHERIFFS OFFICE|BRYAN|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0081",
+        "selected_quality_score": 53,
+        "merged_from_names": [
+          "BRAZOS COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0024",
+      "source_entity_id": "HIFLD-ENTITY-0073",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "SMITH COUNTY SHERIFFS OFFICE",
+      "display_name": "SMITH COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "TYLER",
+      "state": "TX",
+      "county": "SMITH",
+      "country": "US",
+      "lat": 32.3498183001967,
+      "lon": -95.3003530998997,
+      "address": "106 EAST ELM STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(903) 590-2661"
+      ],
+      "agency_size_estimate": 262,
+      "priority_score": 31,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "mid_size_agency_100_plus",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "SMITH COUNTY SHERIFFS OFFICE|TYLER|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0085",
+        "selected_quality_score": 53,
+        "merged_from_names": [
+          "SMITH COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0025",
+      "source_entity_id": "HIFLD-ENTITY-0082",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "DALWORTHINGTON GARDENS DEPARTMENT OF PUBLIC SAFETY",
+      "display_name": "DALWORTHINGTON GARDENS DEPARTMENT OF PUBLIC SAFETY",
+      "authority_type": "state_public_safety_authority",
+      "agency_type": "state_law_enforcement",
+      "city": "DALWORTHINGTON GARDENS",
+      "state": "TX",
+      "county": "TARRANT",
+      "country": "US",
+      "lat": 32.7021184001925,
+      "lon": -97.1557739002298,
+      "address": "2600 ROOSEVELT DRIVE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(817) 275-1234"
+      ],
+      "agency_size_estimate": 20,
+      "priority_score": 28,
+      "priority_reasons": [
+        "priority_state",
+        "public_safety",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "DALWORTHINGTON GARDENS DEPARTMENT OF PUBLIC SAFETY|DALWORTHINGTON GARDENS|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0094",
+        "selected_quality_score": 50,
+        "merged_from_names": [
+          "DALWORTHINGTON GARDENS DEPARTMENT OF PUBLIC SAFETY"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0026",
+      "source_entity_id": "HIFLD-ENTITY-0084",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "BEVERLY HILLS DEPARTMENT OF PUBLIC SAFETY",
+      "display_name": "BEVERLY HILLS DEPARTMENT OF PUBLIC SAFETY",
+      "authority_type": "state_public_safety_authority",
+      "agency_type": "state_law_enforcement",
+      "city": "BEVERLY HILLS",
+      "state": "TX",
+      "county": "MCLENNAN",
+      "country": "US",
+      "lat": 31.524966007986,
+      "lon": -97.1496682219235,
+      "address": "3418 MEMORIAL DRIVE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(254) 752-2585"
+      ],
+      "agency_size_estimate": 13,
+      "priority_score": 28,
+      "priority_reasons": [
+        "priority_state",
+        "public_safety",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "BEVERLY HILLS DEPARTMENT OF PUBLIC SAFETY|BEVERLY HILLS|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0096",
+        "selected_quality_score": 50,
+        "merged_from_names": [
+          "BEVERLY HILLS DEPARTMENT OF PUBLIC SAFETY"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0027",
+      "source_entity_id": "HIFLD-ENTITY-0085",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "WESTLAKE DEPARTMENT OF PUBLIC SAFETY",
+      "display_name": "WESTLAKE DEPARTMENT OF PUBLIC SAFETY",
+      "authority_type": "state_public_safety_authority",
+      "agency_type": "state_law_enforcement",
+      "city": "WESTLAKE",
+      "state": "TX",
+      "county": "TARRANT",
+      "country": "US",
+      "lat": 32.9780484001065,
+      "lon": -97.2062073001672,
+      "address": "2900 DOVE ROAD",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(817) 337-4722"
+      ],
+      "agency_size_estimate": -999,
+      "priority_score": 28,
+      "priority_reasons": [
+        "priority_state",
+        "public_safety",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1253232000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "WESTLAKE DEPARTMENT OF PUBLIC SAFETY|WESTLAKE|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0097",
+        "selected_quality_score": 50,
+        "merged_from_names": [
+          "WESTLAKE DEPARTMENT OF PUBLIC SAFETY"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0028",
+      "source_entity_id": "HIFLD-ENTITY-0086",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "MCALLEN DEPARTMENT OF PUBLIC SAFETY",
+      "display_name": "MCALLEN DEPARTMENT OF PUBLIC SAFETY",
+      "authority_type": "state_public_safety_authority",
+      "agency_type": "state_law_enforcement",
+      "city": "MCALLEN",
+      "state": "TX",
+      "county": "HIDALGO",
+      "country": "US",
+      "lat": 26.2177554997959,
+      "lon": -98.2360157001435,
+      "address": "1414 BICENTENNIAL BOULEVARD",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(956) 984-5600"
+      ],
+      "agency_size_estimate": -999,
+      "priority_score": 28,
+      "priority_reasons": [
+        "priority_state",
+        "public_safety",
+        "law_enforcement_type",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1253232000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "MCALLEN DEPARTMENT OF PUBLIC SAFETY|MCALLEN|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0098",
+        "selected_quality_score": 50,
+        "merged_from_names": [
+          "MCALLEN DEPARTMENT OF PUBLIC SAFETY"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0029",
+      "source_entity_id": "HIFLD-ENTITY-0097",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "RUNNELS COUNTY SHERIFF OFFICE",
+      "display_name": "RUNNELS COUNTY SHERIFF OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "BALLINGER",
+      "state": "TX",
+      "county": "RUNNELS",
+      "country": "US",
+      "lat": 31.7383579967976,
+      "lon": -99.945419180558,
+      "address": "612 STRONG AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(325) 365-2121"
+      ],
+      "agency_size_estimate": 20,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "RUNNELS COUNTY SHERIFF OFFICE|BALLINGER|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0109",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "RUNNELS COUNTY SHERIFF OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0030",
+      "source_entity_id": "HIFLD-ENTITY-0099",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "WILBARGER COUNTY SHERIFFS OFFICE",
+      "display_name": "WILBARGER COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "VERNON",
+      "state": "TX",
+      "county": "WILBARGER",
+      "country": "US",
+      "lat": 34.153184699842,
+      "lon": -99.2838593002963,
+      "address": "1700 WILBARGER STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(940) 552-6205"
+      ],
+      "agency_size_estimate": 18,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "WILBARGER COUNTY SHERIFFS OFFICE|VERNON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0111",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "WILBARGER COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0031",
+      "source_entity_id": "HIFLD-ENTITY-0101",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "FLOYD COUNTY SHERIFFS OFFICE",
+      "display_name": "FLOYD COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "FLOYDADA",
+      "state": "TX",
+      "county": "FLOYD",
+      "country": "US",
+      "lat": 33.9851786996972,
+      "lon": -101.333814599892,
+      "address": "120 EAST MISSOURI STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(806) 983-4901"
+      ],
+      "agency_size_estimate": 8,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "FLOYD COUNTY SHERIFFS OFFICE|FLOYDADA|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0113",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "FLOYD COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0032",
+      "source_entity_id": "HIFLD-ENTITY-0102",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "BOWIE COUNTY SHERIFFS OFFICE",
+      "display_name": "BOWIE COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "TEXARKANA",
+      "state": "TX",
+      "county": "BOWIE",
+      "country": "US",
+      "lat": 33.4207514758703,
+      "lon": -94.0436103677594,
+      "address": "100 NORTH STATE LINE AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(903) 798-3149"
+      ],
+      "agency_size_estimate": 46,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "BOWIE COUNTY SHERIFFS OFFICE|TEXARKANA|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0114",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "BOWIE COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0033",
+      "source_entity_id": "HIFLD-ENTITY-0112",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "MOTLEY COUNTY SHERIFF OFFICE",
+      "display_name": "MOTLEY COUNTY SHERIFF OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "MATADOR",
+      "state": "TX",
+      "county": "MOTLEY",
+      "country": "US",
+      "lat": 34.013920399701,
+      "lon": -100.821484600055,
+      "address": "701 DUNDEE AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(806) 347-2234"
+      ],
+      "agency_size_estimate": 2,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "MOTLEY COUNTY SHERIFF OFFICE|MATADOR|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0124",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "MOTLEY COUNTY SHERIFF OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0034",
+      "source_entity_id": "HIFLD-ENTITY-0136",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "COKE COUNTY SHERIFFS OFFICE",
+      "display_name": "COKE COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "ROBERT LEE",
+      "state": "TX",
+      "county": "COKE",
+      "country": "US",
+      "lat": 31.892547100071,
+      "lon": -100.485770099982,
+      "address": "13 EAST 7TH STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(325) 453-2717"
+      ],
+      "agency_size_estimate": 6,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "COKE COUNTY SHERIFFS OFFICE|ROBERT LEE|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0148",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "COKE COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0035",
+      "source_entity_id": "HIFLD-ENTITY-0137",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "JEFF DAVIS COUNTY SHERIFFS OFFICE",
+      "display_name": "JEFF DAVIS COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "FORT DAVIS",
+      "state": "TX",
+      "county": "JEFF DAVIS",
+      "country": "US",
+      "lat": 30.5892654210396,
+      "lon": -103.89538098479,
+      "address": "105 COURT AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(432) 426-3213"
+      ],
+      "agency_size_estimate": 3,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "JEFF DAVIS COUNTY SHERIFFS OFFICE|FORT DAVIS|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0149",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "JEFF DAVIS COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0036",
+      "source_entity_id": "HIFLD-ENTITY-0140",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "HASKELL COUNTY SHERIFFS OFFICE",
+      "display_name": "HASKELL COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "HASKELL",
+      "state": "TX",
+      "county": "HASKELL",
+      "country": "US",
+      "lat": 33.1553834002288,
+      "lon": -99.7348807004322,
+      "address": "507 SOUTH 2ND STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(940) 864-2345"
+      ],
+      "agency_size_estimate": 9,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "HASKELL COUNTY SHERIFFS OFFICE|HASKELL|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0152",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "HASKELL COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0037",
+      "source_entity_id": "HIFLD-ENTITY-0141",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "FOARD COUNTY SHERIFFS OFFICE",
+      "display_name": "FOARD COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "CROWELL",
+      "state": "TX",
+      "county": "FOARD",
+      "country": "US",
+      "lat": 33.9836675000098,
+      "lon": -99.7234216002251,
+      "address": "110 SOUTH 1ST STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(940) 684-1501"
+      ],
+      "agency_size_estimate": 6,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "FOARD COUNTY SHERIFFS OFFICE|CROWELL|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0153",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "FOARD COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0038",
+      "source_entity_id": "HIFLD-ENTITY-0142",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "MASON COUNTY SHERIFFS OFFICE",
+      "display_name": "MASON COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "MASON",
+      "state": "TX",
+      "county": "MASON",
+      "country": "US",
+      "lat": 30.7480920999582,
+      "lon": -99.2323332004271,
+      "address": "210 WESTMORELAND STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(325) 347-5252"
+      ],
+      "agency_size_estimate": 11,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "MASON COUNTY SHERIFFS OFFICE|MASON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0154",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "MASON COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0039",
+      "source_entity_id": "HIFLD-ENTITY-0145",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "LOVING COUNTY SHERIFFS OFFICE",
+      "display_name": "LOVING COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "MENTONE",
+      "state": "TX",
+      "county": "LOVING",
+      "country": "US",
+      "lat": 31.7065531000301,
+      "lon": -103.598662299997,
+      "address": "100 WEST BELL AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(432) 377-2411"
+      ],
+      "agency_size_estimate": 3,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "LOVING COUNTY SHERIFFS OFFICE|MENTONE|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0157",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "LOVING COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0040",
+      "source_entity_id": "HIFLD-ENTITY-0149",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "COTTLE COUNTY SHERIFFS OFFICE",
+      "display_name": "COTTLE COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "PADUCAH",
+      "state": "TX",
+      "county": "COTTLE",
+      "country": "US",
+      "lat": 34.0139632001636,
+      "lon": -100.301375100026,
+      "address": "9TH STREET AND RICHARDS STREET, COURTHOUSE SQUARE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(806) 492-2145"
+      ],
+      "agency_size_estimate": 2,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "COTTLE COUNTY SHERIFFS OFFICE|PADUCAH|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0161",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "COTTLE COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0041",
+      "source_entity_id": "HIFLD-ENTITY-0150",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "CONCHO COUNTY SHERIFFS OFFICE",
+      "display_name": "CONCHO COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "PAINT ROCK",
+      "state": "TX",
+      "county": "CONCHO",
+      "country": "US",
+      "lat": 31.5085195998711,
+      "lon": -99.9196054000644,
+      "address": "152 ROBERTS AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(325) 732-4312"
+      ],
+      "agency_size_estimate": 16,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "CONCHO COUNTY SHERIFFS OFFICE|PAINT ROCK|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0162",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "CONCHO COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0042",
+      "source_entity_id": "HIFLD-ENTITY-0162",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "KENEDY COUNTY SHERIFFS OFFICE",
+      "display_name": "KENEDY COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "SARITA",
+      "state": "TX",
+      "county": "KENEDY",
+      "country": "US",
+      "lat": 27.2221852763383,
+      "lon": -97.7907161542441,
+      "address": "101 LA PARRA AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(361) 294-5205"
+      ],
+      "agency_size_estimate": 17,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "KENEDY COUNTY SHERIFFS OFFICE|SARITA|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0174",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "KENEDY COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0043",
+      "source_entity_id": "HIFLD-ENTITY-0164",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "CLAY COUNTY SHERIFFS OFFICE",
+      "display_name": "CLAY COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "HENRIETTA",
+      "state": "TX",
+      "county": "CLAY",
+      "country": "US",
+      "lat": 33.8154431291184,
+      "lon": -98.1971570531161,
+      "address": "215 WEST GILBERT STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(940) 538-5611"
+      ],
+      "agency_size_estimate": 32,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "CLAY COUNTY SHERIFFS OFFICE|HENRIETTA|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0176",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "CLAY COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0044",
+      "source_entity_id": "HIFLD-ENTITY-0177",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "RUSK COUNTY SHERIFFS OFFICE",
+      "display_name": "RUSK COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "HENDERSON",
+      "state": "TX",
+      "county": "RUSK",
+      "country": "US",
+      "lat": 32.1555587001156,
+      "lon": -94.8005443997025,
+      "address": "210 WEST CHARLEVOIX STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(903) 657-3581"
+      ],
+      "agency_size_estimate": 72,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "RUSK COUNTY SHERIFFS OFFICE|HENDERSON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0189",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "RUSK COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0045",
+      "source_entity_id": "HIFLD-ENTITY-0179",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "COCHRAN COUNTY SHERIFFS OFFICE",
+      "display_name": "COCHRAN COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "MORTON",
+      "state": "TX",
+      "county": "COCHRAN",
+      "country": "US",
+      "lat": 33.7258934867747,
+      "lon": -102.759779446379,
+      "address": "100 NORTH MAIN STREET, ROOM B-7",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(806) 266-5211"
+      ],
+      "agency_size_estimate": 16,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "COCHRAN COUNTY SHERIFFS OFFICE|MORTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0191",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "COCHRAN COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0046",
+      "source_entity_id": "HIFLD-ENTITY-0181",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "BAYLOR COUNTY SHERIFFS OFFICE",
+      "display_name": "BAYLOR COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "SEYMOUR",
+      "state": "TX",
+      "county": "BAYLOR",
+      "country": "US",
+      "lat": 33.5873782001828,
+      "lon": -99.2608733004344,
+      "address": "101 SOUTH WASHINGTON STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(940) 889-3333"
+      ],
+      "agency_size_estimate": 9,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "BAYLOR COUNTY SHERIFFS OFFICE|SEYMOUR|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0193",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "BAYLOR COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0047",
+      "source_entity_id": "HIFLD-ENTITY-0184",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "KENT COUNTY SHERIFFS OFFICE",
+      "display_name": "KENT COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "JAYTON",
+      "state": "TX",
+      "county": "KENT",
+      "country": "US",
+      "lat": 33.2475566917281,
+      "lon": -100.573412245401,
+      "address": "101 NORTH MAIN STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(806) 237-3801"
+      ],
+      "agency_size_estimate": 11,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "KENT COUNTY SHERIFFS OFFICE|JAYTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0196",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "KENT COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0048",
+      "source_entity_id": "HIFLD-ENTITY-0202",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "MATAGORDA COUNTY SHERIFFS OFFICE",
+      "display_name": "MATAGORDA COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "BAY CITY",
+      "state": "TX",
+      "county": "MATAGORDA",
+      "country": "US",
+      "lat": 28.9804531541928,
+      "lon": -95.970815484053,
+      "address": "2308 AVENUE F",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(979) 245-5526"
+      ],
+      "agency_size_estimate": 73,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "MATAGORDA COUNTY SHERIFFS OFFICE|BAY CITY|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0214",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "MATAGORDA COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0049",
+      "source_entity_id": "HIFLD-ENTITY-0234",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "BREWSTER COUNTY SHERIFFS OFFICE",
+      "display_name": "BREWSTER COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "ALPINE",
+      "state": "TX",
+      "county": "BREWSTER",
+      "country": "US",
+      "lat": 30.3583677681435,
+      "lon": -103.663637281004,
+      "address": "201 WEST AVENUE E",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(432) 837-3488"
+      ],
+      "agency_size_estimate": 37,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "BREWSTER COUNTY SHERIFFS OFFICE|ALPINE|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0246",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "BREWSTER COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0050",
+      "source_entity_id": "HIFLD-ENTITY-0236",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "BORDEN COUNTY SHERIFFS OFFICE",
+      "display_name": "BORDEN COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "GAIL",
+      "state": "TX",
+      "county": "BORDEN",
+      "country": "US",
+      "lat": 32.7697386996581,
+      "lon": -101.444517999739,
+      "address": "116 EAST WILBOURN AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(806) 756-4311"
+      ],
+      "agency_size_estimate": 4,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "BORDEN COUNTY SHERIFFS OFFICE|GAIL|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0248",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "BORDEN COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0051",
+      "source_entity_id": "HIFLD-ENTITY-0237",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "TAYLOR COUNTY SHERIFFS OFFICE",
+      "display_name": "TAYLOR COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "ABILENE",
+      "state": "TX",
+      "county": "TAYLOR",
+      "country": "US",
+      "lat": 32.4448363000178,
+      "lon": -99.7323827003244,
+      "address": "450 PECAN STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(325) 674-1300"
+      ],
+      "agency_size_estimate": 76,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "TAYLOR COUNTY SHERIFFS OFFICE|ABILENE|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0249",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "TAYLOR COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0052",
+      "source_entity_id": "HIFLD-ENTITY-0239",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "GILLESPIE COUNTY SHERIFFS OFFICE",
+      "display_name": "GILLESPIE COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "FREDERICKSBURG",
+      "state": "TX",
+      "county": "GILLESPIE",
+      "country": "US",
+      "lat": 30.2509635999693,
+      "lon": -98.8489522004254,
+      "address": "1601 EAST MAIN STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(830) 997-7585"
+      ],
+      "agency_size_estimate": 40,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "GILLESPIE COUNTY SHERIFFS OFFICE|FREDERICKSBURG|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0251",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "GILLESPIE COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0053",
+      "source_entity_id": "HIFLD-ENTITY-0247",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "MCMULLEN COUNTY SHERIFFS OFFICE",
+      "display_name": "MCMULLEN COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "TILDEN",
+      "state": "TX",
+      "county": "MCMULLEN",
+      "country": "US",
+      "lat": 28.4615294857328,
+      "lon": -98.5477240681276,
+      "address": "401 MAIN STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(361) 274-3311"
+      ],
+      "agency_size_estimate": 5,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "MCMULLEN COUNTY SHERIFFS OFFICE|TILDEN|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0259",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "MCMULLEN COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0054",
+      "source_entity_id": "HIFLD-ENTITY-0258",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "STERLING COUNTY SHERIFFS OFFICE",
+      "display_name": "STERLING COUNTY SHERIFFS OFFICE / STERLING COUNTY LOCKUP",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "STERLING CITY",
+      "state": "TX",
+      "county": "STERLING",
+      "country": "US",
+      "lat": 31.8358208318438,
+      "lon": -100.988159218918,
+      "address": "609 4TH AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(325) 378-4771"
+      ],
+      "agency_size_estimate": 4,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "STERLING COUNTY SHERIFFS OFFICE|STERLING CITY|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0270",
+        "selected_quality_score": 43,
+        "merged_from_names": [
+          "STERLING COUNTY SHERIFFS OFFICE / STERLING COUNTY LOCKUP"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0055",
+      "source_entity_id": "HIFLD-ENTITY-0266",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "WALKER COUNTY SHERIFFS OFFICE",
+      "display_name": "WALKER COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "HUNTSVILLE",
+      "state": "TX",
+      "county": "WALKER",
+      "country": "US",
+      "lat": 30.7380006001353,
+      "lon": -95.5708854998001,
+      "address": "717 FARM TO MARKET 2821 ROAD WEST",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(936) 435-2400"
+      ],
+      "agency_size_estimate": 67,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "WALKER COUNTY SHERIFFS OFFICE|HUNTSVILLE|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0278",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "WALKER COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0056",
+      "source_entity_id": "HIFLD-ENTITY-0271",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "THROCKMORTON COUNTY SHERIFFS OFFICE",
+      "display_name": "THROCKMORTON COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "THROCKMORTON",
+      "state": "TX",
+      "county": "THROCKMORTON",
+      "country": "US",
+      "lat": 33.1789163000277,
+      "lon": -99.1777600995558,
+      "address": "105 NORTH MINTER AVENUE",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(940) 849-3431"
+      ],
+      "agency_size_estimate": 7,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "THROCKMORTON COUNTY SHERIFFS OFFICE|THROCKMORTON|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0283",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "THROCKMORTON COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0057",
+      "source_entity_id": "HIFLD-ENTITY-0272",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "ARANSAS COUNTY SHERIFFS OFFICE",
+      "display_name": "ARANSAS COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "ROCKPORT",
+      "state": "TX",
+      "county": "ARANSAS",
+      "country": "US",
+      "lat": 28.0257157546264,
+      "lon": -97.053937380684,
+      "address": "714 EAST CONCHO STREET, PUBLIC SAFETY CENTER",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(361) 729-2222"
+      ],
+      "agency_size_estimate": 65,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "ARANSAS COUNTY SHERIFFS OFFICE|ROCKPORT|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0284",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "ARANSAS COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0058",
+      "source_entity_id": "HIFLD-ENTITY-0273",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "LEE COUNTY SHERIFFS OFFICE",
+      "display_name": "LEE COUNTY SHERIFFS OFFICE",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "GIDDINGS",
+      "state": "TX",
+      "county": "LEE",
+      "country": "US",
+      "lat": 30.1651269001668,
+      "lon": -96.9449581002943,
+      "address": "2122 FARM TO MARKET 448",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(979) 542-2800"
+      ],
+      "agency_size_estimate": 33,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1214784000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "LEE COUNTY SHERIFFS OFFICE|GIDDINGS|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0285",
+        "selected_quality_score": 49,
+        "merged_from_names": [
+          "LEE COUNTY SHERIFFS OFFICE"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0059",
+      "source_entity_id": "HIFLD-ENTITY-0279",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "TRAVIS COUNTY SHERIFFS OFFICE",
+      "display_name": "TRAVIS COUNTY SHERIFFS OFFICE - WEST AREA COMMAND",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "AUSTIN",
+      "state": "TX",
+      "county": "TRAVIS",
+      "country": "US",
+      "lat": 30.3985023811968,
+      "lon": -97.9296246435823,
+      "address": "3800 HUDSON BEND ROAD",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(512) 854-9728"
+      ],
+      "agency_size_estimate": -999,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1253232000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "TRAVIS COUNTY SHERIFFS OFFICE|AUSTIN|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0291",
+        "selected_quality_score": 43,
+        "merged_from_names": [
+          "TRAVIS COUNTY SHERIFFS OFFICE - WEST AREA COMMAND"
+        ]
+      }
+    },
+    {
+      "authority_target_id": "HIFLD-AUTH-0060",
+      "source_entity_id": "HIFLD-ENTITY-0280",
+      "source_id": "hifld_local_law_enforcement_locations",
+      "agency_name": "PRESIDIO COUNTY SHERIFF OFFICE - ANNEX",
+      "display_name": "PRESIDIO COUNTY SHERIFF OFFICE - ANNEX",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "PRESIDIO",
+      "state": "TX",
+      "county": "PRESIDIO",
+      "country": "US",
+      "lat": 29.5603712812817,
+      "lon": -104.36938407557,
+      "address": "300 EAST OREILLY STREET",
+      "contact_url": "NOT AVAILABLE",
+      "websites": [
+        "NOT AVAILABLE"
+      ],
+      "phones": [
+        "(432) 229-3764"
+      ],
+      "agency_size_estimate": -999,
+      "priority_score": 27,
+      "priority_reasons": [
+        "priority_state",
+        "sheriff_office",
+        "website_available",
+        "phone_available"
+      ],
+      "source_name": "HIFLD Local Law Enforcement Locations",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "source_date": "1253232000000",
+      "review_status": "authority_target_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases",
+        "state_post_boards"
+      ],
+      "notes": [
+        "Filtered as a true agency-level authority target.",
+        "Not yet approved for live leads_master import.",
+        "Requires official agency-source confirmation and signal enrichment before import."
+      ],
+      "consolidation": {
+        "group_key": "PRESIDIO COUNTY SHERIFF OFFICE - ANNEX|PRESIDIO|TX",
+        "records_merged": 1,
+        "selected_record": "HIFLD-IMPORT-0292",
+        "selected_quality_score": 43,
+        "merged_from_names": [
+          "PRESIDIO COUNTY SHERIFF OFFICE - ANNEX"
+        ]
+      }
+    }
+  ]
+}

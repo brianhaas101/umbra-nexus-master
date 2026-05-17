@@ -1,0 +1,35 @@
+{
+  "version": "nexus_dossier_field_schema_registry_v1",
+  "generated_at": "2026-05-06T03:55:08.076Z",
+  "rule": "Every dossier field must be traceable to evidence, assigned to a field group, and confidence-scored.",
+  "required_fields": [
+    "entity_id",
+    "field_group",
+    "field_name",
+    "value",
+    "source_trace",
+    "confidence_score",
+    "freshness_score",
+    "layer_id",
+    "generated_at"
+  ],
+  "field_groups": [
+    "identity",
+    "authority",
+    "training",
+    "budget",
+    "procurement",
+    "risk",
+    "geography",
+    "command",
+    "communication",
+    "engagement",
+    "recommendation"
+  ],
+  "blocked_conditions": [
+    "field_without_source",
+    "field_without_entity",
+    "unsupported_field_group",
+    "unverified_final_recommendation"
+  ]
+}

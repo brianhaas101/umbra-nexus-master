@@ -1,0 +1,13 @@
+﻿{
+    "source_id":  "us_courts_opinions",
+    "layer_id":  "L01",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "status":  "source_page_verified_us_courts_signals",
+    "last_refresh":  "2026-05-14T02:48:55.1700434Z",
+    "expansion_source":  true,
+    "replaces_deferred_source":  null,
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "client_paths_touched":  false
+}

@@ -1,0 +1,27 @@
+{
+  "version": "black_dragon_books_batch_007_audit_v1",
+  "generated_at": "2026-05-09T02:13:30.886Z",
+  "totals": {
+    "generated_messages": 4,
+    "hot_shortlist_messages": 2
+  },
+  "template_usage": {
+    "PROSPECT_EDUCATION": 2,
+    "COUNCIL_MULTIPLIER": 1,
+    "LEADERSHIP_ENDORSEMENT": 1
+  },
+  "integrity": {
+    "missing_message_ids": 0,
+    "missing_entity_ids": 0,
+    "missing_subjects": 0,
+    "missing_bodies": 0,
+    "missing_template_key": 0,
+    "unreplaced_tokens": 0
+  },
+  "operational_state": {
+    "messages_generated": true,
+    "shortlist_generated": true,
+    "outreach_engine_active": true
+  },
+  "pass": true
+}

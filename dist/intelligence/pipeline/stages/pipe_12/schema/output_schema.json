@@ -1,0 +1,19 @@
+﻿{
+    "schema_id":  "layer_12_output_schema",
+    "required":  [
+                     "layer_id",
+                     "record_id",
+                     "entity_key",
+                     "city_key",
+                     "convergence_status",
+                     "replay_hash",
+                     "missing_layers",
+                     "blocked_reasons",
+                     "audit_timestamp"
+                 ],
+    "convergence_statuses":  [
+                                 "converged_locked",
+                                 "blocked_missing_layers",
+                                 "blocked_runtime_or_manual_override"
+                             ]
+}

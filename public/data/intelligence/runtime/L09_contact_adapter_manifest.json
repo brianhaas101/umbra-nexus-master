@@ -1,0 +1,12 @@
+﻿{
+  "version": "nexus_L09_contact_adapter_manifest_v1",
+  "generated_at": "2026-05-08T00:00:00.000Z",
+  "layer_id": "L09",
+  "adapters": [
+    { "adapter_id": "AGENCY_STAFF_DIRECTORY_ADAPTER", "input_type": "HTML_CSV_API", "normalization_registry": "L09_contact_normalization.registry.json" },
+    { "adapter_id": "PROCUREMENT_CONTACT_ADAPTER", "input_type": "HTML_CSV_API", "normalization_registry": "L09_contact_normalization.registry.json" },
+    { "adapter_id": "COMMAND_STAFF_ADAPTER", "input_type": "HTML", "normalization_registry": "L09_contact_normalization.registry.json" },
+    { "adapter_id": "ORG_CHART_ADAPTER", "input_type": "PDF_HTML", "normalization_registry": "L09_contact_normalization.registry.json" },
+    { "adapter_id": "VERIFIED_OUTREACH_CONTACT_ADAPTER", "input_type": "HTML_CSV_MANUAL_REVIEW", "normalization_registry": "L09_contact_normalization.registry.json" }
+  ]
+}

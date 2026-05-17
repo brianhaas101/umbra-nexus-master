@@ -1,0 +1,14 @@
+
+public\scene.js:508:    if (typeof G.loadTextures !== "function") {
+public\scene.js:513:    const isLocalRuntime =
+public\scene.js:517:    const makeClientCanvasTexture = () => {
+public\scene.js:546:    const remoteClientTex = makeClientCanvasTexture();
+public\scene.js:548:    G.loadTextures(
+public\scene.js:549:      isLocalRuntime
+public\scene.js:557:        if (!isLocalRuntime) {
+public\scene.js:575:          G.buildLayers?.(tex);
+public\scene.js:590:              console.error("[scene] datasetHash missing after load.");
+public\scene.js:630:            console.log("[scene] BOOT COMPLETE");
+public\scene.js:633:          if (typeof G.loadDataV1 === "function") {
+public\scene.js:634:            G.loadDataV1({}, (ready) => {
+

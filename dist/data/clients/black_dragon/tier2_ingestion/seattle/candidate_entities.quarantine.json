@@ -1,0 +1,10 @@
+{
+    "version":  "black_dragon_seattle_quarantined_candidate_entities_v1",
+    "generated_at":  "2026-05-11T06:29:06.6281575Z",
+    "city":  "Seattle",
+    "folder":  "seattle",
+    "entities":  [
+
+                 ],
+    "status":  "ORGANIZATION_CANDIDATES_QUARANTINED"
+}

@@ -1,0 +1,21 @@
+
+public\globe\layers.js:84:    const m = st?.globeMesh?.material;
+public\globe\layers.js:92:    if (m?.emissiveMap) applyTexLonOffsetToTexture(m.emissiveMap, deg);
+public\globe\layers.js:316:    if (st.globeMesh) st.globeMesh.visible = worldVisible;
+public\globe\layers.js:326:      globe: !!st.globeMesh && st.globeMesh.visible,
+public\globe\layers.js:346:      safeRemove(st.globeMesh); st.globeMesh = null;
+public\globe\layers.js:355:      const baseTex = tex.base || null;
+public\globe\layers.js:397:        map: baseTex,
+public\globe\layers.js:404:        emissive: new THREE.Color(0xff7a1a),
+public\globe\layers.js:405:        emissiveMap: nightTex,
+public\globe\layers.js:406:        emissiveIntensity: 1.14
+public\globe\layers.js:464:      const globeMesh = new THREE.Mesh(globeGeo, globeMat);
+public\globe\layers.js:465:      globeMesh.name = "globeMesh";
+public\globe\layers.js:466:      globeMesh.renderOrder = 0;
+public\globe\layers.js:467:      globeMesh.frustumCulled = false;
+public\globe\layers.js:468:      markNonPickable(globeMesh, "globe");
+public\globe\layers.js:469:      worldGroup.add(globeMesh);
+public\globe\layers.js:470:      st.globeMesh = globeMesh;
+public\globe\layers.js:516:      console.log("[layers] BUILD COMPLETE", {
+public\globe\layers.js:517:        globe: !!st.globeMesh,
+

@@ -1,0 +1,100 @@
+{
+    "batch":  "254",
+    "version":  "black_dragon_reviewed_intake_normalization_v1",
+    "generated_at":  "2026-05-11T07:54:43.4517508Z",
+    "target_cities":  [
+                          "san_antonio",
+                          "new_york_city",
+                          "new_orleans",
+                          "seattle",
+                          "houston"
+                      ],
+    "city_results":  [
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\external_source_intake.raw.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\external_source_intake.reviewed.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\san_antonio\\external_source_rejections.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_REVIEWED_INTAKE_NORMALIZED"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\external_source_intake.raw.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\external_source_intake.reviewed.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_york_city\\external_source_rejections.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_REVIEWED_INTAKE_NORMALIZED"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_orleans\\external_source_intake.raw.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_orleans\\external_source_intake.reviewed.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\new_orleans\\external_source_rejections.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_REVIEWED_INTAKE_NORMALIZED"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\external_source_intake.raw.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\external_source_intake.reviewed.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\seattle\\external_source_rejections.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_REVIEWED_INTAKE_NORMALIZED"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "files_written":  [
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\houston\\external_source_intake.raw.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\houston\\external_source_intake.reviewed.json",
+                                                   ".\\public\\data\\clients\\black_dragon\\source_acquisition_queue\\houston\\external_source_rejections.json"
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_REVIEWED_INTAKE_NORMALIZED"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  5,
+                    "failed_count":  0,
+                    "files_written":  15
+                },
+    "hardlocks":  {
+                      "no_scraping_executed":  true,
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "public_source_required":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_REVIEWED_INTAKE_NORMALIZATION_COMPLETE"
+}

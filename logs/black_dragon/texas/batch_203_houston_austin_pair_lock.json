@@ -1,0 +1,29 @@
+{
+    "batch":  "203",
+    "version":  "black_dragon_texas_houston_austin_certified_pair_lock_v1",
+    "generated_at":  "2026-05-11T02:40:41.2946740Z",
+    "texas_pair":  {
+                       "active_city":  "Houston",
+                       "standby_certified_city":  "Austin",
+                       "inactive_reference_city":  "San Antonio"
+                   },
+    "runtime_scope":  {
+                          "active_texas_runtime_count":  1,
+                          "active_texas_runtimes":  [
+                                                        {
+                                                            "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\houston\\runtime_shell.json",
+                                                            "city":  "Houston",
+                                                            "active":  true
+                                                        }
+                                                    ],
+                          "multi_city_runtime_forbidden":  true
+                      },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "PASS_HOUSTON_ACTIVE_AUSTIN_CERTIFIED_STANDBY"
+}

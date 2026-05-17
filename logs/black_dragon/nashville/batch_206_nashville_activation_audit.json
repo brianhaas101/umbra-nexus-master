@@ -1,0 +1,44 @@
+{
+    "batch":  "206",
+    "version":  "black_dragon_tennessee_nashville_single_city_activation_v1",
+    "generated_at":  "2026-05-11T02:48:25.5671075Z",
+    "active_target":  {
+                          "state":  "Tennessee",
+                          "state_code":  "TN",
+                          "city":  "Nashville",
+                          "city_id":  "city_nashville_tn"
+                      },
+    "required_artifacts":  {
+                               "required_count":  7,
+                               "missing_count":  0,
+                               "missing":  [
+
+                                           ]
+                           },
+    "json_validation":  {
+                            "files_checked":  7,
+                            "invalid_files":  0,
+                            "invalid":  [
+
+                                        ]
+                        },
+    "tennessee_runtime_scope":  {
+                                    "active_tennessee_runtime_count":  1,
+                                    "active_tennessee_runtimes":  [
+                                                                      {
+                                                                          "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\nashville\\runtime_shell.json",
+                                                                          "city":  "Nashville",
+                                                                          "active":  true
+                                                                      }
+                                                                  ],
+                                    "multi_city_runtime_forbidden":  true
+                                },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "PASS_NASHVILLE_ACTIVATED_SINGLE_CITY_FOUNDATION"
+}

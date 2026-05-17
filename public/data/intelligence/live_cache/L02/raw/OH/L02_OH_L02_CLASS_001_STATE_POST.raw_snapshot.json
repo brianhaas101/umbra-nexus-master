@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:10.047Z",
+  "layer_id": "L02",
+  "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+  "state_abbr": "OH",
+  "state_name": "Ohio",
+  "source_type": "POST",
+  "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 36481,
+    "extracted_links": [
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Director-s-Memos-and-Updates",
+        "label": "Director&#39;s Memos and Updates"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/2026-Continuing-Professional-Training",
+        "label": "2026 Continuing Professional Training"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/2025-Continuing-Professional-Training",
+        "label": "2025 Continuing Professional Training"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/2024-Continuing-Professional-Training",
+        "label": "2024 Continuing Professional Training"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/2023-Continuing-Professional-Training",
+        "label": "2023 Continuing Professional Training"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Advanced-Certificate-Programs",
+        "label": "Advanced Certificate Programs"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Virtual-Reality",
+        "label": "Virtual Reality"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Virtual-Reality/The-value-of-VR",
+        "label": "The value of VR"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Virtual-Reality/Finding-a-VR-instructor",
+        "label": "Finding a VR instructor"
+      },
+      {
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Virtual-Reality/Becoming-an-instructor",
+        "label": "Becoming an instructor"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee"
+}

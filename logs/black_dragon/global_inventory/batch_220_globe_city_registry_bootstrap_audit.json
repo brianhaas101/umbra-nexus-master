@@ -1,0 +1,29 @@
+{
+    "batch":  "220",
+    "version":  "black_dragon_canonical_globe_registry_bootstrap_audit_v1",
+    "generated_at":  "2026-05-11T04:09:49.7647570Z",
+    "registry_path":  ".\\public\\data\\clients\\black_dragon\\globe\\globe_city_registry.json",
+    "registry_city_count":  18,
+    "valid_json":  true,
+    "seeded_cities":  [
+                          "atlanta",
+                          "austin",
+                          "houston",
+                          "las_vegas",
+                          "miami",
+                          "nashville",
+                          "new_orleans",
+                          "new_york_city",
+                          "san_antonio",
+                          "seattle",
+                          "long_beach",
+                          "long_beach_final",
+                          "los_angeles",
+                          "san_diego",
+                          "phoenix",
+                          "scottsdale",
+                          "mesa",
+                          "tucson"
+                      ],
+    "status":  "PASS_CANONICAL_GLOBE_REGISTRY_BOOTSTRAPPED"
+}

@@ -1,0 +1,121 @@
+{
+  "version": "black_dragon_scottsdale_live_freshness_registry_v1",
+  "generated_at": "2026-05-10T23:28:28.739Z",
+  "freshness_records": [
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_001",
+      "organization_name": "Arizona Bike Week",
+      "route_type": "EVENT_NETWORK",
+      "url": "https://azbikeweek.com/",
+      "last_seen_at": "2026-05-10T23:28:04.752Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 305,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_002",
+      "organization_name": "Harley-Davidson of Scottsdale",
+      "route_type": "DEALERSHIP_NETWORK",
+      "url": "https://www.hdofscottsdale.com/",
+      "last_seen_at": "2026-05-10T23:28:06.980Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 218,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_003",
+      "organization_name": "GO AZ Motorcycles",
+      "route_type": "POWERSPORTS_DEALERSHIP",
+      "url": "https://www.goaz.com/",
+      "last_seen_at": "2026-05-10T23:28:09.190Z",
+      "fetch_status": "REVIEW_REQUIRED",
+      "freshness_status": "REVIEW_REQUIRED",
+      "response_time_ms": 199,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_004",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "route_type": "VETERAN_RIDER_NETWORK",
+      "url": "https://www.vma-usa.org/",
+      "last_seen_at": "2026-05-10T23:28:11.223Z",
+      "fetch_status": "ERROR",
+      "freshness_status": "REVIEW_REQUIRED",
+      "response_time_ms": 23,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_005",
+      "organization_name": "Scottsdale Bike Week Vendor Network",
+      "route_type": "EVENT_VENDOR_NETWORK",
+      "url": "https://azbikeweek.com/vendors/",
+      "last_seen_at": "2026-05-10T23:28:13.927Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 692,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_006",
+      "organization_name": "Law Tigers Arizona",
+      "route_type": "AFFILIATE_NETWORK",
+      "url": "https://lawtigers.com/",
+      "last_seen_at": "2026-05-10T23:28:16.260Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 329,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_007",
+      "organization_name": "WestWorld of Scottsdale Event Network",
+      "route_type": "EVENT_VENUE_NETWORK",
+      "url": "https://westworldaz.com/",
+      "last_seen_at": "2026-05-10T23:28:18.782Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 514,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_008",
+      "organization_name": "Scottsdale Custom Motorcycle Culture",
+      "route_type": "CUSTOM_MOTORCYCLE_COMMUNITY",
+      "url": "https://www.facebook.com/search/top?q=scottsdale%20motorcycle",
+      "last_seen_at": "2026-05-10T23:28:21.038Z",
+      "fetch_status": "REVIEW_REQUIRED",
+      "freshness_status": "REVIEW_REQUIRED",
+      "response_time_ms": 248,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_009",
+      "organization_name": "Scottsdale Motorcycle Riders Network",
+      "route_type": "RIDING_COMMUNITY",
+      "url": "https://www.meetup.com/",
+      "last_seen_at": "2026-05-10T23:28:24.491Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 1439,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SCT_HTTP_VALIDATE_010",
+      "organization_name": "Scottsdale Charity Ride Network",
+      "route_type": "CHARITY_RIDE_NETWORK",
+      "url": "https://www.eventbrite.com/",
+      "last_seen_at": "2026-05-10T23:28:26.731Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 239,
+      "runtime_mutation_allowed": false
+    }
+  ],
+  "freshness_laws": {
+    "valid_route_refreshes_last_seen": true,
+    "review_required_before_decay": true,
+    "no_runtime_delete": true
+  }
+}

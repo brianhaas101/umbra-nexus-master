@@ -1,0 +1,18 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:31.497Z",
+  "layer_id": "L02",
+  "connector_id": "L02_WA_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "WA",
+  "state_name": "Washington",
+  "source_type": "STATE_PROCUREMENT",
+  "canonical_url": "https://des.wa.gov/services/contracting-purchasing",
+  "status": "FETCH_EMPTY_OR_FAILED",
+  "response": {
+    "ok": false,
+    "status": 403,
+    "html_length": 418,
+    "extracted_links": []
+  },
+  "raw_snapshot_hash": "bf05911177e3f7f9df472864bc248c8feff86bbd075ea55024967b4e6ed654f0"
+}

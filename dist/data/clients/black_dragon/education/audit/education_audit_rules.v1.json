@@ -1,0 +1,17 @@
+{
+  "version": "black_dragon_education_audit_rules_v1_batch_065",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "audit_requirements": {
+
+    "minimum_source_categories": 12,
+    "requires_education_nodes": true,
+    "requires_training_nodes": true,
+    "requires_law_enforcement_nodes": true,
+    "requires_veteran_nodes": true,
+    "requires_bulk_order_support": true,
+    "requires_curriculum_support": true,
+    "requires_instructor_propagation": true
+
+  }
+}

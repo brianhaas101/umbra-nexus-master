@@ -1,0 +1,27 @@
+{
+  "version": "black_dragon_batch_124_long_beach_final_runtime_audit_v1",
+  "generated_at": "2026-05-10T19:22:50.909Z",
+  "batch": "124_LONG_BEACH_FINAL_MERGE_DEDUPE_RUNTIME_REFRESH",
+  "counts": {
+    "raw_layer_rows": 90,
+    "deduped_city_entities": 68,
+    "contact_ready_entities": 10,
+    "dossiers": 68,
+    "map_nodes": 68,
+    "hot": 13,
+    "warm": 37,
+    "review": 18,
+    "automated_outreach_allowed": 0
+  },
+  "gates": {
+    "raw_layer_rows_expected_90": true,
+    "dedupe_reduced_or_equal": true,
+    "dossiers_match_entities": true,
+    "map_nodes_match_dossiers": true,
+    "contact_ready_preserved_10": true,
+    "all_nodes_visible": true,
+    "contact_ready_manual_only": true,
+    "automated_outreach_disabled": true
+  },
+  "status": "PASS"
+}

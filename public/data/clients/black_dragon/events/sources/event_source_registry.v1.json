@@ -1,0 +1,87 @@
+{
+  "version": "black_dragon_event_source_registry_v1_batch_075",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "source_categories": [
+    {
+      "source_id": "BD_EVT_SRC_001",
+      "category": "MAJOR_RALLY_ECOSYSTEM",
+      "entity_class": "EVENT_NODE",
+      "priority_weight": 1.00,
+      "supports_vendor_distribution": true,
+      "supports_live_propagation": true,
+      "supports_regional_influence": true,
+      "supports_sponsorship_visibility": true
+    },
+    {
+      "source_id": "BD_EVT_SRC_002",
+      "category": "REGIONAL_RALLY_CIRCUIT",
+      "entity_class": "EVENT_NODE",
+      "priority_weight": 0.96,
+      "supports_vendor_distribution": true,
+      "supports_live_propagation": true,
+      "supports_regional_influence": true,
+      "supports_sponsorship_visibility": true
+    },
+    {
+      "source_id": "BD_EVT_SRC_003",
+      "category": "EVENT_VENUE_OPERATOR",
+      "entity_class": "VENUE_NODE",
+      "priority_weight": 0.91,
+      "supports_vendor_distribution": true,
+      "supports_live_propagation": true,
+      "supports_regional_influence": false,
+      "supports_sponsorship_visibility": true
+    },
+    {
+      "source_id": "BD_EVT_SRC_004",
+      "category": "EVENT_PROMOTER",
+      "entity_class": "EVENT_NODE",
+      "priority_weight": 0.93,
+      "supports_vendor_distribution": true,
+      "supports_live_propagation": true,
+      "supports_regional_influence": true,
+      "supports_sponsorship_visibility": true
+    },
+    {
+      "source_id": "BD_EVT_SRC_005",
+      "category": "VENDOR_ROW_OPERATOR",
+      "entity_class": "DISTRIBUTION_NODE",
+      "priority_weight": 0.95,
+      "supports_vendor_distribution": true,
+      "supports_live_propagation": true,
+      "supports_regional_influence": true,
+      "supports_sponsorship_visibility": false
+    },
+    {
+      "source_id": "BD_EVT_SRC_006",
+      "category": "BIKER_FESTIVAL",
+      "entity_class": "EVENT_NODE",
+      "priority_weight": 0.92,
+      "supports_vendor_distribution": true,
+      "supports_live_propagation": true,
+      "supports_regional_influence": true,
+      "supports_sponsorship_visibility": true
+    },
+    {
+      "source_id": "BD_EVT_SRC_007",
+      "category": "CHARITY_RIDE_EVENT",
+      "entity_class": "EVENT_NODE",
+      "priority_weight": 0.88,
+      "supports_vendor_distribution": true,
+      "supports_live_propagation": true,
+      "supports_regional_influence": false,
+      "supports_sponsorship_visibility": true
+    },
+    {
+      "source_id": "BD_EVT_SRC_008",
+      "category": "MOTORCYCLE_EXPO_ORGANIZER",
+      "entity_class": "EVENT_NODE",
+      "priority_weight": 0.94,
+      "supports_vendor_distribution": true,
+      "supports_live_propagation": true,
+      "supports_regional_influence": true,
+      "supports_sponsorship_visibility": true
+    }
+  ]
+}

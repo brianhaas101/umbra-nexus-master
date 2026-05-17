@@ -1,0 +1,19 @@
+{
+  "version": "black_dragon_runtime_delta_feed_template_v1",
+  "generated_at": "2026-05-10T19:31:53.871Z",
+  "city": "Long Beach",
+  "feed_template": {
+    "new_hot_targets": [],
+    "new_warm_targets": [],
+    "rising_targets": [],
+    "stale_targets": [],
+    "broken_contact_routes": [],
+    "new_events": [],
+    "new_podcasts": [],
+    "new_youtube_channels": [],
+    "new_influencer_networks": [],
+    "newly_verified_routes": []
+  },
+  "client_visible": true,
+  "automated_contact_allowed": false
+}

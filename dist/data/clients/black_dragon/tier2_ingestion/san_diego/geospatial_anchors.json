@@ -1,0 +1,237 @@
+{
+    "version":  "black_dragon_san_diego_geospatial_anchor_candidates_v1",
+    "generated_at":  "2026-05-11T05:34:05.2244998Z",
+    "city":  "San Diego",
+    "folder":  "san_diego",
+    "anchors":  [
+                    {
+                        "anchor_id":  "geo_anchor_00619216be7c4490a7c11ea252c9c0a2",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\san_diego\\audit\\batch_147_san_diego_discovery_import_audit.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_ff72cc82f17241c4bbcee830b149bc3d",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\san_diego\\dedupe\\san_diego_cross_city_dedupe.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_1dffb996a9934981be986b9efaf7ac39",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\san_diego\\imports\\san_diego_discovery_import.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_aac66fd4dcef433a9596a22cbaf9bda0",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\san_diego\\validated\\san_diego_validated_candidates.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_fe41b2f93f6f4b3f990923c0b98b54f8",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\dossiers\\san_diego_runtime_dossiers.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_f01ed801786240b99bc296505bd2d1e0",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\map_nodes\\san_diego_runtime_map_nodes.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_02926f03e1c341c7bb18e36a2f445e16",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\merged\\san_diego_merged_city_entities.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_4c2bd1287d8d4fffa2bab6ba0a61dd1b",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\ui\\node_cards\\san_diego_client_node_cards.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_99e55abc0b424daab05725ff63f8fde5",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\ui\\panels\\san_diego_client_overview_panel.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_d9abbfa3f5194ce8bc50c0872a48d502",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\san_diego\\ui\\propagation_feed\\san_diego_client_propagation_feed.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_d361ec80218b4ff08e44429d56891f3b",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\production_readiness\\san_diego\\audit\\san_diego_production_readiness_audit.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_1de62d2f34e14331abb288fd43f0f675",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\san_diego\\nodes\\san_diego_graph_nodes.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_a8419aab9ae14c86b9cffb3ab682dbb9",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\san_diego\\scores\\san_diego_graph_influence_scores.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_29a5aae1ddf24d1a835bba16007f9cb9",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\template_alignment\\san_diego\\audit\\batch_146_san_diego_template_alignment_audit.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_4d4beb5648e644d3a5911a89943bb1db",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\template_alignment\\san_diego\\exports\\san_diego_discovery_source_plan.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_98880ead93064488a515f6bb6ccd7375",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\template_alignment\\san_diego\\exports\\san_diego_template_inheritance_manifest.json",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "saturation_geo_9d571607f1fd400193d8f513544a020a",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "provenance":  {
+                                           "derived_from":  "wave_1_density_gap_alignment",
+                                           "generated_by_batch":  "234R"
+                                       },
+                        "status":  "QUARANTINED_GEOSPATIAL_ALIGNMENT_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "saturation_geo_3ab4da32fad841eda56385bf74cc354e",
+                        "city":  "San Diego",
+                        "folder":  "san_diego",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "provenance":  {
+                                           "derived_from":  "wave_1_density_gap_alignment",
+                                           "generated_by_batch":  "234R"
+                                       },
+                        "status":  "QUARANTINED_GEOSPATIAL_ALIGNMENT_CANDIDATE"
+                    }
+                ],
+    "policy":  {
+                   "no_placeholder_coordinates":  true,
+                   "coordinates_must_be_verified_before_runtime":  true,
+                   "manual_review_required":  true,
+                   "runtime_promotion_allowed":  false
+               },
+    "status":  "GEOSPATIAL_CANDIDATES_QUARANTINED"
+}

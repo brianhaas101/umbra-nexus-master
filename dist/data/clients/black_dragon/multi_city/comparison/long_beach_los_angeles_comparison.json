@@ -1,0 +1,54 @@
+{
+  "version": "black_dragon_city_two_comparison_v1",
+  "generated_at": "2026-05-10T21:44:28.525Z",
+  "cities_compared": [
+    "Long Beach, CA",
+    "Los Angeles, CA"
+  ],
+  "totals": {
+    "cities_operational": 2,
+    "combined_runtime_entities": 78,
+    "combined_graph_edges": 557,
+    "combined_propagation_paths": 25,
+    "combined_contact_ready_or_candidate_routes": 19,
+    "cross_city_overlap_entities": 2
+  },
+  "city_breakdown": [
+    {
+      "city": "Long Beach",
+      "state": "CA",
+      "status": "PRODUCTION_TEMPLATE_CITY",
+      "runtime_entities": 68,
+      "contact_ready_entities": 10,
+      "graph_edges": 512,
+      "propagation_paths": 15
+    },
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "status": "SECOND_OPERATIONAL_CITY",
+      "runtime_entities": 10,
+      "contact_ready_candidates": 9,
+      "graph_edges": 45,
+      "propagation_paths": 10,
+      "duplicate_review_entities": 2
+    }
+  ],
+  "cross_city_overlaps": [
+    {
+      "organization_name_normalized": "bike shed moto co los angeles",
+      "overlap_type": "LONG_BEACH_LOS_ANGELES_SHARED_ENTITY",
+      "regional_graph_value": "HIGH"
+    },
+    {
+      "organization_name_normalized": "roland sands design",
+      "overlap_type": "LONG_BEACH_LOS_ANGELES_SHARED_ENTITY",
+      "regional_graph_value": "HIGH"
+    }
+  ],
+  "interpretation": {
+    "operational_meaning": "Black Dragon now has two operational Southern California city runtimes with graph intelligence, propagation paths, and live route review.",
+    "strategic_meaning": "The system is beginning to behave as a regional intelligence graph rather than isolated city lists.",
+    "next_expansion_logic": "The next city should extend the Southern California corridor before broader statewide rollout."
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "version":  "nexus_playwright_phase_4B_smoke_v1",
+    "generated_at":  "2026-05-11T01:25:26.7295770Z",
+    "test_file":  ".\\tests\\browser\\nexus.browser.smoke.spec.js",
+    "exit_code":  1,
+    "status":  "FAIL"
+}

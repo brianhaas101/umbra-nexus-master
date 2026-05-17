@@ -1,0 +1,29 @@
+{
+    "version":  "black_dragon_long_beach_final_runtime_shell_v1",
+    "generated_at":  "2026-05-11T04:20:49.8528385Z",
+    "runtime":  {
+                    "runtime_id":  "black_dragon_long_beach_final_runtime",
+                    "active":  false,
+                    "state":  "California",
+                    "state_code":  "CA",
+                    "city":  "Long Beach Final",
+                    "city_id":  "city_long_beach_final_ca",
+                    "city_scope_only":  true,
+                    "statewide_scope_forbidden":  true,
+                    "legacy_assets_preserved":  true
+                },
+    "ingestion":  {
+                      "source_count":  5,
+                      "legacy_merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach_final\\merged\\long_beach_final_merged_city_entities.json",
+                      "legacy_map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach_final\\map_nodes\\long_beach_final_map_node_manifest.json",
+                      "entities_loaded":  0,
+                      "quarantined_entities":  0
+                  },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

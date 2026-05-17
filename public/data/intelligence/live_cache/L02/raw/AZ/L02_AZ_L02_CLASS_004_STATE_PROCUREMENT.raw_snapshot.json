@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:19.765Z",
+  "layer_id": "L02",
+  "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "AZ",
+  "state_name": "Arizona",
+  "source_type": "STATE_PROCUREMENT",
+  "canonical_url": "https://spo.az.gov",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 51933,
+    "extracted_links": [
+      {
+        "href": "https://spo.az.gov/",
+        "label": "State Procurement Office"
+      },
+      {
+        "href": "https://spo.az.gov/contracts?field_co_op_designation_value=1",
+        "label": "Cooperative Contracts"
+      },
+      {
+        "href": "https://spo.az.gov/sites/default/files/2025-09/Finding%20Supplier%20Contact%20Information%20for%20Cooperative%20Contracts.pdf",
+        "label": "How to Find Supplier Contact Information"
+      },
+      {
+        "href": "https://spo.az.gov/contracts?field_set_aside_value=1",
+        "label": "Set Aside Contracts"
+      },
+      {
+        "href": "https://spo.az.gov/contracts",
+        "label": "Contracts"
+      },
+      {
+        "href": "https://spo.az.gov/contracts",
+        "label": "Contracts"
+      },
+      {
+        "href": "https://spo.az.gov/contracts/upcoming-bids",
+        "label": "Upcoming Bids"
+      },
+      {
+        "href": "https://spo.az.gov/contracts/construction-services",
+        "label": "Construction Services"
+      },
+      {
+        "href": "https://spo.az.gov/procurement-purchasing",
+        "label": "Procurement &amp; Purchasing"
+      },
+      {
+        "href": "https://spo.az.gov/significant-procurement-role",
+        "label": "Significant Procurement Roles"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a"
+}

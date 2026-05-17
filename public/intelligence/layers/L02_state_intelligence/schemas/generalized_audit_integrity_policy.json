@@ -1,0 +1,12 @@
+﻿{
+  "policy_id": "L02_generalized_audit_integrity_policy",
+  "version": "1.0.0",
+  "rules": {
+    "pass_log_after_runtime_failure_forbidden": true,
+    "mixed_failure_and_pass_artifact_forbidden": true,
+    "runtime_token_required": true,
+    "exit_code_success_required": true,
+    "registry_mutation_requires_integrity_pass": true,
+    "client_paths_touched": false
+  }
+}

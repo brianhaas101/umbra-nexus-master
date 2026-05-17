@@ -1,0 +1,21 @@
+{
+  "description": "Umbra Nexus unified lead schema (one object per region or cluster).",
+  "fields": {
+    "id": "string, unique identifier",
+    "name": "string, region or cluster display name",
+    "city": "string, city or metro label",
+    "state": "string, 2-letter state code where applicable",
+    "lat": "number, latitude in decimal degrees",
+    "lon": "number, longitude in decimal degrees",
+    "industry": "string, e.g. 'detailing', 'dealership', 'motorcycle'",
+    "status": "string, one of ['hot', 'warm', 'cold']",
+    "score": "number between 0 and 1 (0.00–1.00)",
+    "nodes": "number of individual leads/households/businesses in cluster",
+    "vectors": "string, compact 3-number signature (e.g. '23 · 88 · 19')",
+    "value_estimate": "number, estimated yearly revenue potential in USD",
+    "risk_level": "string, e.g. 'low', 'medium', 'high'",
+    "tags": "array of strings, arbitrary flags",
+    "last_updated": "ISO-8601 timestamp",
+    "notes": "string, free-form description"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "version": "umbra_batch_035_full_nexus_pre_pilot_audit_v1",
+  "generated_at": "2026-05-09T03:52:36.796Z",
+  "checkpoint_id": "PRE_BLACK_DRAGON_LIVE_CLIENT_ACCESS",
+  "file_checks": [
+    {
+      "key": "operationalTargets",
+      "file": "public/data/clients/black_dragon/books/operational/black_dragon_books_operational_targets.v1.json",
+      "exists": true
+    },
+    {
+      "key": "clientView",
+      "file": "public/data/clients/black_dragon/books/client_view/client_book_targets_view.v1.json",
+      "exists": true
+    },
+    {
+      "key": "queue",
+      "file": "public/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json",
+      "exists": true
+    },
+    {
+      "key": "responses",
+      "file": "public/data/clients/black_dragon/books/responses/classified/classified_responses.v1.json",
+      "exists": true
+    },
+    {
+      "key": "adaptive",
+      "file": "public/data/clients/black_dragon/books/adaptive_priority/adaptive_priority_index.v1.json",
+      "exists": true
+    },
+    {
+      "key": "kpis",
+      "file": "public/data/clients/black_dragon/books/kpi/book_operational_kpis.v1.json",
+      "exists": true
+    },
+    {
+      "key": "dashboard",
+      "file": "public/data/clients/black_dragon/books/dashboard/client_operator_dashboard.v1.json",
+      "exists": true
+    },
+    {
+      "key": "widgets",
+      "file": "public/data/clients/black_dragon/books/dashboard/widgets/client_dashboard_widgets.v1.json",
+      "exists": true
+    },
+    {
+      "key": "mapLayer",
+      "file": "public/data/clients/black_dragon/books/map/layers/book_propagation_map_layer.v1.json",
+      "exists": true
+    },
+    {
+      "key": "mapSnapshot",
+      "file": "public/data/clients/black_dragon/books/map/snapshots/book_propagation_map_snapshot.v1.json",
+      "exists": true
+    },
+    {
+      "key": "dashboardRenderer",
+      "file": "public/globe/clients/black_dragon/books/client_dashboard_renderer.js",
+      "exists": true
+    },
+    {
+      "key": "queueUi",
+      "file": "public/globe/clients/black_dragon/books/outreach_queue_ui.js",
+      "exists": true
+    },
+    {
+      "key": "responseUi",
+      "file": "public/globe/clients/black_dragon/books/response_logging_ui.js",
+      "exists": true
+    },
+    {
+      "key": "runtimeRoleModel",
+      "file": "public/data/security/runtime/runtime_role_model.v1.json",
+      "exists": true
+    },
+    {
+      "key": "clientIsolation",
+      "file": "public/data/security/runtime/client_isolation_manifest.v1.json",
+      "exists": true
+    },
+    {
+      "key": "frontendPolicy",
+      "file": "public/data/security/frontend/frontend_role_policy.v1.json",
+      "exists": true
+    },
+    {
+      "key": "sessionPolicy",
+      "file": "public/data/security/session/client_session_policy.v1.json",
+      "exists": true
+    },
+    {
+      "key": "datasetPolicy",
+      "file": "public/data/security/datasets/dataset_access_policy.v1.json",
+      "exists": true
+    },
+    {
+      "key": "exportPolicy",
+      "file": "public/data/security/exports/export_security_policy.v1.json",
+      "exists": true
+    },
+    {
+      "key": "frontendGuard",
+      "file": "public/globe/security/frontend_runtime_guard.js",
+      "exists": true
+    },
+    {
+      "key": "uiHook",
+      "file": "public/globe/security/ui_panel_security_hook.js",
+      "exists": true
+    },
+    {
+      "key": "sessionGuard",
+      "file": "public/globe/security/session_recovery_guard.js",
+      "exists": true
+    },
+    {
+      "key": "datasetGuard",
+      "file": "public/globe/security/dataset_access_guard.js",
+      "exists": true
+    },
+    {
+      "key": "exportGuard",
+      "file": "public/globe/security/export_security_guard.js",
+      "exists": true
+    },
+    {
+      "key": "stabilityCheckpoint",
+      "file": "public/data/security/stability/post_black_dragon_books_v2_security_stability_pass.json",
+      "exists": true
+    },
+    {
+      "key": "clientReadinessCheckpoint",
+      "file": "public/data/security/readiness/black_dragon_controlled_client_pilot_ready.json",
+      "exists": true
+    },
+    {
+      "key": "multiclientAudit",
+      "file": "public/data/security/audit/batch_033_multiclient_isolation_audit.json",
+      "exists": true
+    }
+  ],
+  "pass": true,
+  "runtime_integrity": {
+    "founder_role_exists": true,
+    "client_role_exists": true,
+    "strict_client_isolation": true,
+    "client_scope_declared": true,
+    "frontend_policy_exists": true,
+    "session_policy_exists": true,
+    "dataset_policy_exists": true,
+    "export_policy_exists": true
+  },
+  "security_integrity": {
+    "frontend_guard_active": true,
+    "ui_hook_active": true,
+    "session_guard_active": true,
+    "dataset_guard_active": true,
+    "export_guard_active": true,
+    "client_blocks_founder_admin": true,
+    "client_blocks_client_switcher": true,
+    "client_blocks_exports": true,
+    "client_raw_export_blocked": true,
+    "client_global_export_blocked": true,
+    "cross_client_export_forbidden": true,
+    "dataset_guarded_fetch_exists": true,
+    "export_guarded_export_exists": true,
+    "stale_session_recovery_exists": true
+  },
+  "ui_integrity": {
+    "dashboard_renderer_active": true,
+    "queue_ui_active": true,
+    "response_ui_active": true,
+    "dashboard_uses_security": true,
+    "queue_uses_security": true,
+    "response_uses_security": true,
+    "queue_copy_actions_exist": true,
+    "response_capture_actions_exist": true
+  },
+  "black_dragon_data_integrity": {
+    "operational_targets_exist": true,
+    "client_view_exists": true,
+    "queue_exists": true,
+    "responses_exist": true,
+    "adaptive_exists": true,
+    "kpis_exist": true,
+    "dashboard_client_safe": true,
+    "widgets_exist": true,
+    "missing_target_entity_ids": 0,
+    "missing_target_scores": 0,
+    "missing_client_view_records": 0,
+    "missing_queue_records": 0,
+    "missing_adaptive_records": 0,
+    "missing_kpi_records": 0,
+    "missing_map_records": 0
+  },
+  "operational_alignment": {
+    "queue_scores_valid": true,
+    "adaptive_scores_valid": true,
+    "kpi_revenue_valid": true,
+    "map_layer_valid": true,
+    "map_features_valid": true,
+    "map_snapshot_valid": true
+  },
+  "checkpoint_integrity": {
+    "stability_checkpoint_passed": true,
+    "controlled_client_pilot_ready": true,
+    "client_not_enterprise_production": true,
+    "multi_client_not_claimed": true,
+    "multiclient_audit_passed": true
+  },
+  "deployment_readiness": {
+    "controlled_client_pilot_access_allowed": true,
+    "unrestricted_enterprise_access_allowed": false,
+    "founder_tools_exposed_to_client": false,
+    "raw_exports_allowed_for_client": false,
+    "multi_client_expansion_allowed_without_more_tests": false
+  }
+}

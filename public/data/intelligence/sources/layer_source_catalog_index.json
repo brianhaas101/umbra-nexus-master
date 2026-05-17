@@ -1,0 +1,80 @@
+{
+  "version": "nexus_layer_source_catalog_index_v1",
+  "generated_at": "2026-05-06T04:06:08.912Z",
+  "rule": "Every layer must maintain a source catalog with minimum 15 source classes before full production status.",
+  "minimum_sources_per_layer": 15,
+  "layers": [
+    {
+      "layer_id": "L01_FEDERAL_INTELLIGENCE",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L01_FEDERAL_INTELLIGENCE.sources.json"
+    },
+    {
+      "layer_id": "L02_STATE_INTELLIGENCE",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L02_STATE_INTELLIGENCE.sources.json"
+    },
+    {
+      "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L03_LOCAL_AGENCY_INTELLIGENCE.sources.json"
+    },
+    {
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L04_TRAINING_INFRASTRUCTURE.sources.json"
+    },
+    {
+      "layer_id": "L05_BUDGET_AND_FUNDING",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L05_BUDGET_AND_FUNDING.sources.json"
+    },
+    {
+      "layer_id": "L06_BEHAVIORAL_ACTIVITY",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L06_BEHAVIORAL_ACTIVITY.sources.json"
+    },
+    {
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L07_GEOGRAPHIC_TERRITORY.sources.json"
+    },
+    {
+      "layer_id": "L08_COMMAND_STRUCTURE",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L08_COMMAND_STRUCTURE.sources.json"
+    },
+    {
+      "layer_id": "L09_PROCUREMENT_INTELLIGENCE",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L09_PROCUREMENT_INTELLIGENCE.sources.json"
+    },
+    {
+      "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L10_COMMUNICATION_INTELLIGENCE.sources.json"
+    },
+    {
+      "layer_id": "L11_INCIDENT_AND_RISK",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L11_INCIDENT_AND_RISK.sources.json"
+    },
+    {
+      "layer_id": "L12_ENGAGEMENT_RESPONSE",
+      "catalog_required": true,
+      "production_ready": false,
+      "source_catalog_path": "public/data/intelligence/sources/L12_ENGAGEMENT_RESPONSE.sources.json"
+    }
+  ]
+}

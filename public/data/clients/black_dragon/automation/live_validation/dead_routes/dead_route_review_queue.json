@@ -1,0 +1,41 @@
+{
+  "version": "black_dragon_dead_route_review_queue_v1",
+  "generated_at": "2026-05-10T20:45:32.474Z",
+  "dead_route_items": [
+    {
+      "dead_route_id": "BD_DEAD_ROUTE_0001",
+      "organization_name": "Harley-Davidson of Long Beach",
+      "url": "https://www.hdoflongbeach.com/",
+      "failure_status": "ERROR",
+      "queued_at": "2026-05-10T20:45:08.717Z",
+      "runtime_decay_allowed": true,
+      "automatic_delete_allowed": false,
+      "founder_review_required": true
+    },
+    {
+      "dead_route_id": "BD_DEAD_ROUTE_0002",
+      "organization_name": "Biker Trash Network",
+      "url": "https://bikertrashnetwork.com/",
+      "failure_status": "REVIEW_REQUIRED",
+      "queued_at": "2026-05-10T20:45:17.729Z",
+      "runtime_decay_allowed": true,
+      "automatic_delete_allowed": false,
+      "founder_review_required": true
+    },
+    {
+      "dead_route_id": "BD_DEAD_ROUTE_0003",
+      "organization_name": "CVMA",
+      "url": "https://combatvet.org/",
+      "failure_status": "REVIEW_REQUIRED",
+      "queued_at": "2026-05-10T20:45:24.490Z",
+      "runtime_decay_allowed": true,
+      "automatic_delete_allowed": false,
+      "founder_review_required": true
+    }
+  ],
+  "suppression_rules": {
+    "dead_route_decay_enabled": true,
+    "automatic_delete_disabled": true,
+    "quarantine_required_before_disable": true
+  }
+}

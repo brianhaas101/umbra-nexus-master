@@ -1,0 +1,1991 @@
+{
+  "client_id": "black_dragon_omg_cert_v1",
+  "version": "v1",
+  "generated_at": "2026-05-02T16:55:52.854Z",
+  "source_file": "black_dragon_major_city_targets.v1.json",
+  "totals": {
+    "required_cities": 50,
+    "cities_present": 50,
+    "covered": 0,
+    "partial": 3,
+    "missing": 47,
+    "total_targets": 4,
+    "cities_needing_source_ingestion": 47
+  },
+  "missing_cities": [
+    {
+      "rank": 1,
+      "city_id": "city_ny_new_york",
+      "city": "New York",
+      "state": "NY",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 2,
+      "city_id": "city_ca_los_angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 3,
+      "city_id": "city_il_chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 5,
+      "city_id": "city_az_phoenix",
+      "city": "Phoenix",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 6,
+      "city_id": "city_pa_philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 7,
+      "city_id": "city_tx_san_antonio",
+      "city": "San Antonio",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 8,
+      "city_id": "city_ca_san_diego",
+      "city": "San Diego",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 11,
+      "city_id": "city_fl_jacksonville",
+      "city": "Jacksonville",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 12,
+      "city_id": "city_tx_austin",
+      "city": "Austin",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 13,
+      "city_id": "city_ca_san_jose",
+      "city": "San Jose",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 14,
+      "city_id": "city_oh_columbus",
+      "city": "Columbus",
+      "state": "OH",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 15,
+      "city_id": "city_nc_charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 16,
+      "city_id": "city_in_indianapolis",
+      "city": "Indianapolis",
+      "state": "IN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 17,
+      "city_id": "city_ca_san_francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 18,
+      "city_id": "city_wa_seattle",
+      "city": "Seattle",
+      "state": "WA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 19,
+      "city_id": "city_co_denver",
+      "city": "Denver",
+      "state": "CO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 20,
+      "city_id": "city_ok_oklahoma_city",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 21,
+      "city_id": "city_tn_nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 22,
+      "city_id": "city_tx_el_paso",
+      "city": "El Paso",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 23,
+      "city_id": "city_dc_washington",
+      "city": "Washington",
+      "state": "DC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 24,
+      "city_id": "city_nv_las_vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 25,
+      "city_id": "city_ma_boston",
+      "city": "Boston",
+      "state": "MA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 26,
+      "city_id": "city_mi_detroit",
+      "city": "Detroit",
+      "state": "MI",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 27,
+      "city_id": "city_ky_louisville",
+      "city": "Louisville",
+      "state": "KY",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 28,
+      "city_id": "city_tn_memphis",
+      "city": "Memphis",
+      "state": "TN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 29,
+      "city_id": "city_or_portland",
+      "city": "Portland",
+      "state": "OR",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 30,
+      "city_id": "city_md_baltimore",
+      "city": "Baltimore",
+      "state": "MD",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 31,
+      "city_id": "city_wi_milwaukee",
+      "city": "Milwaukee",
+      "state": "WI",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 32,
+      "city_id": "city_nm_albuquerque",
+      "city": "Albuquerque",
+      "state": "NM",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 33,
+      "city_id": "city_az_tucson",
+      "city": "Tucson",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 34,
+      "city_id": "city_ca_fresno",
+      "city": "Fresno",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 35,
+      "city_id": "city_ca_sacramento",
+      "city": "Sacramento",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 36,
+      "city_id": "city_az_mesa",
+      "city": "Mesa",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 37,
+      "city_id": "city_mo_kansas_city",
+      "city": "Kansas City",
+      "state": "MO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 38,
+      "city_id": "city_ga_atlanta",
+      "city": "Atlanta",
+      "state": "GA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 39,
+      "city_id": "city_ne_omaha",
+      "city": "Omaha",
+      "state": "NE",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 40,
+      "city_id": "city_co_colorado_springs",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 41,
+      "city_id": "city_nc_raleigh",
+      "city": "Raleigh",
+      "state": "NC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 42,
+      "city_id": "city_fl_miami",
+      "city": "Miami",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 43,
+      "city_id": "city_va_virginia_beach",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 44,
+      "city_id": "city_ca_long_beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 45,
+      "city_id": "city_ca_oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 46,
+      "city_id": "city_mn_minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 47,
+      "city_id": "city_ca_bakersfield",
+      "city": "Bakersfield",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 48,
+      "city_id": "city_ok_tulsa",
+      "city": "Tulsa",
+      "state": "OK",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 49,
+      "city_id": "city_fl_tampa",
+      "city": "Tampa",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 50,
+      "city_id": "city_tx_arlington",
+      "city": "Arlington",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    }
+  ],
+  "partial_cities": [
+    {
+      "rank": 4,
+      "city_id": "city_tx_houston",
+      "city": "Houston",
+      "state": "TX",
+      "total_targets": 2,
+      "tier_1": 2,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "has_validated_targets",
+      "coverage_level": "partial",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": false,
+      "recommended_next_sources": []
+    },
+    {
+      "rank": 9,
+      "city_id": "city_tx_dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "total_targets": 1,
+      "tier_1": 1,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "has_validated_targets",
+      "coverage_level": "partial",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": false,
+      "recommended_next_sources": []
+    },
+    {
+      "rank": 10,
+      "city_id": "city_tx_fort_worth",
+      "city": "Fort Worth",
+      "state": "TX",
+      "total_targets": 1,
+      "tier_1": 1,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "has_validated_targets",
+      "coverage_level": "partial",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": false,
+      "recommended_next_sources": []
+    }
+  ],
+  "cities": [
+    {
+      "rank": 1,
+      "city_id": "city_ny_new_york",
+      "city": "New York",
+      "state": "NY",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 2,
+      "city_id": "city_ca_los_angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 3,
+      "city_id": "city_il_chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 4,
+      "city_id": "city_tx_houston",
+      "city": "Houston",
+      "state": "TX",
+      "total_targets": 2,
+      "tier_1": 2,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "has_validated_targets",
+      "coverage_level": "partial",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": false,
+      "recommended_next_sources": []
+    },
+    {
+      "rank": 5,
+      "city_id": "city_az_phoenix",
+      "city": "Phoenix",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 6,
+      "city_id": "city_pa_philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 7,
+      "city_id": "city_tx_san_antonio",
+      "city": "San Antonio",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 8,
+      "city_id": "city_ca_san_diego",
+      "city": "San Diego",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 9,
+      "city_id": "city_tx_dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "total_targets": 1,
+      "tier_1": 1,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "has_validated_targets",
+      "coverage_level": "partial",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": false,
+      "recommended_next_sources": []
+    },
+    {
+      "rank": 10,
+      "city_id": "city_tx_fort_worth",
+      "city": "Fort Worth",
+      "state": "TX",
+      "total_targets": 1,
+      "tier_1": 1,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "has_validated_targets",
+      "coverage_level": "partial",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": false,
+      "recommended_next_sources": []
+    },
+    {
+      "rank": 11,
+      "city_id": "city_fl_jacksonville",
+      "city": "Jacksonville",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 12,
+      "city_id": "city_tx_austin",
+      "city": "Austin",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 13,
+      "city_id": "city_ca_san_jose",
+      "city": "San Jose",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 14,
+      "city_id": "city_oh_columbus",
+      "city": "Columbus",
+      "state": "OH",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 15,
+      "city_id": "city_nc_charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 16,
+      "city_id": "city_in_indianapolis",
+      "city": "Indianapolis",
+      "state": "IN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 17,
+      "city_id": "city_ca_san_francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 18,
+      "city_id": "city_wa_seattle",
+      "city": "Seattle",
+      "state": "WA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 19,
+      "city_id": "city_co_denver",
+      "city": "Denver",
+      "state": "CO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 20,
+      "city_id": "city_ok_oklahoma_city",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 21,
+      "city_id": "city_tn_nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 22,
+      "city_id": "city_tx_el_paso",
+      "city": "El Paso",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 23,
+      "city_id": "city_dc_washington",
+      "city": "Washington",
+      "state": "DC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 24,
+      "city_id": "city_nv_las_vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 25,
+      "city_id": "city_ma_boston",
+      "city": "Boston",
+      "state": "MA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 26,
+      "city_id": "city_mi_detroit",
+      "city": "Detroit",
+      "state": "MI",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 27,
+      "city_id": "city_ky_louisville",
+      "city": "Louisville",
+      "state": "KY",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 28,
+      "city_id": "city_tn_memphis",
+      "city": "Memphis",
+      "state": "TN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 29,
+      "city_id": "city_or_portland",
+      "city": "Portland",
+      "state": "OR",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 30,
+      "city_id": "city_md_baltimore",
+      "city": "Baltimore",
+      "state": "MD",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 31,
+      "city_id": "city_wi_milwaukee",
+      "city": "Milwaukee",
+      "state": "WI",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 32,
+      "city_id": "city_nm_albuquerque",
+      "city": "Albuquerque",
+      "state": "NM",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 33,
+      "city_id": "city_az_tucson",
+      "city": "Tucson",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 34,
+      "city_id": "city_ca_fresno",
+      "city": "Fresno",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 35,
+      "city_id": "city_ca_sacramento",
+      "city": "Sacramento",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 36,
+      "city_id": "city_az_mesa",
+      "city": "Mesa",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 37,
+      "city_id": "city_mo_kansas_city",
+      "city": "Kansas City",
+      "state": "MO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 38,
+      "city_id": "city_ga_atlanta",
+      "city": "Atlanta",
+      "state": "GA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 39,
+      "city_id": "city_ne_omaha",
+      "city": "Omaha",
+      "state": "NE",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 40,
+      "city_id": "city_co_colorado_springs",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 41,
+      "city_id": "city_nc_raleigh",
+      "city": "Raleigh",
+      "state": "NC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 42,
+      "city_id": "city_fl_miami",
+      "city": "Miami",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 43,
+      "city_id": "city_va_virginia_beach",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 44,
+      "city_id": "city_ca_long_beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 45,
+      "city_id": "city_ca_oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 46,
+      "city_id": "city_mn_minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 47,
+      "city_id": "city_ca_bakersfield",
+      "city": "Bakersfield",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 48,
+      "city_id": "city_ok_tulsa",
+      "city": "Tulsa",
+      "state": "OK",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 49,
+      "city_id": "city_fl_tampa",
+      "city": "Tampa",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    },
+    {
+      "rank": 50,
+      "city_id": "city_tx_arlington",
+      "city": "Arlington",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "coverage_status": "missing_validated_targets",
+      "coverage_level": "missing",
+      "contact_missing_count": 0,
+      "needs_source_ingestion": true,
+      "recommended_next_sources": [
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "source_id": "ca_post_law_enforcement_agencies",
+  "state": "CA",
+  "source_name": "California POST Law Enforcement Agencies",
+  "source_url": "https://post.ca.gov/le-agencies",
+  "cached_at": "2026-05-02T19:53:41.083Z",
+  "byte_count": 110535,
+  "html_file": "state_directories/ca_post_law_enforcement_agencies.html",
+  "live_import_allowed": false,
+  "notes": [
+    "Raw official CA POST law enforcement agency page cached.",
+    "No entities created by this connector.",
+    "Parser/authority filter required before merge."
+  ]
+}

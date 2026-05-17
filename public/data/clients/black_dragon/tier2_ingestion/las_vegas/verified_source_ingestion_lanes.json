@@ -1,0 +1,297 @@
+{
+    "version":  "black_dragon_las_vegas_verified_source_ingestion_lanes_v1",
+    "generated_at":  "2026-05-11T05:21:40.9396501Z",
+    "city":  "Las Vegas",
+    "folder":  "las_vegas",
+    "state":  "Nevada",
+    "state_code":  "NV",
+    "city_id":  "city_las_vegas_nv",
+    "source_cache_candidates":  [
+
+                                ],
+    "category_source_lanes":  [
+                                  {
+                                      "category":  "motorcycle_dealerships",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" motorcycle dealership",
+                                                             "\"Las Vegas\" Harley-Davidson dealer",
+                                                             "\"Las Vegas\" motorcycle sales"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "motorcycle_repair_and_parts",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" motorcycle repair",
+                                                             "\"Las Vegas\" motorcycle parts",
+                                                             "\"Las Vegas\" motorcycle accessories"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "riding_clubs",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" motorcycle riding club",
+                                                             "\"Las Vegas\" riders association",
+                                                             "\"Las Vegas\" motorcycle group"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "rider_training_schools",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" motorcycle safety course",
+                                                             "\"Las Vegas\" rider training",
+                                                             "\"Las Vegas\" motorcycle training school"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "community_groups",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" community organizations",
+                                                             "\"Las Vegas\" local community groups",
+                                                             "\"Las Vegas\" neighborhood associations"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "event_venues",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" event venues",
+                                                             "\"Las Vegas\" motorcycle events",
+                                                             "\"Las Vegas\" community event venue"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "educational_institutes",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" colleges",
+                                                             "\"Las Vegas\" technical schools",
+                                                             "\"Las Vegas\" adult education"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "local_media_groups",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" local newspaper",
+                                                             "\"Las Vegas\" local radio station",
+                                                             "\"Las Vegas\" local media outlet"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "business_associations",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" chamber of commerce",
+                                                             "\"Las Vegas\" business association",
+                                                             "\"Las Vegas\" small business network"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "civic_organizations",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" civic organizations",
+                                                             "\"Las Vegas\" public agencies directory",
+                                                             "\"Las Vegas\" city services directory"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "public_safety_public_directories",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" police department public directory",
+                                                             "\"Las Vegas\" fire department public directory",
+                                                             "\"Las Vegas\" emergency management public directory"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "lawful_sporting_or_firearms_organizations",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" lawful sporting club",
+                                                             "\"Las Vegas\" shooting sports organization",
+                                                             "\"Las Vegas\" firearms training organization public"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "charity_nonprofit_groups",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" nonprofit organizations",
+                                                             "\"Las Vegas\" charities",
+                                                             "\"Las Vegas\" community nonprofit"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "local_influencer_or_creator_media",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" local creators",
+                                                             "\"Las Vegas\" local podcast",
+                                                             "\"Las Vegas\" community media"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "regional_geospatial_anchors",
+                                      "search_queries":  [
+                                                             "\"Las Vegas\" landmarks",
+                                                             "\"Las Vegas\" districts",
+                                                             "\"Las Vegas\" transportation hubs"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  }
+                              ],
+    "controls":  {
+                     "source_url_required":  true,
+                     "public_source_required":  true,
+                     "city_match_required":  true,
+                     "category_match_required":  true,
+                     "organization_identity_required":  true,
+                     "no_placeholder_entities":  true,
+                     "no_false_targets":  true,
+                     "runtime_promotion_allowed":  false,
+                     "contact_enablement_allowed":  false,
+                     "manual_review_required":  true
+                 },
+    "status":  "VERIFIED_SOURCE_INGESTION_LANES_READY"
+}

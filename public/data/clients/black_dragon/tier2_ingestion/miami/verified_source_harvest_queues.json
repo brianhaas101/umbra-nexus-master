@@ -1,0 +1,526 @@
+{
+    "version":  "black_dragon_miami_verified_source_harvest_queues_v1",
+    "generated_at":  "2026-05-11T05:05:55.0041347Z",
+    "city":  "Miami",
+    "folder":  "miami",
+    "wave_id":  "tier2_wave_1",
+    "harvest_queues":  [
+                           {
+                               "category":  "motorcycle_dealerships",
+                               "search_queries":  [
+                                                      "\"Miami\" motorcycle dealership",
+                                                      "\"Miami\" Harley-Davidson dealer",
+                                                      "\"Miami\" motorcycle sales"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "motorcycle_repair_and_parts",
+                               "search_queries":  [
+                                                      "\"Miami\" motorcycle repair",
+                                                      "\"Miami\" motorcycle parts",
+                                                      "\"Miami\" motorcycle accessories"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "riding_clubs",
+                               "search_queries":  [
+                                                      "\"Miami\" motorcycle riding club",
+                                                      "\"Miami\" riders association",
+                                                      "\"Miami\" motorcycle group"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "rider_training_schools",
+                               "search_queries":  [
+                                                      "\"Miami\" motorcycle safety course",
+                                                      "\"Miami\" rider training",
+                                                      "\"Miami\" motorcycle training school"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "community_groups",
+                               "search_queries":  [
+                                                      "\"Miami\" community organizations",
+                                                      "\"Miami\" local community groups",
+                                                      "\"Miami\" neighborhood associations"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "event_venues",
+                               "search_queries":  [
+                                                      "\"Miami\" event venues",
+                                                      "\"Miami\" motorcycle events",
+                                                      "\"Miami\" community event venue"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "educational_institutes",
+                               "search_queries":  [
+                                                      "\"Miami\" colleges",
+                                                      "\"Miami\" technical schools",
+                                                      "\"Miami\" adult education"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "local_media_groups",
+                               "search_queries":  [
+                                                      "\"Miami\" local newspaper",
+                                                      "\"Miami\" local radio station",
+                                                      "\"Miami\" local media outlet"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "business_associations",
+                               "search_queries":  [
+                                                      "\"Miami\" chamber of commerce",
+                                                      "\"Miami\" business association",
+                                                      "\"Miami\" small business network"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "civic_organizations",
+                               "search_queries":  [
+                                                      "\"Miami\" civic organizations",
+                                                      "\"Miami\" public agencies directory",
+                                                      "\"Miami\" city services directory"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "public_safety_public_directories",
+                               "search_queries":  [
+                                                      "\"Miami\" police department public directory",
+                                                      "\"Miami\" fire department public directory",
+                                                      "\"Miami\" emergency management public directory"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "lawful_sporting_or_firearms_organizations",
+                               "search_queries":  [
+                                                      "\"Miami\" lawful sporting club",
+                                                      "\"Miami\" shooting sports organization",
+                                                      "\"Miami\" firearms training organization public"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "charity_nonprofit_groups",
+                               "search_queries":  [
+                                                      "\"Miami\" nonprofit organizations",
+                                                      "\"Miami\" charities",
+                                                      "\"Miami\" community nonprofit"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "local_influencer_or_creator_media",
+                               "search_queries":  [
+                                                      "\"Miami\" local creators",
+                                                      "\"Miami\" local podcast",
+                                                      "\"Miami\" community media"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "regional_geospatial_anchors",
+                               "search_queries":  [
+                                                      "\"Miami\" landmarks",
+                                                      "\"Miami\" districts",
+                                                      "\"Miami\" transportation hubs"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           }
+                       ],
+    "controls":  {
+                     "entity_creation_allowed":  false,
+                     "contact_enablement_allowed":  false,
+                     "placeholder_generation_allowed":  false,
+                     "verified_source_required":  true
+                 },
+    "status":  "SOURCE_HARVEST_QUEUES_READY"
+}

@@ -1,0 +1,218 @@
+{
+  "layer_id": "L03",
+  "generated_at": "2026-05-07T23:53:48.038Z",
+  "completion_status": "COMPLETE",
+  "gates": {
+    "registry_15_sources": true,
+    "registry_fields_valid": true,
+    "connector_coverage_valid": true,
+    "evidence_lineage_valid": true,
+    "signals_valid": true,
+    "scoring_valid": true,
+    "layer_files_present": true
+  },
+  "counts": {
+    "sources": 15,
+    "evidence": 15,
+    "signals": 15,
+    "score_components": 15,
+    "layer_files": 13
+  },
+  "source_ids": [
+    "L03_SRC_001_COUNTY_SHERIFF_DEPARTMENTS",
+    "L03_SRC_002_MUNICIPAL_POLICE_DEPARTMENTS",
+    "L03_SRC_003_COUNTY_PROCUREMENT_PORTALS",
+    "L03_SRC_004_CITY_PROCUREMENT_SYSTEMS",
+    "L03_SRC_005_LOCAL_PUBLIC_SAFETY_BUDGETS",
+    "L03_SRC_006_COUNTY_EMERGENCY_MANAGEMENT",
+    "L03_SRC_007_LOCAL_TRAINING_BULLETINS",
+    "L03_SRC_008_FIRE_RESCUE_DEPARTMENTS",
+    "L03_SRC_009_LOCAL_INCIDENT_REPORTING",
+    "L03_SRC_010_LOCAL_PUBLIC_MEETING_RECORDS",
+    "L03_SRC_011_COUNTY_CORRECTIONS_SYSTEMS",
+    "L03_SRC_012_REGIONAL_TASK_FORCE_NOTICES",
+    "L03_SRC_013_LOCAL_GRANT_ALLOCATIONS",
+    "L03_SRC_014_CITY_STAFFING_JOB_BOARDS",
+    "L03_SRC_015_LOCAL_OPERATIONAL_ADVISORIES"
+  ],
+  "connector_coverage": [
+    {
+      "source_id": "L03_SRC_001_COUNTY_SHERIFF_DEPARTMENTS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_002_MUNICIPAL_POLICE_DEPARTMENTS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_003_COUNTY_PROCUREMENT_PORTALS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_004_CITY_PROCUREMENT_SYSTEMS",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_005_LOCAL_PUBLIC_SAFETY_BUDGETS",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_006_COUNTY_EMERGENCY_MANAGEMENT",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_007_LOCAL_TRAINING_BULLETINS",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_008_FIRE_RESCUE_DEPARTMENTS",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_009_LOCAL_INCIDENT_REPORTING",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_010_LOCAL_PUBLIC_MEETING_RECORDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_011_COUNTY_CORRECTIONS_SYSTEMS",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_012_REGIONAL_TASK_FORCE_NOTICES",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_013_LOCAL_GRANT_ALLOCATIONS",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_014_CITY_STAFFING_JOB_BOARDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L03_SRC_015_LOCAL_OPERATIONAL_ADVISORIES",
+      "connector_files": [
+        "scripts/intelligence/complete_l03_source_registry.js",
+        "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    }
+  ],
+  "failures": {
+    "invalid_sources": [],
+    "missing_connector_coverage": [],
+    "invalid_evidence": [],
+    "invalid_signals": [],
+    "invalid_score_components": []
+  },
+  "deterministic_hashes": [
+    {
+      "file": "public/data/intelligence/audit/L03_local_agency_integrity_audit.json",
+      "sha256": "6adfe9956a98fc63061a564e8608396cab03034636a9125390f22c511521290d"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L03_local_agency_normalization.registry.json",
+      "sha256": "3e5c5592c8a5a1006b2c93e151275e4b6c5e030aab8617f455f59d3864607022"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L03_local_normalization.registry.json",
+      "sha256": "7027570b9bb16cd3a6ca00c772fa60b4bea1b763645d6bc3eee9db81a54eb58e"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L03_LOCAL_AGENCY_INTELLIGENCE.normalized.json",
+      "sha256": "7da95e5a1f2e8b61336b367703294022058862352a2a219c0c02333fb4802877"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L03_LOCAL_OPERATIONAL_INTELLIGENCE.normalized.json",
+      "sha256": "f4e9ecce23fe4f800aae5b690644338f6ca7985d077f2a77b68b449ba3b03ecf"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L03_local_adapter_manifest.json",
+      "sha256": "75fffabf539b4fa0d18efe2978620fc34fa6155602d959b4cd0f99506b440f86"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L03_local_agency_adapter_manifest.json",
+      "sha256": "a385914800ce62b6aa980f2f124774ec8eec745c3c29e9d4db12d1401cf29c18"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L03_local_connector_coverage_manifest.json",
+      "sha256": "b78c5fb5d1aceb3fb1c0051e3b33128589cd12d4eaa7b145fa95d957d5f6b58d"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L03_local_agency_scoring.registry.json",
+      "sha256": "dd7ab99cba95da3d395ad99c46caf101c938e35c87ddcc0a68d738f515228d1a"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L03_local_scoring.registry.json",
+      "sha256": "e743c51c8034c1378ca580b2fb4a6059f2b2f911d98c79bb3ca189f350342705"
+    },
+    {
+      "file": "public/data/intelligence/sources/L03_local_agency.sources.json",
+      "sha256": "40006b366ebc2709d7cdb255a213d2c0e475114e454b534377e29c93b68bde84"
+    },
+    {
+      "file": "public/data/intelligence/sources/L03_LOCAL_AGENCY_INTELLIGENCE.sources.json",
+      "sha256": "8fa05a6ddfe4ba3c740c62599d231b51d2235426af8ebacfdf2d3ca12cc08eb7"
+    },
+    {
+      "file": "public/data/intelligence/sources/L03_LOCAL_OPERATIONAL_INTELLIGENCE.sources.json",
+      "sha256": "f92b582c1976e03d5c10cd8c5d658173ac4dd0c8bb7030f54df165612f05450c"
+    }
+  ]
+}

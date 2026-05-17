@@ -1,0 +1,440 @@
+{
+    "batch":  "210R",
+    "version":  "black_dragon_long_beach_semantic_parity_recheck_v1",
+    "generated_at":  "2026-05-11T03:21:07.7981385Z",
+    "city_results":  [
+                         {
+                             "state":  "Nevada",
+                             "city":  "Las Vegas",
+                             "folder":  "las_vegas",
+                             "files_considered":  21,
+                             "role_results":  [
+                                                  {
+                                                      "role":  "runtime_audit",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_182_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_187_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_188_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_188_review_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_189_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_191_toolchain_hardlock_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_192_ajv_schema_enforcement_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_193_governance_schema_lock_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_194_pester_invariant_audit.json",
+                                                                            ".\\logs\\black_dragon\\las_vegas\\batch_195_consolidated_certification.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "city_dossier_stack",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\source_registry.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\entity_schema.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_governance_policy.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "runtime_summary",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\las_vegas\\runtime_shell.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "map_node_manifest",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\las_vegas_operational_manifest.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "merged_city_entities",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\quarantined_entities.json"
+                                                                        ]
+                                                  }
+                                              ],
+                             "missing_semantic_roles_count":  0,
+                             "missing_semantic_roles":  [
+
+                                                        ],
+                             "semantic_parity_status":  "PASS_LONG_BEACH_SEMANTIC_ROLE_COVERAGE"
+                         },
+                         {
+                             "state":  "Georgia",
+                             "city":  "Atlanta",
+                             "folder":  "atlanta",
+                             "files_considered":  12,
+                             "role_results":  [
+                                                  {
+                                                      "role":  "runtime_audit",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\logs\\black_dragon\\atlanta\\batch_197R_atlanta_activation_repair_audit.json",
+                                                                            ".\\logs\\black_dragon\\atlanta\\batch_197_atlanta_activation_audit.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "city_dossier_stack",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\city_dossier_stack.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\source_registry.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\entity_schema.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\contact_governance_policy.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "runtime_summary",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\atlanta\\runtime_shell.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "map_node_manifest",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\atlanta_operational_manifest.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "merged_city_entities",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\quarantined_entities.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\atlanta\\entities_runtime.json"
+                                                                        ]
+                                                  }
+                                              ],
+                             "missing_semantic_roles_count":  0,
+                             "missing_semantic_roles":  [
+
+                                                        ],
+                             "semantic_parity_status":  "PASS_LONG_BEACH_SEMANTIC_ROLE_COVERAGE"
+                         },
+                         {
+                             "state":  "Texas",
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "files_considered":  11,
+                             "role_results":  [
+                                                  {
+                                                      "role":  "runtime_audit",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\logs\\black_dragon\\houston\\batch_200_houston_transition_audit.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "city_dossier_stack",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\houston\\city_dossier_stack.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\houston\\source_registry.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\houston\\entity_schema.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\houston\\contact_governance_policy.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "runtime_summary",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\houston\\runtime_shell.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "map_node_manifest",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\houston\\houston_operational_manifest.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "merged_city_entities",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\houston\\quarantined_entities.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\houston\\entities_runtime.json"
+                                                                        ]
+                                                  }
+                                              ],
+                             "missing_semantic_roles_count":  0,
+                             "missing_semantic_roles":  [
+
+                                                        ],
+                             "semantic_parity_status":  "PASS_LONG_BEACH_SEMANTIC_ROLE_COVERAGE"
+                         },
+                         {
+                             "state":  "Louisiana",
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "files_considered":  12,
+                             "role_results":  [
+                                                  {
+                                                      "role":  "runtime_audit",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\logs\\black_dragon\\new_orleans\\batch_201_new_orleans_activation_audit.json",
+                                                                            ".\\logs\\black_dragon\\new_orleans\\batch_204_new_orleans_active_certification_lock.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "city_dossier_stack",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\city_dossier_stack.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\source_registry.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\entity_schema.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\contact_governance_policy.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "runtime_summary",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\new_orleans\\runtime_shell.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "map_node_manifest",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\new_orleans_operational_manifest.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "merged_city_entities",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\quarantined_entities.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\new_orleans\\entities_runtime.json"
+                                                                        ]
+                                                  }
+                                              ],
+                             "missing_semantic_roles_count":  0,
+                             "missing_semantic_roles":  [
+
+                                                        ],
+                             "semantic_parity_status":  "PASS_LONG_BEACH_SEMANTIC_ROLE_COVERAGE"
+                         },
+                         {
+                             "state":  "Florida",
+                             "city":  "Miami",
+                             "folder":  "miami",
+                             "files_considered":  11,
+                             "role_results":  [
+                                                  {
+                                                      "role":  "runtime_audit",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\logs\\black_dragon\\miami\\batch_205_miami_activation_audit.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "city_dossier_stack",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\miami\\city_dossier_stack.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\miami\\source_registry.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\miami\\entity_schema.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\miami\\contact_governance_policy.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "runtime_summary",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\miami\\runtime_shell.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "map_node_manifest",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\miami\\miami_operational_manifest.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "merged_city_entities",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\miami\\quarantined_entities.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\miami\\entities_runtime.json"
+                                                                        ]
+                                                  }
+                                              ],
+                             "missing_semantic_roles_count":  0,
+                             "missing_semantic_roles":  [
+
+                                                        ],
+                             "semantic_parity_status":  "PASS_LONG_BEACH_SEMANTIC_ROLE_COVERAGE"
+                         },
+                         {
+                             "state":  "Tennessee",
+                             "city":  "Nashville",
+                             "folder":  "nashville",
+                             "files_considered":  11,
+                             "role_results":  [
+                                                  {
+                                                      "role":  "runtime_audit",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\logs\\black_dragon\\nashville\\batch_206_nashville_activation_audit.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "city_dossier_stack",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\nashville\\city_dossier_stack.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\nashville\\source_registry.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\nashville\\entity_schema.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\nashville\\contact_governance_policy.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "runtime_summary",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\nashville\\runtime_shell.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "map_node_manifest",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\nashville\\nashville_operational_manifest.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "merged_city_entities",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\nashville\\quarantined_entities.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\nashville\\entities_runtime.json"
+                                                                        ]
+                                                  }
+                                              ],
+                             "missing_semantic_roles_count":  0,
+                             "missing_semantic_roles":  [
+
+                                                        ],
+                             "semantic_parity_status":  "PASS_LONG_BEACH_SEMANTIC_ROLE_COVERAGE"
+                         },
+                         {
+                             "state":  "New York",
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "files_considered":  11,
+                             "role_results":  [
+                                                  {
+                                                      "role":  "runtime_audit",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\logs\\black_dragon\\new_york_city\\batch_207_new_york_city_activation_audit.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "city_dossier_stack",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_york_city\\city_dossier_stack.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_york_city\\source_registry.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_york_city\\entity_schema.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_york_city\\contact_governance_policy.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "runtime_summary",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\new_york_city\\runtime_shell.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "map_node_manifest",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_york_city\\new_york_city_operational_manifest.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "merged_city_entities",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\new_york_city\\quarantined_entities.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\new_york_city\\entities_runtime.json"
+                                                                        ]
+                                                  }
+                                              ],
+                             "missing_semantic_roles_count":  0,
+                             "missing_semantic_roles":  [
+
+                                                        ],
+                             "semantic_parity_status":  "PASS_LONG_BEACH_SEMANTIC_ROLE_COVERAGE"
+                         },
+                         {
+                             "state":  "Washington",
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "files_considered":  11,
+                             "role_results":  [
+                                                  {
+                                                      "role":  "runtime_audit",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\logs\\black_dragon\\seattle\\batch_208_seattle_activation_audit.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "city_dossier_stack",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\seattle\\city_dossier_stack.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\seattle\\source_registry.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\seattle\\entity_schema.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\seattle\\contact_governance_policy.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "runtime_summary",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\seattle\\runtime_shell.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "map_node_manifest",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\seattle\\seattle_operational_manifest.json"
+                                                                        ]
+                                                  },
+                                                  {
+                                                      "role":  "merged_city_entities",
+                                                      "matched":  true,
+                                                      "matched_files":  [
+                                                                            ".\\public\\data\\clients\\black_dragon\\cities\\seattle\\quarantined_entities.json",
+                                                                            ".\\public\\data\\clients\\black_dragon\\runtime\\seattle\\entities_runtime.json"
+                                                                        ]
+                                                  }
+                                              ],
+                             "missing_semantic_roles_count":  0,
+                             "missing_semantic_roles":  [
+
+                                                        ],
+                             "semantic_parity_status":  "PASS_LONG_BEACH_SEMANTIC_ROLE_COVERAGE"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  8,
+                    "failed_semantic_parity":  0,
+                    "failed":  [
+
+                               ]
+                },
+    "status":  "PASS_LONG_BEACH_SEMANTIC_PARITY_COVERAGE"
+}

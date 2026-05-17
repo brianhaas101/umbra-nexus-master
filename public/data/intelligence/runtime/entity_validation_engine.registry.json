@@ -1,0 +1,27 @@
+{
+  "version": "nexus_entity_validation_engine_v1",
+  "generated_at": "2026-05-06T03:57:53.030Z",
+  "validation_rules": {
+    "stable_entity_id_required": true,
+    "canonical_name_required": true,
+    "source_trace_required": true,
+    "confidence_score_required": true,
+    "timestamp_required": true
+  },
+  "validation_pipeline": [
+    "ENTITY_ID_PRESENT",
+    "ENTITY_TYPE_VALID",
+    "CANONICAL_NAME_VALID",
+    "LOCATION_VALID",
+    "SOURCE_TRACE_VALID",
+    "CONFIDENCE_VALID",
+    "TIMESTAMP_VALID"
+  ],
+  "rejection_conditions": [
+    "missing_entity_id",
+    "missing_canonical_name",
+    "invalid_entity_type",
+    "missing_source_trace",
+    "duplicate_without_resolution"
+  ]
+}

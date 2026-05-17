@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:20.397Z",
+  "layer_id": "L02",
+  "connector_id": "L02_IL_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "IL",
+  "state_name": "Illinois",
+  "source_type": "STATE_GRANTS",
+  "canonical_url": "https://gata.illinois.gov",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 49419,
+    "extracted_links": [
+      {
+        "href": "https://gata.illinois.gov/grants/csfa.html",
+        "label": "CSFA"
+      },
+      {
+        "href": "https://gata.illinois.gov/grantee.html",
+        "label": "Grantee Links"
+      },
+      {
+        "href": "https://gata.illinois.gov/grantee/pre-award-requirements.html",
+        "label": "Pre-Award Requirements"
+      },
+      {
+        "href": "https://gata.illinois.gov/grantee/grantee-portal.html",
+        "label": "Grantee Portal"
+      },
+      {
+        "href": "https://gata.illinois.gov/grantee/grantee-portal-faq.html",
+        "label": "Grantee Portal FAQ"
+      },
+      {
+        "href": "https://gata.illinois.gov/grantee/centralized-indirect-cost-rate-system.html",
+        "label": "Centralized Indirect Cost Rate System"
+      },
+      {
+        "href": "https://gata.illinois.gov/grants/csfa.html",
+        "label": "CSFA link"
+      },
+      {
+        "href": "https://grants.illinois.gov/portal/",
+        "label": "Grantee Portal"
+      },
+      {
+        "href": "https://gata.illinois.gov/grantee.html",
+        "label": "Grantee Links"
+      },
+      {
+        "href": "https://gata.illinois.gov/grants/csfa.html",
+        "label": "Catalog of State Financial Assistance"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "489d58ef8d2d2cc49cfb51cf68f39c0d37948f2d5eacaa6fec7ba09725ca0d08"
+}

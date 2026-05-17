@@ -1,0 +1,257 @@
+{
+  "version": "black_dragon_phoenix_runtime_dossiers_v1",
+  "generated_at": "2026-05-10T23:03:13.420Z",
+  "dossier_count": 10,
+  "dossiers": [
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00001",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00003",
+      "organization_name": "Arizona Bike Week",
+      "city_rank": 1,
+      "priority_tier": "HOT",
+      "best_score": 9.33,
+      "summary": "Arizona Bike Week is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 9.6,
+        "conversion_score": 9,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "EVENT_PROPAGATION",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00002",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00002",
+      "organization_name": "Harley-Davidson of Scottsdale",
+      "city_rank": 2,
+      "priority_tier": "HOT",
+      "best_score": 9.15,
+      "summary": "Harley-Davidson of Scottsdale is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 9.2,
+        "conversion_score": 9.1,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "DEALERSHIP_NETWORKS",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00003",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00001",
+      "organization_name": "Buddy Stubbs Harley-Davidson",
+      "city_rank": 3,
+      "priority_tier": "HOT",
+      "best_score": 9.05,
+      "summary": "Buddy Stubbs Harley-Davidson is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 9.1,
+        "conversion_score": 9,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "DEALERSHIP_NETWORKS",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00004",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00006",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "city_rank": 4,
+      "priority_tier": "WARM",
+      "best_score": 8.71,
+      "summary": "Arizona Veterans Motorcycle Association is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 8.8,
+        "conversion_score": 8.6,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "VETERAN_AND_NONPROFIT",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00005",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00008",
+      "organization_name": "Law Tigers Arizona",
+      "city_rank": 5,
+      "priority_tier": "WARM",
+      "best_score": 8.64,
+      "summary": "Law Tigers Arizona is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 8.6,
+        "conversion_score": 8.7,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "CROSS_STATE_PROPAGATION",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00006",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00007",
+      "organization_name": "ABATE of Arizona",
+      "city_rank": 6,
+      "priority_tier": "WARM",
+      "best_score": 8.52,
+      "summary": "ABATE of Arizona is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 8.7,
+        "conversion_score": 8.3,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "VETERAN_AND_NONPROFIT",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00007",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00009",
+      "organization_name": "Phoenix Bike Night Network",
+      "city_rank": 7,
+      "priority_tier": "WARM",
+      "best_score": 8.31,
+      "summary": "Phoenix Bike Night Network is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 8.4,
+        "conversion_score": 8.2,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "EVENT_PROPAGATION",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00008",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00004",
+      "organization_name": "Cycle Gear Phoenix",
+      "city_rank": 8,
+      "priority_tier": "WARM",
+      "best_score": 8.29,
+      "summary": "Cycle Gear Phoenix is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 8.2,
+        "conversion_score": 8.4,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "DEALERSHIP_NETWORKS",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00009",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00005",
+      "organization_name": "Phoenix Motorcycle Riders Meetup",
+      "city_rank": 9,
+      "priority_tier": "REVIEW",
+      "best_score": 8.17,
+      "summary": "Phoenix Motorcycle Riders Meetup is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 8.3,
+        "conversion_score": 8,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "MEDIA_AND_COMMUNITY",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    },
+    {
+      "dossier_id": "BD_PHX_DOSSIER_00010",
+      "city_runtime_entity_id": "BD_PHX_RUNTIME_ENTITY_00010",
+      "organization_name": "Arizona Motorcycle Safety and Awareness Foundation",
+      "city_rank": 10,
+      "priority_tier": "REVIEW",
+      "best_score": 8.05,
+      "summary": "Arizona Motorcycle Safety and Awareness Foundation is a Phoenix motorcycle ecosystem candidate for Black Dragon propagation analysis.",
+      "intelligence_fields": {
+        "influence_score": 8.1,
+        "conversion_score": 8,
+        "cross_state_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_PHOENIX_ENTITY",
+        "source_layers": [
+          "VETERAN_AND_NONPROFIT",
+          "PHOENIX_DISCOVERY_IMPORT"
+        ]
+      },
+      "operational_status": {
+        "runtime_visible": true,
+        "contact_ready": false,
+        "manual_review_required": true,
+        "automated_outreach_allowed": false
+      }
+    }
+  ]
+}

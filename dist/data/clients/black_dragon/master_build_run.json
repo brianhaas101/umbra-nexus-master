@@ -1,0 +1,120 @@
+{
+  "version": "black_dragon_master_build_run_v1",
+  "generated_at": "2026-05-06T02:09:04.390Z",
+  "total_commands": 22,
+  "passed": 22,
+  "failed": 0,
+  "status": "PASS",
+  "results": [
+    {
+      "command": "node scripts/clients/black_dragon/build_national_verified_outreach_shortlist.js",
+      "status": "PASS",
+      "output": "[NATIONAL SHORTLIST] COMPLETE\n[NATIONAL SHORTLIST] Targets: 11\n[NATIONAL SHORTLIST] States: AZ, CA\n[NATIONAL SHORTLIST] Output: public/data/clients/black_dragon/national_verified_outreach_shortlist.json\n"
+    },
+    {
+      "command": "node scripts/intelligence/normalize_black_dragon_verified_targets.js",
+      "status": "PASS",
+      "output": "[NORMALIZE] COMPLETE\n[NORMALIZE] Entities: 11\n[NORMALIZE] Evidence: 11\n[NORMALIZE] Signals: 11\n[NORMALIZE] Score components: 22\n[NORMALIZE] Dossier fields: 33\n[NORMALIZE] Output: C:\\Dev\\Nexus_MASTER\\public\\data\\clients\\black_dragon\\normalized_intelligence_outputs.json\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_dossier_targets.js",
+      "status": "PASS",
+      "output": "[DOSSIER] COMPLETE\n[DOSSIER] Dossiers: 11\n[DOSSIER] Output: public/data/clients/black_dragon/dossier_targets.json\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_black_dragon_client_sync.js",
+      "status": "PASS",
+      "output": "[CLIENT SYNC] COMPLETE\n[CLIENT SYNC] Synced targets: 11\n[CLIENT SYNC] Output: public/data/clients/black_dragon/black_dragon_client_sync.json\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_runtime_authority_map.js",
+      "status": "PASS",
+      "output": "[AUTHORITY MAP] COMPLETE\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_scoring_export_bridge.js",
+      "status": "PASS",
+      "output": "[SCORING EXPORT] COMPLETE\n[SCORING EXPORT] Scores: 22\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_dossier_export_bridge.js",
+      "status": "PASS",
+      "output": "[DOSSIER EXPORT] COMPLETE\n[DOSSIER EXPORT] Dossiers: 11\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_execution_state_bridge.js",
+      "status": "PASS",
+      "output": "[EXECUTION BRIDGE] COMPLETE\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_live_ingestion_manifest.js",
+      "status": "PASS",
+      "output": "[LIVE MANIFEST] COMPLETE\n[LIVE MANIFEST] Jobs: 5\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_source_freshness_audit.js",
+      "status": "PASS",
+      "output": "[FRESHNESS AUDIT] COMPLETE\n[FRESHNESS AUDIT] Sources: 4\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_intelligence_refresh_ledger.js",
+      "status": "PASS",
+      "output": "[REFRESH LEDGER] COMPLETE\n[REFRESH LEDGER] Files: 7\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_runtime_integrity_check.js",
+      "status": "PASS",
+      "output": "[RUNTIME INTEGRITY] COMPLETE\n[RUNTIME INTEGRITY] Status: PASS\n[RUNTIME INTEGRITY] National: 11\n[RUNTIME INTEGRITY] Dossiers: 11\n[RUNTIME INTEGRITY] Sync: 11\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_geocode_cache.js",
+      "status": "PASS",
+      "output": "[GEOCODE CACHE] COMPLETE\n[GEOCODE CACHE] Records: 11\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_city_normalization_registry.js",
+      "status": "PASS",
+      "output": "[CITY NORMALIZATION] COMPLETE\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_geographic_intelligence_layer.js",
+      "status": "PASS",
+      "output": "[GEO INTEL] COMPLETE\n[GEO INTEL] Records: 11\n[GEO INTEL] Geocoded: 11\n[GEO INTEL] Missing: 0\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_territory_clusters.js",
+      "status": "PASS",
+      "output": "[TERRITORY CLUSTERS] COMPLETE\n[TERRITORY CLUSTERS] Clusters: 2\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_real_globe_sync_export.js",
+      "status": "PASS",
+      "output": "[REAL GLOBE EXPORT] COMPLETE\n[REAL GLOBE EXPORT] Nodes: 11\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_runtime_loader_manifest.js",
+      "status": "PASS",
+      "output": "[RUNTIME LOADER MANIFEST] COMPLETE\n[RUNTIME LOADER MANIFEST] Files: 9\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_globe_data_adapter.js",
+      "status": "PASS",
+      "output": "[GLOBE DATA ADAPTER] COMPLETE\n[GLOBE DATA ADAPTER] Nodes: 11\n[GLOBE DATA ADAPTER] Clusters: 2\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_client_dossier_index.js",
+      "status": "PASS",
+      "output": "[DOSSIER INDEX] COMPLETE\n[DOSSIER INDEX] Dossiers: 11\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_operational_ui_state.js",
+      "status": "PASS",
+      "output": "[OPERATIONAL UI STATE] COMPLETE\n[OPERATIONAL UI STATE] Targets: 11\n"
+    },
+    {
+      "command": "node scripts/clients/black_dragon/build_runtime_integration_batch_audit.js",
+      "status": "PASS",
+      "output": "[RUNTIME BATCH AUDIT] COMPLETE\n[RUNTIME BATCH AUDIT] Status: PASS\n[RUNTIME BATCH AUDIT] Counts: {\"sync_targets\":11,\"globe_nodes\":11,\"dossier_index\":11,\"ui_targets\":11}\n"
+    }
+  ]
+}

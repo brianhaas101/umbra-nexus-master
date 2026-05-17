@@ -1,0 +1,34 @@
+{
+  "version": "nexus_L06_behavioral_scoring_registry_v1",
+  "generated_at": "2026-05-06T04:17:46.904Z",
+  "layer_id": "L06_BEHAVIORAL_ACTIVITY",
+  "scoring_outputs": [
+    {
+      "score": "activity_pressure_score",
+      "description": "Current operational activity pressure around the entity or region"
+    },
+    {
+      "score": "behavioral_shift_index",
+      "description": "Detected change from baseline behavioral patterns"
+    },
+    {
+      "score": "operational_attention_score",
+      "description": "Likelihood the entity is focused on a relevant operational problem"
+    },
+    {
+      "score": "regional_escalation_score",
+      "description": "Likelihood of escalating regional activity"
+    },
+    {
+      "score": "market_relevance_activity_score",
+      "description": "Activity-driven relevance to client offering"
+    }
+  ],
+  "weighting_rules": {
+    "official_activity_weight": 0.3,
+    "frequency_weight": 0.2,
+    "severity_weight": 0.2,
+    "recency_weight": 0.2,
+    "regional_overlap_weight": 0.1
+  }
+}

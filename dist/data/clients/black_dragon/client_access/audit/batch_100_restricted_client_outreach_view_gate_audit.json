@@ -1,0 +1,26 @@
+﻿{
+    "version":  "umbra_batch_100_restricted_client_outreach_view_gate_audit_v1",
+    "generated_at":  "2026-05-10T17:13:34.7063550Z",
+    "file_integrity":  {
+                           "gate_exists":  true
+                       },
+    "access_integrity":  {
+                             "client_access_enabled":  true,
+                             "outreach_disabled":  true,
+                             "contact_layer_disabled":  true,
+                             "founder_override_required":  true
+                         },
+    "entity_integrity":  {
+                             "visible_entities":  637,
+                             "all_safe_mode":  true,
+                             "no_contact_details_visible":  true,
+                             "no_source_urls_visible":  true,
+                             "no_outreach_enabled":  true
+                         },
+    "safety_integrity":  {
+                             "blocked_layers_present":  true,
+                             "zero_contact_ready_runtime":  true,
+                             "zero_outreach_targets":  true
+                         },
+    "pass":  true
+}

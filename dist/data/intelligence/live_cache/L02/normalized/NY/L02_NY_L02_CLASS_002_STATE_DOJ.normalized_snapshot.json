@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:08.263Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "NY",
+  "state_name": "New York",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://ag.ny.gov",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Letitia James New York State Attorney General",
+        "href": "https://ag.ny.gov/",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Issues",
+        "href": "https://ag.ny.gov/resources/individuals/consumer-issues",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Immigrants&#039; Rights",
+        "href": "https://ag.ny.gov/resources/individuals/immigrants-rights",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Law Enforcement Guidance",
+        "href": "https://ag.ny.gov/resources/government-organizations/law-enforcement-guidance",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Press Releases",
+        "href": "https://ag.ny.gov/press-releases",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Livestream",
+        "href": "https://ag.ny.gov/news-media/livestream",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Event Archive",
+        "href": "https://ag.ny.gov/news-media/event-archive",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Learn more",
+        "href": "https://ag.ny.gov/press-release/2026/attorney-general-james-stops-sale-gun-accessory-aided-buffalo-shooter",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Opioids settlements New York Attorney General Letitia James has reached settlements totaling over $3 billion with companies involved in manufacturing, distributing, and selling opioids.&nbsp;",
+        "href": "https://ag.ny.gov/nys-opioid-settlement",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_002_STATE_DOJ_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "state_name": "New York",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:08.263Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://ag.ny.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b",
+        "parser_id": "L02_NY_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Meet AG Letitia James Letitia James is the 67th Attorney General for the state of New York.",
+        "href": "https://ag.ny.gov/about/meet-letitia-james",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_002_STATE_DOJ_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "NY",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    }
+  ],
+  "normalized_snapshot_hash": "966f96f8aca8a2c043f996ec7c761a4eee1d5bc2b0e9625c6f6cb13564519654"
+}

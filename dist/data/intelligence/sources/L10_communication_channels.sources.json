@@ -1,0 +1,34 @@
+{
+  "version": "L10_communication_channels_sources_v1",
+  "layer_id": "L10_COMMUNICATION_CHANNELS",
+  "name": "Communication Channels",
+  "rule": "Final communication paths must be official, non-fake, phone-first when email is unavailable, and manually verified before outreach.",
+  "status": "ACTIVE_FOR_BLACK_DRAGON",
+  "source_types": [
+    "official_contact_page",
+    "official_phone_directory",
+    "official_department_page",
+    "official_command_staff_page",
+    "official_training_contact_page"
+  ],
+  "allowed_contact_modes": [
+    "PHONE_FIRST",
+    "DIRECT_PHONE",
+    "MAIN_LINE_WITH_ROUTING",
+    "OFFICIAL_EMAIL_ONLY_IF_NON_GENERIC"
+  ],
+  "forbidden": [
+    "fake phone numbers",
+    "generic scraped emails",
+    "webpage update subscriber emails",
+    "court routing emails",
+    "unverified third-party contact records"
+  ],
+  "outputs": [
+    "verified phone path",
+    "fallback route",
+    "contact confidence",
+    "execution log seed",
+    "outreach-ready status"
+  ]
+}

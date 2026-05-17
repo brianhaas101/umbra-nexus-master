@@ -1,0 +1,297 @@
+{
+  "total_refs": 58,
+  "missing_count": 0,
+  "missing": [],
+  "all": [
+    {
+      "script": "scripts\\intelligence\\build_entity_deduplication_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_entity_deduplication_engine.js",
+      "ref": "public/data/intelligence/outputs/entity_deduplication_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_first_5_layer_operational_audit.js",
+      "ref": "public/data/intelligence/outputs/entity_deduplication_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_first_5_layer_operational_audit.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_intelligence_index.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_first_5_layer_operational_audit.js",
+      "ref": "public/data/intelligence/outputs/unified_score_aggregation.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_first_5_layer_operational_audit.js",
+      "ref": "public/data/intelligence/outputs/unified_dossier_synthesis.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_first_5_layer_operational_audit.js",
+      "ref": "public/data/intelligence/outputs/L10_outreach_readiness_synthesis.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_first_5_layer_operational_audit.js",
+      "ref": "public/data/intelligence/outputs/L12_relationship_strength_scoring.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_intelligence_execution_audit.js",
+      "ref": "public/data/intelligence/outputs/unified_normalized_output_shell.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_communication_confidence_weighting.js",
+      "ref": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_contact_freshness_weighting.js",
+      "ref": "public/data/intelligence/outputs/L10_COMMUNICATION_INTELLIGENCE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_contact_freshness_weighting.js",
+      "ref": "public/data/intelligence/outputs/L10_contact_freshness_weighting.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_fallback_route_scoring.js",
+      "ref": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_fallback_route_scoring.js",
+      "ref": "public/data/intelligence/outputs/L10_communication_confidence_weighting.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_fallback_route_scoring.js",
+      "ref": "public/data/intelligence/outputs/L10_fallback_route_scoring.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.BACKUP.js",
+      "ref": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.BACKUP.js",
+      "ref": "public/data/intelligence/outputs/L10_communication_confidence_weighting.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.BACKUP.js",
+      "ref": "public/data/intelligence/outputs/L10_fallback_route_scoring.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.BACKUP.js",
+      "ref": "public/data/intelligence/outputs/L10_contact_freshness_weighting.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.BACKUP.js",
+      "ref": "public/data/intelligence/outputs/L10_outreach_readiness_synthesis.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.js",
+      "ref": "public/data/intelligence/outputs/L10_contact_score_refinement.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.js",
+      "ref": "public/data/intelligence/outputs/L10_communication_confidence_weighting.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.js",
+      "ref": "public/data/intelligence/outputs/L10_fallback_route_scoring.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L10_outreach_readiness_synthesis.js",
+      "ref": "public/data/intelligence/outputs/L10_outreach_readiness_synthesis.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_engagement_state_scoring.js",
+      "ref": "public/data/intelligence/outputs/L12_ENGAGEMENT_RESPONSE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_engagement_state_scoring.js",
+      "ref": "public/data/intelligence/outputs/L12_engagement_state_scoring.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_follow_up_prioritization.js",
+      "ref": "public/data/intelligence/outputs/L12_engagement_state_scoring.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_follow_up_prioritization.js",
+      "ref": "public/data/intelligence/outputs/L12_response_quality_weighting.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_follow_up_prioritization.js",
+      "ref": "public/data/intelligence/outputs/L12_follow_up_prioritization.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_relationship_strength_scoring.js",
+      "ref": "public/data/intelligence/outputs/L12_relationship_strength_scoring.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_relationship_strength_scoring.js",
+      "ref": "public/data/intelligence/outputs/L12_follow_up_prioritization.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_response_quality_weighting.js",
+      "ref": "public/data/intelligence/outputs/L12_ENGAGEMENT_RESPONSE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_L12_response_quality_weighting.js",
+      "ref": "public/data/intelligence/outputs/L12_response_quality_weighting.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_live_connector_implementation_audit.js",
+      "ref": "public/data/intelligence/outputs/L03_LOCAL_AGENCY_INTELLIGENCE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_live_connector_implementation_audit.js",
+      "ref": "public/data/intelligence/outputs/L10_COMMUNICATION_INTELLIGENCE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_live_connector_implementation_audit.js",
+      "ref": "public/data/intelligence/outputs/L12_ENGAGEMENT_RESPONSE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_live_connector_implementation_audit.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_live_runtime_fusion_audit.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_runtime_entity_cache.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_intelligence_index.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_runtime_entity_cache.js",
+      "ref": "public/data/intelligence/outputs/unified_score_aggregation.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_runtime_handoff_manifest.js",
+      "ref": "public/data/intelligence/outputs/unified_normalized_output_shell.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_dossier_synthesis_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_dossier_synthesis_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_intelligence_index.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_dossier_synthesis_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_score_aggregation.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_dossier_synthesis_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_dossier_synthesis.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_entity_fusion_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_entity_intelligence_index.js",
+      "ref": "public/data/intelligence/outputs/entity_deduplication_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_entity_intelligence_index.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_entity_intelligence_index.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_intelligence_index.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_normalized_output_shell.js",
+      "ref": "public/data/intelligence/outputs/unified_normalized_output_shell.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_score_aggregation_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_score_aggregation_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_intelligence_index.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\build_unified_score_aggregation_engine.js",
+      "ref": "public/data/intelligence/outputs/unified_score_aggregation.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\connect_L03_local_agencies.js",
+      "ref": "public/data/intelligence/outputs/L03_LOCAL_AGENCY_INTELLIGENCE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\connect_L10_manual_verified_contacts.js",
+      "ref": "public/data/intelligence/outputs/L10_COMMUNICATION_INTELLIGENCE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\connect_L12_outreach_execution.js",
+      "ref": "public/data/intelligence/outputs/L12_ENGAGEMENT_RESPONSE.normalized.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\normalize_black_dragon_verified_targets.js",
+      "ref": "public/data/intelligence/outputs/normalization.registry.json",
+      "exists": true
+    },
+    {
+      "script": "scripts\\intelligence\\rebuild_live_unified_entity_fusion.js",
+      "ref": "public/data/intelligence/outputs/unified_entity_fusion_output.json",
+      "exists": true
+    }
+  ]
+}

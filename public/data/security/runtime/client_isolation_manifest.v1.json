@@ -1,0 +1,25 @@
+{
+  "version": "umbra_client_isolation_manifest_v1",
+
+  "clients": [
+    {
+      "client_id": "black_dragon",
+      "dataset_root": "public/data/clients/black_dragon",
+      "runtime_scope": [
+        "black_dragon"
+      ],
+      "forbidden_scope": [
+        "founder",
+        "system",
+        "other_clients"
+      ]
+    }
+  ],
+
+  "hard_rules": {
+    "cross_client_dataset_access_forbidden": true,
+    "cross_client_queue_access_forbidden": true,
+    "cross_client_response_access_forbidden": true,
+    "cross_client_export_forbidden": true
+  }
+}

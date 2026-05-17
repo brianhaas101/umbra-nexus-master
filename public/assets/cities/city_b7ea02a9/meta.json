@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_b7ea02a9",
+    "name":  "Seattle, WA",
+    "center_lat":  47.6062,
+    "center_lon":  -122.3321,
+    "bounds":  {
+                   "north":  47.889,
+                   "south":  47.3463,
+                   "east":  -122.0469,
+                   "west":  -122.6174
+               },
+    "width_m":  43000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_b7ea02a9/base.png"
+}

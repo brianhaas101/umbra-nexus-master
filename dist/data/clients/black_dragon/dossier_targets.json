@@ -1,0 +1,921 @@
+{
+  "version": "black_dragon_dossier_targets_v1",
+  "generated_at": "2026-05-06T02:38:27.849Z",
+  "source": "public/data/clients/black_dragon/normalized_intelligence_outputs.json",
+  "total_dossiers": 12,
+  "rule": "Dossiers are generated only from normalized verified intelligence outputs.",
+  "dossiers": [
+    {
+      "entity_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT",
+      "agency_name": "PHOENIX POLICE DEPARTMENT",
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "PHOENIX POLICE DEPARTMENT",
+        "jurisdiction": "Phoenix, AZ",
+        "source_trace": [
+          "https://www.phoenix.gov/policesite/Documents/PD_Org_Chart.pdf",
+          "https://www.phoenix.gov/administration/departments/police/contact-us.html"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(602) 262-7626",
+        "recommended_route": "Training Bureau",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Training Bureau",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.phoenix.gov/policesite/Documents/PD_Org_Chart.pdf",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(602) 262-7626",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Training Bureau",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_MESA_POLICE_DEPARTMENT",
+      "agency_name": "MESA POLICE DEPARTMENT",
+      "city": "Mesa",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "MESA POLICE DEPARTMENT",
+        "jurisdiction": "Mesa, AZ",
+        "source_trace": [
+          "https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Training-and-Wellness-Division",
+          "https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Police-Phone-Numbers"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(480) 644-2324",
+        "recommended_route": "Training and Wellness Division",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Training and Wellness Division",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_MESA_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_MESA_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.mesaaz.gov/Public-Safety/Mesa-Police/About-Mesa-Police/Training-and-Wellness-Division",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(480) 644-2324",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_MESA_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_MESA_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Training and Wellness Division",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_MESA_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_MESA_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT",
+      "agency_name": "CHANDLER POLICE DEPARTMENT",
+      "city": "Chandler",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "CHANDLER POLICE DEPARTMENT",
+        "jurisdiction": "Chandler, AZ",
+        "source_trace": [
+          "https://chandlerazpd.gov/about-divisions/",
+          "https://chandlerazpd.gov/contact-cpd/"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(480) 782-4001",
+        "recommended_route": "Operational Support / Training Unit",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Operational Support / Training Unit",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://chandlerazpd.gov/about-divisions/",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(480) 782-4001",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Operational Support / Training Unit",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT",
+      "agency_name": "GLENDALE POLICE DEPARTMENT",
+      "city": "Glendale",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "GLENDALE POLICE DEPARTMENT",
+        "jurisdiction": "Glendale, AZ",
+        "source_trace": [
+          "https://www.glendaleaz.gov/Live/City-Services/Police-Department/About-Us/Police-Phone-Directory",
+          "https://www.glendaleaz.gov/Live/City-Services/Police-Department"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(623) 930-3059",
+        "recommended_route": "Police Administration / Training Routing",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Police Administration / Training Routing",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.glendaleaz.gov/Live/City-Services/Police-Department/About-Us/Police-Phone-Directory",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(623) 930-3059",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Police Administration / Training Routing",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT",
+      "agency_name": "TEMPE POLICE DEPARTMENT",
+      "city": "Tempe",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "TEMPE POLICE DEPARTMENT",
+        "jurisdiction": "Tempe, AZ",
+        "source_trace": [
+          "https://www.tempe.gov/government/police",
+          "https://www.tempe.gov/government/police/about-tempe-police"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(480) 350-8311",
+        "recommended_route": "Training Unit",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Training Unit",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.tempe.gov/government/police",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(480) 350-8311",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Training Unit",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT",
+      "agency_name": "TUCSON POLICE DEPARTMENT",
+      "city": "Tucson",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "TUCSON POLICE DEPARTMENT",
+        "jurisdiction": "Tucson, AZ",
+        "source_trace": [
+          "https://tpdrecruiting.tucsonaz.gov/academy",
+          "https://www.tucsonaz.gov/Departments/Police/Contact-TPD"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(520) 791-4444",
+        "recommended_route": "Southern Arizona Law Enforcement Training Center / TPD Training Path",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Southern Arizona Law Enforcement Training Center / TPD Training Path",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://tpdrecruiting.tucsonaz.gov/academy",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(520) 791-4444",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Southern Arizona Law Enforcement Training Center / TPD Training Path",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+      "agency_name": "FLAGSTAFF POLICE DEPARTMENT",
+      "city": "Flagstaff",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "FLAGSTAFF POLICE DEPARTMENT",
+        "jurisdiction": "Flagstaff, AZ",
+        "source_trace": [
+          "https://www.flagstaff.az.gov/422/Police-Department",
+          "https://www.flagstaff.az.gov/1080/9-1-1"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(928) 679-4083",
+        "recommended_route": "Operations / Command Staff Training Routing",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Operations / Command Staff Training Routing",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.flagstaff.az.gov/422/Police-Department",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(928) 679-4083",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Operations / Command Staff Training Routing",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+      "agency_name": "SCOTTSDALE POLICE DEPARTMENT",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "SCOTTSDALE POLICE DEPARTMENT",
+        "jurisdiction": "Scottsdale, AZ",
+        "source_trace": [
+          "https://www.scottsdaleaz.gov/police/police-units/police-bureaus",
+          "https://www.scottsdaleaz.gov/police"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(480) 312-5000",
+        "recommended_route": "Professional Standards and Investigative Services Bureau / Training",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Professional Standards and Investigative Services Bureau / Training",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.scottsdaleaz.gov/police/police-units/police-bureaus",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(480) 312-5000",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Professional Standards and Investigative Services Bureau / Training",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT",
+      "agency_name": "SURPRISE POLICE DEPARTMENT",
+      "city": "Surprise",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "SURPRISE POLICE DEPARTMENT",
+        "jurisdiction": "Surprise, AZ",
+        "source_trace": [
+          "https://www.surpriseaz.gov/132/Police",
+          "https://www.surpriseaz.gov/AgendaCenter/ViewFile/Agenda/_06212022-1973"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(623) 222-4000",
+        "recommended_route": "Professional Standards / Training",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Professional Standards / Training",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.surpriseaz.gov/132/Police",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(623) 222-4000",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Professional Standards / Training",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_AZ_YUMA_POLICE_DEPARTMENT",
+      "agency_name": "YUMA POLICE DEPARTMENT",
+      "city": "Yuma",
+      "state": "AZ",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "YUMA POLICE DEPARTMENT",
+        "jurisdiction": "Yuma, AZ",
+        "source_trace": [
+          "https://www.yumaaz.gov/government/police-department",
+          "https://www.yumaaz.gov/government/police-department/contact"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(928) 783-4421",
+        "recommended_route": "Police Administration / Training Routing",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Police Administration / Training Routing",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_AZ_YUMA_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_AZ_YUMA_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.yumaaz.gov/government/police-department",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(928) 783-4421",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_AZ_YUMA_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_AZ_YUMA_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Police Administration / Training Routing",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_AZ_YUMA_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_AZ_YUMA_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+      "agency_name": "San Diego Community College District Police Department",
+      "city": "San Diego",
+      "state": "CA",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "San Diego Community College District Police Department",
+        "jurisdiction": "San Diego, CA",
+        "source_trace": [
+          "https://www.sdccd.edu/departments/police/training/",
+          "https://www.sdccd.edu/departments/police/contact.aspx"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "(619) 388-6411",
+        "recommended_route": "Training Division / Field Training Program",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Training Division / Field Training Program",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT_L10_CONTACT_PATH",
+          "entity_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.sdccd.edu/departments/police/training/",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "(619) 388-6411",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT_TRAINING_ROUTE",
+          "entity_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Training Division / Field Training Program",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "entity_id": "BD_TX_DALLAS_POLICE_ACADEMY",
+      "agency_name": "Dallas Police Academy",
+      "city": "Dallas",
+      "state": "TX",
+      "country": "US",
+      "entity_type": "LAW_ENFORCEMENT_AGENCY",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "intelligence_summary": {
+        "final_score": 87,
+        "confidence": 0.9,
+        "primary_relevance": "Verified law-enforcement training or command contact path for Black Dragon outreach.",
+        "source_count": 2
+      },
+      "agency_identity": {
+        "agency_name": "Dallas Police Academy",
+        "jurisdiction": "Dallas, TX",
+        "source_trace": [
+          "https://www.tcole.texas.gov/node/2228",
+          "https://www.dallaspolice.net/join-dpd/training-academy"
+        ]
+      },
+      "contact_path": {
+        "primary_phone": "214-671-3654",
+        "recommended_route": "Dallas Police Academy",
+        "status": "READY_TO_CALL"
+      },
+      "training_relevance": {
+        "route": "Dallas Police Academy",
+        "relevance_reason": "Training, command, academy, professional standards, or department routing path identified.",
+        "black_dragon_fit": "Potential fit for officer-safety and motorcycle-club encounter training."
+      },
+      "evidence": [
+        {
+          "evidence_id": "BD_TX_DALLAS_POLICE_ACADEMY_L10_CONTACT_PATH",
+          "entity_id": "BD_TX_DALLAS_POLICE_ACADEMY",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "source_url": "https://www.tcole.texas.gov/node/2228",
+          "source_type": "official_contact_or_training_page",
+          "claim": "Verified official phone-first contact path exists.",
+          "observed_value": "214-671-3654",
+          "verified_at": "2026-05-06T02:38:27.734Z",
+          "confidence": 0.9
+        }
+      ],
+      "signals": [
+        {
+          "signal_id": "BD_TX_DALLAS_POLICE_ACADEMY_TRAINING_ROUTE",
+          "entity_id": "BD_TX_DALLAS_POLICE_ACADEMY",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "signal_type": "TRAINING_OR_COMMAND_ROUTE",
+          "signal_value": "Dallas Police Academy",
+          "operational_relevance": "Supports Black Dragon training outreach routing.",
+          "confidence": 0.85
+        }
+      ],
+      "score_components": [
+        {
+          "entity_id": "BD_TX_DALLAS_POLICE_ACADEMY",
+          "layer_id": "L10_COMMUNICATION_CHANNELS",
+          "component_name": "verified_contact_path",
+          "component_score": 90,
+          "weight": 0.6,
+          "reason": "Manual verified official phone path exists."
+        },
+        {
+          "entity_id": "BD_TX_DALLAS_POLICE_ACADEMY",
+          "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+          "component_name": "training_relevance",
+          "component_score": 85,
+          "weight": 0.8,
+          "reason": "Training, command, academy, or routing path identified."
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

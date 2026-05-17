@@ -1,0 +1,97 @@
+{
+  "version": "black_dragon_phoenix_graph_influence_scores_v1",
+  "generated_at": "2026-05-10T23:03:13.421Z",
+  "total_scored_nodes": 10,
+  "scores": [
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00001",
+      "organization_name": "Arizona Bike Week",
+      "graph_degree": 9,
+      "influence_score": 9.23,
+      "graph_influence_rank": 1,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_HOT"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00002",
+      "organization_name": "Harley-Davidson of Scottsdale",
+      "graph_degree": 9,
+      "influence_score": 9.11,
+      "graph_influence_rank": 2,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_HOT"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00003",
+      "organization_name": "Buddy Stubbs Harley-Davidson",
+      "graph_degree": 9,
+      "influence_score": 9.04,
+      "graph_influence_rank": 3,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_HOT"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00004",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "graph_degree": 9,
+      "influence_score": 8.8,
+      "graph_influence_rank": 4,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_WARM"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00005",
+      "organization_name": "Law Tigers Arizona",
+      "graph_degree": 9,
+      "influence_score": 8.75,
+      "graph_influence_rank": 5,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_WARM"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00006",
+      "organization_name": "ABATE of Arizona",
+      "graph_degree": 9,
+      "influence_score": 8.66,
+      "graph_influence_rank": 6,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_WARM"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00007",
+      "organization_name": "Phoenix Bike Night Network",
+      "graph_degree": 8,
+      "influence_score": 8.22,
+      "graph_influence_rank": 7,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_WARM"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00008",
+      "organization_name": "Cycle Gear Phoenix",
+      "graph_degree": 8,
+      "influence_score": 8.2,
+      "graph_influence_rank": 8,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_WARM"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00009",
+      "organization_name": "Phoenix Motorcycle Riders Meetup",
+      "graph_degree": 8,
+      "influence_score": 8.12,
+      "graph_influence_rank": 9,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_WARM"
+    },
+    {
+      "graph_node_id": "BD_PHX_GRAPH_NODE_00010",
+      "organization_name": "Arizona Motorcycle Safety and Awareness Foundation",
+      "graph_degree": 6,
+      "influence_score": 7.43,
+      "graph_influence_rank": 10,
+      "cross_state_duplicate_detected": false,
+      "influence_tier": "GRAPH_REVIEW"
+    }
+  ]
+}

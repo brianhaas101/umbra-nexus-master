@@ -1,0 +1,275 @@
+﻿const fs = require("fs");
+const path = require("path");
+
+const ROOT = process.cwd();
+
+const registry = {
+  version:
+    "black_dragon_database_source_registry_v1",
+
+  generated_at:
+    new Date().toISOString(),
+
+  purpose:
+    "Expanded autonomous source ecosystem before statewide replication.",
+
+  categories: [
+
+    {
+      category:
+        "EVENT_DISCOVERY",
+
+      description:
+        "Motorcycle event/rally/show discovery systems.",
+
+      sources: [
+        {
+          source_id: "BD_SRC_EVENT_001",
+          source_name: "CycleFish",
+          source_type: "EVENT_CALENDAR",
+          discovery_priority: "HIGH",
+          autonomous_refresh_supported: true,
+          candidate_only_until_validated: true
+        },
+        {
+          source_id: "BD_SRC_EVENT_002",
+          source_name: "LightningCustoms",
+          source_type: "EVENT_CALENDAR",
+          discovery_priority: "HIGH",
+          autonomous_refresh_supported: true,
+          candidate_only_until_validated: true
+        },
+        {
+          source_id: "BD_SRC_EVENT_003",
+          source_name: "RiderClubs Events",
+          source_type: "EVENT_DIRECTORY",
+          discovery_priority: "HIGH",
+          autonomous_refresh_supported: true,
+          candidate_only_until_validated: true
+        },
+        {
+          source_id: "BD_SRC_EVENT_004",
+          source_name: "Eventbrite Motorcycle Events",
+          source_type: "PUBLIC_EVENT_DISCOVERY",
+          discovery_priority: "MEDIUM",
+          autonomous_refresh_supported: true,
+          candidate_only_until_validated: true
+        },
+        {
+          source_id: "BD_SRC_EVENT_005",
+          source_name: "Meetup Riding Groups",
+          source_type: "GROUP_EVENT_DISCOVERY",
+          discovery_priority: "MEDIUM",
+          autonomous_refresh_supported: true,
+          candidate_only_until_validated: true
+        }
+      ]
+    },
+
+    {
+      category:
+        "MOTORCYCLE_MEDIA",
+
+      description:
+        "Digital propagation and creator ecosystems.",
+
+      sources: [
+        {
+          source_id: "BD_SRC_MEDIA_001",
+          source_name: "Motorcycle Podcasts",
+          source_type: "PODCAST_DIRECTORY",
+          discovery_priority: "HIGH",
+          propagation_capable: true
+        },
+        {
+          source_id: "BD_SRC_MEDIA_002",
+          source_name: "YouTube Motorcycle Creators",
+          source_type: "CREATOR_NETWORK",
+          discovery_priority: "HIGH",
+          propagation_capable: true
+        },
+        {
+          source_id: "BD_SRC_MEDIA_003",
+          source_name: "Instagram Biker Brands",
+          source_type: "SOCIAL_BRAND_DISCOVERY",
+          discovery_priority: "HIGH",
+          propagation_capable: true
+        },
+        {
+          source_id: "BD_SRC_MEDIA_004",
+          source_name: "TikTok Motorcycle Creators",
+          source_type: "SHORTFORM_CREATOR_DISCOVERY",
+          discovery_priority: "MEDIUM",
+          propagation_capable: true
+        },
+        {
+          source_id: "BD_SRC_MEDIA_005",
+          source_name: "Motorcycle Magazine Networks",
+          source_type: "PUBLICATION_NETWORK",
+          discovery_priority: "HIGH",
+          propagation_capable: true
+        },
+        {
+          source_id: "BD_SRC_MEDIA_006",
+          source_name: "Reddit Motorcycle Communities",
+          source_type: "COMMUNITY_DISCUSSION_NETWORK",
+          discovery_priority: "MEDIUM",
+          propagation_capable: true
+        },
+        {
+          source_id: "BD_SRC_MEDIA_007",
+          source_name: "Motorcycle Discord Communities",
+          source_type: "COMMUNITY_CHAT_NETWORK",
+          discovery_priority: "MEDIUM",
+          propagation_capable: true
+        }
+      ]
+    },
+
+    {
+      category:
+        "DEALERSHIP_NETWORKS",
+
+      description:
+        "Retail and physical placement ecosystems.",
+
+      sources: [
+        {
+          source_id: "BD_SRC_DEALER_001",
+          source_name: "Harley-Davidson Dealer Network",
+          source_type: "DEALER_DIRECTORY",
+          discovery_priority: "HIGH"
+        },
+        {
+          source_id: "BD_SRC_DEALER_002",
+          source_name: "Indian Motorcycle Dealers",
+          source_type: "DEALER_DIRECTORY",
+          discovery_priority: "HIGH"
+        },
+        {
+          source_id: "BD_SRC_DEALER_003",
+          source_name: "BMW Motorrad Dealers",
+          source_type: "DEALER_DIRECTORY",
+          discovery_priority: "MEDIUM"
+        },
+        {
+          source_id: "BD_SRC_DEALER_004",
+          source_name: "Metric Motorcycle Dealers",
+          source_type: "DEALER_DIRECTORY",
+          discovery_priority: "MEDIUM"
+        },
+        {
+          source_id: "BD_SRC_DEALER_005",
+          source_name: "PowerSports Dealer Registries",
+          source_type: "POWERSPORTS_DIRECTORY",
+          discovery_priority: "MEDIUM"
+        }
+      ]
+    },
+
+    {
+      category:
+        "VETERAN_AND_LEMC_NETWORKS",
+
+      description:
+        "Veteran, law enforcement, and rider brotherhood ecosystems.",
+
+      sources: [
+        {
+          source_id: "BD_SRC_VET_001",
+          source_name: "CVMA Chapters",
+          source_type: "VETERAN_MC_NETWORK",
+          discovery_priority: "HIGH"
+        },
+        {
+          source_id: "BD_SRC_VET_002",
+          source_name: "Patriot Guard Riders",
+          source_type: "VETERAN_RIDER_NETWORK",
+          discovery_priority: "HIGH"
+        },
+        {
+          source_id: "BD_SRC_VET_003",
+          source_name: "LEMC Directories",
+          source_type: "LAW_ENFORCEMENT_MC_NETWORK",
+          discovery_priority: "HIGH"
+        },
+        {
+          source_id: "BD_SRC_VET_004",
+          source_name: "Veteran Motorcycle Associations",
+          source_type: "VETERAN_ASSOCIATION_NETWORK",
+          discovery_priority: "HIGH"
+        }
+      ]
+    },
+
+    {
+      category:
+        "COMMUNITY_VENUES",
+
+      description:
+        "Persistent biker gathering anchors and local influence nodes.",
+
+      sources: [
+        {
+          source_id: "BD_SRC_COMMUNITY_001",
+          source_name: "Bike Nights",
+          source_type: "COMMUNITY_EVENT_NETWORK",
+          discovery_priority: "HIGH"
+        },
+        {
+          source_id: "BD_SRC_COMMUNITY_002",
+          source_name: "Tattoo and Barber Anchors",
+          source_type: "CULTURE_ANCHOR_NETWORK",
+          discovery_priority: "MEDIUM"
+        },
+        {
+          source_id: "BD_SRC_COMMUNITY_003",
+          source_name: "Motorcycle Cafes",
+          source_type: "MOTO_COMMUNITY_VENUE",
+          discovery_priority: "HIGH"
+        },
+        {
+          source_id: "BD_SRC_COMMUNITY_004",
+          source_name: "Moto Community Venues",
+          source_type: "COMMUNITY_GATHERING_VENUE",
+          discovery_priority: "HIGH"
+        }
+      ]
+    }
+  ],
+
+  hardlocks: {
+    no_auto_contact: true,
+    no_auto_promotion: true,
+    quarantine_before_runtime: true,
+    verified_route_required: true
+  }
+};
+
+const out = path.join(
+  ROOT,
+  "public/data/clients/black_dragon/database_expansion/registries/database_source_registry.json"
+);
+
+fs.writeFileSync(
+  out,
+  JSON.stringify(registry, null, 2),
+  "utf8"
+);
+
+console.log(JSON.stringify({
+  status:
+    "DATABASE_SOURCE_REGISTRY_COMPLETE",
+
+  categories:
+    registry.categories.length,
+
+  total_sources:
+    registry.categories.reduce(
+      (sum, c) => sum + c.sources.length,
+      0
+    ),
+
+  output:
+    out
+}, null, 2));

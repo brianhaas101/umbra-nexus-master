@@ -1,0 +1,35 @@
+[
+    {
+        "queue_id":  "QUEUE_LV_ENTITY_001",
+        "entity_id":  "LV_ENTITY_001",
+        "entity_name":  "Las Vegas Metropolitan Police Department",
+        "city":  "Las Vegas",
+        "state":  "Nevada",
+        "review_type":  "MANUAL_CONTACT_REVIEW",
+        "review_status":  "PENDING",
+        "runtime_promotion_allowed":  false,
+        "outbound_contact_allowed":  false
+    },
+    {
+        "queue_id":  "QUEUE_LV_ENTITY_002",
+        "entity_id":  "LV_ENTITY_002",
+        "entity_name":  "Clark County Emergency Management",
+        "city":  "Las Vegas",
+        "state":  "Nevada",
+        "review_type":  "MANUAL_CONTACT_REVIEW",
+        "review_status":  "PENDING",
+        "runtime_promotion_allowed":  false,
+        "outbound_contact_allowed":  false
+    },
+    {
+        "queue_id":  "QUEUE_LV_ENTITY_003",
+        "entity_id":  "LV_ENTITY_003",
+        "entity_name":  "Nevada POST",
+        "city":  "Las Vegas",
+        "state":  "Nevada",
+        "review_type":  "MANUAL_CONTACT_REVIEW",
+        "review_status":  "PENDING",
+        "runtime_promotion_allowed":  false,
+        "outbound_contact_allowed":  false
+    }
+]

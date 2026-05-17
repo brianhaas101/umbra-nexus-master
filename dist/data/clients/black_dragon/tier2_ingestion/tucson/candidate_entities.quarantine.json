@@ -1,0 +1,432 @@
+{
+    "version":  "black_dragon_tucson_quarantined_candidate_entities_v1",
+    "generated_at":  "2026-05-11T06:29:07.2833161Z",
+    "city":  "Tucson",
+    "folder":  "tucson",
+    "entities":  [
+                     {
+                         "entity_id":  "candidate_entity_570001c36717423eb924596bcfc09ece",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\dedupe\\tucson_regional_dedupe.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\dedupe\\tucson_regional_dedupe.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_a3f89eadc279400d998ad7a0efafe4fc",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\imports\\tucson_discovery_import.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\imports\\tucson_discovery_import.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_6655495894d34f2e8c589c14a811589e",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\validated\\tucson_validated_candidates.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\validated\\tucson_validated_candidates.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_a90c3d19e54f4bcf998dda9f1189f1d2",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\dossiers\\tucson_runtime_dossiers.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\dossiers\\tucson_runtime_dossiers.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_5105956236584fbfb610fbb99c663167",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\map_nodes\\tucson_runtime_map_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\map_nodes\\tucson_runtime_map_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_57040f75a9ba4f658cd28f178caebe2a",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\merged\\tucson_merged_city_entities.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\merged\\tucson_merged_city_entities.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_8fb7966abf484527a6ec76c75e80b79b",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\ui\\node_cards\\tucson_client_node_cards.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\ui\\node_cards\\tucson_client_node_cards.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_43b373d28cf847d5b2e40893b3f99978",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\ui\\propagation_feed\\tucson_client_propagation_feed.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\ui\\propagation_feed\\tucson_client_propagation_feed.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_cb73c16454dd45c9b948c6127432408f",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\edges\\tucson_graph_edges.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\edges\\tucson_graph_edges.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_7250f78f0b6c4b72a330c64f250b15a6",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\nodes\\tucson_graph_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\nodes\\tucson_graph_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_1e08253734e44ee296d453ceee7fd7e8",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\paths\\tucson_propagation_paths.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\paths\\tucson_propagation_paths.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_d0652723669d4a9f8f16e85241362246",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\scores\\tucson_graph_influence_scores.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\scores\\tucson_graph_influence_scores.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "tucson_convergence_entity_4b8b1489ae6b41fe9dbbd7ec552fdddb",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.6,
+                         "confidence_basis":  [
+                                                  "tucson_density_convergence",
+                                                  "manual_review_required",
+                                                  "not_runtime_promoted"
+                                              ],
+                         "provenance":  {
+                                            "generated_by_batch":  "243",
+                                            "purpose":  "close_tucson_organization_density_gap"
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_TUCSON_ORGANIZATION_CONVERGENCE_CANDIDATE"
+                     },
+                     {
+                         "entity_id":  "tucson_convergence_entity_e5ab00b9efed41969dc553fc723cdede",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.6,
+                         "confidence_basis":  [
+                                                  "tucson_density_convergence",
+                                                  "manual_review_required",
+                                                  "not_runtime_promoted"
+                                              ],
+                         "provenance":  {
+                                            "generated_by_batch":  "243",
+                                            "purpose":  "close_tucson_organization_density_gap"
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_TUCSON_ORGANIZATION_CONVERGENCE_CANDIDATE"
+                     },
+                     {
+                         "entity_id":  "tucson_convergence_entity_ba69107bf1244dbd8e0be71a68bfc121",
+                         "city":  "Tucson",
+                         "folder":  "tucson",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.6,
+                         "confidence_basis":  [
+                                                  "tucson_density_convergence",
+                                                  "manual_review_required",
+                                                  "not_runtime_promoted"
+                                              ],
+                         "provenance":  {
+                                            "generated_by_batch":  "243",
+                                            "purpose":  "close_tucson_organization_density_gap"
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_TUCSON_ORGANIZATION_CONVERGENCE_CANDIDATE"
+                     }
+                 ],
+    "status":  "ORGANIZATION_CANDIDATES_QUARANTINED"
+}

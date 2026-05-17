@@ -1,0 +1,18 @@
+{
+  "version": "black_dragon_books_kpi_config_v1",
+
+  "assumptions": {
+
+    "average_book_price": 29.95,
+
+    "hot_lead_conversion_rate": 0.22,
+    "warm_lead_conversion_rate": 0.11,
+    "review_lead_conversion_rate": 0.03,
+
+    "average_bulk_order_size": 18,
+
+    "endorsement_multiplier_hot": 24,
+    "endorsement_multiplier_warm": 10,
+    "endorsement_multiplier_review": 3
+  }
+}

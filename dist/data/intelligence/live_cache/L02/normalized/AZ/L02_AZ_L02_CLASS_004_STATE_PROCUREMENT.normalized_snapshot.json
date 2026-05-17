@@ -1,0 +1,296 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:19.765Z",
+  "layer_id": "L02",
+  "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "AZ",
+  "source_type": "STATE_PROCUREMENT",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "State Procurement Office",
+        "href": "https://spo.az.gov/",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Cooperative Contracts",
+        "href": "https://spo.az.gov/contracts?field_co_op_designation_value=1",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "How to Find Supplier Contact Information",
+        "href": "https://spo.az.gov/sites/default/files/2025-09/Finding%20Supplier%20Contact%20Information%20for%20Cooperative%20Contracts.pdf",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Set Aside Contracts",
+        "href": "https://spo.az.gov/contracts?field_set_aside_value=1",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Contracts",
+        "href": "https://spo.az.gov/contracts",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Contracts",
+        "href": "https://spo.az.gov/contracts",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Upcoming Bids",
+        "href": "https://spo.az.gov/contracts/upcoming-bids",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Construction Services",
+        "href": "https://spo.az.gov/contracts/construction-services",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Procurement &amp; Purchasing",
+        "href": "https://spo.az.gov/procurement-purchasing",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "AZ",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://spo.az.gov",
+        "raw_snapshot_hash": "230548cb6f2429816198843855af0cdfbbdeeaab213fdea4b14a50b925bfe46a",
+        "parser_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Significant Procurement Roles",
+        "href": "https://spo.az.gov/significant-procurement-role",
+        "record_type": "state_procurement_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_001",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_002",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_003",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_004",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_005",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_006",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_007",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_008",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_009",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_010",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_001",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_002",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_003",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_004",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_005",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_006",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_007",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_008",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_009",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_AZ_L02_CLASS_004_STATE_PROCUREMENT_SCORE_010",
+      "score_delta": 9,
+      "confidence": 0.91
+    }
+  ],
+  "normalized_snapshot_hash": "62ba83d2694b3ccd5867b5b55b0f7257166ff506c4e40c74ff2d3001aa2705db"
+}

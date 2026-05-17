@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Black Dragon Setup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    window.UMBRA_CLIENT_KEY = "black_dragon";
+    window.UMBRA_SETUP_MODE = true;
+  </script>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="content-view-card" style="max-width:720px;margin:10vh auto;padding:32px;">
+    <h1>Black Dragon Nexus Access</h1>
+    <p>Complete setup to access your Nexus workspace.</p>
+
+    <div class="content-grid">
+      <input id="profileName" class="content-input" placeholder="Name" />
+      <input id="profileEmail" class="content-input" placeholder="Email" />
+      <input id="profileCompany" class="content-input" placeholder="Company" value="Black Dragon" />
+      <input id="profileRole" class="content-input" placeholder="Role" />
+    </div>
+
+    <button id="saveSetup" class="btn-ghost" type="button" style="margin-top:24px;">Save Setup</button>
+
+    <pre id="setupStatus" style="margin-top:24px;"></pre>
+  </main>
+
+  <script>
+    document.getElementById("saveSetup").addEventListener("click", () => {
+      const profile = {
+        client_id: "black_dragon",
+        name: document.getElementById("profileName").value.trim(),
+        email: document.getElementById("profileEmail").value.trim(),
+        company: document.getElementById("profileCompany").value.trim(),
+        role: document.getElementById("profileRole").value.trim(),
+        setup_complete: true,
+        created_at: new Date().toISOString()
+      };
+
+      localStorage.setItem("umbra_client_profile_black_dragon", JSON.stringify(profile));
+      localStorage.setItem("umbra_active_client", "black_dragon");
+      localStorage.setItem("umbra_runtime_role", "CLIENT_OPERATOR");
+
+      document.getElementById("setupStatus").textContent =
+        "Setup saved. Launching Nexus workspace...";
+
+      setTimeout(() => {
+        window.location.assign("/");
+      }, 1200);
+    });
+  </script>
+</body>
+</html>
+
+

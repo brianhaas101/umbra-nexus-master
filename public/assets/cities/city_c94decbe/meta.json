@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_c94decbe",
+    "name":  "Fresno, CA",
+    "center_lat":  36.7378,
+    "center_lon":  -119.7871,
+    "bounds":  {
+                   "north":  37.0206,
+                   "south":  36.4779,
+                   "east":  -119.5019,
+                   "west":  -120.0724
+               },
+    "width_m":  51000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_c94decbe/base.png"
+}

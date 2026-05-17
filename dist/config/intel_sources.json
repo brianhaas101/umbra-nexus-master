@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "description": "Source registry for Umbra Nexus intelligence pipelines.",
+  "sources": {
+    "census_demographics": {
+      "enabled": true,
+      "type": "api",
+      "notes": "ACS 5-year Census API feeding areaMedianIncome, populationDensity, homeownershipRate."
+    },
+    "property_records": {
+      "enabled": false,
+      "type": "api_or_import",
+      "notes": "County assessor / property appraiser data or CSV imports."
+    },
+    "business_registries": {
+      "enabled": false,
+      "type": "api_or_import",
+      "notes": "State SOS / licensing registries, contractor licenses, etc."
+    },
+    "legal_records": {
+      "enabled": false,
+      "type": "api_or_import",
+      "notes": "Liens, court dockets, bankruptcies (public only)."
+    },
+    "review_platforms": {
+      "enabled": false,
+      "type": "scrape_or_partner",
+      "notes": "Google reviews, Yelp, Facebook page reviews where allowed."
+    }
+  }
+}

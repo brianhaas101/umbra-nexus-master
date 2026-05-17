@@ -1,0 +1,57 @@
+{
+  "version": "black_dragon_visible_organization_manifest_v1",
+  "generated_at": "2026-05-10T18:11:11.274Z",
+  "total_visible_organizations": 5,
+  "organizations": [
+    {
+      "organization_name": "California Commission on Peace Officer Standards and Training",
+      "city": "UNSPECIFIED_CITY",
+      "state": "UNSPECIFIED_STATE",
+      "verified_source_status": "VERIFIED_PUBLIC_SOURCE",
+      "verified_contact_route_status": "VERIFIED_CONTACT_ROUTE",
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "engagement_state": "NO_CONTACT_ACTIVITY"
+    },
+    {
+      "organization_name": "Oregon Department of Public Safety Standards and Training",
+      "city": "UNSPECIFIED_CITY",
+      "state": "UNSPECIFIED_STATE",
+      "verified_source_status": "VERIFIED_PUBLIC_SOURCE",
+      "verified_contact_route_status": "VERIFIED_CONTACT_ROUTE",
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "engagement_state": "NO_CONTACT_ACTIVITY"
+    },
+    {
+      "organization_name": "Oregon DPSST Academy Operations",
+      "city": "UNSPECIFIED_CITY",
+      "state": "UNSPECIFIED_STATE",
+      "verified_source_status": "VERIFIED_PUBLIC_SOURCE",
+      "verified_contact_route_status": "VERIFIED_CONTACT_ROUTE",
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "engagement_state": "NO_CONTACT_ACTIVITY"
+    },
+    {
+      "organization_name": "Florida Criminal Justice Standards & Training Commission",
+      "city": "UNSPECIFIED_CITY",
+      "state": "UNSPECIFIED_STATE",
+      "verified_source_status": "VERIFIED_PUBLIC_SOURCE",
+      "verified_contact_route_status": "VERIFIED_CONTACT_ROUTE",
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "engagement_state": "NO_CONTACT_ACTIVITY"
+    },
+    {
+      "organization_name": "FDLE Training Curriculum Contacts",
+      "city": "UNSPECIFIED_CITY",
+      "state": "UNSPECIFIED_STATE",
+      "verified_source_status": "VERIFIED_PUBLIC_SOURCE",
+      "verified_contact_route_status": "VERIFIED_CONTACT_ROUTE",
+      "dossier_visible": true,
+      "city_map_visible": true,
+      "engagement_state": "NO_CONTACT_ACTIVITY"
+    }
+  ]
+}

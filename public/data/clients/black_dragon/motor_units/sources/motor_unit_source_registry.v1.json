@@ -1,0 +1,87 @@
+{
+  "version": "black_dragon_motor_unit_source_registry_v1_batch_073",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "source_categories": [
+    {
+      "source_id": "BD_MOTOR_SRC_001",
+      "category": "POLICE_MOTOR_UNIT",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "priority_weight": 0.97,
+      "supports_training_adoption": true,
+      "supports_bulk_orders": true,
+      "supports_institutional_relationships": true,
+      "supports_event_presence": true
+    },
+    {
+      "source_id": "BD_MOTOR_SRC_002",
+      "category": "SHERIFF_MOTOR_DIVISION",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "priority_weight": 0.96,
+      "supports_training_adoption": true,
+      "supports_bulk_orders": true,
+      "supports_institutional_relationships": true,
+      "supports_event_presence": true
+    },
+    {
+      "source_id": "BD_MOTOR_SRC_003",
+      "category": "STATE_POLICE_MOTOR_UNIT",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "priority_weight": 0.95,
+      "supports_training_adoption": true,
+      "supports_bulk_orders": true,
+      "supports_institutional_relationships": true,
+      "supports_event_presence": true
+    },
+    {
+      "source_id": "BD_MOTOR_SRC_004",
+      "category": "TRAFFIC_ENFORCEMENT_MOTOR_TEAM",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "priority_weight": 0.90,
+      "supports_training_adoption": true,
+      "supports_bulk_orders": true,
+      "supports_institutional_relationships": true,
+      "supports_event_presence": false
+    },
+    {
+      "source_id": "BD_MOTOR_SRC_005",
+      "category": "MOTORCYCLE_OFFICER_ASSOCIATION",
+      "entity_class": "MOTOR_UNIT_NODE",
+      "priority_weight": 0.94,
+      "supports_training_adoption": true,
+      "supports_bulk_orders": true,
+      "supports_institutional_relationships": true,
+      "supports_event_presence": true
+    },
+    {
+      "source_id": "BD_MOTOR_SRC_006",
+      "category": "POLICE_MOTOR_TRAINING_PROGRAM",
+      "entity_class": "TRAINING_NODE",
+      "priority_weight": 0.96,
+      "supports_training_adoption": true,
+      "supports_bulk_orders": true,
+      "supports_institutional_relationships": true,
+      "supports_event_presence": true
+    },
+    {
+      "source_id": "BD_MOTOR_SRC_007",
+      "category": "LAW_ENFORCEMENT_TRAINING_COORDINATOR",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "priority_weight": 0.93,
+      "supports_training_adoption": true,
+      "supports_bulk_orders": true,
+      "supports_institutional_relationships": true,
+      "supports_event_presence": false
+    },
+    {
+      "source_id": "BD_MOTOR_SRC_008",
+      "category": "GANG_INTELLIGENCE_TRAINING_UNIT",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "priority_weight": 0.98,
+      "supports_training_adoption": true,
+      "supports_bulk_orders": true,
+      "supports_institutional_relationships": true,
+      "supports_event_presence": false
+    }
+  ]
+}

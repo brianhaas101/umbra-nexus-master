@@ -1,0 +1,27 @@
+{
+  "version": "nexus_live_raw_snapshot_v1",
+  "captured_at": "2026-05-08T01:59:08.253Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_002_SAM_GOV",
+  "connector_id": "L01_LIVE_CONNECTOR_002_L01_SRC_002_SAM_GOV",
+  "adapter_id": "L01_FETCH_ADAPTER_002",
+  "source_name": "SAM.gov Contract Opportunities",
+  "acquisition_mode": "public_html",
+  "endpoint": "https://sam.gov/search/",
+  "request": {
+    "method": "GET",
+    "query": "index=opp&sort=-modifiedDate&page=1&pageSize=10"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "body_type": "html_reference",
+    "body": {
+      "source_url": "https://sam.gov/search/?index=opp&sort=-modifiedDate&page=1&pageSize=10",
+      "capture_mode": "PUBLIC_HTML_REFERENCE_STUB",
+      "reason": "SAM.gov public search page requires browser/API-key-specific extraction in later adapter pass"
+    }
+  },
+  "status": "FETCH_REFERENCE_READY",
+  "source_hash": "6b7dd0175fa701ef7eeb133b8e2d0b4be13d6886338fd01ab66af39f57c262f3"
+}

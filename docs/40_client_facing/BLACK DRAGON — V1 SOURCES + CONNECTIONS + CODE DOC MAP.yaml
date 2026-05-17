@@ -1,0 +1,903 @@
+BLACK DRAGON — V1 SOURCES + CONNECTIONS + CODE DOC MAP
+
+PURPOSE:
+This document defines the V1 source stack for Black Dragon’s Nexus account and maps each source category to the code/docs/folders that should be built from or expanded over time.
+
+GOAL:
+Build a nationwide law-enforcement/public-safety intelligence layer where every major city on the Nexus map can show relevant targets with:
+- agency name
+- agency type
+- city_id
+- lat/lon
+- source support
+- score
+- score trace
+- dossier explanation
+
+==================================================
+SECTION 1 — V1 SOURCE STACK
+==================================================
+
+V1 should not try to include every possible source immediately.
+
+V1 target:
+- Federal sources: 8–12
+- State sources: 1–3 per priority state
+- City/county sources: 2–5 per major city
+- Manual enrichment: allowed and expected
+
+Minimum V1 goal:
+- Every major city has at least 1–3 Black Dragon targets
+- Priority cities have 3–5 targets
+- Every target has lat/lon
+- Every target has a score
+- Every score has an explanation
+
+==================================================
+SECTION 2 — FEDERAL SOURCES
+==================================================
+
+1. HIFLD LOCAL LAW ENFORCEMENT LOCATIONS
+
+USE:
+- Core law enforcement location backbone
+- agency names
+- facility locations
+- lat/lon
+- nationwide coverage
+
+CONNECTION:
+HIFLD feeds the base entity layer.
+
+TARGET CODE DOC:
+public/globe/intel/sources/hifld.loader.js
+
+DATA FILE:
+public/data/sources/hifld_law_enforcement.geojson
+
+OUTPUT FIELDS:
+- name
+- type
+- agency_type
+- city
+- state
+- lat
+- lon
+- source: hifld
+
+SCORING SIGNALS:
+- law_enforcement_density
+- agency_presence
+- city_coverage
+
+--------------------------------------------------
+
+2. BJS CSLLEA / LAW ENFORCEMENT AGENCY DATA
+
+USE:
+- agency size
+- sworn officer count
+- civilian staff count
+- population served
+- agency classification
+
+CONNECTION:
+BJS enriches entities already loaded from HIFLD or manual records.
+
+TARGET CODE DOC:
+public/globe/intel/sources/bjs.loader.js
+
+DATA FILE:
+public/data/sources/bjs_agencies.json
+
+OUTPUT FIELDS:
+- agency_size
+- sworn_officers
+- population_served
+- agency_type
+- source: bjs
+
+SCORING SIGNALS:
+- agency_size
+- budget_likelihood
+- operational_capacity
+
+--------------------------------------------------
+
+3. FBI CRIME DATA EXPLORER
+
+USE:
+- crime/activity context
+- jurisdiction-level activity
+- agency participation
+- regional public safety demand
+
+CONNECTION:
+FBI data adds activity indicators to city/agency profiles.
+
+TARGET CODE DOC:
+public/globe/intel/sources/fbi.loader.js
+
+DATA FILE/API:
+FBI Crime Data API or cached local JSON
+
+CACHE FILE:
+public/data/sources/fbi_activity_cache.json
+
+OUTPUT FIELDS:
+- activity_index
+- crime_activity_signal
+- agency_participation
+- source: fbi_cde
+
+SCORING SIGNALS:
+- regional_activity
+- training_demand
+- operational_need
+
+--------------------------------------------------
+
+4. U.S. CENSUS
+
+USE:
+- city population
+- county population
+- density proxy
+- population served context
+
+CONNECTION:
+Census enriches cities and helps score market size.
+
+TARGET CODE DOC:
+public/globe/intel/sources/census.loader.js
+
+CACHE FILE:
+public/data/sources/census_city_context.json
+
+OUTPUT FIELDS:
+- population
+- density_proxy
+- city_size_band
+- source: census
+
+SCORING SIGNALS:
+- market_size
+- agency_demand
+- population_pressure
+
+--------------------------------------------------
+
+5. SAM.GOV / FEDERAL PROCUREMENT
+
+USE:
+- federal training contracts
+- procurement signals
+- public safety spending behavior
+
+CONNECTION:
+Procurement data is used as a budget/training demand signal.
+
+TARGET CODE DOC:
+public/globe/intel/sources/procurement.loader.js
+
+DATA FILE:
+public/data/sources/procurement_public_safety.json
+
+OUTPUT FIELDS:
+- procurement_signal
+- contract_type
+- amount_estimate
+- source: sam_gov
+
+SCORING SIGNALS:
+- budget_capacity
+- procurement_readiness
+- training_purchase_likelihood
+
+--------------------------------------------------
+
+6. DOJ / COPS / PUBLIC SAFETY GRANTS
+
+USE:
+- grant activity
+- police funding
+- public safety investment
+
+CONNECTION:
+Grant data strengthens budget and readiness scores.
+
+TARGET CODE DOC:
+public/globe/intel/sources/grants.loader.js
+
+DATA FILE:
+public/data/sources/public_safety_grants.json
+
+OUTPUT FIELDS:
+- grant_signal
+- funding_type
+- funding_amount
+- source: doj_grants
+
+SCORING SIGNALS:
+- budget_capacity
+- active_funding
+- institutional_readiness
+
+==================================================
+SECTION 3 — STATE SOURCES
+==================================================
+
+Each priority state should eventually have:
+
+1. STATE POST / OFFICER TRAINING BOARD
+
+USE:
+- training requirements
+- certification rules
+- continuing education needs
+- academy programs
+
+CONNECTION:
+State POST data supports the training demand layer.
+
+TARGET CODE DOC:
+public/globe/intel/sources/state_training.loader.js
+
+DATA FILE:
+public/data/sources/state_training_requirements.json
+
+OUTPUT FIELDS:
+- state
+- training_requirement_signal
+- continuing_education_required
+- academy_presence
+- source: state_post
+
+SCORING SIGNALS:
+- training_demand
+- compliance_pressure
+- recurring_training_need
+
+--------------------------------------------------
+
+2. STATE POLICE / DPS / PUBLIC SAFETY AGENCY
+
+USE:
+- state law enforcement structure
+- statewide initiatives
+- regional activity
+- public safety programs
+
+CONNECTION:
+Adds state-level context to city/agency scoring.
+
+TARGET CODE DOC:
+public/globe/intel/sources/state_public_safety.loader.js
+
+DATA FILE:
+public/data/sources/state_public_safety_context.json
+
+OUTPUT FIELDS:
+- state
+- statewide_activity_signal
+- program_signal
+- source: state_public_safety
+
+SCORING SIGNALS:
+- regional_activity
+- public_safety_priority
+- operational_need
+
+--------------------------------------------------
+
+3. STATE PROCUREMENT PORTAL
+
+USE:
+- public safety purchases
+- training vendor history
+- procurement patterns
+
+CONNECTION:
+Adds buying behavior to agencies/states.
+
+TARGET CODE DOC:
+public/globe/intel/sources/state_procurement.loader.js
+
+DATA FILE:
+public/data/sources/state_procurement.json
+
+OUTPUT FIELDS:
+- state
+- agency
+- procurement_signal
+- training_contract_signal
+- source: state_procurement
+
+SCORING SIGNALS:
+- budget_capacity
+- purchase_likelihood
+- procurement_readiness
+
+--------------------------------------------------
+
+4. STATE SHERIFF ASSOCIATION
+
+USE:
+- sheriff directory
+- leadership
+- county coverage
+- association structure
+
+CONNECTION:
+Adds sheriff target discovery and contact direction.
+
+TARGET CODE DOC:
+public/globe/intel/sources/association.loader.js
+
+DATA FILE:
+public/data/sources/sheriff_associations.json
+
+OUTPUT FIELDS:
+- agency
+- county
+- state
+- association_signal
+- contact_url
+- source: sheriff_association
+
+SCORING SIGNALS:
+- outreach_readiness
+- target_discovery
+- agency_network_value
+
+--------------------------------------------------
+
+5. STATE POLICE CHIEFS ASSOCIATION
+
+USE:
+- police department directory
+- chief/command staff references
+- local department discovery
+
+CONNECTION:
+Adds local target discovery and outreach paths.
+
+TARGET CODE DOC:
+public/globe/intel/sources/association.loader.js
+
+DATA FILE:
+public/data/sources/police_chief_associations.json
+
+OUTPUT FIELDS:
+- department
+- city
+- state
+- contact_url
+- source: police_chiefs_association
+
+SCORING SIGNALS:
+- outreach_readiness
+- target_discovery
+- decision_maker_access
+
+==================================================
+SECTION 4 — CITY / COUNTY SOURCES
+==================================================
+
+Each major city should eventually use:
+
+1. OFFICIAL POLICE DEPARTMENT WEBSITE
+
+USE:
+- agency verification
+- leadership
+- divisions
+- training references
+- contact pages
+
+CONNECTION:
+Official website validates entity existence and outreach readiness.
+
+TARGET CODE DOC:
+public/globe/intel/sources/official_agency.loader.js
+
+DATA FILE:
+public/data/sources/official_agency_profiles.json
+
+OUTPUT FIELDS:
+- website
+- contact_url
+- command_staff_signal
+- division_signal
+- source: official_agency_site
+
+SCORING SIGNALS:
+- confidence
+- outreach_readiness
+- agency_complexity
+
+--------------------------------------------------
+
+2. COUNTY SHERIFF WEBSITE
+
+USE:
+- sheriff office verification
+- county jail/patrol responsibilities
+- leadership
+- training or public safety programs
+
+CONNECTION:
+Sheriff data creates county-level targets.
+
+TARGET CODE DOC:
+public/globe/intel/sources/official_agency.loader.js
+
+DATA FILE:
+public/data/sources/county_sheriff_profiles.json
+
+OUTPUT FIELDS:
+- agency_name
+- county
+- website
+- contact_url
+- operational_scope
+- source: sheriff_site
+
+SCORING SIGNALS:
+- operational_capacity
+- county_reach
+- outreach_readiness
+
+--------------------------------------------------
+
+3. CITY / COUNTY BUDGET
+
+USE:
+- police funding
+- sheriff funding
+- public safety allocation
+- training line items when available
+
+CONNECTION:
+Budget data supports purchasing capacity.
+
+TARGET CODE DOC:
+public/globe/intel/sources/budget.loader.js
+
+DATA FILE:
+public/data/sources/local_public_safety_budgets.json
+
+OUTPUT FIELDS:
+- agency
+- city
+- county
+- budget_estimate
+- public_safety_budget_signal
+- source: local_budget
+
+SCORING SIGNALS:
+- budget_capacity
+- purchase_likelihood
+- agency_strength
+
+--------------------------------------------------
+
+4. CITY OPEN DATA / CRIME DASHBOARD
+
+USE:
+- calls for service
+- incident activity
+- crime trends
+- public safety dashboards
+
+CONNECTION:
+Open data supports regional activity and operational demand.
+
+TARGET CODE DOC:
+public/globe/intel/sources/open_data.loader.js
+
+DATA FILE:
+public/data/sources/city_open_data_activity.json
+
+OUTPUT FIELDS:
+- city
+- activity_index
+- incident_signal
+- trend_signal
+- source: city_open_data
+
+SCORING SIGNALS:
+- regional_activity
+- operational_need
+- training_demand
+
+--------------------------------------------------
+
+5. LOCAL PRESS RELEASES / PUBLIC SAFETY NEWS
+
+USE:
+- recent initiatives
+- training announcements
+- leadership changes
+- safety concerns
+- public safety campaigns
+
+CONNECTION:
+News/press signals add recency and dossier context.
+
+TARGET CODE DOC:
+public/globe/intel/sources/news_signal.loader.js
+
+DATA FILE:
+public/data/sources/local_public_safety_news.json
+
+OUTPUT FIELDS:
+- city
+- agency
+- recent_activity_signal
+- news_summary
+- date
+- source: local_news
+
+SCORING SIGNALS:
+- recency
+- outreach_timing
+- activity_context
+
+==================================================
+SECTION 5 — MANUAL / CURATED SOURCES
+==================================================
+
+1. MANUAL TARGET LIST
+
+USE:
+- handpicked priority targets
+- targets from Black Dragon’s own knowledge
+- known agencies
+- known training buyers
+- high-priority outreach targets
+
+CONNECTION:
+Manual data can override or enrich automated data.
+
+TARGET CODE DOC:
+public/globe/intel/sources/manual.loader.js
+
+DATA FILE:
+public/data/sources/manual_targets.json
+
+OUTPUT FIELDS:
+- name
+- type
+- city
+- city_id
+- state
+- lat
+- lon
+- notes
+- priority
+- source: manual
+
+SCORING SIGNALS:
+- manual_priority
+- founder_override
+- client_relevance
+
+--------------------------------------------------
+
+2. BLACK DRAGON QUESTIONNAIRE DATA
+
+USE:
+- client-specific goals
+- preferred targets
+- excluded targets
+- offer details
+- region preferences
+- tactical positioning
+
+CONNECTION:
+Questionnaire data configures the client account and scoring profile.
+
+TARGET CODE DOC:
+public/globe/intel/sources/questionnaire.loader.js
+
+DATA FILE:
+public/data/clients/black_dragon/questionnaire.json
+
+OUTPUT FIELDS:
+- client_goals
+- priority_regions
+- preferred_agencies
+- offer_type
+- exclusions
+- source: questionnaire
+
+SCORING SIGNALS:
+- client_fit
+- offer_alignment
+- target_relevance
+
+==================================================
+SECTION 6 — CODE DOC / FOLDER MAP
+==================================================
+
+Create or expand these folders:
+
+public/globe/intel/sources/
+- hifld.loader.js
+- bjs.loader.js
+- fbi.loader.js
+- census.loader.js
+- procurement.loader.js
+- grants.loader.js
+- state_training.loader.js
+- state_public_safety.loader.js
+- state_procurement.loader.js
+- association.loader.js
+- official_agency.loader.js
+- budget.loader.js
+- open_data.loader.js
+- news_signal.loader.js
+- manual.loader.js
+- questionnaire.loader.js
+- black_dragon_unified.loader.js
+
+public/data/sources/
+- hifld_law_enforcement.geojson
+- bjs_agencies.json
+- fbi_activity_cache.json
+- census_city_context.json
+- procurement_public_safety.json
+- public_safety_grants.json
+- state_training_requirements.json
+- state_public_safety_context.json
+- state_procurement.json
+- sheriff_associations.json
+- police_chief_associations.json
+- official_agency_profiles.json
+- county_sheriff_profiles.json
+- local_public_safety_budgets.json
+- city_open_data_activity.json
+- local_public_safety_news.json
+- manual_targets.json
+
+public/data/clients/black_dragon/
+- questionnaire.json
+- black_dragon_entities.v1.json
+- black_dragon_config.json
+- black_dragon_validation_report.json
+
+public/globe/intel/scoring/
+- black_dragon.scoring.js
+- black_dragon.weights.json
+
+public/globe/intel/adapters/
+- black_dragon.adapter.js
+
+docs/clients/black_dragon/
+- black_dragon_blueprint.md
+- black_dragon_sources.md
+- black_dragon_validation_checklist.md
+- black_dragon_build_log.md
+- black_dragon_dossier_language.md
+
+==================================================
+SECTION 7 — UNIFIED ENTITY SCHEMA
+==================================================
+
+Every source must normalize into this general shape:
+
+{
+  "entity_id": "BD-LEAD-0001",
+  "name": "",
+  "type": "law_enforcement",
+  "agency_type": "",
+  "city": "",
+  "city_id": "",
+  "state": "",
+  "lat": 0,
+  "lon": 0,
+  "website": "",
+  "contact_url": "",
+  "attributes": {
+    "population_served": null,
+    "sworn_officers": null,
+    "budget_estimate": null,
+    "training_signal": null,
+    "activity_signal": null,
+    "procurement_signal": null,
+    "manual_priority": null,
+    "source_refs": []
+  },
+  "scores": {
+    "umbraScore": 0
+  },
+  "_scoreTrace": {
+    "blackDragon": null
+  }
+}
+
+==================================================
+SECTION 8 — SOURCE CONNECTION MODEL
+==================================================
+
+HIFLD:
+creates base law enforcement entities with lat/lon.
+
+BJS:
+enriches agency size and population served.
+
+FBI CDE:
+adds activity/risk/training demand context.
+
+Census:
+adds city size and population context.
+
+Procurement:
+adds buying history and training purchase likelihood.
+
+DOJ/Grants:
+adds funding and budget strength.
+
+State POST:
+adds training requirement pressure.
+
+State police/DPS:
+adds statewide public safety context.
+
+State procurement:
+adds state-level buying behavior.
+
+Associations:
+adds target discovery and contact direction.
+
+Official agency sites:
+adds verification, command structure, contact paths.
+
+Budgets:
+adds purchasing capacity.
+
+Open data:
+adds city-level activity.
+
+News/press:
+adds recent activity and outreach timing.
+
+Manual:
+adds founder/client priority.
+
+Questionnaire:
+adds client-specific fit and targeting logic.
+
+==================================================
+SECTION 9 — BLACK DRAGON V1 SCORING SIGNALS
+==================================================
+
+V1 scoring categories:
+
+1. LAW ENFORCEMENT PRESENCE
+Sources:
+- HIFLD
+- ArcGIS/HIFLD equivalent
+- agency websites
+
+2. AGENCY SIZE
+Sources:
+- BJS
+- agency websites
+- budget docs
+
+3. TRAINING DEMAND
+Sources:
+- State POST
+- training calendars
+- FBI activity
+- open data
+
+4. BUDGET CAPACITY
+Sources:
+- local budgets
+- procurement portals
+- grants
+- agency size
+
+5. RECENT ACTIVITY
+Sources:
+- FBI CDE
+- open data
+- press releases
+- local news
+
+6. OUTREACH READINESS
+Sources:
+- official websites
+- association directories
+- contact pages
+
+7. CLIENT FIT
+Sources:
+- Black Dragon questionnaire
+- manual priorities
+- target type match
+
+==================================================
+SECTION 10 — V1 SOURCE PRIORITY ORDER
+==================================================
+
+Build/connect in this order:
+
+1. HIFLD law enforcement locations
+2. Manual Black Dragon targets
+3. Black Dragon questionnaire
+4. BJS agency data
+5. City/county agency websites
+6. Local budgets
+7. FBI Crime Data Explorer
+8. State POST/training boards
+9. Procurement/grants
+10. Associations
+11. Open data
+12. News/press signals
+
+Reason:
+Start with lat/lon + target existence first.
+Then add scoring quality.
+Then add recency and outreach context.
+
+==================================================
+SECTION 11 — MINIMUM V1 COMPLETION STANDARD
+==================================================
+
+Black Dragon V1 source system is usable when:
+
+- HIFLD or manual data provides lat/lon
+- every entity has a city_id
+- every major city has visible targets
+- every priority city has 3–5 targets
+- every entity has at least 2 source signals
+- every score has a trace
+- top leads are ranked
+- dossiers explain why the target matters
+- sources can be expanded later without changing schema
+
+==================================================
+SECTION 12 — DO NOT DO IN V1
+==================================================
+
+Do not:
+- build every source fully at once
+- scrape restricted/private systems
+- collect personal sensitive data
+- track private individuals
+- add new UI features during data integration
+- touch globe math
+- touch city projection math
+- score per frame
+- mutate render-layer objects directly
+
+Only:
+- load sources
+- normalize entities
+- enrich attributes
+- score once
+- validate
+- display
+
+==================================================
+SECTION 13 — SIMPLE BUILD ORDER
+==================================================
+
+1. Create source folders.
+2. Add manual_targets.json.
+3. Add questionnaire.json.
+4. Add HIFLD loader.
+5. Normalize all entities.
+6. Assign city_id.
+7. Add scoring.
+8. Generate score traces.
+9. Validate top 10.
+10. Validate city coverage.
+11. Validate dossiers.
+12. Lock client access.
+
+END OF BLACK DRAGON V1 SOURCES + CONNECTIONS DOC

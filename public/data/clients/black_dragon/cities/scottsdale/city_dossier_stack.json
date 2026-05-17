@@ -1,0 +1,29 @@
+{
+    "version":  "black_dragon_scottsdale_city_dossier_stack_v1",
+    "generated_at":  "2026-05-11T04:20:50.4153764Z",
+    "city":  {
+                 "city":  "Scottsdale",
+                 "state":  "Arizona",
+                 "state_code":  "AZ",
+                 "city_id":  "city_scottsdale_az"
+             },
+    "long_beach_semantic_role":  "city_dossier_stack",
+    "dossier_components":  {
+                               "source_registry":  "source_registry.json",
+                               "entity_schema":  "entity_schema.json",
+                               "contact_governance_policy":  "contact_governance_policy.json",
+                               "legacy_dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                               "legacy_map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                               "legacy_merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json",
+                               "canonical_runtime_summary":  ".\\public\\data\\clients\\black_dragon\\runtime\\scottsdale\\runtime_summary.json",
+                               "canonical_relationship_graph":  ".\\public\\data\\clients\\black_dragon\\runtime\\scottsdale\\relationship_graph.json"
+                           },
+    "maturity":  {
+                     "foundation_certified":  true,
+                     "long_beach_semantic_dossier_role_present":  true,
+                     "legacy_city_specific_data_preserved":  true,
+                     "runtime_entities_loaded":  false,
+                     "outbound_contact_enabled":  false,
+                     "active_runtime":  false
+                 }
+}

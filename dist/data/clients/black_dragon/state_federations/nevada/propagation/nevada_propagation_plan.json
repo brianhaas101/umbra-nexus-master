@@ -1,0 +1,20 @@
+{
+  "version": "black_dragon_nevada_propagation_plan_v1",
+  "generated_at": "2026-05-11T00:36:04.696Z",
+  "state": "Nevada",
+  "strategic_corridors": [
+    {
+      "corridor": "LAS_VEGAS_TO_SOUTHERN_CALIFORNIA",
+      "purpose": "Interstate event and rider overlap propagation."
+    },
+    {
+      "corridor": "LAS_VEGAS_TO_ARIZONA",
+      "purpose": "Cross-state propagation and southwest corridor analysis."
+    },
+    {
+      "corridor": "RENO_TO_NORTHERN_CALIFORNIA",
+      "purpose": "Northern federation bridge and expansion corridor."
+    }
+  ],
+  "statewide_goal": "Enable Nevada to operate as a certified interstate propagation bridge."
+}

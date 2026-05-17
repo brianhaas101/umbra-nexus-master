@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Los Angeles",
+    "gis": "https://geohub.lacity.org/",
+    "open_data": "https://data.lacity.org/",
+    "police": "https://www.lapdonline.org/",
+    "fire": "https://www.lafd.org/",
+    "parks": "https://www.laparks.org/",
+    "permits": "https://www.ladbs.org/",
+    "public_works": "https://dpw.lacity.org/",
+    "schools": "https://www.lausd.org/",
+    "council": "https://councildistricts.lacity.gov/"
+  },
+  {
+    "city": "San Diego",
+    "gis": "https://sdgis-sandag.opendata.arcgis.com/",
+    "open_data": "https://data.sandiego.gov/",
+    "police": "https://www.sandiego.gov/police",
+    "fire": "https://www.sandiego.gov/fire",
+    "parks": "https://www.sandiego.gov/park-and-recreation",
+    "permits": "https://www.sandiego.gov/development-services",
+    "public_works": "https://www.sandiego.gov/public-utilities",
+    "schools": "https://www.sandiegounified.org/",
+    "council": "https://www.sandiego.gov/citycouncil"
+  },
+  {
+    "city": "San Jose",
+    "gis": "https://gisdata-csj.opendata.arcgis.com/",
+    "open_data": "https://data.sanjoseca.gov/",
+    "police": "https://www.sjpd.org/",
+    "fire": "https://www.sanjoseca.gov/your-government/departments-offices/fire-department",
+    "parks": "https://www.sanjoseca.gov/your-government/departments-offices/parks-recreation-neighborhood-services",
+    "permits": "https://www.sanjoseca.gov/your-government/departments-offices/planning-building-code-enforcement",
+    "public_works": "https://www.sanjoseca.gov/your-government/departments-offices/public-works",
+    "schools": "https://www.sjusd.org/",
+    "council": "https://www.sanjoseca.gov/your-government/departments-offices/city-council"
+  },
+  {
+    "city": "Sacramento",
+    "gis": "https://data.cityofsacramento.org/",
+    "open_data": "https://data.cityofsacramento.org/",
+    "police": "https://www.cityofsacramento.org/Police",
+    "fire": "https://www.cityofsacramento.org/Fire",
+    "parks": "https://www.cityofsacramento.org/ParksandRec",
+    "permits": "https://www.cityofsacramento.org/Community-Development",
+    "public_works": "https://www.cityofsacramento.org/Public-Works",
+    "schools": "https://www.scusd.edu/",
+    "council": "https://www.cityofsacramento.org/Mayor-Council"
+  },
+  {
+    "city": "Fresno",
+    "gis": "https://gisportal.fresno.gov/",
+    "open_data": "https://www.fresno.gov/",
+    "police": "https://www.fresno.gov/police/",
+    "fire": "https://www.fresno.gov/fire/",
+    "parks": "https://www.fresno.gov/parks/",
+    "permits": "https://www.fresno.gov/darm/",
+    "public_works": "https://www.fresno.gov/publicworks/",
+    "schools": "https://www.fresnounified.org/",
+    "council": "https://www.fresno.gov/citycouncil/"
+  }
+]

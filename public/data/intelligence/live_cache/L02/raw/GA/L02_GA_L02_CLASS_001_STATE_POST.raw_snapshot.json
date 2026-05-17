@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:18.469Z",
+  "layer_id": "L02",
+  "connector_id": "L02_GA_L02_CLASS_001_STATE_POST",
+  "state_abbr": "GA",
+  "state_name": "Georgia",
+  "source_type": "POST",
+  "canonical_url": "https://gapost.org",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 92239,
+    "extracted_links": [
+      {
+        "href": "https://lms.gpostc.org/login/index.php",
+        "label": "POST Online Training"
+      },
+      {
+        "href": "https://gapost.org/divisions/training-division/",
+        "label": "Training Standards Division &nbsp;"
+      },
+      {
+        "href": "https://gapost.org/divisions/training-division/po/",
+        "label": "POST Online Training"
+      },
+      {
+        "href": "https://gapost.org/certification-requirements/",
+        "label": "POST Certifications &nbsp;"
+      },
+      {
+        "href": "https://gapost.org/certification-requirements/annual-training-requirements/",
+        "label": "Annual Training Requirements"
+      },
+      {
+        "href": "https://gapost.org/certification-requirements/basic-certifications/",
+        "label": "Basic Certifications"
+      },
+      {
+        "href": "https://gapost.org/certification-requirements/career-development/",
+        "label": "Career Development"
+      },
+      {
+        "href": "https://gapost.org/certification-requirements/advanced-specialized-certifications/",
+        "label": "Voluntary/Specialty Certifications &nbsp;"
+      },
+      {
+        "href": "https://gapost.org/certification-requirements/brazilian-jiu-jitsu-bjj-certification/",
+        "label": "Brazilian Jiu Jitsu (BJJ) Certification"
+      },
+      {
+        "href": "https://gapost.org/certification-requirements/post-certified-academies/",
+        "label": "POST Certified Academies"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "e04e1889c2c45fe9f12d725faf6dc88228a0702905b15871ddbd9744a410e0e1"
+}

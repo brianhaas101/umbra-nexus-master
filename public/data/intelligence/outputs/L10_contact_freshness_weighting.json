@@ -1,0 +1,79 @@
+{
+  "version": "nexus_L10_contact_freshness_weighting_v1",
+  "generated_at": "2026-05-07T02:38:57.897Z",
+  "total": 12,
+  "freshness": [
+    {
+      "entity_id": "AZ_PHOENIX_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_PHOENIX_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_MESA_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_MESA_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_CHANDLER_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_CHANDLER_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_GLENDALE_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_GLENDALE_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_TEMPE_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_TEMPE_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_TUCSON_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_TUCSON_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_SURPRISE_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_SURPRISE_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "AZ_YUMA_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_AZ_YUMA_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+      "evidence_id": "EV_L10_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    },
+    {
+      "entity_id": "TX_DALLAS_POLICE_ACADEMY",
+      "evidence_id": "EV_L10_TX_DALLAS_POLICE_ACADEMY",
+      "freshness_score": 0.85,
+      "freshness_band": "FRESH"
+    }
+  ]
+}

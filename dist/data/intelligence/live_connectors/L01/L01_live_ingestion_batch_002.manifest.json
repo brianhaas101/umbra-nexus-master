@@ -1,0 +1,101 @@
+{
+  "version": "nexus_L01_live_ingestion_batch_002_manifest_v1",
+  "generated_at": "2026-05-08T01:35:36.093Z",
+  "layer_id": "L01",
+  "batch_id": "L01_LIVE_BATCH_002",
+  "batch_name": "Federal funding and procurement spine",
+  "connector_count": 5,
+  "execution_mode": "deterministic_live_ready",
+  "connectors": [
+    {
+      "execution_id": "L01_BATCH_002_EXEC_001",
+      "connector_id": "L01_LIVE_CONNECTOR_001_L01_SRC_001_USA_SPENDING",
+      "source_id": "L01_SRC_001_USA_SPENDING",
+      "source_name": "USAspending Federal Award Data",
+      "acquisition_mode": "public_api",
+      "base_url": "https://api.usaspending.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_001",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_001_USA_SPENDING.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_001_USA_SPENDING.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_001_USA_SPENDING.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    },
+    {
+      "execution_id": "L01_BATCH_002_EXEC_002",
+      "connector_id": "L01_LIVE_CONNECTOR_002_L01_SRC_002_SAM_GOV",
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "source_name": "SAM.gov Contract Opportunities",
+      "acquisition_mode": "public_api",
+      "base_url": "https://sam.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_002",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_002_SAM_GOV.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_002_SAM_GOV.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_002_SAM_GOV.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    },
+    {
+      "execution_id": "L01_BATCH_002_EXEC_003",
+      "connector_id": "L01_LIVE_CONNECTOR_003_L01_SRC_003_GRANTS_GOV",
+      "source_id": "L01_SRC_003_GRANTS_GOV",
+      "source_name": "Grants.gov Funding Opportunities",
+      "acquisition_mode": "public_api",
+      "base_url": "https://www.grants.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_003",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_003_GRANTS_GOV.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_003_GRANTS_GOV.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_003_GRANTS_GOV.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    },
+    {
+      "execution_id": "L01_BATCH_002_EXEC_004",
+      "connector_id": "L01_LIVE_CONNECTOR_004_L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "source_id": "L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "source_name": "DOJ Grant Programs",
+      "acquisition_mode": "public_api",
+      "base_url": "https://www.justice.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_004",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_004_DOJ_GRANT_PROGRAMS.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_004_DOJ_GRANT_PROGRAMS.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_004_DOJ_GRANT_PROGRAMS.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    },
+    {
+      "execution_id": "L01_BATCH_002_EXEC_005",
+      "connector_id": "L01_LIVE_CONNECTOR_005_L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "source_id": "L01_SRC_005_DHS_GRANT_PROGRAMS",
+      "source_name": "DHS Grant Programs",
+      "acquisition_mode": "public_api",
+      "base_url": "https://www.dhs.gov",
+      "status": "READY",
+      "parser_id": "L01_PARSER_005",
+      "normalizer_id": "L01_FEDERAL_NORMALIZER_V1",
+      "cache_paths": {
+        "raw": "public/data/intelligence/live_cache/L01/raw/L01_SRC_005_DHS_GRANT_PROGRAMS.raw_snapshot.json",
+        "normalized": "public/data/intelligence/live_cache/L01/normalized/L01_SRC_005_DHS_GRANT_PROGRAMS.normalized_snapshot.json",
+        "state": "public/data/intelligence/live_cache/L01/state/L01_SRC_005_DHS_GRANT_PROGRAMS.state.json"
+      },
+      "lineage_required": true,
+      "deterministic_replay_required": true
+    }
+  ]
+}

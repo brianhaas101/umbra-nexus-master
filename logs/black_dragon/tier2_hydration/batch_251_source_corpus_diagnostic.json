@@ -1,0 +1,115 @@
+{
+    "batch":  "251",
+    "version":  "black_dragon_source_corpus_diagnostic_v1",
+    "generated_at":  "2026-05-11T07:34:11.2872207Z",
+    "target_cities":  [
+                          "san_antonio",
+                          "new_york_city",
+                          "new_orleans",
+                          "seattle",
+                          "houston"
+                      ],
+    "city_results":  [
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "existing_validated_sources":  1,
+                             "discovered_candidate_files":  1,
+                             "diagnostics":  {
+                                                 "duplicate_existing_sources":  1,
+                                                 "invalid_json_or_read_failed":  0,
+                                                 "city_match_failed":  0,
+                                                 "signal_failed":  0,
+                                                 "accepted_new_candidates":  0
+                                             },
+                             "accepted_preview":  [
+
+                                                  ],
+                             "rejected_preview":  [
+
+                                                  ],
+                             "likely_bottleneck":  "ALL_DISCOVERED_FILES_ALREADY_VALIDATED"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "existing_validated_sources":  1,
+                             "discovered_candidate_files":  1,
+                             "diagnostics":  {
+                                                 "duplicate_existing_sources":  1,
+                                                 "invalid_json_or_read_failed":  0,
+                                                 "city_match_failed":  0,
+                                                 "signal_failed":  0,
+                                                 "accepted_new_candidates":  0
+                                             },
+                             "accepted_preview":  [
+
+                                                  ],
+                             "rejected_preview":  [
+
+                                                  ],
+                             "likely_bottleneck":  "ALL_DISCOVERED_FILES_ALREADY_VALIDATED"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "existing_validated_sources":  1,
+                             "discovered_candidate_files":  1,
+                             "diagnostics":  {
+                                                 "duplicate_existing_sources":  1,
+                                                 "invalid_json_or_read_failed":  0,
+                                                 "city_match_failed":  0,
+                                                 "signal_failed":  0,
+                                                 "accepted_new_candidates":  0
+                                             },
+                             "accepted_preview":  [
+
+                                                  ],
+                             "rejected_preview":  [
+
+                                                  ],
+                             "likely_bottleneck":  "ALL_DISCOVERED_FILES_ALREADY_VALIDATED"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "existing_validated_sources":  1,
+                             "discovered_candidate_files":  1,
+                             "diagnostics":  {
+                                                 "duplicate_existing_sources":  1,
+                                                 "invalid_json_or_read_failed":  0,
+                                                 "city_match_failed":  0,
+                                                 "signal_failed":  0,
+                                                 "accepted_new_candidates":  0
+                                             },
+                             "accepted_preview":  [
+
+                                                  ],
+                             "rejected_preview":  [
+
+                                                  ],
+                             "likely_bottleneck":  "ALL_DISCOVERED_FILES_ALREADY_VALIDATED"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "existing_validated_sources":  1,
+                             "discovered_candidate_files":  1,
+                             "diagnostics":  {
+                                                 "duplicate_existing_sources":  1,
+                                                 "invalid_json_or_read_failed":  0,
+                                                 "city_match_failed":  0,
+                                                 "signal_failed":  0,
+                                                 "accepted_new_candidates":  0
+                                             },
+                             "accepted_preview":  [
+
+                                                  ],
+                             "rejected_preview":  [
+
+                                                  ],
+                             "likely_bottleneck":  "ALL_DISCOVERED_FILES_ALREADY_VALIDATED"
+                         }
+                     ],
+    "status":  "PASS_SOURCE_CORPUS_DIAGNOSTIC_COMPLETE"
+}

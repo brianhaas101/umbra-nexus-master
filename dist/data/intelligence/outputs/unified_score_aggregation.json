@@ -1,0 +1,547 @@
+{
+  "version": "nexus_unified_score_aggregation_v1",
+  "generated_at": "2026-05-07T02:30:00.241Z",
+  "total_scored_entities": 12,
+  "scores": [
+    {
+      "entity_id": "AZ_PHOENIX_POLICE_DEPARTMENT",
+      "display_name": "PHOENIX POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_PHOENIX_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_PHOENIX_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_PHOENIX_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_MESA_POLICE_DEPARTMENT",
+      "display_name": "MESA POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_MESA_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_MESA_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_MESA_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_CHANDLER_POLICE_DEPARTMENT",
+      "display_name": "CHANDLER POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_CHANDLER_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_CHANDLER_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_CHANDLER_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_GLENDALE_POLICE_DEPARTMENT",
+      "display_name": "GLENDALE POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_GLENDALE_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_GLENDALE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_GLENDALE_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_TEMPE_POLICE_DEPARTMENT",
+      "display_name": "TEMPE POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_TEMPE_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_TEMPE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_TEMPE_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_TUCSON_POLICE_DEPARTMENT",
+      "display_name": "TUCSON POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_TUCSON_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_TUCSON_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_TUCSON_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+      "display_name": "FLAGSTAFF POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+      "display_name": "SCOTTSDALE POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_SURPRISE_POLICE_DEPARTMENT",
+      "display_name": "SURPRISE POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_SURPRISE_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_SURPRISE_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_SURPRISE_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "AZ_YUMA_POLICE_DEPARTMENT",
+      "display_name": "YUMA POLICE DEPARTMENT",
+      "state": "AZ",
+      "component_count": 3,
+      "total_weight": 2.4,
+      "weighted_total": 199.2,
+      "final_score": 83,
+      "components": [
+        {
+          "entity_id": "AZ_YUMA_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "AZ_YUMA_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/manual_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.216Z"
+        },
+        {
+          "entity_id": "AZ_YUMA_POLICE_DEPARTMENT",
+          "layer_id": "L12_ENGAGEMENT_RESPONSE",
+          "component_name": "follow_up_priority_score",
+          "component_score": 70,
+          "weight": 0.75,
+          "weighted_score": 52.5,
+          "reason": "Engagement state derived from outreach execution log.",
+          "source_trace": "public/data/clients/black_dragon/outreach_execution_log.json",
+          "confidence_score": 0.85,
+          "generated_at": "2026-05-06T13:28:10.326Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+      "display_name": "San Diego Community College District Police Department",
+      "state": "CA",
+      "component_count": 2,
+      "total_weight": 1.65,
+      "weighted_total": 146.7,
+      "final_score": 88.91,
+      "components": [
+        {
+          "entity_id": "CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/state_candidates/ca_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.217Z"
+        }
+      ]
+    },
+    {
+      "entity_id": "TX_DALLAS_POLICE_ACADEMY",
+      "display_name": "Dallas Police Academy",
+      "state": "TX",
+      "component_count": 2,
+      "total_weight": 1.65,
+      "weighted_total": 146.7,
+      "final_score": 88.91,
+      "components": [
+        {
+          "entity_id": "TX_DALLAS_POLICE_ACADEMY",
+          "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+          "component_name": "agency_intelligence_confidence_score",
+          "component_score": 88,
+          "weight": 0.9,
+          "weighted_score": 79.2,
+          "reason": "Agency exists in national verified outreach shortlist.",
+          "source_trace": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+          "confidence_score": 0.9,
+          "generated_at": "2026-05-06T13:28:10.269Z"
+        },
+        {
+          "entity_id": "TX_DALLAS_POLICE_ACADEMY",
+          "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+          "component_name": "outreach_readiness_score",
+          "component_score": 90,
+          "weight": 0.75,
+          "weighted_score": 67.5,
+          "reason": "Verified phone-first or direct contact path exists.",
+          "source_trace": "public/data/clients/black_dragon/state_candidates/tx_verified_contacts.json",
+          "confidence_score": 0.95,
+          "generated_at": "2026-05-06T13:28:10.217Z"
+        }
+      ]
+    }
+  ]
+}

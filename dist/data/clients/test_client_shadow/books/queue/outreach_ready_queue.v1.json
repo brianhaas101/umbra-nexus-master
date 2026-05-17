@@ -1,0 +1,11 @@
+{
+  "version": "test_client_shadow_queue_v1",
+  "client_id": "test_client_shadow",
+  "all_queue_items": [
+    {
+      "entity_id": "SHADOW_TEST_ENTITY_001",
+      "organization_name": "SHADOW SHOULD NOT BE VISIBLE",
+      "queue_status": "READY"
+    }
+  ]
+}

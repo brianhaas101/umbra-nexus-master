@@ -1,0 +1,32 @@
+{
+  "version": "nexus_L08_command_adapter_manifest_v1",
+  "generated_at": "2026-05-06T04:28:38.532Z",
+  "layer_id": "L08_COMMAND_STRUCTURE",
+  "adapters": [
+    {
+      "adapter_id": "ORG_CHART_PDF_ADAPTER",
+      "input_type": "PDF",
+      "normalization_registry": "L08_command_normalization.registry.json"
+    },
+    {
+      "adapter_id": "COMMAND_STAFF_HTML_ADAPTER",
+      "input_type": "HTML",
+      "normalization_registry": "L08_command_normalization.registry.json"
+    },
+    {
+      "adapter_id": "STAFF_DIRECTORY_HTML_ADAPTER",
+      "input_type": "HTML",
+      "normalization_registry": "L08_command_normalization.registry.json"
+    },
+    {
+      "adapter_id": "MEETING_MINUTES_ADAPTER",
+      "input_type": "PDF_HTML",
+      "normalization_registry": "L08_command_normalization.registry.json"
+    },
+    {
+      "adapter_id": "ASSOCIATION_ROSTER_ADAPTER",
+      "input_type": "HTML_CSV",
+      "normalization_registry": "L08_command_normalization.registry.json"
+    }
+  ]
+}

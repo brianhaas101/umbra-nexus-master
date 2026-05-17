@@ -1,0 +1,706 @@
+{
+  "version": "nexus_layer_normalized_output_v1",
+  "generated_at": "2026-05-08T00:15:23.832Z",
+  "layer_id": "L06",
+  "status": "OPERATIONAL",
+  "entities": [
+    {
+      "entity_id": "ENTITY_L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "entity_type": "asset_infrastructure_source_entity",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "created_at": "2026-05-08T00:15:23.832Z"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.98,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "property_parcel_connector",
+        "parser_strategy": "property_parcel_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_property_parcel_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.97,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "facility_location_connector",
+        "parser_strategy": "facility_location_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_facility_location_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "entity_id": "ENTITY_L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.96,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "commercial_property_connector",
+        "parser_strategy": "commercial_property_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_commercial_property_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.95,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "building_permit_connector",
+        "parser_strategy": "building_permit_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_building_permit_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.94,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "fleet_equipment_connector",
+        "parser_strategy": "fleet_equipment_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_fleet_equipment_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "entity_id": "ENTITY_L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.93,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "infrastructure_gis_connector",
+        "parser_strategy": "infrastructure_gis_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_infrastructure_gis_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "entity_id": "ENTITY_L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.92,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "utility_service_connector",
+        "parser_strategy": "utility_service_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_utility_service_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "entity_id": "ENTITY_L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.91,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "transportation_network_connector",
+        "parser_strategy": "transportation_network_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_transportation_network_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.9,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "warehouse_distribution_connector",
+        "parser_strategy": "warehouse_distribution_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_warehouse_distribution_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "entity_id": "ENTITY_L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.89,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "public_facility_connector",
+        "parser_strategy": "public_facility_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_public_facility_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "entity_id": "ENTITY_L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.88,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "site_expansion_connector",
+        "parser_strategy": "site_expansion_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_site_expansion_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.87,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "asset_auction_connector",
+        "parser_strategy": "asset_auction_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_asset_auction_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.86,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "facility_inspection_connector",
+        "parser_strategy": "facility_inspection_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_facility_inspection_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.85,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "zoning_land_use_connector",
+        "parser_strategy": "zoning_land_use_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_zoning_land_use_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "entity_id": "ENTITY_L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "captured_at": "2026-05-08T00:15:23.832Z",
+      "confidence": 0.84,
+      "lineage": {
+        "acquisition_method": "public_asset_source",
+        "connector_type": "logistics_capacity_connector",
+        "parser_strategy": "logistics_capacity_parser",
+        "normalizer_strategy": "asset_infrastructure_normalizer",
+        "retention_policy": "retain_with_logistics_capacity_trace"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "SIGNAL_L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "signal_type": "ASSET_FOOTPRINT_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "signal_type": "ASSET_LOCATION_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "entity_id": "ENTITY_L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "signal_type": "ASSET_EXPANSION_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "signal_type": "ASSET_EXPANSION_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "signal_type": "ASSET_CAPACITY_SIGNAL",
+      "strength": 0.94,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "entity_id": "ENTITY_L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "signal_type": "ASSET_INFRASTRUCTURE_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "entity_id": "ENTITY_L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "signal_type": "ASSET_SERVICE_AREA_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "entity_id": "ENTITY_L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "signal_type": "ASSET_LOGISTICS_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "signal_type": "ASSET_LOGISTICS_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "entity_id": "ENTITY_L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "signal_type": "ASSET_LOCATION_SIGNAL",
+      "strength": 0.89,
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "entity_id": "ENTITY_L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "signal_type": "ASSET_EXPANSION_SIGNAL",
+      "strength": 0.88,
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "signal_type": "ASSET_MOVEMENT_SIGNAL",
+      "strength": 0.87,
+      "confidence": 0.87
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "signal_type": "ASSET_CONDITION_SIGNAL",
+      "strength": 0.86,
+      "confidence": 0.86
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "signal_type": "ASSET_LOCATION_SIGNAL",
+      "strength": 0.85,
+      "confidence": 0.85
+    },
+    {
+      "signal_id": "SIGNAL_L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "entity_id": "ENTITY_L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "signal_type": "ASSET_CAPACITY_SIGNAL",
+      "strength": 0.84,
+      "confidence": 0.84
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "SCORE_L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "entity_id": "ENTITY_L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "entity_id": "ENTITY_L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "entity_id": "ENTITY_L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "SCORE_L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "entity_id": "ENTITY_L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "SCORE_L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "SCORE_L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "entity_id": "ENTITY_L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "score_delta": 9,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "SCORE_L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "entity_id": "ENTITY_L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "score_delta": 9,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "SCORE_L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.87
+    },
+    {
+      "component_id": "SCORE_L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.86
+    },
+    {
+      "component_id": "SCORE_L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "entity_id": "ENTITY_L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.85
+    },
+    {
+      "component_id": "SCORE_L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "entity_id": "ENTITY_L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "score_delta": 8,
+      "confidence": 0.84
+    }
+  ],
+  "dossier_fields": [
+    {
+      "entity_id": "ENTITY_L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_001_PROPERTY_PARCEL_RECORDS",
+      "field_type": "property_parcel_profile",
+      "value": "Property and Parcel Records"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_002_FACILITY_LOCATION_RECORDS",
+      "field_type": "facility_location_profile",
+      "value": "Facility Location Records"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_003_COMMERCIAL_PROPERTY_LISTINGS",
+      "field_type": "commercial_property_profile",
+      "value": "Commercial Property Listings"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_004_BUILDING_PERMIT_RECORDS",
+      "field_type": "building_permit_profile",
+      "value": "Building Permit Records"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_005_FLEET_EQUIPMENT_RECORDS",
+      "field_type": "fleet_equipment_profile",
+      "value": "Fleet and Equipment Records"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_006_INFRASTRUCTURE_GIS_LAYERS",
+      "field_type": "infrastructure_gis_profile",
+      "value": "Infrastructure GIS Layers"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_007_UTILITY_SERVICE_AREAS",
+      "field_type": "utility_service_profile",
+      "value": "Utility Service Areas"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_008_TRANSPORTATION_NETWORKS",
+      "field_type": "transportation_network_profile",
+      "value": "Transportation Networks"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_009_WAREHOUSE_DISTRIBUTION_RECORDS",
+      "field_type": "warehouse_distribution_profile",
+      "value": "Warehouse and Distribution Records"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_010_PUBLIC_FACILITY_DIRECTORIES",
+      "field_type": "public_facility_profile",
+      "value": "Public Facility Directories"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_011_SITE_EXPANSION_NOTICES",
+      "field_type": "site_expansion_profile",
+      "value": "Site Expansion Notices"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_012_ASSET_AUCTION_RECORDS",
+      "field_type": "asset_auction_profile",
+      "value": "Asset Auction Records"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_013_FACILITY_INSPECTION_RECORDS",
+      "field_type": "facility_inspection_profile",
+      "value": "Facility Inspection Records"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_014_ZONING_LAND_USE_RECORDS",
+      "field_type": "zoning_land_use_profile",
+      "value": "Zoning and Land Use Records"
+    },
+    {
+      "entity_id": "ENTITY_L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "layer_id": "L06",
+      "source_id": "L06_SRC_015_LOGISTICS_CAPACITY_INDICATORS",
+      "field_type": "logistics_capacity_profile",
+      "value": "Logistics Capacity Indicators"
+    }
+  ]
+}

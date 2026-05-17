@@ -1,0 +1,24 @@
+{
+  "version": "umbra_batch_103_real_source_discovery_import_pack_audit_v1",
+  "generated_at": "2026-05-10T17:36:15.729Z",
+  "file_integrity": {
+    "json_exists": true,
+    "csv_exists": true
+  },
+  "pack_integrity": {
+    "import_rows": 180,
+    "all_have_import_ids": true,
+    "all_have_discovery_ids": true,
+    "all_have_search_queries": true,
+    "all_awaiting_real_input": true,
+    "no_source_urls_prefilled": true,
+    "no_contacts_prefilled": true,
+    "all_forbid_placeholders": true
+  },
+  "safety_integrity": {
+    "ready_for_import_zero": true,
+    "source_urls_filled_zero": true,
+    "contact_routes_filled_zero": true
+  },
+  "pass": true
+}

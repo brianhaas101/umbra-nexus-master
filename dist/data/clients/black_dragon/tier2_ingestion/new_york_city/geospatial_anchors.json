@@ -1,0 +1,33 @@
+{
+    "version":  "black_dragon_new_york_city_geospatial_anchor_candidates_v1",
+    "generated_at":  "2026-05-11T06:29:06.9161185Z",
+    "city":  "New York City",
+    "folder":  "new_york_city",
+    "anchors":  [
+                    {
+                        "anchor_id":  "geo_anchor_f938405163a34b1bb8cb6b0f3eba3edd",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\new_york_city\\new_york_city_operational_manifest.json",
+                        "city":  "New York City",
+                        "folder":  "new_york_city",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    },
+                    {
+                        "anchor_id":  "geo_anchor_f7114ed0228e4aee999d4c56e906275e",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\new_york_city\\new_york_city_operational_manifest.json",
+                        "city":  "New York City",
+                        "folder":  "new_york_city",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    }
+                ],
+    "status":  "GEOSPATIAL_CANDIDATES_QUARANTINED"
+}

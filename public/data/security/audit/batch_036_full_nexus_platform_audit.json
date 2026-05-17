@@ -1,0 +1,298 @@
+{
+  "version": "umbra_batch_036_full_nexus_platform_audit_v1",
+  "generated_at": "2026-05-09T04:00:38.644Z",
+  "audit_type": "READ_ONLY_PLATFORM_SURFACE_AUDIT",
+  "file_checks": [
+    {
+      "key": "indexRoot",
+      "file": "index.html",
+      "exists": true
+    },
+    {
+      "key": "indexPublic",
+      "file": "public/index.html",
+      "exists": true
+    },
+    {
+      "key": "indexGlobe",
+      "file": "public/globe/index.html",
+      "exists": false
+    },
+    {
+      "key": "core",
+      "file": "public/globe/core.js",
+      "exists": true
+    },
+    {
+      "key": "layers",
+      "file": "public/globe/layers.js",
+      "exists": true
+    },
+    {
+      "key": "textures",
+      "file": "public/globe/textures.js",
+      "exists": true
+    },
+    {
+      "key": "dataLoader",
+      "file": "public/globe/data_loader.js",
+      "exists": true
+    },
+    {
+      "key": "dossiers",
+      "file": "public/globe/dossiers.js",
+      "exists": true
+    },
+    {
+      "key": "ui",
+      "file": "public/globe/ui.js",
+      "exists": true
+    },
+    {
+      "key": "cityMap",
+      "file": "public/globe/city_map.js",
+      "exists": true
+    },
+    {
+      "key": "umbraData",
+      "file": "public/globe/umbra_data.v1.js",
+      "exists": true
+    },
+    {
+      "key": "intelRegistry",
+      "file": "public/globe/intel/registry.js",
+      "exists": true
+    },
+    {
+      "key": "intelPipeline",
+      "file": "public/globe/intel/pipeline.js",
+      "exists": true
+    },
+    {
+      "key": "intelligenceCheckpoint",
+      "file": "public/data/intelligence/checkpoints/post_first_5_operational_pass.json",
+      "exists": true
+    },
+    {
+      "key": "blackDragonClientBridge",
+      "file": "public/globe/intel/clients/black_dragon.client_preset.bridge.js",
+      "exists": true
+    },
+    {
+      "key": "blackDragonIntegrity",
+      "file": "public/globe/intel/clients/black_dragon.integrity.check.js",
+      "exists": true
+    },
+    {
+      "key": "bdBooksOperational",
+      "file": "public/data/clients/black_dragon/books/operational/black_dragon_books_operational_targets.v1.json",
+      "exists": true
+    },
+    {
+      "key": "bdBooksQueue",
+      "file": "public/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json",
+      "exists": true
+    },
+    {
+      "key": "bdBooksResponses",
+      "file": "public/data/clients/black_dragon/books/responses/classified/classified_responses.v1.json",
+      "exists": true
+    },
+    {
+      "key": "bdBooksAdaptive",
+      "file": "public/data/clients/black_dragon/books/adaptive_priority/adaptive_priority_index.v1.json",
+      "exists": true
+    },
+    {
+      "key": "bdBooksKpi",
+      "file": "public/data/clients/black_dragon/books/kpi/book_operational_kpis.v1.json",
+      "exists": true
+    },
+    {
+      "key": "bdBooksDashboard",
+      "file": "public/data/clients/black_dragon/books/dashboard/client_operator_dashboard.v1.json",
+      "exists": true
+    },
+    {
+      "key": "bdBooksMapLayer",
+      "file": "public/data/clients/black_dragon/books/map/layers/book_propagation_map_layer.v1.json",
+      "exists": true
+    },
+    {
+      "key": "bdDashboardRenderer",
+      "file": "public/globe/clients/black_dragon/books/client_dashboard_renderer.js",
+      "exists": true
+    },
+    {
+      "key": "bdQueueUi",
+      "file": "public/globe/clients/black_dragon/books/outreach_queue_ui.js",
+      "exists": true
+    },
+    {
+      "key": "bdResponseUi",
+      "file": "public/globe/clients/black_dragon/books/response_logging_ui.js",
+      "exists": true
+    },
+    {
+      "key": "runtimeRoleModel",
+      "file": "public/data/security/runtime/runtime_role_model.v1.json",
+      "exists": true
+    },
+    {
+      "key": "clientIsolation",
+      "file": "public/data/security/runtime/client_isolation_manifest.v1.json",
+      "exists": true
+    },
+    {
+      "key": "frontendPolicy",
+      "file": "public/data/security/frontend/frontend_role_policy.v1.json",
+      "exists": true
+    },
+    {
+      "key": "sessionPolicy",
+      "file": "public/data/security/session/client_session_policy.v1.json",
+      "exists": true
+    },
+    {
+      "key": "datasetPolicy",
+      "file": "public/data/security/datasets/dataset_access_policy.v1.json",
+      "exists": true
+    },
+    {
+      "key": "exportPolicy",
+      "file": "public/data/security/exports/export_security_policy.v1.json",
+      "exists": true
+    },
+    {
+      "key": "frontendGuard",
+      "file": "public/globe/security/frontend_runtime_guard.js",
+      "exists": true
+    },
+    {
+      "key": "uiPanelHook",
+      "file": "public/globe/security/ui_panel_security_hook.js",
+      "exists": true
+    },
+    {
+      "key": "sessionGuard",
+      "file": "public/globe/security/session_recovery_guard.js",
+      "exists": true
+    },
+    {
+      "key": "datasetGuard",
+      "file": "public/globe/security/dataset_access_guard.js",
+      "exists": true
+    },
+    {
+      "key": "exportGuard",
+      "file": "public/globe/security/export_security_guard.js",
+      "exists": true
+    },
+    {
+      "key": "stabilityCheckpoint",
+      "file": "public/data/security/stability/post_black_dragon_books_v2_security_stability_pass.json",
+      "exists": true
+    },
+    {
+      "key": "clientPilotCheckpoint",
+      "file": "public/data/security/readiness/black_dragon_controlled_client_pilot_ready.json",
+      "exists": true
+    },
+    {
+      "key": "prePilotCheckpoint",
+      "file": "public/data/security/prepilot/pre_black_dragon_live_client_access.json",
+      "exists": true
+    },
+    {
+      "key": "multiClientAudit",
+      "file": "public/data/security/audit/batch_033_multiclient_isolation_audit.json",
+      "exists": true
+    }
+  ],
+  "pass": true,
+  "entrypoint_integrity": {
+    "at_least_one_entrypoint_exists": true,
+    "all_existing_entrypoints_have_security_scripts": true,
+    "all_existing_entrypoints_have_client_ui_scripts": true
+  },
+  "core_runtime_integrity": {
+    "core_defines_umbra_global": true,
+    "core_mentions_world_mode": true,
+    "core_mentions_city_map_mode": true,
+    "layers_module_present": true,
+    "textures_module_present": true,
+    "data_loader_module_present": true,
+    "dossiers_module_present": true,
+    "ui_module_present": true,
+    "city_map_module_present": true,
+    "umbra_data_present": true
+  },
+  "intelligence_system_integrity": {
+    "registry_present": true,
+    "pipeline_present": true,
+    "registry_mentions_layers": true,
+    "pipeline_mentions_fusion_or_pipeline": true,
+    "first_5_checkpoint_available": true,
+    "first_5_checkpoint_pass_like": true
+  },
+  "black_dragon_books_integrity": {
+    "operational_targets_exist": true,
+    "queue_exists": true,
+    "responses_exist": true,
+    "adaptive_exists": true,
+    "kpi_exists": true,
+    "dashboard_scope_correct": true,
+    "map_layer_valid": true,
+    "missing_entity_ids": 0,
+    "missing_propagation_scores": 0,
+    "missing_queue_records": 0,
+    "missing_adaptive_records": 0,
+    "missing_kpi_records": 0,
+    "missing_map_records": 0
+  },
+  "black_dragon_client_bridge_integrity": {
+    "bridge_present": true,
+    "integrity_check_present": true,
+    "bridge_mentions_black_dragon": true,
+    "integrity_mentions_pass_or_check": true
+  },
+  "client_ui_integrity": {
+    "dashboard_renderer_global": true,
+    "queue_ui_global": true,
+    "response_ui_global": true,
+    "dashboard_uses_security": true,
+    "queue_uses_security": true,
+    "response_uses_security": true,
+    "queue_copy_actions_exist": true,
+    "response_capture_actions_exist": true
+  },
+  "security_integrity": {
+    "runtime_roles_present": true,
+    "strict_client_isolation": true,
+    "black_dragon_client_scope_declared": true,
+    "frontend_client_blocks_founder_admin": true,
+    "frontend_client_blocks_exports": true,
+    "session_blocks_founder_restore": true,
+    "dataset_cross_client_fetch_forbidden": true,
+    "export_cross_client_forbidden": true,
+    "frontend_guard_global": true,
+    "ui_panel_hook_global": true,
+    "session_guard_global": true,
+    "dataset_guard_global": true,
+    "export_guard_global": true
+  },
+  "checkpoint_integrity": {
+    "stability_checkpoint_passed": true,
+    "client_pilot_checkpoint_passed": true,
+    "pre_pilot_checkpoint_passed": true,
+    "multi_client_audit_passed": true,
+    "no_unrestricted_enterprise_claim": true,
+    "no_multi_client_expansion_claim": true
+  },
+  "operational_score_integrity": {
+    "queue_scores_valid": true,
+    "adaptive_scores_valid": true,
+    "kpi_revenue_valid": true,
+    "map_scores_valid": true
+  }
+}

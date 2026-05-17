@@ -1,0 +1,23 @@
+{
+  "version": "umbra_batch_095_real_source_staging_audit_v1",
+  "generated_at": "2026-05-10T16:25:09.775Z",
+  "staging_integrity": {
+    "retained_entities": 637,
+    "staged_source_imports": 532,
+    "not_stageable": 105,
+    "counts_match": true
+  },
+  "validation_integrity": {
+    "imported": 532,
+    "validated": 0,
+    "rejected": 532,
+    "totals_match": true
+  },
+  "safety_integrity": {
+    "contact_ready_zero": true,
+    "outreach_allowed_zero": true,
+    "no_auto_contact_ready_created": true,
+    "no_auto_outreach_created": true
+  },
+  "pass": true
+}

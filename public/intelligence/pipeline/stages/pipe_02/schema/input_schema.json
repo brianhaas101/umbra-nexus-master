@@ -1,0 +1,20 @@
+﻿{
+    "schema_id":  "layer_02_input_schema",
+    "required":  [
+                     "layer_id",
+                     "record_id",
+                     "normalized_record",
+                     "provenance_status",
+                     "accepted"
+                 ],
+    "normalized_record_required":  [
+                                       "source_url",
+                                       "source_type",
+                                       "source_title",
+                                       "retrieved_at",
+                                       "city",
+                                       "entity",
+                                       "claim"
+                                   ],
+    "accepted_only":  true
+}

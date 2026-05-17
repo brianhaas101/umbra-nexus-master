@@ -1,0 +1,297 @@
+{
+    "version":  "black_dragon_scottsdale_validated_sources_v1",
+    "generated_at":  "2026-05-11T05:34:05.7079086Z",
+    "city":  "Scottsdale",
+    "folder":  "scottsdale",
+    "validated_sources":  [
+                              {
+                                  "source_id":  "validated_source_48089012fea8428db26b95e764dca014",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\audit\\batch_164_scottsdale_discovery_import_audit.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  false,
+                                  "geospatial_signal":  false,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_f857645fcc1445ff8db0a05548ea7584",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\dedupe\\scottsdale_regional_dedupe.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_a88cdce1e34243d9a586c01d77f7633c",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\imports\\scottsdale_discovery_import.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_5ff618157d6a4bb99eb9d297a2567ee6",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\validated\\scottsdale_validated_candidates.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_4cde2a1c71ff4fc7bf0576b0ce700f37",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_15b33566406c4e0d8c675bdd2d4a6829",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_6b8b34c31c7444b1901de29df824a186",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_5533153ebd184df9bfa3756ff020bd45",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\node_cards\\scottsdale_client_node_cards.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_1b96bf5e49da44c5887d600c415ccec8",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\panels\\scottsdale_client_overview_panel.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  false,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_29ccba544b07466c9f80dc1f6d8e3792",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\propagation_feed\\scottsdale_client_propagation_feed.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_34d42d7ae439436bacdf93c2fe9d9978",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\production_readiness\\scottsdale\\audit\\scottsdale_production_readiness_audit.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  false,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_564c48f4125f48549c0af0bd8847ad23",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\edges\\scottsdale_graph_edges.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  false,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_c6868870b9f64986b0a4b255776d390f",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\nodes\\scottsdale_graph_nodes.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_958ec44186064db38bec606a7939cb42",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\paths\\scottsdale_propagation_paths.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  false,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_ef2876db70014df680f3a535425ff846",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\scores\\scottsdale_graph_influence_scores.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  false,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_cbc3f0424afa41649756bbb41d38a985",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "saturation_source_c66c7924027f4f919c032a1568f11ab7",
+                                  "source_file":  "synthetic_saturation_reference_0.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "SATURATION_REVIEW_REQUIRED",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true,
+                                  "provenance":  {
+                                                     "derived_from":  "wave_1_density_gap_alignment",
+                                                     "generated_by_batch":  "234R"
+                                                 }
+                              },
+                              {
+                                  "source_id":  "saturation_source_3c8cdf1a17ab4225990816e439b94d23",
+                                  "source_file":  "synthetic_saturation_reference_1.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "SATURATION_REVIEW_REQUIRED",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true,
+                                  "provenance":  {
+                                                     "derived_from":  "wave_1_density_gap_alignment",
+                                                     "generated_by_batch":  "234R"
+                                                 }
+                              },
+                              {
+                                  "source_id":  "saturation_source_16716268fa1f4feaafba5f36630a04cd",
+                                  "source_file":  "synthetic_saturation_reference_2.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "SATURATION_REVIEW_REQUIRED",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true,
+                                  "provenance":  {
+                                                     "derived_from":  "wave_1_density_gap_alignment",
+                                                     "generated_by_batch":  "234R"
+                                                 }
+                              }
+                          ],
+    "rejected_sources":  [
+                             {
+                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\automation\\live_validation\\scottsdale\\audit\\batch_166_scottsdale_live_validation_audit.json",
+                                 "exists":  true,
+                                 "valid_json":  true,
+                                 "city_match":  true,
+                                 "organization_signal":  false,
+                                 "geospatial_signal":  false,
+                                 "source_signal":  false,
+                                 "reason":  "Failed local validation gate. Requires valid JSON, city match, and usable organization/geospatial/source signal."
+                             },
+                             {
+                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\audit\\batch_163_scottsdale_template_initialization_audit.json",
+                                 "exists":  true,
+                                 "valid_json":  true,
+                                 "city_match":  true,
+                                 "organization_signal":  false,
+                                 "geospatial_signal":  false,
+                                 "source_signal":  false,
+                                 "reason":  "Failed local validation gate. Requires valid JSON, city match, and usable organization/geospatial/source signal."
+                             },
+                             {
+                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\audit\\batch_165_scottsdale_runtime_merge_graph_audit.json",
+                                 "exists":  true,
+                                 "valid_json":  true,
+                                 "city_match":  true,
+                                 "organization_signal":  false,
+                                 "geospatial_signal":  false,
+                                 "source_signal":  false,
+                                 "reason":  "Failed local validation gate. Requires valid JSON, city match, and usable organization/geospatial/source signal."
+                             },
+                             {
+                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\audit\\batch_167_scottsdale_ui_surface_audit.json",
+                                 "exists":  true,
+                                 "valid_json":  true,
+                                 "city_match":  true,
+                                 "organization_signal":  false,
+                                 "geospatial_signal":  false,
+                                 "source_signal":  false,
+                                 "reason":  "Failed local validation gate. Requires valid JSON, city match, and usable organization/geospatial/source signal."
+                             }
+                         ],
+    "controls":  {
+                     "accepted_for_runtime":  false,
+                     "accepted_for_contact":  false,
+                     "manual_review_required":  true,
+                     "public_url_verification_required_before_entity_promotion":  true
+                 },
+    "status":  "LOCAL_SOURCE_VALIDATION_COMPLETE"
+}

@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:19.768Z",
+  "layer_id": "L02",
+  "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+  "state_abbr": "WA",
+  "state_name": "Washington",
+  "source_type": "POST",
+  "canonical_url": "https://cjtc.wa.gov",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 69282,
+    "extracted_links": [
+      {
+        "href": "https://wscjtc.acadisonline.com/acadisviewer/login.aspx",
+        "label": "ACADIS Training Portal"
+      },
+      {
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission",
+        "label": "About Us"
+      },
+      {
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/wscjtc-commission-board-and-meetings",
+        "label": "Commission Board and Meetings"
+      },
+      {
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/media-and-public-information",
+        "label": "Media and Public Information"
+      },
+      {
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/news",
+        "label": "Press Releases"
+      },
+      {
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/blog",
+        "label": "Blog"
+      },
+      {
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/public-records-requests",
+        "label": "Public Records Requests"
+      },
+      {
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/staff-directory",
+        "label": "Staff Directory"
+      },
+      {
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/chief-day",
+        "label": "Chief for a Day"
+      },
+      {
+        "href": "https://cjtc.wa.gov/training-education",
+        "label": "Training &amp; Education"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498"
+}

@@ -1,0 +1,97 @@
+{
+  "version": "black_dragon_long_beach_runtime_snapshot_v1",
+  "generated_at": "2026-05-10T19:56:24.604Z",
+  "snapshot_id": "BD_LONG_BEACH_SNAPSHOT_POST_BATCH_127",
+  "city": "Long Beach",
+  "state": "CA",
+  "runtime_counts": {
+    "raw_layer_rows": 90,
+    "deduped_city_entities": 68,
+    "contact_ready_entities": 10,
+    "hot": 13,
+    "warm": 37,
+    "review": 18
+  },
+  "automation_feed_counts": {
+    "new_candidate_targets": 5,
+    "routes_due_for_revalidation": 10,
+    "automated_outreach_actions": 0
+  },
+  "top_10_runtime_targets": [
+    {
+      "city_rank": 1,
+      "organization_name": "Born-Free Motorcycle Show",
+      "priority_tier": "HOT",
+      "best_score": 9.52,
+      "contact_ready": true
+    },
+    {
+      "city_rank": 2,
+      "organization_name": "Combat Veterans Motorcycle Association Chapter 33-12",
+      "priority_tier": "HOT",
+      "best_score": 9.34,
+      "contact_ready": true
+    },
+    {
+      "city_rank": 3,
+      "organization_name": "Harley-Davidson of Long Beach",
+      "priority_tier": "HOT",
+      "best_score": 9.31,
+      "contact_ready": true
+    },
+    {
+      "city_rank": 4,
+      "organization_name": "Biker Trash Network",
+      "priority_tier": "HOT",
+      "best_score": 9.2,
+      "contact_ready": true
+    },
+    {
+      "city_rank": 5,
+      "organization_name": "Hot Bike Magazine",
+      "priority_tier": "HOT",
+      "best_score": 9.08,
+      "contact_ready": true
+    },
+    {
+      "city_rank": 6,
+      "organization_name": "Roland Sands Design",
+      "priority_tier": "HOT",
+      "best_score": 9.04,
+      "contact_ready": true
+    },
+    {
+      "city_rank": 7,
+      "organization_name": "Cycle Source Magazine",
+      "priority_tier": "HOT",
+      "best_score": 8.99,
+      "contact_ready": true
+    },
+    {
+      "city_rank": 8,
+      "organization_name": "IMS Outdoors Long Beach",
+      "priority_tier": "HOT",
+      "best_score": 8.95,
+      "contact_ready": true
+    },
+    {
+      "city_rank": 9,
+      "organization_name": "Biltwell YouTube Community",
+      "priority_tier": "HOT",
+      "best_score": 8.9,
+      "contact_ready": false
+    },
+    {
+      "city_rank": 10,
+      "organization_name": "ChopCult Community",
+      "priority_tier": "HOT",
+      "best_score": 8.9,
+      "contact_ready": false
+    }
+  ],
+  "hardlocks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_delete_without_quarantine": true
+  }
+}

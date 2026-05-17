@@ -1,0 +1,21 @@
+{
+  "version": "nexus_L02_live_connector_state_v1",
+  "generated_at": "2026-05-09T01:34:20.690Z",
+  "layer_id": "L02",
+  "connector_id": "L02_IL_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "IL",
+  "source_type": "STATE_PROCUREMENT",
+  "status": "LIVE_FETCH_SUCCESS",
+  "last_attempt_at": "2026-05-09T01:34:20.690Z",
+  "last_success_at": "2026-05-09T01:34:20.690Z",
+  "last_failure_at": null,
+  "raw_snapshot_exists": true,
+  "normalized_snapshot_exists": true,
+  "lineage_complete": true,
+  "deterministic_replay_ready": true,
+  "raw_snapshot_hash": "65ea7f31dafe1294342cda6fbae82fddcd553fb40e32b1a3abaee25b0b20d276",
+  "normalized_snapshot_hash": "0ad837cb2cabcb893c52440bb6c68ded9e7a751d85c6ef199ea5496799cb0d9e",
+  "live_record_count": 10,
+  "can_emit_operational_evidence": true,
+  "no_fake_data_policy": true
+}

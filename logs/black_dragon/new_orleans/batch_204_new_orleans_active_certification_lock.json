@@ -1,0 +1,37 @@
+{
+    "batch":  "204",
+    "version":  "black_dragon_louisiana_new_orleans_active_certification_lock_v1",
+    "generated_at":  "2026-05-11T02:41:47.5579096Z",
+    "active_target":  {
+                          "state":  "Louisiana",
+                          "state_code":  "LA",
+                          "city":  "New Orleans",
+                          "city_id":  "city_new_orleans_la"
+                      },
+    "runtime_scope":  {
+                          "active_louisiana_runtime_count":  1,
+                          "active_louisiana_runtimes":  [
+                                                            {
+                                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\new_orleans\\runtime_shell.json",
+                                                                "city":  "New Orleans",
+                                                                "active":  true
+                                                            }
+                                                        ],
+                          "multi_city_runtime_forbidden":  true
+                      },
+    "json_validation":  {
+                            "files_checked":  7,
+                            "invalid_files":  0,
+                            "invalid":  [
+
+                                        ]
+                        },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "PASS_NEW_ORLEANS_ACTIVE_CERTIFIED_RUNTIME"
+}

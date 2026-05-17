@@ -1,0 +1,57 @@
+{
+  "city_id": "city_1138b2d4",
+  "canonical_name": "Lakewood, CO",
+  "state": "CO",
+  "placeholder_allowed": false,
+  "synthetic_allowed": false,
+  "production_status": "hydrated",
+  "source_count": 9,
+  "sources": [
+    {
+      "layer": "gis",
+      "url": "https://www.lakewood.org/Government/Departments/Information-Technology/GIS",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "open_data",
+      "url": "https://www.lakewood.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "police",
+      "url": "https://www.lakewood.org/Government/Departments/Police",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "fire",
+      "url": "https://www.westmetrofire.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "parks",
+      "url": "https://www.lakewood.org/Government/Departments/Community-Resources/Parks-Forestry-and-Open-Space",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "permits",
+      "url": "https://www.lakewood.org/Government/Departments/Planning",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "public_works",
+      "url": "https://www.lakewood.org/Government/Departments/Public-Works",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "schools",
+      "url": "https://www.jeffcopublicschools.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "council",
+      "url": "https://www.lakewood.org/Government/City-Council",
+      "provenance": "verified_profile_source"
+    }
+  ],
+  "generated_utc": "2026-05-12T07:22:05.8961622Z"
+}

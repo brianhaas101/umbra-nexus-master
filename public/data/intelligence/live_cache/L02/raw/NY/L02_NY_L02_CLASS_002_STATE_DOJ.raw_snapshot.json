@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:08.263Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NY_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "NY",
+  "state_name": "New York",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://ag.ny.gov",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 70617,
+    "extracted_links": [
+      {
+        "href": "https://ag.ny.gov/",
+        "label": "Letitia James New York State Attorney General"
+      },
+      {
+        "href": "https://ag.ny.gov/resources/individuals/consumer-issues",
+        "label": "Consumer Issues"
+      },
+      {
+        "href": "https://ag.ny.gov/resources/individuals/immigrants-rights",
+        "label": "Immigrants&#039; Rights"
+      },
+      {
+        "href": "https://ag.ny.gov/resources/government-organizations/law-enforcement-guidance",
+        "label": "Law Enforcement Guidance"
+      },
+      {
+        "href": "https://ag.ny.gov/press-releases",
+        "label": "Press Releases"
+      },
+      {
+        "href": "https://ag.ny.gov/news-media/livestream",
+        "label": "Livestream"
+      },
+      {
+        "href": "https://ag.ny.gov/news-media/event-archive",
+        "label": "Event Archive"
+      },
+      {
+        "href": "https://ag.ny.gov/press-release/2026/attorney-general-james-stops-sale-gun-accessory-aided-buffalo-shooter",
+        "label": "Learn more"
+      },
+      {
+        "href": "https://ag.ny.gov/nys-opioid-settlement",
+        "label": "Opioids settlements New York Attorney General Letitia James has reached settlements totaling over $3 billion with companies involved in manufacturing, distributing, and selling opioids.&nbsp;"
+      },
+      {
+        "href": "https://ag.ny.gov/about/meet-letitia-james",
+        "label": "Meet AG Letitia James Letitia James is the 67th Attorney General for the state of New York."
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "e9413d7af75b00e04d153423b309358c6cf063f498d5e90347c7beb44256ed9b"
+}

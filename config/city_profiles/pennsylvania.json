@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Philadelphia",
+    "gis": "https://www.phila.gov/services/property-lots-housing/get-information-about-property-and-land/atlas/",
+    "open_data": "https://www.opendataphilly.org/",
+    "police": "https://www.phillypolice.com/",
+    "fire": "https://www.phila.gov/departments/philadelphia-fire-department/",
+    "parks": "https://www.phila.gov/departments/philadelphia-parks-recreation/",
+    "permits": "https://www.phila.gov/departments/department-of-licenses-and-inspections/",
+    "public_works": "https://www.phila.gov/departments/department-of-streets/",
+    "schools": "https://www.philasd.org/",
+    "council": "https://phlcouncil.com/"
+  },
+  {
+    "city": "Pittsburgh",
+    "gis": "https://pittsburghpa.gov/innovation-performance/gis/",
+    "open_data": "https://data.wprdc.org/organization/city-of-pittsburgh",
+    "police": "https://pittsburghpa.gov/police/",
+    "fire": "https://pittsburghpa.gov/fire/",
+    "parks": "https://pittsburghpa.gov/citiparks/",
+    "permits": "https://pittsburghpa.gov/pli/",
+    "public_works": "https://pittsburghpa.gov/dpw/",
+    "schools": "https://www.pghschools.org/",
+    "council": "https://pittsburghpa.gov/council/"
+  },
+  {
+    "city": "Allentown",
+    "gis": "https://www.allentownpa.gov/Planning-and-Zoning/GIS",
+    "open_data": "https://www.allentownpa.gov/",
+    "police": "https://www.allentownpa.gov/Police",
+    "fire": "https://www.allentownpa.gov/Fire",
+    "parks": "https://www.allentownpa.gov/Parks-and-Recreation",
+    "permits": "https://www.allentownpa.gov/Building-Standards-Safety",
+    "public_works": "https://www.allentownpa.gov/Public-Works",
+    "schools": "https://www.allentownsd.org/",
+    "council": "https://www.allentownpa.gov/City-Council"
+  },
+  {
+    "city": "Erie",
+    "gis": "https://cityof.erie.pa.us/government/departments/gis/",
+    "open_data": "https://cityof.erie.pa.us/",
+    "police": "https://cityof.erie.pa.us/government/departments/police/",
+    "fire": "https://cityof.erie.pa.us/government/departments/fire/",
+    "parks": "https://cityof.erie.pa.us/government/departments/public-works/parks/",
+    "permits": "https://cityof.erie.pa.us/government/departments/code-enforcement/",
+    "public_works": "https://cityof.erie.pa.us/government/departments/public-works/",
+    "schools": "https://www.eriesd.org/",
+    "council": "https://cityof.erie.pa.us/government/city-council/"
+  },
+  {
+    "city": "Reading",
+    "gis": "https://www.readingpa.gov/content/gis",
+    "open_data": "https://www.readingpa.gov/",
+    "police": "https://www.readingpa.gov/content/police-department",
+    "fire": "https://www.readingpa.gov/content/fire-department",
+    "parks": "https://www.readingpa.gov/content/parks-recreation",
+    "permits": "https://www.readingpa.gov/content/building-trades",
+    "public_works": "https://www.readingpa.gov/content/public-works",
+    "schools": "https://www.readingsd.org/",
+    "council": "https://www.readingpa.gov/content/city-council"
+  }
+]

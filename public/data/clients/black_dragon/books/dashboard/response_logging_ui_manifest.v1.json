@@ -1,0 +1,30 @@
+{
+  "version": "black_dragon_books_response_logging_ui_manifest_v1",
+
+  "required_script": "public/globe/clients/black_dragon/books/response_logging_ui.js",
+
+  "required_global": "window.BlackDragonBooksResponseUI",
+
+  "required_functions": [
+    "load",
+    "render",
+    "selectItem",
+    "buildResultPayload",
+    "copyText",
+    "getDebugState"
+  ],
+
+  "required_panels": [
+    "RESPONSE_LOG"
+  ],
+
+  "data_sources": [
+    "public/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json",
+    "public/data/clients/black_dragon/books/responses/classified/classified_responses.v1.json"
+  ],
+
+  "client_actions": [
+    "generate_response_record",
+    "copy_response_json"
+  ]
+}

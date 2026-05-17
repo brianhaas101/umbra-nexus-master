@@ -1,0 +1,1456 @@
+{
+  "version": "black_dragon_malformed_record_filter_v1",
+  "generated_at": "2026-05-10T17:43:51.665Z",
+  "required_fields": [
+    "execution_id",
+    "import_row_id",
+    "discovery_task_id",
+    "source_type",
+    "organization_seed"
+  ],
+  "total": 180,
+  "structurally_valid": 180,
+  "malformed": 0,
+  "results": [
+    {
+      "execution_id": "IMPORT_EXEC_0001",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000001",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0002",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000002",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0003",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000003",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0004",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000004",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0005",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000005",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0006",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000006",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0007",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000007",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0008",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000008",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0009",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000009",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0010",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000010",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0011",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000011",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0012",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000012",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0013",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000013",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0014",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000014",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0015",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000015",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0016",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000016",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0017",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000017",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0018",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000018",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0019",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000019",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0020",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000020",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0021",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000021",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0022",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000022",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0023",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000023",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0024",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000024",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0025",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000025",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0026",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000026",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0027",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000027",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0028",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000028",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0029",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000029",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0030",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000030",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0031",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000031",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0032",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000032",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0033",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000033",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0034",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000034",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0035",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000035",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0036",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000036",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0037",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000037",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0038",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000038",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0039",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000039",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0040",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000040",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0041",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000041",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0042",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000042",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0043",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000043",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0044",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000044",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0045",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000045",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0046",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000046",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0047",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000047",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0048",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000048",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0049",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000049",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0050",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000050",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0051",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000051",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0052",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000052",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0053",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000053",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0054",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000054",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0055",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000055",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0056",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000056",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0057",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000057",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0058",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000058",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0059",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000059",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0060",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000060",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0061",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000061",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0062",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000062",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0063",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000063",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0064",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000064",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0065",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000065",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0066",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000066",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0067",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000067",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0068",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000068",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0069",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000069",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0070",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000070",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0071",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000071",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0072",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000072",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0073",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000073",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0074",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000074",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0075",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000075",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0076",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000076",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0077",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000077",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0078",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000078",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0079",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000079",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0080",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000080",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0081",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000081",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0082",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000082",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0083",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000083",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0084",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000084",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0085",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000085",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0086",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000086",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0087",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000087",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0088",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000088",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0089",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000089",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0090",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000090",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0091",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000091",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0092",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000092",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0093",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000093",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0094",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000094",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0095",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000095",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0096",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000096",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0097",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000097",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0098",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000098",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0099",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000099",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0100",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000100",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0101",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000101",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0102",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000102",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0103",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000103",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0104",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000104",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0105",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000105",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0106",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000106",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0107",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000107",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0108",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000108",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0109",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000109",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0110",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000110",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0111",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000111",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0112",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000112",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0113",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000113",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0114",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000114",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0115",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000115",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0116",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000116",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0117",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000117",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0118",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000118",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0119",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000119",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0120",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000120",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0121",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000121",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0122",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000122",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0123",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000123",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0124",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000124",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0125",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000125",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0126",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000126",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0127",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000127",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0128",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000128",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0129",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000129",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0130",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000130",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0131",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000131",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0132",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000132",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0133",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000133",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0134",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000134",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0135",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000135",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0136",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000136",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0137",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000137",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0138",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000138",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0139",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000139",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0140",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000140",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0141",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000141",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0142",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000142",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0143",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000143",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0144",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000144",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0145",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000145",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0146",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000146",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0147",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000147",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0148",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000148",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0149",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000149",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0150",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000150",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0151",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000151",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0152",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000152",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0153",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000153",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0154",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000154",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0155",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000155",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0156",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000156",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0157",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000157",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0158",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000158",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0159",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000159",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0160",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000160",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0161",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000161",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0162",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000162",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0163",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000163",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0164",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000164",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0165",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000165",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0166",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000166",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0167",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000167",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0168",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000168",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0169",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000169",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0170",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000170",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0171",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000171",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0172",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000172",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0173",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000173",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0174",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000174",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0175",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000175",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0176",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000176",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0177",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000177",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0178",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000178",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0179",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000179",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0180",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000180",
+      "missing_required_fields": [],
+      "malformed_status": "STRUCTURALLY_VALID",
+      "quarantine_required": false,
+      "reason": "REQUIRED_FIELDS_PRESENT"
+    }
+  ]
+}

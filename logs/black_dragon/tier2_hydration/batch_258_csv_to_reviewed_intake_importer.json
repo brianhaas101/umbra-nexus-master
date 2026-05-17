@@ -1,0 +1,105 @@
+{
+    "batch":  "258",
+    "version":  "black_dragon_csv_to_reviewed_intake_importer_v1",
+    "generated_at":  "2026-05-11T08:21:14.1382383Z",
+    "target_cities":  [
+                          "san_antonio",
+                          "new_york_city",
+                          "new_orleans",
+                          "seattle",
+                          "houston"
+                      ],
+    "city_results":  [
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "csv_rows":  15,
+                             "imported_sources":  0,
+                             "rejected_sources":  0,
+                             "duplicate_sources":  0,
+                             "skipped_blank_rows":  15,
+                             "total_reviewed_sources":  0,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_CSV_TO_REVIEWED_INTAKE_IMPORT"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "csv_rows":  15,
+                             "imported_sources":  0,
+                             "rejected_sources":  0,
+                             "duplicate_sources":  0,
+                             "skipped_blank_rows":  15,
+                             "total_reviewed_sources":  0,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_CSV_TO_REVIEWED_INTAKE_IMPORT"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "csv_rows":  15,
+                             "imported_sources":  0,
+                             "rejected_sources":  0,
+                             "duplicate_sources":  0,
+                             "skipped_blank_rows":  15,
+                             "total_reviewed_sources":  0,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_CSV_TO_REVIEWED_INTAKE_IMPORT"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "csv_rows":  15,
+                             "imported_sources":  0,
+                             "rejected_sources":  0,
+                             "duplicate_sources":  0,
+                             "skipped_blank_rows":  15,
+                             "total_reviewed_sources":  0,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_CSV_TO_REVIEWED_INTAKE_IMPORT"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "csv_rows":  15,
+                             "imported_sources":  0,
+                             "rejected_sources":  0,
+                             "duplicate_sources":  0,
+                             "skipped_blank_rows":  15,
+                             "total_reviewed_sources":  0,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_CSV_TO_REVIEWED_INTAKE_IMPORT"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  5,
+                    "failed_count":  0,
+                    "total_imported_sources":  0,
+                    "total_rejected_sources":  0,
+                    "total_blank_rows":  75
+                },
+    "hardlocks":  {
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "reviewed_public_source_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_CSV_TO_REVIEWED_INTAKE_IMPORT_COMPLETE"
+}

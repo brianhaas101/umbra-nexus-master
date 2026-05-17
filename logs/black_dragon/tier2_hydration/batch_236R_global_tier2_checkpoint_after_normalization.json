@@ -1,0 +1,558 @@
+{
+    "batch":  "236R",
+    "version":  "black_dragon_global_tier2_checkpoint_after_normalization_v1",
+    "generated_at":  "2026-05-11T06:14:35.8831979Z",
+    "reference":  {
+                      "validated_sources":  19,
+                      "geospatial_candidates":  18,
+                      "organization_candidates":  15,
+                      "relationship_candidates":  30,
+                      "ranked_entities":  15
+                  },
+    "summary":  {
+                    "registered_cities":  18,
+                    "density_gate_passed_count":  5,
+                    "density_gap_count":  13,
+                    "failed_artifact_or_json_count":  0,
+                    "density_gate_passed_cities":  [
+                                                       "los_angeles",
+                                                       "san_diego",
+                                                       "phoenix",
+                                                       "scottsdale",
+                                                       "mesa"
+                                                   ],
+                    "density_gap_cities":  [
+                                               "atlanta",
+                                               "austin",
+                                               "houston",
+                                               "las_vegas",
+                                               "miami",
+                                               "nashville",
+                                               "new_orleans",
+                                               "new_york_city",
+                                               "san_antonio",
+                                               "seattle",
+                                               "long_beach",
+                                               "long_beach_final",
+                                               "tucson"
+                                           ],
+                    "failed_cities":  [
+                                          null
+                                      ]
+                },
+    "city_results":  [
+                         {
+                             "city":  "Atlanta",
+                             "folder":  "atlanta",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Austin",
+                             "folder":  "austin",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  1
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  14
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Las Vegas",
+                             "folder":  "las_vegas",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  2,
+                                              "geospatial_candidates":  2,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  17,
+                                          "geospatial_candidates":  16,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Miami",
+                             "folder":  "miami",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Nashville",
+                             "folder":  "nashville",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Long Beach",
+                             "folder":  "long_beach",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Long Beach Final",
+                             "folder":  "long_beach_final",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         },
+                         {
+                             "city":  "Los Angeles",
+                             "folder":  "los_angeles",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_DENSITY_CHECKPOINT"
+                         },
+                         {
+                             "city":  "San Diego",
+                             "folder":  "san_diego",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_DENSITY_CHECKPOINT"
+                         },
+                         {
+                             "city":  "Phoenix",
+                             "folder":  "phoenix",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_DENSITY_CHECKPOINT"
+                         },
+                         {
+                             "city":  "Scottsdale",
+                             "folder":  "scottsdale",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_DENSITY_CHECKPOINT"
+                         },
+                         {
+                             "city":  "Mesa",
+                             "folder":  "mesa",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  19,
+                                              "geospatial_candidates":  18,
+                                              "organization_candidates":  15,
+                                              "relationship_candidates":  30,
+                                              "ranked_entities":  15
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  0,
+                                          "geospatial_candidates":  0,
+                                          "organization_candidates":  0,
+                                          "relationship_candidates":  0,
+                                          "ranked_entities":  0
+                                      },
+                             "density_gate_passed":  true,
+                             "status":  "PASS_DENSITY_CHECKPOINT"
+                         },
+                         {
+                             "city":  "Tucson",
+                             "folder":  "tucson",
+                             "missing_files_count":  0,
+                             "missing_files":  [
+
+                                               ],
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "observed":  {
+                                              "validated_sources":  0,
+                                              "geospatial_candidates":  0,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  19,
+                                          "geospatial_candidates":  18,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "status":  "PASS_ARTIFACTS_VALID_DENSITY_GAPS_REMAIN"
+                         }
+                     ],
+    "hardlocks":  {
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_GLOBAL_TIER2_CHECKPOINT_AFTER_NORMALIZATION"
+}

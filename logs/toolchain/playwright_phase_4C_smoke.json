@@ -1,0 +1,8 @@
+{
+    "version":  "nexus_playwright_phase_4C_smoke_repair_v1",
+    "generated_at":  "2026-05-11T01:27:55.5648015Z",
+    "config":  ".\\playwright.config.js",
+    "test_dir":  ".\\tests\\browser",
+    "exit_code":  0,
+    "status":  "PASS"
+}

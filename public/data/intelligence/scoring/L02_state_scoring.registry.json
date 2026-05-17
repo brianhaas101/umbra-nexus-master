@@ -1,0 +1,39 @@
+﻿{
+  "version": "nexus_L02_state_scoring_registry_v1",
+  "generated_at": "2026-05-07T00:00:00.000Z",
+  "layer_id": "L02",
+  "scoring_outputs": [
+    {
+      "score": "state_operational_score",
+      "description": "State-level operational relevance and public-safety activity"
+    },
+    {
+      "score": "state_training_readiness_score",
+      "description": "Likelihood that the entity is training-relevant"
+    },
+    {
+      "score": "state_procurement_probability_score",
+      "description": "Probability of state or agency procurement readiness"
+    },
+    {
+      "score": "state_command_structure_score",
+      "description": "Visibility of command, training, or administrative structure"
+    },
+    {
+      "score": "state_enforcement_alignment_score",
+      "description": "Alignment with public-safety enforcement or justice priorities"
+    },
+    {
+      "score": "state_budget_capacity_score",
+      "description": "State or regional budget capacity signal"
+    }
+  ],
+  "weighting_rules": {
+    "state_authority_weight": 0.30,
+    "training_relevance_weight": 0.20,
+    "procurement_relevance_weight": 0.15,
+    "command_structure_weight": 0.15,
+    "recency_weight": 0.10,
+    "jurisdiction_overlap_weight": 0.10
+  }
+}

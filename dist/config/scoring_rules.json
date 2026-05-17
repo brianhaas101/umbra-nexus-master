@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "description": "Base scoring weights for Umbra Nexus (Black Hand Finish). UmbraScore 0–100 derived from these category weights.",
+  "weights": {
+    "value": 0.35,
+    "intent": 0.25,
+    "opportunity": 0.20,
+    "distance": 0.10,
+    "recency": 0.10
+  }
+}

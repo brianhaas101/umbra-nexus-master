@@ -1,0 +1,57 @@
+{
+  "city_id": "city_b903b4d0",
+  "canonical_name": "Tucson, AZ",
+  "state": "AZ",
+  "placeholder_allowed": false,
+  "synthetic_allowed": false,
+  "production_status": "hydrated",
+  "source_count": 9,
+  "sources": [
+    {
+      "layer": "gis",
+      "url": "https://gisdata-tucsonaz.opendata.arcgis.com/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "open_data",
+      "url": "https://data.tucsonaz.gov/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "police",
+      "url": "https://www.tucsonaz.gov/Departments/Police",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "fire",
+      "url": "https://www.tucsonaz.gov/Departments/Fire",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "parks",
+      "url": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "permits",
+      "url": "https://www.tucsonaz.gov/Departments/Planning-Development-Services",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "public_works",
+      "url": "https://www.tucsonaz.gov/Departments/Transportation-Mobility",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "schools",
+      "url": "https://www.tusd1.org/",
+      "provenance": "verified_profile_source"
+    },
+    {
+      "layer": "council",
+      "url": "https://www.tucsonaz.gov/Government/Mayor-Council",
+      "provenance": "verified_profile_source"
+    }
+  ],
+  "generated_utc": "2026-05-12T07:22:05.9904625Z"
+}

@@ -1,0 +1,19 @@
+{
+  "source_id": "state_energy_utilities",
+  "state_code": "NM",
+  "state_name": "New Mexico",
+  "category": "state_energy_utilities",
+  "source_url": "https://www.nm-prc.org/",
+  "status": "source_page_verified_state_energy_utilities_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T06:54:56.478Z",
+  "last_refresh": "2026-05-14T06:54:56.478Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

@@ -1,0 +1,20 @@
+﻿{
+    "policy_id":  "L01_activation_policy",
+    "version":  "1.0.0",
+    "current_status":  "inactive_connectors_governed",
+    "activation_requirements":  [
+                                    "source_registry_verified",
+                                    "raw_envelope_schema_verified",
+                                    "connector_parser_contract_verified",
+                                    "entity_mapping_rules_verified",
+                                    "sandbox_tests_pass",
+                                    "failure_tests_pass",
+                                    "replay_hash_tests_pass",
+                                    "pipeline_bridge_contract_verified",
+                                    "black_dragon_isolation_verified"
+                                ],
+    "allow_live_fetch":  false,
+    "allow_connector_activation":  false,
+    "allow_normalizer_activation":  false,
+    "black_dragon_coupling":  false
+}

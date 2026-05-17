@@ -1,0 +1,15 @@
+﻿{
+    "version":  "black_dragon_contact_ready_runtime_overlay_v1_batch_100F",
+    "generated_at":  "2026-05-10T17:15:12.9439175Z",
+    "client_id":  "black_dragon",
+    "layer_id":  "BLACK_DRAGON_CONTACT_READY",
+    "policy":  "ONLY_PROMOTED_CONTACT_READY_TARGETS_RENDER_IN_CONTACT_READY_OVERLAY",
+    "totals":  {
+                   "contact_ready_targets":  0,
+                   "overlay_nodes":  0,
+                   "outreach_allowed":  0
+               },
+    "overlay_nodes":  [
+
+                      ]
+}

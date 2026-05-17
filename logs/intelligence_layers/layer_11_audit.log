@@ -1,0 +1,7 @@
+﻿[2026-05-13 17:09:02] LAYER_11 CREATED
+[2026-05-13 17:09:02] CONTRACT: explainable_output_serialization
+[2026-05-13 17:09:02] DEPENDS_ON: layer_01, layer_03, layer_04, layer_06, layer_07, layer_08, layer_09, layer_10
+[2026-05-13 17:09:02] SCOPE: public/intelligence/layers/layer_11
+[2026-05-13 17:09:02] BLACK_DRAGON_COUPLING: false
+[2026-05-13 17:09:02] CREATES_CLAIMS: false
+[2026-05-13 17:09:02] HIDDEN_WEIGHTING_ALLOWED: false

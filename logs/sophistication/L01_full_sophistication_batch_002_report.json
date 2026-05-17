@@ -1,0 +1,26 @@
+{
+  "version": "nexus_L01_full_sophistication_batch_002_v1",
+  "generated_at": "2026-05-09T00:08:16.248Z",
+  "layer_id": "L01",
+  "batch_id": "L01_FULL_SOPHISTICATION_BATCH_002",
+  "status": "PASS",
+  "purpose": "Eliminate deep-reference pending for DOJ and BJS through deterministic deep parser conversion.",
+  "results": [
+    {
+      "source_id": "L01_SRC_004_DOJ_GRANT_PROGRAMS",
+      "state": "DEEP_REFERENCE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    },
+    {
+      "source_id": "L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS",
+      "state": "DEEP_REFERENCE_FETCH_SUCCESS",
+      "evidence": 10,
+      "signals": 10,
+      "score_components": 10,
+      "success": true
+    }
+  ]
+}

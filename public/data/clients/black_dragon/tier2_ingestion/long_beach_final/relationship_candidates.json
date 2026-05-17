@@ -1,0 +1,23 @@
+{
+    "version":  "black_dragon_long_beach_final_relationship_rank_candidates_v1",
+    "generated_at":  "2026-05-11T06:08:52.7301076Z",
+    "city":  "Long Beach Final",
+    "folder":  "long_beach_final",
+    "relationships":  [
+
+                      ],
+    "ranked_entities":  [
+
+                        ],
+    "graph_policy":  {
+                         "source_backed_relationships_only":  true,
+                         "no_inferred_edges_without_source":  true,
+                         "no_placeholder_scores":  true,
+                         "confidence_score_required":  true,
+                         "provenance_required":  true,
+                         "runtime_promotion_allowed":  false,
+                         "contact_enablement_allowed":  false,
+                         "manual_review_required":  true
+                     },
+    "status":  "NORMALIZED_EMPTY_RELATIONSHIP_CANDIDATES"
+}

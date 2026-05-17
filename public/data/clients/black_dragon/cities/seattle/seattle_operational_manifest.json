@@ -1,0 +1,32 @@
+{
+    "version":  "black_dragon_seattle_operational_manifest_v1",
+    "generated_at":  "2026-05-11T02:52:02.1043597Z",
+    "city":  {
+                 "city_id":  "city_seattle_wa",
+                 "city_name":  "Seattle",
+                 "state":  "Washington",
+                 "state_code":  "WA",
+                 "runtime_status":  "ACTIVE_ALLOWED",
+                 "current_nexus_map_city":  true,
+                 "map_confirmed":  true,
+                 "operational_phase":  "FOUNDATION"
+             },
+    "restrictions":  {
+                         "expansion_locked":  true,
+                         "neighboring_city_ingestion_forbidden":  true,
+                         "statewide_runtime_forbidden":  true,
+                         "multi_city_washington_runtime_forbidden":  true
+                     },
+    "runtime_controls":  {
+                             "contact_activation":  "MANUAL_ONLY",
+                             "outbound_authority":  "DISABLED",
+                             "automated_actions_allowed":  false
+                         },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

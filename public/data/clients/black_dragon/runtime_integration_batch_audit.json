@@ -1,0 +1,18 @@
+{
+  "version": "black_dragon_runtime_integration_batch_audit_v1",
+  "generated_at": "2026-05-06T02:09:04.379Z",
+  "status": "PASS",
+  "missing": [],
+  "checks": {
+    "required_files_exist": true,
+    "sync_matches_globe": true,
+    "sync_matches_dossier_index": true,
+    "ui_matches_sync": true
+  },
+  "counts": {
+    "sync_targets": 11,
+    "globe_nodes": 11,
+    "dossier_index": 11,
+    "ui_targets": 11
+  }
+}

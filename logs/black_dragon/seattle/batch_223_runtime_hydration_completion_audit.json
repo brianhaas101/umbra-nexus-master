@@ -1,0 +1,29 @@
+{
+    "batch":  "223",
+    "version":  "black_dragon_canonical_runtime_hydration_completion_city_audit_v1",
+    "generated_at":  "2026-05-11T04:28:59.6798848Z",
+    "city":  "Seattle",
+    "folder":  "seattle",
+    "written":  [
+                    ".\\public\\data\\clients\\black_dragon\\runtime\\seattle\\entities_runtime.json",
+                    ".\\public\\data\\clients\\black_dragon\\runtime\\seattle\\runtime_summary.json",
+                    ".\\public\\data\\clients\\black_dragon\\runtime\\seattle\\relationship_graph.json"
+                ],
+    "invalid_json_count":  0,
+    "invalid_json":  [
+
+                     ],
+    "tier_1_runtime_artifacts":  {
+                                     "entities_runtime":  true,
+                                     "runtime_summary":  true,
+                                     "relationship_graph":  true
+                                 },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "PASS_CANONICAL_RUNTIME_HYDRATED"
+}

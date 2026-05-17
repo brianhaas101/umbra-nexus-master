@@ -1,0 +1,48 @@
+{
+  "version": "black_dragon_phoenix_client_overview_panel_v1",
+  "generated_at": "2026-05-10T23:03:44.739Z",
+  "city": "Phoenix",
+  "state": "AZ",
+  "panel_id": "BD_PHX_CLIENT_OVERVIEW",
+  "panel_title": "Phoenix Operational Intelligence",
+  "client_visible": true,
+  "summary_cards": [
+    {
+      "card_id": "PHX_RUNTIME_ENTITIES",
+      "label": "Runtime Entities",
+      "count": 10
+    },
+    {
+      "card_id": "PHX_CONTACT_CANDIDATES",
+      "label": "Manual Contact Candidates",
+      "count": 8
+    },
+    {
+      "card_id": "PHX_GRAPH_EDGES",
+      "label": "Graph Edges",
+      "count": 42
+    },
+    {
+      "card_id": "PHX_PROPAGATION_PATHS",
+      "label": "Propagation Paths",
+      "count": 10
+    },
+    {
+      "card_id": "PHX_ROUTE_REVIEW",
+      "label": "Route Reviews",
+      "count": 2
+    },
+    {
+      "card_id": "PHX_CROSS_STATE_DUPLICATES",
+      "label": "Cross-State Overlaps",
+      "count": 0
+    }
+  ],
+  "hardlocks": {
+    "ui_can_recommend": true,
+    "ui_can_auto_contact": false,
+    "ui_can_auto_promote": false,
+    "ui_can_delete_targets": false,
+    "ui_can_mutate_runtime": false
+  }
+}

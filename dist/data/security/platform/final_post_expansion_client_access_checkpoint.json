@@ -1,0 +1,16 @@
+{
+  "checkpoint": "FINAL_POST_EXPANSION_CLIENT_ACCESS_READY",
+  "generated_at": "2026-05-09T18:54:06.855Z",
+  "pass": true,
+  "totals": {
+    "operational_targets": 1334,
+    "queue_items": 1334,
+    "adaptive_targets": 1334,
+    "kpi_targets": 1334,
+    "map_features": 1334,
+    "runtime_nodes": 1334,
+    "regional_clusters": 44,
+    "propagation_paths": 48,
+    "dashboard_widgets": 7
+  }
+}

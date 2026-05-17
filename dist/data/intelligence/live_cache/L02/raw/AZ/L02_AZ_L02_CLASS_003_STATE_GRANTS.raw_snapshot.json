@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:19.314Z",
+  "layer_id": "L02",
+  "connector_id": "L02_AZ_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "AZ",
+  "state_name": "Arizona",
+  "source_type": "STATE_GRANTS",
+  "canonical_url": "https://gohs.az.gov/grants",
+  "status": "FETCH_EMPTY_OR_FAILED",
+  "response": {
+    "ok": false,
+    "status": 404,
+    "html_length": 29177,
+    "extracted_links": [
+      {
+        "href": "https://gohs.az.gov/grant-training-and-opportunities",
+        "label": "Grants"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs",
+        "label": "Safety Programs"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs/speed-and-aggressive-driving",
+        "label": "Speed &amp; Aggressive Driving"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs/speed-and-aggressive-driving/distracted-driving",
+        "label": "Distracted Driving"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs/occupant-protection",
+        "label": "Occupant Protection"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs/occupant-protection/heatstroke-prevention",
+        "label": "Heatstroke Prevention"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs/pedestrian-safety",
+        "label": "Pedestrian Safety"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs/bicycle-safety",
+        "label": "Bicycle Safety"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs/motorcycle-safety",
+        "label": "Motorcyle Safety"
+      },
+      {
+        "href": "https://gohs.az.gov/highway-safety-programs/impaired-driver-training",
+        "label": "Impaired Driving"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "34214ee2b5ca30ee92d3044ea3be39d71b760eef95f9286cb212cfc5237d2b26"
+}

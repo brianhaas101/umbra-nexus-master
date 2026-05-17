@@ -1,0 +1,31 @@
+{
+    "version":  "black_dragon_houston_contact_governance_v1",
+    "generated_at":  "2026-05-11T03:18:24.1429698Z",
+    "contact_rules":  {
+                          "no_auto_contact":  true,
+                          "manual_review_required_for_contact":  true,
+                          "outbound_promotion_disabled":  true,
+                          "automated_actions_allowed":  false,
+                          "bulk_contact_forbidden":  true,
+                          "allowed_contact_statuses":  [
+                                                           "MANUAL_REVIEW_PENDING",
+                                                           "APPROVED_FOR_MANUAL_CONTACT",
+                                                           "BLOCKED"
+                                                       ]
+                      },
+    "forbidden_actions":  [
+                              "bulk_auto_email",
+                              "auto_calling",
+                              "automated_social_outreach",
+                              "self_expanding_contact_graphs",
+                              "automatic_runtime_promotion",
+                              "contact_without_manual_review"
+                          ],
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

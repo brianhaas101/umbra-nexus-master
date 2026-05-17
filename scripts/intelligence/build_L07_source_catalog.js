@@ -1,0 +1,34 @@
+const fs = require("fs");
+const path = require("path");
+
+const OUT = "public/data/intelligence/sources/L07_GEOGRAPHIC_TERRITORY.sources.json";
+
+const catalog = {
+  version: "nexus_L07_geographic_territory_sources_v1",
+  generated_at: new Date().toISOString(),
+  layer_id: "L07_GEOGRAPHIC_TERRITORY",
+  target_sources: 15,
+  production_ready: true,
+  source_classes: [
+    { source_id: "HIFLD", authority: "FEDERAL", type: "critical_infrastructure_geospatial", coverage: "US_NATIONAL" },
+    { source_id: "US_CENSUS_TIGER", authority: "FEDERAL", type: "boundary_data", coverage: "US_NATIONAL" },
+    { source_id: "STATE_GIS_PORTALS", authority: "STATE", type: "state_geospatial", coverage: "STATE" },
+    { source_id: "COUNTY_GIS_SYSTEMS", authority: "LOCAL", type: "county_geospatial", coverage: "COUNTY" },
+    { source_id: "CITY_GIS_SYSTEMS", authority: "LOCAL", type: "city_geospatial", coverage: "CITY" },
+    { source_id: "OPENSTREETMAP", authority: "OSINT", type: "mapping_data", coverage: "GLOBAL" },
+    { source_id: "TRANSPORTATION_NETWORKS", authority: "STATE", type: "movement_corridors", coverage: "STATE_REGIONAL" },
+    { source_id: "AIRPORT_INFRASTRUCTURE", authority: "FEDERAL", type: "air_transport", coverage: "US_NATIONAL" },
+    { source_id: "PORT_INFRASTRUCTURE", authority: "FEDERAL", type: "maritime_transport", coverage: "US_NATIONAL" },
+    { source_id: "RAIL_INFRASTRUCTURE", authority: "FEDERAL", type: "rail_transport", coverage: "US_NATIONAL" },
+    { source_id: "UTILITY_INFRASTRUCTURE", authority: "STATE", type: "utility_networks", coverage: "STATE_REGIONAL" },
+    { source_id: "CRITICAL_RESPONSE_ZONES", authority: "STATE", type: "emergency_response", coverage: "STATE" },
+    { source_id: "DEMOGRAPHIC_DENSITY_DATA", authority: "FEDERAL", type: "population_density", coverage: "US_NATIONAL" },
+    { source_id: "REGIONAL_CRIME_HEATMAPS", authority: "LOCAL", type: "incident_density", coverage: "LOCAL_REGIONAL" },
+    { source_id: "SATELLITE_BASEMAP_SYSTEMS", authority: "COMMERCIAL", type: "imagery_reference", coverage: "GLOBAL" }
+  ]
+};
+
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
+fs.writeFileSync(OUT, JSON.stringify(catalog, null, 2));
+
+console.log("[L07 SOURCE CATALOG] COMPLETE", catalog.source_classes.length);

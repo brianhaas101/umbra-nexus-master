@@ -1,0 +1,23 @@
+{
+  "version": "umbra_batch_097_founder_manual_review_pass_engine_audit_v1",
+  "generated_at": "2026-05-10T16:34:33.346Z",
+  "file_integrity": {
+    "json_exists": true,
+    "csv_exists": true
+  },
+  "queue_integrity": {
+    "review_rows": 0,
+    "all_have_review_ids": true,
+    "all_have_entity_ids": true,
+    "all_pending": true,
+    "all_manual_review_false": true,
+    "all_founder_only": true
+  },
+  "safety_integrity": {
+    "approved_zero": true,
+    "rejected_zero": true,
+    "no_contact_ready": true,
+    "no_outreach": true
+  },
+  "pass": true
+}

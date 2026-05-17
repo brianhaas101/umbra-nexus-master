@@ -1,0 +1,205 @@
+{
+  "version": "black_dragon_arizona_four_city_overlap_registry_v1",
+  "generated_at": "2026-05-11T00:23:57.914Z",
+  "state": "Arizona",
+  "overlap_count": 6,
+  "overlaps": [
+    {
+      "arizona_overlap_id": "BD_AZ_OVERLAP_00001",
+      "normalized_name": "arizona bike week",
+      "overlap_count": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "organizations": [
+        {
+          "city": "Phoenix",
+          "organization_name": "Arizona Bike Week",
+          "city_rank": 1,
+          "best_score": 9.33
+        },
+        {
+          "city": "Scottsdale",
+          "organization_name": "Arizona Bike Week",
+          "city_rank": 1,
+          "best_score": 9.43
+        },
+        {
+          "city": "Mesa",
+          "organization_name": "Arizona Bike Week",
+          "city_rank": 1,
+          "best_score": 9.43
+        }
+      ],
+      "overlap_type": "ARIZONA_STATE_CORRIDOR_ENTITY",
+      "state_priority": "HIGH",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "arizona_overlap_id": "BD_AZ_OVERLAP_00002",
+      "normalized_name": "harley-davidson of scottsdale",
+      "overlap_count": 2,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale"
+      ],
+      "organizations": [
+        {
+          "city": "Phoenix",
+          "organization_name": "Harley-Davidson of Scottsdale",
+          "city_rank": 2,
+          "best_score": 9.15
+        },
+        {
+          "city": "Scottsdale",
+          "organization_name": "Harley-Davidson of Scottsdale",
+          "city_rank": 2,
+          "best_score": 9.26
+        }
+      ],
+      "overlap_type": "ARIZONA_STATE_CORRIDOR_ENTITY",
+      "state_priority": "HIGH",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "arizona_overlap_id": "BD_AZ_OVERLAP_00003",
+      "normalized_name": "arizona veterans motorcycle association",
+      "overlap_count": 4,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa",
+        "Tucson"
+      ],
+      "organizations": [
+        {
+          "city": "Phoenix",
+          "organization_name": "Arizona Veterans Motorcycle Association",
+          "city_rank": 4,
+          "best_score": 8.71
+        },
+        {
+          "city": "Scottsdale",
+          "organization_name": "Arizona Veterans Motorcycle Association",
+          "city_rank": 4,
+          "best_score": 8.71
+        },
+        {
+          "city": "Mesa",
+          "organization_name": "Arizona Veterans Motorcycle Association",
+          "city_rank": 4,
+          "best_score": 8.71
+        },
+        {
+          "city": "Tucson",
+          "organization_name": "Arizona Veterans Motorcycle Association",
+          "city_rank": 3,
+          "best_score": 8.71
+        }
+      ],
+      "overlap_type": "ARIZONA_STATE_CORRIDOR_ENTITY",
+      "state_priority": "MEDIUM",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "arizona_overlap_id": "BD_AZ_OVERLAP_00004",
+      "normalized_name": "law tigers arizona",
+      "overlap_count": 4,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa",
+        "Tucson"
+      ],
+      "organizations": [
+        {
+          "city": "Phoenix",
+          "organization_name": "Law Tigers Arizona",
+          "city_rank": 5,
+          "best_score": 8.64
+        },
+        {
+          "city": "Scottsdale",
+          "organization_name": "Law Tigers Arizona",
+          "city_rank": 6,
+          "best_score": 8.64
+        },
+        {
+          "city": "Mesa",
+          "organization_name": "Law Tigers Arizona",
+          "city_rank": 6,
+          "best_score": 8.64
+        },
+        {
+          "city": "Tucson",
+          "organization_name": "Law Tigers Arizona",
+          "city_rank": 2,
+          "best_score": 8.75
+        }
+      ],
+      "overlap_type": "ARIZONA_STATE_CORRIDOR_ENTITY",
+      "state_priority": "MEDIUM",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "arizona_overlap_id": "BD_AZ_OVERLAP_00005",
+      "normalized_name": "abate of arizona",
+      "overlap_count": 2,
+      "participating_cities": [
+        "Phoenix",
+        "Tucson"
+      ],
+      "organizations": [
+        {
+          "city": "Phoenix",
+          "organization_name": "ABATE of Arizona",
+          "city_rank": 6,
+          "best_score": 8.52
+        },
+        {
+          "city": "Tucson",
+          "organization_name": "ABATE of Arizona",
+          "city_rank": 5,
+          "best_score": 8.52
+        }
+      ],
+      "overlap_type": "ARIZONA_STATE_CORRIDOR_ENTITY",
+      "state_priority": "MEDIUM",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "arizona_overlap_id": "BD_AZ_OVERLAP_00006",
+      "normalized_name": "go az motorcycles",
+      "overlap_count": 2,
+      "participating_cities": [
+        "Scottsdale",
+        "Mesa"
+      ],
+      "organizations": [
+        {
+          "city": "Scottsdale",
+          "organization_name": "GO AZ Motorcycles",
+          "city_rank": 3,
+          "best_score": 8.86
+        },
+        {
+          "city": "Mesa",
+          "organization_name": "GO AZ Motorcycles",
+          "city_rank": 3,
+          "best_score": 8.86
+        }
+      ],
+      "overlap_type": "ARIZONA_STATE_CORRIDOR_ENTITY",
+      "state_priority": "MEDIUM",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

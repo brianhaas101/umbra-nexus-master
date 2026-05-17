@@ -1,0 +1,84 @@
+{
+    "batch":  "191",
+    "version":  "black_dragon_las_vegas_toolchain_integrated_hardlock_audit_v1",
+    "generated_at":  "2026-05-11T01:40:54.2562428Z",
+    "toolchain_used":  {
+                           "fd":  "fd 10.4.2",
+                           "rg":  "ripgrep 15.1.0 (rev af60c2de9d)",
+                           "jq":  "jq-1.8.1"
+                       },
+    "required_artifacts":  {
+                               "required_count":  9,
+                               "missing_count":  3,
+                               "missing":  [
+                                               ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\source_registry.json",
+                                               ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\entity_schema.json",
+                                               ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_governance_policy.json"
+                                           ]
+                           },
+    "city_scope":  {
+                       "active_city":  "Las Vegas",
+                       "state":  "Nevada",
+                       "blocked_runtime_files_detected":  0,
+                       "blocked_runtime_files":  [
+
+                                                 ]
+                   },
+    "quarantine_integrity":  {
+                                 "entity_count":  3,
+                                 "review_queue_count":  3,
+                                 "score_count":  3,
+                                 "runtime_eligible_entities":  0,
+                                 "outbound_contact_enabled":  0,
+                                 "non_quarantined_entities":  0
+                             },
+    "json_validation":  {
+                            "files_checked":  6,
+                            "invalid_files":  0,
+                            "results":  [
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_readiness_scores.json",
+                                                "valid_json":  true,
+                                                "error":  null
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\las_vegas_operational_manifest.json",
+                                                "valid_json":  true,
+                                                "error":  null
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\manual_review_pipeline.json",
+                                                "valid_json":  true,
+                                                "error":  null
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\quarantined_entities.json",
+                                                "valid_json":  true,
+                                                "error":  null
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\las_vegas\\runtime_shell.json",
+                                                "valid_json":  true,
+                                                "error":  null
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\states\\nevada\\single_city_runtime_policy.json",
+                                                "valid_json":  true,
+                                                "error":  null
+                                            }
+                                        ]
+                        },
+    "scans":  {
+                  "blocked_city_scan_log":  ".\\logs\\black_dragon\\las_vegas\\batch_191_blocked_city_scan.txt",
+                  "mutation_scan_log":  ".\\logs\\black_dragon\\las_vegas\\batch_191_mutation_scan.txt",
+                  "file_inventory_log":  ".\\logs\\black_dragon\\las_vegas\\batch_191_fd_inventory.txt"
+              },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  null
+}

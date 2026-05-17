@@ -1,0 +1,59 @@
+const fs = require("fs");
+const path = require("path");
+
+const OUT = "public/data/clients/black_dragon/live_ingestion_manifest.json";
+
+const manifest = {
+  version: "black_dragon_live_ingestion_manifest_v1",
+  generated_at: new Date().toISOString(),
+  client_key: "black_dragon",
+  rule: "No live ingestion output may become outreach-ready without manual verification.",
+  ingestion_jobs: [
+    {
+      job_id: "BD_AZ_VERIFIED_REFRESH",
+      state: "AZ",
+      source_type: "manual_verified_contacts",
+      input: "public/data/clients/black_dragon/manual_verified_contacts.json",
+      output: "public/data/clients/black_dragon/outreach_shortlist.json",
+      status: "ACTIVE_VERIFIED"
+    },
+    {
+      job_id: "BD_CA_POST_CANDIDATE_REFRESH",
+      state: "CA",
+      source_type: "official_candidate_agency_source",
+      input: "https://post.ca.gov/le-agencies",
+      output: "public/data/clients/black_dragon/state_candidates/ca_candidate_agencies.json",
+      status: "ACTIVE_CANDIDATE_ONLY"
+    },
+    {
+      job_id: "BD_NATIONAL_VERIFIED_MERGE",
+      state: "NATIONAL",
+      source_type: "verified_contact_merge",
+      input: "AZ + CA verified contact stores",
+      output: "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      status: "ACTIVE_VERIFIED"
+    },
+    {
+      job_id: "BD_NORMALIZED_INTELLIGENCE_REFRESH",
+      state: "NATIONAL",
+      source_type: "normalization",
+      input: "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      output: "public/data/clients/black_dragon/normalized_intelligence_outputs.json",
+      status: "ACTIVE_VERIFIED"
+    },
+    {
+      job_id: "BD_CLIENT_SYNC_REFRESH",
+      state: "NATIONAL",
+      source_type: "runtime_sync",
+      input: "dossiers + shortlist + execution log",
+      output: "public/data/clients/black_dragon/black_dragon_client_sync.json",
+      status: "ACTIVE_RUNTIME"
+    }
+  ]
+};
+
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
+fs.writeFileSync(OUT, JSON.stringify(manifest, null, 2));
+
+console.log("[LIVE MANIFEST] COMPLETE");
+console.log("[LIVE MANIFEST] Jobs:", manifest.ingestion_jobs.length);

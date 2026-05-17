@@ -1,0 +1,24 @@
+{
+  "version": "black_dragon_batch_164_scottsdale_discovery_import_audit_v1",
+  "generated_at": "2026-05-10T23:28:04.258Z",
+  "batch": "164_SCOTTSDALE_ENTITY_DISCOVERY_IMPORT",
+  "counts": {
+    "imported_candidates": 10,
+    "validated_candidates": 10,
+    "dedupe_candidates": 10,
+    "regional_duplicates": 4
+  },
+  "gates": {
+    "imported_candidates_exist": true,
+    "validated_candidates_exist": true,
+    "all_candidates_quarantined": true,
+    "source_lineage_present": true,
+    "no_runtime_visibility": true,
+    "no_contact_ready": true,
+    "no_auto_contact": true,
+    "no_runtime_mutation": true,
+    "regional_dedupe_executed": true
+  },
+  "next_phase": "BATCH_165_SCOTTSDALE_RUNTIME_MERGE_AND_GRAPH",
+  "status": "PASS"
+}

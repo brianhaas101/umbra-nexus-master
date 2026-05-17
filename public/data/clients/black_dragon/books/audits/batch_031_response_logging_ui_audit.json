@@ -1,0 +1,61 @@
+{
+  "version": "black_dragon_books_batch_031_response_logging_ui_audit_v1",
+  "generated_at": "2026-05-09T03:35:32.451Z",
+  "file_checks": [
+    {
+      "key": "responseUi",
+      "file": "public/globe/clients/black_dragon/books/response_logging_ui.js",
+      "exists": true
+    },
+    {
+      "key": "manifest",
+      "file": "public/data/clients/black_dragon/books/dashboard/response_logging_ui_manifest.v1.json",
+      "exists": true
+    },
+    {
+      "key": "injectionReport",
+      "file": "public/data/clients/black_dragon/books/dashboard/response_logging_ui_injection_report.v1.json",
+      "exists": true
+    },
+    {
+      "key": "queueData",
+      "file": "public/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json",
+      "exists": true
+    },
+    {
+      "key": "responsesData",
+      "file": "public/data/clients/black_dragon/books/responses/classified/classified_responses.v1.json",
+      "exists": true
+    }
+  ],
+  "ui_integrity": {
+    "defines_global": true,
+    "has_load": true,
+    "has_render": true,
+    "has_select_item": true,
+    "has_payload_builder": true,
+    "has_copy_json_action": true,
+    "has_generate_record_action": true,
+    "has_status_values": true,
+    "uses_frontend_security": true,
+    "uses_dataset_security": true,
+    "marks_response_panel": true
+  },
+  "manifest_integrity": {
+    "required_script_declared": true,
+    "required_global_declared": true,
+    "functions_declared": true,
+    "actions_declared": true
+  },
+  "injection_integrity": {
+    "entrypoints_checked": true,
+    "all_checked_have_response_ui": true
+  },
+  "data_integrity": {
+    "queue_exists": true,
+    "all_queue_items_array": true,
+    "responses_dataset_exists": true,
+    "responses_array_exists": true
+  },
+  "pass": true
+}

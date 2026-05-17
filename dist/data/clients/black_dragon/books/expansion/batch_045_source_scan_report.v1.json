@@ -1,0 +1,837 @@
+{
+  "version": "black_dragon_books_batch_045_source_scan_report_v1",
+  "generated_at": "2026-05-09T18:41:47.149Z",
+  "files_scanned": 166,
+  "accepted_candidates": 1311,
+  "scan": [
+    {
+      "file": "public/data/clients/black_dragon/agency_websites.json",
+      "records_seen": 54,
+      "accepted": 52
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_50_state_source_registry.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_city_coverage_report.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_city_expansion_candidates.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_city_index.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_client_sync.json",
+      "records_seen": 12,
+      "accepted": 11
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_enrichment_rules.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_final_account_audit.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_full_account_audit.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_leads_master.backup_1777682182211.json",
+      "records_seen": 25,
+      "accepted": 25
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_leads_master.backup_1777685748719.json",
+      "records_seen": 25,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_leads_master.json",
+      "records_seen": 25,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_live_account.clean.json",
+      "records_seen": 139,
+      "accepted": 132
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_live_account.json",
+      "records_seen": 339,
+      "accepted": 250
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_major_city_targets.expanded_review.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_major_city_targets.phase2_plus_ca_fl.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_major_city_targets.phase2_review.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_major_city_targets.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_pass3_expanded_targets.json",
+      "records_seen": 637,
+      "accepted": 483
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_pass3_ranked_locked.json",
+      "records_seen": 637,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_pass4_outreach_enabled.json",
+      "records_seen": 637,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_source_registry.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_state_agency_directory_registry.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_top50_coverage_report.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/black_dragon_view_model.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/adaptive_priority/adaptive_priority_index.v1.json",
+      "records_seen": 23,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/adaptive_priority/adaptive_priority_model.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/adaptive_priority/snapshots/adaptive_priority_snapshot.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/black_dragon_books_profile.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/checkpoints/black_dragon_books_v2_hard_lock_checkpoint.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/client_view/client_book_targets_view.v1.json",
+      "records_seen": 23,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/client_view/snapshots/client_book_targets_snapshot.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/contacts/contact_enrichment_model.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/contacts/enriched/public_contact_enrichment.v1.json",
+      "records_seen": 23,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/contacts/raw/public_contact_paths_raw.v1.json",
+      "records_seen": 20,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/contacts/snapshots/public_contact_enrichment_snapshot.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/execution/test_pack_001/outreach_execution_test_pack_001.json",
+      "records_seen": 15,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/execution/test_pack_001/outreach_test_pack_001_results.json",
+      "records_seen": 0,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/ingestion/raw_book_targets_intake.v1.json",
+      "records_seen": 3,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/kpi/book_kpi_config.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/kpi/book_operational_kpis.v1.json",
+      "records_seen": 23,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/kpi/snapshots/book_kpi_snapshot.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/normalized/book_targets_normalized.v1.json",
+      "records_seen": 3,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/normalized/book_targets_scored.v2.json",
+      "records_seen": 3,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/operational/black_dragon_books_hotwarm_index.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/operational/black_dragon_books_operational_targets.v1.json",
+      "records_seen": 23,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/outreach/book_endorsement_templates.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/outreach/generated/book_hot_outreach_shortlist.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/outreach/generated/book_outreach_messages.v1.json",
+      "records_seen": 23,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/priority/contactability_weighted_priority_index.v1.json",
+      "records_seen": 23,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/priority/outreach_priority_model.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/priority/snapshots/priority_snapshot.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/propagation/chains/book_propagation_chains.v1.json",
+      "records_seen": 4,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/propagation/propagation_chain_model.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/propagation/snapshots/book_propagation_snapshot.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/public_intake/approved/public_book_targets_approved.v1.json",
+      "records_seen": 20,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/public_intake/public_book_target_intake_schema.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/public_intake/raw/public_book_targets_raw.v1.json",
+      "records_seen": 20,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/public_intake/raw/public_book_targets_raw_pack_001.v1.json",
+      "records_seen": 10,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/public_intake/rejected/public_book_targets_rejected.v1.json",
+      "records_seen": 0,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/public_intake/review/public_book_targets_review.v1.json",
+      "records_seen": 20,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/queue/outreach_ready_queue.v1.json",
+      "records_seen": 23,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/queue/snapshots/outreach_ready_queue_snapshot.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/responses/classified/classified_responses.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/responses/raw/raw_response_ingestion.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/responses/snapshots/response_feedback_snapshot.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/schemas/book_propagation_scoring_config.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/schemas/book_target_schema.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/schemas/book_target_status_model.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/schemas/propagation_score_model.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/signals/influence_signal_catalog.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/targets/book_targets_scored.v1.json",
+      "records_seen": 3,
+      "accepted": 3
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/targets/book_targets_seed.v1.json",
+      "records_seen": 3,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/templates/book_outreach_templates.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/tracking/events/book_outreach_events.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/tracking/snapshots/book_outreach_tracking_snapshot.v1.json",
+      "records_seen": 4,
+      "accepted": 1
+    },
+    {
+      "file": "public/data/clients/black_dragon/books/tracking/tracking_status_model.v1.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/city_normalization_registry.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/client_dossier_index.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/client_handoff_package.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/contact_candidates.json",
+      "records_seen": 89,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/contact_candidate_collector_log.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/contact_candidate_review_shortlist.json",
+      "records_seen": 70,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/contact_enriched_targets.json",
+      "records_seen": 73,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/contact_enrichment_log.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/dossier_export_bridge.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/dossier_targets.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/enrichment_queue.json",
+      "records_seen": 65,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/execution_state_bridge.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/founder_control_summary.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/geocode_cache.json",
+      "records_seen": 11,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/geographic_intelligence_layer.json",
+      "records_seen": 11,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/globe_data_adapter.json",
+      "records_seen": 11,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/globe_sync_export.json",
+      "records_seen": 11,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/globe_sync_export.real.json",
+      "records_seen": 11,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/intelligence_refresh_ledger.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/launch_readiness_report.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/live_ingestion_manifest.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/manual_contact_overrides.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/manual_verified_contacts.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/manual_verified_contact_patch.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/manual_verified_contact_template.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/master_build_run.json",
+      "records_seen": 22,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/multi_state_candidate_agencies.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/national_state_expansion_audit.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/national_verified_outreach_shortlist.json",
+      "records_seen": 12,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/normalized_intelligence_outputs.json",
+      "records_seen": 12,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/operational_ui_state.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/outreach_execution_log.json",
+      "records_seen": 10,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/outreach_shortlist.json",
+      "records_seen": 10,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/questionnaire.json",
+      "error": "Expected double-quoted property name in JSON at position 850"
+    },
+    {
+      "file": "public/data/clients/black_dragon/ready_targets.json",
+      "records_seen": 8,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/runtime_authority_map.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/runtime_integration_batch_audit.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/runtime_integrity_check.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/runtime_loader_manifest.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/scored_targets.json",
+      "records_seen": 89,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/scoring_export_bridge.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/hifld_local_law_enforcement_locations.authority_targets.json",
+      "records_seen": 60,
+      "accepted": 56
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/hifld_local_law_enforcement_locations.cache.json",
+      "records_seen": 1,
+      "accepted": 1
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/hifld_local_law_enforcement_locations.candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/hifld_local_law_enforcement_locations.consolidated_entities.json",
+      "records_seen": 289,
+      "accepted": 227
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/hifld_local_law_enforcement_locations.import_candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/hifld_local_law_enforcement_locations.priority_review.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/hifld_local_law_enforcement_locations.validated_targets.json",
+      "records_seen": 60,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/source_cache_manifest.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/az_acjc_statewide_agency_directory.cache.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/az_acjc_statewide_agency_directory.candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/ca_post_law_enforcement_agencies.authority_targets.json",
+      "records_seen": 26,
+      "accepted": 17
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/ca_post_law_enforcement_agencies.cache.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/ca_post_law_enforcement_agencies.candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/fl_fdle_criminal_justice_agency_addresses.cache.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/fl_fdle_criminal_justice_agency_websites.authority_targets.json",
+      "records_seen": 15,
+      "accepted": 13
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/fl_fdle_criminal_justice_agency_websites.cache.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/fl_fdle_criminal_justice_agency_websites.candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/il_ptb_training_authority.cache.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/il_sheriffs_association_directory.cache.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/il_sheriffs_association_directory.candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/nc_cjin_law_enforcement_agencies.cache.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/nc_cjin_law_enforcement_agencies.candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/ny_dcjs_criminal_justice_agencies.authority_targets.json",
+      "records_seen": 10,
+      "accepted": 9
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/ny_dcjs_criminal_justice_agencies.cache.json",
+      "records_seen": 1501,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/ny_dcjs_criminal_justice_agencies.candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/oh_ag_law_enforcement_directory.cache.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/oh_ag_law_enforcement_directory.candidates.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/state_batch_az_il_oh_nc.authority_targets.json",
+      "records_seen": 89,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_cache/state_directories/state_directory_manifest.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/source_freshness_audit.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/ca_candidate_agencies.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/ca_manual_verification_queue.json",
+      "records_seen": 25,
+      "accepted": 7
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/ca_review_shortlist.json",
+      "records_seen": 25,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/ca_verified_contacts.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/ca_verified_contact_patch.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/ca_verified_contact_patch_template.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/tx_candidate_agencies.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/tx_manual_verification_queue.json",
+      "records_seen": 25,
+      "accepted": 24
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/tx_review_shortlist.json",
+      "records_seen": 25,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/tx_verified_contacts.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/tx_verified_contact_patch.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/state_candidates/tx_verified_contact_patch_template.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/targets_master.json",
+      "records_seen": 89,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/targets_with_dossiers.json",
+      "records_seen": 89,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/territory_clusters.json",
+      "records_seen": 1,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/top_targets_contact_enriched.json",
+      "records_seen": 25,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/top_targets_outreach_package.json",
+      "records_seen": 25,
+      "accepted": 0
+    },
+    {
+      "file": "public/data/clients/black_dragon/top_targets_shortlist.json",
+      "records_seen": 25,
+      "accepted": 0
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "version": "black_dragon_san_diego_graph_nodes_v1",
+  "generated_at": "2026-05-10T21:53:18.520Z",
+  "total_nodes": 10,
+  "nodes": [
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00001",
+      "organization_name": "Born-Free Motorcycle Show",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00008",
+      "graph_node_type": "EVENT_NETWORK",
+      "city_rank": 1,
+      "best_score": 9.27,
+      "cross_city_duplicate_detected": true,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00002",
+      "organization_name": "Biltwell Inc.",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00003",
+      "graph_node_type": "CUSTOM_BRAND",
+      "city_rank": 2,
+      "best_score": 8.96,
+      "cross_city_duplicate_detected": true,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00003",
+      "organization_name": "Biggs Harley-Davidson",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00001",
+      "graph_node_type": "DEALERSHIP_NETWORK",
+      "city_rank": 3,
+      "best_score": 8.76,
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00004",
+      "organization_name": "Veterans Motorcycle Association San Diego",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00007",
+      "graph_node_type": "VETERAN_RIDER_NETWORK",
+      "city_rank": 4,
+      "best_score": 8.71,
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00005",
+      "organization_name": "San Diego Harley Owners Group",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00002",
+      "graph_node_type": "RIDING_COMMUNITY",
+      "city_rank": 5,
+      "best_score": 8.68,
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00006",
+      "organization_name": "San Diego Vintage Motorcycle Swap Meet",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00004",
+      "graph_node_type": "EVENT_NETWORK",
+      "city_rank": 6,
+      "best_score": 8.61,
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00007",
+      "organization_name": "Law Tigers California",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00009",
+      "graph_node_type": "AFFILIATE_NETWORK",
+      "city_rank": 7,
+      "best_score": 8.59,
+      "cross_city_duplicate_detected": true,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00008",
+      "organization_name": "San Diego Custom Bike Show",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00010",
+      "graph_node_type": "EVENT_NETWORK",
+      "city_rank": 8,
+      "best_score": 8.51,
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00009",
+      "organization_name": "Cycle Gear San Diego",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00006",
+      "graph_node_type": "GEAR_RETAIL",
+      "city_rank": 9,
+      "best_score": 8.25,
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_SD_GRAPH_NODE_00010",
+      "organization_name": "SoCal Motorcycle Meetup San Diego",
+      "city_runtime_entity_id": "BD_SD_RUNTIME_ENTITY_00005",
+      "graph_node_type": "RIDING_COMMUNITY",
+      "city_rank": 10,
+      "best_score": 8.21,
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "inferred_contacts_allowed":  false,
+    "audit_safe":  true,
+    "synthetic_fillers_allowed":  false,
+    "required":  [
+                     "source",
+                     "timestamp",
+                     "city",
+                     "entity",
+                     "confidence",
+                     "verification"
+                 ]
+}

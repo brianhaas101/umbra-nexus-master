@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Salt Lake City",
+    "gis": "https://maps.slcgov.com/",
+    "open_data": "https://opendata.utah.gov/",
+    "police": "https://www.slc.gov/police/",
+    "fire": "https://www.slc.gov/fire/",
+    "parks": "https://www.slc.gov/parks/",
+    "permits": "https://www.slc.gov/buildingservices/",
+    "public_works": "https://www.slc.gov/mystreet/",
+    "schools": "https://www.slcschools.org/",
+    "council": "https://www.slc.gov/council/"
+  },
+  {
+    "city": "West Valley City",
+    "gis": "https://www.wvc-ut.gov/169/GIS",
+    "open_data": "https://www.wvc-ut.gov/",
+    "police": "https://www.wvc-ut.gov/17/Police",
+    "fire": "https://www.wvc-ut.gov/19/Fire",
+    "parks": "https://www.wvc-ut.gov/127/Parks-Recreation",
+    "permits": "https://www.wvc-ut.gov/35/Community-Development",
+    "public_works": "https://www.wvc-ut.gov/130/Public-Works",
+    "schools": "https://www.graniteschools.org/",
+    "council": "https://www.wvc-ut.gov/27/City-Council"
+  },
+  {
+    "city": "Provo",
+    "gis": "https://www.provo.org/departments/information-systems/gis",
+    "open_data": "https://www.provo.org/",
+    "police": "https://www.provo.org/departments/police",
+    "fire": "https://www.provo.org/departments/fire-rescue",
+    "parks": "https://www.provo.org/departments/parks",
+    "permits": "https://www.provo.org/departments/development-services",
+    "public_works": "https://www.provo.org/departments/public-works",
+    "schools": "https://provo.edu/",
+    "council": "https://www.provo.org/government/city-council"
+  },
+  {
+    "city": "West Jordan",
+    "gis": "https://www.westjordan.utah.gov/gis",
+    "open_data": "https://www.westjordan.utah.gov/",
+    "police": "https://www.westjordan.utah.gov/police",
+    "fire": "https://www.westjordan.utah.gov/fire",
+    "parks": "https://www.westjordan.utah.gov/parks",
+    "permits": "https://www.westjordan.utah.gov/community-development",
+    "public_works": "https://www.westjordan.utah.gov/public-works",
+    "schools": "https://jordandistrict.org/",
+    "council": "https://www.westjordan.utah.gov/city-council"
+  },
+  {
+    "city": "Orem",
+    "gis": "https://orem.org/maps/",
+    "open_data": "https://orem.org/",
+    "police": "https://orem.org/police/",
+    "fire": "https://orem.org/fire/",
+    "parks": "https://orem.org/parks/",
+    "permits": "https://orem.org/building/",
+    "public_works": "https://orem.org/public-works/",
+    "schools": "https://alpineschools.org/",
+    "council": "https://orem.org/city-council/"
+  }
+]

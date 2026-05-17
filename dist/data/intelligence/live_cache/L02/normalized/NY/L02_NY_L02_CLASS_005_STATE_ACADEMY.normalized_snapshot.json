@@ -1,0 +1,296 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:18.864Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+  "state_abbr": "NY",
+  "source_type": "STATE_ACADEMY",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Domestic Incident Report Form",
+        "href": "https://www.criminaljustice.ny.gov/ojis/dir_training.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Police / Peace Officer Decertification",
+        "href": "https://www.criminaljustice.ny.gov/Officer_Decertification.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Police Training",
+        "href": "https://www.criminaljustice.ny.gov/ops/training/index.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Security Guard Training",
+        "href": "https://www.criminaljustice.ny.gov/ops/sgtraining/index.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Naloxone Training Materials",
+        "href": "https://www.criminaljustice.ny.gov/ops/training/trainingnews.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Training Catalog",
+        "href": "https://www.criminaljustice.ny.gov/ops/training/index.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Security Guard Training",
+        "href": "https://www.criminaljustice.ny.gov/ops/sgtraining/index.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Basic Course for Police",
+        "href": "https://www.criminaljustice.ny.gov/ops/training/bcpo/bcpo01.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Police Refresher Course",
+        "href": "https://www.criminaljustice.ny.gov/ops/training/bcpo/bcpo02.htm",
+        "record_type": "state_academy_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY",
+      "state_abbr": "NY",
+      "source_type": "STATE_ACADEMY",
+      "confidence": 0.89,
+      "lineage": {
+        "canonical_url": "https://www.criminaljustice.ny.gov/ops/training/",
+        "raw_snapshot_hash": "9e6d3f8f4422635ec3a214846f88b0ee6f27f84790ea689b35c0eee5c6173866",
+        "parser_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Police Equivalency Course",
+        "href": "https://www.criminaljustice.ny.gov/ops/training/bcpo/bcpo03.htm",
+        "record_type": "state_academy_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_001",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_002",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_003",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_004",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_005",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_006",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_007",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_008",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_009",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SIGNAL_010",
+      "signal_type": "STATE_ACADEMY_SIGNAL",
+      "confidence": 0.89
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_001",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_002",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_003",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_004",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_005",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_006",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_007",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_008",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_009",
+      "score_delta": 8,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "L02_NY_L02_CLASS_005_STATE_ACADEMY_SCORE_010",
+      "score_delta": 8,
+      "confidence": 0.89
+    }
+  ],
+  "normalized_snapshot_hash": "93273895ab4a9b5b66ebf2ed69a513952e612f26f61f45b95fadc39b534b2bec"
+}

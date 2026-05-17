@@ -1,0 +1,13 @@
+﻿
+FullName                                                               
+--------                                                               
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus\public\globe\city_loader.js
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus\public\globe\city_map.js   
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus\public\globe\city_view.js  
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus\public\globe\dossiers.js   
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus\public\globe\integrity.js  
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus\public\globe\interaction.js
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus\public\globe\telemetry.js  
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus\index.html                 
+
+

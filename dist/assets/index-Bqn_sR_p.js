@@ -1,0 +1,177 @@
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))d(e);new MutationObserver(e=>{for(const i of e)if(i.type==="childList")for(const t of i.addedNodes)t.tagName==="LINK"&&t.rel==="modulepreload"&&d(t)}).observe(document,{childList:!0,subtree:!0});function n(e){const i={};return e.integrity&&(i.integrity=e.integrity),e.referrerPolicy&&(i.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?i.credentials="include":e.crossOrigin==="anonymous"?i.credentials="omit":i.credentials="same-origin",i}function d(e){if(e.ep)return;e.ep=!0;const i=n(e);fetch(e.href,i)}})();const r=document.getElementById("founderRoot");r?(r.innerHTML=`
+        <div
+          style="
+            position:fixed;
+            inset:0;
+            pointer-events:none;
+            z-index:9999;
+          "
+        >
+          <!-- TOP BAR -->
+          <div
+            style="
+              position:absolute;
+              top:18px;
+              left:18px;
+              right:18px;
+              height:58px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              padding:0 18px;
+              background:#081018ee;
+              border:1px solid #1e293b;
+              border-radius:14px;
+              color:#d7e0ea;
+              font-family:Inter,sans-serif;
+              backdrop-filter:blur(12px);
+              pointer-events:auto;
+            "
+          >
+            <div
+              style="
+                font-size:18px;
+                font-weight:700;
+                color:#f59e0b;
+                letter-spacing:0.08em;
+              "
+            >
+              UMBRA NEXUS — FOUNDER MODE
+            </div>
+
+            <div
+              style="
+                display:flex;
+                gap:18px;
+                font-size:13px;
+                color:#8aa0b8;
+              "
+            >
+              <div>WAVE: WAVE-001</div>
+              <div>REPLAY: PASS</div>
+              <div>BLACK DRAGON: ISOLATED</div>
+            </div>
+          </div>
+
+          <!-- LEFT OPS RAIL -->
+          <div
+            style="
+              position:absolute;
+              top:92px;
+              left:18px;
+              bottom:64px;
+              width:240px;
+              padding:16px;
+              background:#081018ee;
+              border:1px solid #1e293b;
+              border-radius:14px;
+              display:flex;
+              flex-direction:column;
+              gap:12px;
+              font-family:Inter,sans-serif;
+              backdrop-filter:blur(12px);
+              pointer-events:auto;
+            "
+          >
+            <div style="color:#f59e0b;font-weight:700;">
+              OPERATIONS
+            </div>
+
+            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+              GLOBAL
+            </div>
+
+            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+              CITY OPS
+            </div>
+
+            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+              REVIEW QUEUE
+            </div>
+
+            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+              CONFLICTS
+            </div>
+
+            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+              AUDIT REPLAY
+            </div>
+
+            <div style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;">
+              INTELLIGENCE LAYERS
+            </div>
+          </div>
+
+          <!-- RIGHT CONTEXT PANEL -->
+          <div
+            style="
+              position:absolute;
+              top:92px;
+              right:18px;
+              bottom:64px;
+              width:320px;
+              padding:18px;
+              background:#081018ee;
+              border:1px solid #1e293b;
+              border-radius:14px;
+              color:#d7e0ea;
+              font-family:Inter,sans-serif;
+              backdrop-filter:blur(12px);
+              pointer-events:auto;
+            "
+          >
+            <div
+              style="
+                color:#f59e0b;
+                font-size:16px;
+                font-weight:700;
+                margin-bottom:18px;
+              "
+            >
+              ENTITY CONTEXT
+            </div>
+
+            <div style="margin-bottom:10px;color:#8aa0b8;">
+              No entity selected
+            </div>
+
+            <div style="border-top:1px solid #1e293b;padding-top:14px;">
+              <div style="margin-bottom:8px;">Lifecycle: —</div>
+              <div style="margin-bottom:8px;">Spatial Confidence: —</div>
+              <div style="margin-bottom:8px;">Source Chain: —</div>
+              <div style="margin-bottom:8px;">Layer Contribution: —</div>
+              <div style="margin-bottom:8px;">Replay Integrity: PASS</div>
+              <div style="margin-bottom:8px;">Audit State: VERIFIED</div>
+            </div>
+          </div>
+
+          <!-- BOTTOM TELEMETRY -->
+          <div
+            style="
+              position:absolute;
+              left:18px;
+              right:18px;
+              bottom:18px;
+              height:36px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              padding:0 18px;
+              background:#081018ee;
+              border:1px solid #1e293b;
+              border-radius:12px;
+              color:#8aa0b8;
+              font-size:12px;
+              font-family:Inter,sans-serif;
+              backdrop-filter:blur(12px);
+              pointer-events:auto;
+            "
+          >
+            <div>INGEST: IDLE</div>
+            <div>GEOCODE FAILURES: 0</div>
+            <div>CONFLICTS: 0</div>
+            <div>EXPORT LOCK: ENABLED</div>
+            <div>FOUNDER MODE: ACTIVE</div>
+          </div>
+        </div>
+      `,console.log("[FounderUI] Founder overlay initialized")):console.warn("[FounderUI] founderRoot missing");

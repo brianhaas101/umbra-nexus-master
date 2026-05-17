@@ -1,0 +1,14 @@
+{
+  "version": "black_dragon_founder_manual_review_queue_v1_batch_097",
+  "generated_at": "2026-05-10T16:34:33.054Z",
+  "client_id": "black_dragon",
+  "founder_only": true,
+  "policy": "ONLY_FOUNDER_APPROVED_RECORDS_CAN_PROMOTE",
+  "totals": {
+    "review_rows": 0,
+    "pending": 0,
+    "approved": 0,
+    "rejected": 0
+  },
+  "manual_review_rows": []
+}

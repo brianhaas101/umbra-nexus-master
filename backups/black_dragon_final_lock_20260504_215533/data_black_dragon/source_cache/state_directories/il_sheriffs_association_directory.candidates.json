@@ -1,0 +1,22 @@
+{
+  "source_id": "il_sheriffs_association_directory",
+  "state": "IL",
+  "generated_at": "2026-05-02T21:44:58.982Z",
+  "candidate_count": 1,
+  "candidates": [
+    {
+      "candidate_id": "il_sheriffs_association_directory-CAND-0001",
+      "source_id": "il_sheriffs_association_directory",
+      "state": "IL",
+      "city": "Chicago",
+      "agency_name": "the Sheriff in your county and across the state! Select a County View More Adams Alexander Bond Boone Brown Bureau Calhoun Carroll Cass Champaign Christian Clark Clay Clinton Coles Cook Crawford Cumberland DeKalb DeWitt Douglas DuPage Edgar Edwards Effingham Fayette Ford Franklin Fulton Gallatin Greene Grundy Hamilton Hancock Hardin Henderson Henry Iroquois Jackson Jasper Jefferson Jersey Jo Daviess Johnson Kane Kankakee Kendall Knox Lake LaSalle Lawrence Lee Livingston Logan Macon Macoupin Madison Marion Marshall Mason Massac McDonough McHenry McLean Menard Mercer Monroe Montgomery Morgan Moultrie Ogle Peoria Perry Piatt Pike Pope Pulaski Putnam Randolph Richland Rock Island Saline Sangamon Schuyler Scott Shelby St. Clair Stark Stephenson Tazewell Union Vermilion Wabash Warren Washington Wayne White Whiteside Will Williamson Winnebago Woodford",
+      "agency_type": "county_sheriff",
+      "website": "",
+      "contact_url": "",
+      "confidence": 0.8,
+      "extraction_method": "text",
+      "review_status": "state_batch_review_required",
+      "live_import_allowed": false
+    }
+  ]
+}

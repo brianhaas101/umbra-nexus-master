@@ -1,0 +1,41 @@
+{
+  "version": "black_dragon_education_source_discovery_schema_v1_batch_067",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "discovery_statuses": [
+
+    "SEED_REVIEW_REQUIRED",
+    "SOURCE_DISCOVERY_PENDING",
+    "SOURCE_DISCOVERED",
+    "SOURCE_DISCOVERY_FAILED",
+    "CONTACT_DISCOVERY_PENDING",
+    "CONTACT_VERIFIED",
+    "CONTACT_REJECTED",
+    "OUTREACH_ELIGIBLE",
+    "OUTREACH_BLOCKED"
+
+  ],
+
+  "verification_requirements": {
+
+    "requires_real_public_source": true,
+    "requires_real_organization": true,
+    "requires_contact_validation": true,
+    "forbids_generated_contacts": true,
+    "forbids_fake_emails": true,
+    "forbids_fake_phone_numbers": true,
+    "requires_manual_review_before_outreach": true
+
+  },
+
+  "required_public_sources": [
+
+    "official_website",
+    "public_directory",
+    "academy_listing",
+    "school_program_listing",
+    "government_training_page",
+    "verified_event_listing"
+
+  ]
+}

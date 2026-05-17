@@ -1,0 +1,18 @@
+{
+  "version": "black_dragon_san_diego_dead_route_review_queue_v1",
+  "generated_at": "2026-05-10T22:03:17.794Z",
+  "review_item_count": 1,
+  "dead_route_items": [
+    {
+      "dead_route_id": "BD_SD_ROUTE_REVIEW_00001",
+      "validation_id": "BD_SD_HTTP_VALIDATE_007",
+      "organization_name": "Veterans Motorcycle Association San Diego",
+      "route_type": "VETERAN_NETWORK_SITE",
+      "url": "https://www.vma-usa.org/",
+      "failure_status": "ERROR",
+      "founder_review_required": true,
+      "automatic_delete_allowed": false,
+      "automated_outreach_allowed": false
+    }
+  ]
+}

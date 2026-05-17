@@ -1,0 +1,19 @@
+{
+  "version": "black_dragon_batch_162_phoenix_ui_surface_audit_v1",
+  "generated_at": "2026-05-10T23:03:44.741Z",
+  "batch": "162_PHOENIX_UI_AND_PRODUCTION_AUDIT",
+  "counts": {
+    "overview_cards": 6,
+    "node_cards": 10,
+    "propagation_paths": 10
+  },
+  "gates": {
+    "overview_visible": true,
+    "node_cards_match_runtime": true,
+    "propagation_paths_exist": true,
+    "no_ui_auto_contact": true,
+    "no_ui_auto_promotion": true,
+    "no_ui_runtime_mutation": true
+  },
+  "status": "PASS"
+}

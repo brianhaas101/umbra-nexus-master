@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:06.290Z",
+  "layer_id": "L02",
+  "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "TX",
+  "state_name": "Texas",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://www.texasattorneygeneral.gov",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "News",
+        "href": "https://www.texasattorneygeneral.gov/news",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Crime Victims",
+        "href": "https://www.texasattorneygeneral.gov/crime-victims",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Crime Victims’ Compensation Program",
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Crime Victims’ Compensation Program",
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Victims of Crime",
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/victims-crime",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Crime Victims’ Compensation Program",
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/crime-victims-compensation-program",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "How May We Help You?",
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/cvsd-help-center",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Advocate Resources",
+        "href": "https://www.texasattorneygeneral.gov/crime-victims/advocate-resources",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Protection",
+        "href": "https://www.texasattorneygeneral.gov/consumer-protection",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_TX_L02_CLASS_002_STATE_DOJ_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "state_name": "Texas",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:06.290Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.texasattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "426a9751651dfc1cadf9d66833ac3cdfcab4d510ecb432e9358a71dff363fd8d",
+        "parser_id": "L02_TX_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "File a Consumer Complaint",
+        "href": "https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_TX_L02_CLASS_002_STATE_DOJ_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_TX_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "TX",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    }
+  ],
+  "normalized_snapshot_hash": "e241947740669fa4340829fe6c10689229bdbf977c52efc869c6c4783283c64f"
+}

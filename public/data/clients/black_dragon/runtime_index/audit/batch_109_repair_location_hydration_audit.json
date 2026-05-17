@@ -1,0 +1,49 @@
+{
+    "version":  "black_dragon_batch_109_repair_location_hydration_audit_v1",
+    "generated_at":  "2026-05-10T18:13:58.7755162Z",
+    "repair":  "BATCH_109_REPAIR_LOCATION_HYDRATION",
+    "counts":  {
+                   "runtime_targets":  5,
+                   "hydrated_targets":  null,
+                   "unresolved_targets":  null,
+                   "total_cities":  3
+               },
+    "city_distribution":  [
+                              {
+                                  "city":  "Sacramento",
+                                  "state":  "CA",
+                                  "country":  "USA",
+                                  "total_targets":  1,
+                                  "verified_contact_routes":  1,
+                                  "dossier_visible":  1,
+                                  "city_map_visible":  1
+                              },
+                              {
+                                  "city":  "Salem",
+                                  "state":  "OR",
+                                  "country":  "USA",
+                                  "total_targets":  2,
+                                  "verified_contact_routes":  2,
+                                  "dossier_visible":  2,
+                                  "city_map_visible":  2
+                              },
+                              {
+                                  "city":  "Tallahassee",
+                                  "state":  "FL",
+                                  "country":  "USA",
+                                  "total_targets":  2,
+                                  "verified_contact_routes":  2,
+                                  "dossier_visible":  2,
+                                  "city_map_visible":  2
+                              }
+                          ],
+    "gates":  {
+                  "all_targets_hydrated":  false,
+                  "city_summary_rebuilt":  true,
+                  "sacramento_count_valid":  true,
+                  "salem_count_valid":  true,
+                  "tallahassee_count_valid":  true,
+                  "automated_outreach_still_disabled":  true
+              },
+    "status":  "PASS"
+}

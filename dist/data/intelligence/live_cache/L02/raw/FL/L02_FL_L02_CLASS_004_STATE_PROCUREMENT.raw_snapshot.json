@@ -1,0 +1,18 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:17.558Z",
+  "layer_id": "L02",
+  "connector_id": "L02_FL_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "FL",
+  "state_name": "Florida",
+  "source_type": "STATE_PROCUREMENT",
+  "canonical_url": "https://vendor.myfloridamarketplace.com",
+  "status": "FETCH_EMPTY_OR_FAILED",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 1132,
+    "extracted_links": []
+  },
+  "raw_snapshot_hash": "54180ab4aa70409f3fb19d8d703767a21ea63c568e755d430f3cb4635dda9d0c"
+}

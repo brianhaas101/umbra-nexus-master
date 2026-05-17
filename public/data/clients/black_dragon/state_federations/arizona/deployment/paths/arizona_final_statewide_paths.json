@@ -1,0 +1,384 @@
+{
+  "version": "black_dragon_arizona_final_statewide_paths_v1",
+  "generated_at": "2026-05-11T00:16:02.964Z",
+  "state": "Arizona",
+  "statewide_paths": [
+    {
+      "statewide_path_rank": 1,
+      "root_organization": "Arizona Bike Week",
+      "root_city": "Phoenix",
+      "state_score": 10.29,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 2,
+      "root_organization": "Arizona Bike Week",
+      "root_city": "Scottsdale",
+      "state_score": 10.27,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 3,
+      "root_organization": "Arizona Bike Week",
+      "root_city": "Mesa",
+      "state_score": 10.27,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 4,
+      "root_organization": "Harley-Davidson of Scottsdale",
+      "root_city": "Phoenix",
+      "state_score": 9.79,
+      "city_span": 2,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 5,
+      "root_organization": "Harley-Davidson of Scottsdale",
+      "root_city": "Scottsdale",
+      "state_score": 9.78,
+      "city_span": 2,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 6,
+      "root_organization": "Arizona Veterans Motorcycle Association",
+      "root_city": "Phoenix",
+      "state_score": 9.67,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 7,
+      "root_organization": "Law Tigers Arizona",
+      "root_city": "Phoenix",
+      "state_score": 9.6,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 8,
+      "root_organization": "Arizona Veterans Motorcycle Association",
+      "root_city": "Scottsdale",
+      "state_score": 9.55,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 9,
+      "root_organization": "Arizona Veterans Motorcycle Association",
+      "root_city": "Mesa",
+      "state_score": 9.55,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 10,
+      "root_organization": "GO AZ Motorcycles",
+      "root_city": "Scottsdale",
+      "state_score": 9.5,
+      "city_span": 2,
+      "participating_cities": [
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 11,
+      "root_organization": "GO AZ Motorcycles",
+      "root_city": "Mesa",
+      "state_score": 9.5,
+      "city_span": 2,
+      "participating_cities": [
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 12,
+      "root_organization": "Law Tigers Arizona",
+      "root_city": "Scottsdale",
+      "state_score": 9.48,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 13,
+      "root_organization": "Law Tigers Arizona",
+      "root_city": "Mesa",
+      "state_score": 9.48,
+      "city_span": 3,
+      "participating_cities": [
+        "Phoenix",
+        "Scottsdale",
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_MULTI_CITY_PROPAGATION",
+      "recommended_strategy": "STATE_CORRIDOR_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 14,
+      "root_organization": "Harley-Davidson of Mesa",
+      "root_city": "Mesa",
+      "state_score": 9.26,
+      "city_span": 1,
+      "participating_cities": [
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 15,
+      "root_organization": "Buddy Stubbs Harley-Davidson",
+      "root_city": "Phoenix",
+      "state_score": 9.05,
+      "city_span": 1,
+      "participating_cities": [
+        "Phoenix"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 16,
+      "root_organization": "Scottsdale Bike Week Vendor Network",
+      "root_city": "Scottsdale",
+      "state_score": 8.67,
+      "city_span": 1,
+      "participating_cities": [
+        "Scottsdale"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 17,
+      "root_organization": "Mesa Bike Week Vendor Network",
+      "root_city": "Mesa",
+      "state_score": 8.67,
+      "city_span": 1,
+      "participating_cities": [
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 18,
+      "root_organization": "ABATE of Arizona",
+      "root_city": "Phoenix",
+      "state_score": 8.52,
+      "city_span": 1,
+      "participating_cities": [
+        "Phoenix"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 19,
+      "root_organization": "WestWorld of Scottsdale Event Network",
+      "root_city": "Scottsdale",
+      "state_score": 8.52,
+      "city_span": 1,
+      "participating_cities": [
+        "Scottsdale"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 20,
+      "root_organization": "WestWorld of Mesa Event Network",
+      "root_city": "Mesa",
+      "state_score": 8.52,
+      "city_span": 1,
+      "participating_cities": [
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 21,
+      "root_organization": "Scottsdale Custom Motorcycle Culture",
+      "root_city": "Scottsdale",
+      "state_score": 8.37,
+      "city_span": 1,
+      "participating_cities": [
+        "Scottsdale"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 22,
+      "root_organization": "Mesa Custom Motorcycle Culture",
+      "root_city": "Mesa",
+      "state_score": 8.37,
+      "city_span": 1,
+      "participating_cities": [
+        "Mesa"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 23,
+      "root_organization": "Phoenix Bike Night Network",
+      "root_city": "Phoenix",
+      "state_score": 8.31,
+      "city_span": 1,
+      "participating_cities": [
+        "Phoenix"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 24,
+      "root_organization": "Cycle Gear Phoenix",
+      "root_city": "Phoenix",
+      "state_score": 8.29,
+      "city_span": 1,
+      "participating_cities": [
+        "Phoenix"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "statewide_path_rank": 25,
+      "root_organization": "Scottsdale Motorcycle Riders Network",
+      "root_city": "Scottsdale",
+      "state_score": 8.27,
+      "city_span": 1,
+      "participating_cities": [
+        "Scottsdale"
+      ],
+      "path_type": "ARIZONA_CITY_LEVEL_PROPAGATION",
+      "recommended_strategy": "CITY_LEVEL_MANUAL_REVIEW",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ],
+  "statewide_path_statistics": {
+    "total_paths": 25,
+    "multi_city_paths": 13,
+    "single_city_paths": 12
+  }
+}

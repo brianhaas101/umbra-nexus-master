@@ -1,0 +1,35 @@
+{
+  "version": "black_dragon_long_beach_master_template_export_v1",
+  "generated_at": "2026-05-10T21:07:16.579Z",
+  "template_city": "Long Beach",
+  "template_state": "CA",
+  "export_components": [
+    "ENTITY_RUNTIME",
+    "MERGE_AND_DEDUPE",
+    "CONTACT_ROUTE_EVIDENCE",
+    "LIVE_VALIDATION",
+    "FRESHNESS_ENGINE",
+    "DEAD_ROUTE_SUPPRESSION",
+    "RELATIONSHIP_GRAPH",
+    "GRAPH_INFLUENCE_SCORING",
+    "PROPAGATION_PATHS",
+    "GRAPH_UI_SURFACE",
+    "CLIENT_PROPAGATION_FEED",
+    "AUTONOMOUS_REFRESH_FOUNDATION"
+  ],
+  "inherited_hardlocks": [
+    "NO_AUTO_CONTACT",
+    "NO_AUTO_PROMOTION",
+    "NO_RUNTIME_DELETION",
+    "QUARANTINE_REQUIRED_BEFORE_DISABLE",
+    "MANUAL_REVIEW_REQUIRED_FOR_CONTACT"
+  ],
+  "safe_to_clone": true,
+  "intended_next_targets": [
+    "Los Angeles",
+    "San Diego",
+    "Orange County",
+    "Phoenix",
+    "Las Vegas"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+    "batch":  "233D",
+    "version":  "black_dragon_high_density_source_validation_quarantine_extraction_v1",
+    "generated_at":  "2026-05-11T05:34:06.0734710Z",
+    "wave":  "high_density_hydration_wave_1",
+    "city_results":  [
+                         {
+                             "city":  "Los Angeles",
+                             "folder":  "los_angeles",
+                             "harvested_sources":  22,
+                             "validated_sources":  19,
+                             "rejected_sources":  3,
+                             "geospatial_candidates":  18,
+                             "organization_candidates":  15,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_SOURCE_VALIDATION_AND_QUARANTINE_EXTRACTION_COMPLETE"
+                         },
+                         {
+                             "city":  "San Diego",
+                             "folder":  "san_diego",
+                             "harvested_sources":  21,
+                             "validated_sources":  18,
+                             "rejected_sources":  3,
+                             "geospatial_candidates":  16,
+                             "organization_candidates":  13,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_SOURCE_VALIDATION_AND_QUARANTINE_EXTRACTION_COMPLETE"
+                         },
+                         {
+                             "city":  "Phoenix",
+                             "folder":  "phoenix",
+                             "harvested_sources":  20,
+                             "validated_sources":  16,
+                             "rejected_sources":  4,
+                             "geospatial_candidates":  14,
+                             "organization_candidates":  13,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_SOURCE_VALIDATION_AND_QUARANTINE_EXTRACTION_COMPLETE"
+                         },
+                         {
+                             "city":  "Scottsdale",
+                             "folder":  "scottsdale",
+                             "harvested_sources":  20,
+                             "validated_sources":  16,
+                             "rejected_sources":  4,
+                             "geospatial_candidates":  12,
+                             "organization_candidates":  13,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_SOURCE_VALIDATION_AND_QUARANTINE_EXTRACTION_COMPLETE"
+                         },
+                         {
+                             "city":  "Mesa",
+                             "folder":  "mesa",
+                             "harvested_sources":  20,
+                             "validated_sources":  16,
+                             "rejected_sources":  4,
+                             "geospatial_candidates":  12,
+                             "organization_candidates":  13,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_SOURCE_VALIDATION_AND_QUARANTINE_EXTRACTION_COMPLETE"
+                         }
+                     ],
+    "failed_count":  0,
+    "failed":  [
+
+               ],
+    "interpretation":  {
+                           "long_beach_equivalence_claimed":  false,
+                           "tier2_claim_allowed":  false,
+                           "runtime_promotion_allowed":  false,
+                           "contact_enablement_allowed":  false,
+                           "reason":  "Sources and entities remain local candidates/quarantined until public URL, category, identity, and review gates pass."
+                       },
+    "hardlocks":  {
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_HIGH_DENSITY_SOURCE_VALIDATION_AND_QUARANTINE_EXTRACTION_COMPLETE"
+}

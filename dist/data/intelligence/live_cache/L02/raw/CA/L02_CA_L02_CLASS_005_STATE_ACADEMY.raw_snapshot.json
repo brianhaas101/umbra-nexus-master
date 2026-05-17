@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:11.110Z",
+  "layer_id": "L02",
+  "connector_id": "L02_CA_L02_CLASS_005_STATE_ACADEMY",
+  "state_abbr": "CA",
+  "state_name": "California",
+  "source_type": "STATE_ACADEMY",
+  "canonical_url": "https://post.ca.gov/basic-training-academies",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 35634,
+    "extracted_links": [
+      {
+        "href": "https://post.ca.gov/",
+        "label": "State of California POST Commission on Peace Officer Standards and Training"
+      },
+      {
+        "href": "https://post.ca.gov/Login?returnurl=https%3a%2f%2fpost.ca.gov%2fbasic-training-academies",
+        "label": "Sign In"
+      },
+      {
+        "href": "https://post.ca.gov/Training",
+        "label": "Training"
+      },
+      {
+        "href": "https://post.ca.gov/Certification",
+        "label": "Certification"
+      },
+      {
+        "href": "https://post.ca.gov/Decertification-Process",
+        "label": "Decertification"
+      },
+      {
+        "href": "https://post.ca.gov/peace-officer-basic-training",
+        "label": "Peace Officer Basic Training"
+      },
+      {
+        "href": "https://post.ca.gov/student-workbooks",
+        "label": "Basic Course Student Workbook"
+      },
+      {
+        "href": "https://www.sheriffacademy.com/class.php?id=25",
+        "label": "Alameda County Sheriff's Department Academy Training Center"
+      },
+      {
+        "href": "http://hancockcollege.edu/pstc/index.php",
+        "label": "Public Safety Training Complex"
+      },
+      {
+        "href": "http://www.butte.edu/departments/careertech/publicsafety/law_enforcement.html",
+        "label": "Butte College Public Safety Training Center"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "e6ac415fc7fdb3aa5ad127f89d34bbb25b4fa68b0e0873b180523de3fb83c298"
+}

@@ -1,0 +1,706 @@
+{
+  "version": "nexus_layer_normalized_output_v1",
+  "generated_at": "2026-05-08T01:01:35.778Z",
+  "layer_id": "L11",
+  "status": "OPERATIONAL",
+  "entities": [
+    {
+      "entity_id": "ENTITY_L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "entity_type": "risk_compliance_legal_source_entity",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "created_at": "2026-05-08T01:01:35.778Z"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "entity_id": "ENTITY_L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.98,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "regulatory_enforcement_connector",
+        "parser_strategy": "regulatory_enforcement_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_regulatory_enforcement_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.97,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "public_lawsuit_connector",
+        "parser_strategy": "public_lawsuit_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_public_lawsuit_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.96,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "compliance_violation_connector",
+        "parser_strategy": "compliance_violation_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_compliance_violation_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.95,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "audit_finding_connector",
+        "parser_strategy": "audit_finding_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_audit_finding_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.94,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "sanction_watchlist_connector",
+        "parser_strategy": "sanction_watchlist_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_sanction_watchlist_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "entity_id": "ENTITY_L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.93,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "license_disciplinary_connector",
+        "parser_strategy": "license_disciplinary_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_license_disciplinary_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "entity_id": "ENTITY_L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.92,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "consent_decree_connector",
+        "parser_strategy": "consent_decree_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_consent_decree_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "entity_id": "ENTITY_L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.91,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "insurance_liability_connector",
+        "parser_strategy": "insurance_liability_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_insurance_liability_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "entity_id": "ENTITY_L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.9,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "public_risk_connector",
+        "parser_strategy": "public_risk_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_public_risk_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.89,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "complaint_investigation_connector",
+        "parser_strategy": "complaint_investigation_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_complaint_investigation_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "entity_id": "ENTITY_L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.88,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "inspector_general_connector",
+        "parser_strategy": "inspector_general_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_inspector_general_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.87,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "ethics_commission_connector",
+        "parser_strategy": "ethics_commission_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_ethics_commission_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "entity_id": "ENTITY_L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.86,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "policy_compliance_connector",
+        "parser_strategy": "policy_compliance_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_policy_compliance_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "entity_id": "ENTITY_L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.85,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "court_docket_connector",
+        "parser_strategy": "court_docket_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_court_docket_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "entity_id": "ENTITY_L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "captured_at": "2026-05-08T01:01:35.778Z",
+      "confidence": 0.84,
+      "lineage": {
+        "acquisition_method": "public_legal_source",
+        "connector_type": "legal_risk_news_connector",
+        "parser_strategy": "legal_risk_news_parser",
+        "normalizer_strategy": "risk_compliance_normalizer",
+        "retention_policy": "retain_with_legal_risk_news_trace"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "SIGNAL_L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "entity_id": "ENTITY_L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "signal_type": "LEGAL_ENFORCEMENT_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "signal_type": "LEGAL_LITIGATION_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "signal_type": "LEGAL_COMPLIANCE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "signal_type": "LEGAL_AUDIT_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "signal_type": "LEGAL_SANCTION_SIGNAL",
+      "strength": 0.94,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "entity_id": "ENTITY_L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "signal_type": "LEGAL_DISCIPLINARY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "entity_id": "ENTITY_L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "signal_type": "LEGAL_SETTLEMENT_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "entity_id": "ENTITY_L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "signal_type": "LEGAL_LIABILITY_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "entity_id": "ENTITY_L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "signal_type": "LEGAL_RISK_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "signal_type": "LEGAL_INVESTIGATION_SIGNAL",
+      "strength": 0.89,
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "entity_id": "ENTITY_L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "signal_type": "LEGAL_AUDIT_SIGNAL",
+      "strength": 0.88,
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "signal_type": "LEGAL_ETHICS_SIGNAL",
+      "strength": 0.87,
+      "confidence": 0.87
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "entity_id": "ENTITY_L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "signal_type": "LEGAL_COMPLIANCE_SIGNAL",
+      "strength": 0.86,
+      "confidence": 0.86
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "entity_id": "ENTITY_L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "signal_type": "LEGAL_LITIGATION_SIGNAL",
+      "strength": 0.85,
+      "confidence": 0.85
+    },
+    {
+      "signal_id": "SIGNAL_L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "entity_id": "ENTITY_L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "signal_type": "LEGAL_RISK_SIGNAL",
+      "strength": 0.84,
+      "confidence": 0.84
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "SCORE_L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "entity_id": "ENTITY_L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "entity_id": "ENTITY_L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "entity_id": "ENTITY_L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "SCORE_L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "entity_id": "ENTITY_L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "SCORE_L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "entity_id": "ENTITY_L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "score_delta": 9,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "SCORE_L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "SCORE_L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "entity_id": "ENTITY_L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "score_delta": 9,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "SCORE_L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "entity_id": "ENTITY_L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "score_delta": 9,
+      "confidence": 0.87
+    },
+    {
+      "component_id": "SCORE_L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "entity_id": "ENTITY_L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "score_delta": 9,
+      "confidence": 0.86
+    },
+    {
+      "component_id": "SCORE_L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "entity_id": "ENTITY_L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "score_delta": 9,
+      "confidence": 0.85
+    },
+    {
+      "component_id": "SCORE_L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "entity_id": "ENTITY_L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "score_delta": 8,
+      "confidence": 0.84
+    }
+  ],
+  "dossier_fields": [
+    {
+      "entity_id": "ENTITY_L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_001_REGULATORY_ENFORCEMENT_ACTIONS",
+      "field_type": "regulatory_enforcement_profile",
+      "value": "Regulatory Enforcement Actions"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_002_PUBLIC_LAWSUIT_RECORDS",
+      "field_type": "public_lawsuit_profile",
+      "value": "Public Lawsuit Records"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_003_COMPLIANCE_VIOLATION_RECORDS",
+      "field_type": "compliance_violation_profile",
+      "value": "Compliance Violation Records"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_004_AUDIT_FINDING_RECORDS",
+      "field_type": "audit_finding_profile",
+      "value": "Audit Finding Records"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_005_SANCTION_WATCHLIST_RECORDS",
+      "field_type": "sanction_watchlist_profile",
+      "value": "Sanction and Watchlist Records"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_006_LICENSE_DISCIPLINARY_ACTIONS",
+      "field_type": "license_disciplinary_profile",
+      "value": "License Disciplinary Actions"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_007_CONSENT_DECREES_SETTLEMENTS",
+      "field_type": "consent_decree_profile",
+      "value": "Consent Decrees and Settlements"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_008_INSURANCE_LIABILITY_INDICATORS",
+      "field_type": "insurance_liability_profile",
+      "value": "Insurance and Liability Indicators"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_009_PUBLIC_RISK_DISCLOSURES",
+      "field_type": "public_risk_profile",
+      "value": "Public Risk Disclosures"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_010_COMPLAINT_INVESTIGATION_RECORDS",
+      "field_type": "complaint_investigation_profile",
+      "value": "Complaint Investigation Records"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_011_INSPECTOR_GENERAL_REPORTS",
+      "field_type": "inspector_general_profile",
+      "value": "Inspector General Reports"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_012_ETHICS_COMMISSION_RECORDS",
+      "field_type": "ethics_commission_profile",
+      "value": "Ethics Commission Records"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_013_POLICY_COMPLIANCE_NOTICES",
+      "field_type": "policy_compliance_profile",
+      "value": "Policy Compliance Notices"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_014_COURT_DOCKET_REFERENCES",
+      "field_type": "court_docket_profile",
+      "value": "Court Docket References"
+    },
+    {
+      "entity_id": "ENTITY_L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "layer_id": "L11",
+      "source_id": "L11_SRC_015_LEGAL_RISK_NEWS_FEEDS",
+      "field_type": "legal_risk_news_profile",
+      "value": "Legal Risk News Feeds"
+    }
+  ]
+}

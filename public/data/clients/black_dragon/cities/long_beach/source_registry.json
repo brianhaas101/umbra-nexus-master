@@ -1,0 +1,25 @@
+{
+    "version":  "black_dragon_long_beach_source_registry_v1",
+    "generated_at":  "2026-05-11T04:20:49.7025892Z",
+    "city_scope":  {
+                       "city":  "Long Beach",
+                       "state":  "California",
+                       "state_code":  "CA",
+                       "city_id":  "city_long_beach_ca",
+                       "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach",
+                       "city_specific_legacy_assets_preserved":  true
+                   },
+    "approved_legacy_sources":  {
+                                    "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\audit\\batch_121_long_beach_runtime_audit.json",
+                                    "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\dossiers\\long_beach_city_dossier_stack.json",
+                                    "runtime_summary":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\long_beach_city_runtime_summary.json",
+                                    "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\map_nodes\\long_beach_map_node_manifest.json",
+                                    "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\merged\\long_beach_merged_city_entities.json"
+                                },
+    "source_policy":  {
+                          "runtime_promotion_allowed":  false,
+                          "manual_review_required":  true,
+                          "quarantine_required":  true,
+                          "synthetic_entity_creation_allowed":  false
+                      }
+}

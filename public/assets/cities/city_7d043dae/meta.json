@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_7d043dae",
+    "name":  "Mesa, AZ",
+    "center_lat":  33.4152,
+    "center_lon":  -111.8315,
+    "bounds":  {
+                   "north":  33.698,
+                   "south":  33.1553,
+                   "east":  -111.5463,
+                   "west":  -112.1167
+               },
+    "width_m":  53000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_7d043dae/base.png"
+}

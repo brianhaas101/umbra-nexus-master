@@ -1,0 +1,13 @@
+{
+    "version":  "black_dragon_long_beach_validated_sources_v1",
+    "generated_at":  "2026-05-11T06:08:52.6325855Z",
+    "city":  "Long Beach",
+    "folder":  "long_beach",
+    "validated_sources":  [
+
+                          ],
+    "rejected_sources":  [
+
+                         ],
+    "status":  "NORMALIZED_EMPTY_VALIDATED_SOURCES"
+}

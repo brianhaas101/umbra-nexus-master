@@ -1,0 +1,17 @@
+{
+    "version":  "black_dragon_batch_111_repair_state_alias_quarantine_audit_v1",
+    "generated_at":  "2026-05-10T18:27:58.4412883Z",
+    "repair":  "BATCH_111_REPAIR_STATE_ALIAS_QUARANTINE",
+    "counts":  {
+                   "original_city_buckets":  54,
+                   "clean_city_buckets":  51,
+                   "quarantined_city_buckets":  3
+               },
+    "gates":  {
+                  "bad_aliases_quarantined":  true,
+                  "clean_city_count_reduced":  true,
+                  "expansion_allowed_only_for_clean":  true
+              },
+    "next_phase":  "BATCH_112_TARGET_EXPANSION_SOURCE_RESOLUTION",
+    "status":  "PASS"
+}

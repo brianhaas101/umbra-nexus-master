@@ -1,0 +1,297 @@
+{
+    "version":  "black_dragon_houston_verified_source_ingestion_lanes_v1",
+    "generated_at":  "2026-05-11T05:21:40.9107629Z",
+    "city":  "Houston",
+    "folder":  "houston",
+    "state":  "Texas",
+    "state_code":  "TX",
+    "city_id":  "city_houston_tx",
+    "source_cache_candidates":  [
+
+                                ],
+    "category_source_lanes":  [
+                                  {
+                                      "category":  "motorcycle_dealerships",
+                                      "search_queries":  [
+                                                             "\"Houston\" motorcycle dealership",
+                                                             "\"Houston\" Harley-Davidson dealer",
+                                                             "\"Houston\" motorcycle sales"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "motorcycle_repair_and_parts",
+                                      "search_queries":  [
+                                                             "\"Houston\" motorcycle repair",
+                                                             "\"Houston\" motorcycle parts",
+                                                             "\"Houston\" motorcycle accessories"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "riding_clubs",
+                                      "search_queries":  [
+                                                             "\"Houston\" motorcycle riding club",
+                                                             "\"Houston\" riders association",
+                                                             "\"Houston\" motorcycle group"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "rider_training_schools",
+                                      "search_queries":  [
+                                                             "\"Houston\" motorcycle safety course",
+                                                             "\"Houston\" rider training",
+                                                             "\"Houston\" motorcycle training school"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "community_groups",
+                                      "search_queries":  [
+                                                             "\"Houston\" community organizations",
+                                                             "\"Houston\" local community groups",
+                                                             "\"Houston\" neighborhood associations"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "event_venues",
+                                      "search_queries":  [
+                                                             "\"Houston\" event venues",
+                                                             "\"Houston\" motorcycle events",
+                                                             "\"Houston\" community event venue"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "educational_institutes",
+                                      "search_queries":  [
+                                                             "\"Houston\" colleges",
+                                                             "\"Houston\" technical schools",
+                                                             "\"Houston\" adult education"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "local_media_groups",
+                                      "search_queries":  [
+                                                             "\"Houston\" local newspaper",
+                                                             "\"Houston\" local radio station",
+                                                             "\"Houston\" local media outlet"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "business_associations",
+                                      "search_queries":  [
+                                                             "\"Houston\" chamber of commerce",
+                                                             "\"Houston\" business association",
+                                                             "\"Houston\" small business network"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "civic_organizations",
+                                      "search_queries":  [
+                                                             "\"Houston\" civic organizations",
+                                                             "\"Houston\" public agencies directory",
+                                                             "\"Houston\" city services directory"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "public_safety_public_directories",
+                                      "search_queries":  [
+                                                             "\"Houston\" police department public directory",
+                                                             "\"Houston\" fire department public directory",
+                                                             "\"Houston\" emergency management public directory"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "lawful_sporting_or_firearms_organizations",
+                                      "search_queries":  [
+                                                             "\"Houston\" lawful sporting club",
+                                                             "\"Houston\" shooting sports organization",
+                                                             "\"Houston\" firearms training organization public"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "charity_nonprofit_groups",
+                                      "search_queries":  [
+                                                             "\"Houston\" nonprofit organizations",
+                                                             "\"Houston\" charities",
+                                                             "\"Houston\" community nonprofit"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "local_influencer_or_creator_media",
+                                      "search_queries":  [
+                                                             "\"Houston\" local creators",
+                                                             "\"Houston\" local podcast",
+                                                             "\"Houston\" community media"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  },
+                                  {
+                                      "category":  "regional_geospatial_anchors",
+                                      "search_queries":  [
+                                                             "\"Houston\" landmarks",
+                                                             "\"Houston\" districts",
+                                                             "\"Houston\" transportation hubs"
+                                                         ],
+                                      "candidate_sources":  [
+
+                                                            ],
+                                      "verified_sources":  [
+
+                                                           ],
+                                      "rejected_sources":  [
+
+                                                           ],
+                                      "status":  "WAITING_FOR_VERIFIED_SOURCE_COLLECTION"
+                                  }
+                              ],
+    "controls":  {
+                     "source_url_required":  true,
+                     "public_source_required":  true,
+                     "city_match_required":  true,
+                     "category_match_required":  true,
+                     "organization_identity_required":  true,
+                     "no_placeholder_entities":  true,
+                     "no_false_targets":  true,
+                     "runtime_promotion_allowed":  false,
+                     "contact_enablement_allowed":  false,
+                     "manual_review_required":  true
+                 },
+    "status":  "VERIFIED_SOURCE_INGESTION_LANES_READY"
+}

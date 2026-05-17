@@ -1,0 +1,31 @@
+{
+  "version": "black_dragon_cross_ecosystem_scoring_v1_batch_076",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "fusion_multipliers": {
+    "cross_network_visibility": 2.1,
+    "event_propagation_density": 2.3,
+    "institutional_overlap": 2.0,
+    "distribution_overlap": 1.9,
+    "leadership_overlap": 1.8,
+    "regional_reinforcement": 1.9,
+    "training_reinforcement": 2.0,
+    "veteran_network_overlap": 1.8
+  },
+
+  "priority_weights": {
+    "institutional_training": 0.98,
+    "event_visibility": 0.96,
+    "distribution_presence": 0.94,
+    "leadership_density": 0.95,
+    "cross_ecosystem_overlap": 1.00
+  },
+
+  "safety_rules": {
+    "requires_public_source": true,
+    "requires_verified_contact_route": true,
+    "requires_manual_review": true,
+    "forbids_generated_contacts": true,
+    "forbids_auto_outreach": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "client_id": "black_dragon",
+
+  "client_type": "law_enforcement_training",
+
+  "core_offer": {
+    "type": "training_and_education",
+    "products": [
+      "law_enforcement_training_courses",
+      "books",
+      "speaking_engagements",
+      "bulk_training_programs"
+    ],
+    "delivery_modes": [
+      "in_person_training",
+      "online_training",
+      "department_programs"
+    ]
+  },
+
+  "target_entities": {
+    "primary": [
+      "police_department",
+      "sheriff_office"
+    ],
+    "secondary": [
+      "state_police",
+      "federal_agencies",
+      "private_security_firms",
+      "training_academies"
+    ]
+  },
+
+  "geographic_preferences": {
+    "scope": "nationwide",
+    "priority_regions": [
+      "major_metro_areas",
+      "high_population_cities",
+      "high_activity_regions"
+    ],

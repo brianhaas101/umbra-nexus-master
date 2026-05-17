@@ -1,0 +1,370 @@
+{
+  "client_id": "black_dragon_omg_cert_v1",
+  "generated_at": "2026-05-02T02:04:54.968Z",
+  "total_cities": 8,
+  "total_entities": 25,
+  "cities": [
+    {
+      "city_id": "city_ca_los_angeles",
+      "name": "Los Angeles",
+      "state": "CA",
+      "country": "US",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "total_entities": 8,
+      "hot": 0,
+      "warm": 0,
+      "cold": 8,
+      "entities": [
+        {
+          "entity_id": "BD-LEAD-0005",
+          "agency_name": "Los Angeles County Sheriff's Department Operation Safe Streets Bureau",
+          "agency_type": "gang_unit",
+          "state": "CA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://pars.lasd.org/Viewer/Manuals/GeneratePDF/20970?reportIndex=1",
+          "source_url": "https://pars.lasd.org/Viewer/Manuals/GeneratePDF/20970?reportIndex=1"
+        },
+        {
+          "entity_id": "BD-LEAD-0006",
+          "agency_name": "California Commission on POST",
+          "agency_type": "law_enforcement_training_academy",
+          "state": "CA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://post.ca.gov/portals/0/post_docs/basic_course_resources/workbooks/LD_38-V4.0.pdf",
+          "source_url": "https://post.ca.gov/portals/0/post_docs/basic_course_resources/workbooks/LD_38-V4.0.pdf"
+        },
+        {
+          "entity_id": "BD-LEAD-0013",
+          "agency_name": "California Highway Patrol Organized Crime Enforcement",
+          "agency_type": "state_patrol",
+          "state": "CA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.chp.ca.gov/news-alerts/news-list/top-five-chp-stories-of-the-week4/",
+          "source_url": "https://www.chp.ca.gov/news-alerts/news-list/top-five-chp-stories-of-the-week4/"
+        },
+        {
+          "entity_id": "BD-LEAD-0014",
+          "agency_name": "California Highway Patrol",
+          "agency_type": "state_patrol",
+          "state": "CA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.chp.ca.gov/siteassets/policy/go/go-21.1-organization-of-the-department-of-california-highway-patrol.pdf",
+          "source_url": "https://www.chp.ca.gov/siteassets/policy/go/go-21.1-organization-of-the-department-of-california-highway-patrol.pdf"
+        },
+        {
+          "entity_id": "BD-LEAD-0015",
+          "agency_name": "California Commission on POST Legislative Mandated Training",
+          "agency_type": "law_enforcement_training_academy",
+          "state": "CA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://post.ca.gov/legislative-mandated-training",
+          "source_url": "https://post.ca.gov/legislative-mandated-training"
+        },
+        {
+          "entity_id": "BD-LEAD-0016",
+          "agency_name": "California Commission on POST Reimbursable Training",
+          "agency_type": "law_enforcement_training_academy",
+          "state": "CA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://post.ca.gov/Reimbursable-Training-Courses",
+          "source_url": "https://post.ca.gov/Reimbursable-Training-Courses"
+        },
+        {
+          "entity_id": "BD-LEAD-0019",
+          "agency_name": "FBI Violent Crime / Outlaw Motorcycle Gang Reference",
+          "agency_type": "federal_task_force_signal",
+          "state": "CA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.fbi.gov/news/stories/fbi-working-to-combat-violent-crime-nationally-063022",
+          "source_url": "https://www.fbi.gov/news/stories/fbi-working-to-combat-violent-crime-nationally-063022"
+        },
+        {
+          "entity_id": "BD-LEAD-0022",
+          "agency_name": "California POST Training Videos",
+          "agency_type": "law_enforcement_training_academy",
+          "state": "CA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://post.ca.gov/Training",
+          "source_url": "https://post.ca.gov/Training"
+        }
+      ]
+    },
+    {
+      "city_id": "city_az_phoenix",
+      "name": "Phoenix",
+      "state": "AZ",
+      "country": "US",
+      "lat": 33.4484,
+      "lon": -112.074,
+      "total_entities": 4,
+      "hot": 0,
+      "warm": 0,
+      "cold": 4,
+      "entities": [
+        {
+          "entity_id": "BD-LEAD-0001",
+          "agency_name": "Arizona Department of Public Safety GIITEM",
+          "agency_type": "state_gang_task_force",
+          "state": "AZ",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.azdps.gov/services/enforcement-services/giitem",
+          "source_url": "https://www.azdps.gov/services/enforcement-services/giitem"
+        },
+        {
+          "entity_id": "BD-LEAD-0002",
+          "agency_name": "Phoenix Police Department Gang Enforcement Unit",
+          "agency_type": "gang_unit",
+          "state": "AZ",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.phoenix.gov/administration/departments/police/investigations/violent-crimes-bureau/gang-enforcement.html",
+          "source_url": "https://www.phoenix.gov/administration/departments/police/investigations/violent-crimes-bureau/gang-enforcement.html"
+        },
+        {
+          "entity_id": "BD-LEAD-0003",
+          "agency_name": "Arizona State Gang Task Force",
+          "agency_type": "task_force",
+          "state": "AZ",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.azdps.gov/news/releases/1109",
+          "source_url": "https://www.azdps.gov/news/releases/1109"
+        },
+        {
+          "entity_id": "BD-LEAD-0004",
+          "agency_name": "Arizona WANTED Task Force",
+          "agency_type": "task_force",
+          "state": "AZ",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.azdps.gov/arizona-wanted-task-force",
+          "source_url": "https://www.azdps.gov/arizona-wanted-task-force"
+        }
+      ]
+    },
+    {
+      "city_id": "city_va_dc_metro",
+      "name": "Washington Metro",
+      "state": "VA",
+      "country": "US",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "total_entities": 4,
+      "hot": 0,
+      "warm": 0,
+      "cold": 4,
+      "entities": [
+        {
+          "entity_id": "BD-LEAD-0007",
+          "agency_name": "International Association of Chiefs of Police",
+          "agency_type": "law_enforcement_association",
+          "state": "VA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.theiacp.org/resources/gun-and-gang-violence-reduction-initiatives",
+          "source_url": "https://www.theiacp.org/resources/gun-and-gang-violence-reduction-initiatives"
+        },
+        {
+          "entity_id": "BD-LEAD-0008",
+          "agency_name": "FBI Law Enforcement Training",
+          "agency_type": "federal_training_resource",
+          "state": "VA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://le.fbi.gov/training",
+          "source_url": "https://le.fbi.gov/training"
+        },
+        {
+          "entity_id": "BD-LEAD-0017",
+          "agency_name": "IACP Project Safe Neighborhoods Initiative",
+          "agency_type": "law_enforcement_association",
+          "state": "VA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.theiacp.org/projects/iacp-project-safe-neighborhoods-initiative",
+          "source_url": "https://www.theiacp.org/projects/iacp-project-safe-neighborhoods-initiative"
+        },
+        {
+          "entity_id": "BD-LEAD-0020",
+          "agency_name": "DOJ Outlaws Motorcycle Gang Enforcement Reference",
+          "agency_type": "federal_task_force_signal",
+          "state": "VA",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.fbi.gov/washingtondc/press-releases/2010/wfo122110.htm",
+          "source_url": "https://www.fbi.gov/washingtondc/press-releases/2010/wfo122110.htm"
+        }
+      ]
+    },
+    {
+      "city_id": "city_us_national",
+      "name": "National",
+      "state": "US",
+      "country": "US",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "total_entities": 3,
+      "hot": 0,
+      "warm": 0,
+      "cold": 3,
+      "entities": [
+        {
+          "entity_id": "BD-LEAD-0023",
+          "agency_name": "Criminal Justice Program Institutional Book Buyer Seed",
+          "agency_type": "criminal_justice_program",
+          "state": "US",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://le.fbi.gov/training",
+          "source_url": "https://le.fbi.gov/training"
+        },
+        {
+          "entity_id": "BD-LEAD-0024",
+          "agency_name": "Public Safety / Law Enforcement Library Buyer Seed",
+          "agency_type": "public_library_buyer",
+          "state": "US",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.theiacp.org/resources/gun-and-gang-violence-reduction-initiatives",
+          "source_url": "https://www.theiacp.org/resources/gun-and-gang-violence-reduction-initiatives"
+        },
+        {
+          "entity_id": "BD-LEAD-0025",
+          "agency_name": "Private Security Training Buyer Seed",
+          "agency_type": "private_security_training_buyer",
+          "state": "US",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.theiacp.org/resources/gun-and-gang-violence-reduction-initiatives",
+          "source_url": "https://www.theiacp.org/resources/gun-and-gang-violence-reduction-initiatives"
+        }
+      ]
+    },
+    {
+      "city_id": "city_or_portland",
+      "name": "Portland",
+      "state": "OR",
+      "country": "US",
+      "lat": 45.5152,
+      "lon": -122.6784,
+      "total_entities": 2,
+      "hot": 0,
+      "warm": 0,
+      "cold": 2,
+      "entities": [
+        {
+          "entity_id": "BD-LEAD-0011",
+          "agency_name": "Washington County Oregon Sheriff's Office Special Investigations",
+          "agency_type": "sheriff_office",
+          "state": "OR",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.washingtoncountyor.gov/sheriff/investigations/specialized-investigations",
+          "source_url": "https://www.washingtoncountyor.gov/sheriff/investigations/specialized-investigations"
+        },
+        {
+          "entity_id": "BD-LEAD-0012",
+          "agency_name": "Portland Police Bureau Training Division",
+          "agency_type": "law_enforcement_training_unit",
+          "state": "OR",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.portland.gov/police/divisions/training",
+          "source_url": "https://www.portland.gov/police/divisions/training"
+        }
+      ]
+    },
+    {
+      "city_id": "city_dc_washington",
+      "name": "Washington",
+      "state": "DC",
+      "country": "US",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "total_entities": 2,
+      "hot": 0,
+      "warm": 0,
+      "cold": 2,
+      "entities": [
+        {
+          "entity_id": "BD-LEAD-0018",
+          "agency_name": "FBI Safe Streets Violent Crime Initiative",
+          "agency_type": "federal_task_force_signal",
+          "state": "DC",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.fbi.gov/news/testimony/the-safe-streets-violent-crimes-initiative",
+          "source_url": "https://www.fbi.gov/news/testimony/the-safe-streets-violent-crimes-initiative"
+        },
+        {
+          "entity_id": "BD-LEAD-0021",
+          "agency_name": "COPS Office Specialized Units Guidance",
+          "agency_type": "public_safety_training_resource",
+          "state": "DC",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://portal.cops.usdoj.gov/resourcecenter/content.ashx/cops-r1140-pub.pdf",
+          "source_url": "https://portal.cops.usdoj.gov/resourcecenter/content.ashx/cops-r1140-pub.pdf"
+        }
+      ]
+    },
+    {
+      "city_id": "city_tx_houston",
+      "name": "Houston",
+      "state": "TX",
+      "country": "US",
+      "lat": 29.7604,
+      "lon": -95.3698,
+      "total_entities": 1,
+      "hot": 0,
+      "warm": 0,
+      "cold": 1,
+      "entities": [
+        {
+          "entity_id": "BD-LEAD-0009",
+          "agency_name": "Houston-Area Law Enforcement / FBI Houston Partner Agencies",
+          "agency_type": "regional_task_force_signal",
+          "state": "TX",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.fbi.gov/contact-us/field-offices/houston/news/seventeen-alleged-gang-members-and-associates-charged-with-rico-conspiracy-murder-and-other-violent-crimes",
+          "source_url": "https://www.fbi.gov/contact-us/field-offices/houston/news/seventeen-alleged-gang-members-and-associates-charged-with-rico-conspiracy-murder-and-other-violent-crimes"
+        }
+      ]
+    },
+    {
+      "city_id": "city_nm_albuquerque",
+      "name": "Albuquerque",
+      "state": "NM",
+      "country": "US",
+      "lat": 35.0844,
+      "lon": -106.6504,
+      "total_entities": 1,
+      "hot": 0,
+      "warm": 0,
+      "cold": 1,
+      "entities": [
+        {
+          "entity_id": "BD-LEAD-0010",
+          "agency_name": "New Mexico Regional Law Enforcement / FBI Albuquerque Partner Agencies",
+          "agency_type": "regional_task_force_signal",
+          "state": "NM",
+          "tier": "COLD",
+          "score": 0,
+          "contact_url": "https://www.fbi.gov/contact-us/field-offices/albuquerque/news/task-force-targets-bandidos-motorcycle-club-in-joint-enforcement-operation",
+          "source_url": "https://www.fbi.gov/contact-us/field-offices/albuquerque/news/task-force-targets-bandidos-motorcycle-club-in-joint-enforcement-operation"
+        }
+      ]
+    }
+  ]
+}

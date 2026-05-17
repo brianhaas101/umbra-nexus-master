@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:10.047Z",
+  "layer_id": "L02",
+  "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+  "state_abbr": "OH",
+  "state_name": "Ohio",
+  "source_type": "POST",
+  "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Director&#39;s Memos and Updates",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Director-s-Memos-and-Updates",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "2026 Continuing Professional Training",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/2026-Continuing-Professional-Training",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "2025 Continuing Professional Training",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/2025-Continuing-Professional-Training",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "2024 Continuing Professional Training",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/2024-Continuing-Professional-Training",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "2023 Continuing Professional Training",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/2023-Continuing-Professional-Training",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Advanced Certificate Programs",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Advanced-Certificate-Programs",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Virtual Reality",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Virtual-Reality",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "The value of VR",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Virtual-Reality/The-value-of-VR",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Finding a VR instructor",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Virtual-Reality/Finding-a-VR-instructor",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_001_STATE_POST_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:10.047Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1e28fe66b6c1789b47ede3dc2f17aeed9f474393c2f1d74df65b83ad33e089ee",
+        "parser_id": "L02_OH_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Becoming an instructor",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Peace-Officer-Training-Academy/Virtual-Reality/Becoming-an-instructor",
+        "record_type": "post_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_001_STATE_POST_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_001_STATE_POST_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_001_STATE_POST",
+      "state_abbr": "OH",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    }
+  ],
+  "normalized_snapshot_hash": "c27d276e3cf595762d85b62eb0302864fc2b1778a1443003d855570323981999"
+}

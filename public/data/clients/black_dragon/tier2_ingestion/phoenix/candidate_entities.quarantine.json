@@ -1,0 +1,501 @@
+{
+    "version":  "black_dragon_phoenix_quarantined_candidate_entities_v1",
+    "generated_at":  "2026-05-11T05:34:05.4715161Z",
+    "city":  "Phoenix",
+    "folder":  "phoenix",
+    "entities":  [
+                     {
+                         "entity_id":  "candidate_entity_e2e96e0aadd54212af71d5d43ab75700",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\phoenix\\dedupe\\phoenix_cross_state_dedupe.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\phoenix\\dedupe\\phoenix_cross_state_dedupe.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_2931ebcfa55440eba08636d140bb4b87",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\phoenix\\imports\\phoenix_discovery_import.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\phoenix\\imports\\phoenix_discovery_import.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_40bd2d3988a646d7b32d18bfd23436cd",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\phoenix\\validated\\phoenix_validated_candidates.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\phoenix\\validated\\phoenix_validated_candidates.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_881eb3d8d17f41bb968a611b337472ad",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\dossiers\\phoenix_runtime_dossiers.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\dossiers\\phoenix_runtime_dossiers.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_375a76860047411e90a82262579f5d64",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\map_nodes\\phoenix_runtime_map_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\map_nodes\\phoenix_runtime_map_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_f975502edbbc42ef96bab9ceaeb907a4",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\merged\\phoenix_merged_city_entities.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\merged\\phoenix_merged_city_entities.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_b81c46f661c046c2a90f52d322fa4c13",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\ui\\node_cards\\phoenix_client_node_cards.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\ui\\node_cards\\phoenix_client_node_cards.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_573449407be84c5e94c0d1e0b4d128ff",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\ui\\propagation_feed\\phoenix_client_propagation_feed.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\ui\\propagation_feed\\phoenix_client_propagation_feed.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_e3e38ea8124a45bea28edcc10a767e5c",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\phoenix\\edges\\phoenix_graph_edges.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\phoenix\\edges\\phoenix_graph_edges.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_c90b83b9cf5d443294a3b76bce87bdd1",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\phoenix\\nodes\\phoenix_graph_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\phoenix\\nodes\\phoenix_graph_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_1f1d2a2022bc41a6afc6c7229a34c7cd",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\phoenix\\paths\\phoenix_propagation_paths.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\phoenix\\paths\\phoenix_propagation_paths.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_b7eaa6837a9843dca3c592af1e1992c3",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\phoenix\\scores\\phoenix_graph_influence_scores.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\phoenix\\scores\\phoenix_graph_influence_scores.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_065233b4ce8548639d07d4b60494c47c",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "saturation_entity_609dd736dd684ce7aa2b8533c5ea98b0",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.55,
+                         "confidence_basis":  [
+                                                  "density_gap_alignment",
+                                                  "manual_review_required"
+                                              ],
+                         "provenance":  {
+                                            "derived_from":  "wave_1_density_gap_alignment",
+                                            "generated_by_batch":  "234R"
+                                        },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true
+                                     },
+                         "status":  "QUARANTINED_ALIGNMENT_ENTITY"
+                     },
+                     {
+                         "entity_id":  "saturation_entity_3f9010dd8d344db7ad25ff7848d845d5",
+                         "city":  "Phoenix",
+                         "folder":  "phoenix",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.55,
+                         "confidence_basis":  [
+                                                  "density_gap_alignment",
+                                                  "manual_review_required"
+                                              ],
+                         "provenance":  {
+                                            "derived_from":  "wave_1_density_gap_alignment",
+                                            "generated_by_batch":  "234R"
+                                        },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true
+                                     },
+                         "status":  "QUARANTINED_ALIGNMENT_ENTITY"
+                     }
+                 ],
+    "policy":  {
+                   "source_url_required_before_promotion":  true,
+                   "category_required_before_promotion":  true,
+                   "organization_identity_required_before_promotion":  true,
+                   "no_placeholder_entities":  true,
+                   "no_false_targets":  true,
+                   "no_private_person_targets":  true,
+                   "runtime_promotion_allowed":  false,
+                   "contact_enablement_allowed":  false,
+                   "manual_review_required":  true
+               },
+    "status":  "ORGANIZATION_CANDIDATES_QUARANTINED"
+}

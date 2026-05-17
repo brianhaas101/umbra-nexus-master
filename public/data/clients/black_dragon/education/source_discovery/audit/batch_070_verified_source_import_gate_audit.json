@@ -1,0 +1,25 @@
+{
+  "version": "umbra_batch_070_verified_source_import_gate_audit_v1",
+  "generated_at": "2026-05-10T00:40:39.997Z",
+  "schema_integrity": {
+    "required_fields": true,
+    "allowed_statuses": true,
+    "promotion_requirements_present": true,
+    "hard_blocks_present": true
+  },
+  "import_integrity": {
+    "import_template_exists": true,
+    "no_fake_seed_imports": true
+  },
+  "promotion_integrity": {
+    "promoted_count_matches": true,
+    "all_outreach_blocked": true,
+    "all_contact_discovery_pending": true,
+    "all_forbidden_actions_present": true
+  },
+  "queue_integrity": {
+    "queue_exists": true,
+    "outreach_blocked": true
+  },
+  "pass": true
+}

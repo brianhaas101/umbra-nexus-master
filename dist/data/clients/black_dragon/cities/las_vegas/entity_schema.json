@@ -1,0 +1,57 @@
+{
+    "version":  "black_dragon_las_vegas_entity_schema_contract_v2",
+    "generated_at":  "2026-05-11T01:49:52.1303453Z",
+    "required_fields":  [
+                            "entity_id",
+                            "entity_name",
+                            "city",
+                            "state",
+                            "state_code",
+                            "source_id",
+                            "source_category",
+                            "quarantine_status",
+                            "manual_review_status",
+                            "contact_readiness",
+                            "runtime_eligible",
+                            "synthetic_entity"
+                        ],
+    "allowed_values":  {
+                           "city":  [
+                                        "Las Vegas"
+                                    ],
+                           "state":  [
+                                         "Nevada"
+                                     ],
+                           "state_code":  [
+                                              "NV"
+                                          ],
+                           "quarantine_status":  [
+                                                     "QUARANTINED"
+                                                 ],
+                           "manual_review_status":  [
+                                                        "REQUIRED"
+                                                    ],
+                           "contact_readiness":  [
+                                                     "NOT_REVIEWED"
+                                                 ],
+                           "runtime_eligible":  [
+                                                    false
+                                                ],
+                           "synthetic_entity":  [
+                                                    false
+                                                ]
+                       },
+    "forbidden_conditions":  [
+                                 "auto_contact_enabled",
+                                 "runtime_self_mutation",
+                                 "synthetic_contact_generation",
+                                 "statewide_runtime_scope",
+                                 "unmapped_city_expansion"
+                             ],
+    "enforcement":  {
+                        "ajv_validation_required":  true,
+                        "jq_json_validation_required":  true,
+                        "quarantine_default_required":  true,
+                        "runtime_promotion_allowed":  false
+                    }
+}

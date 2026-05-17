@@ -1,0 +1,21 @@
+{
+  "version": "nexus_L02_live_connector_state_v1",
+  "generated_at": "2026-05-09T01:34:29.308Z",
+  "layer_id": "L02",
+  "connector_id": "L02_GA_L02_CLASS_005_STATE_ACADEMY",
+  "state_abbr": "GA",
+  "source_type": "STATE_ACADEMY",
+  "status": "LIVE_FETCH_SUCCESS",
+  "last_attempt_at": "2026-05-09T01:34:29.308Z",
+  "last_success_at": "2026-05-09T01:34:29.308Z",
+  "last_failure_at": null,
+  "raw_snapshot_exists": true,
+  "normalized_snapshot_exists": true,
+  "lineage_complete": true,
+  "deterministic_replay_ready": true,
+  "raw_snapshot_hash": "26702b6565b8c1aa8deb1f58b1fefc36e2cd89288f2c34aef7a0aa5a78925d39",
+  "normalized_snapshot_hash": "c9d3aa3b6c30b51008750e3e89b856fcaac8d906fbefbf5a84be3756c9f90755",
+  "live_record_count": 10,
+  "can_emit_operational_evidence": true,
+  "no_fake_data_policy": true
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Black Dragon Las Vegas Quarantined Entities",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "entity_id",
+      "entity_name",
+      "city",
+      "state",
+      "state_code",
+      "source_id",
+      "source_category",
+      "quarantine_status",
+      "manual_review_status",
+      "contact_readiness",
+      "runtime_eligible",
+      "synthetic_entity"
+    ],
+    "properties": {
+      "entity_id": { "type": "string", "pattern": "^LV_ENTITY_[0-9]{3}$" },
+      "entity_name": { "type": "string", "minLength": 1 },
+      "city": { "const": "Las Vegas" },
+      "state": { "const": "Nevada" },
+      "state_code": { "const": "NV" },
+      "source_id": { "type": "string", "pattern": "^LV_SRC_[0-9]{3}$" },
+      "source_category": { "type": "string", "minLength": 1 },
+      "quarantine_status": { "const": "QUARANTINED" },
+      "manual_review_status": { "const": "REQUIRED" },
+      "contact_readiness": { "const": "NOT_REVIEWED" },
+      "runtime_eligible": { "const": false },
+      "synthetic_entity": { "const": false }
+    },
+    "additionalProperties": true
+  }
+}

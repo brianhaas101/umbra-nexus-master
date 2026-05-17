@@ -1,0 +1,52 @@
+{
+  "version": "black_dragon_books_propagation_snapshot_v1",
+  "generated_at": "2026-05-09T02:17:38.787Z",
+  "totals": {
+    "total_chains": 4,
+    "open": 4,
+    "active": 0,
+    "converted": 0,
+    "closed": 0,
+    "inactive": 0,
+    "downstream_orders": 0,
+    "downstream_revenue": 0
+  },
+  "top_chains": [
+    {
+      "chain_id": "BD_BOOK_CHAIN_000001",
+      "source_organization_name": "Sample Motorcycle Club",
+      "source_role": "PRESIDENT",
+      "chain_status": "OPEN",
+      "downstream_orders": 0,
+      "downstream_revenue": 0,
+      "endorsement_type": null
+    },
+    {
+      "chain_id": "BD_BOOK_CHAIN_000002",
+      "source_organization_name": "Sample Motorcycle Council",
+      "source_role": "CHAIRMAN",
+      "chain_status": "OPEN",
+      "downstream_orders": 0,
+      "downstream_revenue": 0,
+      "endorsement_type": null
+    },
+    {
+      "chain_id": "BD_BOOK_CHAIN_000003",
+      "source_organization_name": "Sample Motorcycle Ministry",
+      "source_role": "CHAPLAIN",
+      "chain_status": "OPEN",
+      "downstream_orders": 0,
+      "downstream_revenue": 0,
+      "endorsement_type": null
+    },
+    {
+      "chain_id": "BD_BOOK_CHAIN_000004",
+      "source_organization_name": "Example Public Motorcycle Organization",
+      "source_role": "PRESIDENT",
+      "chain_status": "OPEN",
+      "downstream_orders": 0,
+      "downstream_revenue": 0,
+      "endorsement_type": null
+    }
+  ]
+}

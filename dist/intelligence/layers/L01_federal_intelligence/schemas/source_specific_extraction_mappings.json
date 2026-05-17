@@ -1,0 +1,46 @@
+﻿{
+  "schema_id": "L01_source_specific_extraction_mappings",
+  "version": "1.0.0",
+  "policy": "explicit_source_fields_only",
+  "mappings": {
+    "usaspending_gov": {
+      "extracts": ["agency", "award", "recipient", "contract", "grant"],
+      "source_field_basis": "api_payload"
+    },
+    "bja_grant_systems": {
+      "extracts": ["grant", "funding_signal", "program"],
+      "source_field_basis": "verified_source_page_terms"
+    },
+    "fema_grants": {
+      "extracts": ["grant", "program", "assistance_signal"],
+      "source_field_basis": "verified_source_page_terms"
+    },
+    "atf_public_advisories": {
+      "extracts": ["advisory", "enforcement_signal", "risk_signal"],
+      "source_field_basis": "verified_source_page_terms"
+    },
+    "dea_public_reports": {
+      "extracts": ["report", "press_release_signal", "risk_signal"],
+      "source_field_basis": "verified_source_page_terms"
+    },
+    "dhs_advisories": {
+      "extracts": ["advisory", "homeland_security_signal", "risk_signal"],
+      "source_field_basis": "verified_source_page_terms"
+    },
+    "fusion_center_advisories": {
+      "extracts": ["fusion_center", "information_sharing_signal", "jurisdiction"],
+      "source_field_basis": "verified_source_page_terms"
+    },
+    "cbp_corridor_reports": {
+      "extracts": ["corridor", "border_signal", "port_signal"],
+      "source_field_basis": "verified_source_page_terms"
+    },
+    "us_marshals_notices": {
+      "extracts": ["notice", "enforcement_signal", "fugitive_signal"],
+      "source_field_basis": "verified_source_page_terms"
+    }
+  },
+  "synthetic_fillers_allowed": false,
+  "inferred_contacts_allowed": false,
+  "client_paths_touched": false
+}

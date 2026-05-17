@@ -1,0 +1,50 @@
+{
+  "version": "black_dragon_education_source_result_schema_v1_batch_069",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "required_fields": [
+    "task_id",
+    "entity_id",
+    "organization_name",
+    "candidate_url",
+    "candidate_title",
+    "source_type",
+    "domain_classification",
+    "source_confidence",
+    "validation_status"
+  ],
+
+  "optional_fields": [
+    "candidate_snippet",
+    "matched_region",
+    "matched_program_name",
+    "matched_department",
+    "official_contact_route",
+    "notes"
+  ],
+
+  "valid_source_types": [
+    "official_website",
+    "government_training_page",
+    "academy_listing",
+    "school_program_listing",
+    "public_directory",
+    "verified_event_listing"
+  ],
+
+  "valid_domain_classifications": [
+    "official_domain",
+    "government_domain",
+    "education_domain",
+    "institutional_domain",
+    "low_confidence_domain",
+    "rejected_domain"
+  ],
+
+  "valid_validation_statuses": [
+    "SOURCE_DISCOVERED",
+    "SOURCE_REJECTED",
+    "AMBIGUOUS_REVIEW_REQUIRED",
+    "CONTACT_DISCOVERY_PENDING"
+  ]
+}

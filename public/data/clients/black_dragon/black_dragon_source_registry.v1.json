@@ -1,0 +1,356 @@
+{
+  "client_id": "black_dragon_omg_cert_v1",
+  "version": "v1",
+  "purpose": "Approved real-world source registry for Black Dragon Nexus ingestion. No placeholder, hypothetical, or unsourced leads are allowed.",
+
+  "source_policy": {
+    "no_placeholders": true,
+    "no_hypothetical_leads": true,
+    "no_private_individual_tracking": true,
+    "public_or_authorized_sources_only": true,
+    "each_entity_requires_source_url": true,
+    "each_signal_requires_source_support": true
+  },
+
+  "source_tiers": {
+    "tier_1_authoritative": [
+      "official_government_dataset",
+      "official_agency_website",
+      "official_training_board",
+      "official_procurement_or_grants_portal"
+    ],
+    "tier_2_contextual": [
+      "official_press_release",
+      "public_news_report",
+      "association_directory",
+      "public_training_calendar"
+    ],
+    "tier_3_manual_review": [
+      "manual_research_note",
+      "client_provided_lead",
+      "secondary_directory"
+    ]
+  },
+
+  "approved_sources": [
+    {
+      "source_id": "hifld_local_law_enforcement_locations",
+      "name": "HIFLD Local Law Enforcement Locations",
+      "authority": "DHS / HIFLD via data.gov",
+      "source_type": "official_government_dataset",
+      "source_url": "https://catalog.data.gov/dataset/local-law-enforcement-locations",
+      "access_type": "download_or_catalog",
+      "refresh_cadence": "monthly_check",
+      "creates_entities": true,
+      "enriches_entities": true,
+      "fields_supported": [
+        "agency_name",
+        "facility_type",
+        "address",
+        "city",
+        "state",
+        "lat",
+        "lon"
+      ],
+      "use_in_black_dragon": [
+        "base law enforcement entity discovery",
+        "police and sheriff office geo placement",
+        "city coverage validation"
+      ],
+      "notes": "Use as the backbone for public law-enforcement locations. HIFLD provides geospatial datasets used across homeland security planning."
+    },
+    {
+      "source_id": "fbi_crime_data_api",
+      "name": "FBI Crime Data API / Crime Data Explorer",
+      "authority": "FBI / DOJ",
+      "source_type": "official_government_api",
+      "source_url": "https://www.justice.gov/developer",
+      "access_type": "api",
+      "refresh_cadence": "monthly_or_quarterly",
+      "creates_entities": false,
+      "enriches_entities": true,
+      "fields_supported": [
+        "agency_participation",
+        "crime_activity_context",
+        "jurisdiction_activity",
+        "state",
+        "agency"
+      ],
+      "use_in_black_dragon": [
+        "regional activity context",
+        "training demand signal",
+        "law enforcement participation validation"
+      ],
+      "notes": "The FBI Crime Data API returns JSON or CSV data and is organized around UCR reporting systems."
+    },
+    {
+      "source_id": "census_api",
+      "name": "U.S. Census Data API",
+      "authority": "U.S. Census Bureau",
+      "source_type": "official_government_api",
+      "source_url": "https://www.census.gov/data/developers/guidance/api-user-guide.html",
+      "access_type": "api",
+      "refresh_cadence": "quarterly_or_annual",
+      "creates_entities": false,
+      "enriches_entities": true,
+      "fields_supported": [
+        "population",
+        "county",
+        "city",
+        "state",
+        "density_proxy",
+        "market_size_context"
+      ],
+      "use_in_black_dragon": [
+        "city market sizing",
+        "population pressure signal",
+        "priority city validation"
+      ],
+      "notes": "Use for demographic and city/county context, not as direct law-enforcement lead source."
+    },
+    {
+      "source_id": "sam_gov_opportunities",
+      "name": "SAM.gov Get Opportunities Public API",
+      "authority": "GSA / SAM.gov",
+      "source_type": "official_procurement_api",
+      "source_url": "https://open.gsa.gov/api/get-opportunities-public-api/",
+      "access_type": "api_key_required",
+      "refresh_cadence": "weekly",
+      "creates_entities": false,
+      "enriches_entities": true,
+      "fields_supported": [
+        "contract_opportunity",
+        "notice_type",
+        "agency",
+        "location",
+        "description",
+        "posted_date"
+      ],
+      "use_in_black_dragon": [
+        "training procurement signal",
+        "public safety vendor activity",
+        "purchase readiness context"
+      ],
+      "notes": "SAM.gov opportunity data provides published opportunity details and requires pagination."
+    },
+    {
+      "source_id": "grants_gov_public_safety",
+      "name": "Grants.gov Public Safety / DOJ Grant Opportunities",
+      "authority": "Grants.gov / DOJ",
+      "source_type": "official_grants_portal",
+      "source_url": "https://www.grants.gov/search-results-detail/358975",
+      "access_type": "portal_or_api_research",
+      "refresh_cadence": "monthly",
+      "creates_entities": false,
+      "enriches_entities": true,
+      "fields_supported": [
+        "grant_program",
+        "funding_purpose",
+        "public_safety_category",
+        "training_capacity",
+        "eligible_applicants"
+      ],
+      "use_in_black_dragon": [
+        "budget capacity signal",
+        "training funding signal",
+        "grant-backed outreach timing"
+      ],
+      "notes": "Use only for funding context unless a specific agency recipient is confirmed."
+    },
+    {
+      "source_id": "state_post_boards",
+      "name": "State POST / Peace Officer Training Boards",
+      "authority": "State law-enforcement training authorities",
+      "source_type": "official_training_board",
+      "source_url": "varies_by_state",
+      "access_type": "website_or_download",
+      "refresh_cadence": "quarterly",
+      "creates_entities": true,
+      "enriches_entities": true,
+      "fields_supported": [
+        "training_requirements",
+        "academy",
+        "course_catalog",
+        "training_contact",
+        "certification_rule"
+      ],
+      "use_in_black_dragon": [
+        "training authority leads",
+        "certification pathway discovery",
+        "in-service training demand"
+      ],
+      "priority_states": [
+        "AZ",
+        "CA",
+        "TX",
+        "OR",
+        "WA",
+        "NM",
+        "NV",
+        "FL",
+        "GA",
+        "NC"
+      ],
+      "notes": "High-value source category. Each state needs its own source record as the system expands."
+    },
+    {
+      "source_id": "official_agency_sites",
+      "name": "Official Police / Sheriff / DPS Agency Websites",
+      "authority": "Municipal, county, and state agencies",
+      "source_type": "official_agency_website",
+      "source_url": "varies_by_agency",
+      "access_type": "public_web",
+      "refresh_cadence": "monthly_check",
+      "creates_entities": true,
+      "enriches_entities": true,
+      "fields_supported": [
+        "agency_name",
+        "division",
+        "training_page",
+        "command_staff",
+        "contact_url",
+        "specialized_units",
+        "press_releases"
+      ],
+      "use_in_black_dragon": [
+        "agency verification",
+        "contact path discovery",
+        "gang unit discovery",
+        "training division discovery"
+      ],
+      "notes": "Every client-visible lead should eventually have at least one official agency source."
+    },
+    {
+      "source_id": "fbi_doj_press_releases",
+      "name": "FBI / DOJ Press Releases",
+      "authority": "FBI / DOJ",
+      "source_type": "official_press_release",
+      "source_url": "https://www.fbi.gov/news",
+      "access_type": "public_web",
+      "refresh_cadence": "weekly",
+      "creates_entities": false,
+      "enriches_entities": true,
+      "fields_supported": [
+        "recent_activity_signal",
+        "gang_reference",
+        "omg_reference",
+        "task_force_reference",
+        "case_summary",
+        "date"
+      ],
+      "use_in_black_dragon": [
+        "recent OMG incident signal",
+        "task force activity signal",
+        "outreach timing",
+        "dossier source support"
+      ],
+      "notes": "Use as high-authority support for recent activity and training need, not as sole proof of agency buyer authority."
+    },
+    {
+      "source_id": "police_sheriff_associations",
+      "name": "Police Chief / Sheriff Associations",
+      "authority": "Professional law-enforcement associations",
+      "source_type": "association_directory",
+      "source_url": "varies_by_association",
+      "access_type": "public_web",
+      "refresh_cadence": "quarterly",
+      "creates_entities": true,
+      "enriches_entities": true,
+      "fields_supported": [
+        "association_name",
+        "member_agencies",
+        "training_events",
+        "conference_contact",
+        "education_contact"
+      ],
+      "use_in_black_dragon": [
+        "distribution channel discovery",
+        "association outreach",
+        "training event targeting"
+      ],
+      "notes": "Useful for scale, but individual agency leads still need verification."
+    },
+    {
+      "source_id": "local_public_safety_budgets",
+      "name": "City / County Public Safety Budgets",
+      "authority": "City and county governments",
+      "source_type": "official_budget_document",
+      "source_url": "varies_by_city_or_county",
+      "access_type": "public_web_or_pdf",
+      "refresh_cadence": "annual",
+      "creates_entities": false,
+      "enriches_entities": true,
+      "fields_supported": [
+        "police_budget",
+        "sheriff_budget",
+        "training_budget",
+        "public_safety_allocation",
+        "fiscal_year"
+      ],
+      "use_in_black_dragon": [
+        "budget capacity signal",
+        "purchase likelihood",
+        "agency scale validation"
+      ],
+      "notes": "Budget documents are high-value but need careful parsing and should be cached after review."
+    }
+  ],
+
+  "ingestion_rules": {
+    "entity_creation_allowed_from": [
+      "hifld_local_law_enforcement_locations",
+      "official_agency_sites",
+      "state_post_boards",
+      "police_sheriff_associations"
+    ],
+    "enrichment_only_sources": [
+      "fbi_crime_data_api",
+      "census_api",
+      "sam_gov_opportunities",
+      "grants_gov_public_safety",
+      "fbi_doj_press_releases",
+      "local_public_safety_budgets"
+    ],
+    "minimum_entity_requirements": [
+      "agency_name",
+      "agency_type",
+      "state",
+      "source_url",
+      "source_name"
+    ],
+    "minimum_display_requirements": [
+      "agency_name",
+      "city_id",
+      "lat",
+      "lon",
+      "source_url",
+      "source_text",
+      "confidence"
+    ],
+    "reject_if": [
+      "no_source_url",
+      "no_agency_name",
+      "private_individual",
+      "unverified_placeholder",
+      "non_us_without_explicit_approval"
+    ]
+  },
+
+  "next_build_targets": [
+    {
+      "target": "source_loader_registry",
+      "file": "public/globe/intel/sources/black_dragon_source_registry.loader.js",
+      "purpose": "Loads this registry and exposes approved source metadata to ingestion scripts."
+    },
+    {
+      "target": "ingestion_script",
+      "file": "scripts/black_dragon_ingest_sources.js",
+      "purpose": "Controlled fetch/cache pipeline for approved public sources."
+    },
+    {
+      "target": "source_cache_folder",
+      "file": "public/data/clients/black_dragon/source_cache/",
+      "purpose": "Stores fetched public source snapshots before normalization."
+    }
+  ]
+}

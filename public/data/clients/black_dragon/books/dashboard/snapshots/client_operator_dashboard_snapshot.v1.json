@@ -1,0 +1,104 @@
+{
+  "version": "black_dragon_books_client_operator_dashboard_snapshot_v1",
+  "generated_at": "2026-05-09T03:22:12.054Z",
+  "client": {
+    "client_id": "black_dragon",
+    "active_module": "book_sales_v2",
+    "operator_mode": "CLIENT_SAFE",
+    "dashboard_scope": "BLACK_DRAGON_BOOKS_ONLY"
+  },
+  "headline_metrics": {
+    "total_operational_targets": 23,
+    "outreach_ready": 20,
+    "needs_contact_enrichment": 3,
+    "adaptive_targets": 23,
+    "responses_logged": 1,
+    "contacts_with_public_paths": 20,
+    "projected_revenue_total": 0
+  },
+  "priority_summary": {
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 21,
+    "none": 0
+  },
+  "outreach_summary": {
+    "ready": 20,
+    "enrichment_needed": 3,
+    "immediate_actions": 0,
+    "high_priority_actions": 0,
+    "queued_actions": 2
+  },
+  "response_summary": {
+    "engagement": 1,
+    "interest": 0,
+    "endorsement": 0,
+    "bulk_order": 0,
+    "conversion": 0,
+    "negative_fit": 0,
+    "no_response": 0
+  },
+  "next_best_actions": [
+    {
+      "entity_id": "BD_BOOK_NORM_0002",
+      "organization_name": "Sample Motorcycle Council",
+      "leader_role": "CHAIRMAN",
+      "organization_type": "COUNCIL",
+      "queue_status": "NEEDS_CONTACT_ENRICHMENT",
+      "priority_score": 61,
+      "priority_tier": "MEDIUM",
+      "recommended_action": "QUEUE_FOR_OUTREACH",
+      "contact_route_type": null,
+      "message_subject": "MC Education Resource for Member Clubs"
+    },
+    {
+      "entity_id": "BD_BOOK_NORM_0001",
+      "organization_name": "Sample Motorcycle Club",
+      "leader_role": "PRESIDENT",
+      "organization_type": "RIDING_CLUB",
+      "queue_status": "NEEDS_CONTACT_ENRICHMENT",
+      "priority_score": 57.4,
+      "priority_tier": "MEDIUM",
+      "recommended_action": "QUEUE_FOR_OUTREACH",
+      "contact_route_type": null,
+      "message_subject": "Prospect Education Resource for Sample Motorcycle Club"
+    },
+    {
+      "entity_id": "BD_BOOK_NORM_0003",
+      "organization_name": "Sample Motorcycle Ministry",
+      "leader_role": "CHAPLAIN",
+      "organization_type": "MOTORCYCLE_MINISTRY",
+      "queue_status": "NEEDS_CONTACT_ENRICHMENT",
+      "priority_score": 34.15,
+      "priority_tier": "LOW",
+      "recommended_action": "MONITOR_AND_ENRICH",
+      "contact_route_type": null,
+      "message_subject": "Prospect Education Resource for Sample Motorcycle Ministry"
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00013",
+      "organization_name": "Bikers Against Child Abuse Arizona",
+      "leader_role": "CHAPTER_COORDINATOR",
+      "organization_type": "CHARITY_MOTORCYCLE_ORGANIZATION",
+      "queue_status": "READY",
+      "priority_score": 24.25,
+      "priority_tier": "LOW",
+      "recommended_action": "MONITOR_AND_ENRICH",
+      "contact_route_type": "PUBLIC_CONTACT_FORM",
+      "message_subject": "Motorcycle Club Leadership Resource"
+    },
+    {
+      "entity_id": "BD_BOOK_OP_00011",
+      "organization_name": "ABATE of Florida",
+      "leader_role": "CHAIRMAN",
+      "organization_type": "MOTORCYCLE_RIGHTS_ORGANIZATION",
+      "queue_status": "READY",
+      "priority_score": 23.55,
+      "priority_tier": "LOW",
+      "recommended_action": "MONITOR_AND_ENRICH",
+      "contact_route_type": "PUBLIC_CONTACT_FORM",
+      "message_subject": "Motorcycle Club Leadership Resource"
+    }
+  ]
+}

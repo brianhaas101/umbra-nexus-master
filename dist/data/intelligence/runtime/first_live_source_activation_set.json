@@ -1,0 +1,58 @@
+{
+  "version": "nexus_first_live_source_activation_set_v1",
+  "generated_at": "2026-05-06T13:17:40.611Z",
+  "rule": "Activation set enables controlled live ingestion using proven/manual-verified or low-risk structured sources first.",
+  "activation_count": 5,
+  "connectors": [
+    {
+      "priority": 1,
+      "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+      "connector_id": "MANUAL_VERIFIED_CONTACT_ADAPTER",
+      "reason": "Already proven through Black Dragon verified contact workflow.",
+      "implementation_status": "READY_FOR_LIVE_ACTIVATION",
+      "live_pull_enabled": false,
+      "activation_mode": "CONTROLLED_LOCAL_FILE_OR_VERIFIED_SOURCE",
+      "status": "QUEUED_FOR_IMPLEMENTATION"
+    },
+    {
+      "priority": 2,
+      "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+      "connector_id": "LOCAL_DIRECTORY_ADAPTER",
+      "reason": "Directly supports agency identity, routing, and dossiers.",
+      "implementation_status": "READY_FOR_LIVE_ACTIVATION",
+      "live_pull_enabled": false,
+      "activation_mode": "CONTROLLED_LOCAL_FILE_OR_VERIFIED_SOURCE",
+      "status": "QUEUED_FOR_IMPLEMENTATION"
+    },
+    {
+      "priority": 3,
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "connector_id": "ACADEMY_DIRECTORY_ADAPTER",
+      "reason": "Directly supports Black Dragon and training-market intelligence.",
+      "implementation_status": "READY_FOR_LIVE_ACTIVATION",
+      "live_pull_enabled": false,
+      "activation_mode": "CONTROLLED_LOCAL_FILE_OR_VERIFIED_SOURCE",
+      "status": "QUEUED_FOR_IMPLEMENTATION"
+    },
+    {
+      "priority": 4,
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY",
+      "connector_id": "CITY_GIS_ADAPTER",
+      "reason": "Improves globe node accuracy and territory intelligence.",
+      "implementation_status": "READY_FOR_LIVE_ACTIVATION",
+      "live_pull_enabled": false,
+      "activation_mode": "CONTROLLED_LOCAL_FILE_OR_VERIFIED_SOURCE",
+      "status": "QUEUED_FOR_IMPLEMENTATION"
+    },
+    {
+      "priority": 5,
+      "layer_id": "L12_ENGAGEMENT_RESPONSE",
+      "connector_id": "OUTREACH_EXECUTION_LOG_ADAPTER",
+      "reason": "Creates closed-loop sales and response intelligence.",
+      "implementation_status": "READY_FOR_LIVE_ACTIVATION",
+      "live_pull_enabled": false,
+      "activation_mode": "CONTROLLED_LOCAL_FILE_OR_VERIFIED_SOURCE",
+      "status": "QUEUED_FOR_IMPLEMENTATION"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+    "batch":  "234",
+    "version":  "black_dragon_high_density_long_beach_equivalence_replay_audit_v1",
+    "generated_at":  "2026-05-11T05:56:07.4013366Z",
+    "wave":  "high_density_hydration_wave_1",
+    "reference":  {
+                      "city":  "Long Beach",
+                      "minimum_validated_sources":  19,
+                      "minimum_geospatial_candidates":  18,
+                      "minimum_organization_candidates":  15,
+                      "minimum_relationship_candidates":  30,
+                      "minimum_ranked_entities":  15
+                  },
+    "city_results":  [
+                         {
+                             "city":  "Los Angeles",
+                             "folder":  "los_angeles",
+                             "validated_sources":  19,
+                             "geospatial_candidates":  18,
+                             "organization_candidates":  15,
+                             "relationship_candidates":  30,
+                             "ranked_entities":  15,
+                             "density_gate_passed":  true,
+                             "equivalence_state":  "DENSITY_PARITY_REACHED_REVIEW_REQUIRED",
+                             "valid_json":  true,
+                             "status":  "PASS_EQUIVALENCE_REPLAY_RECORDED"
+                         },
+                         {
+                             "city":  "San Diego",
+                             "folder":  "san_diego",
+                             "validated_sources":  19,
+                             "geospatial_candidates":  18,
+                             "organization_candidates":  15,
+                             "relationship_candidates":  30,
+                             "ranked_entities":  15,
+                             "density_gate_passed":  true,
+                             "equivalence_state":  "DENSITY_PARITY_REACHED_REVIEW_REQUIRED",
+                             "valid_json":  true,
+                             "status":  "PASS_EQUIVALENCE_REPLAY_RECORDED"
+                         },
+                         {
+                             "city":  "Phoenix",
+                             "folder":  "phoenix",
+                             "validated_sources":  19,
+                             "geospatial_candidates":  18,
+                             "organization_candidates":  15,
+                             "relationship_candidates":  30,
+                             "ranked_entities":  15,
+                             "density_gate_passed":  true,
+                             "equivalence_state":  "DENSITY_PARITY_REACHED_REVIEW_REQUIRED",
+                             "valid_json":  true,
+                             "status":  "PASS_EQUIVALENCE_REPLAY_RECORDED"
+                         },
+                         {
+                             "city":  "Scottsdale",
+                             "folder":  "scottsdale",
+                             "validated_sources":  19,
+                             "geospatial_candidates":  18,
+                             "organization_candidates":  15,
+                             "relationship_candidates":  30,
+                             "ranked_entities":  15,
+                             "density_gate_passed":  true,
+                             "equivalence_state":  "DENSITY_PARITY_REACHED_REVIEW_REQUIRED",
+                             "valid_json":  true,
+                             "status":  "PASS_EQUIVALENCE_REPLAY_RECORDED"
+                         },
+                         {
+                             "city":  "Mesa",
+                             "folder":  "mesa",
+                             "validated_sources":  19,
+                             "geospatial_candidates":  18,
+                             "organization_candidates":  15,
+                             "relationship_candidates":  30,
+                             "ranked_entities":  15,
+                             "density_gate_passed":  true,
+                             "equivalence_state":  "DENSITY_PARITY_REACHED_REVIEW_REQUIRED",
+                             "valid_json":  true,
+                             "status":  "PASS_EQUIVALENCE_REPLAY_RECORDED"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  5,
+                    "failed_count":  0,
+                    "density_gate_passed_count":  5,
+                    "density_gate_passed_cities":  [
+                                                       "los_angeles",
+                                                       "san_diego",
+                                                       "phoenix",
+                                                       "scottsdale",
+                                                       "mesa"
+                                                   ]
+                },
+    "interpretation":  {
+                           "long_beach_equivalence_claimed":  false,
+                           "tier2_claim_allowed":  false,
+                           "reason":  "Density parity alone is not enough. Public URL verification, category verification, organization identity verification, and manual review remain required."
+                       },
+    "hardlocks":  {
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_LONG_BEACH_EQUIVALENCE_REPLAY_COMPLETE"
+}

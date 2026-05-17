@@ -1,0 +1,552 @@
+{
+  "source_id": "ny_dcjs_criminal_justice_agencies",
+  "state": "NY",
+  "generated_at": "2026-05-02T19:32:50.338Z",
+  "input_candidate_count": 38,
+  "authority_target_count": 10,
+  "rejected_count": 28,
+  "live_import_allowed": false,
+  "authority_rules": {
+    "keep": [
+      "New York City Police Department",
+      "New York State Police - Troop NYC",
+      "county sheriff offices",
+      "district attorney offices"
+    ],
+    "reject": [
+      "transit / MTA / Amtrak police",
+      "laboratories",
+      "probation sub-offices",
+      "schools, hospitals, prisons, and non-buyer subunits"
+    ]
+  },
+  "targets": [
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0005",
+      "source_candidate_id": "NY-DCJS-CAND-00010",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "New York City Police Department",
+      "authority_type": "municipal_police_authority",
+      "agency_type": "police_department",
+      "city": "New York",
+      "state": "NY",
+      "county": "New York",
+      "country": "US",
+      "address": "1 Police Plaza",
+      "phone": "(646) 610-5410",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_1",
+      "actionability": "prime_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "703",
+        "agency": "New York City Police Department",
+        "nominal_address": "Room 1400",
+        "street_address": "1 Police Plaza",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10038",
+        "telephone": "(646) 610-5410",
+        "county": "New York",
+        "agency_category": "Police",
+        "agency_type": "Police and Sheriff",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -74.001793,
+            40.712212
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0008",
+      "source_candidate_id": "NY-DCJS-CAND-00014",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "New York State Police - Troop NYC",
+      "authority_type": "state_police_authority",
+      "agency_type": "police_department",
+      "city": "New York",
+      "state": "NY",
+      "county": "New York",
+      "country": "US",
+      "address": "1 Wards Island",
+      "phone": "(917) 492-7126",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_1",
+      "actionability": "prime_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "735",
+        "agency": "New York State Police - Troop NYC",
+        "street_address": "1 Wards Island",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10035",
+        "telephone": "(917) 492-7126",
+        "county": "New York",
+        "agency_category": "State Police",
+        "agency_type": "Police and Sheriff",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -73.93022,
+            40.789396
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0001",
+      "source_candidate_id": "NY-DCJS-CAND-00002",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "Bronx County District Attorney's Office",
+      "authority_type": "prosecutor_authority",
+      "agency_type": "prosecutor_office",
+      "city": "New York",
+      "state": "NY",
+      "county": "Bronx",
+      "country": "US",
+      "address": "198 East 161st Street",
+      "phone": "(718) 590-2000",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_2",
+      "actionability": "strong_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "93",
+        "agency": "Bronx County District Attorney's Office",
+        "street_address": "198 East 161st Street",
+        "city": "Bronx",
+        "state": "NY",
+        "zip": "10451",
+        "telephone": "(718) 590-2000",
+        "county": "Bronx",
+        "agency_category": "District Attorneys",
+        "agency_type": "Prosecution/Defense/Courts",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -73.920874,
+            40.826291
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0002",
+      "source_candidate_id": "NY-DCJS-CAND-00003",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "Bronx County Sheriff's Office",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "New York",
+      "state": "NY",
+      "county": "Bronx",
+      "country": "US",
+      "address": "3030 3rd Avenue",
+      "phone": "(718) 993-3882",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_2",
+      "actionability": "strong_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "95",
+        "agency": "Bronx County Sheriff's Office",
+        "nominal_address": "2nd Floor",
+        "street_address": "3030 3rd Avenue",
+        "city": "Bronx",
+        "state": "NY",
+        "zip": "10455",
+        "telephone": "(718) 993-3882",
+        "county": "Bronx",
+        "agency_category": "Sheriffs",
+        "agency_type": "Police and Sheriff",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -73.913176,
+            40.819991
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0003",
+      "source_candidate_id": "NY-DCJS-CAND-00005",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "Kings County District Attorney's Office",
+      "authority_type": "prosecutor_authority",
+      "agency_type": "prosecutor_office",
+      "city": "New York",
+      "state": "NY",
+      "county": "Kings",
+      "country": "US",
+      "address": "350 Jay Street",
+      "phone": "(718) 250-2002",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_2",
+      "actionability": "strong_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "539",
+        "agency": "Kings County District Attorney's Office",
+        "nominal_address": "Renaissance Plaza, 19th Floor",
+        "street_address": "350 Jay Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11201",
+        "telephone": "(718) 250-2002",
+        "county": "Kings",
+        "agency_category": "District Attorneys",
+        "agency_type": "Prosecution/Defense/Courts",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -73.987224,
+            40.693657
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0004",
+      "source_candidate_id": "NY-DCJS-CAND-00006",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "Kings County Sheriff's Office",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "New York",
+      "state": "NY",
+      "county": "Kings",
+      "country": "US",
+      "address": "210 Joralemon Street",
+      "phone": "(718) 802-3543",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_2",
+      "actionability": "strong_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "541",
+        "agency": "Kings County Sheriff's Office",
+        "nominal_address": "Room 909",
+        "street_address": "210 Joralemon Street",
+        "city": "Brooklyn",
+        "state": "NY",
+        "zip": "11201",
+        "telephone": "(718) 802-3543",
+        "county": "Kings",
+        "agency_category": "Sheriffs",
+        "agency_type": "Police and Sheriff",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -73.990406,
+            40.692457
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0006",
+      "source_candidate_id": "NY-DCJS-CAND-00012",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "New York County District Attorney's Office",
+      "authority_type": "prosecutor_authority",
+      "agency_type": "prosecutor_office",
+      "city": "New York",
+      "state": "NY",
+      "county": "New York",
+      "country": "US",
+      "address": "1 Hogan Place",
+      "phone": "(212) 335-9000",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_2",
+      "actionability": "strong_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "709",
+        "agency": "New York County District Attorney's Office",
+        "nominal_address": "Room 854",
+        "street_address": "1 Hogan Place",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10013",
+        "telephone": "(212) 335-9000",
+        "county": "New York",
+        "agency_category": "District Attorneys",
+        "agency_type": "Prosecution/Defense/Courts",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -74.00123,
+            40.715495
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0007",
+      "source_candidate_id": "NY-DCJS-CAND-00013",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "New York County Sheriff's Office (NYC Sheriff)",
+      "authority_type": "county_sheriff_authority",
+      "agency_type": "sheriff_office",
+      "city": "New York",
+      "state": "NY",
+      "county": "New York",
+      "country": "US",
+      "address": "66 John Street",
+      "phone": "(212) 487-9734",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_2",
+      "actionability": "strong_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "711",
+        "agency": "New York County Sheriff's Office (NYC Sheriff)",
+        "nominal_address": "Surrogate's Court, 13th Floor",
+        "street_address": "66 John Street",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10038",
+        "telephone": "(212) 487-9734",
+        "county": "New York",
+        "agency_category": "Sheriffs",
+        "agency_type": "Police and Sheriff",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -74.007694,
+            40.709
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0009",
+      "source_candidate_id": "NY-DCJS-CAND-00027",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "Queens County District Attorney's Office",
+      "authority_type": "prosecutor_authority",
+      "agency_type": "prosecutor_office",
+      "city": "New York",
+      "state": "NY",
+      "county": "Queens",
+      "country": "US",
+      "address": "125 Queens Boulevard",
+      "phone": "(718) 286-6300",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_2",
+      "actionability": "strong_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "1008",
+        "agency": "Queens County District Attorney's Office",
+        "street_address": "125 Queens Boulevard",
+        "city": "Kew Gardens",
+        "state": "NY",
+        "zip": "11415",
+        "telephone": "(718) 286-6300",
+        "county": "Queens",
+        "agency_category": "District Attorneys",
+        "agency_type": "Prosecution/Defense/Courts",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -73.826474,
+            40.712235
+          ]
+        }
+      }
+    },
+    {
+      "authority_target_id": "NY-DCJS-AUTH-0010",
+      "source_candidate_id": "NY-DCJS-CAND-00029",
+      "source_id": "ny_dcjs_criminal_justice_agencies",
+      "source_name": "New York Directory of Criminal Justice Agencies",
+      "source_url": "https://data.ny.gov/Public-Safety/Directory-of-Criminal-Justice-Agencies/gugp-n5ip",
+      "agency_name": "Richmond County District Attorney's Office",
+      "authority_type": "prosecutor_authority",
+      "agency_type": "prosecutor_office",
+      "city": "New York",
+      "state": "NY",
+      "county": "Richmond",
+      "country": "US",
+      "address": "130 Stuyvesant Place",
+      "phone": "(718) 556-7050",
+      "website": "",
+      "contact_url": "",
+      "validated_tier": "TIER_2",
+      "actionability": "strong_target",
+      "review_status": "ny_authority_review_required",
+      "live_import_allowed": false,
+      "required_next_sources": [
+        "agency_websites.json",
+        "official_agency_sites",
+        "local_public_safety_budgets",
+        "fbi_doj_press_releases"
+      ],
+      "notes": [
+        "Filtered from official NY DCJS criminal justice agency directory.",
+        "Authority-level New York target candidate.",
+        "Review-only until official website/contact and signal enrichment are confirmed."
+      ],
+      "raw_record": {
+        "case_id": "1038",
+        "agency": "Richmond County District Attorney's Office",
+        "nominal_address": "9th Floor, Rm 919",
+        "street_address": "130 Stuyvesant Place",
+        "city": "Staten Island",
+        "state": "NY",
+        "zip": "10301",
+        "telephone": "(718) 556-7050",
+        "county": "Richmond",
+        "agency_category": "District Attorneys",
+        "agency_type": "Prosecution/Defense/Courts",
+        "georeference": {
+          "type": "Point",
+          "coordinates": [
+            -74.076886,
+            40.642933
+          ]
+        }
+      }
+    }
+  ]
+}

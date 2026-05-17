@@ -1,0 +1,34 @@
+{
+  "version": "nexus_L09_procurement_scoring_registry_v1",
+  "generated_at": "2026-05-06T04:36:31.398Z",
+  "layer_id": "L09_PROCUREMENT_INTELLIGENCE",
+  "scoring_outputs": [
+    {
+      "score": "procurement_probability",
+      "description": "Likelihood the entity can purchase through a known path"
+    },
+    {
+      "score": "vendor_cycle_position",
+      "description": "Where the entity sits in the active buying cycle"
+    },
+    {
+      "score": "approval_complexity_score",
+      "description": "Difficulty of approval and vendor onboarding"
+    },
+    {
+      "score": "contract_opportunity_score",
+      "description": "Strength of visible procurement opportunity"
+    },
+    {
+      "score": "purchase_timing_score",
+      "description": "Likelihood of near-term purchase timing"
+    }
+  ],
+  "weighting_rules": {
+    "active_bid_weight": 0.3,
+    "historical_purchase_weight": 0.2,
+    "vendor_registration_weight": 0.15,
+    "approval_path_weight": 0.2,
+    "timing_weight": 0.15
+  }
+}

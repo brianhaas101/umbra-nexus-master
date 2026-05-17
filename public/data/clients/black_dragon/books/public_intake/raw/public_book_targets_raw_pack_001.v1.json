@@ -1,0 +1,202 @@
+[
+  {
+    "raw_id": "PUB_REAL_BD_0101",
+    "organization_name": "ABATE of Florida",
+    "organization_type_hint": "motorcycle rights organization",
+    "country": "USA",
+    "region": "Florida",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://abateflorida.com/",
+    "known_leader_name": null,
+    "known_leader_role": "Chairman",
+    "observed_signals": [
+      "member education",
+      "event activity",
+      "community presence",
+      "regional mc presence",
+      "leadership development"
+    ],
+    "contact_method": "https://abateflorida.com/contact/",
+    "notes": "Large statewide advocacy organization."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0102",
+    "organization_name": "ABATE of Iowa",
+    "organization_type_hint": "motorcycle rights organization",
+    "country": "USA",
+    "region": "Iowa",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://abateiowa.org/",
+    "known_leader_name": null,
+    "known_leader_role": "Coordinator",
+    "observed_signals": [
+      "member education",
+      "event activity",
+      "regional mc presence",
+      "community presence"
+    ],
+    "contact_method": "https://abateiowa.org/contact/",
+    "notes": "Statewide rider-rights organization."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0103",
+    "organization_name": "Bikers Against Child Abuse Arizona",
+    "organization_type_hint": "charity motorcycle organization",
+    "country": "USA",
+    "region": "Arizona",
+    "source_type": "PUBLIC_FACEBOOK_PAGE",
+    "source_url": "https://www.facebook.com/bacaarizona/",
+    "known_leader_name": null,
+    "known_leader_role": "Chapter Coordinator",
+    "observed_signals": [
+      "community presence",
+      "event activity",
+      "leadership development",
+      "regional mc presence"
+    ],
+    "contact_method": "https://www.facebook.com/bacaarizona/",
+    "notes": "Regional BACA chapter."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0104",
+    "organization_name": "Christian Motorcyclists Association Oklahoma",
+    "organization_type_hint": "motorcycle ministry",
+    "country": "USA",
+    "region": "Oklahoma",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://okcma.com/",
+    "known_leader_name": null,
+    "known_leader_role": "State Coordinator",
+    "observed_signals": [
+      "leadership development",
+      "community presence",
+      "event activity",
+      "member education"
+    ],
+    "contact_method": "https://okcma.com/contact/",
+    "notes": "Regional CMA organizational presence."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0105",
+    "organization_name": "Vietnam Vets Legacy Vets MC",
+    "organization_type_hint": "veterans motorcycle club",
+    "country": "USA",
+    "region": "National",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://vnvetslvmc.org/",
+    "known_leader_name": null,
+    "known_leader_role": "National President",
+    "observed_signals": [
+      "leadership development",
+      "regional mc presence",
+      "community presence",
+      "event activity"
+    ],
+    "contact_method": "https://vnvetslvmc.org/contact/",
+    "notes": "Large veteran MC network."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0106",
+    "organization_name": "Blue Knights International",
+    "organization_type_hint": "law enforcement motorcycle organization",
+    "country": "USA",
+    "region": "National",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://blueknights.org/",
+    "known_leader_name": null,
+    "known_leader_role": "International President",
+    "observed_signals": [
+      "law enforcement overlap",
+      "leadership development",
+      "community presence",
+      "regional mc presence"
+    ],
+    "contact_method": "https://blueknights.org/contact/",
+    "notes": "Large LE motorcycle organization."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0107",
+    "organization_name": "Law Tigers",
+    "organization_type_hint": "motorcycle legal network",
+    "country": "USA",
+    "region": "National",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://lawtigers.com/",
+    "known_leader_name": null,
+    "known_leader_role": "Regional Director",
+    "observed_signals": [
+      "event activity",
+      "community presence",
+      "regional mc presence",
+      "motorcycle advocacy"
+    ],
+    "contact_method": "https://lawtigers.com/contact/",
+    "notes": "Motorcycle legal network with national event presence."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0108",
+    "organization_name": "National Coalition of Motorcyclists",
+    "organization_type_hint": "motorcycle advocacy coalition",
+    "country": "USA",
+    "region": "National",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://onabike.com/",
+    "known_leader_name": null,
+    "known_leader_role": "Board Member",
+    "observed_signals": [
+      "motorcycle advocacy",
+      "leadership development",
+      "regional mc presence",
+      "community presence"
+    ],
+    "contact_method": "https://onabike.com/contact/",
+    "notes": "National coalition structure."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0109",
+    "organization_name": "Buffalo Soldiers Motorcycle Club",
+    "organization_type_hint": "motorcycle club",
+    "country": "USA",
+    "region": "National",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://buffalosoldiersnational.us/",
+    "known_leader_name": null,
+    "known_leader_role": "National Officer",
+    "observed_signals": [
+      "leadership development",
+      "community presence",
+      "event activity",
+      "regional mc presence"
+    ],
+    "contact_method": "https://buffalosoldiersnational.us/contact/",
+    "notes": "Large national MC organization."
+  },
+
+  {
+    "raw_id": "PUB_REAL_BD_0110",
+    "organization_name": "US Military Vets MC",
+    "organization_type_hint": "veterans motorcycle club",
+    "country": "USA",
+    "region": "National",
+    "source_type": "PUBLIC_WEBSITE",
+    "source_url": "https://usmvmc.org/",
+    "known_leader_name": null,
+    "known_leader_role": "National President",
+    "observed_signals": [
+      "leadership development",
+      "community presence",
+      "regional mc presence",
+      "event activity"
+    ],
+    "contact_method": "https://usmvmc.org/contact/",
+    "notes": "National veteran MC organization."
+  }
+]

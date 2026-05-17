@@ -1,0 +1,83 @@
+{
+  "version": "umbra_batch_083_final_black_dragon_operational_audit_v1",
+  "generated_at": "2026-05-10T01:42:25.934Z",
+  "file_integrity": {
+    "finalHub": true,
+    "finalAccess": true,
+    "educationRuntime": true,
+    "educationAudit": true,
+    "veteranAudit": true,
+    "motorAudit": true,
+    "distributionAudit": true,
+    "eventAudit": true,
+    "fusionAudit": true,
+    "nationalAudit": true,
+    "graphAudit": true,
+    "influenceAudit": true,
+    "distributionDensityAudit": true,
+    "institutionalAudit": true,
+    "readinessAudit": true,
+    "nationalRuntime": true,
+    "graphRuntime": true,
+    "readinessRuntime": true,
+    "queueRuntime": true,
+    "responseStore": true,
+    "responseWorkflow": true,
+    "dossierSync": true,
+    "layerControls": true
+  },
+  "core_hub_integrity": {
+    "final_hub_pass": true,
+    "final_access_pass": true,
+    "response_store_present": true,
+    "response_workflow_present": true,
+    "dossier_sync_present": true,
+    "layer_controls_present": true
+  },
+  "original_black_dragon_integrity": {
+    "operational_targets": 1334,
+    "has_original_outreach_targets": true
+  },
+  "expansion_audit_integrity": {
+    "educationAudit": true,
+    "veteranAudit": true,
+    "motorAudit": true,
+    "distributionAudit": true,
+    "eventAudit": true,
+    "fusionAudit": true,
+    "nationalAudit": true,
+    "graphAudit": true,
+    "influenceAudit": true,
+    "distributionDensityAudit": true,
+    "institutionalAudit": true,
+    "readinessAudit": true
+  },
+  "national_runtime_integrity": {
+    "national_runtime_present": true,
+    "national_cities": 50,
+    "ecosystems": 5,
+    "runtime_entities": 1000,
+    "national_outreach_allowed": 0
+  },
+  "graph_runtime_integrity": {
+    "graph_runtime_present": true,
+    "graph_edges": 24640,
+    "propagation_chains": 24640,
+    "graph_outreach_allowed": 0
+  },
+  "readiness_integrity": {
+    "readiness_present": true,
+    "synthesized_entities": 1000,
+    "outreach_ready": 0,
+    "verification_required": 1000,
+    "verification_queue": 150
+  },
+  "safety_integrity": {
+    "national_expansion_outreach_blocked": true,
+    "graph_outreach_blocked": true,
+    "readiness_blocks_unverified": true,
+    "no_missing_required_audits": true
+  },
+  "pass": true,
+  "findings": []
+}

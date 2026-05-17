@@ -1,0 +1,43 @@
+﻿{
+  "version": "nexus_L03_local_normalization_registry_v1",
+  "generated_at": "2026-05-07T00:00:00.000Z",
+  "layer_id": "L03",
+  "normalization_rules": {
+    "local_source_id_required": true,
+    "jurisdiction_required": true,
+    "city_or_county_required": true,
+    "agency_or_department_required": true,
+    "source_trace_required": true,
+    "date_observed_required": true,
+    "entity_linking_required": true
+  },
+  "normalized_fields": [
+    "local_source",
+    "state",
+    "county",
+    "city",
+    "agency_name",
+    "department_type",
+    "procurement_reference",
+    "budget_reference",
+    "training_reference",
+    "incident_reference",
+    "staffing_reference",
+    "jurisdiction",
+    "related_entity",
+    "signal_type",
+    "signal_value",
+    "local_relevance",
+    "source_category",
+    "confidence_score",
+    "freshness_score"
+  ],
+  "blocked_conditions": [
+    "missing_local_source",
+    "missing_jurisdiction",
+    "missing_city_or_county",
+    "missing_source_trace",
+    "unlinked_entity",
+    "unsupported_local_signal"
+  ]
+}

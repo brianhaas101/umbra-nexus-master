@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Phoenix",
+    "gis": "https://mapping-phoenix.opendata.arcgis.com/",
+    "open_data": "https://www.phoenixopendata.com/",
+    "police": "https://www.phoenix.gov/police",
+    "fire": "https://www.phoenix.gov/fire",
+    "parks": "https://www.phoenix.gov/parks",
+    "permits": "https://www.phoenix.gov/pdd",
+    "public_works": "https://www.phoenix.gov/publicworks",
+    "schools": "https://www.phxschools.org/",
+    "council": "https://www.phoenix.gov/mayorcouncil"
+  },
+  {
+    "city": "Tucson",
+    "gis": "https://gisdata-tucsonaz.opendata.arcgis.com/",
+    "open_data": "https://data.tucsonaz.gov/",
+    "police": "https://www.tucsonaz.gov/Departments/Police",
+    "fire": "https://www.tucsonaz.gov/Departments/Fire",
+    "parks": "https://www.tucsonaz.gov/Departments/Parks-and-Recreation",
+    "permits": "https://www.tucsonaz.gov/Departments/Planning-Development-Services",
+    "public_works": "https://www.tucsonaz.gov/Departments/Transportation-Mobility",
+    "schools": "https://www.tusd1.org/",
+    "council": "https://www.tucsonaz.gov/Government/Mayor-Council"
+  },
+  {
+    "city": "Mesa",
+    "gis": "https://opengis.mesaaz.gov/",
+    "open_data": "https://data.mesaaz.gov/",
+    "police": "https://www.mesaaz.gov/Government/Police",
+    "fire": "https://www.mesaaz.gov/Government/Fire-Medical",
+    "parks": "https://www.mesaaz.gov/Government/Parks-Recreation-and-Community-Facilities",
+    "permits": "https://www.mesaaz.gov/Government/Development-Services",
+    "public_works": "https://www.mesaaz.gov/Government/Transportation",
+    "schools": "https://www.mpsaz.org/",
+    "council": "https://www.mesaaz.gov/Government/Mayor-Council"
+  },
+  {
+    "city": "Chandler",
+    "gis": "https://www.chandleraz.gov/residents/maps",
+    "open_data": "https://www.chandleraz.gov/",
+    "police": "https://www.chandleraz.gov/residents/police",
+    "fire": "https://www.chandleraz.gov/residents/fire",
+    "parks": "https://www.chandleraz.gov/explore/chandler-recreation",
+    "permits": "https://www.chandleraz.gov/business/development-services",
+    "public_works": "https://www.chandleraz.gov/residents/transportation",
+    "schools": "https://www.cusd80.com/",
+    "council": "https://www.chandleraz.gov/government/mayor-and-council"
+  },
+  {
+    "city": "Scottsdale",
+    "gis": "https://maps.scottsdaleaz.gov/",
+    "open_data": "https://data.scottsdaleaz.gov/",
+    "police": "https://www.scottsdaleaz.gov/police",
+    "fire": "https://www.scottsdaleaz.gov/fire",
+    "parks": "https://www.scottsdaleaz.gov/parks",
+    "permits": "https://www.scottsdaleaz.gov/planning-development",
+    "public_works": "https://www.scottsdaleaz.gov/transportation",
+    "schools": "https://www.susd.org/",
+    "council": "https://www.scottsdaleaz.gov/council"
+  }
+]

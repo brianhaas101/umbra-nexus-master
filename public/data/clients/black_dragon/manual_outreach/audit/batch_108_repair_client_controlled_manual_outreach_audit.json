@@ -1,0 +1,28 @@
+{
+  "version": "black_dragon_batch_108_repair_client_controlled_manual_outreach_audit_v1",
+  "generated_at": "2026-05-10T18:07:50.176Z",
+  "batch": "108_REPAIR_CLIENT_CONTROLLED_MANUAL_OUTREACH",
+  "repair_reason": "Replace founder-per-contact approval with client-controlled manual contact workflow under founder integrity governance.",
+  "counts": {
+    "client_contact_records": 5,
+    "sales_assignment_schema_fields": 7,
+    "client_action_schema_fields": 9,
+    "visibility_records": 5,
+    "currently_client_authorized_for_manual_contact": 0,
+    "automated_contact_allowed": 0,
+    "founder_contact_approval_required": 0
+  },
+  "gates": {
+    "client_controls_contact_selection": true,
+    "founder_controls_integrity_and_permissions": true,
+    "founder_no_longer_required_per_contact": true,
+    "founder_integrity_lock_active": true,
+    "verified_route_required": true,
+    "automated_contact_forbidden": true,
+    "default_client_authorized_zero": true,
+    "map_nodes_visible": true,
+    "dossiers_visible": true,
+    "visibility_records_match": true
+  },
+  "status": "PASS"
+}

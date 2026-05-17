@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:10.378Z",
+  "layer_id": "L02",
+  "connector_id": "L02_CA_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "CA",
+  "state_name": "California",
+  "source_type": "STATE_GRANTS",
+  "canonical_url": "https://www.grants.ca.gov",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 107617,
+    "extracted_links": [
+      {
+        "href": "https://www.grants.ca.gov/",
+        "label": "California Grants Portal"
+      },
+      {
+        "href": "https://www.grants.ca.gov/?s",
+        "label": "Find Grants"
+      },
+      {
+        "href": "https://www.grants.ca.gov/about-this-site/",
+        "label": "Overview"
+      },
+      {
+        "href": "https://www.grants.ca.gov/statistics-dashboard/",
+        "label": "Statistics Dashboard"
+      },
+      {
+        "href": "https://www.grants.ca.gov/legislative-annual-reports/",
+        "label": "Annual Reports"
+      },
+      {
+        "href": "https://www.grants.ca.gov/faq/",
+        "label": "FAQ"
+      },
+      {
+        "href": "https://www.grants.ca.gov/glossary/",
+        "label": "Glossary"
+      },
+      {
+        "href": "https://www.grants.ca.gov/for-state-agencies/",
+        "label": "Grant Data Submission"
+      },
+      {
+        "href": "https://www.grants.ca.gov/subscribe-to-updates/",
+        "label": "Subscribe"
+      },
+      {
+        "href": "https://www.grants.ca.gov/news/",
+        "label": "News"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "2e2eeeaaecdeccb5f328d1f45377768a726bb34d2958ae6c4ed2edee43051753"
+}

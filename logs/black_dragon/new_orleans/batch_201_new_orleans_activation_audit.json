@@ -1,0 +1,71 @@
+{
+    "batch":  "201",
+    "version":  "black_dragon_louisiana_new_orleans_single_city_activation_v1",
+    "generated_at":  "2026-05-11T02:20:50.4851451Z",
+    "active_target":  {
+                          "state":  "Louisiana",
+                          "state_code":  "LA",
+                          "city":  "New Orleans",
+                          "city_id":  "city_new_orleans_la"
+                      },
+    "required_artifacts":  {
+                               "required_count":  7,
+                               "missing_count":  0,
+                               "missing":  [
+
+                                           ]
+                           },
+    "json_validation":  {
+                            "files_checked":  7,
+                            "invalid_files":  0,
+                            "results":  [
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\states\\louisiana\\single_city_runtime_policy.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\contact_readiness_scores.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\manual_review_pipeline.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\new_orleans_operational_manifest.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\new_orleans\\quarantined_entities.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\new_orleans\\entities_runtime.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\new_orleans\\runtime_shell.json",
+                                                "valid_json":  true
+                                            }
+                                        ]
+                        },
+    "louisiana_runtime_scope":  {
+                                    "active_louisiana_runtime_count":  1,
+                                    "active_louisiana_runtimes":  [
+                                                                      {
+                                                                          "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\new_orleans\\runtime_shell.json",
+                                                                          "city":  "New Orleans",
+                                                                          "active":  true
+                                                                      }
+                                                                  ],
+                                    "multi_city_runtime_forbidden":  true
+                                },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "PASS_NEW_ORLEANS_ACTIVATED_SINGLE_CITY_FOUNDATION"
+}

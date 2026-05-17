@@ -1,0 +1,346 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:12.140Z",
+  "layer_id": "L02",
+  "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "OH",
+  "state_name": "Ohio",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://www.ohioattorneygeneral.gov",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_OH_L02_CLASS_002_STATE_DOJ_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:12.140Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89",
+        "parser_id": "L02_OH_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "",
+        "href": "https://www.ohioattorneygeneral.gov/Individuals-and-Families/Consumers/Robocall",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_002_STATE_DOJ_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:12.140Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89",
+        "parser_id": "L02_OH_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumers",
+        "href": "https://www.ohioattorneygeneral.gov/Individuals-and-Families/Consumers",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_002_STATE_DOJ_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:12.140Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89",
+        "parser_id": "L02_OH_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Task Force on Criminal Justice and Mental Illness",
+        "href": "https://www.ohioattorneygeneral.gov/Individuals-and-Families/Victims/Task-Force-on-Criminal-Justice-and-Mental-Illness",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_002_STATE_DOJ_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:12.140Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89",
+        "parser_id": "L02_OH_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "LAW ENFORCEMENT",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_002_STATE_DOJ_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:12.140Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89",
+        "parser_id": "L02_OH_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Ohio Law Enforcement Gateway",
+        "href": "https://www.ohioattorneygeneral.gov/Law-Enforcement/Ohio-Law-Enforcement-Gateway",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_002_STATE_DOJ_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:12.140Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89",
+        "parser_id": "L02_OH_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Ohio Organized Crime Investigations Commission",
+        "href": "https://www.ohioattorneygeneral.gov/About-AG/Service-Divisions/Organized-Crime-Investigations-Commission",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_002_STATE_DOJ_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:12.140Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89",
+        "parser_id": "L02_OH_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "News Releases",
+        "href": "https://www.ohioattorneygeneral.gov/Media/News-Releases",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_OH_L02_CLASS_002_STATE_DOJ_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "state_name": "Ohio",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:12.140Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.ohioattorneygeneral.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "f0dd69f6baf5698cb37e53dc7b03a2646e0a354d1736268f59f9e81cbe263a89",
+        "parser_id": "L02_OH_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Newsletters",
+        "href": "https://www.ohioattorneygeneral.gov/Media/Newsletters",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_OH_L02_CLASS_002_STATE_DOJ_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_OH_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "OH",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    }
+  ],
+  "normalized_snapshot_hash": "f7247daa33f3137fcf96719636dfaf55ef94faf63cec6da13676ebb2e1175904"
+}

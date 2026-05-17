@@ -1,0 +1,14 @@
+﻿{
+    "source_id":  "grants_gov_opportunities",
+    "layer_id":  "L01",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "status":  "source_page_verified_grants_gov_signals",
+    "last_refresh":  "2026-05-14T02:45:00.9496663Z",
+    "expansion_source":  true,
+    "replaces_deferred_source":  null,
+    "sanitization":  "index_html_token_replaced",
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "client_paths_touched":  false
+}

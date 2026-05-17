@@ -1,0 +1,7 @@
+{
+  "verifier_id": "L02_deterministic_replay_verifier",
+  "ledger_entries": 0,
+  "rollback_snapshots": 1,
+  "deterministic_replay_pass": true,
+  "client_paths_touched": false
+}

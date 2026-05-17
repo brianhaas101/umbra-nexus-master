@@ -1,0 +1,184 @@
+{
+    "batch":  "209",
+    "version":  "black_dragon_long_beach_parity_baseline_discovery_v1",
+    "generated_at":  "2026-05-11T02:56:23.1785892Z",
+    "reference_city":  {
+                           "state":  "California",
+                           "city":  "Long Beach",
+                           "city_path":  ".\\public\\data\\clients\\black_dragon\\cities\\long_beach",
+                           "runtime_path":  ".\\public\\data\\clients\\black_dragon\\runtime\\long_beach",
+                           "city_json_files":  [
+
+                                               ],
+                           "runtime_json_files":  [
+
+                                                  ]
+                       },
+    "active_city_results":  [
+                                {
+                                    "state":  "Nevada",
+                                    "city":  "Las Vegas",
+                                    "folder":  "las_vegas",
+                                    "city_path_exists":  true,
+                                    "runtime_path_exists":  true,
+                                    "city_json_count":  7,
+                                    "runtime_json_count":  1,
+                                    "long_beach_city_json_count":  0,
+                                    "long_beach_runtime_json_count":  0,
+                                    "missing_long_beach_city_files_count":  0,
+                                    "missing_long_beach_city_files":  [
+
+                                                                      ],
+                                    "missing_long_beach_runtime_files_count":  0,
+                                    "missing_long_beach_runtime_files":  [
+
+                                                                         ],
+                                    "parity_status":  "LONG_BEACH_FILE_FOOTPRINT_MATCH"
+                                },
+                                {
+                                    "state":  "Georgia",
+                                    "city":  "Atlanta",
+                                    "folder":  "atlanta",
+                                    "city_path_exists":  true,
+                                    "runtime_path_exists":  true,
+                                    "city_json_count":  4,
+                                    "runtime_json_count":  2,
+                                    "long_beach_city_json_count":  0,
+                                    "long_beach_runtime_json_count":  0,
+                                    "missing_long_beach_city_files_count":  0,
+                                    "missing_long_beach_city_files":  [
+
+                                                                      ],
+                                    "missing_long_beach_runtime_files_count":  0,
+                                    "missing_long_beach_runtime_files":  [
+
+                                                                         ],
+                                    "parity_status":  "LONG_BEACH_FILE_FOOTPRINT_MATCH"
+                                },
+                                {
+                                    "state":  "Texas",
+                                    "city":  "Houston",
+                                    "folder":  "houston",
+                                    "city_path_exists":  true,
+                                    "runtime_path_exists":  true,
+                                    "city_json_count":  4,
+                                    "runtime_json_count":  2,
+                                    "long_beach_city_json_count":  0,
+                                    "long_beach_runtime_json_count":  0,
+                                    "missing_long_beach_city_files_count":  0,
+                                    "missing_long_beach_city_files":  [
+
+                                                                      ],
+                                    "missing_long_beach_runtime_files_count":  0,
+                                    "missing_long_beach_runtime_files":  [
+
+                                                                         ],
+                                    "parity_status":  "LONG_BEACH_FILE_FOOTPRINT_MATCH"
+                                },
+                                {
+                                    "state":  "Louisiana",
+                                    "city":  "New Orleans",
+                                    "folder":  "new_orleans",
+                                    "city_path_exists":  true,
+                                    "runtime_path_exists":  true,
+                                    "city_json_count":  4,
+                                    "runtime_json_count":  2,
+                                    "long_beach_city_json_count":  0,
+                                    "long_beach_runtime_json_count":  0,
+                                    "missing_long_beach_city_files_count":  0,
+                                    "missing_long_beach_city_files":  [
+
+                                                                      ],
+                                    "missing_long_beach_runtime_files_count":  0,
+                                    "missing_long_beach_runtime_files":  [
+
+                                                                         ],
+                                    "parity_status":  "LONG_BEACH_FILE_FOOTPRINT_MATCH"
+                                },
+                                {
+                                    "state":  "Florida",
+                                    "city":  "Miami",
+                                    "folder":  "miami",
+                                    "city_path_exists":  true,
+                                    "runtime_path_exists":  true,
+                                    "city_json_count":  4,
+                                    "runtime_json_count":  2,
+                                    "long_beach_city_json_count":  0,
+                                    "long_beach_runtime_json_count":  0,
+                                    "missing_long_beach_city_files_count":  0,
+                                    "missing_long_beach_city_files":  [
+
+                                                                      ],
+                                    "missing_long_beach_runtime_files_count":  0,
+                                    "missing_long_beach_runtime_files":  [
+
+                                                                         ],
+                                    "parity_status":  "LONG_BEACH_FILE_FOOTPRINT_MATCH"
+                                },
+                                {
+                                    "state":  "Tennessee",
+                                    "city":  "Nashville",
+                                    "folder":  "nashville",
+                                    "city_path_exists":  true,
+                                    "runtime_path_exists":  true,
+                                    "city_json_count":  4,
+                                    "runtime_json_count":  2,
+                                    "long_beach_city_json_count":  0,
+                                    "long_beach_runtime_json_count":  0,
+                                    "missing_long_beach_city_files_count":  0,
+                                    "missing_long_beach_city_files":  [
+
+                                                                      ],
+                                    "missing_long_beach_runtime_files_count":  0,
+                                    "missing_long_beach_runtime_files":  [
+
+                                                                         ],
+                                    "parity_status":  "LONG_BEACH_FILE_FOOTPRINT_MATCH"
+                                },
+                                {
+                                    "state":  "New York",
+                                    "city":  "New York City",
+                                    "folder":  "new_york_city",
+                                    "city_path_exists":  true,
+                                    "runtime_path_exists":  true,
+                                    "city_json_count":  4,
+                                    "runtime_json_count":  2,
+                                    "long_beach_city_json_count":  0,
+                                    "long_beach_runtime_json_count":  0,
+                                    "missing_long_beach_city_files_count":  0,
+                                    "missing_long_beach_city_files":  [
+
+                                                                      ],
+                                    "missing_long_beach_runtime_files_count":  0,
+                                    "missing_long_beach_runtime_files":  [
+
+                                                                         ],
+                                    "parity_status":  "LONG_BEACH_FILE_FOOTPRINT_MATCH"
+                                },
+                                {
+                                    "state":  "Washington",
+                                    "city":  "Seattle",
+                                    "folder":  "seattle",
+                                    "city_path_exists":  true,
+                                    "runtime_path_exists":  true,
+                                    "city_json_count":  4,
+                                    "runtime_json_count":  2,
+                                    "long_beach_city_json_count":  0,
+                                    "long_beach_runtime_json_count":  0,
+                                    "missing_long_beach_city_files_count":  0,
+                                    "missing_long_beach_city_files":  [
+
+                                                                      ],
+                                    "missing_long_beach_runtime_files_count":  0,
+                                    "missing_long_beach_runtime_files":  [
+
+                                                                         ],
+                                    "parity_status":  "LONG_BEACH_FILE_FOOTPRINT_MATCH"
+                                }
+                            ],
+    "summary":  {
+                    "checked_cities":  8,
+                    "parity_gaps_detected":  0
+                },
+    "status":  "PASS_ALL_ACTIVE_CITIES_MATCH_LONG_BEACH_FILE_FOOTPRINT"
+}

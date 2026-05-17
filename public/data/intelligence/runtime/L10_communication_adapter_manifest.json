@@ -1,0 +1,12 @@
+﻿{
+  "version": "nexus_L10_communication_adapter_manifest_v1",
+  "generated_at": "2026-05-08T00:00:00.000Z",
+  "layer_id": "L10",
+  "adapters": [
+    { "adapter_id": "PUBLIC_EMAIL_CHANNEL_ADAPTER", "input_type": "HTML_CSV_API", "normalization_registry": "L10_communication_normalization.registry.json" },
+    { "adapter_id": "PUBLIC_PHONE_CHANNEL_ADAPTER", "input_type": "HTML_CSV_API", "normalization_registry": "L10_communication_normalization.registry.json" },
+    { "adapter_id": "CONTACT_FORM_ENDPOINT_ADAPTER", "input_type": "HTML", "normalization_registry": "L10_communication_normalization.registry.json" },
+    { "adapter_id": "SOCIAL_MEDIA_CHANNEL_ADAPTER", "input_type": "HTML_API", "normalization_registry": "L10_communication_normalization.registry.json" },
+    { "adapter_id": "CHANNEL_QUALITY_ADAPTER", "input_type": "MULTI_SIGNAL_INDEX", "normalization_registry": "L10_communication_normalization.registry.json" }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:28.728Z",
+  "layer_id": "L02",
+  "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "GA",
+  "source_type": "STATE_PROCUREMENT",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "State Purchasing",
+        "href": "https://doas.ga.gov/state-purchasing",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Purchasing",
+        "href": "https://doas.ga.gov/state-purchasing/purchasing-education-and-training",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Supplier",
+        "href": "https://doas.ga.gov/state-purchasing/supplier-training",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Go to the Small Business and Supplier Diversity page",
+        "href": "https://doas.ga.gov/state-purchasing/small-business-and-supplier-diversity",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Statewide Contracts",
+        "href": "https://doas.ga.gov/state-purchasing/statewide-contracts",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Team Georgia Marketplace",
+        "href": "https://doas.ga.gov/state-purchasing/team-georgia-marketplace",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Seven Stages of Procurement",
+        "href": "https://doas.ga.gov/state-purchasing/seven-stages-of-procurement",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "Purchasing Education and Training",
+        "href": "https://doas.ga.gov/state-purchasing/purchasing-education-and-training",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "GA@WORK Procurement",
+        "href": "https://doas.ga.gov/state-purchasing/gawork-procurement",
+        "record_type": "state_procurement_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT",
+      "state_abbr": "GA",
+      "source_type": "STATE_PROCUREMENT",
+      "confidence": 0.91,
+      "lineage": {
+        "canonical_url": "https://doas.ga.gov/state-purchasing",
+        "raw_snapshot_hash": "df54c115e99d5b1b10283b44b8538425d21280623ce9c9a195e6cb4672b63f4a",
+        "parser_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_HTML_LINK_PARSER_V1"
+      },
+      "record": {
+        "label": "See All Information for State Entities Procurement Professionals",
+        "href": "https://doas.ga.gov/state-purchasing/information-for-state-entities-procurement-professionals",
+        "record_type": "state_procurement_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_001",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_002",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_003",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_004",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_005",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_006",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_007",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_008",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_009",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SIGNAL_010",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "confidence": 0.91
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_001",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_002",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_003",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_004",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_005",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_006",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_007",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_008",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_009",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "L02_GA_L02_CLASS_004_STATE_PROCUREMENT_SCORE_010",
+      "score_delta": 9,
+      "confidence": 0.91
+    }
+  ],
+  "normalized_snapshot_hash": "8de397d895752389999084214769796faefd10009b7784c65926c7acbd4a8788"
+}

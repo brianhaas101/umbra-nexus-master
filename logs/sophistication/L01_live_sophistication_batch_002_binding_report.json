@@ -1,0 +1,44 @@
+{
+  "version": "nexus_L01_live_sophistication_batch_002_binding_report_v1",
+  "generated_at": "2026-05-08T02:25:17.897Z",
+  "layer_id": "L01",
+  "batch_id": "L01_LIVE_SOPHISTICATION_BATCH_002",
+  "status": "PASS",
+  "results": [
+    {
+      "source_id": "L01_SRC_006_FBI_PUBLIC_DATA",
+      "state": "REFERENCE_READY_REQUIRES_FBI_DATASET_PARSER",
+      "evidence": 1,
+      "signals": 1,
+      "score_components": 1
+    },
+    {
+      "source_id": "L01_SRC_007_DEA_PUBLIC_RELEASES",
+      "state": "REFERENCE_READY_REQUIRES_DEA_RELEASE_PARSER",
+      "evidence": 1,
+      "signals": 1,
+      "score_components": 1
+    },
+    {
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "state": "REFERENCE_READY_REQUIRES_FEMA_GRANT_PAGE_PARSER",
+      "evidence": 1,
+      "signals": 1,
+      "score_components": 1
+    },
+    {
+      "source_id": "L01_SRC_009_FEDERAL_REGISTER",
+      "state": "REFERENCE_READY_REQUIRES_FEDERAL_REGISTER_QUERY_BINDING",
+      "evidence": 1,
+      "signals": 1,
+      "score_components": 1
+    },
+    {
+      "source_id": "L01_SRC_010_BUREAU_OF_JUSTICE_STATISTICS",
+      "state": "REFERENCE_READY_REQUIRES_BJS_DATASET_PARSER",
+      "evidence": 1,
+      "signals": 1,
+      "score_components": 1
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_0a31d438",
+    "name":  "Long Beach, CA",
+    "center_lat":  33.7701,
+    "center_lon":  -118.1937,
+    "bounds":  {
+                   "north":  34.0529,
+                   "south":  33.5102,
+                   "east":  -117.9085,
+                   "west":  -118.4789
+               },
+    "width_m":  53000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_0a31d438/base.png"
+}

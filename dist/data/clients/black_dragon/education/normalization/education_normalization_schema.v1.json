@@ -1,0 +1,43 @@
+{
+  "version": "black_dragon_education_normalization_schema_v1_batch_065",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "required_fields": [
+
+    "organization_name",
+    "organization_type",
+    "entity_class",
+    "region",
+    "country"
+
+  ],
+
+  "optional_fields": [
+
+    "academy_type",
+    "department_name",
+    "program_name",
+    "instructor_name",
+    "course_focus",
+    "website",
+    "contact_email",
+    "contact_phone",
+    "bookstore_present",
+    "bulk_order_capable",
+    "curriculum_adoption_capable",
+    "event_hosting_capable"
+
+  ],
+
+  "classification_rules": {
+
+    "POST": "STATE_POST_ACADEMY",
+    "ACADEMY": "REGIONAL_POLICE_ACADEMY",
+    "CRIMINAL_JUSTICE": "CRIMINAL_JUSTICE_COLLEGE",
+    "INTELLIGENCE": "INTELLIGENCE_ANALYSIS_PROGRAM",
+    "RIDER_EDUCATION": "RIDER_EDUCATION_PROGRAM",
+    "MSF": "MSF_ALIGNED_PROGRAM",
+    "VETERAN": "VETERAN_TRANSITION_PROGRAM"
+
+  }
+}

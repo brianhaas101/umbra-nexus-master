@@ -1,0 +1,17 @@
+{
+  "version": "umbra_batch_049_adaptive_postfx_performance_audit_v1",
+  "generated_at": "2026-05-09T21:18:49.326Z",
+  "module_integrity": {
+    "defines_global": true,
+    "binds_events": true,
+    "disables_postfx_on_interaction": true,
+    "restores_postfx_after_idle": true,
+    "exposes_debug": true,
+    "uses_postfx_api": true
+  },
+  "injection_integrity": {
+    "entrypoints_checked": true,
+    "injected_everywhere": true
+  },
+  "pass": true
+}

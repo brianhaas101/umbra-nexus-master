@@ -1,0 +1,6 @@
+"city","required_layers","verified_layers","missing_layers","saturation_percent","lock_status"
+"Austin","14","9","5","64.29","not_locked"
+"Dallas","14","9","5","64.29","not_locked"
+"El Paso","14","9","5","64.29","not_locked"
+"Fort Worth","14","9","5","64.29","not_locked"
+"Houston","14","9","5","64.29","not_locked"

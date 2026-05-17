@@ -1,0 +1,73 @@
+{
+  "version": "umbra_system_stability_checkpoint_v1",
+  "checkpoint_id": "POST_BLACK_DRAGON_BOOKS_V2_SECURITY_STABILITY_PASS",
+  "generated_at": "2026-05-09T03:18:39.372Z",
+  "pass": true,
+  "locked_systems": {
+    "black_dragon_books_v2_backend": true,
+    "response_ingestion": true,
+    "adaptive_priority": true,
+    "runtime_role_gating": true,
+    "frontend_role_enforcement": true,
+    "session_recovery": true,
+    "dataset_access_guard": true,
+    "export_security_guard": true
+  },
+  "deployment_state": {
+    "controlled_client_pilot_ready": true,
+    "full_enterprise_production_ready": false,
+    "multi_client_ready": false,
+    "requires_ui_dashboard_work": true,
+    "requires_real_response_density": true
+  },
+  "audit_summary": {
+    "runtime_security_integrity": {
+      "founder_role_exists": true,
+      "client_role_exists": true,
+      "strict_client_isolation": true,
+      "cross_client_visibility_forbidden": true,
+      "black_dragon_scope_declared": true
+    },
+    "frontend_integrity": {
+      "frontend_guard_loaded": true,
+      "ui_hook_loaded": true,
+      "client_blocks_founder_admin": true,
+      "client_blocks_exports": true,
+      "ui_hook_uses_mutation_observer": true
+    },
+    "session_integrity": {
+      "session_guard_loaded": true,
+      "safe_client_session_exists": true,
+      "stale_session_rules_exist": true,
+      "client_cannot_restore_founder": true,
+      "client_cannot_restore_global": true
+    },
+    "dataset_export_integrity": {
+      "dataset_guard_loaded": true,
+      "export_guard_loaded": true,
+      "restricted_roots_exist": true,
+      "client_raw_export_blocked": true,
+      "client_global_export_blocked": true,
+      "guarded_fetch_exists": true,
+      "guarded_export_exists": true
+    },
+    "black_dragon_integrity": {
+      "operational_targets_exist": true,
+      "queue_exists": true,
+      "adaptive_priority_exists": true,
+      "client_view_exists": true,
+      "kpi_targets_exist": true,
+      "missing_queue_records_for_targets": 0,
+      "missing_adaptive_records_for_targets": 0,
+      "missing_client_view_records_for_targets": 0,
+      "missing_kpi_records_for_targets": 0
+    },
+    "data_shape_integrity": {
+      "missing_target_entity_ids": 0,
+      "missing_target_scores": 0,
+      "invalid_queue_scores": 0,
+      "invalid_adaptive_scores": 0,
+      "invalid_kpi_revenue": 0
+    }
+  }
+}

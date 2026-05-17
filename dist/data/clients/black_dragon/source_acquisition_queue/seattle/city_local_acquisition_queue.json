@@ -1,0 +1,576 @@
+{
+    "batch":  "259",
+    "version":  "black_dragon_seattle_city_local_acquisition_queue_v1",
+    "generated_at":  "2026-05-12T00:48:13.0851842Z",
+    "city":  "Seattle",
+    "folder":  "seattle",
+    "state":  "Washington",
+    "state_code":  "WA",
+    "city_id":  "city_seattle_wa",
+    "acquisition_lanes":  [
+                              {
+                                  "category":  "city_government_directory",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington city_government_directory public directory",
+                                                              "Seattle WA city_government_directory official",
+                                                              "Seattle city_government_directory open data",
+                                                              "Seattle city_government_directory registry",
+                                                              "Seattle city_government_directory organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "business_registry",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington business_registry public directory",
+                                                              "Seattle WA business_registry official",
+                                                              "Seattle business_registry open data",
+                                                              "Seattle business_registry registry",
+                                                              "Seattle business_registry organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "chamber_of_commerce",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington chamber_of_commerce public directory",
+                                                              "Seattle WA chamber_of_commerce official",
+                                                              "Seattle chamber_of_commerce open data",
+                                                              "Seattle chamber_of_commerce registry",
+                                                              "Seattle chamber_of_commerce organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_media_directory",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington local_media_directory public directory",
+                                                              "Seattle WA local_media_directory official",
+                                                              "Seattle local_media_directory open data",
+                                                              "Seattle local_media_directory registry",
+                                                              "Seattle local_media_directory organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "education_institutions",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington education_institutions public directory",
+                                                              "Seattle WA education_institutions official",
+                                                              "Seattle education_institutions open data",
+                                                              "Seattle education_institutions registry",
+                                                              "Seattle education_institutions organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "community_organizations",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington community_organizations public directory",
+                                                              "Seattle WA community_organizations official",
+                                                              "Seattle community_organizations open data",
+                                                              "Seattle community_organizations registry",
+                                                              "Seattle community_organizations organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "venue_and_events",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington venue_and_events public directory",
+                                                              "Seattle WA venue_and_events official",
+                                                              "Seattle venue_and_events open data",
+                                                              "Seattle venue_and_events registry",
+                                                              "Seattle venue_and_events organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "retail_and_dealers",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington retail_and_dealers public directory",
+                                                              "Seattle WA retail_and_dealers official",
+                                                              "Seattle retail_and_dealers open data",
+                                                              "Seattle retail_and_dealers registry",
+                                                              "Seattle retail_and_dealers organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "clubs_and_associations",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington clubs_and_associations public directory",
+                                                              "Seattle WA clubs_and_associations official",
+                                                              "Seattle clubs_and_associations open data",
+                                                              "Seattle clubs_and_associations registry",
+                                                              "Seattle clubs_and_associations organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "geospatial_open_data",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington geospatial_open_data public directory",
+                                                              "Seattle WA geospatial_open_data official",
+                                                              "Seattle geospatial_open_data open data",
+                                                              "Seattle geospatial_open_data registry",
+                                                              "Seattle geospatial_open_data organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "transit_and_location_data",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington transit_and_location_data public directory",
+                                                              "Seattle WA transit_and_location_data official",
+                                                              "Seattle transit_and_location_data open data",
+                                                              "Seattle transit_and_location_data registry",
+                                                              "Seattle transit_and_location_data organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "public_safety_and_civic_resources",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington public_safety_and_civic_resources public directory",
+                                                              "Seattle WA public_safety_and_civic_resources official",
+                                                              "Seattle public_safety_and_civic_resources open data",
+                                                              "Seattle public_safety_and_civic_resources registry",
+                                                              "Seattle public_safety_and_civic_resources organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "tourism_and_visitor_bureau",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington tourism_and_visitor_bureau public directory",
+                                                              "Seattle WA tourism_and_visitor_bureau official",
+                                                              "Seattle tourism_and_visitor_bureau open data",
+                                                              "Seattle tourism_and_visitor_bureau registry",
+                                                              "Seattle tourism_and_visitor_bureau organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "neighborhood_districts",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington neighborhood_districts public directory",
+                                                              "Seattle WA neighborhood_districts official",
+                                                              "Seattle neighborhood_districts open data",
+                                                              "Seattle neighborhood_districts registry",
+                                                              "Seattle neighborhood_districts organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_nonprofits",
+                                  "city":  "Seattle",
+                                  "folder":  "seattle",
+                                  "state":  "Washington",
+                                  "state_code":  "WA",
+                                  "acquisition_queries":  [
+                                                              "Seattle Washington local_nonprofits public directory",
+                                                              "Seattle WA local_nonprofits official",
+                                                              "Seattle local_nonprofits open data",
+                                                              "Seattle local_nonprofits registry",
+                                                              "Seattle local_nonprofits organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "Seattle",
+                                                              "required_state":  "Washington",
+                                                              "required_state_code":  "WA",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              }
+                          ],
+    "policy":  {
+                   "long_beach_is_benchmark_not_source_donor":  true,
+                   "city_local_provenance_required":  true,
+                   "no_cross_city_contamination":  true,
+                   "no_runtime_promotion":  true,
+                   "no_contact_enablement":  true,
+                   "manual_review_required":  true
+               },
+    "status":  "CITY_LOCAL_ACQUISITION_QUEUE_READY"
+}

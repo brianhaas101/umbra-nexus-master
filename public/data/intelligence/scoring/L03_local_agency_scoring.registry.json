@@ -1,0 +1,34 @@
+{
+  "version": "nexus_L03_local_agency_scoring_registry_v1",
+  "generated_at": "2026-05-06T05:29:00.261Z",
+  "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+  "scoring_outputs": [
+    {
+      "score": "local_operational_pressure_score",
+      "description": "Operational stress and activity at agency level"
+    },
+    {
+      "score": "training_need_score",
+      "description": "Likelihood agency requires training or capability support"
+    },
+    {
+      "score": "local_procurement_readiness",
+      "description": "Likelihood agency can purchase or route procurement"
+    },
+    {
+      "score": "community_visibility_score",
+      "description": "Public/community attention affecting agency"
+    },
+    {
+      "score": "agency_intelligence_confidence_score",
+      "description": "Confidence in local agency intelligence profile"
+    }
+  ],
+  "weighting_rules": {
+    "operational_activity_weight": 0.3,
+    "training_activity_weight": 0.2,
+    "procurement_activity_weight": 0.2,
+    "community_signal_weight": 0.15,
+    "recency_weight": 0.15
+  }
+}

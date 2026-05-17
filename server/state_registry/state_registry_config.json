@@ -1,0 +1,78 @@
+{
+  "module": "state_registry",
+  "version": "1.1.0",
+  "defaultState": "OR",
+
+  "timeoutMs": 12000,
+  "cacheTtlSeconds": 300,
+  "rateLimit": {
+    "enabled": false,
+    "windowMs": 60000,
+    "maxRequestsPerIp": 120
+  },
+
+  "states": {
+    "OR": {
+      "label": "Oregon",
+      "method": "socrata",
+      "notes": "Implemented: Oregon uses Oregon Open Data (Socrata) Active Businesses dataset.",
+      "socrata": {
+        "domain": "data.oregon.gov",
+        "datasetId": "tckn-sxa6",
+        "appToken": ""
+      }
+    },
+
+    "AL": { "label": "Alabama", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "AK": { "label": "Alaska", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "AZ": { "label": "Arizona", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "AR": { "label": "Arkansas", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "CA": { "label": "California", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "CO": { "label": "Colorado", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "CT": { "label": "Connecticut", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "DE": { "label": "Delaware", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "FL": { "label": "Florida", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "GA": { "label": "Georgia", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "HI": { "label": "Hawaii", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "ID": { "label": "Idaho", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "IL": { "label": "Illinois", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "IN": { "label": "Indiana", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "IA": { "label": "Iowa", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "KS": { "label": "Kansas", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "KY": { "label": "Kentucky", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "LA": { "label": "Louisiana", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "ME": { "label": "Maine", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "MD": { "label": "Maryland", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "MA": { "label": "Massachusetts", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "MI": { "label": "Michigan", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "MN": { "label": "Minnesota", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "MS": { "label": "Mississippi", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "MO": { "label": "Missouri", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "MT": { "label": "Montana", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "NE": { "label": "Nebraska", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "NV": { "label": "Nevada", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "NH": { "label": "New Hampshire", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "NJ": { "label": "New Jersey", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "NM": { "label": "New Mexico", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "NY": { "label": "New York", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "NC": { "label": "North Carolina", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "ND": { "label": "North Dakota", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "OH": { "label": "Ohio", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "OK": { "label": "Oklahoma", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "PA": { "label": "Pennsylvania", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "RI": { "label": "Rhode Island", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "SC": { "label": "South Carolina", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "SD": { "label": "South Dakota", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "TN": { "label": "Tennessee", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "TX": { "label": "Texas", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "UT": { "label": "Utah", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "VT": { "label": "Vermont", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "VA": { "label": "Virginia", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "WA": { "label": "Washington", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "WV": { "label": "West Virginia", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "WI": { "label": "Wisconsin", "method": "placeholder", "notes": "TODO: implement adapter" },
+    "WY": { "label": "Wyoming", "method": "placeholder", "notes": "TODO: implement adapter" },
+
+    "DC": { "label": "District of Columbia", "method": "placeholder", "notes": "TODO: implement adapter" }
+  }
+}

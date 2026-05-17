@@ -1,0 +1,24 @@
+ROOT
+├── config
+│   ├── industries
+│   └── sources
+├── data
+│   └── samples
+├── server
+│   ├── connectors
+│   ├── normalize
+│   │   ├── schemas
+│   │   └── maps
+│   │       └── law_enforcement_security
+│   ├── resolve
+│   ├── score
+│   ├── store
+│   ├── pipelines
+│   ├── utils
+│   └── tests
+├── public
+│   └── globe
+│       ├── dossier_templates
+│       ├── integrations
+│       └── debug
+└── scripts

@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:19.768Z",
+  "layer_id": "L02",
+  "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+  "state_abbr": "WA",
+  "state_name": "Washington",
+  "source_type": "POST",
+  "canonical_url": "https://cjtc.wa.gov",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "ACADIS Training Portal",
+        "href": "https://wscjtc.acadisonline.com/acadisviewer/login.aspx",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "About Us",
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Commission Board and Meetings",
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/wscjtc-commission-board-and-meetings",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Media and Public Information",
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/media-and-public-information",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Press Releases",
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/news",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Blog",
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/blog",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Public Records Requests",
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/public-records-requests",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Staff Directory",
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/staff-directory",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Chief for a Day",
+        "href": "https://cjtc.wa.gov/washington-state-criminal-justice-training-commission/chief-day",
+        "record_type": "post_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_001_STATE_POST_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "POST",
+      "captured_at": "2026-05-09T01:31:19.768Z",
+      "confidence": 0.93,
+      "lineage": {
+        "canonical_url": "https://cjtc.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "ad4bb8d2b53afc75a2f707c84506ad3298719eab2a2e3436e4cccb08df99b498",
+        "parser_id": "L02_WA_L02_CLASS_001_STATE_POST_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Training &amp; Education",
+        "href": "https://cjtc.wa.gov/training-education",
+        "record_type": "post_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_001_STATE_POST_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "signal_type": "STATE_POST_AUTHORITY_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_001_STATE_POST_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_001_STATE_POST",
+      "state_abbr": "WA",
+      "source_type": "POST",
+      "score_delta": 9,
+      "confidence": 0.93
+    }
+  ],
+  "normalized_snapshot_hash": "d87e4d38bbfe2f9a0f10b32e02e0429567f0a7f6d35eba3ea54f7bccbe1f6d07"
+}

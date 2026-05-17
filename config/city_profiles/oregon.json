@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Portland",
+    "gis": "https://gis-pdx.opendata.arcgis.com/",
+    "open_data": "https://www.portland.gov/data",
+    "police": "https://www.portland.gov/police",
+    "fire": "https://www.portland.gov/fire",
+    "parks": "https://www.portland.gov/parks",
+    "permits": "https://www.portland.gov/bds",
+    "public_works": "https://www.portland.gov/transportation",
+    "schools": "https://www.pps.net/",
+    "council": "https://www.portland.gov/council"
+  },
+  {
+    "city": "Eugene",
+    "gis": "https://mapping.eugene-or.gov/",
+    "open_data": "https://www.eugene-or.gov/",
+    "police": "https://www.eugene-or.gov/162/Police",
+    "fire": "https://www.eugene-or.gov/122/Fire-and-Emergency-Medical-Services",
+    "parks": "https://www.eugene-or.gov/185/Parks-and-Open-Space",
+    "permits": "https://www.eugene-or.gov/161/Building-and-Permit-Services",
+    "public_works": "https://www.eugene-or.gov/103/Public-Works",
+    "schools": "https://www.4j.lane.edu/",
+    "council": "https://www.eugene-or.gov/537/Mayor-and-City-Council"
+  },
+  {
+    "city": "Salem",
+    "gis": "https://www.cityofsalem.net/community/maps",
+    "open_data": "https://www.cityofsalem.net/",
+    "police": "https://www.cityofsalem.net/community/safety/police",
+    "fire": "https://www.cityofsalem.net/community/safety/fire",
+    "parks": "https://www.cityofsalem.net/community/parks",
+    "permits": "https://www.cityofsalem.net/business/building-and-safety",
+    "public_works": "https://www.cityofsalem.net/government/shaping-salem-s-future/public-works",
+    "schools": "https://salkeiz.k12.or.us/",
+    "council": "https://www.cityofsalem.net/government/city-council-mayor"
+  },
+  {
+    "city": "Gresham",
+    "gis": "https://greshamoregon.gov/GIS/",
+    "open_data": "https://greshamoregon.gov/",
+    "police": "https://greshamoregon.gov/Police-Department/",
+    "fire": "https://greshamoregon.gov/Fire-and-Emergency-Services/",
+    "parks": "https://greshamoregon.gov/Parks/",
+    "permits": "https://greshamoregon.gov/Building-Permits/",
+    "public_works": "https://greshamoregon.gov/Transportation/",
+    "schools": "https://www.gresham.k12.or.us/",
+    "council": "https://greshamoregon.gov/City-Council/"
+  },
+  {
+    "city": "Hillsboro",
+    "gis": "https://www.hillsboro-oregon.gov/our-city/departments/information-services/geographic-information-systems-gis",
+    "open_data": "https://www.hillsboro-oregon.gov/",
+    "police": "https://www.hillsboro-oregon.gov/our-city/departments/police",
+    "fire": "https://www.hillsboro-oregon.gov/our-city/departments/fire-rescue",
+    "parks": "https://www.hillsboro-oregon.gov/our-city/departments/parks-recreation",
+    "permits": "https://www.hillsboro-oregon.gov/our-city/departments/community-development",
+    "public_works": "https://www.hillsboro-oregon.gov/our-city/departments/public-works",
+    "schools": "https://www.hsd.k12.or.us/",
+    "council": "https://www.hillsboro-oregon.gov/our-city/departments/city-manager-s-office/city-council"
+  }
+]

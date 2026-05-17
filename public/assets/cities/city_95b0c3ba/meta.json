@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_95b0c3ba",
+    "name":  "Boston, MA",
+    "center_lat":  42.3601,
+    "center_lon":  -71.0589,
+    "bounds":  {
+                   "north":  42.6429,
+                   "south":  42.1002,
+                   "east":  -70.7737,
+                   "west":  -71.3441
+               },
+    "width_m":  47000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_95b0c3ba/base.png"
+}

@@ -1,0 +1,35 @@
+﻿{
+    "source_id":  "us_marshals_notices",
+    "layer_id":  "L01",
+    "source_name":  "U.S. Marshals News",
+    "canonical_url":  "https://www.usmarshals.gov/news",
+    "authority_type":  "federal_public_source",
+    "access_method":  "html",
+    "refresh_interval":  "daily",
+    "failure_policy":  "fail_closed_no_synthetic_records",
+    "parser_script":  "public/intelligence/layers/L01_federal_intelligence/connectors/us_marshals_notices_connector.js",
+    "normalizer_script":  "public/intelligence/layers/L01_federal_intelligence/normalizers/us_marshals_notices_normalizer.js",
+    "entity_targets":  [
+                           "agency",
+                           "notice",
+                           "enforcement_notice",
+                           "risk_signal"
+                       ],
+    "score_targets":  [
+                          "authority_score",
+                          "federal_relevance_score",
+                          "freshness_score"
+                      ],
+    "dossier_targets":  [
+                            "federal_sources",
+                            "federal_enforcement_context"
+                        ],
+    "authority_weight":  0.9,
+    "status":  "source_page_verified_usms_signals",
+    "connector_active":  true,
+    "normalizer_active":  true,
+    "last_refresh":  "2026-05-14T01:35:50.3439980Z",
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "black_dragon_coupling":  false
+}

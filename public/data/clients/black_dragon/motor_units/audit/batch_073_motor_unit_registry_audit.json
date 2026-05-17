@@ -1,0 +1,31 @@
+{
+  "version": "umbra_batch_073_motor_unit_registry_audit_v1",
+  "generated_at": "2026-05-10T01:00:20.241Z",
+  "registry_integrity": {
+    "source_category_count": 8,
+    "has_police_motor_unit": true,
+    "has_sheriff_motor_division": true,
+    "has_state_police_motor_unit": true,
+    "has_motorcycle_officer_association": true,
+    "has_motor_training_program": true,
+    "has_training_coordinator": true,
+    "has_gang_intelligence_training": true
+  },
+  "normalization_integrity": {
+    "required_fields": true,
+    "optional_fields": true,
+    "classification_rules": true
+  },
+  "scoring_integrity": {
+    "institutional_weights": true,
+    "propagation_multipliers": true,
+    "outreach_safety_locked": true
+  },
+  "audit_rule_integrity": {
+    "minimum_categories": true,
+    "public_source_required": true,
+    "verified_contact_required": true,
+    "no_generated_contacts": true
+  },
+  "pass": true
+}

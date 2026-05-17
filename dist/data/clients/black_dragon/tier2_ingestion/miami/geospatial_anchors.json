@@ -1,0 +1,21 @@
+{
+    "version":  "black_dragon_miami_geospatial_anchor_candidates_v1",
+    "generated_at":  "2026-05-11T06:02:26.2634214Z",
+    "city":  "Miami",
+    "folder":  "miami",
+    "anchors":  [
+                    {
+                        "anchor_id":  "geo_anchor_ec95a85c87614a6cbc11bcbd1c8eeeba",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\miami\\miami_operational_manifest.json",
+                        "city":  "Miami",
+                        "folder":  "miami",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    }
+                ],
+    "status":  "GEOSPATIAL_CANDIDATES_QUARANTINED"
+}

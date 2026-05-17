@@ -1,0 +1,97 @@
+{
+  "version": "black_dragon_southern_california_overlap_confidence_registry_v1",
+  "generated_at": "2026-05-10T22:31:52.291Z",
+  "confidence_records": 5,
+  "confidence": [
+    {
+      "overlap_confidence_id": "BD_SOCAL_OVERLAP_CONF_00001",
+      "federation_overlap_id": "BD_SOCAL_OVERLAP_00001",
+      "normalized_name": "born-free motorcycle show",
+      "participating_cities": [
+        "Long Beach",
+        "San Diego"
+      ],
+      "overlap_count": 2,
+      "city_diversity": 2,
+      "score_spread": 0.25,
+      "confidence_score": 0.983,
+      "confidence_band": "HIGH_CONFIDENCE",
+      "duplicate_inflation_risk": "LOW",
+      "scoring_action": "ALLOW_REGIONAL_BOOST",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "overlap_confidence_id": "BD_SOCAL_OVERLAP_CONF_00002",
+      "federation_overlap_id": "BD_SOCAL_OVERLAP_00002",
+      "normalized_name": "roland sands design",
+      "participating_cities": [
+        "Long Beach",
+        "Los Angeles"
+      ],
+      "overlap_count": 2,
+      "city_diversity": 2,
+      "score_spread": 0.19,
+      "confidence_score": 0.984,
+      "confidence_band": "HIGH_CONFIDENCE",
+      "duplicate_inflation_risk": "LOW",
+      "scoring_action": "ALLOW_REGIONAL_BOOST",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "overlap_confidence_id": "BD_SOCAL_OVERLAP_CONF_00003",
+      "federation_overlap_id": "BD_SOCAL_OVERLAP_00003",
+      "normalized_name": "bike shed moto co los angeles",
+      "participating_cities": [
+        "Long Beach",
+        "Los Angeles"
+      ],
+      "overlap_count": 2,
+      "city_diversity": 2,
+      "score_spread": 0.13,
+      "confidence_score": 0.986,
+      "confidence_band": "HIGH_CONFIDENCE",
+      "duplicate_inflation_risk": "LOW",
+      "scoring_action": "ALLOW_REGIONAL_BOOST",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "overlap_confidence_id": "BD_SOCAL_OVERLAP_CONF_00004",
+      "federation_overlap_id": "BD_SOCAL_OVERLAP_00004",
+      "normalized_name": "law tigers california",
+      "participating_cities": [
+        "Long Beach",
+        "San Diego"
+      ],
+      "overlap_count": 2,
+      "city_diversity": 2,
+      "score_spread": 0.21,
+      "confidence_score": 0.984,
+      "confidence_band": "HIGH_CONFIDENCE",
+      "duplicate_inflation_risk": "LOW",
+      "scoring_action": "ALLOW_REGIONAL_BOOST",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "overlap_confidence_id": "BD_SOCAL_OVERLAP_CONF_00005",
+      "federation_overlap_id": "BD_SOCAL_OVERLAP_00005",
+      "normalized_name": "biltwell inc.",
+      "participating_cities": [
+        "Los Angeles",
+        "San Diego"
+      ],
+      "overlap_count": 2,
+      "city_diversity": 2,
+      "score_spread": 0.27,
+      "confidence_score": 0.982,
+      "confidence_band": "HIGH_CONFIDENCE",
+      "duplicate_inflation_risk": "LOW",
+      "scoring_action": "ALLOW_REGIONAL_BOOST",
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

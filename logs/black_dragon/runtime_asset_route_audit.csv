@@ -1,0 +1,8 @@
+"Path","Status","ContentType","StartsWithHtml","Bytes"
+"/assets/earthatnight2012.png","FAIL","","","0"
+"/assets/earth_day_16k.jpg","FAIL","","","0"
+"/assets/starfield_8k.png","FAIL","","","0"
+"/data/clients/black_dragon/graph/indexes/graph_index.v1.json","200","System.String[]","False","1854541"
+"/data/clients/black_dragon/graph/indexes/propagation_chain_index.v1.json","200","System.String[]","False","6736547"
+"/data/clients/black_dragon/graph/runtime/national_propagation_graph_runtime.v1.json","200","System.String[]","False","15170081"
+"/data/clients/black_dragon/national/map/runtime/national_map_nodes.v1.json","200","System.String[]","False","1909489"

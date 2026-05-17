@@ -1,0 +1,21 @@
+{
+  "version": "nexus_live_raw_snapshot_v1",
+  "captured_at": "2026-05-08T02:43:00.288Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_013_FEDERAL_TRAINING_CENTERS",
+  "connector_id": "L01_LIVE_CONNECTOR_013_L01_SRC_013_FEDERAL_TRAINING_CENTERS",
+  "source_name": "Federal Law Enforcement Training Centers",
+  "acquisition_mode": "public_reference",
+  "endpoint": "MANUAL_REVIEW_REQUIRED",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "body_type": "public_reference",
+    "body": {
+      "source_url": "MANUAL_REVIEW_REQUIRED",
+      "binding_required": "CURATED_TRAINING_CENTER_REVIEW"
+    }
+  },
+  "status": "FETCH_REFERENCE_READY",
+  "source_hash": "ee76f51091f3a1b998c4ecb4b104cd082d0e703131d98e269c8e2bcd55365ff6"
+}

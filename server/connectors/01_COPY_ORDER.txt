@@ -1,0 +1,29 @@
+COPY ORDER
+
+1. Create missing folders:
+   config\industries
+   config\sources
+   data\samples
+   server\pipelines
+   server\utils
+   server\tests
+   public\globe\integrations
+   public\globe\dossier_templates
+   public\globe\debug
+
+2. Copy config files:
+   config\industries\law_enforcement_security.json
+   config\sources\law_enforcement_security_source_registry_seed.json
+
+3. Copy data file:
+   data\samples\law_enforcement_security_sample_dataset.json
+
+4. Copy all packaged server files into matching server subfolders.
+
+5. Copy all packaged public files into matching public/globe subfolders.
+
+6. Copy:
+   scripts\generate_city_pack.py
+
+7. Run:
+   node server\tests\law_enforcement_pipeline_smoke_test.js

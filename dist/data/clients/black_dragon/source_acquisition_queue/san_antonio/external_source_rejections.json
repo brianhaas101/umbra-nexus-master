@@ -1,0 +1,26 @@
+{
+    "batch":  "254",
+    "version":  "black_dragon_san_antonio_external_source_rejections_v1",
+    "generated_at":  "2026-05-11T07:54:42.8429886Z",
+    "city":  "San Antonio",
+    "folder":  "san_antonio",
+    "state":  "Texas",
+    "state_code":  "TX",
+    "city_id":  "city_san_antonio_tx",
+    "rejected_sources":  [
+
+                         ],
+    "rejection_reasons":  [
+                              "NOT_PUBLIC_SOURCE",
+                              "CITY_MISMATCH",
+                              "CATEGORY_MISMATCH",
+                              "ORGANIZATION_IDENTITY_MISSING",
+                              "SOURCE_URL_MISSING",
+                              "PRIVATE_PERSON_TARGET",
+                              "INFERRED_CONTACT_ONLY",
+                              "PLACEHOLDER_OR_SYNTHETIC_RECORD",
+                              "INSUFFICIENT_EVIDENCE_TEXT",
+                              "INVALID_OR_DUPLICATE_SOURCE"
+                          ],
+    "status":  "REJECTION_LOG_READY_EMPTY"
+}

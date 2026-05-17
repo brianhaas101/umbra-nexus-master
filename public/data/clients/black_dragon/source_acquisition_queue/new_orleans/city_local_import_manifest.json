@@ -1,0 +1,638 @@
+{
+    "batch":  "260",
+    "version":  "black_dragon_new_orleans_city_local_import_manifest_v1",
+    "generated_at":  "2026-05-12T00:53:19.1700595Z",
+    "city":  "New Orleans",
+    "folder":  "new_orleans",
+    "state":  "Louisiana",
+    "state_code":  "LA",
+    "city_id":  "city_new_orleans_la",
+    "manifest_items":  [
+                           {
+                               "manifest_item_id":  "city_local_manifest_31782fbd5a3c40e9806ef3a102f1be90",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "city_government_directory",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana city_government_directory public directory",
+                                                           "New Orleans LA city_government_directory official",
+                                                           "New Orleans city_government_directory open data",
+                                                           "New Orleans city_government_directory registry",
+                                                           "New Orleans city_government_directory organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_64c10a201302492aa94846e93e78d018",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "business_registry",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana business_registry public directory",
+                                                           "New Orleans LA business_registry official",
+                                                           "New Orleans business_registry open data",
+                                                           "New Orleans business_registry registry",
+                                                           "New Orleans business_registry organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_f1ea4360d4d54945805d1746a59ca412",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "chamber_of_commerce",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana chamber_of_commerce public directory",
+                                                           "New Orleans LA chamber_of_commerce official",
+                                                           "New Orleans chamber_of_commerce open data",
+                                                           "New Orleans chamber_of_commerce registry",
+                                                           "New Orleans chamber_of_commerce organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_18aa5c89313548a0acc131aa0dae1d8d",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "local_media_directory",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana local_media_directory public directory",
+                                                           "New Orleans LA local_media_directory official",
+                                                           "New Orleans local_media_directory open data",
+                                                           "New Orleans local_media_directory registry",
+                                                           "New Orleans local_media_directory organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_3fdbdd9f81fd406d92cf8a132e46ea58",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "education_institutions",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana education_institutions public directory",
+                                                           "New Orleans LA education_institutions official",
+                                                           "New Orleans education_institutions open data",
+                                                           "New Orleans education_institutions registry",
+                                                           "New Orleans education_institutions organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_7b130b588afc46a58d939c99f51aabdb",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "community_organizations",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana community_organizations public directory",
+                                                           "New Orleans LA community_organizations official",
+                                                           "New Orleans community_organizations open data",
+                                                           "New Orleans community_organizations registry",
+                                                           "New Orleans community_organizations organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_86dcbe76b9a34a3f9464ea07da3a6200",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "venue_and_events",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana venue_and_events public directory",
+                                                           "New Orleans LA venue_and_events official",
+                                                           "New Orleans venue_and_events open data",
+                                                           "New Orleans venue_and_events registry",
+                                                           "New Orleans venue_and_events organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_7d4a956c4bcf4942b9addd117bc238bc",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "retail_and_dealers",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana retail_and_dealers public directory",
+                                                           "New Orleans LA retail_and_dealers official",
+                                                           "New Orleans retail_and_dealers open data",
+                                                           "New Orleans retail_and_dealers registry",
+                                                           "New Orleans retail_and_dealers organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_160cfe8ca1ab4ba0b09c58e0a506a216",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "clubs_and_associations",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana clubs_and_associations public directory",
+                                                           "New Orleans LA clubs_and_associations official",
+                                                           "New Orleans clubs_and_associations open data",
+                                                           "New Orleans clubs_and_associations registry",
+                                                           "New Orleans clubs_and_associations organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_f97f18aad6414a22b6656a99263c5073",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "geospatial_open_data",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana geospatial_open_data public directory",
+                                                           "New Orleans LA geospatial_open_data official",
+                                                           "New Orleans geospatial_open_data open data",
+                                                           "New Orleans geospatial_open_data registry",
+                                                           "New Orleans geospatial_open_data organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_78f262c278c14b0ba2d3c84def29284a",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "transit_and_location_data",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana transit_and_location_data public directory",
+                                                           "New Orleans LA transit_and_location_data official",
+                                                           "New Orleans transit_and_location_data open data",
+                                                           "New Orleans transit_and_location_data registry",
+                                                           "New Orleans transit_and_location_data organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_b8c93af02d674d73a43fb79d455f4605",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "public_safety_and_civic_resources",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana public_safety_and_civic_resources public directory",
+                                                           "New Orleans LA public_safety_and_civic_resources official",
+                                                           "New Orleans public_safety_and_civic_resources open data",
+                                                           "New Orleans public_safety_and_civic_resources registry",
+                                                           "New Orleans public_safety_and_civic_resources organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_355f3da3346b425da3ee5118365aab8e",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "tourism_and_visitor_bureau",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana tourism_and_visitor_bureau public directory",
+                                                           "New Orleans LA tourism_and_visitor_bureau official",
+                                                           "New Orleans tourism_and_visitor_bureau open data",
+                                                           "New Orleans tourism_and_visitor_bureau registry",
+                                                           "New Orleans tourism_and_visitor_bureau organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_006167ba80c444a393dc65542c94f4de",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "neighborhood_districts",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana neighborhood_districts public directory",
+                                                           "New Orleans LA neighborhood_districts official",
+                                                           "New Orleans neighborhood_districts open data",
+                                                           "New Orleans neighborhood_districts registry",
+                                                           "New Orleans neighborhood_districts organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           },
+                           {
+                               "manifest_item_id":  "city_local_manifest_9b0004e8140440858e928045291a3471",
+                               "city":  "New Orleans",
+                               "folder":  "new_orleans",
+                               "state":  "Louisiana",
+                               "state_code":  "LA",
+                               "category":  "local_nonprofits",
+                               "acquisition_queries":  [
+                                                           "New Orleans Louisiana local_nonprofits public directory",
+                                                           "New Orleans LA local_nonprofits official",
+                                                           "New Orleans local_nonprofits open data",
+                                                           "New Orleans local_nonprofits registry",
+                                                           "New Orleans local_nonprofits organizations"
+                                                       ],
+                               "city_local_firewall":  {
+                                                           "required_city":  "New Orleans",
+                                                           "required_state":  "Louisiana",
+                                                           "required_state_code":  "LA",
+                                                           "reject_long_beach_sources":  true,
+                                                           "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                           "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                           "public_source_required":  true,
+                                                           "source_url_required":  true,
+                                                           "evidence_text_required":  true,
+                                                           "manual_review_required":  true
+                                                       },
+                               "acceptance_rules":  {
+                                                        "city_or_service_area_match_required":  true,
+                                                        "category_match_required":  true,
+                                                        "organization_identity_required":  true,
+                                                        "geospatial_hint_preferred":  true,
+                                                        "no_private_person_targets":  true,
+                                                        "no_inferred_contacts":  true,
+                                                        "no_placeholder_entities":  true,
+                                                        "no_synthetic_fillers":  true
+                                                    },
+                               "intake_status":  "READY_FOR_CITY_LOCAL_PUBLIC_SOURCE_COLLECTION",
+                               "reviewed":  false,
+                               "accepted_for_import":  false,
+                               "rejected":  false
+                           }
+                       ],
+    "hardlocks":  {
+                      "long_beach_benchmark_only":  true,
+                      "city_local_sources_only":  true,
+                      "no_cross_city_contamination":  true,
+                      "no_synthetic_fillers":  true,
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "CITY_LOCAL_IMPORT_MANIFEST_READY"
+}

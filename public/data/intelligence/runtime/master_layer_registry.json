@@ -1,0 +1,67 @@
+{
+  "version": "nexus_master_layer_registry_v1",
+  "generated_at": "2026-05-06T07:50:58.383Z",
+  "total_layers": 12,
+  "layers": [
+    {
+      "layer_id": "L01_FEDERAL_INTELLIGENCE",
+      "source_catalog": "public/data/intelligence/sources/L01_FEDERAL_INTELLIGENCE.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L02_STATE_INTELLIGENCE",
+      "source_catalog": "public/data/intelligence/sources/L02_STATE_INTELLIGENCE.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+      "source_catalog": "public/data/intelligence/sources/L03_LOCAL_AGENCY_INTELLIGENCE.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "source_catalog": "public/data/intelligence/sources/L04_TRAINING_INFRASTRUCTURE.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L05_BUDGET_AND_FUNDING",
+      "source_catalog": "public/data/intelligence/sources/L05_BUDGET_AND_FUNDING.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L06_BEHAVIORAL_ACTIVITY",
+      "source_catalog": "public/data/intelligence/sources/L06_BEHAVIORAL_ACTIVITY.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY",
+      "source_catalog": "public/data/intelligence/sources/L07_GEOGRAPHIC_TERRITORY.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L08_COMMAND_STRUCTURE",
+      "source_catalog": "public/data/intelligence/sources/L08_COMMAND_STRUCTURE.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L09_PROCUREMENT_INTELLIGENCE",
+      "source_catalog": "public/data/intelligence/sources/L09_PROCUREMENT_INTELLIGENCE.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+      "source_catalog": "public/data/intelligence/sources/L10_COMMUNICATION_INTELLIGENCE.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L11_INCIDENT_AND_RISK",
+      "source_catalog": "public/data/intelligence/sources/L11_INCIDENT_AND_RISK.sources.json",
+      "production_ready": true
+    },
+    {
+      "layer_id": "L12_ENGAGEMENT_RESPONSE",
+      "source_catalog": "public/data/intelligence/sources/L12_ENGAGEMENT_RESPONSE.sources.json",
+      "production_ready": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_ab77b2a8",
+    "name":  "Portland, OR",
+    "center_lat":  45.5152,
+    "center_lon":  -122.6784,
+    "bounds":  {
+                   "north":  45.798,
+                   "south":  45.2553,
+                   "east":  -122.3932,
+                   "west":  -122.9637
+               },
+    "width_m":  44000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_ab77b2a8/base.png"
+}

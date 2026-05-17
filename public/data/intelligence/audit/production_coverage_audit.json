@@ -1,0 +1,11 @@
+{
+  "version": "nexus_production_coverage_audit_v1",
+  "generated_at": "2026-05-07T03:51:05.231Z",
+  "status": "PASS",
+  "required_files": 4,
+  "missing_files": 0,
+  "missing": [],
+  "high_severity_remaining": 0,
+  "medium_severity_remaining": 7,
+  "low_severity_layers": 5
+}

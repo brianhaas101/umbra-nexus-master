@@ -1,0 +1,35 @@
+{
+  "version": "nexus_live_raw_snapshot_v1",
+  "captured_at": "2026-05-08T03:03:48.166Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_014_TREASURY_CRIME_DATA",
+  "connector_id": "L01_LIVE_CONNECTOR_014_L01_SRC_014_TREASURY_CRIME_DATA",
+  "source_name": "Treasury Financial Crime and Sanctions Data",
+  "acquisition_mode": "public_csv",
+  "endpoint": "https://www.treasury.gov/ofac/downloads/sdn.csv",
+  "request": {
+    "method": "GET",
+    "purpose": "ofac_sdn_sanctions_csv_live_fetch"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "csv",
+    "line_count": 18937,
+    "sample": [
+      "36,\"AEROCARIBBEAN AIRLINES\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ",
+      "173,\"ANGLO-CARIBBEAN CO., LTD.\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ",
+      "306,\"BANCO NACIONAL DE CUBA\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,\"a.k.a. 'BNC'.\"",
+      "424,\"BOUTIQUE LA MAISON\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ",
+      "475,\"CASA DE CUBA\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ",
+      "480,\"CECOEX, S.A.\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ",
+      "535,\"CIMEX\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ",
+      "536,\"CIMEX IBERICA\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ",
+      "537,\"CIMEX, S.A.\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ",
+      "540,\"COMERCIAL IBEROAMERICANA, S.A.\",-0- ,\"CUBA\",-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- ,-0- "
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "source_hash": "7afee25e51016d8cae2d57e7dd5a8d9ef0475562779acfb126ecc774701ef9d0"
+}

@@ -1,0 +1,16 @@
+{
+  "version": "batch_085_access_runtime_injection_report_v1",
+  "generated_at": "2026-05-10T02:14:26.740Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_access_control_runtime": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_access_control_runtime": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Black Dragon Las Vegas Runtime Shell",
+  "type": "object",
+  "required": [
+    "version",
+    "runtime",
+    "ingestion",
+    "hardlocks"
+  ],
+  "properties": {
+    "runtime": {
+      "type": "object",
+      "required": [
+        "runtime_id",
+        "active",
+        "state",
+        "city",
+        "city_scope_only",
+        "statewide_scope_forbidden"
+      ],
+      "properties": {
+        "runtime_id": { "const": "black_dragon_las_vegas_runtime" },
+        "active": { "const": true },
+        "state": { "const": "Nevada" },
+        "city": { "const": "Las Vegas" },
+        "city_scope_only": { "const": true },
+        "statewide_scope_forbidden": { "const": true }
+      }
+    },
+    "hardlocks": {
+      "type": "object",
+      "required": [
+        "no_auto_contact",
+        "no_auto_promotion",
+        "no_runtime_mutation",
+        "quarantine_before_runtime",
+        "manual_review_required_for_contact"
+      ],
+      "properties": {
+        "no_auto_contact": { "const": true },
+        "no_auto_promotion": { "const": true },
+        "no_runtime_mutation": { "const": true },
+        "quarantine_before_runtime": { "const": true },
+        "manual_review_required_for_contact": { "const": true }
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,170 @@
+/* ===============================
+   Umbra Nexus — Core Styling
+   =============================== */
+
+:root {
+  /* ---- COLOR SYSTEM ---- */
+  --color-bg-dark: #02040a;
+  --color-glass: rgba(10, 25, 40, 0.55);
+  --color-edge-light: #00aaff;
+  --color-text-main: #b8d8ff;
+  --color-accent-gold: #d3af5a;
+  --color-heat-core: #ff5200;
+  --color-heat-glow: #ffb347;
+
+  /* ---- LAYOUT ---- */
+  --panel-width: 260px;
+  --footer-height: 36px;
+  --transition-fast: 0.3s ease;
+  --font-main: 'Orbitron', sans-serif;
+}
+
+/* ---- GLOBAL RESET ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--color-text-main);
+  background: var(--color-bg-dark);
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- HEADER ---- */
+#nexus-header {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 5;
+}
+
+#umbra-crest {
+  width: 42px;
+  height: auto;
+  opacity: 0.8;
+  display: block;
+  margin: 0 auto 4px;
+}
+
+#umbra-title {
+  font-size: 0.9rem;
+  color: var(--color-accent-gold);
+  letter-spacing: 0.35em;
+  text-shadow: 0 0 8px rgba(211,175,90,0.4);
+}
+
+/* ---- MAP LAYER ---- */
+#map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#heatmap-canvas {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 50%, #06101e 0%, #01030a 100%);
+}
+
+/* ---- PANELS ---- */
+.glass-panel {
+  position: absolute;
+  top: 80px;
+  width: var(--panel-width);
+  height: calc(100% - var(--footer-height) - 100px);
+  background: var(--color-glass);
+  border: 1px solid rgba(0,170,255,0.2);
+  border-left: none;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 15px rgba(0,170,255,0.05);
+  color: var(--color-text-main);
+  padding: 18px;
+  overflow-y: auto;
+  transition: background var(--transition-fast);
+}
+
+.glass-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--color-edge-light);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+#panel-left {
+  left: 0;
+  border-right: 1px solid rgba(0,170,255,0.15);
+}
+
+#panel-right {
+  right: 0;
+  border-left: 1px solid rgba(0,170,255,0.15);
+}
+
+.glass-panel h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--color-edge-light);
+  margin-bottom: 10px;
+}
+
+.glass-panel ul li {
+  list-style: none;
+  margin: 6px 0;
+  font-size: 0.75rem;
+  opacity: 0.9;
+  transition: opacity var(--transition-fast);
+}
+.glass-panel ul li:hover {
+  opacity: 1;
+  color: var(--color-accent-gold);
+}
+
+/* ---- BOTTOM SYSTEM BAR ---- */
+#system-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--footer-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: rgba(5, 10, 20, 0.6);
+  border-top: 1px solid rgba(0,170,255,0.2);
+  font-size: 0.7rem;
+  color: var(--color-text-main);
+  text-transform: uppercase;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 900px) {
+  :root { --panel-width: 200px; }
+  #umbra-crest { width: 32px; }
+  #umbra-title { font-size: 0.75rem; }
+}
+
+@media (max-width: 600px) {
+  #panel-left, #panel-right {
+    width: 100%;
+    height: auto;
+    position: static;
+    border: none;
+    display: block;
+  }
+  #system-bar {
+    position: fixed;
+  }
+}

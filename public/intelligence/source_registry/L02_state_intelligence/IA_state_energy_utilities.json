@@ -1,0 +1,19 @@
+{
+  "source_id": "state_energy_utilities",
+  "state_code": "IA",
+  "state_name": "Iowa",
+  "category": "state_energy_utilities",
+  "source_url": "https://iuc.iowa.gov/",
+  "status": "source_page_verified_state_energy_utilities_signals",
+  "synthetic_url": false,
+  "inferred_contact": false,
+  "client_paths_touched": false,
+  "layer_id": "L02",
+  "connector_active": true,
+  "normalizer_active": true,
+  "last_verified_at": "2026-05-14T05:50:25.552Z",
+  "last_refresh": "2026-05-14T05:50:25.552Z",
+  "registry_lineage_version": "1.0.0",
+  "provenance_required": true,
+  "replay_hashing_required": true
+}

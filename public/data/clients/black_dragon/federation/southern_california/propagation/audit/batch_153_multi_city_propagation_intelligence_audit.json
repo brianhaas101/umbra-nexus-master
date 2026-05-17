@@ -1,0 +1,40 @@
+{
+  "version": "black_dragon_batch_153_multi_city_propagation_intelligence_audit_v1",
+  "generated_at": "2026-05-10T22:25:56.390Z",
+  "batch": "153_MULTI_CITY_PROPAGATION_INTELLIGENCE",
+  "corridor": "SOUTHERN_CALIFORNIA",
+  "counts": {
+    "propagation_roots": 70,
+    "propagation_chains": 70,
+    "role_records": 88,
+    "client_opportunities": 25,
+    "regional_opportunities": 10,
+    "city_level_opportunities": 15
+  },
+  "role_summary": {
+    "event_roles": 7,
+    "physical_conversion_roles": 9,
+    "trusted_referral_roles": 4,
+    "media_brand_roles": 8,
+    "community_roles": 5
+  },
+  "gates": {
+    "propagation_roots_exist": true,
+    "propagation_chains_exist": true,
+    "role_registry_matches_entities": true,
+    "client_feed_visible": true,
+    "client_opportunities_exist": true,
+    "no_root_auto_outreach": true,
+    "no_chain_auto_outreach": true,
+    "no_feed_auto_contact": true,
+    "no_feed_auto_promotion": true,
+    "no_runtime_mutation": true
+  },
+  "interpretation": {
+    "operational_meaning": "The Southern California corridor now produces client-visible multi-city propagation opportunities.",
+    "sales_meaning": "Black Dragon can prioritize regional manual action across events, dealerships, media, veteran networks, and riding communities.",
+    "safety_meaning": "The system recommends and ranks, but does not auto-contact, auto-promote, or mutate runtime entities."
+  },
+  "next_phase": "BATCH_154_REGIONAL_OVERLAP_SCORING_REFINEMENT",
+  "status": "PASS"
+}

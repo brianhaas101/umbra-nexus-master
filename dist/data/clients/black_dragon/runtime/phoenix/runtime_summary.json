@@ -1,0 +1,33 @@
+{
+    "version":  "black_dragon_phoenix_canonical_runtime_summary_v1",
+    "generated_at":  "2026-05-11T04:20:50.2791423Z",
+    "city":  {
+                 "city":  "Phoenix",
+                 "folder":  "phoenix",
+                 "state":  "Arizona",
+                 "state_code":  "AZ",
+                 "city_id":  "city_phoenix_az"
+             },
+    "canonical_runtime":  {
+                              "tier_1_structural":  true,
+                              "tier_2_intelligence_saturation_pending":  true,
+                              "legacy_assets_preserved":  true,
+                              "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix",
+                              "runtime_shell":  ".\\public\\data\\clients\\black_dragon\\runtime\\phoenix\\runtime_shell.json",
+                              "entities_runtime":  ".\\public\\data\\clients\\black_dragon\\runtime\\phoenix\\entities_runtime.json"
+                          },
+    "long_beach_equivalent_roles":  {
+                                        "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\audit\\batch_158_phoenix_template_initialization_audit.json",
+                                        "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\dossiers\\phoenix_runtime_dossiers.json",
+                                        "runtime_summary":  null,
+                                        "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\map_nodes\\phoenix_runtime_map_nodes.json",
+                                        "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\phoenix\\merged\\phoenix_merged_city_entities.json",
+                                        "relationship_graph":  ".\\public\\data\\clients\\black_dragon\\runtime\\phoenix\\relationship_graph.json"
+                                    },
+    "controls":  {
+                     "contact_allowed":  false,
+                     "runtime_mutation_allowed":  false,
+                     "outbound_authority":  "DISABLED",
+                     "manual_review_required":  true
+                 }
+}

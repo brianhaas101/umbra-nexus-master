@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Albuquerque",
+    "gis": "https://www.cabq.gov/gis",
+    "open_data": "https://data.cabq.gov/",
+    "police": "https://www.cabq.gov/police",
+    "fire": "https://www.cabq.gov/fire",
+    "parks": "https://www.cabq.gov/parksandrecreation",
+    "permits": "https://www.cabq.gov/planning",
+    "public_works": "https://www.cabq.gov/municipaldevelopment",
+    "schools": "https://www.aps.edu/",
+    "council": "https://www.cabq.gov/council"
+  },
+  {
+    "city": "Las Cruces",
+    "gis": "https://www.lascruces.gov/168/GIS",
+    "open_data": "https://www.lascruces.gov/",
+    "police": "https://www.lascruces.gov/163/Police",
+    "fire": "https://www.lascruces.gov/166/Fire",
+    "parks": "https://www.lascruces.gov/178/Parks-Recreation",
+    "permits": "https://www.lascruces.gov/157/Community-Development",
+    "public_works": "https://www.lascruces.gov/186/Public-Works",
+    "schools": "https://www.lcps.net/",
+    "council": "https://www.lascruces.gov/148/City-Council"
+  },
+  {
+    "city": "Rio Rancho",
+    "gis": "https://rrnm.gov/161/GIS",
+    "open_data": "https://rrnm.gov/",
+    "police": "https://rrnm.gov/17/Police",
+    "fire": "https://rrnm.gov/18/Fire-Rescue",
+    "parks": "https://rrnm.gov/127/Parks-Recreation",
+    "permits": "https://rrnm.gov/166/Development-Services",
+    "public_works": "https://rrnm.gov/19/Public-Works",
+    "schools": "https://www.rrps.net/",
+    "council": "https://rrnm.gov/27/Governing-Body"
+  },
+  {
+    "city": "Santa Fe",
+    "gis": "https://santafenm.gov/information-technology/gis",
+    "open_data": "https://santafenm.gov/",
+    "police": "https://santafenm.gov/police",
+    "fire": "https://santafenm.gov/fire",
+    "parks": "https://santafenm.gov/parks-and-open-space",
+    "permits": "https://santafenm.gov/planning-and-land-use",
+    "public_works": "https://santafenm.gov/public-works",
+    "schools": "https://www.sfps.info/",
+    "council": "https://santafenm.gov/governing-body"
+  },
+  {
+    "city": "Roswell",
+    "gis": "https://www.roswell-nm.gov/287/GIS",
+    "open_data": "https://www.roswell-nm.gov/",
+    "police": "https://www.roswell-nm.gov/199/Police",
+    "fire": "https://www.roswell-nm.gov/170/Fire",
+    "parks": "https://www.roswell-nm.gov/181/Parks-Recreation",
+    "permits": "https://www.roswell-nm.gov/167/Community-Development",
+    "public_works": "https://www.roswell-nm.gov/203/Public-Works",
+    "schools": "https://www.risd.k12.nm.us/",
+    "council": "https://www.roswell-nm.gov/204/City-Council"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "notes": "Config for Umbra Nexus federal/business intel sources. All functions are placeholders until real APIs or data feeds are integrated.",
+  "sources": {
+    "sec_edgar": {
+      "enabled": false,
+      "description": "SEC EDGAR filings (10-K, 10-Q, etc.) for public companies."
+    },
+    "irs_nonprofits": {
+      "enabled": false,
+      "description": "IRS tax-exempt organization listings."
+    },
+    "usa_spending": {
+      "enabled": false,
+      "description": "USAspending / FPDS – federal contracts and awards."
+    },
+    "sam_gov": {
+      "enabled": false,
+      "description": "SAM.gov entity registration for federal contracting."
+    },
+    "sba": {
+      "enabled": false,
+      "description": "SBA loan / program data where publicly available."
+    },
+    "cfpb_complaints": {
+      "enabled": false,
+      "description": "CFPB consumer complaint data."
+    },
+    "osha": {
+      "enabled": false,
+      "description": "OSHA workplace safety inspections / violations."
+    },
+    "epa": {
+      "enabled": false,
+      "description": "EPA environmental enforcement actions."
+    },
+    "dot_fmcsa": {
+      "enabled": false,
+      "description": "DOT / FMCSA safety and compliance for carriers."
+    },
+    "nhtsa": {
+      "enabled": false,
+      "description": "NHTSA recall / defect data for vehicles."
+    },
+    "uspto_patents": {
+      "enabled": false,
+      "description": "USPTO patent filings."
+    },
+    "uspto_trademarks": {
+      "enabled": false,
+      "description": "USPTO trademark registrations."
+    }
+  }
+}

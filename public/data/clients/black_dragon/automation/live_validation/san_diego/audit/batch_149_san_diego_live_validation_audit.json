@@ -1,0 +1,27 @@
+{
+  "version": "black_dragon_batch_149_san_diego_live_validation_audit_v1",
+  "generated_at": "2026-05-10T22:03:18.022Z",
+  "batch": "149_SAN_DIEGO_LIVE_VALIDATION",
+  "counts": {
+    "validation_targets": 10,
+    "validation_results": 10,
+    "valid_routes": 9,
+    "review_routes": 1,
+    "freshness_records": 10,
+    "dead_route_review_items": 1,
+    "contact_review_records": 10,
+    "contact_ready_candidates": 9
+  },
+  "gates": {
+    "validation_targets_exist": true,
+    "validation_results_match_targets": true,
+    "freshness_records_match_results": true,
+    "contact_review_matches_runtime": true,
+    "no_contact_ready_promotion": true,
+    "no_automated_outreach": true,
+    "no_runtime_mutation": true,
+    "no_automatic_delete": true
+  },
+  "next_phase": "BATCH_150_SAN_DIEGO_UI_AND_PRODUCTION_AUDIT",
+  "status": "PASS"
+}

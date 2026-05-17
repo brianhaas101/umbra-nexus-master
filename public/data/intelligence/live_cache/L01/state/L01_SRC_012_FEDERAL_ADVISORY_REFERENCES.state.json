@@ -1,0 +1,22 @@
+{
+  "version": "nexus_live_connector_state_v1",
+  "generated_at": "2026-05-08T02:43:00.288Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_012_FEDERAL_ADVISORY_REFERENCES",
+  "connector_id": "L01_LIVE_CONNECTOR_012_L01_SRC_012_FEDERAL_ADVISORY_REFERENCES",
+  "source_name": "Federal Advisory and Public Safety References",
+  "status": "MANUAL_REVIEW_REQUIRED",
+  "last_attempt_at": "2026-05-08T02:43:00.288Z",
+  "last_success_at": "2026-05-08T02:43:00.288Z",
+  "last_failure_at": null,
+  "failure_count": 0,
+  "last_error": null,
+  "raw_snapshot_exists": true,
+  "normalized_snapshot_exists": true,
+  "lineage_complete": true,
+  "deterministic_replay_ready": true,
+  "raw_snapshot_hash": "d9382928dea573c170e4e4ca91359aa430f750982efa7a1855482d8b48f7d13b",
+  "normalized_snapshot_hash": "0a63c8ca350074bfd882aa2780b69eee55d79ec7d0ca371a13e04bbc1c96d5ed",
+  "live_record_count": 1,
+  "binding_required": "CURATED_MANUAL_SOURCE_REVIEW"
+}

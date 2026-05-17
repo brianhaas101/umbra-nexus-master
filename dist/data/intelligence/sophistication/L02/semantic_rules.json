@@ -1,0 +1,77 @@
+{
+  "version": "nexus_L02_semantic_rules_v1",
+  "generated_at": "2026-05-09T01:07:16.230Z",
+  "layer_id": "L02",
+  "rules": [
+    {
+      "class_id": "L02_CLASS_001_STATE_POST",
+      "normalizer_id": "L02_SEMANTIC_L02_CLASS_001_STATE_POST",
+      "entity_terms": [
+        "state_agency",
+        "training",
+        "certification",
+        "grant",
+        "procurement",
+        "public_safety",
+        "law_enforcement"
+      ],
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_002_STATE_DOJ",
+      "normalizer_id": "L02_SEMANTIC_L02_CLASS_002_STATE_DOJ",
+      "entity_terms": [
+        "state_agency",
+        "training",
+        "certification",
+        "grant",
+        "procurement",
+        "public_safety",
+        "law_enforcement"
+      ],
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_003_STATE_GRANTS",
+      "normalizer_id": "L02_SEMANTIC_L02_CLASS_003_STATE_GRANTS",
+      "entity_terms": [
+        "state_agency",
+        "training",
+        "certification",
+        "grant",
+        "procurement",
+        "public_safety",
+        "law_enforcement"
+      ],
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_004_STATE_PROCUREMENT",
+      "normalizer_id": "L02_SEMANTIC_L02_CLASS_004_STATE_PROCUREMENT",
+      "entity_terms": [
+        "state_agency",
+        "training",
+        "certification",
+        "grant",
+        "procurement",
+        "public_safety",
+        "law_enforcement"
+      ],
+      "status": "REGISTERED"
+    },
+    {
+      "class_id": "L02_CLASS_005_STATE_ACADEMY",
+      "normalizer_id": "L02_SEMANTIC_L02_CLASS_005_STATE_ACADEMY",
+      "entity_terms": [
+        "state_agency",
+        "training",
+        "certification",
+        "grant",
+        "procurement",
+        "public_safety",
+        "law_enforcement"
+      ],
+      "status": "REGISTERED"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "macro": [
+    {
+      "id": "pnw_corridor",
+      "name": "Pacific Northwest Corridor",
+      "lat": 45.5,
+      "lon": -122.5,
+      "region": "Pacific Northwest",
+      "summary": "High truck/SUV density, constant rain, moss and road grime. Ideal proving ground for coatings and maintenance plans.",
+      "mainCities": ["Seattle", "Portland", "Eugene"],
+      "notes": "Use this macro band to judge expansion pacing from Eugene northward. Watch intercity logistics and seasonal weather swings.",
+      "nodes": 0,
+      "vectors": "Macro · Wet Climate · High SUV Density"
+    }
+  ],
+  "meso": [
+    {
+      "id": "willamette_south",
+      "name": "Southern Willamette Sector",
+      "lat": 44.05,
+      "lon": -123.10,
+      "region": "Oregon – Willamette Valley",
+      "summary": "Core testbed sector centered on Eugene; mix of urban, auto, and residential work.",
+      "mainCities": ["Eugene", "Springfield", "Junction City"],
+      "notes": "Primary Nexus sandbox. Use for early pricing, routing, and package calibration before cloning to other metros.",
+      "nodes": 3,
+      "vectors": "Tier A · Anchor Sandbox"
+    },
+    {
+      "id": "mid_willamette",
+      "name": "Mid-Willamette Sector",
+      "lat": 44.63,
+      "lon": -123.10,
+      "region": "Oregon – Willamette Valley",
+      "summary": "Corvallis / Albany corridor anchored by OSU and bedroom communities.",
+      "mainCities": ["Corvallis", "Albany", "Lebanon"],
+      "notes": "Second-wave expansion zone; focus on commuter fleets and university-adjacent housing.",
+      "nodes": 2,
+      "vectors": "Tier B · Secondary Launch"
+    }
+  ]
+}

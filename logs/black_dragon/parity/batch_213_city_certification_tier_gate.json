@@ -1,0 +1,243 @@
+{
+    "batch":  "213",
+    "version":  "black_dragon_city_certification_tier_gate_v1",
+    "generated_at":  "2026-05-11T03:31:08.2824922Z",
+    "certification_model":  {
+                                "tier_1_structural_parity":  {
+                                                                 "description":  "City has Long Beach runtime-role architecture, schema/governance artifacts, hardlocks, runtime shell, manifest, dossier, audit, and JSON validity.",
+                                                                 "activation_allowed":  true,
+                                                                 "contact_allowed":  false,
+                                                                 "runtime_mutation_allowed":  false
+                                                             },
+                                "tier_2_intelligence_saturation":  {
+                                                                       "description":  "City meets or exceeds Long Beach intelligence density across organization nodes, relationship/rank signals, and populated entity graph depth.",
+                                                                       "activation_allowed":  true,
+                                                                       "contact_allowed":  false,
+                                                                       "runtime_mutation_allowed":  false,
+                                                                       "required_before_claiming_full_long_beach_equivalence":  true
+                                                                   }
+                            },
+    "cities":  [
+                   {
+                       "state":  "Nevada",
+                       "city":  "Las Vegas",
+                       "folder":  "las_vegas",
+                       "metrics":  {
+                                       "json_files":  21,
+                                       "combined_byte_size":  54183,
+                                       "entity_count":  0,
+                                       "organization_name_hits":  0,
+                                       "source_hits":  0,
+                                       "relationship_hits":  0,
+                                       "rank_hits":  24
+                                   },
+                       "relative_to_long_beach":  {
+                                                      "byte_size_vs_long_beach":  0.2201,
+                                                      "org_hits_vs_long_beach":  0,
+                                                      "source_hits_vs_long_beach":  0,
+                                                      "relationship_hits_vs_long_beach":  0,
+                                                      "rank_hits_vs_long_beach":  0.0216
+                                                  },
+                       "tier_status":  {
+                                           "tier_1_structural_certified":  true,
+                                           "tier_2_intelligence_saturated":  false,
+                                           "certification_level":  "TIER_1_STRUCTURAL_PARITY_ONLY"
+                                       }
+                   },
+                   {
+                       "state":  "Georgia",
+                       "city":  "Atlanta",
+                       "folder":  "atlanta",
+                       "metrics":  {
+                                       "json_files":  12,
+                                       "combined_byte_size":  18107,
+                                       "entity_count":  0,
+                                       "organization_name_hits":  0,
+                                       "source_hits":  0,
+                                       "relationship_hits":  0,
+                                       "rank_hits":  4
+                                   },
+                       "relative_to_long_beach":  {
+                                                      "byte_size_vs_long_beach":  0.0736,
+                                                      "org_hits_vs_long_beach":  0,
+                                                      "source_hits_vs_long_beach":  0,
+                                                      "relationship_hits_vs_long_beach":  0,
+                                                      "rank_hits_vs_long_beach":  0.0036
+                                                  },
+                       "tier_status":  {
+                                           "tier_1_structural_certified":  true,
+                                           "tier_2_intelligence_saturated":  false,
+                                           "certification_level":  "TIER_1_STRUCTURAL_PARITY_ONLY"
+                                       }
+                   },
+                   {
+                       "state":  "Texas",
+                       "city":  "Houston",
+                       "folder":  "houston",
+                       "metrics":  {
+                                       "json_files":  11,
+                                       "combined_byte_size":  18292,
+                                       "entity_count":  0,
+                                       "organization_name_hits":  0,
+                                       "source_hits":  0,
+                                       "relationship_hits":  0,
+                                       "rank_hits":  3
+                                   },
+                       "relative_to_long_beach":  {
+                                                      "byte_size_vs_long_beach":  0.0743,
+                                                      "org_hits_vs_long_beach":  0,
+                                                      "source_hits_vs_long_beach":  0,
+                                                      "relationship_hits_vs_long_beach":  0,
+                                                      "rank_hits_vs_long_beach":  0.0027
+                                                  },
+                       "tier_status":  {
+                                           "tier_1_structural_certified":  true,
+                                           "tier_2_intelligence_saturated":  false,
+                                           "certification_level":  "TIER_1_STRUCTURAL_PARITY_ONLY"
+                                       }
+                   },
+                   {
+                       "state":  "Louisiana",
+                       "city":  "New Orleans",
+                       "folder":  "new_orleans",
+                       "metrics":  {
+                                       "json_files":  12,
+                                       "combined_byte_size":  15654,
+                                       "entity_count":  0,
+                                       "organization_name_hits":  0,
+                                       "source_hits":  0,
+                                       "relationship_hits":  0,
+                                       "rank_hits":  1
+                                   },
+                       "relative_to_long_beach":  {
+                                                      "byte_size_vs_long_beach":  0.0636,
+                                                      "org_hits_vs_long_beach":  0,
+                                                      "source_hits_vs_long_beach":  0,
+                                                      "relationship_hits_vs_long_beach":  0,
+                                                      "rank_hits_vs_long_beach":  0.0009
+                                                  },
+                       "tier_status":  {
+                                           "tier_1_structural_certified":  true,
+                                           "tier_2_intelligence_saturated":  false,
+                                           "certification_level":  "TIER_1_STRUCTURAL_PARITY_ONLY"
+                                       }
+                   },
+                   {
+                       "state":  "Florida",
+                       "city":  "Miami",
+                       "folder":  "miami",
+                       "metrics":  {
+                                       "json_files":  11,
+                                       "combined_byte_size":  11458,
+                                       "entity_count":  0,
+                                       "organization_name_hits":  0,
+                                       "source_hits":  0,
+                                       "relationship_hits":  0,
+                                       "rank_hits":  0
+                                   },
+                       "relative_to_long_beach":  {
+                                                      "byte_size_vs_long_beach":  0.0465,
+                                                      "org_hits_vs_long_beach":  0,
+                                                      "source_hits_vs_long_beach":  0,
+                                                      "relationship_hits_vs_long_beach":  0,
+                                                      "rank_hits_vs_long_beach":  0
+                                                  },
+                       "tier_status":  {
+                                           "tier_1_structural_certified":  true,
+                                           "tier_2_intelligence_saturated":  false,
+                                           "certification_level":  "TIER_1_STRUCTURAL_PARITY_ONLY"
+                                       }
+                   },
+                   {
+                       "state":  "Tennessee",
+                       "city":  "Nashville",
+                       "folder":  "nashville",
+                       "metrics":  {
+                                       "json_files":  11,
+                                       "combined_byte_size":  11600,
+                                       "entity_count":  0,
+                                       "organization_name_hits":  0,
+                                       "source_hits":  0,
+                                       "relationship_hits":  0,
+                                       "rank_hits":  0
+                                   },
+                       "relative_to_long_beach":  {
+                                                      "byte_size_vs_long_beach":  0.0471,
+                                                      "org_hits_vs_long_beach":  0,
+                                                      "source_hits_vs_long_beach":  0,
+                                                      "relationship_hits_vs_long_beach":  0,
+                                                      "rank_hits_vs_long_beach":  0
+                                                  },
+                       "tier_status":  {
+                                           "tier_1_structural_certified":  true,
+                                           "tier_2_intelligence_saturated":  false,
+                                           "certification_level":  "TIER_1_STRUCTURAL_PARITY_ONLY"
+                                       }
+                   },
+                   {
+                       "state":  "New York",
+                       "city":  "New York City",
+                       "folder":  "new_york_city",
+                       "metrics":  {
+                                       "json_files":  11,
+                                       "combined_byte_size":  11652,
+                                       "entity_count":  0,
+                                       "organization_name_hits":  0,
+                                       "source_hits":  0,
+                                       "relationship_hits":  0,
+                                       "rank_hits":  0
+                                   },
+                       "relative_to_long_beach":  {
+                                                      "byte_size_vs_long_beach":  0.0473,
+                                                      "org_hits_vs_long_beach":  0,
+                                                      "source_hits_vs_long_beach":  0,
+                                                      "relationship_hits_vs_long_beach":  0,
+                                                      "rank_hits_vs_long_beach":  0
+                                                  },
+                       "tier_status":  {
+                                           "tier_1_structural_certified":  true,
+                                           "tier_2_intelligence_saturated":  false,
+                                           "certification_level":  "TIER_1_STRUCTURAL_PARITY_ONLY"
+                                       }
+                   },
+                   {
+                       "state":  "Washington",
+                       "city":  "Seattle",
+                       "folder":  "seattle",
+                       "metrics":  {
+                                       "json_files":  11,
+                                       "combined_byte_size":  11583,
+                                       "entity_count":  0,
+                                       "organization_name_hits":  0,
+                                       "source_hits":  0,
+                                       "relationship_hits":  0,
+                                       "rank_hits":  0
+                                   },
+                       "relative_to_long_beach":  {
+                                                      "byte_size_vs_long_beach":  0.0471,
+                                                      "org_hits_vs_long_beach":  0,
+                                                      "source_hits_vs_long_beach":  0,
+                                                      "relationship_hits_vs_long_beach":  0,
+                                                      "rank_hits_vs_long_beach":  0
+                                                  },
+                       "tier_status":  {
+                                           "tier_1_structural_certified":  true,
+                                           "tier_2_intelligence_saturated":  false,
+                                           "certification_level":  "TIER_1_STRUCTURAL_PARITY_ONLY"
+                                       }
+                   }
+               ],
+    "global_status":  {
+                          "all_active_cities_tier_1_structural":  true,
+                          "all_active_cities_tier_2_intelligence_saturated":  false,
+                          "current_safe_claim":  "ACTIVE_CITIES_HAVE_LONG_BEACH_STRUCTURAL_AND_SEMANTIC ROLE PARITY; INTELLIGENCE-DENSITY PARITY IS NOT COMPLETE."
+                      },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "PASS_TIER_1_LOCKED_TIER_2_GAPS_TRACKED"
+}

@@ -1,0 +1,517 @@
+{
+  "version": "black_dragon_target_expansion_priority_plan_v1",
+  "generated_at": "2026-05-10T18:30:19.253Z",
+  "total_priority_items": 51,
+  "priority_plan": [
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00004",
+      "city": "Bakersfield",
+      "state": "CA",
+      "current_clean_seed_count": 1,
+      "expansion_gap": 19,
+      "priority": "HIGH",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00006",
+      "city": "Long Beach",
+      "state": "CA",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00012",
+      "city": "San Jose",
+      "state": "CA",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00013",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00015",
+      "city": "Washington",
+      "state": "DC",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00018",
+      "city": "Tampa",
+      "state": "FL",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00019",
+      "city": "Atlanta",
+      "state": "GA",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00020",
+      "city": "Chicago",
+      "state": "IL",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00022",
+      "city": "Louisville",
+      "state": "KY",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00023",
+      "city": "New Orleans",
+      "state": "LA",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00024",
+      "city": "Boston",
+      "state": "MA",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00025",
+      "city": "Baltimore",
+      "state": "MD",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00026",
+      "city": "Detroit",
+      "state": "MI",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00027",
+      "city": "Minneapolis",
+      "state": "MN",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00028",
+      "city": "Kansas City",
+      "state": "MO",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00029",
+      "city": "Charlotte",
+      "state": "NC",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00030",
+      "city": "Raleigh",
+      "state": "NC",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00031",
+      "city": "Omaha",
+      "state": "NE",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00035",
+      "city": "Columbus",
+      "state": "OH",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00036",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00037",
+      "city": "Tulsa",
+      "state": "OK",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00040",
+      "city": "Memphis",
+      "state": "TN",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00049",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00050",
+      "city": "Seattle",
+      "state": "WA",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00051",
+      "city": "Milwaukee",
+      "state": "WI",
+      "current_clean_seed_count": 10,
+      "expansion_gap": 10,
+      "priority": "MEDIUM",
+      "recommended_first_pass_target_count": 10,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00001",
+      "city": "Mesa",
+      "state": "AZ",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00008",
+      "city": "Oakland",
+      "state": "CA",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00014",
+      "city": "Denver",
+      "state": "CO",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00021",
+      "city": "Indianapolis",
+      "state": "IN",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00032",
+      "city": "Albuquerque",
+      "state": "NM",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00033",
+      "city": "Las Vegas",
+      "state": "NV",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00038",
+      "city": "Portland",
+      "state": "OR",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00039",
+      "city": "Philadelphia",
+      "state": "PA",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00041",
+      "city": "Nashville",
+      "state": "TN",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00042",
+      "city": "Arlington",
+      "state": "TX",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00046",
+      "city": "Fort Worth",
+      "state": "TX",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00048",
+      "city": "San Antonio",
+      "state": "TX",
+      "current_clean_seed_count": 11,
+      "expansion_gap": 9,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 9,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00003",
+      "city": "Tucson",
+      "state": "AZ",
+      "current_clean_seed_count": 12,
+      "expansion_gap": 8,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 8,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00005",
+      "city": "Fresno",
+      "state": "CA",
+      "current_clean_seed_count": 12,
+      "expansion_gap": 8,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 8,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00002",
+      "city": "Phoenix",
+      "state": "AZ",
+      "current_clean_seed_count": 13,
+      "expansion_gap": 7,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 7,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00009",
+      "city": "Sacramento",
+      "state": "CA",
+      "current_clean_seed_count": 13,
+      "expansion_gap": 7,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 7,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00016",
+      "city": "Jacksonville",
+      "state": "FL",
+      "current_clean_seed_count": 13,
+      "expansion_gap": 7,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 7,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00043",
+      "city": "Austin",
+      "state": "TX",
+      "current_clean_seed_count": 13,
+      "expansion_gap": 7,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 7,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00010",
+      "city": "San Diego",
+      "state": "CA",
+      "current_clean_seed_count": 15,
+      "expansion_gap": 5,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 5,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00034",
+      "city": "New York",
+      "state": "NY",
+      "current_clean_seed_count": 15,
+      "expansion_gap": 5,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 5,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00045",
+      "city": "El Paso",
+      "state": "TX",
+      "current_clean_seed_count": 15,
+      "expansion_gap": 5,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 5,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00011",
+      "city": "San Francisco",
+      "state": "CA",
+      "current_clean_seed_count": 16,
+      "expansion_gap": 4,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 4,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00044",
+      "city": "Dallas",
+      "state": "TX",
+      "current_clean_seed_count": 16,
+      "expansion_gap": 4,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 4,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00047",
+      "city": "Houston",
+      "state": "TX",
+      "current_clean_seed_count": 16,
+      "expansion_gap": 4,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 4,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00007",
+      "city": "Los Angeles",
+      "state": "CA",
+      "current_clean_seed_count": 17,
+      "expansion_gap": 3,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 3,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    },
+    {
+      "expansion_work_id": "BD_EXPANSION_WORK_00017",
+      "city": "Miami",
+      "state": "FL",
+      "current_clean_seed_count": 18,
+      "expansion_gap": 2,
+      "priority": "LOW",
+      "recommended_first_pass_target_count": 2,
+      "expansion_instruction": "Resolve official public organizations first; do not add runtime visibility until source validation passes."
+    }
+  ]
+}

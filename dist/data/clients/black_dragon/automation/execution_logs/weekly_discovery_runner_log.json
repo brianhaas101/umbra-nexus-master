@@ -1,0 +1,19 @@
+{
+  "version": "black_dragon_weekly_discovery_runner_stub_v1",
+  "generated_at": "2026-05-10T19:56:24.333Z",
+  "runner_id": "BD_RUNNER_WEEKLY_DISCOVERY",
+  "city": "Long Beach",
+  "state": "CA",
+  "schedule_enabled": true,
+  "discovery_engine_enabled": true,
+  "execution_mode": "STUB_SIMULATION_ONLY",
+  "candidates_detected": 5,
+  "runtime_promotion_performed": false,
+  "automated_contact_performed": false,
+  "output_state": "DISCOVERY_CANDIDATES_QUEUED_ONLY",
+  "hardlocks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "candidate_queue_only": true
+  }
+}

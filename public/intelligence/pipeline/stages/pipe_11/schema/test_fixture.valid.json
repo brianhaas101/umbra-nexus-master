@@ -1,0 +1,58 @@
+﻿{
+    "record_id":  "l01_example",
+    "entity_key":  "example_entity_llc",
+    "city_key":  "example_city",
+    "composite_score":  88,
+    "composite_class":  "high_confidence_operational_signal",
+    "layers":  {
+                   "layer_03":  {
+                                    "authority_score":  90,
+                                    "authority_class":  "primary_authority",
+                                    "authority_reasons":  [
+                                                              "government_domain",
+                                                              "public_source_type"
+                                                          ]
+                                },
+                   "layer_04":  {
+                                    "relevance_score":  82,
+                                    "relevance_class":  "high_operational_relevance",
+                                    "relevance_reasons":  [
+                                                              "economic_terms:development",
+                                                              "city_local_primary_bonus"
+                                                          ]
+                                },
+                   "layer_06":  {
+                                    "geo_score":  85,
+                                    "geo_status":  "geo_coherent_explicit_city",
+                                    "geo_reasons":  [
+                                                        "explicit_city_present"
+                                                    ]
+                                },
+                   "layer_07":  {
+                                    "freshness_score":  100,
+                                    "freshness_class":  "current_30_days",
+                                    "freshness_reasons":  [
+                                                              "age_days:0"
+                                                          ]
+                                },
+                   "layer_08":  {
+                                    "corroboration_score":  88,
+                                    "corroboration_class":  "strong_multi_source_corroboration",
+                                    "corroboration_reasons":  [
+                                                                  "unique_source_urls:2"
+                                                              ]
+                                },
+                   "layer_09":  {
+                                    "penalty_score":  0,
+                                    "penalty_class":  "no_material_penalty",
+                                    "penalty_reasons":  [
+
+                                                        ]
+                                },
+                   "layer_10":  {
+                                    "composite_score":  88,
+                                    "composite_class":  "high_confidence_operational_signal",
+                                    "penalty_applied":  0
+                                }
+               }
+}

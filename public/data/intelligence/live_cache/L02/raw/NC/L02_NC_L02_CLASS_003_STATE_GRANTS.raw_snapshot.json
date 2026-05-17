@@ -1,0 +1,18 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:24.305Z",
+  "layer_id": "L02",
+  "connector_id": "L02_NC_L02_CLASS_003_STATE_GRANTS",
+  "state_abbr": "NC",
+  "state_name": "North Carolina",
+  "source_type": "STATE_GRANTS",
+  "canonical_url": "https://www.ncdps.gov/about-dps/boards-and-commissions/governors-crime-commission/grants",
+  "status": "FETCH_EMPTY_OR_FAILED",
+  "response": {
+    "ok": false,
+    "status": 404,
+    "html_length": 55747,
+    "extracted_links": []
+  },
+  "raw_snapshot_hash": "7a977d9c1e3316d934a76db2c71a97fd84aee34fca99b0caf39a6336f4b12b44"
+}

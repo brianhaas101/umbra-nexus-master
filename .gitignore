@@ -1,0 +1,73 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+
+# =========================
+# KEEP CORE APP TRACKED
+# =========================
+
+!.gitignore
+!index.html
+!package.json
+!package-lock.json
+!vite.config.js
+!README.md
+!README.txt
+
+# =========================
+# KEEP SOURCE CODE TRACKED
+# =========================
+
+!src/
+!src/**
+
+!public/
+!public/**
+
+!server/
+!server/**
+
+!scripts/
+!scripts/**
+
+!schemas/
+!schemas/**
+
+!config/
+!config/**
+
+# =========================
+# KEEP OPS / DATA STRUCTURE
+# =========================
+
+!ops/
+!ops/**
+
+!docs/
+!docs/**
+
+!tests/
+!tests/**
+
+!playbooks/
+!playbooks/**
+
+# =========================
+# SECURITY EXCLUSIONS
+# =========================
+
+secure/.env
+secure/*.key
+secure/*.secret
+
+# =========================
+# GENERATED / TEMP
+# =========================
+
+node_modules/
+dist/
+.vite/
+coverage/
+test-results/
+*.log
+*.tmp
+*.bak

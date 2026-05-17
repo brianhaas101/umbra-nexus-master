@@ -1,0 +1,13 @@
+﻿{
+    "layer_id":  "layer_07",
+    "contract":  "temporal_freshness_scoring",
+    "depends_on":  [
+                       "layer_01"
+                   ],
+    "inferred_dates_allowed":  false,
+    "synthetic_timestamps_allowed":  false,
+    "deterministic_score":  true,
+    "modifies_claims":  false,
+    "creates_entities":  false,
+    "modifies_black_dragon":  false
+}

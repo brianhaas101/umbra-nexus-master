@@ -1,0 +1,128 @@
+{
+  "version": "black_dragon_scottsdale_contact_route_review_v1",
+  "generated_at": "2026-05-10T23:28:28.742Z",
+  "review_count": 10,
+  "contact_ready_candidates": 7,
+  "contact_review": [
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00002",
+      "organization_name": "Arizona Bike Week",
+      "city_rank": 1,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://azbikeweek.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00001",
+      "organization_name": "Harley-Davidson of Scottsdale",
+      "city_rank": 2,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://www.hdofscottsdale.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00004",
+      "organization_name": "GO AZ Motorcycles",
+      "city_rank": 3,
+      "route_validation_status": "REVIEW_REQUIRED",
+      "public_contact_url": "https://www.goaz.com/",
+      "contact_ready_candidate": false,
+      "manual_contact_possible_after_review": false,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00008",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "city_rank": 4,
+      "route_validation_status": "ERROR",
+      "public_contact_url": "https://www.vma-usa.org/",
+      "contact_ready_candidate": false,
+      "manual_contact_possible_after_review": false,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00003",
+      "organization_name": "Scottsdale Bike Week Vendor Network",
+      "city_rank": 5,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://azbikeweek.com/vendors/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00007",
+      "organization_name": "Law Tigers Arizona",
+      "city_rank": 6,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://lawtigers.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00006",
+      "organization_name": "WestWorld of Scottsdale Event Network",
+      "city_rank": 7,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://westworldaz.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00010",
+      "organization_name": "Scottsdale Custom Motorcycle Culture",
+      "city_rank": 8,
+      "route_validation_status": "REVIEW_REQUIRED",
+      "public_contact_url": "https://www.facebook.com/search/top?q=scottsdale%20motorcycle",
+      "contact_ready_candidate": false,
+      "manual_contact_possible_after_review": false,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00005",
+      "organization_name": "Scottsdale Motorcycle Riders Network",
+      "city_rank": 9,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://www.meetup.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "city_runtime_entity_id": "BD_SCT_RUNTIME_ENTITY_00009",
+      "organization_name": "Scottsdale Charity Ride Network",
+      "city_rank": 10,
+      "route_validation_status": "VALID",
+      "public_contact_url": "https://www.eventbrite.com/",
+      "contact_ready_candidate": true,
+      "manual_contact_possible_after_review": true,
+      "contact_ready_promotion_allowed": false,
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "version": "black_dragon_san_diego_live_freshness_registry_v1",
+  "generated_at": "2026-05-10T22:03:17.672Z",
+  "freshness_records": [
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_001",
+      "organization_name": "Biggs Harley-Davidson",
+      "route_type": "DEALERSHIP_SITE",
+      "url": "https://www.biggshd.com/",
+      "last_seen_at": "2026-05-10T22:02:44.886Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 425,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_002",
+      "organization_name": "San Diego Harley Owners Group",
+      "route_type": "RIDING_COMMUNITY_SITE",
+      "url": "https://www.sandiegohog.com/",
+      "last_seen_at": "2026-05-10T22:02:47.240Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 350,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_003",
+      "organization_name": "Biltwell Inc.",
+      "route_type": "CUSTOM_BRAND_SITE",
+      "url": "https://www.biltwellinc.com/",
+      "last_seen_at": "2026-05-10T22:02:49.559Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 304,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_004",
+      "organization_name": "San Diego Vintage Motorcycle Swap Meet",
+      "route_type": "EVENT_SITE",
+      "url": "https://www.socalcycleswap.com/",
+      "last_seen_at": "2026-05-10T22:02:52.005Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 440,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_005",
+      "organization_name": "SoCal Motorcycle Meetup San Diego",
+      "route_type": "COMMUNITY_SITE",
+      "url": "https://www.meetup.com/",
+      "last_seen_at": "2026-05-10T22:02:55.628Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 1612,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_006",
+      "organization_name": "Cycle Gear San Diego",
+      "route_type": "GEAR_RETAIL_SITE",
+      "url": "https://www.cyclegear.com/stores",
+      "last_seen_at": "2026-05-10T22:02:58.534Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 893,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_007",
+      "organization_name": "Veterans Motorcycle Association San Diego",
+      "route_type": "VETERAN_NETWORK_SITE",
+      "url": "https://www.vma-usa.org/",
+      "last_seen_at": "2026-05-10T22:03:00.585Z",
+      "fetch_status": "ERROR",
+      "freshness_status": "REVIEW_REQUIRED",
+      "response_time_ms": 37,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_008",
+      "organization_name": "Born-Free Motorcycle Show",
+      "route_type": "EVENT_SITE",
+      "url": "https://bornfreeshow.com/",
+      "last_seen_at": "2026-05-10T22:03:02.964Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 368,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_009",
+      "organization_name": "Law Tigers California",
+      "route_type": "AFFILIATE_SITE",
+      "url": "https://lawtigers.com/",
+      "last_seen_at": "2026-05-10T22:03:05.265Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 297,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "validation_id": "BD_SD_HTTP_VALIDATE_010",
+      "organization_name": "San Diego Custom Bike Show",
+      "route_type": "EVENT_SITE",
+      "url": "https://www.eventbrite.com/",
+      "last_seen_at": "2026-05-10T22:03:07.568Z",
+      "fetch_status": "VALID",
+      "freshness_status": "FRESH",
+      "response_time_ms": 287,
+      "runtime_mutation_allowed": false
+    }
+  ],
+  "freshness_laws": {
+    "valid_route_refreshes_last_seen": true,
+    "review_required_before_decay": true,
+    "no_runtime_delete": true
+  }
+}

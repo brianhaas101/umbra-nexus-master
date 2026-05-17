@@ -1,0 +1,49 @@
+{
+  "version": "black_dragon_intelligence_refresh_ledger_v1",
+  "generated_at": "2026-05-06T02:09:03.739Z",
+  "client_key": "black_dragon",
+  "files": [
+    {
+      "file": "outreach_shortlist.json",
+      "exists": true,
+      "bytes": 17879,
+      "last_modified": "2026-05-05T06:17:52.337Z"
+    },
+    {
+      "file": "national_verified_outreach_shortlist.json",
+      "exists": true,
+      "bytes": 10835,
+      "last_modified": "2026-05-06T02:09:03.152Z"
+    },
+    {
+      "file": "normalized_intelligence_outputs.json",
+      "exists": true,
+      "bytes": 34565,
+      "last_modified": "2026-05-06T02:09:03.215Z"
+    },
+    {
+      "file": "dossier_targets.json",
+      "exists": true,
+      "bytes": 34284,
+      "last_modified": "2026-05-06T02:09:03.275Z"
+    },
+    {
+      "file": "black_dragon_client_sync.json",
+      "exists": true,
+      "bytes": 14410,
+      "last_modified": "2026-05-06T02:09:03.333Z"
+    },
+    {
+      "file": "source_freshness_audit.json",
+      "exists": true,
+      "bytes": 1164,
+      "last_modified": "2026-05-06T02:09:03.687Z"
+    },
+    {
+      "file": "live_ingestion_manifest.json",
+      "exists": true,
+      "bytes": 1844,
+      "last_modified": "2026-05-06T02:09:03.628Z"
+    }
+  ]
+}

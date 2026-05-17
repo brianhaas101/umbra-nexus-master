@@ -1,0 +1,396 @@
+{
+  "version": "nexus_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-08T03:21:23.915Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+  "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+  "source_name": "FEMA Preparedness Grants",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "English",
+        "href": "/grants/preparedness",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Español",
+        "href": "/es/grants/preparedness",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Français",
+        "href": "/fr/grants/preparedness",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Kreyòl",
+        "href": "/ht/grants/preparedness",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Tiếng Việt",
+        "href": "/vi/grants/preparedness",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "简体中文",
+        "href": "/zh-hans/grants/preparedness",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "한국어",
+        "href": "/ko/grants/preparedness",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Apply for Assistance",
+        "href": "https://www.disasterassistance.gov",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Assistance After a Disaster",
+        "href": "/assistance",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    },
+    {
+      "evidence_id": "LIVE_FEMA_PREPAREDNESS_EVIDENCE_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "source_name": "FEMA Preparedness Grants",
+      "captured_at": "2026-05-08T03:21:23.915Z",
+      "confidence": 0.92,
+      "lineage": {
+        "endpoint": "https://www.fema.gov/grants/preparedness",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "2b8ddb3f166873ad3c5efa9cbcf678bfb440b8d1ff74437dde0b880a3cc1233e",
+        "parser_id": "FEMA_PREPAREDNESS_GRANTS_LINK_PARSER_V1",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Businesses",
+        "href": "/assistance/businesses",
+        "record_type": "fema_preparedness_grant_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "LIVE_FEMA_PREPAREDNESS_SIGNAL_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "signal_type": "FEDERAL_FEMA_PREPAREDNESS_GRANT_LIVE_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_002",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_003",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_004",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_005",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_006",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_007",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_008",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_009",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "LIVE_FEMA_PREPAREDNESS_SCORE_010",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "connector_id": "L01_LIVE_CONNECTOR_008_L01_SRC_008_FEMA_PREPAREDNESS_GRANTS",
+      "score_delta": 9,
+      "confidence": 0.92
+    }
+  ],
+  "normalized_hash": "126d641379e3e24d5c3610fc61fc3696afbfef3d01c6c2980b36e5aed2aa9b06"
+}

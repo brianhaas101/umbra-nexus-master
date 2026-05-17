@@ -1,0 +1,576 @@
+{
+    "batch":  "259",
+    "version":  "black_dragon_new_york_city_city_local_acquisition_queue_v1",
+    "generated_at":  "2026-05-12T00:48:13.0651767Z",
+    "city":  "New York City",
+    "folder":  "new_york_city",
+    "state":  "New York",
+    "state_code":  "NY",
+    "city_id":  "city_new_york_city_ny",
+    "acquisition_lanes":  [
+                              {
+                                  "category":  "city_government_directory",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York city_government_directory public directory",
+                                                              "New York City NY city_government_directory official",
+                                                              "New York City city_government_directory open data",
+                                                              "New York City city_government_directory registry",
+                                                              "New York City city_government_directory organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "business_registry",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York business_registry public directory",
+                                                              "New York City NY business_registry official",
+                                                              "New York City business_registry open data",
+                                                              "New York City business_registry registry",
+                                                              "New York City business_registry organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "chamber_of_commerce",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York chamber_of_commerce public directory",
+                                                              "New York City NY chamber_of_commerce official",
+                                                              "New York City chamber_of_commerce open data",
+                                                              "New York City chamber_of_commerce registry",
+                                                              "New York City chamber_of_commerce organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_media_directory",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York local_media_directory public directory",
+                                                              "New York City NY local_media_directory official",
+                                                              "New York City local_media_directory open data",
+                                                              "New York City local_media_directory registry",
+                                                              "New York City local_media_directory organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "education_institutions",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York education_institutions public directory",
+                                                              "New York City NY education_institutions official",
+                                                              "New York City education_institutions open data",
+                                                              "New York City education_institutions registry",
+                                                              "New York City education_institutions organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "community_organizations",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York community_organizations public directory",
+                                                              "New York City NY community_organizations official",
+                                                              "New York City community_organizations open data",
+                                                              "New York City community_organizations registry",
+                                                              "New York City community_organizations organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "venue_and_events",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York venue_and_events public directory",
+                                                              "New York City NY venue_and_events official",
+                                                              "New York City venue_and_events open data",
+                                                              "New York City venue_and_events registry",
+                                                              "New York City venue_and_events organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "retail_and_dealers",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York retail_and_dealers public directory",
+                                                              "New York City NY retail_and_dealers official",
+                                                              "New York City retail_and_dealers open data",
+                                                              "New York City retail_and_dealers registry",
+                                                              "New York City retail_and_dealers organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "clubs_and_associations",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York clubs_and_associations public directory",
+                                                              "New York City NY clubs_and_associations official",
+                                                              "New York City clubs_and_associations open data",
+                                                              "New York City clubs_and_associations registry",
+                                                              "New York City clubs_and_associations organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "geospatial_open_data",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York geospatial_open_data public directory",
+                                                              "New York City NY geospatial_open_data official",
+                                                              "New York City geospatial_open_data open data",
+                                                              "New York City geospatial_open_data registry",
+                                                              "New York City geospatial_open_data organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "transit_and_location_data",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York transit_and_location_data public directory",
+                                                              "New York City NY transit_and_location_data official",
+                                                              "New York City transit_and_location_data open data",
+                                                              "New York City transit_and_location_data registry",
+                                                              "New York City transit_and_location_data organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "public_safety_and_civic_resources",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York public_safety_and_civic_resources public directory",
+                                                              "New York City NY public_safety_and_civic_resources official",
+                                                              "New York City public_safety_and_civic_resources open data",
+                                                              "New York City public_safety_and_civic_resources registry",
+                                                              "New York City public_safety_and_civic_resources organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "tourism_and_visitor_bureau",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York tourism_and_visitor_bureau public directory",
+                                                              "New York City NY tourism_and_visitor_bureau official",
+                                                              "New York City tourism_and_visitor_bureau open data",
+                                                              "New York City tourism_and_visitor_bureau registry",
+                                                              "New York City tourism_and_visitor_bureau organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "neighborhood_districts",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York neighborhood_districts public directory",
+                                                              "New York City NY neighborhood_districts official",
+                                                              "New York City neighborhood_districts open data",
+                                                              "New York City neighborhood_districts registry",
+                                                              "New York City neighborhood_districts organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              },
+                              {
+                                  "category":  "local_nonprofits",
+                                  "city":  "New York City",
+                                  "folder":  "new_york_city",
+                                  "state":  "New York",
+                                  "state_code":  "NY",
+                                  "acquisition_queries":  [
+                                                              "New York City New York local_nonprofits public directory",
+                                                              "New York City NY local_nonprofits official",
+                                                              "New York City local_nonprofits open data",
+                                                              "New York City local_nonprofits registry",
+                                                              "New York City local_nonprofits organizations"
+                                                          ],
+                                  "city_local_firewall":  {
+                                                              "required_city":  "New York City",
+                                                              "required_state":  "New York",
+                                                              "required_state_code":  "NY",
+                                                              "reject_long_beach_sources":  true,
+                                                              "reject_los_angeles_sources_unless_service_area_matches":  true,
+                                                              "reject_cross_city_sources_without_service_area_evidence":  true,
+                                                              "public_source_required":  true,
+                                                              "source_url_required":  true,
+                                                              "evidence_text_required":  true,
+                                                              "manual_review_required":  true
+                                                          },
+                                  "acceptance_rules":  {
+                                                           "city_or_service_area_match_required":  true,
+                                                           "category_match_required":  true,
+                                                           "organization_identity_required":  true,
+                                                           "geospatial_hint_preferred":  true,
+                                                           "no_private_person_targets":  true,
+                                                           "no_inferred_contacts":  true,
+                                                           "no_placeholder_entities":  true,
+                                                           "no_synthetic_fillers":  true
+                                                       },
+                                  "status":  "READY_CITY_LOCAL_SOURCE_COLLECTION"
+                              }
+                          ],
+    "policy":  {
+                   "long_beach_is_benchmark_not_source_donor":  true,
+                   "city_local_provenance_required":  true,
+                   "no_cross_city_contamination":  true,
+                   "no_runtime_promotion":  true,
+                   "no_contact_enablement":  true,
+                   "manual_review_required":  true
+               },
+    "status":  "CITY_LOCAL_ACQUISITION_QUEUE_READY"
+}

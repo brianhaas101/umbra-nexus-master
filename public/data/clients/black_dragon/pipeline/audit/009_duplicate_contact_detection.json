@@ -1,0 +1,1449 @@
+{
+  "version": "black_dragon_duplicate_contact_detector_v1",
+  "generated_at": "2026-05-10T17:43:51.574Z",
+  "total": 180,
+  "unique": 9,
+  "duplicates": 171,
+  "results": [
+    {
+      "execution_id": "IMPORT_EXEC_0001",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000001",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0002",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000002",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0003",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000003",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0004",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000004",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0005",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000005",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0006",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000006",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0007",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000007",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0008",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000008",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0009",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000009",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "UNIQUE",
+      "quarantine_required": false,
+      "reason": "UNIQUE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0010",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000010",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0011",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000011",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0012",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000012",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0013",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000013",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0014",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000014",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0015",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000015",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0016",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000016",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0017",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000017",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0018",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000018",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0019",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000019",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0020",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000020",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0021",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000021",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0022",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000022",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0023",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000023",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0024",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000024",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0025",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000025",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0026",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000026",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0027",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000027",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0028",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000028",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0029",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000029",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0030",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000030",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0031",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000031",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0032",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000032",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0033",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000033",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0034",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000034",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0035",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000035",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0036",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000036",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0037",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000037",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0038",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000038",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0039",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000039",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0040",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000040",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0041",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000041",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0042",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000042",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0043",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000043",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0044",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000044",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0045",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000045",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0046",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000046",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0047",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000047",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0048",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000048",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0049",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000049",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0050",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000050",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0051",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000051",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0052",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000052",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0053",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000053",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0054",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000054",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0055",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000055",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0056",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000056",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0057",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000057",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0058",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000058",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0059",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000059",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0060",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000060",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0061",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000061",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0062",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000062",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0063",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000063",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0064",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000064",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0065",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000065",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0066",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000066",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0067",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000067",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0068",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000068",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0069",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000069",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0070",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000070",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0071",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000071",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0072",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000072",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0073",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000073",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0074",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000074",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0075",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000075",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0076",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000076",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0077",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000077",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0078",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000078",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0079",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000079",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0080",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000080",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0081",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000081",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0082",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000082",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0083",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000083",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0084",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000084",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0085",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000085",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0086",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000086",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0087",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000087",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0088",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000088",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0089",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000089",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0090",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000090",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0091",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000091",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0092",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000092",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0093",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000093",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0094",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000094",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0095",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000095",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0096",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000096",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0097",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000097",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0098",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000098",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0099",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000099",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0100",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000100",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0101",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000101",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0102",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000102",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0103",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000103",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0104",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000104",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0105",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000105",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0106",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000106",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0107",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000107",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0108",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000108",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0109",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000109",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0110",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000110",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0111",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000111",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0112",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000112",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0113",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000113",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0114",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000114",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0115",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000115",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0116",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000116",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0117",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000117",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0118",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000118",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0119",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000119",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0120",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000120",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0121",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000121",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0122",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000122",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0123",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000123",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0124",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000124",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0125",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000125",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0126",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000126",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0127",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000127",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0128",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000128",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0129",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000129",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0130",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000130",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0131",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000131",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0132",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000132",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0133",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000133",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0134",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000134",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0135",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000135",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0136",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000136",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0137",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000137",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0138",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000138",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0139",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000139",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0140",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000140",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0141",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000141",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0142",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000142",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0143",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000143",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0144",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000144",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0145",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000145",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0146",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000146",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0147",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000147",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0148",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000148",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0149",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000149",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0150",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000150",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0151",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000151",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0152",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000152",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0153",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000153",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0154",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000154",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0155",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000155",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0156",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000156",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0157",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000157",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0158",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000158",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0159",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000159",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0160",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000160",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0161",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000161",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0162",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000162",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0163",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000163",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0164",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000164",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0165",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000165",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0166",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000166",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0167",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000167",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0168",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000168",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0169",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000169",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0170",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000170",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0171",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000171",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0172",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000172",
+      "duplicate_key": "no_url::state post academies::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0173",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000173",
+      "duplicate_key": "no_url::sheriff associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0174",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000174",
+      "duplicate_key": "no_url::police training conferences::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0175",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000175",
+      "duplicate_key": "no_url::motorcycle dealerships::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0176",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000176",
+      "duplicate_key": "no_url::rider associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0177",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000177",
+      "duplicate_key": "no_url::motorcycle rally organizers::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0178",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000178",
+      "duplicate_key": "no_url::vfw posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0179",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000179",
+      "duplicate_key": "no_url::american legion posts::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    },
+    {
+      "execution_id": "IMPORT_EXEC_0180",
+      "import_row_id": "BD_SOURCE_IMPORT_ROW_000180",
+      "duplicate_key": "no_url::combat veteran motorcycle associations::no_contact",
+      "duplicate_status": "DUPLICATE",
+      "quarantine_required": true,
+      "reason": "DUPLICATE_IMPORT_RECORD"
+    }
+  ]
+}

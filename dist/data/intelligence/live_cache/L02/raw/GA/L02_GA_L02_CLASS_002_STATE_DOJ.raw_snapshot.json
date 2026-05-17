@@ -1,0 +1,66 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:31:19.284Z",
+  "layer_id": "L02",
+  "connector_id": "L02_GA_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "GA",
+  "state_name": "Georgia",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://law.georgia.gov",
+  "acquisition_mode": "public_html",
+  "request": {
+    "method": "GET",
+    "purpose": "L02_POST_DOJ_FIRST_AUTHORITY_FETCH"
+  },
+  "response": {
+    "ok": true,
+    "status": 200,
+    "status_text": "OK",
+    "body_type": "html",
+    "html_length": 103868,
+    "extracted_links": [
+      {
+        "href": "https://law.georgia.gov/#",
+        "label": "Loading… Georgia.gov logo Office of the Attorney General"
+      },
+      {
+        "href": "https://law.georgia.gov/biography-attorney-general",
+        "label": "Attorney General Chris Carr"
+      },
+      {
+        "href": "https://law.georgia.gov/key-issues/organized-retail-crime",
+        "label": "Organized Retail Crime"
+      },
+      {
+        "href": "https://law.georgia.gov/key-issues/consumer-protection",
+        "label": "Consumer Protection"
+      },
+      {
+        "href": "https://law.georgia.gov/resources/crime-crime-victims",
+        "label": "Crime &amp; Crime Victims"
+      },
+      {
+        "href": "https://law.georgia.gov/press-releases",
+        "label": "Press Room"
+      },
+      {
+        "href": "https://law.georgia.gov/press-releases/archived-releases",
+        "label": "Archived Releases"
+      },
+      {
+        "href": "https://law.georgia.gov/biography-attorney-general",
+        "label": "Attorney General Chris Carr"
+      },
+      {
+        "href": "https://law.georgia.gov/key-issues/organized-retail-crime",
+        "label": "Organized Retail Crime"
+      },
+      {
+        "href": "https://law.georgia.gov/key-issues/cybersecurity",
+        "label": "Cybercrime"
+      }
+    ]
+  },
+  "status": "FETCH_SUCCESS",
+  "raw_snapshot_hash": "607fdc7a29ff8573369f33321a20ca44ac84cd83bcd2493f837ebfbc304ba869"
+}

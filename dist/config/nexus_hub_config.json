@@ -1,0 +1,30 @@
+{
+  "product": "Umbra Nexus",
+  "version": "0.9.0-beta",
+  "default_hub": "leads",
+  "hubs": [
+    {
+      "id": "leads",
+      "label": "Leads Engine",
+      "enabled": true,
+      "panels": ["commandDeckPanel", "hubPanel", "telemetryPanel"]
+    },
+    {
+      "id": "profile",
+      "label": "Profile",
+      "enabled": true,
+      "panels": []
+    },
+    {
+      "id": "clients",
+      "label": "Clients",
+      "enabled": true,
+      "panels": []
+    }
+  ],
+  "layers": {
+    "nodes": { "default": true, "id": "toggleNodes" },
+    "veins": { "default": true, "id": "toggleVeins" },
+    "starfield": { "default": true, "id": "toggleStarfield" }
+  }
+}

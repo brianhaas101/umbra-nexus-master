@@ -1,0 +1,12 @@
+{
+  "layer_id": "L02",
+  "generalized_audit_integrity_pass": true,
+  "monitored_logs": [
+    "L02_scaffold_verifier.log",
+    "L02_probe_and_score_executor.log",
+    "L02_heuristic_resolver.log",
+    "L02_wave_al_ak_az_builder.log"
+  ],
+  "failures": [],
+  "client_paths_touched": false
+}

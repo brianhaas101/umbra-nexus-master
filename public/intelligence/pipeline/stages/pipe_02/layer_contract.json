@@ -1,0 +1,13 @@
+﻿{
+    "layer_id":  "layer_02",
+    "contract":  "city_local_source_classification",
+    "depends_on":  [
+                       "layer_01"
+                   ],
+    "accepts_only_layer_01_accepted_records":  true,
+    "modifies_claims":  false,
+    "creates_entities":  false,
+    "accepts_synthetic_fillers":  false,
+    "inferred_contacts_allowed":  false,
+    "modifies_black_dragon":  false
+}

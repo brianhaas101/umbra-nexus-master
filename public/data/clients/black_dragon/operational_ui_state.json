@@ -1,0 +1,126 @@
+{
+  "version": "black_dragon_operational_ui_state_v1",
+  "generated_at": "2026-05-06T02:09:04.327Z",
+  "client_key": "black_dragon",
+  "summary": {
+    "synced_targets": 11,
+    "globe_nodes": 11,
+    "dossiers": 11,
+    "states": [
+      "AZ",
+      "CA"
+    ]
+  },
+  "default_view": {
+    "mode": "GLOBE",
+    "layer": "VERIFIED_OUTREACH_TARGETS",
+    "selected_client": "black_dragon"
+  },
+  "panels": {
+    "dossier_panel_enabled": true,
+    "outreach_panel_enabled": true,
+    "intelligence_summary_enabled": true,
+    "execution_status_enabled": true
+  },
+  "target_index": [
+    {
+      "entity_id": "BD_AZ_PHOENIX_POLICE_DEPARTMENT",
+      "agency_name": "PHOENIX POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Phoenix",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_MESA_POLICE_DEPARTMENT",
+      "agency_name": "MESA POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Mesa",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_CHANDLER_POLICE_DEPARTMENT",
+      "agency_name": "CHANDLER POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Chandler",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_GLENDALE_POLICE_DEPARTMENT",
+      "agency_name": "GLENDALE POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Glendale",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_TEMPE_POLICE_DEPARTMENT",
+      "agency_name": "TEMPE POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Tempe",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_TUCSON_POLICE_DEPARTMENT",
+      "agency_name": "TUCSON POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Tucson",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_FLAGSTAFF_POLICE_DEPARTMENT",
+      "agency_name": "FLAGSTAFF POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Flagstaff",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_SCOTTSDALE_POLICE_DEPARTMENT",
+      "agency_name": "SCOTTSDALE POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Scottsdale",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_SURPRISE_POLICE_DEPARTMENT",
+      "agency_name": "SURPRISE POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Surprise",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_AZ_YUMA_POLICE_DEPARTMENT",
+      "agency_name": "YUMA POLICE DEPARTMENT",
+      "state": "AZ",
+      "city": "Yuma",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    },
+    {
+      "entity_id": "BD_CA_SAN_DIEGO_COMMUNITY_COLLEGE_DISTRICT_POLICE_DEPARTMENT",
+      "agency_name": "San Diego Community College District Police Department",
+      "state": "CA",
+      "city": "San Diego",
+      "dossier_status": "READY_FOR_CLIENT_REVIEW",
+      "final_score": 87,
+      "contact_status": "READY_TO_CALL"
+    }
+  ]
+}

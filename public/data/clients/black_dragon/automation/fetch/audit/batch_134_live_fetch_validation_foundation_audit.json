@@ -1,0 +1,28 @@
+{
+  "version": "black_dragon_batch_134_live_fetch_validation_foundation_audit_v1",
+  "generated_at": "2026-05-10T20:41:59.172Z",
+  "batch": "134_LIVE_FETCH_VALIDATION_LAYER_FOUNDATION",
+  "counts": {
+    "source_groups": 5,
+    "fetch_sources": 20,
+    "validation_targets": 20,
+    "failure_types": 8,
+    "dead_link_queue_items": 0
+  },
+  "gates": {
+    "live_fetch_policy_exists": true,
+    "live_fetch_disabled_by_default": true,
+    "dry_run_only": true,
+    "fetch_manifest_exists": true,
+    "validation_schema_exists": true,
+    "dry_run_validation_complete": true,
+    "no_live_http_requests_performed": true,
+    "dead_link_queue_ready": true,
+    "failure_queue_ready": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_delete_without_quarantine": true
+  },
+  "next_phase": "BATCH_135_LIVE_HTTP_ROUTE_VALIDATOR_DRY_RUN_TO_LIMITED_ENABLEMENT",
+  "status": "PASS"
+}

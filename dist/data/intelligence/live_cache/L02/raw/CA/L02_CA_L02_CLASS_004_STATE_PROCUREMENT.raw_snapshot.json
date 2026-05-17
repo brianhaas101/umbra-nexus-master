@@ -1,0 +1,18 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:10.935Z",
+  "layer_id": "L02",
+  "connector_id": "L02_CA_L02_CLASS_004_STATE_PROCUREMENT",
+  "state_abbr": "CA",
+  "state_name": "California",
+  "source_type": "STATE_PROCUREMENT",
+  "canonical_url": "https://caleprocure.ca.gov",
+  "status": "FETCH_EMPTY_OR_FAILED",
+  "response": {
+    "ok": false,
+    "status": 403,
+    "html_length": 118,
+    "extracted_links": []
+  },
+  "raw_snapshot_hash": "f1e2a18c435df8fea08370c4dea00f2757ec06fbbab3b74b4c30f295b1260d38"
+}

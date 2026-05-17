@@ -1,0 +1,99 @@
+{
+  "version": "nexus_L03_local_agency_sources_v1",
+  "generated_at": "2026-05-06T05:29:00.113Z",
+  "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+  "target_sources": 15,
+  "production_ready": true,
+  "source_classes": [
+    {
+      "source_id": "LOCAL_AGENCY_DIRECTORIES",
+      "authority": "LOCAL",
+      "type": "agency_directory",
+      "coverage": "LOCAL"
+    },
+    {
+      "source_id": "SHERIFF_OFFICE_SITES",
+      "authority": "LOCAL",
+      "type": "county_law_enforcement",
+      "coverage": "COUNTY"
+    },
+    {
+      "source_id": "CITY_POLICE_DEPARTMENTS",
+      "authority": "LOCAL",
+      "type": "municipal_law_enforcement",
+      "coverage": "CITY"
+    },
+    {
+      "source_id": "SCHOOL_DISTRICT_POLICE",
+      "authority": "LOCAL",
+      "type": "education_law_enforcement",
+      "coverage": "DISTRICT"
+    },
+    {
+      "source_id": "TRANSIT_POLICE_SYSTEMS",
+      "authority": "LOCAL",
+      "type": "transportation_security",
+      "coverage": "REGIONAL"
+    },
+    {
+      "source_id": "TRIBAL_AGENCY_RECORDS",
+      "authority": "LOCAL",
+      "type": "tribal_law_enforcement",
+      "coverage": "TRIBAL"
+    },
+    {
+      "source_id": "LOCAL_PRESS_RELEASES",
+      "authority": "LOCAL",
+      "type": "operational_activity",
+      "coverage": "LOCAL"
+    },
+    {
+      "source_id": "LOCAL_CRIME_DASHBOARDS",
+      "authority": "LOCAL",
+      "type": "incident_reporting",
+      "coverage": "LOCAL"
+    },
+    {
+      "source_id": "CITY_COUNCIL_RECORDS",
+      "authority": "LOCAL",
+      "type": "oversight_and_budget",
+      "coverage": "CITY"
+    },
+    {
+      "source_id": "COUNTY_COMMISSION_RECORDS",
+      "authority": "LOCAL",
+      "type": "county_governance",
+      "coverage": "COUNTY"
+    },
+    {
+      "source_id": "LOCAL_BUDGET_PORTALS",
+      "authority": "LOCAL",
+      "type": "financial_activity",
+      "coverage": "LOCAL"
+    },
+    {
+      "source_id": "LOCAL_PROCUREMENT_PORTALS",
+      "authority": "LOCAL",
+      "type": "procurement_activity",
+      "coverage": "LOCAL"
+    },
+    {
+      "source_id": "LOCAL_TRAINING_BULLETINS",
+      "authority": "LOCAL",
+      "type": "training_activity",
+      "coverage": "LOCAL"
+    },
+    {
+      "source_id": "COMMUNITY_ALERT_SYSTEMS",
+      "authority": "LOCAL",
+      "type": "public_safety_alerts",
+      "coverage": "LOCAL"
+    },
+    {
+      "source_id": "LOCAL_PUBLIC_RECORDS_PORTALS",
+      "authority": "LOCAL",
+      "type": "records_access",
+      "coverage": "LOCAL"
+    }
+  ]
+}

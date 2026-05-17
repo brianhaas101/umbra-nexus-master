@@ -1,0 +1,22 @@
+﻿{
+    "id":  "layer_02",
+    "name":  "City-Local Source Classifier",
+    "version":  "0.1.0",
+    "status":  "active_scaffold",
+    "runtime_scope":  "public/intelligence/layers/layer_02",
+    "black_dragon_coupling":  false,
+    "deterministic":  true,
+    "replayable":  true,
+    "depends_on":  [
+                       "layer_01"
+                   ],
+    "purpose":  "Classify accepted provenance records by city-local relevance without modifying claims or promoting inferred data.",
+    "allowed_inputs":  [
+                           "layer_01.accepted_record"
+                       ],
+    "required_outputs":  [
+                             "city_local_classification",
+                             "classification_reasons",
+                             "audit_event"
+                         ]
+}

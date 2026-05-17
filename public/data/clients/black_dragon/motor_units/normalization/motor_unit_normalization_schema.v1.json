@@ -1,0 +1,38 @@
+{
+  "version": "black_dragon_motor_unit_normalization_schema_v1_batch_073",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "required_fields": [
+    "organization_name",
+    "organization_type",
+    "entity_class",
+    "region",
+    "country"
+  ],
+
+  "optional_fields": [
+    "agency_name",
+    "division_name",
+    "unit_name",
+    "training_contact_role",
+    "motor_unit_page",
+    "training_page",
+    "public_contact_form",
+    "contact_email",
+    "contact_phone",
+    "event_presence",
+    "course_adoption_fit",
+    "book_distribution_fit"
+  ],
+
+  "classification_rules": {
+    "POLICE_MOTOR": "POLICE_MOTOR_UNIT",
+    "SHERIFF_MOTOR": "SHERIFF_MOTOR_DIVISION",
+    "STATE_POLICE_MOTOR": "STATE_POLICE_MOTOR_UNIT",
+    "TRAFFIC_MOTOR": "TRAFFIC_ENFORCEMENT_MOTOR_TEAM",
+    "MOTORCYCLE_OFFICER_ASSOCIATION": "MOTORCYCLE_OFFICER_ASSOCIATION",
+    "MOTOR_TRAINING": "POLICE_MOTOR_TRAINING_PROGRAM",
+    "TRAINING_COORDINATOR": "LAW_ENFORCEMENT_TRAINING_COORDINATOR",
+    "GANG_INTELLIGENCE": "GANG_INTELLIGENCE_TRAINING_UNIT"
+  }
+}

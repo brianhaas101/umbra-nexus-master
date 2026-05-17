@@ -1,0 +1,66 @@
+{
+    "batch":  "233B",
+    "version":  "black_dragon_high_density_hydration_execution_pack_audit_v1",
+    "generated_at":  "2026-05-11T05:25:44.2374131Z",
+    "wave":  "high_density_hydration_wave_1",
+    "cities":  [
+                   {
+                       "city":  "Los Angeles",
+                       "folder":  "los_angeles",
+                       "category_lanes":  15,
+                       "output_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\los_angeles\\high_density_hydration_execution_pack.json",
+                       "valid_json":  true,
+                       "status":  "PASS_HIGH_DENSITY_HYDRATION_PACK_READY"
+                   },
+                   {
+                       "city":  "San Diego",
+                       "folder":  "san_diego",
+                       "category_lanes":  15,
+                       "output_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\san_diego\\high_density_hydration_execution_pack.json",
+                       "valid_json":  true,
+                       "status":  "PASS_HIGH_DENSITY_HYDRATION_PACK_READY"
+                   },
+                   {
+                       "city":  "Phoenix",
+                       "folder":  "phoenix",
+                       "category_lanes":  15,
+                       "output_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\phoenix\\high_density_hydration_execution_pack.json",
+                       "valid_json":  true,
+                       "status":  "PASS_HIGH_DENSITY_HYDRATION_PACK_READY"
+                   },
+                   {
+                       "city":  "Scottsdale",
+                       "folder":  "scottsdale",
+                       "category_lanes":  15,
+                       "output_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\scottsdale\\high_density_hydration_execution_pack.json",
+                       "valid_json":  true,
+                       "status":  "PASS_HIGH_DENSITY_HYDRATION_PACK_READY"
+                   },
+                   {
+                       "city":  "Mesa",
+                       "folder":  "mesa",
+                       "category_lanes":  15,
+                       "output_file":  ".\\public\\data\\clients\\black_dragon\\tier2_ingestion\\mesa\\high_density_hydration_execution_pack.json",
+                       "valid_json":  true,
+                       "status":  "PASS_HIGH_DENSITY_HYDRATION_PACK_READY"
+                   }
+               ],
+    "failed_count":  0,
+    "failed":  [
+
+               ],
+    "interpretation":  {
+                           "long_beach_equivalence_claimed":  false,
+                           "tier2_claim_allowed":  false,
+                           "purpose":  "Prepare five high-density cities for verified source/entity/geospatial/relationship hydration using Long Beach parity rules."
+                       },
+    "hardlocks":  {
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_HIGH_DENSITY_HYDRATION_WAVE_READY"
+}

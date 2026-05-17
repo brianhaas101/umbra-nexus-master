@@ -1,0 +1,91 @@
+{
+  "version": "umbra_pre_black_dragon_live_client_access_checkpoint_v1",
+  "checkpoint_id": "PRE_BLACK_DRAGON_LIVE_CLIENT_ACCESS",
+  "generated_at": "2026-05-09T03:52:37.208Z",
+  "pass": true,
+  "client": {
+    "client_id": "black_dragon",
+    "access_mode": "CONTROLLED_CLIENT_PILOT",
+    "founder_tools_exposed": false,
+    "raw_exports_allowed": false,
+    "unrestricted_enterprise_access": false,
+    "multi_client_expansion_ready": false
+  },
+  "validated_systems": {
+    "runtime_integrity": {
+      "founder_role_exists": true,
+      "client_role_exists": true,
+      "strict_client_isolation": true,
+      "client_scope_declared": true,
+      "frontend_policy_exists": true,
+      "session_policy_exists": true,
+      "dataset_policy_exists": true,
+      "export_policy_exists": true
+    },
+    "security_integrity": {
+      "frontend_guard_active": true,
+      "ui_hook_active": true,
+      "session_guard_active": true,
+      "dataset_guard_active": true,
+      "export_guard_active": true,
+      "client_blocks_founder_admin": true,
+      "client_blocks_client_switcher": true,
+      "client_blocks_exports": true,
+      "client_raw_export_blocked": true,
+      "client_global_export_blocked": true,
+      "cross_client_export_forbidden": true,
+      "dataset_guarded_fetch_exists": true,
+      "export_guarded_export_exists": true,
+      "stale_session_recovery_exists": true
+    },
+    "ui_integrity": {
+      "dashboard_renderer_active": true,
+      "queue_ui_active": true,
+      "response_ui_active": true,
+      "dashboard_uses_security": true,
+      "queue_uses_security": true,
+      "response_uses_security": true,
+      "queue_copy_actions_exist": true,
+      "response_capture_actions_exist": true
+    },
+    "black_dragon_data_integrity": {
+      "operational_targets_exist": true,
+      "client_view_exists": true,
+      "queue_exists": true,
+      "responses_exist": true,
+      "adaptive_exists": true,
+      "kpis_exist": true,
+      "dashboard_client_safe": true,
+      "widgets_exist": true,
+      "missing_target_entity_ids": 0,
+      "missing_target_scores": 0,
+      "missing_client_view_records": 0,
+      "missing_queue_records": 0,
+      "missing_adaptive_records": 0,
+      "missing_kpi_records": 0,
+      "missing_map_records": 0
+    },
+    "operational_alignment": {
+      "queue_scores_valid": true,
+      "adaptive_scores_valid": true,
+      "kpi_revenue_valid": true,
+      "map_layer_valid": true,
+      "map_features_valid": true,
+      "map_snapshot_valid": true
+    },
+    "checkpoint_integrity": {
+      "stability_checkpoint_passed": true,
+      "controlled_client_pilot_ready": true,
+      "client_not_enterprise_production": true,
+      "multi_client_not_claimed": true,
+      "multiclient_audit_passed": true
+    }
+  },
+  "remaining_required_after_first_access": [
+    "live Black Dragon usability test",
+    "real outreach response density",
+    "long-session browser stress testing",
+    "multi-client validation with a real second client",
+    "deeper CITY_MAP rendering integration"
+  ]
+}

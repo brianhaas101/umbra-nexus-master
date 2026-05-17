@@ -1,0 +1,27 @@
+{
+  "version": "black_dragon_national_state_expansion_audit_v1",
+  "generated_at": "2026-05-06T02:16:08.905Z",
+  "states": {
+    "AZ": {
+      "verified_contacts": 10,
+      "status": "VERIFIED_LAUNCH_BATCH"
+    },
+    "CA": {
+      "review_candidates": 497,
+      "queue_targets": 25,
+      "status": "CANDIDATE_AND_QUEUE_ACTIVE"
+    },
+    "TX": {
+      "review_candidates": 234,
+      "queue_targets": 25,
+      "status": "CANDIDATE_AND_QUEUE_ACTIVE"
+    }
+  },
+  "national_verified_targets": 11,
+  "next_required": [
+    "Verify 9 more CA contacts.",
+    "Verify first 10 TX contacts.",
+    "Build FL connector.",
+    "Build GA connector."
+  ]
+}

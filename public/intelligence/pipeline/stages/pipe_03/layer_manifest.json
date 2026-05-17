@@ -1,0 +1,25 @@
+﻿{
+    "id":  "layer_03",
+    "name":  "Source Authority Scoring",
+    "version":  "0.1.0",
+    "status":  "active_scaffold",
+    "runtime_scope":  "public/intelligence/layers/layer_03",
+    "black_dragon_coupling":  false,
+    "deterministic":  true,
+    "replayable":  true,
+    "depends_on":  [
+                       "layer_01",
+                       "layer_02"
+                   ],
+    "purpose":  "Assign deterministic source authority score using source type, domain class, and city-local classification.",
+    "allowed_inputs":  [
+                           "layer_01.accepted_record",
+                           "layer_02.city_local_classification"
+                       ],
+    "required_outputs":  [
+                             "authority_score",
+                             "authority_class",
+                             "authority_reasons",
+                             "audit_event"
+                         ]
+}

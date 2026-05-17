@@ -1,0 +1,18 @@
+﻿{
+    "schema_id":  "layer_05_output_schema",
+    "required":  [
+                     "layer_id",
+                     "record_id",
+                     "entity_key",
+                     "entity_display_name",
+                     "city_key",
+                     "identity_status",
+                     "normalization_reasons",
+                     "audit_timestamp"
+                 ],
+    "identity_statuses":  [
+                              "normalized_explicit_entity",
+                              "rejected_missing_entity",
+                              "rejected_synthetic_entity"
+                          ]
+}

@@ -1,0 +1,19 @@
+{
+  "source_id": "nc_cjin_law_enforcement_agencies",
+  "state": "NC",
+  "source_name": "NC CJIN Law Enforcement Agencies",
+  "source_url": "https://cjin.nc.gov/law-enforcement-agencies/",
+  "cached_at": "2026-05-02T19:54:28.395Z",
+  "byte_count": 113951,
+  "html_file": "state_directories/nc_cjin_law_enforcement_agencies.html",
+  "top_50_cities_supported": [
+    "Charlotte",
+    "Raleigh"
+  ],
+  "live_import_allowed": false,
+  "notes": [
+    "Raw state directory page cached.",
+    "No entities created by this connector.",
+    "Parser/authority filter required before merge."
+  ]
+}

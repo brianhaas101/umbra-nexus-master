@@ -1,0 +1,38 @@
+﻿{
+    "version":  "black_dragon_client_activity_v1",
+    "revenue_by_city":  [
+
+                        ],
+    "schema":  {
+                   "client_id":  "string",
+                   "closed_value":  "number",
+                   "lead_id":  "string",
+                   "event_type":  "VIEW_LEAD|OPEN_DOSSIER|MARK_CONTACTED|MARK_REPLIED|MARK_BOOKED|MARK_CONVERTED|SET_REVENUE",
+                   "city_id":  "string",
+                   "estimated_value":  "number",
+                   "event_id":  "string",
+                   "event_time":  "iso8601",
+                   "note":  "string",
+                   "stage":  "NEW|CONTACTED|REPLIED|BOOKED|CONVERTED|LOST",
+                   "user_id":  "string"
+               },
+    "generated_at":  "2026-05-13T23:33:17.1314412Z",
+    "client_id":  "black_dragon",
+    "conversion_by_stage":  [
+
+                            ],
+    "events":  [
+
+               ],
+    "metrics":  {
+                    "estimated_pipeline_value":  0,
+                    "dossiers_opened":  0,
+                    "leads_viewed":  0,
+                    "converted":  0,
+                    "replied":  0,
+                    "conversion_rate":  0,
+                    "closed_revenue":  0,
+                    "booked":  0,
+                    "contacted":  0
+                }
+}

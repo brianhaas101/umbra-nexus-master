@@ -1,0 +1,16 @@
+﻿{
+    "layer_id":  "layer_06",
+    "contract":  "geospatial_coherence_gate",
+    "depends_on":  [
+                       "layer_01",
+                       "layer_02",
+                       "layer_05"
+                   ],
+    "geocoding_allowed":  false,
+    "inferred_coordinates_allowed":  false,
+    "synthetic_locations_allowed":  false,
+    "deterministic_score":  true,
+    "modifies_claims":  false,
+    "creates_entities":  false,
+    "modifies_black_dragon":  false
+}

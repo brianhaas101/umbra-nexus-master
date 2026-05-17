@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:05.034Z",
+  "layer_id": "L02",
+  "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "CA",
+  "state_name": "California",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://oag.ca.gov",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "",
+        "href": "https://oag.ca.gov/news/feed",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "About the Office of the Attorney General",
+        "href": "https://oag.ca.gov/office",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Public Safety",
+        "href": "https://oag.ca.gov/careers/aboutus/psle",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Protection",
+        "href": "https://oag.ca.gov/consumers",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Protection and Economic Opportunity",
+        "href": "https://oag.ca.gov/economic",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Environmental Justice",
+        "href": "https://oag.ca.gov/environment/justice",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Immigration",
+        "href": "https://oag.ca.gov/immigrant",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "OpenJustice",
+        "href": "https://openjustice.doj.ca.gov/",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Press Releases",
+        "href": "https://oag.ca.gov/media/news",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_CA_L02_CLASS_002_STATE_DOJ_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "state_name": "California",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:05.034Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://oag.ca.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "0661ea61b80751f7f702968a02b00ba2f6b3f452ec289ddbcecb479b178cd1e2",
+        "parser_id": "L02_CA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/california-department-of-justice/",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_CA_L02_CLASS_002_STATE_DOJ_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_CA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "CA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    }
+  ],
+  "normalized_snapshot_hash": "3d9b72f028e9f0db92bc269e45f728c0160083a93ec3266332c0e7096e546c3c"
+}

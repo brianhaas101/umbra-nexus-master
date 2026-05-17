@@ -1,0 +1,814 @@
+[
+  {
+    "city_id": "city_66635fc3",
+    "canonical_name": "Akron, OH",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_66635fc3\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_756cb4ea",
+    "canonical_name": "Albuquerque, NM",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_756cb4ea\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_3c08e197",
+    "canonical_name": "Allentown, PA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_3c08e197\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_fd630896",
+    "canonical_name": "Ann Arbor, MI",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_fd630896\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_6cabf985",
+    "canonical_name": "Arlington, TX",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_6cabf985\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_7eb25064",
+    "canonical_name": "Atlanta, GA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_7eb25064\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_e9054367",
+    "canonical_name": "Aurora, CO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_e9054367\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_a324d561",
+    "canonical_name": "Austin, TX",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_a324d561\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_a7350aab",
+    "canonical_name": "Baltimore, MD",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_a7350aab\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_c2cf7437",
+    "canonical_name": "Bellevue, WA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c2cf7437\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_668d0bd6",
+    "canonical_name": "Bloomington, MN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_668d0bd6\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_29ef5eb4",
+    "canonical_name": "Boise, ID",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_29ef5eb4\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_95b0c3ba",
+    "canonical_name": "Boston, MA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_95b0c3ba\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_9814694d",
+    "canonical_name": "Bowling Green, KY",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_9814694d\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_c4822ada",
+    "canonical_name": "Broken Arrow, OK",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c4822ada\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_46d49fea",
+    "canonical_name": "Chandler, AZ",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_46d49fea\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_5090c3c6",
+    "canonical_name": "Charlotte, NC",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5090c3c6\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b7aea338",
+    "canonical_name": "Chattanooga, TN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b7aea338\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_4c180874",
+    "canonical_name": "Chicago, IL",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_4c180874\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_1e856280",
+    "canonical_name": "Cincinnati, OH",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1e856280\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_5cbb095a",
+    "canonical_name": "Clarksville, TN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5cbb095a\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_350fa856",
+    "canonical_name": "Cleveland, OH",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_350fa856\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_328b326a",
+    "canonical_name": "Colorado Springs, CO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_328b326a\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_878f11ab",
+    "canonical_name": "Columbia, MO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_878f11ab\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_85e83faa",
+    "canonical_name": "Columbus, OH",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_85e83faa\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_f8eaf382",
+    "canonical_name": "Covington, KY",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_f8eaf382\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_5abab5f6",
+    "canonical_name": "Dallas, TX",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5abab5f6\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_39d61699",
+    "canonical_name": "Denver, CO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_39d61699\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_6536761e",
+    "canonical_name": "Detroit, MI",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_6536761e\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_0b8ff86c",
+    "canonical_name": "Duluth, MN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0b8ff86c\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_78ccf400",
+    "canonical_name": "Durham, NC",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_78ccf400\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_0c5b904d",
+    "canonical_name": "Edmond, OK",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0c5b904d\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_990961e3",
+    "canonical_name": "El Paso, TX",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_990961e3\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_46ea53ac",
+    "canonical_name": "Erie, PA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_46ea53ac\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_eedb043f",
+    "canonical_name": "Eugene, OR",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_eedb043f\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_9ba60036",
+    "canonical_name": "Flint, MI",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_9ba60036\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_254d227a",
+    "canonical_name": "Fort Collins, CO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_254d227a\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_47b59fac",
+    "canonical_name": "Fort Worth, TX",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_47b59fac\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_c94decbe",
+    "canonical_name": "Fresno, CA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c94decbe\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_5c4c1c64",
+    "canonical_name": "Grand Rapids, MI",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5c4c1c64\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_0e003b8d",
+    "canonical_name": "Greensboro, NC",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0e003b8d\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_400670ba",
+    "canonical_name": "Gresham, OR",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_400670ba\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_fc1b220f",
+    "canonical_name": "Henderson, NV",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_fc1b220f\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_bf66ad64",
+    "canonical_name": "Hillsboro, OR",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_bf66ad64\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_0a922e63",
+    "canonical_name": "Houston, TX",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0a922e63\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_3fbbe606",
+    "canonical_name": "Idaho Falls, ID",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_3fbbe606\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_16a23f41",
+    "canonical_name": "Independence, MO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_16a23f41\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_1ae44e4f",
+    "canonical_name": "Indianapolis, IN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1ae44e4f\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_7e936870",
+    "canonical_name": "Jacksonville, FL",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_7e936870\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_828fab47",
+    "canonical_name": "Kansas City, MO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_828fab47\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_20eb3715",
+    "canonical_name": "Knoxville, TN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_20eb3715\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_1138b2d4",
+    "canonical_name": "Lakewood, CO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1138b2d4\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b0cd67a6",
+    "canonical_name": "Lansing, MI",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b0cd67a6\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_fa4dd02c",
+    "canonical_name": "Las Cruces, NM",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_fa4dd02c\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_f03b8f57",
+    "canonical_name": "Las Vegas, NV",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_f03b8f57\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_6509ecc5",
+    "canonical_name": "Lexington, KY",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_6509ecc5\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_0a31d438",
+    "canonical_name": "Long Beach, CA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0a31d438\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_1f98af58",
+    "canonical_name": "Los Angeles, CA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1f98af58\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_8e6f63cf",
+    "canonical_name": "Louisville, KY",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_8e6f63cf\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_c79509a4",
+    "canonical_name": "Memphis, TN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c79509a4\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_72c8b2f9",
+    "canonical_name": "Meridian, ID",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_72c8b2f9\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_7d043dae",
+    "canonical_name": "Mesa, AZ",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_7d043dae\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_53389926",
+    "canonical_name": "Miami, FL",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_53389926\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_3fad7905",
+    "canonical_name": "Milwaukee, WI",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_3fad7905\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_1fd1b37f",
+    "canonical_name": "Minneapolis, MN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1fd1b37f\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_70af1d0e",
+    "canonical_name": "Nampa, ID",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_70af1d0e\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_154a8fe9",
+    "canonical_name": "Nashville, TN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_154a8fe9\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b5ad2562",
+    "canonical_name": "New Orleans, LA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b5ad2562\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_3d50f2fd",
+    "canonical_name": "New York, NY",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_3d50f2fd\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_9e7d2fb8",
+    "canonical_name": "Norman, OK",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_9e7d2fb8\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_7662680f",
+    "canonical_name": "North Las Vegas, NV",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_7662680f\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_8f664c09",
+    "canonical_name": "Oakland, CA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_8f664c09\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_a2cbee70",
+    "canonical_name": "Oklahoma City, OK",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_a2cbee70\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_127606b4",
+    "canonical_name": "Omaha, NE",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_127606b4\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_1e4fcd97",
+    "canonical_name": "Orem, UT",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_1e4fcd97\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_18d738e7",
+    "canonical_name": "Orlando, FL",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_18d738e7\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_17fcb829",
+    "canonical_name": "Owensboro, KY",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_17fcb829\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_01f3a5ed",
+    "canonical_name": "Philadelphia, PA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_01f3a5ed\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_8635d5db",
+    "canonical_name": "Phoenix, AZ",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_8635d5db\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_49bcf5c9",
+    "canonical_name": "Pittsburgh, PA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_49bcf5c9\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_4ada292b",
+    "canonical_name": "Pocatello, ID",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_4ada292b\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_ab77b2a8",
+    "canonical_name": "Portland, OR",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_ab77b2a8\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b0c51a5d",
+    "canonical_name": "Provo, UT",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b0c51a5d\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_16f77904",
+    "canonical_name": "Raleigh, NC",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_16f77904\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b183167f",
+    "canonical_name": "Reading, PA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b183167f\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_f48df4c8",
+    "canonical_name": "Reno, NV",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_f48df4c8\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_5e423e03",
+    "canonical_name": "Rio Rancho, NM",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5e423e03\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_0d4f6d2f",
+    "canonical_name": "Rochester, MN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_0d4f6d2f\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_e1fe8704",
+    "canonical_name": "Roswell, NM",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_e1fe8704\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_47748120",
+    "canonical_name": "Sacramento, CA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_47748120\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b27a62e8",
+    "canonical_name": "Salem, OR",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b27a62e8\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_9b7d017c",
+    "canonical_name": "Salt Lake City, UT",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_9b7d017c\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_c27d5d7f",
+    "canonical_name": "San Antonio, TX",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c27d5d7f\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_dd17b133",
+    "canonical_name": "San Diego, CA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_dd17b133\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_d2941d41",
+    "canonical_name": "San Francisco, CA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_d2941d41\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_759cd460",
+    "canonical_name": "San Jose, CA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_759cd460\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_60b147f2",
+    "canonical_name": "Santa Fe, NM",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_60b147f2\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_c1a02fde",
+    "canonical_name": "Scottsdale, AZ",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c1a02fde\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b7ea02a9",
+    "canonical_name": "Seattle, WA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b7ea02a9\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_f7bb5b9c",
+    "canonical_name": "Sparks, NV",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_f7bb5b9c\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_852df262",
+    "canonical_name": "Spokane, WA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_852df262\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_82649311",
+    "canonical_name": "Springfield, MO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_82649311\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_2a5ba728",
+    "canonical_name": "St Louis, MO",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_2a5ba728\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_70207d8e",
+    "canonical_name": "St Paul, MN",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_70207d8e\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_936f1437",
+    "canonical_name": "St Petersburg, FL",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_936f1437\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_ef557a57",
+    "canonical_name": "Tacoma, WA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_ef557a57\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_af6fd06c",
+    "canonical_name": "Tampa, FL",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_af6fd06c\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_4cbdb331",
+    "canonical_name": "Toledo, OH",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_4cbdb331\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b903b4d0",
+    "canonical_name": "Tucson, AZ",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b903b4d0\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_936b7d90",
+    "canonical_name": "Tulsa, OK",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_936b7d90\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_82e75d40",
+    "canonical_name": "Vancouver, WA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_82e75d40\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_29cb8e76",
+    "canonical_name": "Virginia Beach, VA",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_29cb8e76\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_5fedc010",
+    "canonical_name": "Washington, DC",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_5fedc010\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_c084361b",
+    "canonical_name": "West Jordan, UT",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_c084361b\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_b6773437",
+    "canonical_name": "West Valley City, UT",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_b6773437\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  },
+  {
+    "city_id": "city_763449ef",
+    "canonical_name": "Winston-Salem, NC",
+    "tile_count": 12,
+    "tile_manifest": ".\\data\\clients\\black_dragon\\globe_materialization\\city_763449ef\\tiles\\tile_manifest.json",
+    "status": "tiles_initialized"
+  }
+]

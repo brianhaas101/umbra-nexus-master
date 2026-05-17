@@ -1,0 +1,246 @@
+{
+    "version":  "black_dragon_seattle_wave2_source_acquisition_manifest_v1",
+    "generated_at":  "2026-05-11T05:09:49.3186798Z",
+    "wave_id":  "tier2_wave_2",
+    "city":  "Seattle",
+    "folder":  "seattle",
+    "state":  "Washington",
+    "state_code":  "WA",
+    "city_id":  "city_seattle_wa",
+    "category_source_acquisition":  [
+                                        {
+                                            "category":  "motorcycle_dealerships",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" motorcycle dealership",
+                                                                   "\"Seattle\" Harley-Davidson dealer",
+                                                                   "\"Seattle\" motorcycle sales"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "motorcycle_repair_and_parts",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" motorcycle repair",
+                                                                   "\"Seattle\" motorcycle parts",
+                                                                   "\"Seattle\" motorcycle accessories"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "riding_clubs",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" motorcycle riding club",
+                                                                   "\"Seattle\" riders association",
+                                                                   "\"Seattle\" motorcycle group"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "rider_training_schools",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" motorcycle safety course",
+                                                                   "\"Seattle\" rider training",
+                                                                   "\"Seattle\" motorcycle training school"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "community_groups",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" community organizations",
+                                                                   "\"Seattle\" local community groups",
+                                                                   "\"Seattle\" neighborhood associations"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "event_venues",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" event venues",
+                                                                   "\"Seattle\" motorcycle events",
+                                                                   "\"Seattle\" community event venue"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "educational_institutes",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" colleges",
+                                                                   "\"Seattle\" technical schools",
+                                                                   "\"Seattle\" adult education"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "local_media_groups",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" local newspaper",
+                                                                   "\"Seattle\" local radio station",
+                                                                   "\"Seattle\" local media outlet"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "business_associations",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" chamber of commerce",
+                                                                   "\"Seattle\" business association",
+                                                                   "\"Seattle\" small business network"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "civic_organizations",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" civic organizations",
+                                                                   "\"Seattle\" public agencies directory",
+                                                                   "\"Seattle\" city services directory"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "public_safety_public_directories",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" police department public directory",
+                                                                   "\"Seattle\" fire department public directory",
+                                                                   "\"Seattle\" emergency management public directory"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "lawful_sporting_or_firearms_organizations",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" lawful sporting club",
+                                                                   "\"Seattle\" shooting sports organization",
+                                                                   "\"Seattle\" firearms training organization public"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "charity_nonprofit_groups",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" nonprofit organizations",
+                                                                   "\"Seattle\" charities",
+                                                                   "\"Seattle\" community nonprofit"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "local_influencer_or_creator_media",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" local creators",
+                                                                   "\"Seattle\" local podcast",
+                                                                   "\"Seattle\" community media"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        },
+                                        {
+                                            "category":  "regional_geospatial_anchors",
+                                            "search_queries":  [
+                                                                   "\"Seattle\" landmarks",
+                                                                   "\"Seattle\" districts",
+                                                                   "\"Seattle\" transportation hubs"
+                                                               ],
+                                            "verified_sources":  [
+
+                                                                 ],
+                                            "rejected_sources":  [
+
+                                                                 ],
+                                            "acquisition_status":  "WAITING_FOR_SOURCE_COLLECTION"
+                                        }
+                                    ],
+    "controls":  {
+                     "entity_creation_allowed":  false,
+                     "runtime_promotion_allowed":  false,
+                     "contact_enablement_allowed":  false,
+                     "placeholder_generation_allowed":  false,
+                     "inferred_contact_generation_allowed":  false,
+                     "source_collection_required_first":  true
+                 },
+    "status":  "SOURCE_ACQUISITION_MANIFEST_READY"
+}

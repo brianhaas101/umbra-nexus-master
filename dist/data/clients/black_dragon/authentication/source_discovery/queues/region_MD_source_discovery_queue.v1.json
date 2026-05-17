@@ -1,0 +1,89 @@
+{
+  "version": "black_dragon_region_MD_source_discovery_queue_v1_batch_089",
+  "generated_at": "2026-05-10T03:16:31.378Z",
+  "client_id": "black_dragon",
+  "region": "MD",
+  "count": 2,
+  "public_source_found": 0,
+  "authentication_pending": 2,
+  "contact_ready": 0,
+  "outreach_allowed": 0,
+  "tasks": [
+    {
+      "discovery_task_id": "BD_SRC_DISC_000596",
+      "entity_id": "BD_BOOK_EXP_01112",
+      "client_id": "black_dragon",
+      "organization_name": "BALTIMORE GANG / VIOLENT CRIME UNIT",
+      "organization_type": "MOTORCYCLE_ORGANIZATION",
+      "city": null,
+      "region": "MD",
+      "original_region": "MD",
+      "country": "USA",
+      "authentication_status": "AUTHENTICATION_PENDING",
+      "source_discovery_status": "SOURCE_DISCOVERY_REQUIRED",
+      "original_source_url": null,
+      "public_source_present": false,
+      "source_validation_required": true,
+      "contact_route_validation_required": true,
+      "manual_review_required": true,
+      "official_source_query": "BALTIMORE GANG / VIOLENT CRIME UNIT MD official website",
+      "official_contact_query": "BALTIMORE GANG / VIOLENT CRIME UNIT MD contact official",
+      "search_queries": [
+        "BALTIMORE GANG / VIOLENT CRIME UNIT MD official website",
+        "BALTIMORE GANG / VIOLENT CRIME UNIT MD contact official",
+        "BALTIMORE GANG / VIOLENT CRIME UNIT MD public records",
+        "BALTIMORE GANG / VIOLENT CRIME UNIT MD official contact"
+      ],
+      "required_validation_checks": [
+        "official_public_source_exists",
+        "organization_name_match",
+        "state_or_region_match",
+        "source_is_not_generated",
+        "contact_route_is_public",
+        "manual_reviewer_approval"
+      ],
+      "visual_review_status": "PENDING_VISUAL_REVIEW",
+      "contact_ready": false,
+      "outreach_allowed": false,
+      "blocked_reason": "Requires official source validation, public contact-route validation, and manual review before contact-ready promotion."
+    },
+    {
+      "discovery_task_id": "BD_SRC_DISC_000597",
+      "entity_id": "BD_BOOK_EXP_01113",
+      "client_id": "black_dragon",
+      "organization_name": "BALTIMORE NARCOTICS / ORGANIZED CRIME UNIT",
+      "organization_type": "MOTORCYCLE_ORGANIZATION",
+      "city": null,
+      "region": "MD",
+      "original_region": "MD",
+      "country": "USA",
+      "authentication_status": "AUTHENTICATION_PENDING",
+      "source_discovery_status": "SOURCE_DISCOVERY_REQUIRED",
+      "original_source_url": null,
+      "public_source_present": false,
+      "source_validation_required": true,
+      "contact_route_validation_required": true,
+      "manual_review_required": true,
+      "official_source_query": "BALTIMORE NARCOTICS / ORGANIZED CRIME UNIT MD official website",
+      "official_contact_query": "BALTIMORE NARCOTICS / ORGANIZED CRIME UNIT MD contact official",
+      "search_queries": [
+        "BALTIMORE NARCOTICS / ORGANIZED CRIME UNIT MD official website",
+        "BALTIMORE NARCOTICS / ORGANIZED CRIME UNIT MD contact official",
+        "BALTIMORE NARCOTICS / ORGANIZED CRIME UNIT MD public records",
+        "BALTIMORE NARCOTICS / ORGANIZED CRIME UNIT MD official contact"
+      ],
+      "required_validation_checks": [
+        "official_public_source_exists",
+        "organization_name_match",
+        "state_or_region_match",
+        "source_is_not_generated",
+        "contact_route_is_public",
+        "manual_reviewer_approval"
+      ],
+      "visual_review_status": "PENDING_VISUAL_REVIEW",
+      "contact_ready": false,
+      "outreach_allowed": false,
+      "blocked_reason": "Requires official source validation, public contact-route validation, and manual review before contact-ready promotion."
+    }
+  ]
+}

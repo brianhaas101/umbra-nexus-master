@@ -1,0 +1,35 @@
+{
+  "version": "nexus_L08_command_normalization_registry_v1",
+  "generated_at": "2026-05-06T04:28:38.424Z",
+  "layer_id": "L08_COMMAND_STRUCTURE",
+  "normalization_rules": {
+    "person_entity_resolution_required": true,
+    "role_title_required": true,
+    "department_or_division_required": true,
+    "authority_path_required": true,
+    "source_trace_required": true,
+    "date_observed_required": true
+  },
+  "normalized_fields": [
+    "person_name",
+    "title",
+    "rank",
+    "department",
+    "division",
+    "authority_type",
+    "decision_role",
+    "training_authority",
+    "procurement_influence",
+    "command_level",
+    "reports_to",
+    "source_category",
+    "confidence_score"
+  ],
+  "blocked_conditions": [
+    "missing_person_or_role",
+    "missing_source_trace",
+    "unverified_command_claim",
+    "unsupported_authority_type",
+    "stale_leadership_record_without_date"
+  ]
+}

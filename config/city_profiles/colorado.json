@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Denver",
+    "gis": "https://www.denvergov.org/opendata/",
+    "open_data": "https://www.denvergov.org/opendata/",
+    "police": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Police-Department",
+    "fire": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Fire-Department",
+    "parks": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Parks-Recreation",
+    "permits": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development",
+    "public_works": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Department-of-Transportation-and-Infrastructure",
+    "schools": "https://www.dpsk12.org/",
+    "council": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Denver-City-Council"
+  },
+  {
+    "city": "Colorado Springs",
+    "gis": "https://gis.coloradosprings.gov/",
+    "open_data": "https://coloradosprings.gov/",
+    "police": "https://coloradosprings.gov/police-department",
+    "fire": "https://coloradosprings.gov/fire-department",
+    "parks": "https://coloradosprings.gov/parks",
+    "permits": "https://coloradosprings.gov/planning-and-development",
+    "public_works": "https://coloradosprings.gov/public-works",
+    "schools": "https://www.d11.org/",
+    "council": "https://coloradosprings.gov/city-council"
+  },
+  {
+    "city": "Aurora",
+    "gis": "https://gis.auroragov.org/",
+    "open_data": "https://www.auroragov.org/",
+    "police": "https://www.auroragov.org/residents/public_safety/police",
+    "fire": "https://www.auroragov.org/residents/public_safety/fire_rescue",
+    "parks": "https://www.auroragov.org/things_to_do/parks__open_space___trails",
+    "permits": "https://www.auroragov.org/business_services/development_center",
+    "public_works": "https://www.auroragov.org/cms/one.aspx?pageId=16224673",
+    "schools": "https://www.aurorak12.org/",
+    "council": "https://www.auroragov.org/city_hall/mayor___city_council"
+  },
+  {
+    "city": "Fort Collins",
+    "gis": "https://gisweb.fcgov.com/",
+    "open_data": "https://www.fcgov.com/opendata/",
+    "police": "https://www.fcgov.com/police/",
+    "fire": "https://www.poudre-fire.org/",
+    "parks": "https://www.fcgov.com/parks/",
+    "permits": "https://www.fcgov.com/building/",
+    "public_works": "https://www.fcgov.com/streets/",
+    "schools": "https://www.psdschools.org/",
+    "council": "https://www.fcgov.com/council/"
+  },
+  {
+    "city": "Lakewood",
+    "gis": "https://www.lakewood.org/Government/Departments/Information-Technology/GIS",
+    "open_data": "https://www.lakewood.org/",
+    "police": "https://www.lakewood.org/Government/Departments/Police",
+    "fire": "https://www.westmetrofire.org/",
+    "parks": "https://www.lakewood.org/Government/Departments/Community-Resources/Parks-Forestry-and-Open-Space",
+    "permits": "https://www.lakewood.org/Government/Departments/Planning",
+    "public_works": "https://www.lakewood.org/Government/Departments/Public-Works",
+    "schools": "https://www.jeffcopublicschools.org/",
+    "council": "https://www.lakewood.org/Government/City-Council"
+  }
+]

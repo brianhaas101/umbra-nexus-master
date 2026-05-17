@@ -1,0 +1,42 @@
+{
+  "version": "black_dragon_client_handoff_package_v1",
+  "generated_at": "2026-05-06T02:09:04.578Z",
+  "client_key": "black_dragon",
+  "status": "LAUNCH_READY_FOR_CONTROLLED_PILOT",
+  "summary": {
+    "synced_targets": 11,
+    "globe_nodes": 11,
+    "dossiers": 11,
+    "states": [
+      "AZ",
+      "CA"
+    ]
+  },
+  "included_assets": {
+    "verified_outreach_targets": 11,
+    "dossier_index": 11,
+    "operational_ui_state": true,
+    "runtime_integrity_audit": true,
+    "launch_readiness_report": true
+  },
+  "client_visible_scope": [
+    "Verified agency targets",
+    "Phone-first contact paths",
+    "Agency dossiers",
+    "Training/command relevance",
+    "Operational status tracking"
+  ],
+  "internal_only_scope": [
+    "Source validators",
+    "Parser code",
+    "Manual verification scripts",
+    "Founder controls",
+    "Raw source cache"
+  ],
+  "next_client_actions": [
+    "Begin calls with verified AZ batch.",
+    "Log call outcomes in outreach_execution_log.json.",
+    "Promote interested agencies into follow-up state.",
+    "Continue CA verification toward 10 verified contacts."
+  ]
+}

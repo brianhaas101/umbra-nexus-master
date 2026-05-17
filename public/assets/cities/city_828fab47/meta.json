@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_828fab47",
+    "name":  "Kansas City, MO",
+    "center_lat":  39.0997,
+    "center_lon":  -94.5786,
+    "bounds":  {
+                   "north":  39.3825,
+                   "south":  38.8398,
+                   "east":  -94.2934,
+                   "west":  -94.8638
+               },
+    "width_m":  49000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_828fab47/base.png"
+}

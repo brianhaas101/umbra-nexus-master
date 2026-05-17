@@ -1,0 +1,29 @@
+{
+  "version": "black_dragon_batch_155_client_access_rollout_audit_v1",
+  "generated_at": "2026-05-10T22:37:01.066Z",
+  "batch": "155_BLACK_DRAGON_CLIENT_ACCESS_ROLLOUT",
+  "counts": {
+    "allowed_cities": 3,
+    "allowed_modules": 7,
+    "forbidden_capabilities": 9,
+    "dashboard_runtime_entities": 88,
+    "client_opportunities": 25,
+    "manual_contact_review_items": 18,
+    "route_issue_review_items": 5
+  },
+  "gates": {
+    "client_permissions_exist": true,
+    "three_city_access": true,
+    "dashboard_visible": true,
+    "opportunity_feed_visible": true,
+    "review_queues_visible": true,
+    "founder_admin_forbidden": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true,
+    "no_delete": true
+  },
+  "certification": "BLACK_DRAGON_CLIENT_ACCESS_READY",
+  "next_phase": "BATCH_156_SOUTHERN_CALIFORNIA_LIVE_RUNTIME_DEPLOYMENT_AUDIT",
+  "status": "PASS"
+}

@@ -1,0 +1,21 @@
+{
+    "version":  "black_dragon_atlanta_geospatial_anchor_candidates_v1",
+    "generated_at":  "2026-05-11T06:02:25.9030057Z",
+    "city":  "Atlanta",
+    "folder":  "atlanta",
+    "anchors":  [
+                    {
+                        "anchor_id":  "geo_anchor_f351eb301c4944eb8f448f821ec9925d",
+                        "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\atlanta\\atlanta_operational_manifest.json",
+                        "city":  "Atlanta",
+                        "folder":  "atlanta",
+                        "geospatial_signal_detected":  true,
+                        "coordinates_verified":  false,
+                        "address_verified":  false,
+                        "manual_review_required":  true,
+                        "runtime_promotion_allowed":  false,
+                        "status":  "QUARANTINED_GEOSPATIAL_ANCHOR_CANDIDATE"
+                    }
+                ],
+    "status":  "GEOSPATIAL_CANDIDATES_QUARANTINED"
+}

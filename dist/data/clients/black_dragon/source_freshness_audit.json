@@ -1,0 +1,43 @@
+{
+  "version": "black_dragon_source_freshness_audit_v1",
+  "generated_at": "2026-05-06T02:09:03.685Z",
+  "total_sources": 4,
+  "sources": [
+    {
+      "state": "CA",
+      "type": "CA_POST_LE_AGENCIES",
+      "url": "https://post.ca.gov/le-agencies",
+      "verified": true,
+      "last_verified_at": "2026-05-06T00:19:09.629Z",
+      "age_days": 0,
+      "freshness_status": "FRESH"
+    },
+    {
+      "state": "FL",
+      "type": "FDLE",
+      "url": "https://www.fdle.state.fl.us/contacts/agency-directory",
+      "verified": true,
+      "last_verified_at": "2026-05-05T06:45:54.693Z",
+      "age_days": 0,
+      "freshness_status": "FRESH"
+    },
+    {
+      "state": "GA",
+      "type": "POST",
+      "url": "https://gapost.org/agency-directory",
+      "verified": true,
+      "last_verified_at": "2026-05-05T06:45:54.693Z",
+      "age_days": 0,
+      "freshness_status": "FRESH"
+    },
+    {
+      "state": "TX",
+      "type": "TCOLE",
+      "url": "https://www.tcole.texas.gov/content/law-enforcement-agencies",
+      "verified": true,
+      "last_verified_at": "2026-05-05T06:45:54.693Z",
+      "age_days": 0,
+      "freshness_status": "FRESH"
+    }
+  ]
+}

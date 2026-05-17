@@ -1,0 +1,19 @@
+﻿{
+    "schema_id":  "layer_10_output_schema",
+    "required":  [
+                     "layer_id",
+                     "record_id",
+                     "composite_score",
+                     "composite_class",
+                     "weight_breakdown",
+                     "penalty_applied",
+                     "audit_timestamp"
+                 ],
+    "composite_classes":  [
+                              "high_confidence_operational_signal",
+                              "qualified_operational_signal",
+                              "watchlist_signal",
+                              "low_confidence_signal",
+                              "rejected_weight_or_score_override"
+                          ]
+}

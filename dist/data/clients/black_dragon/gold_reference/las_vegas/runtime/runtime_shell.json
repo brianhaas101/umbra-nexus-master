@@ -1,0 +1,24 @@
+{
+    "version":  "black_dragon_las_vegas_runtime_shell_v1",
+    "generated_at":  "2026-05-11T00:48:04.6804657Z",
+    "runtime":  {
+                    "runtime_id":  "black_dragon_las_vegas_runtime",
+                    "active":  true,
+                    "state":  "Nevada",
+                    "city":  "Las Vegas",
+                    "city_scope_only":  true,
+                    "statewide_scope_forbidden":  true
+                },
+    "ingestion":  {
+                      "source_count":  0,
+                      "entities_loaded":  0,
+                      "quarantined_entities":  0
+                  },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  }
+}

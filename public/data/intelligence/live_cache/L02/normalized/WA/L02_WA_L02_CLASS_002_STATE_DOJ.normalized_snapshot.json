@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:19.960Z",
+  "layer_id": "L02",
+  "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "WA",
+  "state_name": "Washington",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://www.atg.wa.gov",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "News",
+        "href": "https://www.atg.wa.gov/news",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "News Releases",
+        "href": "https://www.atg.wa.gov/pressrelease.aspx",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "RSS News Feed",
+        "href": "https://www.atg.wa.gov/news/news-releases-rss",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Safeguarding Consumers",
+        "href": "https://www.atg.wa.gov/safeguarding-consumers",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Hate Crimes &amp; Bias Incidents Hotline",
+        "href": "https://www.atg.wa.gov/report-hate",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Campaign Finance Law Enforcement",
+        "href": "https://www.atg.wa.gov/enforcement-campaign-finance-laws",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Crime &amp; Safety",
+        "href": "https://www.atg.wa.gov/crime-safety",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Criminal Justice",
+        "href": "https://www.atg.wa.gov/criminal-justice",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Financial Crimes Unit",
+        "href": "https://www.atg.wa.gov/financial-crimes-unit",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_WA_L02_CLASS_002_STATE_DOJ_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "state_name": "Washington",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:19.960Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.atg.wa.gov",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6cb9f33ccdb867bc3ea6ddd6fa401abb8bcf35b145124d00b4c9e6142a324a66",
+        "parser_id": "L02_WA_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Environmental Justice",
+        "href": "https://www.atg.wa.gov/environmental-justice-initiative",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_WA_L02_CLASS_002_STATE_DOJ_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_WA_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "WA",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    }
+  ],
+  "normalized_snapshot_hash": "3b0333a63ee09d5a4d5be16ab08033d27674d56d6c1494d1b5abd57e2ef4560b"
+}

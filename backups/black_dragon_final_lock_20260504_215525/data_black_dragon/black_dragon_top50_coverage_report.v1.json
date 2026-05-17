@@ -1,0 +1,1534 @@
+{
+  "client_id": "black_dragon_omg_cert_v1",
+  "version": "v1",
+  "generated_at": "2026-05-02T16:50:25.232Z",
+  "source_file": "black_dragon_major_city_targets.v1.json",
+  "totals": {
+    "cities": 50,
+    "cities_with_targets": 3,
+    "cities_missing_targets": 47,
+    "total_targets": 4,
+    "tier_1": 4,
+    "tier_2": 0,
+    "tier_3": 0,
+    "cities_needing_contact_enrichment": 0
+  },
+  "missing_city_list": [
+    {
+      "rank": 1,
+      "city": "New York",
+      "state": "NY",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 2,
+      "city": "Los Angeles",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 3,
+      "city": "Chicago",
+      "state": "IL",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 5,
+      "city": "Phoenix",
+      "state": "AZ",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 6,
+      "city": "Philadelphia",
+      "state": "PA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 7,
+      "city": "San Antonio",
+      "state": "TX",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 8,
+      "city": "San Diego",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 11,
+      "city": "Jacksonville",
+      "state": "FL",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 12,
+      "city": "Austin",
+      "state": "TX",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 13,
+      "city": "San Jose",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 14,
+      "city": "Columbus",
+      "state": "OH",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 15,
+      "city": "Charlotte",
+      "state": "NC",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 16,
+      "city": "Indianapolis",
+      "state": "IN",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 17,
+      "city": "San Francisco",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 18,
+      "city": "Seattle",
+      "state": "WA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 19,
+      "city": "Denver",
+      "state": "CO",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 20,
+      "city": "Oklahoma City",
+      "state": "OK",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 21,
+      "city": "Nashville",
+      "state": "TN",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 22,
+      "city": "El Paso",
+      "state": "TX",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 23,
+      "city": "Washington",
+      "state": "DC",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 24,
+      "city": "Las Vegas",
+      "state": "NV",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 25,
+      "city": "Boston",
+      "state": "MA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 26,
+      "city": "Detroit",
+      "state": "MI",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 27,
+      "city": "Louisville",
+      "state": "KY",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 28,
+      "city": "Memphis",
+      "state": "TN",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 29,
+      "city": "Portland",
+      "state": "OR",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 30,
+      "city": "Baltimore",
+      "state": "MD",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 31,
+      "city": "Milwaukee",
+      "state": "WI",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 32,
+      "city": "Albuquerque",
+      "state": "NM",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 33,
+      "city": "Tucson",
+      "state": "AZ",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 34,
+      "city": "Fresno",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 35,
+      "city": "Sacramento",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 36,
+      "city": "Mesa",
+      "state": "AZ",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 37,
+      "city": "Kansas City",
+      "state": "MO",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 38,
+      "city": "Atlanta",
+      "state": "GA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 39,
+      "city": "Omaha",
+      "state": "NE",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 40,
+      "city": "Colorado Springs",
+      "state": "CO",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 41,
+      "city": "Raleigh",
+      "state": "NC",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 42,
+      "city": "Miami",
+      "state": "FL",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 43,
+      "city": "Virginia Beach",
+      "state": "VA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 44,
+      "city": "Long Beach",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 45,
+      "city": "Oakland",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 46,
+      "city": "Minneapolis",
+      "state": "MN",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 47,
+      "city": "Bakersfield",
+      "state": "CA",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 48,
+      "city": "Tulsa",
+      "state": "OK",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 49,
+      "city": "Tampa",
+      "state": "FL",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 50,
+      "city": "Arlington",
+      "state": "TX",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    }
+  ],
+  "cities": [
+    {
+      "rank": 1,
+      "city_id": "city_ny_new_york",
+      "city": "New York",
+      "state": "NY",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 2,
+      "city_id": "city_ca_los_angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 3,
+      "city_id": "city_il_chicago",
+      "city": "Chicago",
+      "state": "IL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 4,
+      "city_id": "city_tx_houston",
+      "city": "Houston",
+      "state": "TX",
+      "total_targets": 2,
+      "tier_1": 2,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "has_validated_targets",
+      "ingestion_status": "needs_signal_enrichment",
+      "next_needed_sources": [
+        "official_agency_sites",
+        "fbi_doj_press_releases",
+        "local_public_safety_budgets",
+        "state_post_boards"
+      ]
+    },
+    {
+      "rank": 5,
+      "city_id": "city_az_phoenix",
+      "city": "Phoenix",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 6,
+      "city_id": "city_pa_philadelphia",
+      "city": "Philadelphia",
+      "state": "PA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 7,
+      "city_id": "city_tx_san_antonio",
+      "city": "San Antonio",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 8,
+      "city_id": "city_ca_san_diego",
+      "city": "San Diego",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 9,
+      "city_id": "city_tx_dallas",
+      "city": "Dallas",
+      "state": "TX",
+      "total_targets": 1,
+      "tier_1": 1,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "has_validated_targets",
+      "ingestion_status": "needs_signal_enrichment",
+      "next_needed_sources": [
+        "official_agency_sites",
+        "fbi_doj_press_releases",
+        "local_public_safety_budgets",
+        "state_post_boards"
+      ]
+    },
+    {
+      "rank": 10,
+      "city_id": "city_tx_fort_worth",
+      "city": "Fort Worth",
+      "state": "TX",
+      "total_targets": 1,
+      "tier_1": 1,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "has_validated_targets",
+      "ingestion_status": "needs_signal_enrichment",
+      "next_needed_sources": [
+        "official_agency_sites",
+        "fbi_doj_press_releases",
+        "local_public_safety_budgets",
+        "state_post_boards"
+      ]
+    },
+    {
+      "rank": 11,
+      "city_id": "city_fl_jacksonville",
+      "city": "Jacksonville",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 12,
+      "city_id": "city_tx_austin",
+      "city": "Austin",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 13,
+      "city_id": "city_ca_san_jose",
+      "city": "San Jose",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 14,
+      "city_id": "city_oh_columbus",
+      "city": "Columbus",
+      "state": "OH",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 15,
+      "city_id": "city_nc_charlotte",
+      "city": "Charlotte",
+      "state": "NC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 16,
+      "city_id": "city_in_indianapolis",
+      "city": "Indianapolis",
+      "state": "IN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 17,
+      "city_id": "city_ca_san_francisco",
+      "city": "San Francisco",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 18,
+      "city_id": "city_wa_seattle",
+      "city": "Seattle",
+      "state": "WA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 19,
+      "city_id": "city_co_denver",
+      "city": "Denver",
+      "state": "CO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 20,
+      "city_id": "city_ok_oklahoma_city",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 21,
+      "city_id": "city_tn_nashville",
+      "city": "Nashville",
+      "state": "TN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 22,
+      "city_id": "city_tx_el_paso",
+      "city": "El Paso",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 23,
+      "city_id": "city_dc_washington",
+      "city": "Washington",
+      "state": "DC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 24,
+      "city_id": "city_nv_las_vegas",
+      "city": "Las Vegas",
+      "state": "NV",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 25,
+      "city_id": "city_ma_boston",
+      "city": "Boston",
+      "state": "MA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 26,
+      "city_id": "city_mi_detroit",
+      "city": "Detroit",
+      "state": "MI",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 27,
+      "city_id": "city_ky_louisville",
+      "city": "Louisville",
+      "state": "KY",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 28,
+      "city_id": "city_tn_memphis",
+      "city": "Memphis",
+      "state": "TN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 29,
+      "city_id": "city_or_portland",
+      "city": "Portland",
+      "state": "OR",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 30,
+      "city_id": "city_md_baltimore",
+      "city": "Baltimore",
+      "state": "MD",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 31,
+      "city_id": "city_wi_milwaukee",
+      "city": "Milwaukee",
+      "state": "WI",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 32,
+      "city_id": "city_nm_albuquerque",
+      "city": "Albuquerque",
+      "state": "NM",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 33,
+      "city_id": "city_az_tucson",
+      "city": "Tucson",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 34,
+      "city_id": "city_ca_fresno",
+      "city": "Fresno",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 35,
+      "city_id": "city_ca_sacramento",
+      "city": "Sacramento",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 36,
+      "city_id": "city_az_mesa",
+      "city": "Mesa",
+      "state": "AZ",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 37,
+      "city_id": "city_mo_kansas_city",
+      "city": "Kansas City",
+      "state": "MO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 38,
+      "city_id": "city_ga_atlanta",
+      "city": "Atlanta",
+      "state": "GA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 39,
+      "city_id": "city_ne_omaha",
+      "city": "Omaha",
+      "state": "NE",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 40,
+      "city_id": "city_co_colorado_springs",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 41,
+      "city_id": "city_nc_raleigh",
+      "city": "Raleigh",
+      "state": "NC",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 42,
+      "city_id": "city_fl_miami",
+      "city": "Miami",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 43,
+      "city_id": "city_va_virginia_beach",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 44,
+      "city_id": "city_ca_long_beach",
+      "city": "Long Beach",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 45,
+      "city_id": "city_ca_oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 46,
+      "city_id": "city_mn_minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 47,
+      "city_id": "city_ca_bakersfield",
+      "city": "Bakersfield",
+      "state": "CA",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 48,
+      "city_id": "city_ok_tulsa",
+      "city": "Tulsa",
+      "state": "OK",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 49,
+      "city_id": "city_fl_tampa",
+      "city": "Tampa",
+      "state": "FL",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    },
+    {
+      "rank": 50,
+      "city_id": "city_tx_arlington",
+      "city": "Arlington",
+      "state": "TX",
+      "total_targets": 0,
+      "tier_1": 0,
+      "tier_2": 0,
+      "tier_3": 0,
+      "missing_contact_urls": 0,
+      "coverage_status": "missing_validated_targets",
+      "ingestion_status": "needs_entity_ingestion",
+      "next_needed_sources": [
+        "hifld_expansion",
+        "official_agency_sites",
+        "state_post_boards",
+        "local_public_safety_budgets"
+      ]
+    }
+  ]
+}

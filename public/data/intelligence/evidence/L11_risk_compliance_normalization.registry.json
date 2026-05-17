@@ -1,0 +1,47 @@
+﻿{
+  "version": "nexus_L11_risk_compliance_normalization_registry_v1",
+  "generated_at": "2026-05-08T00:00:00.000Z",
+  "layer_id": "L11",
+  "normalization_rules": {
+    "legal_source_id_required": true,
+    "risk_or_compliance_event_required": true,
+    "entity_or_jurisdiction_required": true,
+    "source_trace_required": true,
+    "date_observed_required": true,
+    "entity_linking_required": true
+  },
+  "normalized_fields": [
+    "legal_source",
+    "risk_event_type",
+    "case_reference",
+    "docket_reference",
+    "violation_reference",
+    "audit_reference",
+    "sanction_reference",
+    "settlement_reference",
+    "complaint_reference",
+    "investigation_reference",
+    "entity_name",
+    "agency_name",
+    "organization_name",
+    "jurisdiction",
+    "state",
+    "county",
+    "city",
+    "related_entity",
+    "signal_type",
+    "signal_value",
+    "legal_relevance",
+    "source_category",
+    "confidence_score",
+    "freshness_score"
+  ],
+  "blocked_conditions": [
+    "missing_legal_source",
+    "missing_risk_or_compliance_event",
+    "missing_source_trace",
+    "unlinked_entity",
+    "unsupported_legal_signal",
+    "unresolved_entity_or_jurisdiction"
+  ]
+}

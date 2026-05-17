@@ -1,0 +1,27 @@
+{
+  "version": "black_dragon_batch_135_live_http_validation_audit_v1",
+  "generated_at": "2026-05-10T20:45:32.516Z",
+  "batch": "135_LIVE_HTTP_ROUTE_VALIDATOR_DRY_RUN_TO_LIMITED_ENABLEMENT",
+  "counts": {
+    "validation_targets": 8,
+    "validation_results": 8,
+    "valid_routes": 5,
+    "timeout_routes": 0,
+    "error_routes": 1,
+    "dead_route_review_items": 3
+  },
+  "gates": {
+    "live_http_validation_enabled": true,
+    "limited_enablement_mode": true,
+    "validation_results_exist": true,
+    "freshness_registry_exists": true,
+    "no_runtime_mutation": true,
+    "no_contact_promotion": false,
+    "no_automated_outreach": false,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_delete_without_quarantine": true
+  },
+  "next_phase": "BATCH_136_RELATIONSHIP_GRAPH_ENGINE_FOUNDATION",
+  "status": "PASS"
+}

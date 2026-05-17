@@ -1,0 +1,526 @@
+{
+    "version":  "black_dragon_las_vegas_verified_source_harvest_queues_v1",
+    "generated_at":  "2026-05-11T05:05:54.9440249Z",
+    "city":  "Las Vegas",
+    "folder":  "las_vegas",
+    "wave_id":  "tier2_wave_1",
+    "harvest_queues":  [
+                           {
+                               "category":  "motorcycle_dealerships",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" motorcycle dealership",
+                                                      "\"Las Vegas\" Harley-Davidson dealer",
+                                                      "\"Las Vegas\" motorcycle sales"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "motorcycle_repair_and_parts",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" motorcycle repair",
+                                                      "\"Las Vegas\" motorcycle parts",
+                                                      "\"Las Vegas\" motorcycle accessories"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "riding_clubs",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" motorcycle riding club",
+                                                      "\"Las Vegas\" riders association",
+                                                      "\"Las Vegas\" motorcycle group"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "rider_training_schools",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" motorcycle safety course",
+                                                      "\"Las Vegas\" rider training",
+                                                      "\"Las Vegas\" motorcycle training school"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "community_groups",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" community organizations",
+                                                      "\"Las Vegas\" local community groups",
+                                                      "\"Las Vegas\" neighborhood associations"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "event_venues",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" event venues",
+                                                      "\"Las Vegas\" motorcycle events",
+                                                      "\"Las Vegas\" community event venue"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "educational_institutes",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" colleges",
+                                                      "\"Las Vegas\" technical schools",
+                                                      "\"Las Vegas\" adult education"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "local_media_groups",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" local newspaper",
+                                                      "\"Las Vegas\" local radio station",
+                                                      "\"Las Vegas\" local media outlet"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "business_associations",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" chamber of commerce",
+                                                      "\"Las Vegas\" business association",
+                                                      "\"Las Vegas\" small business network"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "civic_organizations",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" civic organizations",
+                                                      "\"Las Vegas\" public agencies directory",
+                                                      "\"Las Vegas\" city services directory"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "public_safety_public_directories",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" police department public directory",
+                                                      "\"Las Vegas\" fire department public directory",
+                                                      "\"Las Vegas\" emergency management public directory"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "lawful_sporting_or_firearms_organizations",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" lawful sporting club",
+                                                      "\"Las Vegas\" shooting sports organization",
+                                                      "\"Las Vegas\" firearms training organization public"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "charity_nonprofit_groups",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" nonprofit organizations",
+                                                      "\"Las Vegas\" charities",
+                                                      "\"Las Vegas\" community nonprofit"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "local_influencer_or_creator_media",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" local creators",
+                                                      "\"Las Vegas\" local podcast",
+                                                      "\"Las Vegas\" community media"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           },
+                           {
+                               "category":  "regional_geospatial_anchors",
+                               "search_queries":  [
+                                                      "\"Las Vegas\" landmarks",
+                                                      "\"Las Vegas\" districts",
+                                                      "\"Las Vegas\" transportation hubs"
+                                                  ],
+                               "required_source_types":  [
+                                                             "official_organization_website",
+                                                             "public_business_directory",
+                                                             "public_association_directory",
+                                                             "public_event_or_venue_listing",
+                                                             "public_education_directory",
+                                                             "public_media_directory",
+                                                             "public_civic_directory"
+                                                         ],
+                               "acceptance_gate":  {
+                                                       "public_url_required":  true,
+                                                       "source_must_identify_organization":  true,
+                                                       "source_must_match_city_or_service_area":  true,
+                                                       "source_must_match_category":  true,
+                                                       "no_private_person_data":  true,
+                                                       "no_placeholder_target":  true,
+                                                       "no_unverified_contact":  true,
+                                                       "manual_review_required_before_contact":  true
+                                                   },
+                               "harvest_status":  "READY_FOR_EXTERNAL_OR_LOCAL_SOURCE_COLLECTION",
+                               "accepted_sources":  [
+
+                                                    ],
+                               "rejected_sources":  [
+
+                                                    ]
+                           }
+                       ],
+    "controls":  {
+                     "entity_creation_allowed":  false,
+                     "contact_enablement_allowed":  false,
+                     "placeholder_generation_allowed":  false,
+                     "verified_source_required":  true
+                 },
+    "status":  "SOURCE_HARVEST_QUEUES_READY"
+}

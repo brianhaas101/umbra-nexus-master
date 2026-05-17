@@ -1,0 +1,10 @@
+.\public\data\clients\black_dragon\cities\las_vegas\entity_schema.json:45:                                 "auto_contact_enabled",
+.\public\data\clients\black_dragon\cities\las_vegas\entity_schema.json:46:                                 "runtime_self_mutation",
+.\public\data\clients\black_dragon\cities\las_vegas\contact_governance_policy.json:21:                              "automatic_runtime_promotion",
+.\public\data\clients\black_dragon\cities\las_vegas\contact_governance_policy.json:22:                              "contact_without_manual_review"
+.\public\data\clients\black_dragon\client_access\black_dragon\dashboards\client_dashboard_summary.json:46:    "auto_contact_enabled": false,
+.\public\data\clients\black_dragon\gold_reference\las_vegas\schemas\contact_governance.schema.json:31:      "contains": { "const": "contact_without_manual_review" }
+.\public\data\clients\black_dragon\gold_reference\las_vegas\city\contact_governance_policy.json:21:                              "automatic_runtime_promotion",
+.\public\data\clients\black_dragon\gold_reference\las_vegas\city\contact_governance_policy.json:22:                              "contact_without_manual_review"
+.\public\data\clients\black_dragon\gold_reference\las_vegas\city\entity_schema.json:45:                                 "auto_contact_enabled",
+.\public\data\clients\black_dragon\gold_reference\las_vegas\city\entity_schema.json:46:                                 "runtime_self_mutation",

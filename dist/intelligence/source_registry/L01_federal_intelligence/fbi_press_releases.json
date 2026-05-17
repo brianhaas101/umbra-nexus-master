@@ -1,0 +1,35 @@
+﻿{
+    "source_id":  "fbi_press_releases",
+    "layer_id":  "L01",
+    "source_name":  "FBI Press Releases",
+    "canonical_url":  "https://www.fbi.gov/news/press-releases",
+    "authority_type":  "federal_public_source",
+    "access_method":  "html_or_rss",
+    "refresh_interval":  "daily",
+    "failure_policy":  "fail_closed_no_synthetic_records",
+    "parser_script":  "public/intelligence/layers/L01_federal_intelligence/connectors/fbi_press_releases_connector.js",
+    "normalizer_script":  "public/intelligence/layers/L01_federal_intelligence/normalizers/fbi_press_releases_normalizer.js",
+    "entity_targets":  [
+                           "agency",
+                           "enforcement_notice",
+                           "advisory",
+                           "risk_signal"
+                       ],
+    "score_targets":  [
+                          "authority_score",
+                          "federal_relevance_score",
+                          "freshness_score"
+                      ],
+    "dossier_targets":  [
+                            "federal_sources",
+                            "federal_enforcement_context"
+                        ],
+    "authority_weight":  0.94,
+    "status":  "http_403_blocked",
+    "connector_active":  false,
+    "normalizer_active":  false,
+    "last_refresh":  null,
+    "synthetic_fillers_allowed":  false,
+    "inferred_contacts_allowed":  false,
+    "black_dragon_coupling":  false
+}

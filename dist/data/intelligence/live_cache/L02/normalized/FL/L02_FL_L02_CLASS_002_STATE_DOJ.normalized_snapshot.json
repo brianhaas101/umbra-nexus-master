@@ -1,0 +1,428 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:31:07.299Z",
+  "layer_id": "L02",
+  "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+  "state_abbr": "FL",
+  "state_name": "Florida",
+  "source_type": "STATE_DOJ",
+  "canonical_url": "https://www.myfloridalegal.com",
+  "status": "NORMALIZED_FROM_LIVE_FETCH",
+  "evidence": [
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Meet the Attorney General",
+        "href": "https://www.myfloridalegal.com/ag-bio",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Attorney General James Uthmeier",
+        "href": "https://www.myfloridalegal.com/ag-bio",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Protection",
+        "href": "https://www.myfloridalegal.com/consumer-protection",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Alerts",
+        "href": "https://www.myfloridalegal.com/consumer-protection/consumer-alerts",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Criminal Justice Programs",
+        "href": "https://www.myfloridalegal.com/criminal-justice",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Seniors vs. Crime",
+        "href": "https://www.myfloridalegal.com/seniors-vs-crime",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Meet the Attorney General",
+        "href": "https://www.myfloridalegal.com/ag-bio",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Attorney General James Uthmeier",
+        "href": "https://www.myfloridalegal.com/ag-bio",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Protection",
+        "href": "https://www.myfloridalegal.com/consumer-protection",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    },
+    {
+      "evidence_id": "L02_FL_L02_CLASS_002_STATE_DOJ_EVIDENCE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "state_name": "Florida",
+      "source_type": "STATE_DOJ",
+      "captured_at": "2026-05-09T01:31:07.299Z",
+      "confidence": 0.9,
+      "lineage": {
+        "canonical_url": "https://www.myfloridalegal.com",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "1fb25cd66b86d0209eaac4f654d22af32186f13f65554d03d9ef067ebad55de3",
+        "parser_id": "L02_FL_L02_CLASS_002_STATE_DOJ_HTML_LINK_PARSER_V1",
+        "normalizer_id": "L02_STATE_NORMALIZER_V1"
+      },
+      "record": {
+        "label": "Consumer Alerts",
+        "href": "https://www.myfloridalegal.com/consumer-protection/consumer-alerts",
+        "record_type": "state_doj_state_authority_reference"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_001",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_002",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_003",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_004",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_005",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_006",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_007",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_008",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_009",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SIGNAL_010",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "signal_type": "STATE_DOJ_AUTHORITY_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_001",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_002",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_003",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_004",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_005",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_006",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_007",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_008",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_009",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "L02_FL_L02_CLASS_002_STATE_DOJ_SCORE_010",
+      "layer_id": "L02",
+      "connector_id": "L02_FL_L02_CLASS_002_STATE_DOJ",
+      "state_abbr": "FL",
+      "source_type": "STATE_DOJ",
+      "score_delta": 8,
+      "confidence": 0.9
+    }
+  ],
+  "normalized_snapshot_hash": "805ce42d6edb1a233932bdf790a9d0dab8f7c7c9f6652b6af7f2baccdd40b161"
+}

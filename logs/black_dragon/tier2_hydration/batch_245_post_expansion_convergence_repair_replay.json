@@ -1,0 +1,145 @@
+{
+    "batch":  "245",
+    "version":  "black_dragon_post_expansion_convergence_repair_replay_v1",
+    "generated_at":  "2026-05-11T06:57:10.3018833Z",
+    "city_results":  [
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_POST_EXPANSION_REPAIR_REPLAY"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_POST_EXPANSION_REPAIR_REPLAY"
+                         },
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_POST_EXPANSION_REPAIR_REPLAY"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_POST_EXPANSION_REPAIR_REPLAY"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "observed":  {
+                                              "validated_sources":  1,
+                                              "geospatial_candidates":  1,
+                                              "organization_candidates":  0,
+                                              "relationship_candidates":  0,
+                                              "ranked_entities":  0
+                                          },
+                             "gaps":  {
+                                          "validated_sources":  18,
+                                          "geospatial_candidates":  17,
+                                          "organization_candidates":  15,
+                                          "relationship_candidates":  30,
+                                          "ranked_entities":  15
+                                      },
+                             "density_gate_passed":  false,
+                             "invalid_json_count":  0,
+                             "invalid_json":  [
+
+                                              ],
+                             "status":  "PASS_POST_EXPANSION_REPAIR_REPLAY"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  5,
+                    "failed_count":  0,
+                    "density_gate_passed_count":  0,
+                    "density_gate_passed_cities":  [
+                                                       null
+                                                   ]
+                },
+    "hardlocks":  {
+                      "no_synthetic_fillers":  true,
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_POST_EXPANSION_CONVERGENCE_REPAIR_REPLAY_COMPLETE"
+}

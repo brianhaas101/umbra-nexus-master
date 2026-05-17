@@ -1,0 +1,13 @@
+{
+  "version": "nexus_L02_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-09T01:34:14.838Z",
+  "layer_id": "L02",
+  "connector_id": "L02_TX_L02_CLASS_005_STATE_ACADEMY",
+  "state_abbr": "TX",
+  "source_type": "STATE_ACADEMY",
+  "status": "NORMALIZED_FETCH_EMPTY_OR_FAILED",
+  "evidence": [],
+  "signals": [],
+  "score_components": [],
+  "normalized_snapshot_hash": "60a979bfdda05605ef6fd03ceb5f547af16a96c42d026decb4d522865356006e"
+}

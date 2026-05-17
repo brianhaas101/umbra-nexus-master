@@ -1,0 +1,31 @@
+{
+  "version": "black_dragon_books_batch_016_public_contact_population_audit_v1",
+  "generated_at": "2026-05-09T02:32:56.781Z",
+  "totals": {
+    "enriched_contacts": 13,
+    "with_contact_paths": 10,
+    "high_contactability": 0,
+    "medium_contactability": 0,
+    "low_contactability": 10,
+    "none_contactability": 3,
+    "priority_targets": 13,
+    "critical_priority": 0,
+    "high_priority": 0,
+    "medium_priority": 4,
+    "low_priority": 9
+  },
+  "integrity": {
+    "missing_entity_ids": 0,
+    "invalid_contact_scores": 0,
+    "missing_priority_scores": 0,
+    "missing_recommended_actions": 0
+  },
+  "operational_state": {
+    "real_public_contact_routes_loaded": true,
+    "contactability_recomputed": true,
+    "priority_index_recomputed": true,
+    "client_view_rebuilt": true,
+    "kpi_layer_rebuilt": true
+  },
+  "pass": true
+}

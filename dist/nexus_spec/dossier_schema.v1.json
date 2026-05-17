@@ -1,0 +1,96 @@
+{
+  "version": "v1",
+  "contract": {
+    "must_be_reproducible": true,
+    "must_be_auditable": true,
+    "must_be_legally_defensible": true,
+    "must_be_explainable_to_non_technical": true,
+    "no_illegal_sources": true,
+    "no_unsupported_claims": true,
+    "must_label_inference": true
+  },
+  "entity_identity_fields": [
+    "entity_id",
+    "entity_type",
+    "city_id",
+    "name",
+    "location.city",
+    "location.state",
+    "location.country",
+    "lat",
+    "lon"
+  ],
+  "required_sections": [
+    {
+      "key": "executive_summary",
+      "label": "Executive Summary",
+      "required": true,
+      "hard_reject_if_missing": true,
+      "must_include": ["why_this_is_a_lead", "key_risks", "recommended_next_action"]
+    },
+    {
+      "key": "scores_and_rationale",
+      "label": "Scores & Rationale",
+      "required": true,
+      "hard_reject_if_missing": true,
+      "must_include": ["scores.umbraScore", "score_breakdown", "confidence", "data_coverage"]
+    },
+    {
+      "key": "city_macro_context",
+      "label": "City Macro Context",
+      "required": true,
+      "hard_reject_if_missing": true,
+      "must_include": ["city_rank", "dominant_vertical", "macro_state", "macro_rate_of_change"]
+    },
+    {
+      "key": "intent_activity_signals",
+      "label": "Intent / Activity Signals",
+      "required": false,
+      "hard_reject_if_missing": false,
+      "fields_from_payload": ["intent", "activity", "behavior"],
+      "missing_behavior": "reduce_confidence_only"
+    },
+    {
+      "key": "assets_and_capacity",
+      "label": "Assets / Capacity",
+      "required": false,
+      "hard_reject_if_missing": false,
+      "fields_from_payload": ["vehicle", "pricing", "wealth", "influence"],
+      "missing_behavior": "reduce_confidence_only"
+    },
+    {
+      "key": "affiliations_and_network",
+      "label": "Affiliations / Network",
+      "required": false,
+      "hard_reject_if_missing": false,
+      "notes": "Only include if present in lawful sources or explicitly provided in data. No guessing."
+    },
+    {
+      "key": "compliance_and_sources",
+      "label": "Compliance & Sources",
+      "required": true,
+      "hard_reject_if_missing": true,
+      "must_include": ["sources[]", "_src.loadedFrom", "_src.loadedAt", "inference_labels_if_any"]
+    }
+  ],
+  "premium_fields_policy": {
+    "net_worth": {
+      "allowed": true,
+      "required": false,
+      "rule": "only_if_public_and_cited; otherwise omit",
+      "must_label_inference": true
+    },
+    "buying_psychology": {
+      "allowed": true,
+      "required": false,
+      "rule": "only_from_observed_behavior/intent/activity; never claim mind-reading; must cite basis",
+      "must_label_inference": true
+    },
+    "properties_owned_investments": {
+      "allowed": true,
+      "required": false,
+      "rule": "only_if_public_and_cited; otherwise omit",
+      "must_label_inference": true
+    }
+  }
+}

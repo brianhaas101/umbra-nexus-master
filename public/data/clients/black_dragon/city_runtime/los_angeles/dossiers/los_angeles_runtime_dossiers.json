@@ -1,0 +1,385 @@
+{
+  "version": "black_dragon_los_angeles_runtime_dossiers_v1",
+  "generated_at": "2026-05-10T21:19:10.846Z",
+  "city": "Los Angeles",
+  "state": "CA",
+  "dossier_count": 10,
+  "dossiers": [
+    {
+      "dossier_id": "BD_LA_DOSSIER_00001",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00003",
+      "organization_name": "Born-Free Motorcycle Show Los Angeles Community",
+      "city_rank": 1,
+      "priority_tier": "HOT",
+      "best_score": 9,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "Born-Free Motorcycle Show Los Angeles Community is a Los Angeles EVENT_COMMUNITY_NETWORK candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 9.2,
+        "estimated_conversion_score": 8.75,
+        "cross_city_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_ENTITY",
+        "founder_review_required": false,
+        "source_layers": [
+          "EVENT_DISCOVERY",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00003_001",
+            "source_name": "CycleFish",
+            "source_category": "EVENT_DISCOVERY",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          },
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00003_002",
+            "source_name": "Eventbrite Motorcycle Events",
+            "source_category": "EVENT_DISCOVERY",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00002",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00001",
+      "organization_name": "Bartels' Harley-Davidson",
+      "city_rank": 2,
+      "priority_tier": "HOT",
+      "best_score": 8.96,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "Bartels' Harley-Davidson is a Los Angeles MOTORCYCLE_DEALERSHIP candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 8.85,
+        "estimated_conversion_score": 9.1,
+        "cross_city_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_ENTITY",
+        "founder_review_required": false,
+        "source_layers": [
+          "DEALERSHIP_NETWORK",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00001_001",
+            "source_name": "Harley-Davidson Dealer Network",
+            "source_category": "DEALERSHIP_NETWORK",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00003",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00004",
+      "organization_name": "Bike Shed Moto Co Los Angeles",
+      "city_rank": 3,
+      "priority_tier": "WARM",
+      "best_score": 8.89,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "Bike Shed Moto Co Los Angeles is a Los Angeles MOTORCYCLE_COMMUNITY_VENUE candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 9.05,
+        "estimated_conversion_score": 8.7,
+        "cross_city_duplicate_detected": true,
+        "duplicate_resolution": "KEEP_SEPARATE_CITY_CONTEXT",
+        "founder_review_required": true,
+        "source_layers": [
+          "COMMUNITY_VENUES",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00004_001",
+            "source_name": "Moto Community Venues",
+            "source_category": "COMMUNITY_VENUES",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00004",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00005",
+      "organization_name": "Roland Sands Design",
+      "city_rank": 4,
+      "priority_tier": "WARM",
+      "best_score": 8.85,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "Roland Sands Design is a Los Angeles CUSTOM_MOTORCYCLE_BRAND candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 9.1,
+        "estimated_conversion_score": 8.55,
+        "cross_city_duplicate_detected": true,
+        "duplicate_resolution": "KEEP_SEPARATE_CITY_CONTEXT",
+        "founder_review_required": true,
+        "source_layers": [
+          "MEDIA_AND_BRANDS",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00005_001",
+            "source_name": "Motorcycle Creator Networks",
+            "source_category": "MEDIA_AND_BRANDS",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00005",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00002",
+      "organization_name": "Deus Ex Machina Los Angeles",
+      "city_rank": 5,
+      "priority_tier": "WARM",
+      "best_score": 8.72,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "Deus Ex Machina Los Angeles is a Los Angeles MOTORCYCLE_CULTURE_VENUE candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 8.94,
+        "estimated_conversion_score": 8.45,
+        "cross_city_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_ENTITY",
+        "founder_review_required": false,
+        "source_layers": [
+          "COMMUNITY_VENUES",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00002_001",
+            "source_name": "Moto Community Venues",
+            "source_category": "COMMUNITY_VENUES",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00006",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00007",
+      "organization_name": "Biltwell Inc.",
+      "city_rank": 6,
+      "priority_tier": "WARM",
+      "best_score": 8.69,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "Biltwell Inc. is a Los Angeles MOTORCYCLE_BRAND candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 8.92,
+        "estimated_conversion_score": 8.4,
+        "cross_city_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_ENTITY",
+        "founder_review_required": false,
+        "source_layers": [
+          "MEDIA_AND_BRANDS",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00007_001",
+            "source_name": "Motorcycle Creator Networks",
+            "source_category": "MEDIA_AND_BRANDS",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00007",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00010",
+      "organization_name": "ChopCult Los Angeles Community",
+      "city_rank": 7,
+      "priority_tier": "WARM",
+      "best_score": 8.59,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "ChopCult Los Angeles Community is a Los Angeles DIGITAL_MOTORCYCLE_COMMUNITY candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 8.98,
+        "estimated_conversion_score": 8.12,
+        "cross_city_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_ENTITY",
+        "founder_review_required": false,
+        "source_layers": [
+          "MEDIA_AND_BRANDS",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00010_001",
+            "source_name": "Motorcycle Creator Networks",
+            "source_category": "MEDIA_AND_BRANDS",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00008",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00006",
+      "organization_name": "The Congregation Show",
+      "city_rank": 8,
+      "priority_tier": "WARM",
+      "best_score": 8.53,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "The Congregation Show is a Los Angeles MOTORCYCLE_EVENT_NETWORK candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 8.78,
+        "estimated_conversion_score": 8.22,
+        "cross_city_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_ENTITY",
+        "founder_review_required": false,
+        "source_layers": [
+          "EVENT_DISCOVERY",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00006_001",
+            "source_name": "Motorcycle Event Networks",
+            "source_category": "EVENT_DISCOVERY",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00009",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00009",
+      "organization_name": "Cycle Gear Los Angeles",
+      "city_rank": 9,
+      "priority_tier": "WARM",
+      "best_score": 8.25,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "Cycle Gear Los Angeles is a Los Angeles MOTORCYCLE_GEAR_STORE candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 8.18,
+        "estimated_conversion_score": 8.34,
+        "cross_city_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_ENTITY",
+        "founder_review_required": false,
+        "source_layers": [
+          "DEALERSHIP_NETWORK",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00009_001",
+            "source_name": "PowerSports Dealer Registries",
+            "source_category": "DEALERSHIP_NETWORK",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    },
+    {
+      "dossier_id": "BD_LA_DOSSIER_00010",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00008",
+      "organization_name": "Los Angeles Motorcycle Riders Meetup",
+      "city_rank": 10,
+      "priority_tier": "REVIEW",
+      "best_score": 8.23,
+      "city": "Los Angeles",
+      "state": "CA",
+      "summary": "Los Angeles Motorcycle Riders Meetup is a Los Angeles RIDING_COMMUNITY_NETWORK candidate identified for Black Dragon book-sale propagation and manual review.",
+      "intelligence_fields": {
+        "estimated_influence_score": 8.44,
+        "estimated_conversion_score": 7.98,
+        "cross_city_duplicate_detected": false,
+        "duplicate_resolution": "UNIQUE_ENTITY",
+        "founder_review_required": false,
+        "source_layers": [
+          "COMMUNITY_NETWORKS",
+          "LOS_ANGELES_DISCOVERY_IMPORT"
+        ],
+        "source_records": [
+          {
+            "source_record_id": "BD_LA_SOURCE_RECORD_00008_001",
+            "source_name": "Meetup Riding Groups",
+            "source_category": "COMMUNITY_NETWORKS",
+            "source_lineage_type": "DISCOVERY_SOURCE"
+          }
+        ]
+      },
+      "operational_status": {
+        "dossier_visible": true,
+        "runtime_visible": true,
+        "contact_ready": false,
+        "automated_outreach_allowed": false,
+        "manual_review_required": true
+      }
+    }
+  ]
+}

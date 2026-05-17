@@ -1,0 +1,36 @@
+{
+    "version":  "black_dragon_las_vegas_validated_sources_v1",
+    "generated_at":  "2026-05-11T06:02:26.1539866Z",
+    "city":  "Las Vegas",
+    "folder":  "las_vegas",
+    "validated_sources":  [
+                              {
+                                  "source_id":  "validated_source_9aad62c4117342129a515e6b90a595bf",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\las_vegas_operational_manifest.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  false,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_676a4ef5a5624b7eb246ca30e9bd3553",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\gold_reference\\las_vegas\\city\\las_vegas_operational_manifest.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  false,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              }
+                          ],
+    "rejected_sources":  [
+
+                         ],
+    "status":  "LOCAL_SOURCE_VALIDATION_COMPLETE"
+}

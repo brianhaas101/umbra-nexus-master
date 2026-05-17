@@ -1,0 +1,620 @@
+﻿{
+    "freeze_id":  "L01_post_hardening_final_freeze",
+    "frozen_at":  "2026-05-14T03:02:15.8988630Z",
+    "repo":  "C:\\Dev\\Nexus_MASTER",
+    "canonical_live_verified":  10,
+    "expansion_live_verified":  5,
+    "total_verified_federal_sources":  15,
+    "final_backbone_verifier":  "L01_FINAL_BACKBONE_VERIFIER_PASS",
+    "full_requirements_test":  "L01_FULL_REQUIREMENTS_TEST_PASS",
+    "hardening_verifier":  "L01_HARDENING_VERIFIER_PASS",
+    "secret_leakage_scan":  "L01_SECRET_LEAKAGE_SCAN_PASS",
+    "client_paths_touched":  false,
+    "files":  [
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\activation_policy.json",
+                      "sha256":  "F8490698FEDA93BA42960C1EC3E1839957A232196FA671964D97175A7B0A61D1",
+                      "bytes":  968
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\connector_operational_policies.json",
+                      "sha256":  "600AE3EB364B1CE1F5B376CB7091C8116E1711D0E5EAB8BAC75769745BF11B8E",
+                      "bytes":  621
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\connector_parser_contract.json",
+                      "sha256":  "23F65E0744913D52154C413E23DE35A9421250191022B251733E098B7BA9BEEA",
+                      "bytes":  1223
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\deferred_activation_contracts.json",
+                      "sha256":  "B642747E21886CD4870D16A0DC89480B97D00E187FC91DE644F8F808C9F28FDF",
+                      "bytes":  1641
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\dossier_contract.json",
+                      "sha256":  "95398453B5BB62DCF97B2E24EDD6B38BD4A38E123811518171B0D3756BC3DBB9",
+                      "bytes":  750
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\entity_contribution_schema.json",
+                      "sha256":  "156E34AF9AE5BA51049A961A110B096A543EC479916A89433588B40535BDA1F0",
+                      "bytes":  836
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\expansion_promotion_policy.json",
+                      "sha256":  "45F71C5F84E3CF71A6DFB9294F8A1EE7B1E4D0F4B6350540F1AF6FEE5600E26B",
+                      "bytes":  434
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\federal_access_acquisition_plan.json",
+                      "sha256":  "9AA46AEA8EC299B4815F108F13234FDC0CCBF6B4EDA6887E9141A76F5C7ECB03",
+                      "bytes":  1925
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\federal_entity_mapping_rules.json",
+                      "sha256":  "9796F65E6AE14AEA6F98FA739EE5EF86B1F1B9A94ADDD42198BAE98885F66F68",
+                      "bytes":  1313
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\patch_protocol.json",
+                      "sha256":  "01933980F3ACABFFED1BFE1FCD88FDDF7E798387E0395236B7B69543F261295D",
+                      "bytes":  491
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\pipeline_bridge_contract.json",
+                      "sha256":  "9EDF427012BA69E767020BC2CBE841B9FBE797444AC48E7BBFADA3C7194BE9EA",
+                      "bytes":  437
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\raw_record_envelope_schema.json",
+                      "sha256":  "C455466FBC0428B08F9BD4DB641CBBDFC315B63A6C393464C7ADB30B7864767D",
+                      "bytes":  1111
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\replay_snapshot_archive_contract.json",
+                      "sha256":  "F329CCA9A25E6D1F45DF2CC691E0B9EBA764FADB966FD4501D342739F791E4EE",
+                      "bytes":  330
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\scoring_contract.json",
+                      "sha256":  "B928C7A95CEB4AB02C43888D7BE8186673CBC026F87CB35D27F449C8BC2D54F3",
+                      "bytes":  1146
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\source_acquisition_resolver.json",
+                      "sha256":  "8C1AC2F1E5C565A491229D15E60D77DFE7B46EF7D968FD791AE374DBA7E62658",
+                      "bytes":  2263
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\source_drift_detector.json",
+                      "sha256":  "1048B267798C20CE61C57079FE5AA06E7BB2740C219001610D700AFB78B6F459",
+                      "bytes":  306
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\source_modernization_plan.json",
+                      "sha256":  "9428370C180987175F69C75453A65BC02FCCFF11A85FFD53DB02D737677463EF",
+                      "bytes":  1450
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\schemas\\source_specific_extraction_mappings.json",
+                      "sha256":  "925A9F123121B8C68BF2BCF5A338BB829BD9099E3CC2E2F165FA1927202CD053",
+                      "bytes":  1692
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_access_acquisition_plan_test.js",
+                      "sha256":  "E638B02DB883F2892853EEF7861B7F63C0DB9C179729189499116942638B4EFC",
+                      "bytes":  1041
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_atf_public_advisories_live_test.js",
+                      "sha256":  "002ECAA94D0130C09987C7E83BF4DDE0296AA76396BA1499F3F7DE685033DC00",
+                      "bytes":  1458
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_bja_grant_systems_live_test.js",
+                      "sha256":  "16D240D27C1A0AE43F1DD9600100AE6DEC6AB59FA3E0F9CD03B604D7F0028D4C",
+                      "bytes":  1443
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_cbp_corridor_reports_live_test.js",
+                      "sha256":  "BBCFCB7E10BB6C77CAE82E9BF43F51F37A7C357AEFE18780BD19FD2BFF8F13E6",
+                      "bytes":  467
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_cbp_newsroom_live_test.js",
+                      "sha256":  "25A467B967C7CED10E1995143C9DC0C3D55B8D5577A8569193FD547283C36708",
+                      "bytes":  425
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_cisa_advisories_live_test.js",
+                      "sha256":  "834E9D77DD6626F75AA056DACCEE0992961126781DE7CCBD5B7C00BB986CA0E8",
+                      "bytes":  424
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_completion_verifier.js",
+                      "sha256":  "CA8A7BE41ABCEAB2DE905B1042354B0675F0BF0D0A34104760463D5B5D4E895B",
+                      "bytes":  2394
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_connector_sandbox.js",
+                      "sha256":  "0C3BAE60E4F766B6984571EA5DF668A856C626D6685A9B07CE0D9F584A172712",
+                      "bytes":  3154
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_data_gov_crime_catalog_live_test.js",
+                      "sha256":  "4E8E216FC5C87BB3C65B89FCFDE06019BFDE55507564DB7664DC2E51E894970D",
+                      "bytes":  465
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_dea_public_reports_live_test.js",
+                      "sha256":  "F15DDAAE5D617F494E1023DBE7FB8BD9CDF84B6E2DA1ABB4E34F42E74080F3F7",
+                      "bytes":  1431
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_dhs_advisories_live_test.js",
+                      "sha256":  "9F6EF589AB864D785AA4F1F2EE1928EE3593D854F349003097A44EF5FF8C510F",
+                      "bytes":  1412
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_doj_announcements_live_test.js",
+                      "sha256":  "3C7AD3C3B7C61EED9A43CB2A10B2BE159B144104E5C80B4EF31CF4B803A71B46",
+                      "bytes":  1560
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_doj_rss_live_test.js",
+                      "sha256":  "D3056D71D0146E0563714496FD0B2078E699B7A4D86E3E909273F7F8594992BB",
+                      "bytes":  405
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_dossier_append.js",
+                      "sha256":  "F22655FD40BDAF76B61B3EE62490643F273F9A27B07C47471C9D3F6608B68CE4",
+                      "bytes":  970
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_failure_tests.js",
+                      "sha256":  "CFB8AE30783953AEC137950EF6F1A564950A53D634CF7262F37F58C78B98EECE",
+                      "bytes":  1713
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fbi_cde_api_live_test.js",
+                      "sha256":  "61FED49C4C73A398DCF54D9693F37763225C2B4CAF3DB94AAD6ABEF79CE83615",
+                      "bytes":  428
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fbi_cde_endpoint_probe.js",
+                      "sha256":  "5BECAE4705975B7BFBE74F43744154DC47F86724CCB3144B6A8C3FF6A7677F0C",
+                      "bytes":  1544
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fbi_cde_live_test.js",
+                      "sha256":  "CC07FB45C518E95E23667ED403885D29EB13D8ACF9C79DBC2527526E72AD837E",
+                      "bytes":  1355
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fbi_field_offices_live_test.js",
+                      "sha256":  "99FB9921E833C4CFA01D052F92A85C141E56F2102327AF8A56D8495C8B124088",
+                      "bytes":  448
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fbi_press_releases_live_test.js",
+                      "sha256":  "674C636A01172BCEBD764B2EBED339660109F13541761E11409373934E4918F4",
+                      "bytes":  428
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fbi_ucr_api_live_test.js",
+                      "sha256":  "AD166DEEA182BB90A3342246B4EC7BA4C263EA60BFEB5A8C854BD87336442B33",
+                      "bytes":  396
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fema_bja_source_probe.js",
+                      "sha256":  "E77122ACE1852B3DA64FDED3F089AF7493A472B018E83F019B5C10E7FEF80D27",
+                      "bytes":  1505
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fema_grants_live_test.js",
+                      "sha256":  "55E90DB5672C33098BA48140EB22683FB90B4131A786DCD6340D7C69D9AFD6B7",
+                      "bytes":  1400
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_final_backbone_verifier.js",
+                      "sha256":  "215E6A48908FF083B85A71D55DE033178BC6B664BEB55D05D312797E3FB5CAC3",
+                      "bytes":  2887
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_freeze_verifier.js",
+                      "sha256":  "3134E7ECF3738A3745DFEABEFC2F914A5F8A8C62686DECF79B1D28CC13DEA294",
+                      "bytes":  1043
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_full_requirements_test.js",
+                      "sha256":  "257036A2CAFB847424BF763E4839095350DF18DA360803F5C3BB29402C084B7A",
+                      "bytes":  1592
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_fusion_center_advisories_live_test.js",
+                      "sha256":  "8A858EFA588CA257D805DA8B5F729AB628587241303B4A3BDD04D388A92E34F5",
+                      "bytes":  481
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_grants_gov_opportunities_live_test.js",
+                      "sha256":  "9C6A9B6770640274D3B1087ECD9E5874E115074CD0D87C7D6C15F00ED29015EC",
+                      "bytes":  463
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_ice_news_releases_live_test.js",
+                      "sha256":  "A7343CA49DEB559813716B44E088938595B84BFA2829920DEBA0FFF00E694D18",
+                      "bytes":  440
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_ingestion_runner.js",
+                      "sha256":  "F54F4E2D09F851B9D4B6E81C307EB1EEE42CB7D3B4FBBBFD5590B140F3D7F93A",
+                      "bytes":  1589
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_nist_cyber_publications_live_test.js",
+                      "sha256":  "588E4745DD01E6AEDE548CC00F08B47E01E5131FB7A5C964B467716FBD815968",
+                      "bytes":  454
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_pipe01_bridge.js",
+                      "sha256":  "40709097A56F301625D379F23B5092FF9F60BCE7AF4E686F9316FF8DDB16FB35",
+                      "bytes":  802
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_promotion_gate.js",
+                      "sha256":  "E45062987DCB7EE583BF3015E26778287E90E14AA7563063E58E4D997318FA21",
+                      "bytes":  1519
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_promotion_gate_test.js",
+                      "sha256":  "5AD776AA59C21DF605941509CCFDFE8324D1C1C2E4E8C6C4E5148EE9AF7915A3",
+                      "bytes":  527
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_provenance_trace.js",
+                      "sha256":  "39C3625E6F05D7AEA6168494621B228188D4AD2B25FCCCF6BCCE75FF68597BFA",
+                      "bytes":  1029
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_replay_hash.js",
+                      "sha256":  "C7B3C3A64CCBBF7C9B94BEDD138416C337764A877ED79DB2491B052B42E30454",
+                      "bytes":  526
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_sam_gov_live_test.js",
+                      "sha256":  "901557C8DA3C6F8CC928ECDFBEA4112E7C58AC3556C295EBC4E6F29C3DCBAF2E",
+                      "bytes":  1038
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_sam_single_endpoint_probe.js",
+                      "sha256":  "1493C7F5620CEB703ABC5752594CDB595703BC689332E704B6B7AC0A9EA32076",
+                      "bytes":  540
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_secret_leakage_scan.js",
+                      "sha256":  "7A1C9137A4A956D3063264E1D3D1868FBFD6BC18081CF65254D88B0688C5AC72",
+                      "bytes":  1123
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_secure_env_loader.js",
+                      "sha256":  "65860A0726DE5002565C0495209DF6076BD0BFB31EB295CF7D4595CFE221470C",
+                      "bytes":  970
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_secure_env_test.js",
+                      "sha256":  "A0538CA64A5F25360CEC50A75F72081C528473ADB8496B71E8C7292CBA7F98D6",
+                      "bytes":  144
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_source_acquisition_resolver_test.js",
+                      "sha256":  "01499B5ED44C737FC4E17FD7F267F720677005718EDC493F7601B0F49CF8401B",
+                      "bytes":  851
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_source_modernization_probe.js",
+                      "sha256":  "536084F5B4F68BDDC6DCA1AED83AA23F26AF10CB9062E2B9EFF5D07692401E50",
+                      "bytes":  1416
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_track_a_replacement_probe.js",
+                      "sha256":  "40F440146DF6BEEEEDA326671107775555A877D9E626D4C391AE9FD211BB97AC",
+                      "bytes":  1455
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_usaspending_live_test.js",
+                      "sha256":  "CE66C2232A0FF4F1D99CA798A374601A6F2FBA574100399E62FD739BDA419A25",
+                      "bytes":  1473
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_us_courts_opinions_live_test.js",
+                      "sha256":  "02836D42717B4E0FA5D2CBF0FFB2E22FCAD247F088255107C65378C71CBCC282",
+                      "bytes":  443
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\l01_us_marshals_live_test.js",
+                      "sha256":  "1D9FE5B8DC1D126CF41A41A2C8A4C4AFF33B6C04E5389511BED83920C528FC94",
+                      "bytes":  433
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\runtime\\package.json",
+                      "sha256":  "AF304B69B18C8B406502B47A6FB6A1712890349156D222243435F2037630CBEE",
+                      "bytes":  25
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\atf_public_advisories_connector.js",
+                      "sha256":  "17E785A915C13BD0DA82008AD79B4FD578528438424337EC70EDB542B83D9136",
+                      "bytes":  1381
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\bja_grant_systems_connector.js",
+                      "sha256":  "81543B537DC0C52A07CE92F6C9FCB3F4B9593960417FE18F131C67DA1C6AF00E",
+                      "bytes":  1389
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\cbp_corridor_reports_connector.js",
+                      "sha256":  "938875ACDE5CCFCECD5185DF664A537350B4A96DB310B1B7B87C16E406D6F036",
+                      "bytes":  968
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\cbp_newsroom_connector.js",
+                      "sha256":  "D0E05E6F40269C7799DAF04C3894544ECDD8B0139FEF40406E9FACF57ADA1F16",
+                      "bytes":  1264
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\cisa_advisories_connector.js",
+                      "sha256":  "3A8E9CDA6421B4F60716E16E3DC76F2CEE79D94A4F780D3BF24257EBF79055EC",
+                      "bytes":  927
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\data_gov_crime_catalog_connector.js",
+                      "sha256":  "FFDC27101008A8CC3A8D2D64BD7218A54B7A7CF3FA2A85C487DD2AFD8042F0B0",
+                      "bytes":  930
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\dea_public_reports_connector.js",
+                      "sha256":  "9AD0FC9D381F586DCC2D2A1C95C285C60C6F6859C91BCA2F6EFB510185B883C6",
+                      "bytes":  1401
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\dhs_advisories_connector.js",
+                      "sha256":  "8AF1C2D6423D33672A7496529528AFEC4D776757BA99C12D3B8B57FA4763DF56",
+                      "bytes":  1359
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\doj_announcements_connector.js",
+                      "sha256":  "5A61A9D041E7F7B610A41963C27D5044164B9A2A1A8DFA6043D36367527DA6A6",
+                      "bytes":  927
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\fbi_crime_data_explorer_connector.js",
+                      "sha256":  "9E51F41169146CA40292EAC96C8175814A59EE9DC5BA87ADB7056D1CE7261E8D",
+                      "bytes":  1203
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\fbi_field_offices_connector.js",
+                      "sha256":  "2D74781B942A12D6C7480C05817E729FC2A1985304D0B909AF952737173791C1",
+                      "bytes":  961
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\fbi_press_releases_connector.js",
+                      "sha256":  "B893F81AD69F41255127BD7153C779B7721D95AB135079DCBEF14345665B4670",
+                      "bytes":  1254
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\fbi_ucr_connector.js",
+                      "sha256":  "BC4092841B4C97B3514061755C14D6BBB926171CCECE514287E9F6A6242A5E09",
+                      "bytes":  1171
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\fema_grants_connector.js",
+                      "sha256":  "0E8D407BC04482AE580DEA7D0ADFAB68E1BB2F9C027DEF6259A3D72F3418F7DB",
+                      "bytes":  1360
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\fusion_center_advisories_connector.js",
+                      "sha256":  "CBE41C091BEE082BF76C9B7B21AE57D5ECC2ACC81FA46EC59AC2F6A7B672906E",
+                      "bytes":  1324
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\grants_gov_opportunities_connector.js",
+                      "sha256":  "9847D74BF5C77E73B4D5FFFF5B1FA9893037169D41D2D0F5A31068699C1D13FB",
+                      "bytes":  1232
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\ice_news_releases_connector.js",
+                      "sha256":  "026E3DAE1F0C9926608C8A74346A46ABF9743688B2BDA480A94C19D34BBE3402",
+                      "bytes":  1271
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\nist_cyber_publications_connector.js",
+                      "sha256":  "F91C23F9F4F1816BBD99F00F3A749E12CD4075BA9C1807047AA1F5CBBE7186B9",
+                      "bytes":  931
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\sam_gov_connector.js",
+                      "sha256":  "BFCEA9CECAB0853B48C04CCEE13AB8F86D449FFC9D2B004E82B65E6FE82ACB65",
+                      "bytes":  1747
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\usaspending_gov_connector.js",
+                      "sha256":  "F24F6A6495556D2B0FE68EF7BACE738F6A19C5B157FD4C3403340F16C6BFFABB",
+                      "bytes":  1549
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\us_courts_opinions_connector.js",
+                      "sha256":  "E322354A1B60A94055147EA36FFE87AB1CA3F2E58119044518C580605DFECC24",
+                      "bytes":  890
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\connectors\\us_marshals_notices_connector.js",
+                      "sha256":  "513E800B0694F1BE6B1A847F075ECFCB1EFF18D0701511584B3FB2E173886CDB",
+                      "bytes":  1290
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\atf_public_advisories_normalizer.js",
+                      "sha256":  "39D3ED13C53AC3FBDF56F60499800DFA452CDB11DB45DFDCF3CB19B896CAA896",
+                      "bytes":  3000
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\bja_grant_systems_normalizer.js",
+                      "sha256":  "E0E0862D91B7166039855B9F13CEBA11692681248689727099F58883C5E658C2",
+                      "bytes":  3112
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\cbp_corridor_reports_normalizer.js",
+                      "sha256":  "DF40E2AF2724AE634578E6B432CBFEF1AA7D5DAC0A9FA02F5E41A1AB78F7673D",
+                      "bytes":  775
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\cbp_newsroom_normalizer.js",
+                      "sha256":  "81EAAF16C88E83429097A0BFFED80DBBC89E7F5337E95FA6F7375559905D1466",
+                      "bytes":  689
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\cisa_advisories_normalizer.js",
+                      "sha256":  "2218B13B07EB8426B6FD95EA110B315E78C49586DFB76A021DCBD77EC5FDB13A",
+                      "bytes":  720
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\data_gov_crime_catalog_normalizer.js",
+                      "sha256":  "0D35678756BAA99F78FDEEB4A01575B009F8B15E36B7D603760BAB27F4289DD8",
+                      "bytes":  742
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\dea_public_reports_normalizer.js",
+                      "sha256":  "C958B80C0E31BA887E07C9806E1452348FAECE0224CF54F7B3BB5D31E3E0219C",
+                      "bytes":  3017
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\dhs_advisories_normalizer.js",
+                      "sha256":  "BB380703C6AE40D9AB5A0BC23A42364A6211CC381F718AAD8E1FFBFFF11DD33A",
+                      "bytes":  3006
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\doj_announcements_normalizer.js",
+                      "sha256":  "069DA207BEE076DC784B1BC49CA098266ED9E11B57400A1321DFB86CF69A5B44",
+                      "bytes":  2399
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\fbi_crime_data_explorer_normalizer.js",
+                      "sha256":  "324E10A49881981FD294426E3E6294184043F6C8AA9B972C86377456FAE95976",
+                      "bytes":  438
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\fbi_field_offices_normalizer.js",
+                      "sha256":  "87164EA7CBDD74CC29BC876607C615AE5E7DAE18922826443B2AA9BCEE13627F",
+                      "bytes":  3011
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\fbi_press_releases_normalizer.js",
+                      "sha256":  "C2A7F8A3F88A6009A4EAC7044D4574AEA59DA1DC6C85F19E68224AA71DBBACC4",
+                      "bytes":  714
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\fbi_ucr_normalizer.js",
+                      "sha256":  "16963C15489C2D55261189F804447E683DAFE6C8B2BE8E2679CF3C905C695428",
+                      "bytes":  415
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\fema_grants_normalizer.js",
+                      "sha256":  "798020CFD247EB3569CA794C4C376565BBA44A83ACA40A7E1DA9A60664A3F40D",
+                      "bytes":  3138
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\fusion_center_advisories_normalizer.js",
+                      "sha256":  "070920A774FE8AF40A244FAFCB02F809B1A43ACA262A2903110380653E74B105",
+                      "bytes":  843
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\grants_gov_opportunities_normalizer.js",
+                      "sha256":  "FB7C92CD74246A86F4F45EF1BC37C835B523C417815B2EE4A8544C307A5B18D6",
+                      "bytes":  737
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\ice_news_releases_normalizer.js",
+                      "sha256":  "6BA503B13D71604D0BC8AAC0FDCAE18521CE2319AE97728EFBCF8AB654C25336",
+                      "bytes":  732
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\nist_cyber_publications_normalizer.js",
+                      "sha256":  "62C10F71160B5231E4D9141F2CF15121FA9C8AAAA9BE43DCC6AB88CAB0AB6DFB",
+                      "bytes":  749
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\sam_gov_normalizer.js",
+                      "sha256":  "74CADC4C7B2235C4E9D2F71EB64F9985F98B8C56BE41D6D47CAA20321F374092",
+                      "bytes":  1686
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\shared_fbi_api_normalizer.js",
+                      "sha256":  "08F48891E95F1303E3563FBF9F78EF64147683863734062888DAE0B812BE37AF",
+                      "bytes":  1787
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\shared_source_page_normalizer.js",
+                      "sha256":  "2CD321F69D9F550056801CA7069D0355197E7EFDAE7C5E73E1E29147FE77229C",
+                      "bytes":  2684
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\usaspending_gov_normalizer.js",
+                      "sha256":  "905AAC49A9BACF451BD141F76E62988879794FB7C60EF6D5A7CA927992AD236C",
+                      "bytes":  2031
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\us_courts_opinions_normalizer.js",
+                      "sha256":  "C9736F4F71DB68CE31EAEB3F69F0A47E344F112FB7DA5401639AD8FF085897F8",
+                      "bytes":  710
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\normalizers\\us_marshals_notices_normalizer.js",
+                      "sha256":  "E6F77CB29DEB03F70893B41D8631979CD67766B56CB3B44FA1FE822E6C2528DB",
+                      "bytes":  712
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\freeze\\L01_final_freeze_manifest.json",
+                      "sha256":  "01B4464CC6E32339DC9430CF64C6615FBE7BA3932926653CF1B4CF00ED3C4DD0",
+                      "bytes":  35767
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\freeze\\L01_LOCKED.txt",
+                      "sha256":  "B1BFB3B958ACA6C9F8E7BCEEB2B38721D8C3F5005B25B052D4596D86561AF938",
+                      "bytes":  347
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\freeze\\L01_source_health_ledger.json",
+                      "sha256":  "F8A686438630D2F79F4633E77E0E3D4AEDA7998F2597B44AC2322CC9E6DE8855",
+                      "bytes":  304
+                  },
+                  {
+                      "path":  "public\\intelligence\\layers\\L01_federal_intelligence\\source_registry.json",
+                      "sha256":  "FDBD1239EE2CA5DA03D2CBF86CDFFC6C623258DFA41C13F2E4750B94416FDB68",
+                      "bytes":  33382
+                  },
+                  {
+                      "path":  "public\\intelligence\\source_registry\\L01_federal_intelligence_expansion\\cisa_advisories.json",
+                      "sha256":  "6B8FE301338F64C918272B770536EB9C748A23BD9EB43D178F409028AFD4E0FB",
+                      "bytes":  436
+                  },
+                  {
+                      "path":  "public\\intelligence\\source_registry\\L01_federal_intelligence_expansion\\data_gov_crime_catalog.json",
+                      "sha256":  "C7C4ECD5DA03FB6AE0C60E672C0DFDBF02DDAA3AE84A0A23469884389EF97F88",
+                      "bytes":  453
+                  },
+                  {
+                      "path":  "public\\intelligence\\source_registry\\L01_federal_intelligence_expansion\\grants_gov_opportunities.json",
+                      "sha256":  "FE4F5B00FC64691B3FBB810E9D09D255B2AC4071D38A3F96FE494F7D258D59C3",
+                      "bytes":  502
+                  },
+                  {
+                      "path":  "public\\intelligence\\source_registry\\L01_federal_intelligence_expansion\\nist_cyber_publications.json",
+                      "sha256":  "D31801A31CCC979DD273885F28C67FB5A06420DE2DB233D4B3A7A6C137389B70",
+                      "bytes":  450
+                  },
+                  {
+                      "path":  "public\\intelligence\\source_registry\\L01_federal_intelligence_expansion\\us_courts_opinions.json",
+                      "sha256":  "C19CA2A40CBC95170BE22DC287731E20C3B1CCB1A90D3961FBCC4A9EF3F46F6C",
+                      "bytes":  444
+                  }
+              ]
+}

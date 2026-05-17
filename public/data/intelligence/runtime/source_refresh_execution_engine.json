@@ -1,0 +1,118 @@
+{
+  "version": "nexus_source_refresh_execution_engine_v1",
+  "generated_at": "2026-05-06T13:05:29.170Z",
+  "rule": "Refresh engine coordinates live pulls only after connectors are explicitly enabled.",
+  "total_jobs": 12,
+  "live_jobs": 0,
+  "stub_jobs": 12,
+  "jobs": [
+    {
+      "job_id": "INGEST-01",
+      "layer_id": "L01_FEDERAL_INTELLIGENCE",
+      "execution_order": 1,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L01_FEDERAL_INTELLIGENCE.normalized.json"
+    },
+    {
+      "job_id": "INGEST-02",
+      "layer_id": "L02_STATE_INTELLIGENCE",
+      "execution_order": 2,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L02_STATE_INTELLIGENCE.normalized.json"
+    },
+    {
+      "job_id": "INGEST-03",
+      "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+      "execution_order": 3,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L03_LOCAL_AGENCY_INTELLIGENCE.normalized.json"
+    },
+    {
+      "job_id": "INGEST-04",
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "execution_order": 4,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L04_TRAINING_INFRASTRUCTURE.normalized.json"
+    },
+    {
+      "job_id": "INGEST-05",
+      "layer_id": "L05_BUDGET_AND_FUNDING",
+      "execution_order": 5,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L05_BUDGET_AND_FUNDING.normalized.json"
+    },
+    {
+      "job_id": "INGEST-06",
+      "layer_id": "L06_BEHAVIORAL_ACTIVITY",
+      "execution_order": 6,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L06_BEHAVIORAL_ACTIVITY.normalized.json"
+    },
+    {
+      "job_id": "INGEST-07",
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY",
+      "execution_order": 7,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L07_GEOGRAPHIC_TERRITORY.normalized.json"
+    },
+    {
+      "job_id": "INGEST-08",
+      "layer_id": "L08_COMMAND_STRUCTURE",
+      "execution_order": 8,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L08_COMMAND_STRUCTURE.normalized.json"
+    },
+    {
+      "job_id": "INGEST-09",
+      "layer_id": "L09_PROCUREMENT_INTELLIGENCE",
+      "execution_order": 9,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L09_PROCUREMENT_INTELLIGENCE.normalized.json"
+    },
+    {
+      "job_id": "INGEST-10",
+      "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+      "execution_order": 10,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L10_COMMUNICATION_INTELLIGENCE.normalized.json"
+    },
+    {
+      "job_id": "INGEST-11",
+      "layer_id": "L11_INCIDENT_AND_RISK",
+      "execution_order": 11,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L11_INCIDENT_AND_RISK.normalized.json"
+    },
+    {
+      "job_id": "INGEST-12",
+      "layer_id": "L12_ENGAGEMENT_RESPONSE",
+      "execution_order": 12,
+      "connector_health": "STUB_HEALTHY",
+      "live_pull_enabled": false,
+      "refresh_status": "STUB_ONLY_NOT_LIVE",
+      "output_path": "public/data/intelligence/outputs/L12_ENGAGEMENT_RESPONSE.normalized.json"
+    }
+  ]
+}

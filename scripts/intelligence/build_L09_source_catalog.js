@@ -1,0 +1,34 @@
+const fs = require("fs");
+const path = require("path");
+
+const OUT = "public/data/intelligence/sources/L09_PROCUREMENT_INTELLIGENCE.sources.json";
+
+const catalog = {
+  version: "nexus_L09_procurement_sources_v1",
+  generated_at: new Date().toISOString(),
+  layer_id: "L09_PROCUREMENT_INTELLIGENCE",
+  target_sources: 15,
+  production_ready: true,
+  source_classes: [
+    { source_id: "SAM_GOV", authority: "FEDERAL", type: "federal_procurement", coverage: "US_NATIONAL" },
+    { source_id: "STATE_PROCUREMENT_PORTALS", authority: "STATE", type: "state_bids", coverage: "STATE" },
+    { source_id: "CITY_PURCHASING_PORTALS", authority: "LOCAL", type: "municipal_bids", coverage: "LOCAL" },
+    { source_id: "COUNTY_PURCHASING_PORTALS", authority: "LOCAL", type: "county_bids", coverage: "COUNTY" },
+    { source_id: "RFP_PORTALS", authority: "COMMERCIAL", type: "rfp_feed", coverage: "MULTI_REGION" },
+    { source_id: "BIDNET", authority: "COMMERCIAL", type: "bid_aggregation", coverage: "MULTI_STATE" },
+    { source_id: "PUBLIC_PURCHASE", authority: "COMMERCIAL", type: "bid_aggregation", coverage: "MULTI_STATE" },
+    { source_id: "PLANETBIDS", authority: "COMMERCIAL", type: "bid_aggregation", coverage: "MULTI_STATE" },
+    { source_id: "BONFIRE", authority: "COMMERCIAL", type: "bid_platform", coverage: "MULTI_STATE" },
+    { source_id: "IONWAVE", authority: "COMMERCIAL", type: "bid_platform", coverage: "MULTI_STATE" },
+    { source_id: "PROCUREMENT_MANUALS", authority: "LOCAL", type: "approval_path", coverage: "LOCAL" },
+    { source_id: "VENDOR_REGISTRIES", authority: "STATE", type: "vendor_access", coverage: "STATE_LOCAL" },
+    { source_id: "PURCHASE_ORDER_LOGS", authority: "LOCAL", type: "historical_purchasing", coverage: "LOCAL" },
+    { source_id: "CONTRACT_AWARD_RECORDS", authority: "LOCAL", type: "contract_history", coverage: "LOCAL" },
+    { source_id: "COOPERATIVE_PURCHASING_SYSTEMS", authority: "STATE", type: "shared_contracting", coverage: "MULTI_STATE" }
+  ]
+};
+
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
+fs.writeFileSync(OUT, JSON.stringify(catalog, null, 2));
+
+console.log("[L09 SOURCE CATALOG] COMPLETE", catalog.source_classes.length);

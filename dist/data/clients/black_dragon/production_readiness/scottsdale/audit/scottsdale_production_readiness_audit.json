@@ -1,0 +1,33 @@
+{
+  "version": "black_dragon_scottsdale_production_readiness_audit_v1",
+  "generated_at": "2026-05-10T23:28:36.799Z",
+  "city": "Scottsdale",
+  "state": "AZ",
+  "certification_target": "ARIZONA_SECOND_OPERATIONAL_CITY",
+  "counts": {
+    "runtime_entities": 10,
+    "graph_edges": 44,
+    "propagation_paths": 10,
+    "validation_routes": 10,
+    "valid_routes": 7,
+    "contact_ready_candidates": 7,
+    "regional_duplicate_entities": 4,
+    "ui_node_cards": 10
+  },
+  "gates": {
+    "runtime_active": true,
+    "runtime_entities_exist": true,
+    "graph_active": true,
+    "propagation_active": true,
+    "live_validation_active": true,
+    "contact_review_active": true,
+    "ui_surface_active": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_automated_outreach": true,
+    "no_contact_ready_promotion": true
+  },
+  "certification": "SCOTTSDALE_OPERATIONAL_CITY_APPROVED",
+  "next_phase": "BATCH_168_ARIZONA_TWO_CITY_COMPARISON_AND_MESA_SELECTION",
+  "status": "PASS"
+}

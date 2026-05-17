@@ -1,0 +1,62 @@
+﻿[
+  {
+    "city": "Akron",
+    "gis": "https://www.akronohio.gov/",
+    "open_data": "https://www.akronohio.gov/",
+    "police": "https://www.akronohio.gov/cms/police/index.html",
+    "fire": "https://www.akronohio.gov/cms/fire/index.html",
+    "parks": "https://www.akronohio.gov/cms/recreation/index.html",
+    "permits": "https://www.akronohio.gov/cms/building/index.html",
+    "public_works": "https://www.akronohio.gov/cms/publicworks/index.html",
+    "schools": "https://www.akronschools.com/",
+    "council": "https://www.akroncitycouncil.org/"
+  },
+  {
+    "city": "Cincinnati",
+    "gis": "https://data.cincinnati-oh.gov/",
+    "open_data": "https://data.cincinnati-oh.gov/",
+    "police": "https://www.cincinnati-oh.gov/police/",
+    "fire": "https://www.cincinnati-oh.gov/fire/",
+    "parks": "https://www.cincinnati-oh.gov/cincyparks/",
+    "permits": "https://www.cincinnati-oh.gov/buildings/",
+    "public_works": "https://www.cincinnati-oh.gov/dote/",
+    "schools": "https://www.cps-k12.org/",
+    "council": "https://www.cincinnati-oh.gov/council/"
+  },
+  {
+    "city": "Cleveland",
+    "gis": "https://planning.clevelandohio.gov/maps/",
+    "open_data": "https://www.clevelandohio.gov/",
+    "police": "https://www.clevelandohio.gov/city-hall/departments/public-safety/divisions/police",
+    "fire": "https://www.clevelandohio.gov/city-hall/departments/public-safety/divisions/fire",
+    "parks": "https://www.clevelandohio.gov/city-hall/departments/public-works/divisions/parks-maintenance-properties",
+    "permits": "https://www.clevelandohio.gov/city-hall/departments/building-housing",
+    "public_works": "https://www.clevelandohio.gov/city-hall/departments/public-works",
+    "schools": "https://www.clevelandmetroschools.org/",
+    "council": "https://www.clevelandcitycouncil.org/"
+  },
+  {
+    "city": "Columbus",
+    "gis": "https://opendata.columbus.gov/",
+    "open_data": "https://opendata.columbus.gov/",
+    "police": "https://www.columbus.gov/police/",
+    "fire": "https://www.columbus.gov/fire/",
+    "parks": "https://www.columbus.gov/recreationandparks/",
+    "permits": "https://www.columbus.gov/bzs/",
+    "public_works": "https://www.columbus.gov/publicservice/",
+    "schools": "https://www.ccsoh.us/",
+    "council": "https://www.columbus.gov/council/"
+  },
+  {
+    "city": "Toledo",
+    "gis": "https://toledo.oh.gov/",
+    "open_data": "https://toledo.oh.gov/",
+    "police": "https://toledopolice.com/",
+    "fire": "https://toledo.oh.gov/residents/public-safety/fire-rescue",
+    "parks": "https://toledo.oh.gov/residents/parks",
+    "permits": "https://toledo.oh.gov/business/how-to-build-in-the-city",
+    "public_works": "https://toledo.oh.gov/residents/public-utilities",
+    "schools": "https://www.tps.org/",
+    "council": "https://toledo.oh.gov/government/city-council"
+  }
+]

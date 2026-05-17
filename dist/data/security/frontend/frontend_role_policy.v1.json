@@ -1,0 +1,49 @@
+{
+  "version": "umbra_frontend_role_policy_v1",
+
+  "roles": {
+    "FOUNDER": {
+      "allowed_panels": [
+        "FOUNDER_ADMIN",
+        "CLIENT_SWITCHER",
+        "SECURITY_AUDITS",
+        "INTEL_REGISTRY",
+        "GLOBAL_DATA",
+        "BLACK_DRAGON_BOOKS",
+        "BLACK_DRAGON_COURSES",
+        "ADAPTIVE_PRIORITY",
+        "RESPONSE_INGESTION",
+        "EXPORTS"
+      ],
+      "blocked_panels": []
+    },
+
+    "CLIENT_OPERATOR": {
+      "allowed_panels": [
+        "BLACK_DRAGON_BOOKS",
+        "OUTREACH_QUEUE",
+        "TARGET_VIEW",
+        "RESPONSE_LOG",
+        "KPI_SUMMARY"
+      ],
+      "blocked_panels": [
+        "FOUNDER_ADMIN",
+        "CLIENT_SWITCHER",
+        "SECURITY_AUDITS",
+        "INTEL_REGISTRY",
+        "GLOBAL_DATA",
+        "SYSTEM_CONFIG",
+        "EXPORTS"
+      ]
+    }
+  },
+
+  "client_session_rules": {
+    "client_runtime_scope_required": true,
+    "client_id_required": true,
+    "role_required": true,
+    "founder_role_required_for_admin_panels": true,
+    "client_operator_cannot_switch_clients": true,
+    "client_operator_cannot_export_raw_datasets": true
+  }
+}

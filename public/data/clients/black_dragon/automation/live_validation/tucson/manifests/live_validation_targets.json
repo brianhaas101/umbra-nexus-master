@@ -1,0 +1,86 @@
+{
+  "version": "black_dragon_tucson_live_validation_targets_v1",
+  "generated_at": "2026-05-11T00:12:19.718Z",
+  "city": "Tucson",
+  "state": "AZ",
+  "validation_targets": [
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_001",
+      "organization_name": "Harley-Davidson of Tucson",
+      "route_type": "DEALERSHIP_NETWORK",
+      "url": "https://www.hdtucson.com/",
+      "priority": "HOT"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_002",
+      "organization_name": "Law Tigers Arizona",
+      "route_type": "AFFILIATE_NETWORK",
+      "url": "https://lawtigers.com/",
+      "priority": "WARM"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_003",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "route_type": "VETERAN_RIDER_NETWORK",
+      "url": "https://www.vma-usa.org/",
+      "priority": "WARM"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_004",
+      "organization_name": "Tucson Harley Owners Group",
+      "route_type": "RIDING_COMMUNITY",
+      "url": "https://www.harley-davidson.com/us/en/content/hog.html",
+      "priority": "WARM"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_005",
+      "organization_name": "ABATE of Arizona",
+      "route_type": "MOTORCYCLE_ADVOCACY_NETWORK",
+      "url": "https://abateofaz.org/",
+      "priority": "WARM"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_006",
+      "organization_name": "Tucson Bike Night Network",
+      "route_type": "COMMUNITY_EVENT_NETWORK",
+      "url": "https://www.eventbrite.com/",
+      "priority": "WARM"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_007",
+      "organization_name": "Tucson Custom Motorcycle Culture",
+      "route_type": "CUSTOM_MOTORCYCLE_COMMUNITY",
+      "url": "https://www.facebook.com/search/top?q=tucson%20motorcycle",
+      "priority": "WARM"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_008",
+      "organization_name": "Cycle Gear Tucson",
+      "route_type": "GEAR_RETAIL",
+      "url": "https://www.cyclegear.com/stores",
+      "priority": "WARM"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_009",
+      "organization_name": "Tucson Motorcycle Riders Network",
+      "route_type": "RIDING_COMMUNITY",
+      "url": "https://www.meetup.com/",
+      "priority": "WARM"
+    },
+    {
+      "validation_id": "BD_TUC_HTTP_VALIDATE_010",
+      "organization_name": "Tucson Charity Ride Network",
+      "route_type": "CHARITY_RIDE_NETWORK",
+      "url": "https://www.eventbrite.com/",
+      "priority": "REVIEW"
+    }
+  ],
+  "validation_laws": {
+    "public_routes_only": true,
+    "no_form_submission": true,
+    "no_login": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_delete": true
+  }
+}

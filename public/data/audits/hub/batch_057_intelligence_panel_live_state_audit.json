@@ -1,0 +1,20 @@
+{
+  "version": "umbra_batch_057_intelligence_panel_live_state_audit_v1",
+  "generated_at": "2026-05-09T22:36:27.933Z",
+  "runtime_integrity": {
+    "global_present": true,
+    "status_function_present": true,
+    "mode_function_present": true,
+    "dataset_function_present": true,
+    "selection_function_present": true,
+    "node_count_present": true,
+    "render_loop_present": true,
+    "event_hooks_present": true,
+    "debug_state_present": true
+  },
+  "injection_integrity": {
+    "entrypoints_checked": true,
+    "injected_everywhere": true
+  },
+  "pass": true
+}

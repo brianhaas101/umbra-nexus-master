@@ -1,0 +1,19 @@
+﻿{
+    "city_id":  "city_8635d5db",
+    "name":  "Phoenix, AZ",
+    "center_lat":  33.4484,
+    "center_lon":  -112.074,
+    "bounds":  {
+                   "north":  33.7312,
+                   "south":  33.1885,
+                   "east":  -111.7888,
+                   "west":  -112.3593
+               },
+    "width_m":  53000,
+    "height_m":  60000,
+    "rotation_deg":  0,
+    "scaffold_status":  "asset_scaffold_only",
+    "bounds_status":  "unverified_scaffold_from_entity_extent",
+    "notes":  "Scaffold meta generated from current entity extents. Verify bounds and provide local tiles/image before CITY_MAP-ready use.",
+    "image":  "/assets/cities/city_8635d5db/base.png"
+}

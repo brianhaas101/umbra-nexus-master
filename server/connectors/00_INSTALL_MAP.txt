@@ -1,0 +1,24 @@
+UMBRA INSTALL MAP
+
+Nexus root:
+C:\Users\Brian\OneDrive\Desktop\Umbra\Nexus
+
+Create these folders at root if they do not exist:
+- config
+- config\industries
+- config\sources
+- data
+- data\samples
+- server\pipelines
+- server\utils
+- server\tests
+- public\globe\integrations
+- public\globe\dossier_templates
+- public\globe\debug
+
+Do NOT replace these existing files yet:
+- public\globe\city_map.js
+- public\globe\interaction.js
+- public\globe\city_loader.js
+- public\globe\city_view.js
+- public\globe\dossiers.js

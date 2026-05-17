@@ -1,0 +1,469 @@
+{
+  "version": "black_dragon_los_angeles_propagation_paths_v1",
+  "generated_at": "2026-05-10T21:19:11.002Z",
+  "city": "Los Angeles",
+  "state": "CA",
+  "total_paths": 10,
+  "paths": [
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00001",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00003",
+      "root_organization": "Bike Shed Moto Co Los Angeles",
+      "root_influence_score": 7.74,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.677,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Deus Ex Machina Los Angeles",
+          "edge_weight": 0.676,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Biltwell Inc.",
+          "edge_weight": 0.676,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "ChopCult Los Angeles Community",
+          "edge_weight": 0.675,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "The Congregation Show",
+          "edge_weight": 0.674,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00002",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00004",
+      "root_organization": "Roland Sands Design",
+      "root_influence_score": 7.6,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Bartels' Harley-Davidson",
+          "edge_weight": 0.678,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.677,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Biltwell Inc.",
+          "edge_weight": 0.675,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "The Congregation Show",
+          "edge_weight": 0.674,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Cycle Gear Los Angeles",
+          "edge_weight": 0.671,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00003",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00002",
+      "root_organization": "Bartels' Harley-Davidson",
+      "root_influence_score": 7.45,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.678,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Born-Free Motorcycle Show Los Angeles Community",
+          "edge_weight": 0.43,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "RETAIL_TO_COMMUNITY",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.428,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "RETAIL_TO_COMMUNITY",
+          "connected_organization": "Deus Ex Machina Los Angeles",
+          "edge_weight": 0.427,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Biltwell Inc.",
+          "edge_weight": 0.426,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00004",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00001",
+      "root_organization": "Born-Free Motorcycle Show Los Angeles Community",
+      "root_influence_score": 7.41,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Bartels' Harley-Davidson",
+          "edge_weight": 0.43,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "EVENT_TO_PROPAGATION",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.429,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "EVENT_TO_PROPAGATION",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.428,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "EVENT_TO_PROPAGATION",
+          "connected_organization": "Deus Ex Machina Los Angeles",
+          "edge_weight": 0.427,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "EVENT_TO_PROPAGATION",
+          "connected_organization": "Biltwell Inc.",
+          "edge_weight": 0.427,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00005",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00006",
+      "root_organization": "Biltwell Inc.",
+      "root_influence_score": 7.35,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.676,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.675,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "EVENT_TO_PROPAGATION",
+          "connected_organization": "Born-Free Motorcycle Show Los Angeles Community",
+          "edge_weight": 0.427,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Bartels' Harley-Davidson",
+          "edge_weight": 0.426,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Deus Ex Machina Los Angeles",
+          "edge_weight": 0.424,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00006",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00005",
+      "root_organization": "Deus Ex Machina Los Angeles",
+      "root_influence_score": 7.31,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.676,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "EVENT_TO_PROPAGATION",
+          "connected_organization": "Born-Free Motorcycle Show Los Angeles Community",
+          "edge_weight": 0.427,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "RETAIL_TO_COMMUNITY",
+          "connected_organization": "Bartels' Harley-Davidson",
+          "edge_weight": 0.427,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "BRAND_TO_COMMUNITY",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.426,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Biltwell Inc.",
+          "edge_weight": 0.424,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00007",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00008",
+      "root_organization": "The Congregation Show",
+      "root_influence_score": 7.26,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.674,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.674,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Born-Free Motorcycle Show Los Angeles Community",
+          "edge_weight": 0.425,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Bartels' Harley-Davidson",
+          "edge_weight": 0.425,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Deus Ex Machina Los Angeles",
+          "edge_weight": 0.422,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00008",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00007",
+      "root_organization": "ChopCult Los Angeles Community",
+      "root_influence_score": 7.24,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.675,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "EVENT_TO_PROPAGATION",
+          "connected_organization": "Born-Free Motorcycle Show Los Angeles Community",
+          "edge_weight": 0.426,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "RETAIL_TO_COMMUNITY",
+          "connected_organization": "Bartels' Harley-Davidson",
+          "edge_weight": 0.425,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "BRAND_TO_COMMUNITY",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.424,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Deus Ex Machina Los Angeles",
+          "edge_weight": 0.423,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00009",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00009",
+      "root_organization": "Cycle Gear Los Angeles",
+      "root_influence_score": 7.1,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.671,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.671,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Born-Free Motorcycle Show Los Angeles Community",
+          "edge_weight": 0.422,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Bartels' Harley-Davidson",
+          "edge_weight": 0.422,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Deus Ex Machina Los Angeles",
+          "edge_weight": 0.42,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    },
+    {
+      "propagation_path_id": "BD_LA_PROP_PATH_00010",
+      "root_graph_node_id": "BD_LA_GRAPH_NODE_00010",
+      "root_organization": "Los Angeles Motorcycle Riders Meetup",
+      "root_influence_score": 7.03,
+      "recommended_use": "REVIEW_BEFORE_MANUAL_ACTION",
+      "connected_targets": [
+        {
+          "relationship_type": "CROSS_CITY_OVERLAP",
+          "connected_organization": "Bike Shed Moto Co Los Angeles",
+          "edge_weight": 0.671,
+          "propagation_capable": true,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "EVENT_TO_PROPAGATION",
+          "connected_organization": "Born-Free Motorcycle Show Los Angeles Community",
+          "edge_weight": 0.422,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "RETAIL_TO_COMMUNITY",
+          "connected_organization": "Bartels' Harley-Davidson",
+          "edge_weight": 0.422,
+          "propagation_capable": false,
+          "conversion_path_capable": true
+        },
+        {
+          "relationship_type": "BRAND_TO_COMMUNITY",
+          "connected_organization": "Roland Sands Design",
+          "edge_weight": 0.421,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        },
+        {
+          "relationship_type": "LOCAL_ECOSYSTEM_OVERLAP",
+          "connected_organization": "Deus Ex Machina Los Angeles",
+          "edge_weight": 0.42,
+          "propagation_capable": true,
+          "conversion_path_capable": false
+        }
+      ],
+      "automated_outreach_allowed": false,
+      "runtime_mutation_allowed": false
+    }
+  ]
+}

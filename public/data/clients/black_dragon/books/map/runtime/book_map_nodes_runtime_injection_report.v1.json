@@ -1,0 +1,16 @@
+{
+  "version": "book_map_nodes_runtime_injection_report_v1",
+  "generated_at": "2026-05-09T17:36:50.513Z",
+  "report": [
+    {
+      "file": "index.html",
+      "changed": true,
+      "has_book_map_nodes_runtime": true
+    },
+    {
+      "file": "public/index.html",
+      "changed": true,
+      "has_book_map_nodes_runtime": true
+    }
+  ]
+}

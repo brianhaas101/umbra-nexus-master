@@ -1,0 +1,6 @@
+"wave_id","city","required_layers","verified_layers","missing_layers","saturation_percent","lock_status","reason"
+"20260511_201321","Las Vegas","14","0","14","0","not_locked","No verified parity layers imported yet."
+"20260511_201321","Reno","14","0","14","0","not_locked","No verified parity layers imported yet."
+"20260511_201321","Henderson","14","0","14","0","not_locked","No verified parity layers imported yet."
+"20260511_201321","North Las Vegas","14","0","14","0","not_locked","No verified parity layers imported yet."
+"20260511_201321","Sparks","14","0","14","0","not_locked","No verified parity layers imported yet."

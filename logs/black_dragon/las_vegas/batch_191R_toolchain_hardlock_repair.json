@@ -1,0 +1,72 @@
+{
+    "batch":  "191R",
+    "version":  "black_dragon_las_vegas_toolchain_integrated_hardlock_repair_v1",
+    "generated_at":  "2026-05-11T01:42:09.6052827Z",
+    "restored_artifacts":  {
+                               "source_registry_exists":  true,
+                               "entity_schema_exists":  true,
+                               "contact_governance_exists":  true
+                           },
+    "required_artifacts":  {
+                               "required_count":  9,
+                               "missing_count":  0,
+                               "missing":  [
+
+                                           ]
+                           },
+    "quarantine_integrity":  {
+                                 "runtime_eligible_entities":  0,
+                                 "outbound_contact_enabled":  0,
+                                 "non_quarantined_entities":  0
+                             },
+    "json_validation":  {
+                            "files_checked":  9,
+                            "invalid_files":  0,
+                            "results":  [
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_governance_policy.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_readiness_scores.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\entity_schema.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\las_vegas_operational_manifest.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\manual_review_pipeline.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\quarantined_entities.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\source_registry.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\las_vegas\\runtime_shell.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\states\\nevada\\single_city_runtime_policy.json",
+                                                "valid_json":  true
+                                            }
+                                        ]
+                        },
+    "city_scope":  {
+                       "active_city":  "Las Vegas",
+                       "blocked_runtime_files_detected":  0,
+                       "blocked_runtime_files":  [
+
+                                                 ]
+                   },
+    "status":  "PASS"
+}

@@ -1,0 +1,35 @@
+{
+  "version": "black_dragon_los_angeles_production_readiness_audit_v1",
+  "generated_at": "2026-05-10T21:39:25.101Z",
+  "city": "Los Angeles",
+  "state": "CA",
+  "certification_target": "SECOND_OPERATIONAL_CITY",
+  "counts": {
+    "runtime_entities": 10,
+    "duplicate_review_entities": 2,
+    "graph_edges": 45,
+    "propagation_paths": 10,
+    "validation_routes": 10,
+    "valid_routes": 9,
+    "contact_ready_candidates": 9,
+    "ui_node_cards": 10,
+    "ui_propagation_paths": 10
+  },
+  "gates": {
+    "runtime_active": true,
+    "runtime_entities_exist": true,
+    "graph_active": true,
+    "propagation_active": true,
+    "live_validation_active": true,
+    "contact_review_active": true,
+    "ui_surface_active": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_delete_without_quarantine": true,
+    "no_automated_outreach": true,
+    "no_contact_ready_promotion": true
+  },
+  "certification": "LOS_ANGELES_OPERATIONAL_CITY_APPROVED",
+  "next_phase": "BATCH_145_CITY_TWO_COMPARISON_AND_NEXT_CITY_SELECTION",
+  "status": "PASS"
+}

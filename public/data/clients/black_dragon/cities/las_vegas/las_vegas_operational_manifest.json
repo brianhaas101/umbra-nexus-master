@@ -1,0 +1,24 @@
+{
+    "version":  "black_dragon_las_vegas_operational_city_manifest_v1",
+    "generated_at":  "2026-05-11T00:48:04.5635104Z",
+    "city":  {
+                 "city_id":  "city_las_vegas_nv",
+                 "city_name":  "Las Vegas",
+                 "state":  "Nevada",
+                 "state_code":  "NV",
+                 "runtime_status":  "ACTIVE_ALLOWED",
+                 "current_nexus_map_city":  true,
+                 "map_confirmed":  true,
+                 "operational_phase":  "FOUNDATION"
+             },
+    "restrictions":  {
+                         "expansion_locked":  true,
+                         "neighboring_city_ingestion_forbidden":  true,
+                         "statewide_runtime_forbidden":  true
+                     },
+    "runtime_controls":  {
+                             "contact_activation":  "MANUAL_ONLY",
+                             "outbound_authority":  "DISABLED",
+                             "automated_actions_allowed":  false
+                         }
+}

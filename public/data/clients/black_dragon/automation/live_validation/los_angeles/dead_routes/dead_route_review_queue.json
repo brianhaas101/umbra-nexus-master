@@ -1,0 +1,30 @@
+{
+  "version": "black_dragon_los_angeles_dead_route_review_queue_v1",
+  "generated_at": "2026-05-10T21:28:10.589Z",
+  "city": "Los Angeles",
+  "state": "CA",
+  "review_item_count": 1,
+  "dead_route_items": [
+    {
+      "dead_route_id": "BD_LA_ROUTE_REVIEW_00001",
+      "validation_id": "BD_LA_HTTP_VALIDATE_010",
+      "organization_name": "ChopCult Los Angeles Community",
+      "route_type": "DIGITAL_COMMUNITY_SITE",
+      "url": "https://www.chopcult.com/",
+      "failure_status": "ERROR",
+      "error": "socket hang up",
+      "queued_at": "2026-05-10T21:28:02.873Z",
+      "safe_get_fallback_allowed": false,
+      "founder_review_required": true,
+      "runtime_decay_allowed": true,
+      "automatic_delete_allowed": false,
+      "automated_outreach_allowed": false
+    }
+  ],
+  "suppression_laws": {
+    "review_before_decay": true,
+    "no_automatic_delete": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "checkpoint": "BLACK_DRAGON_FINAL_CONTACT_READY_VISUAL_GATE",
+  "generated_at": "2026-05-10T16:14:02.422Z",
+  "pass": true,
+  "client_access_allowed": false,
+  "summary": {
+    "original_total": 1334,
+    "quarantined": 697,
+    "retained_candidates": 637,
+    "visual_rows": 637,
+    "blocked_candidates": 637,
+    "contact_ready": 0
+  },
+  "next_required_phase": "REAL_SOURCE_AND_CONTACT_IMPORT_PLUS_MANUAL_VISUAL_APPROVAL"
+}

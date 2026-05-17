@@ -1,0 +1,31 @@
+{
+  "version": "black_dragon_veteran_scoring_v1_batch_072",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "institutional_weights": {
+    "VFW_POST": 0.92,
+    "AMERICAN_LEGION_POST": 0.91,
+    "VETERAN_RIDING_ASSOCIATION": 0.95,
+    "COMBAT_VETERAN_MOTORCYCLE_GROUP": 0.96,
+    "VETERAN_TRANSITION_NONPROFIT": 0.90,
+    "VETERAN_LEADERSHIP_PROGRAM": 0.89,
+    "MILITARY_SUPPORT_ORGANIZATION": 0.86,
+    "VETERAN_EVENT_ORGANIZER": 0.93
+  },
+
+  "propagation_multipliers": {
+    "chapter_network": 1.8,
+    "event_calendar": 1.6,
+    "riding_affiliation": 1.9,
+    "leadership_structure": 1.7,
+    "distribution_fit": 1.5,
+    "transition_program_fit": 1.4
+  },
+
+  "outreach_safety": {
+    "requires_public_source": true,
+    "requires_verified_contact_route": true,
+    "forbids_generated_contacts": true,
+    "requires_manual_review": true
+  }
+}

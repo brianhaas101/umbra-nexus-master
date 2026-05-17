@@ -1,0 +1,706 @@
+{
+  "version": "nexus_layer_normalized_output_v1",
+  "generated_at": "2026-05-07T23:42:48.932Z",
+  "layer_id": "L02",
+  "status": "OPERATIONAL",
+  "entities": [
+    {
+      "entity_id": "ENTITY_L02_SRC_001_STATE_POST_BOARDS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_001_STATE_POST_BOARDS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_003_STATE_DOJ_PORTALS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_003_STATE_DOJ_PORTALS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_004_STATE_GRANT_OFFICES",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_004_STATE_GRANT_OFFICES",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_011_STATE_FUSION_CENTERS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_011_STATE_FUSION_CENTERS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "entity_type": "state_public_safety_source_entity",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "created_at": "2026-05-07T23:42:48.932Z"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_001_STATE_POST_BOARDS",
+      "entity_id": "ENTITY_L02_SRC_001_STATE_POST_BOARDS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_001_STATE_POST_BOARDS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.98,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_post_connector",
+        "parser_strategy": "state_post_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_post_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.96,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_academy_connector",
+        "parser_strategy": "state_academy_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_academy_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_003_STATE_DOJ_PORTALS",
+      "entity_id": "ENTITY_L02_SRC_003_STATE_DOJ_PORTALS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_003_STATE_DOJ_PORTALS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.95,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_doj_connector",
+        "parser_strategy": "state_doj_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_justice_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_004_STATE_GRANT_OFFICES",
+      "entity_id": "ENTITY_L02_SRC_004_STATE_GRANT_OFFICES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_004_STATE_GRANT_OFFICES",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.94,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_grants_connector",
+        "parser_strategy": "state_grants_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_grant_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "entity_id": "ENTITY_L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.93,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_emergency_management_connector",
+        "parser_strategy": "state_emergency_management_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_emergency_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.92,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_procurement_connector",
+        "parser_strategy": "state_procurement_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_procurement_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "entity_id": "ENTITY_L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.91,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_training_bulletin_connector",
+        "parser_strategy": "state_training_bulletin_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_training_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "entity_id": "ENTITY_L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.9,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_agency_directory_connector",
+        "parser_strategy": "state_agency_directory_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_agency_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "entity_id": "ENTITY_L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.89,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_certification_connector",
+        "parser_strategy": "state_certification_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_certification_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.88,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_corrections_connector",
+        "parser_strategy": "state_corrections_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_corrections_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_011_STATE_FUSION_CENTERS",
+      "entity_id": "ENTITY_L02_SRC_011_STATE_FUSION_CENTERS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_011_STATE_FUSION_CENTERS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.87,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_fusion_center_connector",
+        "parser_strategy": "state_fusion_center_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_fusion_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "entity_id": "ENTITY_L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.86,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_public_safety_commission_connector",
+        "parser_strategy": "state_public_safety_commission_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_commission_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "entity_id": "ENTITY_L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.85,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_budget_connector",
+        "parser_strategy": "state_budget_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_budget_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "entity_id": "ENTITY_L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.84,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_criminal_justice_council_connector",
+        "parser_strategy": "state_criminal_justice_council_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_council_trace"
+      }
+    },
+    {
+      "evidence_id": "EVIDENCE_L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "entity_id": "ENTITY_L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "captured_at": "2026-05-07T23:42:48.932Z",
+      "confidence": 0.83,
+      "lineage": {
+        "acquisition_method": "public_state_source",
+        "connector_type": "state_task_force_connector",
+        "parser_strategy": "state_task_force_parser",
+        "normalizer_strategy": "state_public_safety_normalizer",
+        "retention_policy": "retain_with_state_task_force_trace"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "SIGNAL_L02_SRC_001_STATE_POST_BOARDS",
+      "entity_id": "ENTITY_L02_SRC_001_STATE_POST_BOARDS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_001_STATE_POST_BOARDS",
+      "signal_type": "STATE_CERTIFICATION_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "signal_type": "STATE_TRAINING_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_003_STATE_DOJ_PORTALS",
+      "entity_id": "ENTITY_L02_SRC_003_STATE_DOJ_PORTALS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_003_STATE_DOJ_PORTALS",
+      "signal_type": "STATE_OPERATIONAL_PRESSURE_SIGNAL",
+      "strength": 0.95,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_004_STATE_GRANT_OFFICES",
+      "entity_id": "ENTITY_L02_SRC_004_STATE_GRANT_OFFICES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_004_STATE_GRANT_OFFICES",
+      "signal_type": "STATE_GRANT_SIGNAL",
+      "strength": 0.94,
+      "confidence": 0.94
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "entity_id": "ENTITY_L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "signal_type": "STATE_OPERATIONAL_PRESSURE_SIGNAL",
+      "strength": 0.93,
+      "confidence": 0.93
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "signal_type": "STATE_PROCUREMENT_SIGNAL",
+      "strength": 0.92,
+      "confidence": 0.92
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "entity_id": "ENTITY_L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "signal_type": "STATE_TRAINING_SIGNAL",
+      "strength": 0.91,
+      "confidence": 0.91
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "entity_id": "ENTITY_L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "signal_type": "STATE_COMMAND_SIGNAL",
+      "strength": 0.9,
+      "confidence": 0.9
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "entity_id": "ENTITY_L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "signal_type": "STATE_CERTIFICATION_SIGNAL",
+      "strength": 0.89,
+      "confidence": 0.89
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "signal_type": "STATE_OPERATIONAL_PRESSURE_SIGNAL",
+      "strength": 0.88,
+      "confidence": 0.88
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_011_STATE_FUSION_CENTERS",
+      "entity_id": "ENTITY_L02_SRC_011_STATE_FUSION_CENTERS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_011_STATE_FUSION_CENTERS",
+      "signal_type": "STATE_OPERATIONAL_PRESSURE_SIGNAL",
+      "strength": 0.87,
+      "confidence": 0.87
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "entity_id": "ENTITY_L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "signal_type": "STATE_COMMAND_SIGNAL",
+      "strength": 0.86,
+      "confidence": 0.86
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "entity_id": "ENTITY_L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "signal_type": "STATE_BUDGET_SIGNAL",
+      "strength": 0.85,
+      "confidence": 0.85
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "entity_id": "ENTITY_L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "signal_type": "STATE_COMMAND_SIGNAL",
+      "strength": 0.84,
+      "confidence": 0.84
+    },
+    {
+      "signal_id": "SIGNAL_L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "entity_id": "ENTITY_L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "signal_type": "STATE_OPERATIONAL_PRESSURE_SIGNAL",
+      "strength": 0.83,
+      "confidence": 0.83
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "SCORE_L02_SRC_001_STATE_POST_BOARDS",
+      "entity_id": "ENTITY_L02_SRC_001_STATE_POST_BOARDS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_001_STATE_POST_BOARDS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L02_SRC_003_STATE_DOJ_PORTALS",
+      "entity_id": "ENTITY_L02_SRC_003_STATE_DOJ_PORTALS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_003_STATE_DOJ_PORTALS",
+      "score_delta": 10,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L02_SRC_004_STATE_GRANT_OFFICES",
+      "entity_id": "ENTITY_L02_SRC_004_STATE_GRANT_OFFICES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_004_STATE_GRANT_OFFICES",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "entity_id": "ENTITY_L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "score_delta": 9,
+      "confidence": 0.93
+    },
+    {
+      "component_id": "SCORE_L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "score_delta": 9,
+      "confidence": 0.92
+    },
+    {
+      "component_id": "SCORE_L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "entity_id": "ENTITY_L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "score_delta": 9,
+      "confidence": 0.91
+    },
+    {
+      "component_id": "SCORE_L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "entity_id": "ENTITY_L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "score_delta": 9,
+      "confidence": 0.9
+    },
+    {
+      "component_id": "SCORE_L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "entity_id": "ENTITY_L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "score_delta": 9,
+      "confidence": 0.89
+    },
+    {
+      "component_id": "SCORE_L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "entity_id": "ENTITY_L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "score_delta": 9,
+      "confidence": 0.88
+    },
+    {
+      "component_id": "SCORE_L02_SRC_011_STATE_FUSION_CENTERS",
+      "entity_id": "ENTITY_L02_SRC_011_STATE_FUSION_CENTERS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_011_STATE_FUSION_CENTERS",
+      "score_delta": 9,
+      "confidence": 0.87
+    },
+    {
+      "component_id": "SCORE_L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "entity_id": "ENTITY_L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "score_delta": 9,
+      "confidence": 0.86
+    },
+    {
+      "component_id": "SCORE_L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "entity_id": "ENTITY_L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "score_delta": 9,
+      "confidence": 0.85
+    },
+    {
+      "component_id": "SCORE_L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "entity_id": "ENTITY_L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "score_delta": 8,
+      "confidence": 0.84
+    },
+    {
+      "component_id": "SCORE_L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "entity_id": "ENTITY_L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "score_delta": 8,
+      "confidence": 0.83
+    }
+  ],
+  "dossier_fields": [
+    {
+      "entity_id": "ENTITY_L02_SRC_001_STATE_POST_BOARDS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_001_STATE_POST_BOARDS",
+      "field_type": "state_training_profile",
+      "value": "State POST Boards"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_002_STATE_ACADEMY_SYSTEMS",
+      "field_type": "state_academy_profile",
+      "value": "State Academy Systems"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_003_STATE_DOJ_PORTALS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_003_STATE_DOJ_PORTALS",
+      "field_type": "state_justice_profile",
+      "value": "State DOJ Portals"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_004_STATE_GRANT_OFFICES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_004_STATE_GRANT_OFFICES",
+      "field_type": "state_grant_profile",
+      "value": "State Grant Offices"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_005_STATE_EMERGENCY_MANAGEMENT",
+      "field_type": "state_emergency_profile",
+      "value": "State Emergency Management"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_006_STATE_PROCUREMENT_SYSTEMS",
+      "field_type": "state_procurement_profile",
+      "value": "State Procurement Systems"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_007_STATE_TRAINING_BULLETINS",
+      "field_type": "state_training_bulletin_profile",
+      "value": "State Training Bulletins"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_008_STATE_AGENCY_DIRECTORIES",
+      "field_type": "state_agency_directory_profile",
+      "value": "State Law Enforcement Directories"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_009_STATE_CERTIFICATION_DATABASES",
+      "field_type": "state_certification_profile",
+      "value": "State Certification Databases"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_010_STATE_CORRECTIONS_SYSTEMS",
+      "field_type": "state_corrections_profile",
+      "value": "State Corrections Systems"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_011_STATE_FUSION_CENTERS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_011_STATE_FUSION_CENTERS",
+      "field_type": "state_fusion_profile",
+      "value": "State Fusion Center References"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_012_STATE_PUBLIC_SAFETY_COMMISSIONS",
+      "field_type": "state_public_safety_commission_profile",
+      "value": "State Public Safety Commissions"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_013_STATE_BUDGET_PUBLICATIONS",
+      "field_type": "state_budget_profile",
+      "value": "State Budget Publications"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_014_STATE_CRIMINAL_JUSTICE_COUNCILS",
+      "field_type": "state_criminal_justice_council_profile",
+      "value": "State Criminal Justice Councils"
+    },
+    {
+      "entity_id": "ENTITY_L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "layer_id": "L02",
+      "source_id": "L02_SRC_015_STATE_TASK_FORCE_NOTICES",
+      "field_type": "state_task_force_profile",
+      "value": "State Interagency Task Force Notices"
+    }
+  ]
+}

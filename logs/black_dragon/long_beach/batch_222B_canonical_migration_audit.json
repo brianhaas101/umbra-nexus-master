@@ -1,0 +1,43 @@
+{
+    "batch":  "222B",
+    "version":  "black_dragon_legacy_city_canonical_migration_city_audit_v1",
+    "generated_at":  "2026-05-11T04:20:49.8077767Z",
+    "city":  "Long Beach",
+    "folder":  "long_beach",
+    "legacy_path":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach",
+    "legacy_assets":  {
+                          "audit":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\audit\\batch_121_long_beach_runtime_audit.json",
+                          "dossier":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\dossiers\\long_beach_city_dossier_stack.json",
+                          "runtime_summary":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\long_beach_city_runtime_summary.json",
+                          "map_nodes":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\map_nodes\\long_beach_map_node_manifest.json",
+                          "merged_entities":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\long_beach\\merged\\long_beach_merged_city_entities.json"
+                      },
+    "written":  [
+                    ".\\public\\data\\clients\\black_dragon\\runtime\\long_beach\\entities_runtime.json",
+                    ".\\public\\data\\clients\\black_dragon\\runtime\\long_beach\\runtime_shell.json",
+                    ".\\public\\data\\clients\\black_dragon\\runtime\\long_beach\\runtime_summary.json",
+                    ".\\public\\data\\clients\\black_dragon\\runtime\\long_beach\\relationship_graph.json",
+                    ".\\public\\data\\clients\\black_dragon\\cities\\long_beach\\source_registry.json",
+                    ".\\public\\data\\clients\\black_dragon\\cities\\long_beach\\entity_schema.json",
+                    ".\\public\\data\\clients\\black_dragon\\cities\\long_beach\\contact_governance_policy.json",
+                    ".\\public\\data\\clients\\black_dragon\\cities\\long_beach\\city_dossier_stack.json",
+                    ".\\public\\data\\clients\\black_dragon\\cities\\long_beach\\legacy_role_manifest.json"
+                ],
+    "invalid_json_count":  1,
+    "invalid_json":  [
+                         ".\\public\\data\\clients\\black_dragon\\runtime\\long_beach\\entities_runtime.json"
+                     ],
+    "preserved":  {
+                      "city_specific_legacy_assets":  true,
+                      "synthetic_entities_created":  false,
+                      "legacy_assets_overwritten":  false
+                  },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "FAIL"
+}

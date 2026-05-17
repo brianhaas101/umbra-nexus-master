@@ -1,0 +1,17 @@
+﻿{
+    "schema_id":  "layer_10_input_schema",
+    "required":  [
+                     "record_id",
+                     "authority_score",
+                     "relevance_score",
+                     "geo_score",
+                     "freshness_score",
+                     "corroboration_score",
+                     "penalty_score"
+                 ],
+    "rejected":  [
+                     "manual_weight_override",
+                     "runtime_weight_override",
+                     "synthetic_score_boost"
+                 ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": "black_dragon_batch_122_long_beach_contact_resolution_audit_v1",
+  "generated_at": "2026-05-10T19:14:06.566Z",
+  "batch": "122_LONG_BEACH_CONTACT_ROUTE_RESOLUTION",
+  "counts": {
+    "imported_routes": 10,
+    "validated_routes": 10,
+    "client_action_routes": 10,
+    "runtime_contact_ready": 10
+  },
+  "gates": {
+    "imported_10": true,
+    "validated_10": true,
+    "queue_matches_validated": true,
+    "runtime_matches_queue": true,
+    "no_automated_outreach": true,
+    "manual_client_control_only": true
+  },
+  "status": "PASS"
+}

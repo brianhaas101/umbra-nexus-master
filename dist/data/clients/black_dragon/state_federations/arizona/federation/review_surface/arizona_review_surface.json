@@ -1,0 +1,450 @@
+{
+  "version": "black_dragon_arizona_four_city_review_surface_v1",
+  "generated_at": "2026-05-11T00:23:57.916Z",
+  "state": "Arizona",
+  "client_visible": true,
+  "manual_contact_review": {
+    "item_count": 28,
+    "items": [
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00001",
+        "city": "Phoenix",
+        "organization_name": "Arizona Bike Week",
+        "city_rank": 1,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://azbikeweek.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00002",
+        "city": "Phoenix",
+        "organization_name": "Harley-Davidson of Scottsdale",
+        "city_rank": 2,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.hdofscottsdale.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00003",
+        "city": "Phoenix",
+        "organization_name": "Law Tigers Arizona",
+        "city_rank": 5,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://lawtigers.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00004",
+        "city": "Phoenix",
+        "organization_name": "ABATE of Arizona",
+        "city_rank": 6,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://abateofaz.org/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00005",
+        "city": "Phoenix",
+        "organization_name": "Phoenix Bike Night Network",
+        "city_rank": 7,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.eventbrite.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00006",
+        "city": "Phoenix",
+        "organization_name": "Cycle Gear Phoenix",
+        "city_rank": 8,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.cyclegear.com/stores",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00007",
+        "city": "Phoenix",
+        "organization_name": "Phoenix Motorcycle Riders Meetup",
+        "city_rank": 9,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.meetup.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00008",
+        "city": "Phoenix",
+        "organization_name": "Arizona Motorcycle Safety and Awareness Foundation",
+        "city_rank": 10,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.amsaf.org/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00009",
+        "city": "Scottsdale",
+        "organization_name": "Arizona Bike Week",
+        "city_rank": 1,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://azbikeweek.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00010",
+        "city": "Scottsdale",
+        "organization_name": "Harley-Davidson of Scottsdale",
+        "city_rank": 2,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.hdofscottsdale.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00011",
+        "city": "Scottsdale",
+        "organization_name": "Scottsdale Bike Week Vendor Network",
+        "city_rank": 5,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://azbikeweek.com/vendors/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00012",
+        "city": "Scottsdale",
+        "organization_name": "Law Tigers Arizona",
+        "city_rank": 6,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://lawtigers.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00013",
+        "city": "Scottsdale",
+        "organization_name": "WestWorld of Scottsdale Event Network",
+        "city_rank": 7,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://westworldaz.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00014",
+        "city": "Scottsdale",
+        "organization_name": "Scottsdale Motorcycle Riders Network",
+        "city_rank": 9,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.meetup.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00015",
+        "city": "Scottsdale",
+        "organization_name": "Scottsdale Charity Ride Network",
+        "city_rank": 10,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.eventbrite.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00016",
+        "city": "Mesa",
+        "organization_name": "Arizona Bike Week",
+        "city_rank": 1,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://azbikeweek.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00017",
+        "city": "Mesa",
+        "organization_name": "Mesa Bike Week Vendor Network",
+        "city_rank": 5,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://azbikeweek.com/vendors/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00018",
+        "city": "Mesa",
+        "organization_name": "Law Tigers Arizona",
+        "city_rank": 6,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://lawtigers.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00019",
+        "city": "Mesa",
+        "organization_name": "WestWorld of Mesa Event Network",
+        "city_rank": 7,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://westworldaz.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00020",
+        "city": "Mesa",
+        "organization_name": "Mesa Motorcycle Riders Network",
+        "city_rank": 9,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.meetup.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00021",
+        "city": "Mesa",
+        "organization_name": "Mesa Charity Ride Network",
+        "city_rank": 10,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.eventbrite.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00022",
+        "city": "Tucson",
+        "organization_name": "Law Tigers Arizona",
+        "city_rank": 2,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://lawtigers.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00023",
+        "city": "Tucson",
+        "organization_name": "Tucson Harley Owners Group",
+        "city_rank": 4,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.harley-davidson.com/us/en/content/hog.html",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00024",
+        "city": "Tucson",
+        "organization_name": "ABATE of Arizona",
+        "city_rank": 5,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://abateofaz.org/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00025",
+        "city": "Tucson",
+        "organization_name": "Tucson Bike Night Network",
+        "city_rank": 6,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.eventbrite.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00026",
+        "city": "Tucson",
+        "organization_name": "Cycle Gear Tucson",
+        "city_rank": 8,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.cyclegear.com/stores",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00027",
+        "city": "Tucson",
+        "organization_name": "Tucson Motorcycle Riders Network",
+        "city_rank": 9,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.meetup.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      },
+      {
+        "review_item_id": "BD_AZ_CONTACT_REVIEW_00028",
+        "city": "Tucson",
+        "organization_name": "Tucson Charity Ride Network",
+        "city_rank": 10,
+        "route_validation_status": "VALID",
+        "public_contact_url": "https://www.eventbrite.com/",
+        "manual_contact_possible_after_review": true,
+        "automated_outreach_allowed": false,
+        "contact_ready_promotion_allowed": false
+      }
+    ]
+  },
+  "route_issue_review": {
+    "item_count": 12,
+    "items": [
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00001",
+        "city": "Phoenix",
+        "organization_name": "Buddy Stubbs Harley-Davidson",
+        "url": "https://www.buddystubbshd.com/",
+        "failure_status": "REVIEW_REQUIRED",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00002",
+        "city": "Phoenix",
+        "organization_name": "Arizona Veterans Motorcycle Association",
+        "url": "https://www.vma-usa.org/",
+        "failure_status": "ERROR",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00003",
+        "city": "Scottsdale",
+        "organization_name": "GO AZ Motorcycles",
+        "url": "https://www.goaz.com/",
+        "failure_status": "REVIEW_REQUIRED",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00004",
+        "city": "Scottsdale",
+        "organization_name": "Arizona Veterans Motorcycle Association",
+        "url": "https://www.vma-usa.org/",
+        "failure_status": "ERROR",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00005",
+        "city": "Scottsdale",
+        "organization_name": "Scottsdale Custom Motorcycle Culture",
+        "url": "https://www.facebook.com/search/top?q=scottsdale%20motorcycle",
+        "failure_status": "REVIEW_REQUIRED",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00006",
+        "city": "Mesa",
+        "organization_name": "Harley-Davidson of Mesa",
+        "url": "https://www.hdofmesa.com/",
+        "failure_status": "ERROR",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00007",
+        "city": "Mesa",
+        "organization_name": "GO AZ Motorcycles",
+        "url": "https://www.goaz.com/",
+        "failure_status": "REVIEW_REQUIRED",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00008",
+        "city": "Mesa",
+        "organization_name": "Arizona Veterans Motorcycle Association",
+        "url": "https://www.vma-usa.org/",
+        "failure_status": "ERROR",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00009",
+        "city": "Mesa",
+        "organization_name": "Mesa Custom Motorcycle Culture",
+        "url": "https://www.facebook.com/search/top?q=mesa%20motorcycle",
+        "failure_status": "REVIEW_REQUIRED",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00010",
+        "city": "Tucson",
+        "organization_name": "Harley-Davidson of Tucson",
+        "url": "https://www.hdtucson.com/",
+        "failure_status": "ERROR",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00011",
+        "city": "Tucson",
+        "organization_name": "Arizona Veterans Motorcycle Association",
+        "url": "https://www.vma-usa.org/",
+        "failure_status": "ERROR",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      },
+      {
+        "route_review_id": "BD_AZ_ROUTE_REVIEW_00012",
+        "city": "Tucson",
+        "organization_name": "Tucson Custom Motorcycle Culture",
+        "url": "https://www.facebook.com/search/top?q=tucson%20motorcycle",
+        "failure_status": "REVIEW_REQUIRED",
+        "founder_review_required": true,
+        "automatic_delete_allowed": false,
+        "automated_outreach_allowed": false
+      }
+    ]
+  },
+  "hardlocks": {
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "no_runtime_mutation": true,
+    "no_delete_without_quarantine": true
+  }
+}

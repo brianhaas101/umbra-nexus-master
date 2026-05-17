@@ -1,0 +1,41 @@
+{
+  "version": "umbra_client_session_policy_v1",
+
+  "required_session_fields": [
+    "active_user_id",
+    "active_client_id",
+    "runtime_role",
+    "session_scope",
+    "session_started_at",
+    "last_validated_at"
+  ],
+
+  "allowed_runtime_roles": [
+    "FOUNDER",
+    "CLIENT_OPERATOR"
+  ],
+
+  "allowed_client_ids": [
+    "black_dragon"
+  ],
+
+  "client_operator_rules": {
+    "must_have_client_id": true,
+    "must_have_client_scope": true,
+    "cannot_restore_founder_runtime": true,
+    "cannot_restore_global_dataset": true,
+    "cannot_switch_clients_on_restore": true
+  },
+
+  "founder_rules": {
+    "may_restore_admin_runtime": true,
+    "may_switch_clients": true,
+    "may_access_global_scope": true
+  },
+
+  "stale_session_rules": {
+    "stale_after_minutes": 720,
+    "client_stale_session_resets_to_safe_client_runtime": true,
+    "founder_stale_session_requires_revalidation": true
+  }
+}

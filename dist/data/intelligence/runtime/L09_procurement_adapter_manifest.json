@@ -1,0 +1,32 @@
+{
+  "version": "nexus_L09_procurement_adapter_manifest_v1",
+  "generated_at": "2026-05-06T04:36:31.450Z",
+  "layer_id": "L09_PROCUREMENT_INTELLIGENCE",
+  "adapters": [
+    {
+      "adapter_id": "SAM_GOV_PROCUREMENT_ADAPTER",
+      "input_type": "API_JSON",
+      "normalization_registry": "L09_procurement_normalization.registry.json"
+    },
+    {
+      "adapter_id": "STATE_BID_PORTAL_ADAPTER",
+      "input_type": "HTML_JSON_CSV",
+      "normalization_registry": "L09_procurement_normalization.registry.json"
+    },
+    {
+      "adapter_id": "LOCAL_RFP_PORTAL_ADAPTER",
+      "input_type": "HTML_RSS_JSON",
+      "normalization_registry": "L09_procurement_normalization.registry.json"
+    },
+    {
+      "adapter_id": "CONTRACT_AWARD_ADAPTER",
+      "input_type": "HTML_PDF_CSV",
+      "normalization_registry": "L09_procurement_normalization.registry.json"
+    },
+    {
+      "adapter_id": "PURCHASE_ORDER_LOG_ADAPTER",
+      "input_type": "CSV_XLSX_JSON",
+      "normalization_registry": "L09_procurement_normalization.registry.json"
+    }
+  ]
+}

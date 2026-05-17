@@ -1,0 +1,17 @@
+﻿{
+  "layer_id": "L02",
+  "layer_name": "State Intelligence",
+  "version": "0.1.0",
+  "depends_on": ["L01"],
+  "purpose": "State-level intelligence acquisition, normalization, provenance, and state-to-federal bridge preparation.",
+  "rules": {
+    "no_l01_mutation": true,
+    "no_client_path_mutation": true,
+    "no_synthetic_fillers": true,
+    "no_inferred_contacts": true,
+    "promotion_requires_pass_token": true,
+    "provenance_required": true,
+    "replay_hashing_required": true
+  },
+  "client_paths_touched": false
+}

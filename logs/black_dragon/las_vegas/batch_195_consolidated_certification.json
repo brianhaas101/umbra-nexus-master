@@ -1,0 +1,198 @@
+{
+    "batch":  "195",
+    "version":  "black_dragon_las_vegas_consolidated_certification_v1",
+    "generated_at":  "2026-05-11T02:02:45.3556573Z",
+    "toolchain":  {
+                      "powershell":  "PowerShell 7.6.1",
+                      "node":  "v22.22.2",
+                      "npm":  "10.9.7",
+                      "fd":  "fd 10.4.2",
+                      "rg":  "ripgrep 15.1.0 (rev af60c2de9d)",
+                      "jq":  "jq-1.8.1",
+                      "ajv":  "ajv-cli",
+                      "pester":  "5.7.1"
+                  },
+    "artifact_inventory":  {
+                               "required_count":  17,
+                               "missing_count":  0,
+                               "missing":  [
+
+                                           ],
+                               "inventory_log":  ".\\logs\\black_dragon\\las_vegas\\batch_195_fd_inventory.txt"
+                           },
+    "json_validation":  {
+                            "files_checked":  16,
+                            "invalid_files":  0,
+                            "results":  [
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\states\\nevada\\single_city_runtime_policy.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_governance_policy.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_readiness_scores.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\entity_schema.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\las_vegas_operational_manifest.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\manual_review_pipeline.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\quarantined_entities.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\source_registry.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\public\\data\\clients\\black_dragon\\runtime\\las_vegas\\runtime_shell.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\schemas\\black_dragon\\las_vegas\\contact_governance.schema.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\schemas\\black_dragon\\las_vegas\\contact_readiness_scores.schema.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\schemas\\black_dragon\\las_vegas\\entity_schema_contract.schema.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\schemas\\black_dragon\\las_vegas\\manual_review_pipeline.schema.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\schemas\\black_dragon\\las_vegas\\quarantined_entities.schema.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\schemas\\black_dragon\\las_vegas\\runtime_shell.schema.json",
+                                                "valid_json":  true
+                                            },
+                                            {
+                                                "file":  ".\\schemas\\black_dragon\\las_vegas\\source_registry.schema.json",
+                                                "valid_json":  true
+                                            }
+                                        ]
+                        },
+    "ajv_validation":  {
+                           "checked":  7,
+                           "failed":  0,
+                           "results":  [
+                                           {
+                                               "name":  "quarantined_entities",
+                                               "schema":  ".\\schemas\\black_dragon\\las_vegas\\quarantined_entities.schema.json",
+                                               "data":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\quarantined_entities.json",
+                                               "valid":  true,
+                                               "exit_code":  0,
+                                               "output":  [
+                                                              ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\quarantined_entities.json valid"
+                                                          ]
+                                           },
+                                           {
+                                               "name":  "manual_review_pipeline",
+                                               "schema":  ".\\schemas\\black_dragon\\las_vegas\\manual_review_pipeline.schema.json",
+                                               "data":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\manual_review_pipeline.json",
+                                               "valid":  true,
+                                               "exit_code":  0,
+                                               "output":  [
+                                                              ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\manual_review_pipeline.json valid"
+                                                          ]
+                                           },
+                                           {
+                                               "name":  "contact_readiness_scores",
+                                               "schema":  ".\\schemas\\black_dragon\\las_vegas\\contact_readiness_scores.schema.json",
+                                               "data":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_readiness_scores.json",
+                                               "valid":  true,
+                                               "exit_code":  0,
+                                               "output":  [
+                                                              ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_readiness_scores.json valid"
+                                                          ]
+                                           },
+                                           {
+                                               "name":  "runtime_shell",
+                                               "schema":  ".\\schemas\\black_dragon\\las_vegas\\runtime_shell.schema.json",
+                                               "data":  ".\\public\\data\\clients\\black_dragon\\runtime\\las_vegas\\runtime_shell.json",
+                                               "valid":  true,
+                                               "exit_code":  0,
+                                               "output":  [
+                                                              ".\\public\\data\\clients\\black_dragon\\runtime\\las_vegas\\runtime_shell.json valid"
+                                                          ]
+                                           },
+                                           {
+                                               "name":  "source_registry",
+                                               "schema":  ".\\schemas\\black_dragon\\las_vegas\\source_registry.schema.json",
+                                               "data":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\source_registry.json",
+                                               "valid":  true,
+                                               "exit_code":  0,
+                                               "output":  [
+                                                              ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\source_registry.json valid"
+                                                          ]
+                                           },
+                                           {
+                                               "name":  "entity_schema_contract",
+                                               "schema":  ".\\schemas\\black_dragon\\las_vegas\\entity_schema_contract.schema.json",
+                                               "data":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\entity_schema.json",
+                                               "valid":  true,
+                                               "exit_code":  0,
+                                               "output":  [
+                                                              ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\entity_schema.json valid"
+                                                          ]
+                                           },
+                                           {
+                                               "name":  "contact_governance",
+                                               "schema":  ".\\schemas\\black_dragon\\las_vegas\\contact_governance.schema.json",
+                                               "data":  ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_governance_policy.json",
+                                               "valid":  true,
+                                               "exit_code":  0,
+                                               "output":  [
+                                                              ".\\public\\data\\clients\\black_dragon\\cities\\las_vegas\\contact_governance_policy.json valid"
+                                                          ]
+                                           }
+                                       ]
+                       },
+    "pester_validation":  {
+                              "test_file":  ".\\tests\\black_dragon\\LasVegas.Invariant.Tests.ps1",
+                              "passed":  8,
+                              "failed":  0,
+                              "skipped":  0
+                          },
+    "drift_scans":  {
+                        "blocked_runtime_city_scan_count":  0,
+                        "forbidden_runtime_scan_count":  7,
+                        "blocked_runtime_city_scan_log":  ".\\logs\\black_dragon\\las_vegas\\batch_195_blocked_runtime_city_scan.txt",
+                        "forbidden_runtime_scan_log":  ".\\logs\\black_dragon\\las_vegas\\batch_195_forbidden_runtime_scan.txt"
+                    },
+    "runtime_integrity":  {
+                              "active_city":  "Las Vegas",
+                              "active_state":  "Nevada",
+                              "city_scope_only":  true,
+                              "statewide_scope_forbidden":  true,
+                              "runtime_eligible_entities":  0,
+                              "outbound_contact_enabled":  0,
+                              "non_quarantined_entities":  0
+                          },
+    "hardlocks":  {
+                      "no_auto_contact":  true,
+                      "no_auto_promotion":  true,
+                      "no_runtime_mutation":  true,
+                      "quarantine_before_runtime":  true,
+                      "manual_review_required_for_contact":  true
+                  },
+    "status":  "PASS_LAS_VEGAS_CERTIFIED"
+}

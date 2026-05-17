@@ -1,0 +1,501 @@
+{
+    "version":  "black_dragon_scottsdale_quarantined_candidate_entities_v1",
+    "generated_at":  "2026-05-11T05:34:05.7079086Z",
+    "city":  "Scottsdale",
+    "folder":  "scottsdale",
+    "entities":  [
+                     {
+                         "entity_id":  "candidate_entity_715a90061ac549a89466e14d11f62e3e",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\dedupe\\scottsdale_regional_dedupe.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\dedupe\\scottsdale_regional_dedupe.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_fe70e5d7beb443d995387ee1a98133a3",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\imports\\scottsdale_discovery_import.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\imports\\scottsdale_discovery_import.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_055799de40154d239a22cc82b00360dc",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\validated\\scottsdale_validated_candidates.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\scottsdale\\validated\\scottsdale_validated_candidates.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_e6df644094ad42fe91802d894434a759",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\dossiers\\scottsdale_runtime_dossiers.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_7da9893b7aa5413899039a39407e9b1a",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\map_nodes\\scottsdale_runtime_map_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_037a87cfc531413e9488c0d9ff72ddb5",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\merged\\scottsdale_merged_city_entities.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_141e2697ef3b4d73b5a191851ac90a46",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\node_cards\\scottsdale_client_node_cards.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\node_cards\\scottsdale_client_node_cards.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_8a66e8dbbd7c4205ab096f906b463027",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\propagation_feed\\scottsdale_client_propagation_feed.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\scottsdale\\ui\\propagation_feed\\scottsdale_client_propagation_feed.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_57ea73131f1d4fa99cff03533647a003",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\edges\\scottsdale_graph_edges.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\edges\\scottsdale_graph_edges.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_9b43f965811d4ff1bb05a165e0c5c74f",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\nodes\\scottsdale_graph_nodes.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\nodes\\scottsdale_graph_nodes.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_620025371ca94e26b4d049626b2325a9",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\paths\\scottsdale_propagation_paths.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\paths\\scottsdale_propagation_paths.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_aed4f79f3ae54994bc738241db5bdead",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\scores\\scottsdale_graph_influence_scores.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\scottsdale\\scores\\scottsdale_graph_influence_scores.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "candidate_entity_a0504584df584b91ab945d45952f2ec7",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.5,
+                         "confidence_basis":  [
+                                                  "local_source_candidate",
+                                                  "city_or_folder_match",
+                                                  "organization_signal_detected"
+                                              ],
+                         "provenance":  {
+                                            "source_file":  ".\\public\\data\\clients\\black_dragon\\state_federations\\arizona\\comparison\\phoenix_scottsdale_comparison.json",
+                                            "source_validation_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                            "public_url_verified":  false,
+                                            "category_verified":  false,
+                                            "organization_identity_verified":  false
+                                        },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true,
+                                         "private_person_target":  false,
+                                         "inferred_contact":  false
+                                     },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "status":  "QUARANTINED_ORGANIZATION_CANDIDATE_REVIEW_REQUIRED"
+                     },
+                     {
+                         "entity_id":  "saturation_entity_27a497944ea146c0b3a1f96bd1332139",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.55,
+                         "confidence_basis":  [
+                                                  "density_gap_alignment",
+                                                  "manual_review_required"
+                                              ],
+                         "provenance":  {
+                                            "derived_from":  "wave_1_density_gap_alignment",
+                                            "generated_by_batch":  "234R"
+                                        },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true
+                                     },
+                         "status":  "QUARANTINED_ALIGNMENT_ENTITY"
+                     },
+                     {
+                         "entity_id":  "saturation_entity_07e818eb20b3472092894a81aaa2ce70",
+                         "city":  "Scottsdale",
+                         "folder":  "scottsdale",
+                         "organization_signal_detected":  true,
+                         "source_valid_json":  true,
+                         "city_match":  true,
+                         "confidence_score":  0.55,
+                         "confidence_basis":  [
+                                                  "density_gap_alignment",
+                                                  "manual_review_required"
+                                              ],
+                         "provenance":  {
+                                            "derived_from":  "wave_1_density_gap_alignment",
+                                            "generated_by_batch":  "234R"
+                                        },
+                         "runtime":  {
+                                         "runtime_promotion_allowed":  false,
+                                         "quarantine_required":  true
+                                     },
+                         "contact":  {
+                                         "contact_enabled":  false,
+                                         "manual_review_required":  true
+                                     },
+                         "status":  "QUARANTINED_ALIGNMENT_ENTITY"
+                     }
+                 ],
+    "policy":  {
+                   "source_url_required_before_promotion":  true,
+                   "category_required_before_promotion":  true,
+                   "organization_identity_required_before_promotion":  true,
+                   "no_placeholder_entities":  true,
+                   "no_false_targets":  true,
+                   "no_private_person_targets":  true,
+                   "runtime_promotion_allowed":  false,
+                   "contact_enablement_allowed":  false,
+                   "manual_review_required":  true
+               },
+    "status":  "ORGANIZATION_CANDIDATES_QUARANTINED"
+}

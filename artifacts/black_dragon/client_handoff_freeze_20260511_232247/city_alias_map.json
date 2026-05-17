@@ -1,0 +1,582 @@
+{
+  "chattanooga": {
+    "canonical_name": "Chattanooga, TN",
+    "state": "TN",
+    "city_id": "city_b7aea338"
+  },
+  "fort worth": {
+    "canonical_name": "Fort Worth, TX",
+    "state": "TX",
+    "city_id": "city_47b59fac"
+  },
+  "washington": {
+    "canonical_name": "Washington, DC",
+    "state": "DC",
+    "city_id": "city_5fedc010"
+  },
+  "miami": {
+    "canonical_name": "Miami, FL",
+    "state": "FL",
+    "city_id": "city_53389926"
+  },
+  "bloomington": {
+    "canonical_name": "Bloomington, MN",
+    "state": "MN",
+    "city_id": "city_668d0bd6"
+  },
+  "charlotte": {
+    "canonical_name": "Charlotte, NC",
+    "state": "NC",
+    "city_id": "city_5090c3c6"
+  },
+  "spokane": {
+    "canonical_name": "Spokane, WA",
+    "state": "WA",
+    "city_id": "city_852df262"
+  },
+  "rio rancho": {
+    "canonical_name": "Rio Rancho, NM",
+    "state": "NM",
+    "city_id": "city_5e423e03"
+  },
+  "salem": {
+    "canonical_name": "Salem, OR",
+    "state": "OR",
+    "city_id": "city_b27a62e8"
+  },
+  "portland": {
+    "canonical_name": "Portland, OR",
+    "state": "OR",
+    "city_id": "city_ab77b2a8"
+  },
+  "kansas city": {
+    "canonical_name": "Kansas City, MO",
+    "state": "MO",
+    "city_id": "city_828fab47"
+  },
+  "north las vegas": {
+    "canonical_name": "North Las Vegas, NV",
+    "state": "NV",
+    "city_id": "city_7662680f"
+  },
+  "denver": {
+    "canonical_name": "Denver, CO",
+    "state": "CO",
+    "city_id": "city_39d61699"
+  },
+  "columbia": {
+    "canonical_name": "Columbia, MO",
+    "state": "MO",
+    "city_id": "city_878f11ab"
+  },
+  "clarksville": {
+    "canonical_name": "Clarksville, TN",
+    "state": "TN",
+    "city_id": "city_5cbb095a"
+  },
+  "duluth": {
+    "canonical_name": "Duluth, MN",
+    "state": "MN",
+    "city_id": "city_0b8ff86c"
+  },
+  "columbus": {
+    "canonical_name": "Columbus, OH",
+    "state": "OH",
+    "city_id": "city_85e83faa"
+  },
+  "oakland": {
+    "canonical_name": "Oakland, CA",
+    "state": "CA",
+    "city_id": "city_8f664c09"
+  },
+  "jacksonville": {
+    "canonical_name": "Jacksonville, FL",
+    "state": "FL",
+    "city_id": "city_7e936870"
+  },
+  "toledo": {
+    "canonical_name": "Toledo, OH",
+    "state": "OH",
+    "city_id": "city_4cbdb331"
+  },
+  "henderson": {
+    "canonical_name": "Henderson, NV",
+    "state": "NV",
+    "city_id": "city_fc1b220f"
+  },
+  "san jose": {
+    "canonical_name": "San Jose, CA",
+    "state": "CA",
+    "city_id": "city_759cd460"
+  },
+  "detroit": {
+    "canonical_name": "Detroit, MI",
+    "state": "MI",
+    "city_id": "city_6536761e"
+  },
+  "allentown": {
+    "canonical_name": "Allentown, PA",
+    "state": "PA",
+    "city_id": "city_3c08e197"
+  },
+  "arlington": {
+    "canonical_name": "Arlington, TX",
+    "state": "TX",
+    "city_id": "city_6cabf985"
+  },
+  "erie": {
+    "canonical_name": "Erie, PA",
+    "state": "PA",
+    "city_id": "city_46ea53ac"
+  },
+  "west valley city": {
+    "canonical_name": "West Valley City, UT",
+    "state": "UT",
+    "city_id": "city_b6773437"
+  },
+  "santa fe": {
+    "canonical_name": "Santa Fe, NM",
+    "state": "NM",
+    "city_id": "city_60b147f2"
+  },
+  "ann arbor": {
+    "canonical_name": "Ann Arbor, MI",
+    "state": "MI",
+    "city_id": "city_fd630896"
+  },
+  "akron": {
+    "canonical_name": "Akron, OH",
+    "state": "OH",
+    "city_id": "city_66635fc3"
+  },
+  "reno": {
+    "canonical_name": "Reno, NV",
+    "state": "NV",
+    "city_id": "city_f48df4c8"
+  },
+  "new york": {
+    "canonical_name": "New York, NY",
+    "state": "NY",
+    "city_id": "city_3d50f2fd"
+  },
+  "west jordan": {
+    "canonical_name": "West Jordan, UT",
+    "state": "UT",
+    "city_id": "city_c084361b"
+  },
+  "meridian": {
+    "canonical_name": "Meridian, ID",
+    "state": "ID",
+    "city_id": "city_72c8b2f9"
+  },
+  "durham": {
+    "canonical_name": "Durham, NC",
+    "state": "NC",
+    "city_id": "city_78ccf400"
+  },
+  "albuquerque": {
+    "canonical_name": "Albuquerque, NM",
+    "state": "NM",
+    "city_id": "city_756cb4ea"
+  },
+  "pocatello": {
+    "canonical_name": "Pocatello, ID",
+    "state": "ID",
+    "city_id": "city_4ada292b"
+  },
+  "orem": {
+    "canonical_name": "Orem, UT",
+    "state": "UT",
+    "city_id": "city_1e4fcd97"
+  },
+  "virginia beach": {
+    "canonical_name": "Virginia Beach, VA",
+    "state": "VA",
+    "city_id": "city_29cb8e76"
+  },
+  "greensboro": {
+    "canonical_name": "Greensboro, NC",
+    "state": "NC",
+    "city_id": "city_0e003b8d"
+  },
+  "austin": {
+    "canonical_name": "Austin, TX",
+    "state": "TX",
+    "city_id": "city_a324d561"
+  },
+  "long beach": {
+    "canonical_name": "Long Beach, CA",
+    "state": "CA",
+    "city_id": "city_0a31d438"
+  },
+  "mesa": {
+    "canonical_name": "Mesa, AZ",
+    "state": "AZ",
+    "city_id": "city_7d043dae"
+  },
+  "san antonio": {
+    "canonical_name": "San Antonio, TX",
+    "state": "TX",
+    "city_id": "city_c27d5d7f"
+  },
+  "lakewood": {
+    "canonical_name": "Lakewood, CO",
+    "state": "CO",
+    "city_id": "city_1138b2d4"
+  },
+  "pittsburgh": {
+    "canonical_name": "Pittsburgh, PA",
+    "state": "PA",
+    "city_id": "city_49bcf5c9"
+  },
+  "bellevue": {
+    "canonical_name": "Bellevue, WA",
+    "state": "WA",
+    "city_id": "city_c2cf7437"
+  },
+  "tacoma": {
+    "canonical_name": "Tacoma, WA",
+    "state": "WA",
+    "city_id": "city_ef557a57"
+  },
+  "vancouver": {
+    "canonical_name": "Vancouver, WA",
+    "state": "WA",
+    "city_id": "city_82e75d40"
+  },
+  "flint": {
+    "canonical_name": "Flint, MI",
+    "state": "MI",
+    "city_id": "city_9ba60036"
+  },
+  "hillsboro": {
+    "canonical_name": "Hillsboro, OR",
+    "state": "OR",
+    "city_id": "city_bf66ad64"
+  },
+  "roswell": {
+    "canonical_name": "Roswell, NM",
+    "state": "NM",
+    "city_id": "city_e1fe8704"
+  },
+  "seattle": {
+    "canonical_name": "Seattle, WA",
+    "state": "WA",
+    "city_id": "city_b7ea02a9"
+  },
+  "owensboro": {
+    "canonical_name": "Owensboro, KY",
+    "state": "KY",
+    "city_id": "city_17fcb829"
+  },
+  "omaha": {
+    "canonical_name": "Omaha, NE",
+    "state": "NE",
+    "city_id": "city_127606b4"
+  },
+  "gresham": {
+    "canonical_name": "Gresham, OR",
+    "state": "OR",
+    "city_id": "city_400670ba"
+  },
+  "knoxville": {
+    "canonical_name": "Knoxville, TN",
+    "state": "TN",
+    "city_id": "city_20eb3715"
+  },
+  "st paul": {
+    "canonical_name": "St Paul, MN",
+    "state": "MN",
+    "city_id": "city_70207d8e"
+  },
+  "st louis": {
+    "canonical_name": "St Louis, MO",
+    "state": "MO",
+    "city_id": "city_2a5ba728"
+  },
+  "scottsdale": {
+    "canonical_name": "Scottsdale, AZ",
+    "state": "AZ",
+    "city_id": "city_c1a02fde"
+  },
+  "los angeles": {
+    "canonical_name": "Los Angeles, CA",
+    "state": "CA",
+    "city_id": "city_1f98af58"
+  },
+  "nampa": {
+    "canonical_name": "Nampa, ID",
+    "state": "ID",
+    "city_id": "city_70af1d0e"
+  },
+  "bowling green": {
+    "canonical_name": "Bowling Green, KY",
+    "state": "KY",
+    "city_id": "city_9814694d"
+  },
+  "nashville": {
+    "canonical_name": "Nashville, TN",
+    "state": "TN",
+    "city_id": "city_154a8fe9"
+  },
+  "louisville": {
+    "canonical_name": "Louisville, KY",
+    "state": "KY",
+    "city_id": "city_8e6f63cf"
+  },
+  "dallas": {
+    "canonical_name": "Dallas, TX",
+    "state": "TX",
+    "city_id": "city_5abab5f6"
+  },
+  "oklahoma city": {
+    "canonical_name": "Oklahoma City, OK",
+    "state": "OK",
+    "city_id": "city_a2cbee70"
+  },
+  "tampa": {
+    "canonical_name": "Tampa, FL",
+    "state": "FL",
+    "city_id": "city_af6fd06c"
+  },
+  "winston-salem": {
+    "canonical_name": "Winston-Salem, NC",
+    "state": "NC",
+    "city_id": "city_763449ef"
+  },
+  "san francisco": {
+    "canonical_name": "San Francisco, CA",
+    "state": "CA",
+    "city_id": "city_d2941d41"
+  },
+  "reading": {
+    "canonical_name": "Reading, PA",
+    "state": "PA",
+    "city_id": "city_b183167f"
+  },
+  "sparks": {
+    "canonical_name": "Sparks, NV",
+    "state": "NV",
+    "city_id": "city_f7bb5b9c"
+  },
+  "chicago": {
+    "canonical_name": "Chicago, IL",
+    "state": "IL",
+    "city_id": "city_4c180874"
+  },
+  "san diego": {
+    "canonical_name": "San Diego, CA",
+    "state": "CA",
+    "city_id": "city_dd17b133"
+  },
+  "new orleans": {
+    "canonical_name": "New Orleans, LA",
+    "state": "LA",
+    "city_id": "city_b5ad2562"
+  },
+  "el paso": {
+    "canonical_name": "El Paso, TX",
+    "state": "TX",
+    "city_id": "city_990961e3"
+  },
+  "tulsa": {
+    "canonical_name": "Tulsa, OK",
+    "state": "OK",
+    "city_id": "city_936b7d90"
+  },
+  "las cruces": {
+    "canonical_name": "Las Cruces, NM",
+    "state": "NM",
+    "city_id": "city_fa4dd02c"
+  },
+  "milwaukee": {
+    "canonical_name": "Milwaukee, WI",
+    "state": "WI",
+    "city_id": "city_3fad7905"
+  },
+  "broken arrow": {
+    "canonical_name": "Broken Arrow, OK",
+    "state": "OK",
+    "city_id": "city_c4822ada"
+  },
+  "cleveland": {
+    "canonical_name": "Cleveland, OH",
+    "state": "OH",
+    "city_id": "city_350fa856"
+  },
+  "edmond": {
+    "canonical_name": "Edmond, OK",
+    "state": "OK",
+    "city_id": "city_0c5b904d"
+  },
+  "rochester": {
+    "canonical_name": "Rochester, MN",
+    "state": "MN",
+    "city_id": "city_0d4f6d2f"
+  },
+  "tucson": {
+    "canonical_name": "Tucson, AZ",
+    "state": "AZ",
+    "city_id": "city_b903b4d0"
+  },
+  "lansing": {
+    "canonical_name": "Lansing, MI",
+    "state": "MI",
+    "city_id": "city_b0cd67a6"
+  },
+  "sacramento": {
+    "canonical_name": "Sacramento, CA",
+    "state": "CA",
+    "city_id": "city_47748120"
+  },
+  "springfield": {
+    "canonical_name": "Springfield, MO",
+    "state": "MO",
+    "city_id": "city_82649311"
+  },
+  "grand rapids": {
+    "canonical_name": "Grand Rapids, MI",
+    "state": "MI",
+    "city_id": "city_5c4c1c64"
+  },
+  "atlanta": {
+    "canonical_name": "Atlanta, GA",
+    "state": "GA",
+    "city_id": "city_7eb25064"
+  },
+  "baltimore": {
+    "canonical_name": "Baltimore, MD",
+    "state": "MD",
+    "city_id": "city_a7350aab"
+  },
+  "idaho falls": {
+    "canonical_name": "Idaho Falls, ID",
+    "state": "ID",
+    "city_id": "city_3fbbe606"
+  },
+  "boston": {
+    "canonical_name": "Boston, MA",
+    "state": "MA",
+    "city_id": "city_95b0c3ba"
+  },
+  "fort collins": {
+    "canonical_name": "Fort Collins, CO",
+    "state": "CO",
+    "city_id": "city_254d227a"
+  },
+  "fresno": {
+    "canonical_name": "Fresno, CA",
+    "state": "CA",
+    "city_id": "city_c94decbe"
+  },
+  "cincinnati": {
+    "canonical_name": "Cincinnati, OH",
+    "state": "OH",
+    "city_id": "city_1e856280"
+  },
+  "chandler": {
+    "canonical_name": "Chandler, AZ",
+    "state": "AZ",
+    "city_id": "city_46d49fea"
+  },
+  "norman": {
+    "canonical_name": "Norman, OK",
+    "state": "OK",
+    "city_id": "city_9e7d2fb8"
+  },
+  "orlando": {
+    "canonical_name": "Orlando, FL",
+    "state": "FL",
+    "city_id": "city_18d738e7"
+  },
+  "aurora": {
+    "canonical_name": "Aurora, CO",
+    "state": "CO",
+    "city_id": "city_e9054367"
+  },
+  "provo": {
+    "canonical_name": "Provo, UT",
+    "state": "UT",
+    "city_id": "city_b0c51a5d"
+  },
+  "salt lake city": {
+    "canonical_name": "Salt Lake City, UT",
+    "state": "UT",
+    "city_id": "city_9b7d017c"
+  },
+  "las vegas": {
+    "canonical_name": "Las Vegas, NV",
+    "state": "NV",
+    "city_id": "city_f03b8f57"
+  },
+  "minneapolis": {
+    "canonical_name": "Minneapolis, MN",
+    "state": "MN",
+    "city_id": "city_1fd1b37f"
+  },
+  "covington": {
+    "canonical_name": "Covington, KY",
+    "state": "KY",
+    "city_id": "city_f8eaf382"
+  },
+  "indianapolis": {
+    "canonical_name": "Indianapolis, IN",
+    "state": "IN",
+    "city_id": "city_1ae44e4f"
+  },
+  "eugene": {
+    "canonical_name": "Eugene, OR",
+    "state": "OR",
+    "city_id": "city_eedb043f"
+  },
+  "lexington": {
+    "canonical_name": "Lexington, KY",
+    "state": "KY",
+    "city_id": "city_6509ecc5"
+  },
+  "phoenix": {
+    "canonical_name": "Phoenix, AZ",
+    "state": "AZ",
+    "city_id": "city_8635d5db"
+  },
+  "boise": {
+    "canonical_name": "Boise, ID",
+    "state": "ID",
+    "city_id": "city_29ef5eb4"
+  },
+  "colorado springs": {
+    "canonical_name": "Colorado Springs, CO",
+    "state": "CO",
+    "city_id": "city_328b326a"
+  },
+  "philadelphia": {
+    "canonical_name": "Philadelphia, PA",
+    "state": "PA",
+    "city_id": "city_01f3a5ed"
+  },
+  "st petersburg": {
+    "canonical_name": "St Petersburg, FL",
+    "state": "FL",
+    "city_id": "city_936f1437"
+  },
+  "raleigh": {
+    "canonical_name": "Raleigh, NC",
+    "state": "NC",
+    "city_id": "city_16f77904"
+  },
+  "memphis": {
+    "canonical_name": "Memphis, TN",
+    "state": "TN",
+    "city_id": "city_c79509a4"
+  },
+  "houston": {
+    "canonical_name": "Houston, TX",
+    "state": "TX",
+    "city_id": "city_0a922e63"
+  },
+  "independence": {
+    "canonical_name": "Independence, MO",
+    "state": "MO",
+    "city_id": "city_16a23f41"
+  }
+}

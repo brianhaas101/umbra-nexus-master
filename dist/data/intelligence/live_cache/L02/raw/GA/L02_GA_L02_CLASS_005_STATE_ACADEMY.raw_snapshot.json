@@ -1,0 +1,59 @@
+{
+  "version": "nexus_L02_live_raw_snapshot_v1",
+  "captured_at": "2026-05-09T01:34:29.308Z",
+  "layer_id": "L02",
+  "connector_id": "L02_GA_L02_CLASS_005_STATE_ACADEMY",
+  "state_abbr": "GA",
+  "state_name": "Georgia",
+  "source_type": "STATE_ACADEMY",
+  "canonical_url": "https://www.gpstc.org",
+  "status": "FETCH_SUCCESS",
+  "response": {
+    "ok": true,
+    "status": 200,
+    "html_length": 128270,
+    "extracted_links": [
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/",
+        "label": "Training at GPSTC"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/view-courses/",
+        "label": "View Courses"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/student-access/",
+        "label": "Register for Training"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/training-bureau/",
+        "label": "Training Bureau"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/basic-training/",
+        "label": "Basic Training"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/online-training/",
+        "label": "Online Training"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/certification-programs/",
+        "label": "Certification Programs"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/office-of-the-registrar/",
+        "label": "Office of the Registrar"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/academic-building/",
+        "label": "Academic Complex"
+      },
+      {
+        "href": "https://www.gpstc.org/training-at-gpstc/training-complexes/",
+        "label": "Training Complexes"
+      }
+    ]
+  },
+  "raw_snapshot_hash": "26702b6565b8c1aa8deb1f58b1fefc36e2cd89288f2c34aef7a0aa5a78925d39"
+}

@@ -1,0 +1,54 @@
+{
+  "version": "nexus_live_normalized_snapshot_v1",
+  "normalized_at": "2026-05-08T01:59:08.253Z",
+  "layer_id": "L01",
+  "source_id": "L01_SRC_002_SAM_GOV",
+  "connector_id": "L01_LIVE_CONNECTOR_002_L01_SRC_002_SAM_GOV",
+  "source_name": "SAM.gov Contract Opportunities",
+  "status": "NORMALIZED_FROM_PUBLIC_REFERENCE",
+  "evidence": [
+    {
+      "evidence_id": "LIVE_SAM_GOV_EVIDENCE_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "connector_id": "L01_LIVE_CONNECTOR_002_L01_SRC_002_SAM_GOV",
+      "source_name": "SAM.gov Contract Opportunities",
+      "captured_at": "2026-05-08T01:59:08.253Z",
+      "confidence": 0.85,
+      "lineage": {
+        "endpoint": "https://sam.gov/search/",
+        "acquisition_mode": "public_html",
+        "raw_snapshot_hash": "6b7dd0175fa701ef7eeb133b8e2d0b4be13d6886338fd01ab66af39f57c262f3",
+        "parser_id": "L01_PARSER_002",
+        "normalizer_id": "L01_FEDERAL_NORMALIZER_V1"
+      },
+      "record": {
+        "source_url": "https://sam.gov/search/?index=opp&sort=-modifiedDate&page=1&pageSize=10",
+        "record_type": "contract_opportunity_search_reference",
+        "extraction_status": "REQUIRES_BROWSER_OR_API_KEY_BINDING"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "LIVE_SAM_GOV_SIGNAL_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "connector_id": "L01_LIVE_CONNECTOR_002_L01_SRC_002_SAM_GOV",
+      "signal_type": "FEDERAL_CONTRACT_OPPORTUNITY_REFERENCE_SIGNAL",
+      "strength": 0.85,
+      "confidence": 0.85
+    }
+  ],
+  "score_components": [
+    {
+      "component_id": "LIVE_SAM_GOV_SCORE_001",
+      "layer_id": "L01",
+      "source_id": "L01_SRC_002_SAM_GOV",
+      "connector_id": "L01_LIVE_CONNECTOR_002_L01_SRC_002_SAM_GOV",
+      "score_delta": 8,
+      "confidence": 0.85
+    }
+  ],
+  "normalized_hash": "026e6ae38de68249e125e04b376ce8bbf8aad94428359884e82567dcb43566d2"
+}

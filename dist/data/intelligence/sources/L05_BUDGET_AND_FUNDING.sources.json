@@ -1,0 +1,221 @@
+{
+    "version":  "nexus_L05_budget_and_funding_sources_v1",
+    "generated_at":  "2026-05-07T04:34:29.391Z",
+    "layer_id":  "L05_BUDGET_AND_FUNDING",
+    "target_sources":  15,
+    "production_ready":  true,
+    "source_classes":  [
+                           {
+                               "source_id":  "USA_SPENDING",
+                               "authority":  "FEDERAL",
+                               "type":  "federal_budget_tracking",
+                               "coverage":  "US_NATIONAL"
+                           },
+                           {
+                               "source_id":  "SAM_GOV",
+                               "authority":  "FEDERAL",
+                               "type":  "federal_contracts",
+                               "coverage":  "US_NATIONAL"
+                           },
+                           {
+                               "source_id":  "GRANTS_GOV",
+                               "authority":  "FEDERAL",
+                               "type":  "grant_tracking",
+                               "coverage":  "US_NATIONAL"
+                           },
+                           {
+                               "source_id":  "STATE_PROCUREMENT_PORTALS",
+                               "authority":  "STATE",
+                               "type":  "procurement",
+                               "coverage":  "MULTI_STATE"
+                           },
+                           {
+                               "source_id":  "CITY_BUDGET_PORTALS",
+                               "authority":  "LOCAL",
+                               "type":  "municipal_budget",
+                               "coverage":  "LOCAL"
+                           },
+                           {
+                               "source_id":  "COUNTY_BUDGET_REPORTS",
+                               "authority":  "LOCAL",
+                               "type":  "county_budget",
+                               "coverage":  "COUNTY"
+                           },
+                           {
+                               "source_id":  "CAPITAL_IMPROVEMENT_PLANS",
+                               "authority":  "LOCAL",
+                               "type":  "future_spending",
+                               "coverage":  "LOCAL"
+                           },
+                           {
+                               "source_id":  "PUBLIC_SAFETY_GRANTS",
+                               "authority":  "FEDERAL",
+                               "type":  "grant_programs",
+                               "coverage":  "US_NATIONAL"
+                           },
+                           {
+                               "source_id":  "DHS_GRANTS",
+                               "authority":  "FEDERAL",
+                               "type":  "homeland_security_grants",
+                               "coverage":  "US_NATIONAL"
+                           },
+                           {
+                               "source_id":  "DOJ_GRANTS",
+                               "authority":  "FEDERAL",
+                               "type":  "justice_grants",
+                               "coverage":  "US_NATIONAL"
+                           },
+                           {
+                               "source_id":  "STATE_BUDGET_BOOKS",
+                               "authority":  "STATE",
+                               "type":  "annual_budget",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "OPEN_CHECKBOOK_SYSTEMS",
+                               "authority":  "STATE",
+                               "type":  "expense_tracking",
+                               "coverage":  "STATE"
+                           },
+                           {
+                               "source_id":  "TRANSPARENCY_PORTALS",
+                               "authority":  "LOCAL",
+                               "type":  "financial_transparency",
+                               "coverage":  "LOCAL"
+                           },
+                           {
+                               "source_id":  "PUBLIC_PROCUREMENT_FEEDS",
+                               "authority":  "STATE",
+                               "type":  "procurement_feed",
+                               "coverage":  "MULTI_STATE"
+                           },
+                           {
+                               "source_id":  "AUDIT_REPORTS",
+                               "authority":  "STATE",
+                               "type":  "financial_audits",
+                               "coverage":  "STATE"
+                           }
+                       ],
+    "sources":  [
+                    {
+                        "production_ready":  true,
+                        "coverage":  "US_NATIONAL",
+                        "type":  "federal_budget_tracking",
+                        "authority":  "FEDERAL",
+                        "source_name":  "USAspending Federal Award Data",
+                        "update_frequency":  "daily",
+                        "active":  true,
+                        "source_id":  "L05_SRC_001_USA_SPENDING",
+                        "access_method":  "api",
+                        "format":  "json"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "US_NATIONAL",
+                        "type":  "grant_tracking",
+                        "authority":  "FEDERAL",
+                        "source_name":  "Grants.gov Funding Opportunities",
+                        "update_frequency":  "daily",
+                        "active":  true,
+                        "source_id":  "L05_SRC_002_GRANTS_GOV",
+                        "access_method":  "api_public_web",
+                        "format":  "json_html"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "LOCAL",
+                        "type":  "municipal_budget",
+                        "authority":  "LOCAL",
+                        "source_name":  "City Budget Portals",
+                        "update_frequency":  "annual",
+                        "active":  true,
+                        "source_id":  "L05_SRC_003_CITY_BUDGET_PORTALS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "COUNTY",
+                        "type":  "county_budget",
+                        "authority":  "LOCAL",
+                        "source_name":  "County Budget Reports",
+                        "update_frequency":  "annual",
+                        "active":  true,
+                        "source_id":  "L05_SRC_004_COUNTY_BUDGET_REPORTS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "US_NATIONAL",
+                        "type":  "grant_programs",
+                        "authority":  "FEDERAL",
+                        "source_name":  "Public Safety Grant Programs",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L05_SRC_005_PUBLIC_SAFETY_GRANTS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "US_NATIONAL",
+                        "type":  "homeland_security_grants",
+                        "authority":  "FEDERAL",
+                        "source_name":  "DHS Public Safety Grants",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L05_SRC_006_DHS_GRANTS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "US_NATIONAL",
+                        "type":  "justice_grants",
+                        "authority":  "FEDERAL",
+                        "source_name":  "DOJ Justice Assistance Grants",
+                        "update_frequency":  "quarterly",
+                        "active":  true,
+                        "source_id":  "L05_SRC_007_DOJ_GRANTS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "annual_budget",
+                        "authority":  "STATE",
+                        "source_name":  "State Budget Books",
+                        "update_frequency":  "annual",
+                        "active":  true,
+                        "source_id":  "L05_SRC_008_STATE_BUDGET_BOOKS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "LOCAL",
+                        "type":  "future_spending",
+                        "authority":  "LOCAL",
+                        "source_name":  "Capital Improvement Plans",
+                        "update_frequency":  "annual",
+                        "active":  true,
+                        "source_id":  "L05_SRC_009_CAPITAL_IMPROVEMENT_PLANS",
+                        "access_method":  "public_web",
+                        "format":  "html_pdf"
+                    },
+                    {
+                        "production_ready":  true,
+                        "coverage":  "STATE",
+                        "type":  "expense_tracking",
+                        "authority":  "STATE",
+                        "source_name":  "Open Checkbook Systems",
+                        "update_frequency":  "monthly",
+                        "active":  true,
+                        "source_id":  "L05_SRC_010_OPEN_CHECKBOOK_SYSTEMS",
+                        "access_method":  "public_web",
+                        "format":  "html_csv_json"
+                    }
+                ]
+}

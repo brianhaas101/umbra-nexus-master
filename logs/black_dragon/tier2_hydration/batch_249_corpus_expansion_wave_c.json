@@ -1,0 +1,79 @@
+{
+    "batch":  "249",
+    "version":  "black_dragon_corpus_expansion_wave_c_v1",
+    "generated_at":  "2026-05-11T07:22:17.2835924Z",
+    "target_cities":  [
+                          "san_antonio",
+                          "new_york_city",
+                          "new_orleans",
+                          "seattle",
+                          "houston"
+                      ],
+    "city_results":  [
+                         {
+                             "city":  "San Antonio",
+                             "folder":  "san_antonio",
+                             "discovered_candidate_files":  1,
+                             "added_validated_sources":  0,
+                             "rejected_sources":  0,
+                             "total_validated_sources":  1,
+                             "valid_json":  true,
+                             "status":  "PASS_CORPUS_EXPANSION_WAVE_C"
+                         },
+                         {
+                             "city":  "New York City",
+                             "folder":  "new_york_city",
+                             "discovered_candidate_files":  1,
+                             "added_validated_sources":  0,
+                             "rejected_sources":  0,
+                             "total_validated_sources":  1,
+                             "valid_json":  true,
+                             "status":  "PASS_CORPUS_EXPANSION_WAVE_C"
+                         },
+                         {
+                             "city":  "New Orleans",
+                             "folder":  "new_orleans",
+                             "discovered_candidate_files":  1,
+                             "added_validated_sources":  0,
+                             "rejected_sources":  0,
+                             "total_validated_sources":  1,
+                             "valid_json":  true,
+                             "status":  "PASS_CORPUS_EXPANSION_WAVE_C"
+                         },
+                         {
+                             "city":  "Seattle",
+                             "folder":  "seattle",
+                             "discovered_candidate_files":  1,
+                             "added_validated_sources":  0,
+                             "rejected_sources":  0,
+                             "total_validated_sources":  1,
+                             "valid_json":  true,
+                             "status":  "PASS_CORPUS_EXPANSION_WAVE_C"
+                         },
+                         {
+                             "city":  "Houston",
+                             "folder":  "houston",
+                             "discovered_candidate_files":  1,
+                             "added_validated_sources":  0,
+                             "rejected_sources":  0,
+                             "total_validated_sources":  1,
+                             "valid_json":  true,
+                             "status":  "PASS_CORPUS_EXPANSION_WAVE_C"
+                         }
+                     ],
+    "summary":  {
+                    "checked_cities":  5,
+                    "failed_count":  0,
+                    "total_added_sources":  null
+                },
+    "hardlocks":  {
+                      "no_synthetic_fillers":  true,
+                      "no_runtime_promotion":  true,
+                      "no_contact_enablement":  true,
+                      "no_placeholder_entities":  true,
+                      "no_false_targets":  true,
+                      "provenance_required":  true,
+                      "manual_review_required":  true
+                  },
+    "status":  "PASS_CORPUS_EXPANSION_WAVE_C_COMPLETE"
+}

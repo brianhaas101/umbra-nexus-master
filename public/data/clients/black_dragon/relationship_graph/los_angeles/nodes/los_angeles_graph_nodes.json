@@ -1,0 +1,209 @@
+{
+  "version": "black_dragon_los_angeles_graph_nodes_v1",
+  "generated_at": "2026-05-10T21:19:10.950Z",
+  "city": "Los Angeles",
+  "state": "CA",
+  "total_nodes": 10,
+  "nodes": [
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00001",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00003",
+      "organization_name": "Born-Free Motorcycle Show Los Angeles Community",
+      "city_rank": 1,
+      "priority_tier": "HOT",
+      "best_score": 9,
+      "source_layers": [
+        "EVENT_DISCOVERY",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "EVENT_COMMUNITY_NETWORK"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "EVENT_NODE",
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00002",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00001",
+      "organization_name": "Bartels' Harley-Davidson",
+      "city_rank": 2,
+      "priority_tier": "HOT",
+      "best_score": 8.96,
+      "source_layers": [
+        "DEALERSHIP_NETWORK",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "MOTORCYCLE_DEALERSHIP"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "RETAIL_PLACEMENT_NODE",
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00003",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00004",
+      "organization_name": "Bike Shed Moto Co Los Angeles",
+      "city_rank": 3,
+      "priority_tier": "WARM",
+      "best_score": 8.89,
+      "source_layers": [
+        "COMMUNITY_VENUES",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "MOTORCYCLE_COMMUNITY_VENUE"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "COMMUNITY_PROPAGATION_NODE",
+      "cross_city_duplicate_detected": true,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00004",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00005",
+      "organization_name": "Roland Sands Design",
+      "city_rank": 4,
+      "priority_tier": "WARM",
+      "best_score": 8.85,
+      "source_layers": [
+        "MEDIA_AND_BRANDS",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "CUSTOM_MOTORCYCLE_BRAND"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "BRAND_PROPAGATION_NODE",
+      "cross_city_duplicate_detected": true,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00005",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00002",
+      "organization_name": "Deus Ex Machina Los Angeles",
+      "city_rank": 5,
+      "priority_tier": "WARM",
+      "best_score": 8.72,
+      "source_layers": [
+        "COMMUNITY_VENUES",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "MOTORCYCLE_CULTURE_VENUE"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "COMMUNITY_PROPAGATION_NODE",
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00006",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00007",
+      "organization_name": "Biltwell Inc.",
+      "city_rank": 6,
+      "priority_tier": "WARM",
+      "best_score": 8.69,
+      "source_layers": [
+        "MEDIA_AND_BRANDS",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "MOTORCYCLE_BRAND"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "BRAND_PROPAGATION_NODE",
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00007",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00010",
+      "organization_name": "ChopCult Los Angeles Community",
+      "city_rank": 7,
+      "priority_tier": "WARM",
+      "best_score": 8.59,
+      "source_layers": [
+        "MEDIA_AND_BRANDS",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "DIGITAL_MOTORCYCLE_COMMUNITY"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "COMMUNITY_PROPAGATION_NODE",
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00008",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00006",
+      "organization_name": "The Congregation Show",
+      "city_rank": 8,
+      "priority_tier": "WARM",
+      "best_score": 8.53,
+      "source_layers": [
+        "EVENT_DISCOVERY",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "MOTORCYCLE_EVENT_NETWORK"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "EVENT_NODE",
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00009",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00009",
+      "organization_name": "Cycle Gear Los Angeles",
+      "city_rank": 9,
+      "priority_tier": "WARM",
+      "best_score": 8.25,
+      "source_layers": [
+        "DEALERSHIP_NETWORK",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "MOTORCYCLE_GEAR_STORE"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "RETAIL_PLACEMENT_NODE",
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    },
+    {
+      "graph_node_id": "BD_LA_GRAPH_NODE_00010",
+      "city_runtime_entity_id": "BD_LA_RUNTIME_ENTITY_00008",
+      "organization_name": "Los Angeles Motorcycle Riders Meetup",
+      "city_rank": 10,
+      "priority_tier": "REVIEW",
+      "best_score": 8.23,
+      "source_layers": [
+        "COMMUNITY_NETWORKS",
+        "LOS_ANGELES_DISCOVERY_IMPORT"
+      ],
+      "organization_types": [
+        "RIDING_COMMUNITY_NETWORK"
+      ],
+      "contact_ready": false,
+      "graph_node_type": "COMMUNITY_PROPAGATION_NODE",
+      "cross_city_duplicate_detected": false,
+      "graph_visible": true,
+      "automated_outreach_allowed": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+"city","required_layers","verified_layers","missing_layers","saturation_percent","lock_status"
+"Ann Arbor","14","14","0","100","locked"
+"Detroit","14","14","0","100","locked"
+"Flint","14","14","0","100","locked"
+"Grand Rapids","14","14","0","100","locked"
+"Lansing","14","14","0","100","locked"

@@ -1,0 +1,20 @@
+{
+  "version": "black_dragon_cross_ecosystem_runtime_v1_batch_076",
+  "generated_at": "AUTO_TIMESTAMP",
+
+  "runtime_state": {
+    "fusion_enabled": true,
+    "ecosystem_count": 5,
+    "cross_relationships_enabled": true,
+    "propagation_scoring_enabled": true,
+    "distribution_visibility_enabled": true,
+    "institutional_overlap_enabled": true,
+    "event_density_enabled": true,
+
+    "blocked_runtime_features": [
+      "auto_outreach_generation",
+      "auto_contact_generation",
+      "auto_response_generation"
+    ]
+  }
+}

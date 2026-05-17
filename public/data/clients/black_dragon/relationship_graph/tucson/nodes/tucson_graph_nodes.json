@@ -1,0 +1,107 @@
+{
+  "version": "black_dragon_tucson_graph_nodes_v1",
+  "generated_at": "2026-05-11T00:12:19.653Z",
+  "total_nodes": 10,
+  "nodes": [
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00001",
+      "organization_name": "Harley-Davidson of Tucson",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00001",
+      "graph_node_type": "DEALERSHIP_NETWORK",
+      "city_rank": 1,
+      "best_score": 9.05,
+      "regional_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00002",
+      "organization_name": "Law Tigers Arizona",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00004",
+      "graph_node_type": "AFFILIATE_NETWORK",
+      "city_rank": 2,
+      "best_score": 8.75,
+      "regional_duplicate_detected": true,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00003",
+      "organization_name": "Arizona Veterans Motorcycle Association",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00008",
+      "graph_node_type": "VETERAN_RIDER_NETWORK",
+      "city_rank": 3,
+      "best_score": 8.71,
+      "regional_duplicate_detected": true,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00004",
+      "organization_name": "Tucson Harley Owners Group",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00002",
+      "graph_node_type": "RIDING_COMMUNITY",
+      "city_rank": 4,
+      "best_score": 8.67,
+      "regional_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00005",
+      "organization_name": "ABATE of Arizona",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00005",
+      "graph_node_type": "MOTORCYCLE_ADVOCACY_NETWORK",
+      "city_rank": 5,
+      "best_score": 8.52,
+      "regional_duplicate_detected": true,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00006",
+      "organization_name": "Tucson Bike Night Network",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00007",
+      "graph_node_type": "COMMUNITY_EVENT_NETWORK",
+      "city_rank": 6,
+      "best_score": 8.37,
+      "regional_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00007",
+      "organization_name": "Tucson Custom Motorcycle Culture",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00010",
+      "graph_node_type": "CUSTOM_MOTORCYCLE_COMMUNITY",
+      "city_rank": 7,
+      "best_score": 8.37,
+      "regional_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00008",
+      "organization_name": "Cycle Gear Tucson",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00003",
+      "graph_node_type": "GEAR_RETAIL",
+      "city_rank": 8,
+      "best_score": 8.35,
+      "regional_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00009",
+      "organization_name": "Tucson Motorcycle Riders Network",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00006",
+      "graph_node_type": "RIDING_COMMUNITY",
+      "city_rank": 9,
+      "best_score": 8.27,
+      "regional_duplicate_detected": false,
+      "graph_visible": true
+    },
+    {
+      "graph_node_id": "BD_TUC_GRAPH_NODE_00010",
+      "organization_name": "Tucson Charity Ride Network",
+      "city_runtime_entity_id": "BD_TUC_RUNTIME_ENTITY_00009",
+      "graph_node_type": "CHARITY_RIDE_NETWORK",
+      "city_rank": 10,
+      "best_score": 8.11,
+      "regional_duplicate_detected": false,
+      "graph_visible": true
+    }
+  ]
+}

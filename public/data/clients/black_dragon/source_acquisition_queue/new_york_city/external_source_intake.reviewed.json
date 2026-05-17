@@ -1,0 +1,27 @@
+{
+    "batch":  "254",
+    "version":  "black_dragon_new_york_city_external_source_intake_reviewed_v1",
+    "generated_at":  "2026-05-11T07:54:42.9812220Z",
+    "city":  "New York City",
+    "folder":  "new_york_city",
+    "state":  "New York",
+    "state_code":  "NY",
+    "city_id":  "city_new_york_city_ny",
+    "accepted_sources":  [
+
+                         ],
+    "review_policy":  {
+                          "manual_review_required":  true,
+                          "public_source_required":  true,
+                          "city_or_service_area_match_required":  true,
+                          "organization_identity_required":  true,
+                          "category_match_required":  true,
+                          "source_url_required":  true,
+                          "no_private_person_targets":  true,
+                          "no_inferred_contacts":  true,
+                          "no_placeholder_entities":  true,
+                          "contact_enablement_allowed":  false,
+                          "runtime_promotion_allowed":  false
+                      },
+    "status":  "REVIEWED_INTAKE_READY_EMPTY"
+}

@@ -1,0 +1,23 @@
+{
+  "version": "black_dragon_batch_136_relationship_graph_audit_v1",
+  "generated_at": "2026-05-10T20:53:56.603Z",
+  "batch": "136_RELATIONSHIP_GRAPH_ENGINE_FOUNDATION",
+  "counts": {
+    "graph_nodes": 68,
+    "graph_edges": 512,
+    "influence_scored_nodes": 68,
+    "propagation_paths": 15,
+    "graph_hot_nodes": 0,
+    "graph_warm_nodes": 15
+  },
+  "gates": {
+    "nodes_match_runtime": true,
+    "graph_edges_exist": true,
+    "influence_scores_exist": true,
+    "propagation_paths_exist": true,
+    "no_runtime_mutation": true,
+    "no_automated_outreach": true
+  },
+  "next_phase": "BATCH_137_GRAPH_TO_CLIENT_UI_SURFACE_AND_AUDIT",
+  "status": "PASS"
+}

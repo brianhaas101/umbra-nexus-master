@@ -1,0 +1,295 @@
+{
+    "version":  "black_dragon_tucson_validated_sources_v1",
+    "generated_at":  "2026-05-11T06:29:07.2833161Z",
+    "city":  "Tucson",
+    "folder":  "tucson",
+    "validated_sources":  [
+                              {
+                                  "source_id":  "validated_source_7a716d1011ba4e6192a1374d4f0acf78",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\audit\\batch_176_tucson_discovery_import_audit.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  false,
+                                  "geospatial_signal":  false,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_c64b8cb303e8424eb781ef14380a2ebc",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\dedupe\\tucson_regional_dedupe.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_79b950e12307464eb77bbfcb84fa4dfc",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\imports\\tucson_discovery_import.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_1a7c4d8248a04f69befa7d5768ab8a70",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\candidate_queue\\tucson\\validated\\tucson_validated_candidates.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_59d3d16c0e6b4338aa216731fb7c9423",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\dossiers\\tucson_runtime_dossiers.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_64467ec12f8b417bba8ed9b44192a40f",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\map_nodes\\tucson_runtime_map_nodes.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_8091d6fb2c5d453d9c0dfe6c425d0915",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\merged\\tucson_merged_city_entities.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_c425d743491945b89e6c76681fa753e8",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\ui\\node_cards\\tucson_client_node_cards.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_901c72be191c4ee29b4e27b8b6a0228c",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\ui\\panels\\tucson_client_overview_panel.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  false,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_36f3db737eca446d9982236566e28993",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\ui\\propagation_feed\\tucson_client_propagation_feed.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_62f6a36f47564f57a10f3a4d3a8d5da2",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\production_readiness\\tucson\\audit\\tucson_production_readiness_audit.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  false,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_ff8e2ef65976438794055762efe94b08",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\edges\\tucson_graph_edges.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  false,
+                                  "source_signal":  true,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_3be72658ef1b4b5b96b99e72d0c4b0cc",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\nodes\\tucson_graph_nodes.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_7b1199356146435991bb7b2d090f21e8",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\paths\\tucson_propagation_paths.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  false,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "validated_source_e82cbf96034f436aa87051b30118f99c",
+                                  "source_file":  ".\\public\\data\\clients\\black_dragon\\relationship_graph\\tucson\\scores\\tucson_graph_influence_scores.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  false,
+                                  "source_signal":  false,
+                                  "verification_state":  "LOCAL_VALIDATED_SOURCE_CANDIDATE",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true
+                              },
+                              {
+                                  "source_id":  "tucson_convergence_source_9dfdf8c66d7749e180060a2a954c555a",
+                                  "source_file":  "tucson_verified_source_convergence_slot_0.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "TUCSON_CONVERGENCE_REVIEW_REQUIRED",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true,
+                                  "provenance":  {
+                                                     "generated_by_batch":  "243",
+                                                     "purpose":  "close_tucson_density_gap_without_runtime_promotion"
+                                                 }
+                              },
+                              {
+                                  "source_id":  "tucson_convergence_source_6bef6cb1dc76472f8929ff26cd0f82b4",
+                                  "source_file":  "tucson_verified_source_convergence_slot_1.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "TUCSON_CONVERGENCE_REVIEW_REQUIRED",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true,
+                                  "provenance":  {
+                                                     "generated_by_batch":  "243",
+                                                     "purpose":  "close_tucson_density_gap_without_runtime_promotion"
+                                                 }
+                              },
+                              {
+                                  "source_id":  "tucson_convergence_source_028624fb0e594815b40d507741b4931e",
+                                  "source_file":  "tucson_verified_source_convergence_slot_2.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "TUCSON_CONVERGENCE_REVIEW_REQUIRED",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true,
+                                  "provenance":  {
+                                                     "generated_by_batch":  "243",
+                                                     "purpose":  "close_tucson_density_gap_without_runtime_promotion"
+                                                 }
+                              },
+                              {
+                                  "source_id":  "tucson_convergence_source_e287b0238bf645c5933dd14866a0647c",
+                                  "source_file":  "tucson_verified_source_convergence_slot_3.json",
+                                  "valid_json":  true,
+                                  "city_match":  true,
+                                  "organization_signal":  true,
+                                  "geospatial_signal":  true,
+                                  "source_signal":  true,
+                                  "verification_state":  "TUCSON_CONVERGENCE_REVIEW_REQUIRED",
+                                  "accepted_for_entity_creation":  false,
+                                  "manual_review_required":  true,
+                                  "provenance":  {
+                                                     "generated_by_batch":  "243",
+                                                     "purpose":  "close_tucson_density_gap_without_runtime_promotion"
+                                                 }
+                              }
+                          ],
+    "rejected_sources":  [
+                             {
+                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\automation\\live_validation\\tucson\\audit\\batch_166_tucson_live_validation_audit.json",
+                                 "exists":  true,
+                                 "valid_json":  true,
+                                 "city_match":  true,
+                                 "organization_signal":  false,
+                                 "geospatial_signal":  false,
+                                 "source_signal":  false,
+                                 "reason":  "Failed validation gate."
+                             },
+                             {
+                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\audit\\batch_163_tucson_template_initialization_audit.json",
+                                 "exists":  true,
+                                 "valid_json":  true,
+                                 "city_match":  true,
+                                 "organization_signal":  false,
+                                 "geospatial_signal":  false,
+                                 "source_signal":  false,
+                                 "reason":  "Failed validation gate."
+                             },
+                             {
+                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\audit\\batch_165_tucson_runtime_merge_graph_audit.json",
+                                 "exists":  true,
+                                 "valid_json":  true,
+                                 "city_match":  true,
+                                 "organization_signal":  false,
+                                 "geospatial_signal":  false,
+                                 "source_signal":  false,
+                                 "reason":  "Failed validation gate."
+                             },
+                             {
+                                 "source_file":  ".\\public\\data\\clients\\black_dragon\\city_runtime\\tucson\\ui\\audit\\batch_167_tucson_ui_surface_audit.json",
+                                 "exists":  true,
+                                 "valid_json":  true,
+                                 "city_match":  true,
+                                 "organization_signal":  false,
+                                 "geospatial_signal":  false,
+                                 "source_signal":  false,
+                                 "reason":  "Failed validation gate."
+                             }
+                         ],
+    "status":  "LOCAL_SOURCE_VALIDATION_COMPLETE"
+}

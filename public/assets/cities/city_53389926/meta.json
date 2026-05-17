@@ -1,0 +1,19 @@
+{
+  "city_id": "city_53389926",
+  "name": "Miami, FL",
+  "center_lat": 25.7617,
+  "center_lon": -80.1918,
+  "bounds": {
+    "north": 25.91,
+    "south": 25.64,
+    "east": -80.04,
+    "west": -80.38
+  },
+  "width_m": 32000,
+  "height_m": 30000,
+  "rotation_deg": 0,
+  "image": "/assets/cities/city_53389926/base.png",
+  "scaffold_status": "city_map_ready_reference",
+  "bounds_status": "verified_reference",
+  "notes": "Verified Miami reference meta for CITY_MAP."
+}

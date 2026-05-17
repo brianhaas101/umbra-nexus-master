@@ -1,0 +1,60 @@
+{
+  "version": "nexus_refresh_scheduler_registry_v1",
+  "generated_at": "2026-05-06T03:17:52.921Z",
+  "scheduler_rules": {
+    "stale_data_detection_enabled": true,
+    "automatic_refresh_supported": true,
+    "audit_logging_required": true,
+    "failed_refresh_tracking_enabled": true
+  },
+  "refresh_intervals": [
+    {
+      "layer_id": "L01_FEDERAL_INTELLIGENCE",
+      "refresh_interval_hours": 24
+    },
+    {
+      "layer_id": "L02_STATE_INTELLIGENCE",
+      "refresh_interval_hours": 72
+    },
+    {
+      "layer_id": "L03_LOCAL_AGENCY_INTELLIGENCE",
+      "refresh_interval_hours": 72
+    },
+    {
+      "layer_id": "L04_TRAINING_INFRASTRUCTURE",
+      "refresh_interval_hours": 168
+    },
+    {
+      "layer_id": "L05_BUDGET_AND_FUNDING",
+      "refresh_interval_hours": 168
+    },
+    {
+      "layer_id": "L06_BEHAVIORAL_ACTIVITY",
+      "refresh_interval_hours": 12
+    },
+    {
+      "layer_id": "L07_GEOGRAPHIC_TERRITORY",
+      "refresh_interval_hours": 720
+    },
+    {
+      "layer_id": "L08_COMMAND_STRUCTURE",
+      "refresh_interval_hours": 168
+    },
+    {
+      "layer_id": "L09_PROCUREMENT_INTELLIGENCE",
+      "refresh_interval_hours": 48
+    },
+    {
+      "layer_id": "L10_COMMUNICATION_INTELLIGENCE",
+      "refresh_interval_hours": 168
+    },
+    {
+      "layer_id": "L11_INCIDENT_AND_RISK",
+      "refresh_interval_hours": 24
+    },
+    {
+      "layer_id": "L12_ENGAGEMENT_RESPONSE",
+      "refresh_interval_hours": 1
+    }
+  ]
+}

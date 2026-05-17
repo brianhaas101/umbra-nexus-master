@@ -1,0 +1,80 @@
+{
+  "version": "black_dragon_weekly_discovery_candidates_long_beach_v1",
+  "generated_at": "2026-05-10T19:38:31.132Z",
+  "simulation_cycle": "WEEKLY_DISCOVERY_SIMULATION",
+  "city": "Long Beach",
+  "state": "CA",
+  "total_candidates": 5,
+  "candidates": [
+    {
+      "candidate_id": "BD_LB_AUTO_CANDIDATE_0001",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_name": "Biltwell People�s Champ",
+      "organization_type": "CUSTOM_MOTORCYCLE_BUILDER_CONTEST",
+      "discovery_reason": "Custom motorcycle builder event ecosystem with strong audience overlap.",
+      "source_url": "https://www.biltwellinc.com/pages/peoples-champ",
+      "source_title": "Biltwell People�s Champ",
+      "audience_relevance_score": 8.9,
+      "mc_culture_relevance": 9.1,
+      "book_sale_relevance": 8.6,
+      "discovery_confidence": 0.9
+    },
+    {
+      "candidate_id": "BD_LB_AUTO_CANDIDATE_0002",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_name": "Chopper Fest",
+      "organization_type": "MOTORCYCLE_EVENT",
+      "discovery_reason": "Southern California chopper/custom culture event relevant to biker book buyers.",
+      "source_url": "https://chopperfestival.com/",
+      "source_title": "Chopper Fest",
+      "audience_relevance_score": 8.8,
+      "mc_culture_relevance": 9,
+      "book_sale_relevance": 8.5,
+      "discovery_confidence": 0.88
+    },
+    {
+      "candidate_id": "BD_LB_AUTO_CANDIDATE_0003",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_name": "Women in the Wind California",
+      "organization_type": "WOMENS_RIDING_ORGANIZATION",
+      "discovery_reason": "Riding organization category expands audience diversity beyond existing clubs.",
+      "source_url": "https://www.womeninthewind.org/",
+      "source_title": "Women in the Wind",
+      "audience_relevance_score": 8.3,
+      "mc_culture_relevance": 7.8,
+      "book_sale_relevance": 7.9,
+      "discovery_confidence": 0.86
+    },
+    {
+      "candidate_id": "BD_LB_AUTO_CANDIDATE_0004",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_name": "MotoAmerica Southern California Audience",
+      "organization_type": "MOTORCYCLE_RACING_MEDIA_EVENT",
+      "discovery_reason": "Racing audience can broaden book exposure to performance/rider culture.",
+      "source_url": "https://www.motoamerica.com/",
+      "source_title": "MotoAmerica",
+      "audience_relevance_score": 8.1,
+      "mc_culture_relevance": 7.4,
+      "book_sale_relevance": 7.4,
+      "discovery_confidence": 0.82
+    },
+    {
+      "candidate_id": "BD_LB_AUTO_CANDIDATE_0005",
+      "city": "Long Beach",
+      "state": "CA",
+      "organization_name": "LA Calendar Motorcycle Events",
+      "organization_type": "MOTORCYCLE_EVENT_DISCOVERY_SOURCE",
+      "discovery_reason": "Regional event calendar can seed future recurring discovery.",
+      "source_url": "https://www.lacalendar.com/",
+      "source_title": "LA Calendar",
+      "audience_relevance_score": 7.7,
+      "mc_culture_relevance": 7.2,
+      "book_sale_relevance": 7.3,
+      "discovery_confidence": 0.78
+    }
+  ]
+}

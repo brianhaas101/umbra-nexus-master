@@ -1,0 +1,2039 @@
+{
+  "version": "black_dragon_education_source_discovery_queue_batch_068_v1",
+  "generated_at": "2026-05-10T00:29:42.513Z",
+  "client_id": "black_dragon",
+  "module": "education_expansion_v1",
+  "batch": "BATCH_068",
+  "totals": {
+    "queued_tasks": 75,
+    "outreach_blocked": 75,
+    "no_contacts_attached": 75
+  },
+  "discovery_tasks": [
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00001",
+      "entity_id": "BD_EDU_OP_00505",
+      "organization_name": "Texas State Post Academy",
+      "region": "Texas",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 86,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Texas POST academy law enforcement training official",
+        "Texas peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00002",
+      "entity_id": "BD_EDU_OP_00506",
+      "organization_name": "Texas Regional Police Academy",
+      "region": "Texas",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 86,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Texas regional police academy official",
+        "Texas law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00003",
+      "entity_id": "BD_EDU_OP_00512",
+      "organization_name": "Texas Public Safety Institute",
+      "region": "Texas",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 86,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Texas public safety institute law enforcement training",
+        "Texas public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00004",
+      "entity_id": "BD_EDU_OP_00507",
+      "organization_name": "Texas Sheriff Training Center",
+      "region": "Texas",
+      "source_category": "SHERIFF_TRAINING_CENTER",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "discovery_priority_score": 84,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Texas sheriff training center official",
+        "Texas sheriff law enforcement training academy"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00005",
+      "entity_id": "BD_EDU_OP_00508",
+      "organization_name": "Texas Criminal Justice College",
+      "region": "Texas",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 82,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Texas university criminal justice department official",
+        "Texas community college criminal justice program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00006",
+      "entity_id": "BD_EDU_OP_00510",
+      "organization_name": "Texas Gang Studies Program",
+      "region": "Texas",
+      "source_category": "GANG_STUDIES_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 82,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Texas gang studies criminal justice program official",
+        "Texas gang intelligence training criminal justice"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00007",
+      "entity_id": "BD_EDU_OP_00511",
+      "organization_name": "Texas Intelligence Analysis Program",
+      "region": "Texas",
+      "source_category": "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 82,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Texas intelligence analysis program criminal justice official",
+        "Texas law enforcement intelligence analysis training program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00008",
+      "entity_id": "BD_EDU_OP_00025",
+      "organization_name": "Arizona State Post Academy",
+      "region": "Arizona",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arizona POST academy law enforcement training official",
+        "Arizona peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00009",
+      "entity_id": "BD_EDU_OP_00026",
+      "organization_name": "Arizona Regional Police Academy",
+      "region": "Arizona",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arizona regional police academy official",
+        "Arizona law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00010",
+      "entity_id": "BD_EDU_OP_00032",
+      "organization_name": "Arizona Public Safety Institute",
+      "region": "Arizona",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arizona public safety institute law enforcement training",
+        "Arizona public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00011",
+      "entity_id": "BD_EDU_OP_00049",
+      "organization_name": "California State Post Academy",
+      "region": "California",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "California POST academy law enforcement training official",
+        "California peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00012",
+      "entity_id": "BD_EDU_OP_00050",
+      "organization_name": "California Regional Police Academy",
+      "region": "California",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "California regional police academy official",
+        "California law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00013",
+      "entity_id": "BD_EDU_OP_00056",
+      "organization_name": "California Public Safety Institute",
+      "region": "California",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "California public safety institute law enforcement training",
+        "California public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00014",
+      "entity_id": "BD_EDU_OP_00097",
+      "organization_name": "Florida State Post Academy",
+      "region": "Florida",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Florida POST academy law enforcement training official",
+        "Florida peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00015",
+      "entity_id": "BD_EDU_OP_00098",
+      "organization_name": "Florida Regional Police Academy",
+      "region": "Florida",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Florida regional police academy official",
+        "Florida law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00016",
+      "entity_id": "BD_EDU_OP_00104",
+      "organization_name": "Florida Public Safety Institute",
+      "region": "Florida",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Florida public safety institute law enforcement training",
+        "Florida public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00017",
+      "entity_id": "BD_EDU_OP_00109",
+      "organization_name": "Georgia State Post Academy",
+      "region": "Georgia",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Georgia POST academy law enforcement training official",
+        "Georgia peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00018",
+      "entity_id": "BD_EDU_OP_00110",
+      "organization_name": "Georgia Regional Police Academy",
+      "region": "Georgia",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Georgia regional police academy official",
+        "Georgia law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00019",
+      "entity_id": "BD_EDU_OP_00116",
+      "organization_name": "Georgia Public Safety Institute",
+      "region": "Georgia",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Georgia public safety institute law enforcement training",
+        "Georgia public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00020",
+      "entity_id": "BD_EDU_OP_00385",
+      "organization_name": "North Carolina State Post Academy",
+      "region": "North Carolina",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "North Carolina POST academy law enforcement training official",
+        "North Carolina peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00021",
+      "entity_id": "BD_EDU_OP_00386",
+      "organization_name": "North Carolina Regional Police Academy",
+      "region": "North Carolina",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "North Carolina regional police academy official",
+        "North Carolina law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00022",
+      "entity_id": "BD_EDU_OP_00392",
+      "organization_name": "North Carolina Public Safety Institute",
+      "region": "North Carolina",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "North Carolina public safety institute law enforcement training",
+        "North Carolina public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00023",
+      "entity_id": "BD_EDU_OP_00409",
+      "organization_name": "Ohio State Post Academy",
+      "region": "Ohio",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Ohio POST academy law enforcement training official",
+        "Ohio peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00024",
+      "entity_id": "BD_EDU_OP_00410",
+      "organization_name": "Ohio Regional Police Academy",
+      "region": "Ohio",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Ohio regional police academy official",
+        "Ohio law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00025",
+      "entity_id": "BD_EDU_OP_00416",
+      "organization_name": "Ohio Public Safety Institute",
+      "region": "Ohio",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 78,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Ohio public safety institute law enforcement training",
+        "Ohio public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00026",
+      "entity_id": "BD_EDU_OP_00027",
+      "organization_name": "Arizona Sheriff Training Center",
+      "region": "Arizona",
+      "source_category": "SHERIFF_TRAINING_CENTER",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "discovery_priority_score": 76,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arizona sheriff training center official",
+        "Arizona sheriff law enforcement training academy"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00027",
+      "entity_id": "BD_EDU_OP_00051",
+      "organization_name": "California Sheriff Training Center",
+      "region": "California",
+      "source_category": "SHERIFF_TRAINING_CENTER",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "discovery_priority_score": 76,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "California sheriff training center official",
+        "California sheriff law enforcement training academy"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00028",
+      "entity_id": "BD_EDU_OP_00099",
+      "organization_name": "Florida Sheriff Training Center",
+      "region": "Florida",
+      "source_category": "SHERIFF_TRAINING_CENTER",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "discovery_priority_score": 76,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Florida sheriff training center official",
+        "Florida sheriff law enforcement training academy"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00029",
+      "entity_id": "BD_EDU_OP_00111",
+      "organization_name": "Georgia Sheriff Training Center",
+      "region": "Georgia",
+      "source_category": "SHERIFF_TRAINING_CENTER",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "discovery_priority_score": 76,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Georgia sheriff training center official",
+        "Georgia sheriff law enforcement training academy"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00030",
+      "entity_id": "BD_EDU_OP_00387",
+      "organization_name": "North Carolina Sheriff Training Center",
+      "region": "North Carolina",
+      "source_category": "SHERIFF_TRAINING_CENTER",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "discovery_priority_score": 76,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "North Carolina sheriff training center official",
+        "North Carolina sheriff law enforcement training academy"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00031",
+      "entity_id": "BD_EDU_OP_00411",
+      "organization_name": "Ohio Sheriff Training Center",
+      "region": "Ohio",
+      "source_category": "SHERIFF_TRAINING_CENTER",
+      "entity_class": "LAW_ENFORCEMENT_NODE",
+      "discovery_priority_score": 76,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Ohio sheriff training center official",
+        "Ohio sheriff law enforcement training academy"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00032",
+      "entity_id": "BD_EDU_OP_00028",
+      "organization_name": "Arizona Criminal Justice College",
+      "region": "Arizona",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arizona university criminal justice department official",
+        "Arizona community college criminal justice program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00033",
+      "entity_id": "BD_EDU_OP_00030",
+      "organization_name": "Arizona Gang Studies Program",
+      "region": "Arizona",
+      "source_category": "GANG_STUDIES_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arizona gang studies criminal justice program official",
+        "Arizona gang intelligence training criminal justice"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00034",
+      "entity_id": "BD_EDU_OP_00031",
+      "organization_name": "Arizona Intelligence Analysis Program",
+      "region": "Arizona",
+      "source_category": "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arizona intelligence analysis program criminal justice official",
+        "Arizona law enforcement intelligence analysis training program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00035",
+      "entity_id": "BD_EDU_OP_00052",
+      "organization_name": "California Criminal Justice College",
+      "region": "California",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "California university criminal justice department official",
+        "California community college criminal justice program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00036",
+      "entity_id": "BD_EDU_OP_00054",
+      "organization_name": "California Gang Studies Program",
+      "region": "California",
+      "source_category": "GANG_STUDIES_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "California gang studies criminal justice program official",
+        "California gang intelligence training criminal justice"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00037",
+      "entity_id": "BD_EDU_OP_00055",
+      "organization_name": "California Intelligence Analysis Program",
+      "region": "California",
+      "source_category": "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "California intelligence analysis program criminal justice official",
+        "California law enforcement intelligence analysis training program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00038",
+      "entity_id": "BD_EDU_OP_00100",
+      "organization_name": "Florida Criminal Justice College",
+      "region": "Florida",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Florida university criminal justice department official",
+        "Florida community college criminal justice program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00039",
+      "entity_id": "BD_EDU_OP_00102",
+      "organization_name": "Florida Gang Studies Program",
+      "region": "Florida",
+      "source_category": "GANG_STUDIES_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Florida gang studies criminal justice program official",
+        "Florida gang intelligence training criminal justice"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00040",
+      "entity_id": "BD_EDU_OP_00103",
+      "organization_name": "Florida Intelligence Analysis Program",
+      "region": "Florida",
+      "source_category": "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Florida intelligence analysis program criminal justice official",
+        "Florida law enforcement intelligence analysis training program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00041",
+      "entity_id": "BD_EDU_OP_00112",
+      "organization_name": "Georgia Criminal Justice College",
+      "region": "Georgia",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Georgia university criminal justice department official",
+        "Georgia community college criminal justice program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00042",
+      "entity_id": "BD_EDU_OP_00114",
+      "organization_name": "Georgia Gang Studies Program",
+      "region": "Georgia",
+      "source_category": "GANG_STUDIES_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Georgia gang studies criminal justice program official",
+        "Georgia gang intelligence training criminal justice"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00043",
+      "entity_id": "BD_EDU_OP_00115",
+      "organization_name": "Georgia Intelligence Analysis Program",
+      "region": "Georgia",
+      "source_category": "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Georgia intelligence analysis program criminal justice official",
+        "Georgia law enforcement intelligence analysis training program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00044",
+      "entity_id": "BD_EDU_OP_00388",
+      "organization_name": "North Carolina Criminal Justice College",
+      "region": "North Carolina",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "North Carolina university criminal justice department official",
+        "North Carolina community college criminal justice program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00045",
+      "entity_id": "BD_EDU_OP_00390",
+      "organization_name": "North Carolina Gang Studies Program",
+      "region": "North Carolina",
+      "source_category": "GANG_STUDIES_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "North Carolina gang studies criminal justice program official",
+        "North Carolina gang intelligence training criminal justice"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00046",
+      "entity_id": "BD_EDU_OP_00391",
+      "organization_name": "North Carolina Intelligence Analysis Program",
+      "region": "North Carolina",
+      "source_category": "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "North Carolina intelligence analysis program criminal justice official",
+        "North Carolina law enforcement intelligence analysis training program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00047",
+      "entity_id": "BD_EDU_OP_00412",
+      "organization_name": "Ohio Criminal Justice College",
+      "region": "Ohio",
+      "source_category": "CRIMINAL_JUSTICE_COLLEGE",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Ohio university criminal justice department official",
+        "Ohio community college criminal justice program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00048",
+      "entity_id": "BD_EDU_OP_00414",
+      "organization_name": "Ohio Gang Studies Program",
+      "region": "Ohio",
+      "source_category": "GANG_STUDIES_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Ohio gang studies criminal justice program official",
+        "Ohio gang intelligence training criminal justice"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00049",
+      "entity_id": "BD_EDU_OP_00415",
+      "organization_name": "Ohio Intelligence Analysis Program",
+      "region": "Ohio",
+      "source_category": "INTELLIGENCE_ANALYSIS_PROGRAM",
+      "entity_class": "EDUCATION_NODE",
+      "discovery_priority_score": 74,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Ohio intelligence analysis program criminal justice official",
+        "Ohio law enforcement intelligence analysis training program"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00050",
+      "entity_id": "BD_EDU_OP_00001",
+      "organization_name": "Alabama State Post Academy",
+      "region": "Alabama",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Alabama POST academy law enforcement training official",
+        "Alabama peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00051",
+      "entity_id": "BD_EDU_OP_00002",
+      "organization_name": "Alabama Regional Police Academy",
+      "region": "Alabama",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Alabama regional police academy official",
+        "Alabama law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00052",
+      "entity_id": "BD_EDU_OP_00008",
+      "organization_name": "Alabama Public Safety Institute",
+      "region": "Alabama",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Alabama public safety institute law enforcement training",
+        "Alabama public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00053",
+      "entity_id": "BD_EDU_OP_00013",
+      "organization_name": "Alaska State Post Academy",
+      "region": "Alaska",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Alaska POST academy law enforcement training official",
+        "Alaska peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00054",
+      "entity_id": "BD_EDU_OP_00014",
+      "organization_name": "Alaska Regional Police Academy",
+      "region": "Alaska",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Alaska regional police academy official",
+        "Alaska law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00055",
+      "entity_id": "BD_EDU_OP_00020",
+      "organization_name": "Alaska Public Safety Institute",
+      "region": "Alaska",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Alaska public safety institute law enforcement training",
+        "Alaska public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00056",
+      "entity_id": "BD_EDU_OP_00037",
+      "organization_name": "Arkansas State Post Academy",
+      "region": "Arkansas",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arkansas POST academy law enforcement training official",
+        "Arkansas peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00057",
+      "entity_id": "BD_EDU_OP_00038",
+      "organization_name": "Arkansas Regional Police Academy",
+      "region": "Arkansas",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arkansas regional police academy official",
+        "Arkansas law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00058",
+      "entity_id": "BD_EDU_OP_00044",
+      "organization_name": "Arkansas Public Safety Institute",
+      "region": "Arkansas",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Arkansas public safety institute law enforcement training",
+        "Arkansas public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00059",
+      "entity_id": "BD_EDU_OP_00061",
+      "organization_name": "Colorado State Post Academy",
+      "region": "Colorado",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Colorado POST academy law enforcement training official",
+        "Colorado peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00060",
+      "entity_id": "BD_EDU_OP_00062",
+      "organization_name": "Colorado Regional Police Academy",
+      "region": "Colorado",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Colorado regional police academy official",
+        "Colorado law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00061",
+      "entity_id": "BD_EDU_OP_00068",
+      "organization_name": "Colorado Public Safety Institute",
+      "region": "Colorado",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Colorado public safety institute law enforcement training",
+        "Colorado public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00062",
+      "entity_id": "BD_EDU_OP_00073",
+      "organization_name": "Connecticut State Post Academy",
+      "region": "Connecticut",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Connecticut POST academy law enforcement training official",
+        "Connecticut peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00063",
+      "entity_id": "BD_EDU_OP_00074",
+      "organization_name": "Connecticut Regional Police Academy",
+      "region": "Connecticut",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Connecticut regional police academy official",
+        "Connecticut law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00064",
+      "entity_id": "BD_EDU_OP_00080",
+      "organization_name": "Connecticut Public Safety Institute",
+      "region": "Connecticut",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Connecticut public safety institute law enforcement training",
+        "Connecticut public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00065",
+      "entity_id": "BD_EDU_OP_00085",
+      "organization_name": "Delaware State Post Academy",
+      "region": "Delaware",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Delaware POST academy law enforcement training official",
+        "Delaware peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00066",
+      "entity_id": "BD_EDU_OP_00086",
+      "organization_name": "Delaware Regional Police Academy",
+      "region": "Delaware",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Delaware regional police academy official",
+        "Delaware law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00067",
+      "entity_id": "BD_EDU_OP_00092",
+      "organization_name": "Delaware Public Safety Institute",
+      "region": "Delaware",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Delaware public safety institute law enforcement training",
+        "Delaware public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00068",
+      "entity_id": "BD_EDU_OP_00121",
+      "organization_name": "Hawaii State Post Academy",
+      "region": "Hawaii",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Hawaii POST academy law enforcement training official",
+        "Hawaii peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00069",
+      "entity_id": "BD_EDU_OP_00122",
+      "organization_name": "Hawaii Regional Police Academy",
+      "region": "Hawaii",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Hawaii regional police academy official",
+        "Hawaii law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00070",
+      "entity_id": "BD_EDU_OP_00128",
+      "organization_name": "Hawaii Public Safety Institute",
+      "region": "Hawaii",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Hawaii public safety institute law enforcement training",
+        "Hawaii public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00071",
+      "entity_id": "BD_EDU_OP_00133",
+      "organization_name": "Idaho State Post Academy",
+      "region": "Idaho",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Idaho POST academy law enforcement training official",
+        "Idaho peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00072",
+      "entity_id": "BD_EDU_OP_00134",
+      "organization_name": "Idaho Regional Police Academy",
+      "region": "Idaho",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Idaho regional police academy official",
+        "Idaho law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00073",
+      "entity_id": "BD_EDU_OP_00140",
+      "organization_name": "Idaho Public Safety Institute",
+      "region": "Idaho",
+      "source_category": "PUBLIC_SAFETY_INSTITUTE",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Idaho public safety institute law enforcement training",
+        "Idaho public safety training center official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00074",
+      "entity_id": "BD_EDU_OP_00145",
+      "organization_name": "Illinois State Post Academy",
+      "region": "Illinois",
+      "source_category": "STATE_POST_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Illinois POST academy law enforcement training official",
+        "Illinois peace officer standards training academy official"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    },
+    {
+      "task_id": "BD_EDU_DISCOVERY_TASK_00075",
+      "entity_id": "BD_EDU_OP_00146",
+      "organization_name": "Illinois Regional Police Academy",
+      "region": "Illinois",
+      "source_category": "REGIONAL_POLICE_ACADEMY",
+      "entity_class": "TRAINING_NODE",
+      "discovery_priority_score": 68,
+      "discovery_status": "QUEUED_FOR_PUBLIC_SOURCE_DISCOVERY",
+      "outreach_status": "OUTREACH_BLOCKED",
+      "contact_status": "NO_CONTACT_ATTACHED",
+      "search_queries": [
+        "Illinois regional police academy official",
+        "Illinois law enforcement academy criminal justice training"
+      ],
+      "required_result": "official_public_source_url",
+      "forbidden_result_types": [
+        "generated_email",
+        "generated_phone",
+        "unverified_contact",
+        "social_only_without_official_source",
+        "private_personal_data"
+      ],
+      "promotion_gate": "SOURCE_URL_REQUIRED_BEFORE_CONTACT_DISCOVERY",
+      "next_action": "RUN_PUBLIC_SOURCE_SEARCH",
+      "created_at": "2026-05-10T00:29:42.513Z"
+    }
+  ]
+}

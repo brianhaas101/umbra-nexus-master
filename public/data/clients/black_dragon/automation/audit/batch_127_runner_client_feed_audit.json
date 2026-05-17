@@ -1,0 +1,27 @@
+{
+  "version": "black_dragon_batch_127_runner_client_feed_audit_v1",
+  "generated_at": "2026-05-10T19:56:24.676Z",
+  "batch": "127_AUTONOMOUS_REFRESH_RUNNER_STUB_AND_CLIENT_FEED_WIRING",
+  "counts": {
+    "discovery_candidates_detected": 5,
+    "freshness_entities_aged": 68,
+    "revalidation_tasks": 10,
+    "client_feed_cards": 4,
+    "client_feed_new_candidates": 5,
+    "snapshot_runtime_entities": 68,
+    "automated_outreach_actions": 0
+  },
+  "gates": {
+    "discovery_runner_log_exists": true,
+    "freshness_runner_output_exists": true,
+    "revalidation_runner_output_exists": true,
+    "client_feed_visible_ready": true,
+    "client_feed_has_summary_cards": true,
+    "snapshot_written": true,
+    "no_auto_contact": true,
+    "no_auto_promotion": true,
+    "hardlocks_present": true
+  },
+  "next_phase": "BATCH_128_AUTONOMOUS_REFRESH_CRON_WIRING_AND_UI_SURFACE",
+  "status": "PASS"
+}

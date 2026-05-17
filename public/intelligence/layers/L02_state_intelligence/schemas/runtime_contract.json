@@ -1,0 +1,18 @@
+﻿{
+  "contract_id": "L02_runtime_contract",
+  "version": "0.1.0",
+  "inherits_from": "L01",
+  "required_controls": [
+    "promotion_gate",
+    "connector_sandbox",
+    "provenance_trace",
+    "replay_hash",
+    "pipe01_bridge",
+    "failure_tests",
+    "freeze_manifest"
+  ],
+  "rules": {
+    "l01_is_read_only": true,
+    "client_paths_touched": false
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+  "version": "nexus_L09_contact_scoring_registry_v1",
+  "generated_at": "2026-05-08T00:00:00.000Z",
+  "layer_id": "L09",
+  "scoring_outputs": [
+    { "score": "contact_authority_score", "description": "Decision authority or influence level" },
+    { "score": "contact_procurement_fit_score", "description": "Procurement relevance and buying-process fit" },
+    { "score": "contact_training_fit_score", "description": "Training coordinator or training decision relevance" },
+    { "score": "contact_reachability_score", "description": "Presence of usable public contact channels" },
+    { "score": "contact_role_confidence_score", "description": "Confidence that the role matches target outreach need" },
+    { "score": "contact_hierarchy_score", "description": "Placement within command, executive, or admin hierarchy" }
+  ],
+  "weighting_rules": {
+    "authority_weight": 0.25,
+    "procurement_fit_weight": 0.20,
+    "training_fit_weight": 0.20,
+    "reachability_weight": 0.15,
+    "role_confidence_weight": 0.10,
+    "recency_weight": 0.10
+  }
+}

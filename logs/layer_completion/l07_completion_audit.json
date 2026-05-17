@@ -1,0 +1,214 @@
+{
+  "layer_id": "L07",
+  "generated_at": "2026-05-08T00:22:52.463Z",
+  "completion_status": "COMPLETE",
+  "gates": {
+    "registry_15_sources": true,
+    "registry_fields_valid": true,
+    "connector_coverage_valid": true,
+    "evidence_lineage_valid": true,
+    "signals_valid": true,
+    "scoring_valid": true,
+    "layer_files_present": true
+  },
+  "counts": {
+    "sources": 15,
+    "evidence": 15,
+    "signals": 15,
+    "score_components": 15,
+    "layer_files": 12
+  },
+  "source_ids": [
+    "L07_SRC_001_INCIDENT_ACTIVITY_FEEDS",
+    "L07_SRC_002_DISPATCH_CALL_LOGS",
+    "L07_SRC_003_SERVICE_INTERRUPTION_NOTICES",
+    "L07_SRC_004_FIELD_OPERATION_NOTICES",
+    "L07_SRC_005_DEPLOYMENT_ACTIVITY_RECORDS",
+    "L07_SRC_006_PUBLIC_SAFETY_ALERTS",
+    "L07_SRC_007_EVENT_SECURITY_NOTICES",
+    "L07_SRC_008_TRAFFIC_ROAD_CLOSURE_FEEDS",
+    "L07_SRC_009_EMERGENCY_DECLARATION_RECORDS",
+    "L07_SRC_010_MUTUAL_AID_ACTIVITY",
+    "L07_SRC_011_OPERATIONAL_STATUS_DASHBOARDS",
+    "L07_SRC_012_ENFORCEMENT_CAMPAIGN_NOTICES",
+    "L07_SRC_013_PATROL_ACTIVITY_REFERENCES",
+    "L07_SRC_014_EMERGENCY_RESPONSE_SUMMARIES",
+    "L07_SRC_015_OPERATIONAL_ADVISORY_FEEDS"
+  ],
+  "connector_coverage": [
+    {
+      "source_id": "L07_SRC_001_INCIDENT_ACTIVITY_FEEDS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_002_DISPATCH_CALL_LOGS",
+      "connector_files": [
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_003_SERVICE_INTERRUPTION_NOTICES",
+      "connector_files": [
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_004_FIELD_OPERATION_NOTICES",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_005_DEPLOYMENT_ACTIVITY_RECORDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_006_PUBLIC_SAFETY_ALERTS",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_007_EVENT_SECURITY_NOTICES",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_008_TRAFFIC_ROAD_CLOSURE_FEEDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_009_EMERGENCY_DECLARATION_RECORDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_010_MUTUAL_AID_ACTIVITY",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_011_OPERATIONAL_STATUS_DASHBOARDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_012_ENFORCEMENT_CAMPAIGN_NOTICES",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_013_PATROL_ACTIVITY_REFERENCES",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_014_EMERGENCY_RESPONSE_SUMMARIES",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    },
+    {
+      "source_id": "L07_SRC_015_OPERATIONAL_ADVISORY_FEEDS",
+      "connector_files": [
+        "scripts/intelligence/complete_l07_source_registry.js",
+        "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json"
+      ],
+      "connector_found": true
+    }
+  ],
+  "failures": {
+    "invalid_sources": [],
+    "missing_connector_coverage": [],
+    "invalid_evidence": [],
+    "invalid_signals": [],
+    "invalid_score_components": []
+  },
+  "deterministic_hashes": [
+    {
+      "file": "public/data/intelligence/audit/L07_geographic_integrity_audit.json",
+      "sha256": "e50b8a4a50bc1a145787a4a611a43777a7af80b9b4c84f023b8783df8374cc21"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L07_geographic_normalization.registry.json",
+      "sha256": "6b2f4c50b4ffe214b332a3fac3cecab57a6dc51879493b4d46a35ef12aa408df"
+    },
+    {
+      "file": "public/data/intelligence/evidence/L07_operational_normalization.registry.json",
+      "sha256": "3ff96a5d18cac81bccb3df70c02a95dd83b33b304ee5b59a5584889a51c4750a"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L07_GEOGRAPHIC_TERRITORY.normalized.json",
+      "sha256": "2305d79e594c541e5a353fd0c2c73286cfb8db01d2efe7399aed68a748b024fb"
+    },
+    {
+      "file": "public/data/intelligence/outputs/L07_OPERATIONAL_ACTIVITY_INTELLIGENCE.normalized.json",
+      "sha256": "685e6f8dd8cc31cee0c64dd814049da2957cbc7a2e9c83ba002af482cb70a937"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L07_geographic_adapter_manifest.json",
+      "sha256": "0fe9bde82adc49a397f36733252f2bc25e8a8a0f837a8f2fa5c902e4a14a56fb"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L07_operational_adapter_manifest.json",
+      "sha256": "9bd7bdb2c77981f5b48dc913f4eb08f5b8ecb25a81813c440efd03201c6bc285"
+    },
+    {
+      "file": "public/data/intelligence/runtime/L07_operational_connector_coverage_manifest.json",
+      "sha256": "811aa6c252300d8d4645b0527934a2d440849643d0d918d1a62dc80d41ca61ca"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L07_geographic_scoring.registry.json",
+      "sha256": "fdd028ac9b72cbe055f23289f6320e04fe24e09a09ca0b479b449a873e96d1ff"
+    },
+    {
+      "file": "public/data/intelligence/scoring/L07_operational_scoring.registry.json",
+      "sha256": "5248226669e79c888f15716a2c48a778c19f7e85b25fccf7c3a285f5b87c3569"
+    },
+    {
+      "file": "public/data/intelligence/sources/L07_GEOGRAPHIC_TERRITORY.sources.json",
+      "sha256": "cbcb067976cee1337c8bdd7c8b7043fd5fbb52e521b5e5a65cf8c099cf09dc67"
+    },
+    {
+      "file": "public/data/intelligence/sources/L07_OPERATIONAL_ACTIVITY_INTELLIGENCE.sources.json",
+      "sha256": "f11fe388dee09ab6807c0b4180037e188efe3f88abd818e882becf9608b81f92"
+    }
+  ]
+}
