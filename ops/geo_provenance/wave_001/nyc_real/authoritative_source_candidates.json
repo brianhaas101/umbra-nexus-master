@@ -1,0 +1,35 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+  "mutation_allowed": false,
+  "selection_status": "PENDING",
+  "candidate_sources": [
+    {
+      "priority": 1,
+      "source_name": "NYC OpenData",
+      "source_type": "municipal_gis",
+      "source_url": "https://opendata.cityofnewyork.us/",
+      "expected_format": "geojson",
+      "expected_crs": "EPSG:4326",
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "priority": 2,
+      "source_name": "U.S. Census TIGER/Line",
+      "source_type": "federal_boundary",
+      "source_url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+      "expected_format": "shapefile",
+      "expected_crs": "EPSG:4269",
+      "verification_status": "UNVERIFIED"
+    },
+    {
+      "priority": 3,
+      "source_name": "OpenStreetMap Administrative Boundary",
+      "source_type": "osm_boundary",
+      "source_url": "https://www.openstreetmap.org/",
+      "expected_format": "osm",
+      "expected_crs": "EPSG:4326",
+      "verification_status": "UNVERIFIED"
+    }
+  ]
+}
