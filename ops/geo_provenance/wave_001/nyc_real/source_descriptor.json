@@ -1,0 +1,21 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+  "mutation_allowed": false,
+  "target_crs": "EPSG:4326",
+  "authoritative_source_priority": [
+    {
+      "source_name": "NYC OpenData",
+      "source_type": "municipal_gis"
+    },
+    {
+      "source_name": "U.S. Census TIGER/Line",
+      "source_type": "federal_boundary"
+    },
+    {
+      "source_name": "OpenStreetMap Administrative Boundary",
+      "source_type": "osm_boundary"
+    }
+  ],
+  "ingestion_status": "SOURCE_SELECTION_PENDING"
+}
