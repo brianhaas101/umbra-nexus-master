@@ -1,0 +1,17 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+  "mutation_allowed": false,
+  "selected_source": {
+    "source_name": "NYC OpenData",
+    "source_type": "municipal_gis",
+    "selection_reason": "Highest-priority city-local public GIS source for NYC boundary verification",
+    "source_url": null,
+    "dataset_name": null,
+    "license": null,
+    "retrieval_timestamp": null,
+    "artifact_status": "NOT_DOWNLOADED"
+  },
+  "lock_status": "SOURCE_FAMILY_SELECTED",
+  "next_required_action": "Locate exact NYC boundary dataset URL before downloading any artifact"
+}
