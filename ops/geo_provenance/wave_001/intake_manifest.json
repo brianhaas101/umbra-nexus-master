@@ -1,0 +1,22 @@
+{
+  "wave_id": "GEO-WAVE-001",
+  "mutation_allowed": false,
+  "crs_required": "EPSG:4326",
+  "status": "INTAKE_READY",
+  "cities": [
+    "city_3d50f2fd",
+    "city_1f98af58",
+    "city_4c180874",
+    "city_0a922e63",
+    "city_5fedc010"
+  ],
+  "required_outputs": [
+    "raw_artifact",
+    "raw_sha256",
+    "normalized_geometry",
+    "normalized_geometry_sha256",
+    "bbox",
+    "provenance_metadata",
+    "replay_metadata"
+  ]
+}
