@@ -1,0 +1,20 @@
+{
+  "city_id": "city_1f98af58",
+  "canonical_name": "Los Angeles, CA",
+  "candidate_id": "dataset_candidate_001",
+  "dataset_name": "City Boundary",
+  "source_family": "Los Angeles GeoHub",
+  "source_type": "municipal_gis",
+  "dataset_url": "https://geohub.lacity.org/datasets/09f503229d37414a8e67a7b6ceb9ec43_7",
+  "publisher": "City of Los Angeles",
+  "license": "CC BY 4.0",
+  "geometry_scope": "city_boundary",
+  "expected_geometry_type": "MultiPolygon",
+  "expected_record_count": 1,
+  "expected_crs": "EPSG:4326",
+  "download_format_target": "GeoJSON",
+  "water_areas_included": "UNKNOWN",
+  "mutation_allowed": false,
+  "selection_status": "FROZEN_CANDIDATE",
+  "selection_reason": "Authoritative municipal city boundary layer from Los Angeles GeoHub"
+}
