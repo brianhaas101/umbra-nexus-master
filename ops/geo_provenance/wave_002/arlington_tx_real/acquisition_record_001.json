@@ -1,0 +1,17 @@
+﻿{
+    "city_id":  "city_6cabf985",
+    "canonical_name":  "Arlington, TX",
+    "acquisition_id":  "acquisition_record_001",
+    "dataset_candidate":  "dataset_candidate_001",
+    "artifact_filename":  "arlington_tx_city_boundary_source.geojson",
+    "artifact_path":  "ops\\geo_provenance\\wave_002\\raw\\arlington_tx_city_boundary_source.geojson",
+    "artifact_sha256":  "056BC8CA70F913B33FCEF42922961A4785A7FB858996EC89B2C98CA2FF6FA5A6",
+    "filtered_artifact":  "ops\\geo_provenance\\wave_002\\raw\\arlington_tx_city_boundary_arlington_only_source.geojson",
+    "filtered_artifact_sha256":  "1279232A26AC893CB00D118A26B70CC69A3315ECCFC59521C8F27A166190A0C2",
+    "download_timestamp":  "2026-05-18T03:57:23.1769110Z",
+    "download_format":  "GeoJSON",
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "expected_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED_AND_FILTERED"
+}

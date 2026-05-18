@@ -1,0 +1,21 @@
+﻿{
+    "city_id":  "city_6cabf985",
+    "canonical_name":  "Arlington, TX",
+    "validation_id":  "geometry_validation_001",
+    "source_artifact":  "arlington_tx_city_boundary_arlington_only_source.geojson",
+    "artifact_sha256":  "1279232A26AC893CB00D118A26B70CC69A3315ECCFC59521C8F27A166190A0C2",
+    "feature_count":  1,
+    "geometry_types":  [
+                           "Polygon"
+                       ],
+    "bbox":  [
+                 -97.235872894872273,
+                 32.586774758703591,
+                 -97.037196243738833,
+                 32.816740550673096
+             ],
+    "expected_crs":  "EPSG:4326",
+    "geometry_validation_status":  "PASS",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false
+}

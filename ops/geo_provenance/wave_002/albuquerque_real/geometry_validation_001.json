@@ -1,0 +1,21 @@
+﻿{
+    "city_id":  "city_8b7f4d2a",
+    "canonical_name":  "Albuquerque, NM",
+    "validation_id":  "geometry_validation_001",
+    "source_artifact":  "albuquerque_city_boundary_source.geojson",
+    "artifact_sha256":  "62B93BC3D6CD67C6FF1296854D2AD4B6A8FB31F87D9624FBA21272A1A7A675BB",
+    "feature_count":  1,
+    "geometry_types":  [
+                           "Polygon"
+                       ],
+    "bbox":  [
+                 -106.8727864516886,
+                 34.9471161943005,
+                 -106.47118320530259,
+                 35.217953339966471
+             ],
+    "expected_crs":  "EPSG:4326",
+    "geometry_validation_status":  "PASS",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false
+}
