@@ -1,0 +1,37 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+
+  "validation_id": "geometry_validation_001",
+
+  "source_artifact": "nyc_borough_boundaries_source.geojson",
+
+  "artifact_sha256": "EF0B001D164AD4BE0D510A6CB15EFE0287DE88AE3B2C7427DA6376A0A3970672",
+
+  "feature_count": 5,
+
+  "geometry_types": [
+    "MultiPolygon"
+  ],
+
+  "bbox": [
+    -74.255591363152135,
+    40.496133987611991,
+    -73.7000090638712,
+    40.915532776502808
+  ],
+
+  "expected_crs": "EPSG:4326",
+
+  "geometry_validation_status": "PASS",
+
+  "mutation_allowed": false,
+
+  "canonical_promotion_authorized": false,
+
+  "notes": [
+    "Authoritative municipal geometry successfully parsed",
+    "Bounding box extracted deterministically",
+    "Geometry family validated as MultiPolygon"
+  ]
+}
