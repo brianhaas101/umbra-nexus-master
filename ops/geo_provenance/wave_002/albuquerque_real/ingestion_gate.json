@@ -1,0 +1,25 @@
+﻿{
+    "download_authorized":  false,
+    "boundary_validation_authorized":  false,
+    "canonical_name":  "Albuquerque, NM",
+    "required_conditions_before_download":  [
+                                                "exact_dataset_identified",
+                                                "exact_dataset_url_frozen",
+                                                "license_verified",
+                                                "expected_crs_verified",
+                                                "expected_geometry_format_verified"
+                                            ],
+    "gate_status":  "PRE_DOWNLOAD_LOCK",
+    "wave_id":  "wave_002",
+    "city_id":  "city_756cb4ea",
+    "required_conditions_before_registry_mutation":  [
+                                                         "raw_artifact_sha256_generated",
+                                                         "geometry_sha256_generated",
+                                                         "bbox_generated",
+                                                         "schema_validation_pass",
+                                                         "replay_audit_pass",
+                                                         "founder_review_complete"
+                                                     ],
+    "mutation_allowed":  false,
+    "canonical_registry_mutation_authorized":  false
+}

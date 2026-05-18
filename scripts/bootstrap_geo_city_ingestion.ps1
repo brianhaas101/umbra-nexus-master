@@ -1,20 +1,29 @@
 param(
+  [Parameter(Mandatory = $true)]
   [string]$CityId,
+
+  [Parameter(Mandatory = $true)]
   [string]$CanonicalName,
-  [string]$Slug
+
+  [Parameter(Mandatory = $true)]
+  [string]$Slug,
+
+  [Parameter(Mandatory = $false)]
+  [string]$WaveId = "wave_001"
 )
 
 $ErrorActionPreference = "Stop"
 
-$BaseDir = "ops\geo_provenance\wave_001\$Slug"
+$BaseDir = "ops\geo_provenance\$WaveId\$Slug"
 
 New-Item -ItemType Directory -Force -Path $BaseDir | Out-Null
 
 $Session = @{
-  session_id = "geo_wave_001_${Slug}_session_001"
+  session_id = "geo_${WaveId}_${Slug}_session_001"
   city_id = $CityId
   canonical_name = $CanonicalName
   branch = "geo-wave-001-ingestion"
+  wave_id = $WaveId
   mutation_allowed = $false
   session_state = "PRE_DOWNLOAD"
   created_at = (Get-Date).ToUniversalTime().ToString("o")
@@ -33,6 +42,7 @@ $Session = @{
 $Gate = @{
   city_id = $CityId
   canonical_name = $CanonicalName
+  wave_id = $WaveId
   mutation_allowed = $false
   gate_status = "PRE_DOWNLOAD_LOCK"
   download_authorized = $false
@@ -58,6 +68,7 @@ $Gate = @{
 $Discovery = @{
   city_id = $CityId
   canonical_name = $CanonicalName
+  wave_id = $WaveId
   mutation_allowed = $false
   discovery_status = "IN_PROGRESS"
   selected_source_family = $null
@@ -69,9 +80,17 @@ $Discovery = @{
   )
 }
 
-$Session | ConvertTo-Json -Depth 8 | Out-File -Encoding utf8 "$BaseDir\ingestion_session_001.json"
-$Gate | ConvertTo-Json -Depth 8 | Out-File -Encoding utf8 "$BaseDir\ingestion_gate.json"
-$Discovery | ConvertTo-Json -Depth 8 | Out-File -Encoding utf8 "$BaseDir\dataset_discovery_log.json"
+$Session |
+  ConvertTo-Json -Depth 8 |
+  Out-File -Encoding utf8 "$BaseDir\ingestion_session_001.json"
+
+$Gate |
+  ConvertTo-Json -Depth 8 |
+  Out-File -Encoding utf8 "$BaseDir\ingestion_gate.json"
+
+$Discovery |
+  ConvertTo-Json -Depth 8 |
+  Out-File -Encoding utf8 "$BaseDir\dataset_discovery_log.json"
 
 Write-Host ""
 Write-Host "Bootstrapped city ingestion workspace:"

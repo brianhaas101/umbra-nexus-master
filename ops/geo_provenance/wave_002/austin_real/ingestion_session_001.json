@@ -1,0 +1,20 @@
+﻿{
+    "mutation_allowed":  false,
+    "session_id":  "geo_wave_002_austin_real_session_001",
+    "registry_mutation_attempted":  false,
+    "raw_artifact_registered":  false,
+    "source_family_locked":  false,
+    "download_completed":  false,
+    "created_at":  "2026-05-18T01:59:11.2001118Z",
+    "rollback_required":  false,
+    "replay_audited":  false,
+    "schema_validated":  false,
+    "operator_mode":  "founder_controlled",
+    "canonical_name":  "Austin, TX",
+    "branch":  "geo-wave-001-ingestion",
+    "city_id":  "city_a324d561",
+    "provenance_generated":  false,
+    "geometry_extracted":  false,
+    "session_state":  "PRE_DOWNLOAD",
+    "wave_id":  "wave_002"
+}

@@ -1,0 +1,16 @@
+﻿{
+    "discovery_status":  "IN_PROGRESS",
+    "selected_source_family":  null,
+    "canonical_name":  "Albuquerque, NM",
+    "candidate_datasets":  [
+
+                           ],
+    "notes":  [
+                  "Dataset discovery must complete before any municipal artifact is downloaded"
+              ],
+    "wave_id":  "wave_002",
+    "city_id":  "city_756cb4ea",
+    "selection_complete":  false,
+    "artifact_downloaded":  false,
+    "mutation_allowed":  false
+}
