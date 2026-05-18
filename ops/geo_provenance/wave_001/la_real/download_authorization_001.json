@@ -1,0 +1,20 @@
+{
+  "city_id": "city_1f98af58",
+  "canonical_name": "Los Angeles, CA",
+  "authorization_id": "download_authorization_001",
+  "authorized_dataset": "dataset_candidate_001",
+  "authorized_source_family": "Los Angeles GeoHub",
+  "authorized_download_format": "GeoJSON",
+  "expected_geometry_type": "MultiPolygon",
+  "expected_record_count": 1,
+  "expected_crs": "EPSG:4326",
+  "mutation_allowed": false,
+  "download_authorized": true,
+  "canonical_registry_mutation_authorized": false,
+  "authorization_scope": "RAW_ARTIFACT_ONLY",
+  "authorization_status": "APPROVED",
+  "notes": [
+    "Authorized for raw municipal artifact acquisition only",
+    "No canonical promotion authorized"
+  ]
+}
