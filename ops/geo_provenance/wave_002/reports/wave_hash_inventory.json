@@ -1,0 +1,227 @@
+﻿{
+    "wave_id":  "wave_002",
+    "generated_at_utc":  "2026-05-18T04:02:57.3870463Z",
+    "inventory_count":  44,
+    "records":  [
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\wave_002_completion_manifest.json",
+                        "sha256":  "2C65ED801281E353F9F5B378BB20FFB616830DBD8633ABA0F67FFD10D089FEFA",
+                        "length_bytes":  1567
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\wave_cities.json",
+                        "sha256":  "4EF9737BF12F1B7E222E118A23D60A1FE15E9DAEE612E7BB52A8756D95A155B9",
+                        "length_bytes":  570
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\albuquerque_real\\acquisition_record_001.json",
+                        "sha256":  "8E3DB638D7832447E04D1129C84A83A9B3C561C8DAA13CEBA48DAA507029A98C",
+                        "length_bytes":  818
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\albuquerque_real\\dataset_candidate_001.json",
+                        "sha256":  "BC4D5606E68DA0144763506F528074127B0A2CC86B2CD9B87D87AD125299F056",
+                        "length_bytes":  516
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\albuquerque_real\\dataset_discovery_log.json",
+                        "sha256":  "F0EB4302D8493937D06D2D54EFC9EC13F1BF0A1548DC2B1A7F0AABF399B62C9F",
+                        "length_bytes":  492
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\albuquerque_real\\geometry_validation_001.json",
+                        "sha256":  "916F3CFA66E54C26AE8D469FC7EC547A46817511BB997AD5D7C2442C66D210DF",
+                        "length_bytes":  756
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\albuquerque_real\\ingestion_gate.json",
+                        "sha256":  "3884FF5C03C9554E35F20E3F9D9164285420A8BA6DC7164ECA30CA9A3237D60E",
+                        "length_bytes":  1418
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\albuquerque_real\\ingestion_session_001.json",
+                        "sha256":  "F39B8E318D9A027DBF9D85C73B7BCA7A7F63DCD6E52E98736F5F0914944E54BE",
+                        "length_bytes":  716
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\albuquerque_real\\normalization_record_001.json",
+                        "sha256":  "14C1A729F17BBF72B1BF1AB8C99D3BA133519D281CF2202CA6DBD606678F0C4D",
+                        "length_bytes":  785
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\albuquerque_real\\source_candidate_review.json",
+                        "sha256":  "485CB1D9D62371BFC909640DF295D2D6CD71D083D296950FB415DDB08CBD5490",
+                        "length_bytes":  1733
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\arlington_tx_real\\acquisition_record_001.json",
+                        "sha256":  "A19F2B8837C164267AF22C422AC19BF5BF9B34C89A5C33299D373AA128E989C7",
+                        "length_bytes":  966
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\arlington_tx_real\\dataset_discovery_log.json",
+                        "sha256":  "E4283CD04519E80E83FDC2B171B0D0E27E48E23CFCE46078DE68619D02A408DA",
+                        "length_bytes":  490
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\arlington_tx_real\\geometry_validation_001.json",
+                        "sha256":  "B3975C2D633DE96801B3AF456BDC3F78E3856328E66BF4CBF3600314F4E2D595",
+                        "length_bytes":  773
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\arlington_tx_real\\ingestion_gate.json",
+                        "sha256":  "A42E2A70E507324B5BD6B113941DE428A1D151AE8DD9921EB810423D4AC2EEDD",
+                        "length_bytes":  1416
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\arlington_tx_real\\ingestion_session_001.json",
+                        "sha256":  "E23FC88C61D790BFCE7414242C03192864F4EE2E450960E5CCDCC0CC47DDCBC8",
+                        "length_bytes":  715
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\arlington_tx_real\\normalization_record_001.json",
+                        "sha256":  "B627162A84486D24ECCE95315FA729847655326BF89E59B0E1698F94D0555BA6",
+                        "length_bytes":  800
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\arlington_tx_real\\source_candidate_review.json",
+                        "sha256":  "F16C2EC029D34B351D68AED768F78F1631272391EE1FE241B8A70D448F645C28",
+                        "length_bytes":  1722
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\acquisition_record_001.json",
+                        "sha256":  "A11C8F044868D38D7413EFF8ED49BE749E4987823E680F91CFC35D4C0C8078C5",
+                        "length_bytes":  740
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\acquisition_record_002.json",
+                        "sha256":  "C347B2D109C9958CD16A841ADD8CECE6E1329322BC67002F2DEBB0446C7F9C5A",
+                        "length_bytes":  716
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\acquisition_record_003.json",
+                        "sha256":  "BB1A4659CD3CDC2EE949D5616D4114A1F84A863E2FA6192A1DAA96F0B895F7EB",
+                        "length_bytes":  716
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\dataset_candidate_001.json",
+                        "sha256":  "018082B5272E860784BB1C6DF17B61D9C7562EA36D725AF90E07476A459F7BC5",
+                        "length_bytes":  906
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\dataset_candidate_001_rejection.json",
+                        "sha256":  "C335B22FDD8540ECA6C82A62D31CE07E4D859689B594C2CFAF82EA00F3CE9989",
+                        "length_bytes":  652
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\dataset_candidate_002.json",
+                        "sha256":  "66E8DEE1000C7CA98E7E987D94F25EED8908A853B1EA2EC317FB020988B25FA5",
+                        "length_bytes":  489
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\dataset_candidate_002_rejection.json",
+                        "sha256":  "D3B3FA136CABD120EAFC430A5DF05F2EF857224902F93CF8E11365381CF39701",
+                        "length_bytes":  602
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\dataset_candidate_003.json",
+                        "sha256":  "7D4AE98A5D935F7C61FBF372D0747DCCD559561F922C108AFC62ABF9C910AB49",
+                        "length_bytes":  668
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\dataset_discovery_log.json",
+                        "sha256":  "F43F76316614564E83C87AD9159A9BBE20D1B026C6D8BB941B3797E0EE365501",
+                        "length_bytes":  488
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\geometry_validation_001.json",
+                        "sha256":  "61BF4667373467452D07E861CA2B04E3BA4CE9B6DE88FF9DDA0F3B032F5EB4BF",
+                        "length_bytes":  756
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\ingestion_gate.json",
+                        "sha256":  "0C190771742AB45D471A8710B6281597007401B83D874EEE323487CE8BC3E1F3",
+                        "length_bytes":  1414
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\ingestion_session_001.json",
+                        "sha256":  "044CEE9B1AC0FB87B413D960F88D0A4F9C26F5D5BA56B804A150AA12F7DF4A34",
+                        "length_bytes":  708
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\normalization_record_001.json",
+                        "sha256":  "E3B4ADA64EC6DEF6770B6C65C06F67CEBE1F141F7DE7DBFDE2AC9B0353B4B2CD",
+                        "length_bytes":  773
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\atlanta_real\\source_candidate_review.json",
+                        "sha256":  "DA23B273C91CE7FDA2E35D108A7FC7C23C28D41BE6C2ED5A303509B548A62B16",
+                        "length_bytes":  1705
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\austin_real\\acquisition_record_001.json",
+                        "sha256":  "F264CF16A014E40DD0714F77D3B6F61116FD45EC47843BBFDFC40C205ECDA4FF",
+                        "length_bytes":  780
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\austin_real\\dataset_candidate_001.json",
+                        "sha256":  "BC6F1D3BA57613AF30DB39C3C7017B43AD8D7A051888F6AB1A0AE05CC8905A79",
+                        "length_bytes":  672
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\austin_real\\dataset_discovery_log.json",
+                        "sha256":  "8E393CD4F74FC4B2F863B9C22367729342907D8C6F9B8BC0E98C64CE3745476A",
+                        "length_bytes":  487
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\austin_real\\geometry_validation_001.json",
+                        "sha256":  "143B8501A575AD3B002ABBEE0C6C7679EBBC752681EBEA4C72C614CCE2C1ACF0",
+                        "length_bytes":  744
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\austin_real\\ingestion_gate.json",
+                        "sha256":  "1B724870DB4E2065DB25F2BCC5E7C233AA2232645B5A2EED2E73C39592FA232C",
+                        "length_bytes":  1413
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\austin_real\\ingestion_session_001.json",
+                        "sha256":  "0B2FB56CCF186197C25C7AC78B62EDAFA80E5EC27DF459467B5150A2A5A033F3",
+                        "length_bytes":  706
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\austin_real\\normalization_record_001.json",
+                        "sha256":  "1900D6C5636C1F8A6D8EFF7EF0F7C576D948A348B845326EDCCD0B9A5F9A5380",
+                        "length_bytes":  770
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\austin_real\\source_candidate_review.json",
+                        "sha256":  "9223C8D9D558105FB286AE082813D607B6EE20293DC35B201F4BA02737E79C97",
+                        "length_bytes":  1698
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\baltimore_real\\dataset_candidate_001_rejection.json",
+                        "sha256":  "6798471A2F65E88F86DA4AE301008D2E5BF4D89B10F65DA61AF207FC95D3C1E0",
+                        "length_bytes":  526
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\baltimore_real\\dataset_discovery_log.json",
+                        "sha256":  "1AA5EDE0B0F9D2CDB90865328A0110F51BDF9F41E6BD912F46252D69228D76AB",
+                        "length_bytes":  490
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\baltimore_real\\ingestion_gate.json",
+                        "sha256":  "20E9B1056CE91930F58DF07D89156321131F7F0A7090DC3C16786771986CFDEA",
+                        "length_bytes":  1416
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\baltimore_real\\ingestion_session_001.json",
+                        "sha256":  "AADCF7682DC2018BB58BFFD699374DDC72C47B311D1F8738F685626B8D30D5CE",
+                        "length_bytes":  712
+                    },
+                    {
+                        "path":  "ops\\geo_provenance\\wave_002\\baltimore_real\\source_candidate_review.json",
+                        "sha256":  "846E88DA4160DF61D351EDA36AE3661C12722DD12E783B1D75DA3A8C004B9ACF",
+                        "length_bytes":  1719
+                    }
+                ]
+}
