@@ -1,0 +1,12 @@
+﻿{
+    "city_id":  "city_7eb25064",
+    "canonical_name":  "Atlanta, GA",
+    "rejected_candidate":  "dataset_candidate_002",
+    "rejected_downloaded_file":  "Official_City_Council_Districts.geojson",
+    "rejection_reason":  "Downloaded artifact is city council district geometry, not municipal city boundary",
+    "feature_count":  12,
+    "artifact_sha256":  "2C138AEF7B5D1CA10992AE55944EA556F70DF4D65D705089FAFAA0106681D71F",
+    "mutation_allowed":  false,
+    "normalization_allowed":  false,
+    "next_required_action":  "Download Official Atlanta City Limits - Open Data only"
+}
