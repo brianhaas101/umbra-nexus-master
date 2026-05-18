@@ -1,0 +1,48 @@
+﻿{
+    "wave_id":  "wave_001",
+    "validation_status":  "PASS",
+    "generated_at_utc":  "2026-05-18T02:01:31.3311026Z",
+    "city_count":  5,
+    "cities":  [
+                   {
+                       "city_id":  "city_4c180874",
+                       "canonical_name":  "Chicago, IL",
+                       "replay_validation":  "PASS",
+                       "normalized_validation":  "PASS",
+                       "topology_validation":  "PASS",
+                       "normalized_artifact_sha256":  "F32E104DE8B8835EBD4D0DBE048DC7A638A55E443B5D2C114412BB81FB8DE885"
+                   },
+                   {
+                       "city_id":  "city_5fedc010",
+                       "canonical_name":  "Washington, DC",
+                       "replay_validation":  "PASS",
+                       "normalized_validation":  "PASS",
+                       "topology_validation":  "PASS",
+                       "normalized_artifact_sha256":  "8F0A9660DDBB34BA3854E5A3D4F78C12B26773326233F74B19CA0CD2E3BBF9EA"
+                   },
+                   {
+                       "city_id":  "city_0a922e63",
+                       "canonical_name":  "Houston, TX",
+                       "replay_validation":  "PASS",
+                       "normalized_validation":  "PASS",
+                       "topology_validation":  "PASS",
+                       "normalized_artifact_sha256":  "CA82023638755F4C3CC6FAF4DF15C8CA5A4ADD251C1FE57129B66AB749FF6B59"
+                   },
+                   {
+                       "city_id":  "city_1f98af58",
+                       "canonical_name":  "Los Angeles, CA",
+                       "replay_validation":  "PASS",
+                       "normalized_validation":  "PASS",
+                       "topology_validation":  "PASS",
+                       "normalized_artifact_sha256":  "47B52D38F7295FF1D03A71F407EAFBA6D28A983675A75CE3D1E5BF9AAA4DB0E1"
+                   },
+                   {
+                       "city_id":  "city_3d50f2fd",
+                       "canonical_name":  "New York, NY",
+                       "replay_validation":  "PASS",
+                       "normalized_validation":  "PASS",
+                       "topology_validation":  "PASS",
+                       "normalized_artifact_sha256":  "CEA9CDA5841CB4C7A9BF71D608964410661B94C18D54D57056F762169D7CC9C3"
+                   }
+               ]
+}
