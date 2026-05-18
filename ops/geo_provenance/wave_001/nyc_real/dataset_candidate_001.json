@@ -1,0 +1,36 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+  "mutation_allowed": false,
+  "candidate_id": "dataset_candidate_001",
+  "selection_state": "UNDER_REVIEW",
+
+  "dataset_title": "Election Districts",
+  "dataset_url": "https://data.cityofnewyork.us/City-Government/Election-Districts/h2n3-98hq",
+
+  "publisher": "NYC OpenData",
+  "license": "public_city_government_dataset",
+
+  "available_formats": [
+    "GeoJSON",
+    "CSV",
+    "KML",
+    "Shapefile"
+  ],
+
+  "source_crs": null,
+
+  "last_updated": "2026-03-09",
+
+  "geometry_scope": "Election district polygon boundaries within NYC",
+
+  "download_attempted": false,
+  "artifact_acquired": false,
+
+  "authoritative_classification": "SECONDARY_AUTHORITATIVE_GEOMETRY_LAYER",
+
+  "notes": [
+    "Useful for overlay validation and district geometry verification",
+    "Not preferred as the canonical outer municipal boundary source"
+  ]
+}
