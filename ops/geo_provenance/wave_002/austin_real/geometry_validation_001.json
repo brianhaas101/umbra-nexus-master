@@ -1,0 +1,21 @@
+﻿{
+    "city_id":  "city_a324d561",
+    "canonical_name":  "Austin, TX",
+    "validation_id":  "geometry_validation_001",
+    "source_artifact":  "austin_city_boundary_source.geojson",
+    "artifact_sha256":  "8FE66B42B998A31035F97210E80B325395166F220EF314811D93190246F59ABD",
+    "feature_count":  1,
+    "geometry_types":  [
+                           "MultiPolygon"
+                       ],
+    "bbox":  [
+                 -97.9383622693024,
+                 30.07558132583,
+                 -97.5275945699989,
+                 30.5166289204704
+             ],
+    "expected_crs":  "EPSG:4326",
+    "geometry_validation_status":  "PASS",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false
+}
