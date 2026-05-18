@@ -1,0 +1,21 @@
+﻿{
+    "city_id":  "city_4c180874",
+    "canonical_name":  "Chicago, IL",
+    "validation_id":  "geometry_validation_001",
+    "source_artifact":  "chicago_city_boundary_source.geojson",
+    "artifact_sha256":  "35C4B7A1349E11EA103B01175F2AC6C17181A7FCDD953D8C6AA64E50F8AD84DF",
+    "feature_count":  1,
+    "geometry_types":  [
+                           "MultiPolygon"
+                       ],
+    "bbox":  [
+                 -87.940114082523479,
+                 41.64454312178303,
+                 -87.5241371038952,
+                 42.023038586147585
+             ],
+    "expected_crs":  "EPSG:4326",
+    "geometry_validation_status":  "PASS",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false
+}
