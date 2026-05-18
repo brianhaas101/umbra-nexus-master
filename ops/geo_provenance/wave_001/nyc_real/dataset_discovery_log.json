@@ -1,0 +1,13 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+  "mutation_allowed": false,
+  "discovery_status": "IN_PROGRESS",
+  "selected_source_family": "NYC OpenData",
+  "candidate_datasets": [],
+  "selection_complete": false,
+  "artifact_downloaded": false,
+  "notes": [
+    "Dataset discovery must complete before any municipal artifact is downloaded"
+  ]
+}
