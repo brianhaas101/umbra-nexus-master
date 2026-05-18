@@ -8,9 +8,17 @@ if (!(Test-Path $WaveDir)) {
   throw "Wave directory not found: $WaveDir"
 }
 
+$ExcludedDirs = @(
+  "raw",
+  "normalized",
+  "replay",
+  "manifests",
+  "reports"
+)
+
 $CityDirs = Get-ChildItem $WaveDir -Directory |
   Where-Object {
-    $_.Name -notmatch "^raw$|^normalized$"
+    $ExcludedDirs -notcontains $_.Name
   }
 
 $Results = @()
