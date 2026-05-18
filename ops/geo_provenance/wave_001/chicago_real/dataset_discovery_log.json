@@ -1,0 +1,15 @@
+﻿{
+    "discovery_status":  "IN_PROGRESS",
+    "selected_source_family":  null,
+    "canonical_name":  "Chicago, IL",
+    "candidate_datasets":  [
+
+                           ],
+    "notes":  [
+                  "Dataset discovery must complete before any municipal artifact is downloaded"
+              ],
+    "city_id":  "city_4c180874",
+    "selection_complete":  false,
+    "artifact_downloaded":  false,
+    "mutation_allowed":  false
+}
