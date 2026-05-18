@@ -1,0 +1,21 @@
+﻿{
+    "artifact_filename":  "nyc_borough_boundaries_source.geojson",
+    "authorized_by":  "download_authorization_001",
+    "expected_geometry_type":  "MULTIPOLYGON",
+    "acquisition_id":  "acquisition_record_001",
+    "dataset_candidate":  "dataset_candidate_002",
+    "notes":  [
+                  "Raw municipal artifact acquired but not yet normalized",
+                  "No canonical promotion authorized"
+              ],
+    "download_format":  "GeoJSON",
+    "city_id":  "city_3d50f2fd",
+    "water_areas_included":  false,
+    "artifact_path":  "ops\\geo_provenance\\wave_001\\raw\\nyc_borough_boundaries_source.geojson",
+    "mutation_allowed":  false,
+    "download_timestamp":  "2026-05-18T00:27:44.6387425Z",
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED",
+    "artifact_sha256":  "EF0B001D164AD4BE0D510A6CB15EFE0287DE88AE3B2C7427DA6376A0A3970672",
+    "expected_crs":  "EPSG:4326",
+    "canonical_name":  "New York, NY"
+}
