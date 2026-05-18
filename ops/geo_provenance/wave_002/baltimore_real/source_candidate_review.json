@@ -1,0 +1,39 @@
+﻿{
+    "city_id":  "city_a7350aab",
+    "canonical_name":  "Baltimore, MD",
+    "slug":  "baltimore_real",
+    "wave_id":  "wave_002",
+    "review_status":  "PENDING_FOUNDER_REVIEW",
+    "approval_status":  "NONE_APPROVED",
+    "search_terms":  [
+                         "Baltimore, MD official city limits GIS",
+                         "Baltimore, MD city boundary GIS",
+                         "Baltimore, MD municipal boundary ArcGIS",
+                         "Baltimore, MD open data city limits",
+                         "Baltimore, MD administrative boundary feature service"
+                     ],
+    "candidates":  [
+
+                   ],
+    "rejection_keywords":  [
+                               "council district",
+                               "neighborhood",
+                               "zip code",
+                               "police",
+                               "fire",
+                               "school",
+                               "ward",
+                               "county",
+                               "annexation",
+                               "historic",
+                               "parcel",
+                               "zoning"
+                           ],
+    "approval_requirements":  [
+                                  "official municipal publisher",
+                                  "current city boundary or city limits",
+                                  "polygon or multipolygon geometry",
+                                  "downloadable GeoJSON or FeatureServer query endpoint",
+                                  "not district/neighborhood/annexation/history layer"
+                              ]
+}

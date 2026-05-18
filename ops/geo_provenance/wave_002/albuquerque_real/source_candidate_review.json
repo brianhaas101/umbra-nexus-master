@@ -1,0 +1,39 @@
+﻿{
+    "city_id":  "city_756cb4ea",
+    "canonical_name":  "Albuquerque, NM",
+    "slug":  "albuquerque_real",
+    "wave_id":  "wave_002",
+    "review_status":  "PENDING_FOUNDER_REVIEW",
+    "approval_status":  "NONE_APPROVED",
+    "search_terms":  [
+                         "Albuquerque, NM official city limits GIS",
+                         "Albuquerque, NM city boundary GIS",
+                         "Albuquerque, NM municipal boundary ArcGIS",
+                         "Albuquerque, NM open data city limits",
+                         "Albuquerque, NM administrative boundary feature service"
+                     ],
+    "candidates":  [
+
+                   ],
+    "rejection_keywords":  [
+                               "council district",
+                               "neighborhood",
+                               "zip code",
+                               "police",
+                               "fire",
+                               "school",
+                               "ward",
+                               "county",
+                               "annexation",
+                               "historic",
+                               "parcel",
+                               "zoning"
+                           ],
+    "approval_requirements":  [
+                                  "official municipal publisher",
+                                  "current city boundary or city limits",
+                                  "polygon or multipolygon geometry",
+                                  "downloadable GeoJSON or FeatureServer query endpoint",
+                                  "not district/neighborhood/annexation/history layer"
+                              ]
+}

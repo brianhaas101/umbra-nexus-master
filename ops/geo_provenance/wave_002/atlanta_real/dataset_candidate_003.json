@@ -1,0 +1,13 @@
+﻿{
+    "city_id":  "city_7eb25064",
+    "canonical_name":  "Atlanta, GA",
+    "candidate_id":  "dataset_candidate_003",
+    "source_family":  "City of Atlanta Department of City Planning GIS",
+    "dataset_name":  "Official Atlanta City Limits - Open Data",
+    "dataset_type":  "ArcGIS Hub GeoJSON Export",
+    "source_url":  "https://hub.arcgis.com/api/v3/datasets/3718407151454be3ab11c15526430997_1/downloads/data?format=geojson\u0026spatialRefId=4326\u0026where=1%3D1",
+    "geometry_type_expected":  "Polygon_or_MultiPolygon",
+    "crs_expected":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "candidate_status":  "FROZEN_PENDING_VALIDATION"
+}

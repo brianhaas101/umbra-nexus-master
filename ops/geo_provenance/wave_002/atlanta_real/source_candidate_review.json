@@ -1,0 +1,39 @@
+﻿{
+    "city_id":  "city_7eb25064",
+    "canonical_name":  "Atlanta, GA",
+    "slug":  "atlanta_real",
+    "wave_id":  "wave_002",
+    "review_status":  "PENDING_FOUNDER_REVIEW",
+    "approval_status":  "NONE_APPROVED",
+    "search_terms":  [
+                         "Atlanta, GA official city limits GIS",
+                         "Atlanta, GA city boundary GIS",
+                         "Atlanta, GA municipal boundary ArcGIS",
+                         "Atlanta, GA open data city limits",
+                         "Atlanta, GA administrative boundary feature service"
+                     ],
+    "candidates":  [
+
+                   ],
+    "rejection_keywords":  [
+                               "council district",
+                               "neighborhood",
+                               "zip code",
+                               "police",
+                               "fire",
+                               "school",
+                               "ward",
+                               "county",
+                               "annexation",
+                               "historic",
+                               "parcel",
+                               "zoning"
+                           ],
+    "approval_requirements":  [
+                                  "official municipal publisher",
+                                  "current city boundary or city limits",
+                                  "polygon or multipolygon geometry",
+                                  "downloadable GeoJSON or FeatureServer query endpoint",
+                                  "not district/neighborhood/annexation/history layer"
+                              ]
+}
