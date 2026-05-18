@@ -1,0 +1,26 @@
+{
+  "city_id": "city_1f98af58",
+  "canonical_name": "Los Angeles, CA",
+  "validation_id": "geometry_validation_001",
+  "source_artifact": "la_city_boundary_source.geojson",
+  "artifact_sha256": "BBDA6E63FD78D0E1B1DFD27AA242F0AFE5C0B34D086629580A70FADFDA504EDD",
+  "feature_count": 1,
+  "geometry_types": [
+    "Polygon"
+  ],
+  "bbox": [
+    -118.66818849568807,
+    33.703655679107229,
+    -118.1553698671032,
+    34.337311078396539
+  ],
+  "expected_crs": "EPSG:4326",
+  "geometry_validation_status": "PASS",
+  "mutation_allowed": false,
+  "canonical_promotion_authorized": false,
+  "notes": [
+    "Authoritative municipal geometry successfully parsed",
+    "Polygon geometry validated",
+    "Deterministic bbox extraction completed"
+  ]
+}
