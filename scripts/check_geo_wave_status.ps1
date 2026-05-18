@@ -4,25 +4,43 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$Cities = @(
-  @{ slug = "nyc_real"; name = "New York, NY" },
-  @{ slug = "la_real"; name = "Los Angeles, CA" },
-  @{ slug = "chicago_real"; name = "Chicago, IL" },
-  @{ slug = "houston_real"; name = "Houston, TX" },
-  @{ slug = "dc_real"; name = "Washington, DC" }
-)
+if (!(Test-Path $WaveDir)) {
+  throw "Wave directory not found: $WaveDir"
+}
+
+$CityDirs = Get-ChildItem $WaveDir -Directory |
+  Where-Object {
+    $_.Name -notmatch "^raw$|^normalized$"
+  }
 
 $Results = @()
 
-foreach ($City in $Cities) {
-  $CityDir = Join-Path $WaveDir $City.slug
+foreach ($CityDir in $CityDirs) {
+
+  $SessionFile = Join-Path $CityDir.FullName "ingestion_session_001.json"
+
+  $CanonicalName = $CityDir.Name
+
+  if (Test-Path $SessionFile) {
+    try {
+      $Session = Get-Content $SessionFile -Raw | ConvertFrom-Json
+
+      if ($Session.canonical_name) {
+        $CanonicalName = $Session.canonical_name
+      }
+    }
+    catch {
+    }
+  }
 
   $Results += [ordered]@{
-    city = $City.name
-    workspace = Test-Path $CityDir
-    acquisition_record = Test-Path (Join-Path $CityDir "acquisition_record_001.json")
-    geometry_validation = Test-Path (Join-Path $CityDir "geometry_validation_001.json")
-    normalization_record = Test-Path (Join-Path $CityDir "normalization_record_001.json")
+    city = $CanonicalName
+    workspace = $true
+    acquisition_record = Test-Path (Join-Path $CityDir.FullName "acquisition_record_001.json")
+    geometry_validation = Test-Path (Join-Path $CityDir.FullName "geometry_validation_001.json")
+    normalization_record = Test-Path (Join-Path $CityDir.FullName "normalization_record_001.json")
+    topology_manifest_present = Test-Path (Join-Path $WaveDir "wave_001_topology_manifest.json")
+    completion_manifest_present = Test-Path (Join-Path $WaveDir "wave_001_completion_manifest.json")
   }
 }
 

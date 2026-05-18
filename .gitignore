@@ -134,6 +134,20 @@ test-results/
 *.swp
 
 # =========================
+# UMBRA GEO LOCAL ARTIFACTS
+# =========================
+
+ops/geo_provenance/**/raw/*.geojson
+ops/geo_provenance/**/normalized/*.geojson
+
+ops/geo_provenance/**/raw/*.zip
+
+ops/geo_provenance/**/raw/*.shp
+ops/geo_provenance/**/raw/*.dbf
+ops/geo_provenance/**/raw/*.shx
+ops/geo_provenance/**/raw/*.prj
+
+# =========================
 # OS / CACHE
 # =========================
 
