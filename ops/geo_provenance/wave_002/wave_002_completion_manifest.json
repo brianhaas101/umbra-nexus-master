@@ -1,0 +1,36 @@
+﻿{
+    "wave_id":  "wave_002",
+    "wave_status":  "PARTIAL_REPLAY_VERIFIED_WITH_DEFERRED_CITY",
+    "canonical_registry_promotion_authorized":  false,
+    "mutation_allowed":  false,
+    "completed_city_count":  4,
+    "deferred_city_count":  1,
+    "cities":  [
+                   {
+                       "city_id":  "city_a324d561",
+                       "canonical_name":  "Austin, TX",
+                       "status":  "REPLAY_STRUCTURAL_TOPOLOGY_VERIFIED"
+                   },
+                   {
+                       "city_id":  "city_7eb25064",
+                       "canonical_name":  "Atlanta, GA",
+                       "status":  "REPLAY_STRUCTURAL_TOPOLOGY_VERIFIED"
+                   },
+                   {
+                       "city_id":  "city_8b7f4d2a",
+                       "canonical_name":  "Albuquerque, NM",
+                       "status":  "REPLAY_STRUCTURAL_TOPOLOGY_VERIFIED"
+                   },
+                   {
+                       "city_id":  "city_6cabf985",
+                       "canonical_name":  "Arlington, TX",
+                       "status":  "REPLAY_STRUCTURAL_TOPOLOGY_VERIFIED"
+                   },
+                   {
+                       "city_id":  "city_a7350aab",
+                       "canonical_name":  "Baltimore, MD",
+                       "status":  "DEFERRED",
+                       "reason":  "Public source exposed LineString city limit geometry rather than Polygon/MultiPolygon municipal area geometry"
+                   }
+               ]
+}
