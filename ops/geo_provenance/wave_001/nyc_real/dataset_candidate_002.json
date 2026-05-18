@@ -1,0 +1,46 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+  "mutation_allowed": false,
+
+  "candidate_id": "dataset_candidate_002",
+  "selection_state": "PRIMARY_REVIEW",
+
+  "dataset_title": "Borough Boundaries",
+  "dataset_url": "https://data.cityofnewyork.us/City-Government/Borough-Boundaries/yqww-f9f3",
+
+  "publisher": "NYC OpenData",
+  "license": "public_city_government_dataset",
+
+  "last_updated": "2026-03-09",
+
+  "geometry_scope": "NYC borough administrative multipolygon boundaries",
+  "water_areas_included": false,
+
+  "geometry_type": "MULTIPOLYGON",
+
+  "available_formats": [
+    "GeoJSON",
+    "CSV",
+    "KML",
+    "Shapefile"
+  ],
+
+  "geometry_columns": [
+    "the_geom"
+  ],
+
+  "source_crs": null,
+  "normalized_target_crs": "EPSG:4326",
+
+  "download_attempted": false,
+  "artifact_acquired": false,
+
+  "authoritative_classification": "PRIMARY_AUTHORITATIVE_BOUNDARY_SOURCE_CANDIDATE",
+
+  "notes": [
+    "Preferred operational land boundary dataset",
+    "Suitable for canonical city extent derivation",
+    "Water excluded geometry preferred for deterministic operational indexing"
+  ]
+}
