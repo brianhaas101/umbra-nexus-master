@@ -1,0 +1,17 @@
+{
+  "city_id": "city_4c180874",
+  "canonical_name": "Chicago, IL",
+  "mutation_allowed": false,
+  "selected_source": {
+    "source_name": "City of Chicago Data Portal",
+    "source_type": "municipal_gis",
+    "selection_reason": "Highest-priority city-local public GIS source for Chicago boundary verification",
+    "source_url": null,
+    "dataset_name": null,
+    "license": null,
+    "retrieval_timestamp": null,
+    "artifact_status": "NOT_DOWNLOADED"
+  },
+  "lock_status": "SOURCE_FAMILY_SELECTED",
+  "next_required_action": "Locate exact Chicago boundary dataset URL before downloading any artifact"
+}
