@@ -1,0 +1,16 @@
+﻿{
+    "city_id":  "city_a324d561",
+    "canonical_name":  "Austin, TX",
+    "candidate_id":  "dataset_candidate_001",
+    "source_family":  "City of Austin ArcGIS",
+    "dataset_name":  "City_Limits_Dissolve",
+    "dataset_type":  "Feature Layer",
+    "authoritative_status":  "AUTHORITATIVE",
+    "source_url":  "https://austin.maps.arcgis.com/home/item.html?id=09ae8bd1263e418498422e01e0fcd8c5",
+    "layer_name":  "City_Limits_Dissolve",
+    "geometry_type_expected":  "Polygon_or_MultiPolygon",
+    "crs_expected":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "download_authorized":  false,
+    "candidate_status":  "FROZEN_PENDING_DOWNLOAD"
+}
