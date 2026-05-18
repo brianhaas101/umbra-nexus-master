@@ -1,0 +1,16 @@
+﻿{
+    "city_id":  "city_0a922e63",
+    "canonical_name":  "Houston, TX",
+    "acquisition_id":  "acquisition_record_001",
+    "authorized_by":  "download_authorization_001",
+    "dataset_candidate":  "dataset_candidate_001",
+    "artifact_filename":  "houston_city_boundary_source.geojson",
+    "artifact_path":  "ops\\geo_provenance\\wave_001\\raw\\houston_city_boundary_source.geojson",
+    "artifact_sha256":  "A011BFD9BA76734003B51079FC24D1C166D27A8344E7C4F2DEF0449C8CC697A1",
+    "download_timestamp":  "2026-05-18T01:20:17.1184800Z",
+    "download_format":  "GeoJSON",
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "expected_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED"
+}
