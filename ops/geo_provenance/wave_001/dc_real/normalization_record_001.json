@@ -1,0 +1,14 @@
+﻿{
+    "city_id":  "city_5fedc010",
+    "canonical_name":  "Washington, DC",
+    "normalization_id":  "normalization_record_001",
+    "source_artifact":  "ops\\geo_provenance\\wave_001\\raw\\dc_boundary_source.geojson",
+    "normalized_artifact":  "ops\\geo_provenance\\wave_001\\normalized\\dc_boundary_normalized.geojson",
+    "source_artifact_sha256":  "1BE0223A170362E755E19FB3524193E3546AE74DDDF9B15E561B902FADCC5B8E",
+    "normalized_artifact_sha256":  "8F0A9660DDBB34BA3854E5A3D4F78C12B26773326233F74B19CA0CD2E3BBF9EA",
+    "normalization_standard":  "UMBRA_GEO_NORMALIZATION_V1",
+    "normalized_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false,
+    "normalization_status":  "PASS"
+}
