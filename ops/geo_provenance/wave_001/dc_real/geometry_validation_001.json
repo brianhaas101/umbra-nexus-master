@@ -1,0 +1,21 @@
+﻿{
+    "city_id":  "city_5fedc010",
+    "canonical_name":  "Washington, DC",
+    "validation_id":  "geometry_validation_001",
+    "source_artifact":  "dc_boundary_source.geojson",
+    "artifact_sha256":  "1BE0223A170362E755E19FB3524193E3546AE74DDDF9B15E561B902FADCC5B8E",
+    "feature_count":  1,
+    "geometry_types":  [
+                           "Polygon"
+                       ],
+    "bbox":  [
+                 -77.119795218749019,
+                 38.791644351256487,
+                 -76.909149955932762,
+                 38.995968036511357
+             ],
+    "expected_crs":  "EPSG:4326",
+    "geometry_validation_status":  "PASS",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false
+}
