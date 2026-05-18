@@ -21,13 +21,26 @@ foreach ($Feature in $GeoJson.features) {
 
   $GeometryTypes += $Geometry.type
 
-  foreach ($Polygon in $Geometry.coordinates) {
-    foreach ($Ring in $Polygon) {
+  if ($Geometry.type -eq "Polygon") {
+    foreach ($Ring in $Geometry.coordinates) {
       foreach ($Point in $Ring) {
         $AllLon.Add([double]$Point[0])
         $AllLat.Add([double]$Point[1])
       }
     }
+  }
+  elseif ($Geometry.type -eq "MultiPolygon") {
+    foreach ($Polygon in $Geometry.coordinates) {
+      foreach ($Ring in $Polygon) {
+        foreach ($Point in $Ring) {
+          $AllLon.Add([double]$Point[0])
+          $AllLat.Add([double]$Point[1])
+        }
+      }
+    }
+  }
+  else {
+    throw "Unsupported geometry type: $($Geometry.type)"
   }
 }
 
@@ -45,7 +58,7 @@ $Result = [PSCustomObject]@{
   geometry_types = @($GeometryTypes | Sort-Object -Unique)
   bbox = $BBox
   artifact_sha256 = $ArtifactHash
-  metadata_extraction_mode = "fast_artifact_hash_plus_bbox"
+  metadata_extraction_mode = "geometry_type_aware_bbox"
 }
 
 $Result | ConvertTo-Json -Depth 8
