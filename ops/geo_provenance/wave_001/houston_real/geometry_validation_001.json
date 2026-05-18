@@ -1,0 +1,22 @@
+﻿{
+    "city_id":  "city_0a922e63",
+    "canonical_name":  "Houston, TX",
+    "validation_id":  "geometry_validation_001",
+    "source_artifact":  "houston_city_boundary_source.geojson",
+    "artifact_sha256":  "A011BFD9BA76734003B51079FC24D1C166D27A8344E7C4F2DEF0449C8CC697A1",
+    "feature_count":  751,
+    "geometry_types":  [
+                           "MultiPolygon",
+                           "Polygon"
+                       ],
+    "bbox":  [
+                 -95.9097490631016,
+                 29.5162872869375,
+                 -95.0126446633922,
+                 30.1558814505749
+             ],
+    "expected_crs":  "EPSG:4326",
+    "geometry_validation_status":  "PASS",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false
+}
