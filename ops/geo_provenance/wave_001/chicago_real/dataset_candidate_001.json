@@ -1,0 +1,19 @@
+﻿{
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "source_type":  "municipal_gis",
+    "geometry_scope":  "city_boundary",
+    "city_id":  "city_4c180874",
+    "expected_crs":  "EPSG:4326",
+    "publisher":  "City of Chicago",
+    "download_format_target":  "GeoJSON",
+    "dataset_name":  "Boundaries - City",
+    "dataset_url":  "https://data.cityofchicago.org/d/ewy2-6yfk",
+    "candidate_id":  "dataset_candidate_001",
+    "license":  "public_city_government_dataset",
+    "mutation_allowed":  false,
+    "source_family":  "City of Chicago Data Portal",
+    "canonical_name":  "Chicago, IL",
+    "selection_status":  "FROZEN_CANDIDATE",
+    "selection_reason":  "Authoritative municipal city boundary layer from Chicago Data Portal",
+    "expected_record_count":  1
+}
