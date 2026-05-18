@@ -1,0 +1,18 @@
+﻿{
+    "city_id":  "city_4c180874",
+    "canonical_name":  "Chicago, IL",
+    "authorization_id":  "download_authorization_001",
+    "dataset_candidate":  "dataset_candidate_001",
+    "authorized_download_format":  "GeoJSON",
+    "authorized_geometry_scope":  "city_boundary",
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "expected_crs":  "EPSG:4326",
+    "authorization_status":  "APPROVED_FOR_CONTROLLED_DOWNLOAD",
+    "mutation_allowed":  false,
+    "canonical_registry_mutation_authorized":  false,
+    "issued_at_utc":  "2026-05-18T01:08:45.7096558Z",
+    "notes":  [
+                  "Raw authoritative municipal geometry acquisition approved",
+                  "No canonical promotion authorized"
+              ]
+}
