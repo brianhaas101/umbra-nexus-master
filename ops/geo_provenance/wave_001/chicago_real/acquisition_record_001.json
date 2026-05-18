@@ -1,0 +1,16 @@
+﻿{
+    "city_id":  "city_4c180874",
+    "canonical_name":  "Chicago, IL",
+    "acquisition_id":  "acquisition_record_001",
+    "authorized_by":  "download_authorization_001",
+    "dataset_candidate":  "dataset_candidate_001",
+    "artifact_filename":  "chicago_city_boundary_source.geojson",
+    "artifact_path":  "ops\\geo_provenance\\wave_001\\raw\\chicago_city_boundary_source.geojson",
+    "artifact_sha256":  "35C4B7A1349E11EA103B01175F2AC6C17181A7FCDD953D8C6AA64E50F8AD84DF",
+    "download_timestamp":  "2026-05-18T01:11:11.7250998Z",
+    "download_format":  "GeoJSON",
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "expected_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED"
+}
