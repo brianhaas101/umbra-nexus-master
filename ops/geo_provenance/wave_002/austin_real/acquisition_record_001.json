@@ -1,0 +1,16 @@
+﻿{
+    "city_id":  "city_a324d561",
+    "canonical_name":  "Austin, TX",
+    "acquisition_id":  "acquisition_record_001",
+    "authorized_by":  "manual_authorized_after_candidate_freeze",
+    "dataset_candidate":  "dataset_candidate_001",
+    "artifact_filename":  "austin_city_boundary_source.geojson",
+    "artifact_path":  "ops\\geo_provenance\\wave_002\\raw\\austin_city_boundary_source.geojson",
+    "artifact_sha256":  "8FE66B42B998A31035F97210E80B325395166F220EF314811D93190246F59ABD",
+    "download_timestamp":  "2026-05-18T02:14:04.1999756Z",
+    "download_format":  "GeoJSON",
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "expected_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED"
+}
