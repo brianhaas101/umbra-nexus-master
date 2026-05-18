@@ -1,0 +1,27 @@
+[
+  {
+    "city_id": "city_1c0a1f01",
+    "canonical_name": "Birmingham, AL",
+    "slug": "birmingham_real"
+  },
+  {
+    "city_id": "city_1c0a1f02",
+    "canonical_name": "Boise, ID",
+    "slug": "boise_real"
+  },
+  {
+    "city_id": "city_1c0a1f03",
+    "canonical_name": "Buffalo, NY",
+    "slug": "buffalo_real"
+  },
+  {
+    "city_id": "city_1c0a1f04",
+    "canonical_name": "Bakersfield, CA",
+    "slug": "bakersfield_real"
+  },
+  {
+    "city_id": "city_1c0a1f05",
+    "canonical_name": "Boston, MA",
+    "slug": "boston_real"
+  }
+]

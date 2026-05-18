@@ -1,0 +1,39 @@
+﻿{
+    "city_id":  "city_1c0a1f03",
+    "canonical_name":  "Buffalo, NY",
+    "slug":  "buffalo_real",
+    "wave_id":  "wave_003",
+    "review_status":  "PENDING_FOUNDER_REVIEW",
+    "approval_status":  "NONE_APPROVED",
+    "search_terms":  [
+                         "Buffalo, NY official city limits GIS",
+                         "Buffalo, NY city boundary GIS",
+                         "Buffalo, NY municipal boundary ArcGIS",
+                         "Buffalo, NY open data city limits",
+                         "Buffalo, NY administrative boundary feature service"
+                     ],
+    "candidates":  [
+
+                   ],
+    "rejection_keywords":  [
+                               "council district",
+                               "neighborhood",
+                               "zip code",
+                               "police",
+                               "fire",
+                               "school",
+                               "ward",
+                               "county",
+                               "annexation",
+                               "historic",
+                               "parcel",
+                               "zoning"
+                           ],
+    "approval_requirements":  [
+                                  "official municipal publisher",
+                                  "current city boundary or city limits",
+                                  "polygon or multipolygon geometry",
+                                  "downloadable GeoJSON or FeatureServer query endpoint",
+                                  "not district/neighborhood/annexation/history layer"
+                              ]
+}

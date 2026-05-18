@@ -1,0 +1,39 @@
+﻿{
+    "city_id":  "city_1c0a1f02",
+    "canonical_name":  "Boise, ID",
+    "slug":  "boise_real",
+    "wave_id":  "wave_003",
+    "review_status":  "PENDING_FOUNDER_REVIEW",
+    "approval_status":  "NONE_APPROVED",
+    "search_terms":  [
+                         "Boise, ID official city limits GIS",
+                         "Boise, ID city boundary GIS",
+                         "Boise, ID municipal boundary ArcGIS",
+                         "Boise, ID open data city limits",
+                         "Boise, ID administrative boundary feature service"
+                     ],
+    "candidates":  [
+
+                   ],
+    "rejection_keywords":  [
+                               "council district",
+                               "neighborhood",
+                               "zip code",
+                               "police",
+                               "fire",
+                               "school",
+                               "ward",
+                               "county",
+                               "annexation",
+                               "historic",
+                               "parcel",
+                               "zoning"
+                           ],
+    "approval_requirements":  [
+                                  "official municipal publisher",
+                                  "current city boundary or city limits",
+                                  "polygon or multipolygon geometry",
+                                  "downloadable GeoJSON or FeatureServer query endpoint",
+                                  "not district/neighborhood/annexation/history layer"
+                              ]
+}

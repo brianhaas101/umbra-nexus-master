@@ -1,0 +1,16 @@
+﻿{
+    "discovery_status":  "IN_PROGRESS",
+    "selected_source_family":  null,
+    "canonical_name":  "Birmingham, AL",
+    "candidate_datasets":  [
+
+                           ],
+    "notes":  [
+                  "Dataset discovery must complete before any municipal artifact is downloaded"
+              ],
+    "wave_id":  "wave_003",
+    "city_id":  "city_1c0a1f01",
+    "selection_complete":  false,
+    "artifact_downloaded":  false,
+    "mutation_allowed":  false
+}

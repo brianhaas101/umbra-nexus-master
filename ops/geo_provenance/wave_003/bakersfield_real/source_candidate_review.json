@@ -1,0 +1,39 @@
+﻿{
+    "city_id":  "city_1c0a1f04",
+    "canonical_name":  "Bakersfield, CA",
+    "slug":  "bakersfield_real",
+    "wave_id":  "wave_003",
+    "review_status":  "PENDING_FOUNDER_REVIEW",
+    "approval_status":  "NONE_APPROVED",
+    "search_terms":  [
+                         "Bakersfield, CA official city limits GIS",
+                         "Bakersfield, CA city boundary GIS",
+                         "Bakersfield, CA municipal boundary ArcGIS",
+                         "Bakersfield, CA open data city limits",
+                         "Bakersfield, CA administrative boundary feature service"
+                     ],
+    "candidates":  [
+
+                   ],
+    "rejection_keywords":  [
+                               "council district",
+                               "neighborhood",
+                               "zip code",
+                               "police",
+                               "fire",
+                               "school",
+                               "ward",
+                               "county",
+                               "annexation",
+                               "historic",
+                               "parcel",
+                               "zoning"
+                           ],
+    "approval_requirements":  [
+                                  "official municipal publisher",
+                                  "current city boundary or city limits",
+                                  "polygon or multipolygon geometry",
+                                  "downloadable GeoJSON or FeatureServer query endpoint",
+                                  "not district/neighborhood/annexation/history layer"
+                              ]
+}
