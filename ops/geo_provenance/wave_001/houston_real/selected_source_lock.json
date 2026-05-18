@@ -1,0 +1,17 @@
+﻿{
+    "city_id":  "city_0a922e63",
+    "canonical_name":  "Houston, TX",
+    "mutation_allowed":  false,
+    "selected_source":  {
+                            "source_name":  "Houston Open Data Portal",
+                            "source_type":  "municipal_gis",
+                            "selection_reason":  "Highest-priority city-local public GIS source for Houston boundary verification",
+                            "source_url":  null,
+                            "dataset_name":  null,
+                            "license":  null,
+                            "retrieval_timestamp":  null,
+                            "artifact_status":  "NOT_DOWNLOADED"
+                        },
+    "lock_status":  "SOURCE_FAMILY_SELECTED",
+    "next_required_action":  "Locate exact Houston boundary dataset URL before downloading any artifact"
+}
