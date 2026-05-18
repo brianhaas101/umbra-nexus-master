@@ -1,0 +1,22 @@
+﻿{
+    "city_id":  "city_1c0a1f01",
+    "canonical_name":  "Birmingham, AL",
+    "validation_id":  "geometry_validation_001",
+    "source_artifact":  "birmingham_city_boundary_source.geojson",
+    "artifact_sha256":  "B64DAFAE78BC95833065E59F90B0CA7BA2417A1D5592424E1937DEF98FD1EC5F",
+    "feature_count":  3,
+    "geometry_types":  [
+                           "MultiPolygon",
+                           "Polygon"
+                       ],
+    "bbox":  [
+                 -87.122645286550764,
+                 33.384260338425619,
+                 -86.578310236095547,
+                 33.67858682409102
+             ],
+    "expected_crs":  "EPSG:4326",
+    "geometry_validation_status":  "PASS",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false
+}

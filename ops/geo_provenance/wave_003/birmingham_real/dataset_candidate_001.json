@@ -1,0 +1,13 @@
+﻿{
+    "city_id":  "city_1c0a1f01",
+    "canonical_name":  "Birmingham, AL",
+    "candidate_id":  "dataset_candidate_001",
+    "source_family":  "City of Birmingham GIS",
+    "dataset_name":  "Birmingham City Limits",
+    "dataset_type":  "ArcGIS MapServer GeoJSON Export",
+    "source_url":  "https://gisweb.birminghamal.gov/arcgis/rest/services/CityLimits/MapServer/0/query?where=1%3D1\u0026outFields=*\u0026outSR=4326\u0026f=geojson",
+    "geometry_type_expected":  "Polygon_or_MultiPolygon",
+    "crs_expected":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "candidate_status":  "FROZEN_ACCEPTED"
+}

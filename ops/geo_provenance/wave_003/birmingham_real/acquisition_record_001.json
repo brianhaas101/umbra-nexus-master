@@ -1,0 +1,14 @@
+﻿{
+    "city_id":  "city_1c0a1f01",
+    "canonical_name":  "Birmingham, AL",
+    "acquisition_id":  "acquisition_record_001",
+    "dataset_candidate":  "dataset_candidate_001",
+    "artifact_filename":  "birmingham_city_boundary_source.geojson",
+    "artifact_path":  "ops\\geo_provenance\\wave_003\\raw\\birmingham_city_boundary_source.geojson",
+    "artifact_sha256":  "B64DAFAE78BC95833065E59F90B0CA7BA2417A1D5592424E1937DEF98FD1EC5F",
+    "download_format":  "GeoJSON",
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "expected_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED"
+}
