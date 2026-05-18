@@ -1,0 +1,16 @@
+﻿{
+    "artifact_filename":  "la_city_boundary_source.geojson",
+    "authorized_by":  "download_authorization_001",
+    "expected_geometry_type":  "MultiPolygon",
+    "acquisition_id":  "acquisition_record_001",
+    "dataset_candidate":  "dataset_candidate_001",
+    "download_format":  "GeoJSON",
+    "city_id":  "city_1f98af58",
+    "mutation_allowed":  false,
+    "artifact_path":  "ops\\geo_provenance\\wave_001\\raw\\la_city_boundary_source.geojson",
+    "download_timestamp":  "2026-05-18T00:54:08.6350703Z",
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED",
+    "artifact_sha256":  "BBDA6E63FD78D0E1B1DFD27AA242F0AFE5C0B34D086629580A70FADFDA504EDD",
+    "expected_crs":  "EPSG:4326",
+    "canonical_name":  "Los Angeles, CA"
+}
