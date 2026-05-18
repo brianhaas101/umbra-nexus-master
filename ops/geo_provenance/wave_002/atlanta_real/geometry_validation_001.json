@@ -1,0 +1,21 @@
+﻿{
+    "city_id":  "city_7eb25064",
+    "canonical_name":  "Atlanta, GA",
+    "validation_id":  "geometry_validation_001",
+    "source_artifact":  "atlanta_city_boundary_source.geojson",
+    "artifact_sha256":  "2737E9E47033C4949FE962F3EB4AF8CC626A5CDA582384478778AC752E4A7040",
+    "feature_count":  1,
+    "geometry_types":  [
+                           "MultiPolygon"
+                       ],
+    "bbox":  [
+                 -84.550853878787763,
+                 33.647991316135609,
+                 -84.289624680737319,
+                 33.886867999174058
+             ],
+    "expected_crs":  "EPSG:4326",
+    "geometry_validation_status":  "PASS",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false
+}
