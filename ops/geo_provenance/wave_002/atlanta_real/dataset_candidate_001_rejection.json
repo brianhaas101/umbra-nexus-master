@@ -1,0 +1,15 @@
+﻿{
+    "city_id":  "city_7eb25064",
+    "canonical_name":  "Atlanta, GA",
+    "rejected_candidate":  "dataset_candidate_001",
+    "rejected_dataset":  "Annexations_wl",
+    "rejection_reason":  "Dataset appears to represent annexation history fragments rather than dissolved current municipal boundary",
+    "feature_count":  203,
+    "geometry_types":  [
+                           "MultiPolygon",
+                           "Polygon"
+                       ],
+    "mutation_allowed":  false,
+    "normalization_allowed":  false,
+    "next_required_action":  "Locate Official Atlanta City Limits dissolved municipal boundary layer"
+}

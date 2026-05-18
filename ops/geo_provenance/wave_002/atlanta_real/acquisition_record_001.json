@@ -1,0 +1,15 @@
+﻿{
+    "city_id":  "city_7eb25064",
+    "canonical_name":  "Atlanta, GA",
+    "acquisition_id":  "acquisition_record_001",
+    "dataset_candidate":  "dataset_candidate_001",
+    "artifact_filename":  "atlanta_city_boundary_source.geojson",
+    "artifact_path":  "ops\\geo_provenance\\wave_002\\raw\\atlanta_city_boundary_source.geojson",
+    "artifact_sha256":  "1E40239857DA8A074F43056ADDE8213629092E83555DE2AB78CBCA1FF3E225C8",
+    "download_timestamp":  "2026-05-18T02:35:46.8230083Z",
+    "download_format":  "GeoJSON",
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "expected_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED_PENDING_GEOMETRY_REVIEW"
+}

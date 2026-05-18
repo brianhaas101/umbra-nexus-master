@@ -1,0 +1,16 @@
+﻿{
+    "city_id":  "city_7eb25064",
+    "canonical_name":  "Atlanta, GA",
+    "candidate_id":  "dataset_candidate_001",
+    "source_family":  "City of Atlanta ArcGIS",
+    "dataset_name":  "Annexations_wl",
+    "dataset_type":  "FeatureServer",
+    "source_url":  "https://services5.arcgis.com/5RxyIIJ9boPdptdo/arcgis/rest/services/Annexations_wl/FeatureServer",
+    "export_url":  "https://services5.arcgis.com/5RxyIIJ9boPdptdo/arcgis/rest/services/Annexations_wl/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026returnGeometry=true\u0026f=geojson",
+    "geometry_type_expected":  "Polygon_or_MultiPolygon",
+    "crs_expected":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "download_authorized":  false,
+    "candidate_status":  "FROZEN_PENDING_GEOMETRY_REVIEW",
+    "warning":  "Candidate may represent annexation history rather than dissolved current municipal boundary"
+}
