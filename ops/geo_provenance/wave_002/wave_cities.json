@@ -1,0 +1,27 @@
+[
+  {
+    "city_id": "city_a324d561",
+    "canonical_name": "Austin, TX",
+    "slug": "austin_real"
+  },
+  {
+    "city_id": "city_7eb25064",
+    "canonical_name": "Atlanta, GA",
+    "slug": "atlanta_real"
+  },
+  {
+    "city_id": "city_a7350aab",
+    "canonical_name": "Baltimore, MD",
+    "slug": "baltimore_real"
+  },
+  {
+    "city_id": "city_756cb4ea",
+    "canonical_name": "Albuquerque, NM",
+    "slug": "albuquerque_real"
+  },
+  {
+    "city_id": "city_6cabf985",
+    "canonical_name": "Arlington, TX",
+    "slug": "arlington_tx_real"
+  }
+]
