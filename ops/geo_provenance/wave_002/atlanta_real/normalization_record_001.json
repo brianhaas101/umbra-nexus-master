@@ -1,0 +1,14 @@
+﻿{
+    "city_id":  "city_7eb25064",
+    "canonical_name":  "Atlanta, GA",
+    "normalization_id":  "normalization_record_001",
+    "source_artifact":  "ops\\geo_provenance\\wave_002\\raw\\atlanta_city_boundary_source.geojson",
+    "normalized_artifact":  "ops\\geo_provenance\\wave_002\\normalized\\atlanta_city_boundary_normalized.geojson",
+    "source_artifact_sha256":  "2737E9E47033C4949FE962F3EB4AF8CC626A5CDA582384478778AC752E4A7040",
+    "normalized_artifact_sha256":  "A847B3D125D86596CD7B26818928D367203E9533EA12953B6353D91FB996816C",
+    "normalization_standard":  "UMBRA_GEO_NORMALIZATION_V1",
+    "normalized_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false,
+    "normalization_status":  "PASS"
+}
