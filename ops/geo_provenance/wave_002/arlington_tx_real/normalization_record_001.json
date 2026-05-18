@@ -1,0 +1,14 @@
+﻿{
+    "city_id":  "city_6cabf985",
+    "canonical_name":  "Arlington, TX",
+    "normalization_id":  "normalization_record_001",
+    "source_artifact":  "ops\\geo_provenance\\wave_002\\raw\\arlington_tx_city_boundary_arlington_only_source.geojson",
+    "normalized_artifact":  "ops\\geo_provenance\\wave_002\\normalized\\arlington_tx_city_boundary_normalized.geojson",
+    "source_artifact_sha256":  "1279232A26AC893CB00D118A26B70CC69A3315ECCFC59521C8F27A166190A0C2",
+    "normalized_artifact_sha256":  "17CA96AF1DC32EF0EDD5B4BCC8923D1938114096661423956EB658C689CF03A9",
+    "normalization_standard":  "UMBRA_GEO_NORMALIZATION_V1",
+    "normalized_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false,
+    "normalization_status":  "PASS"
+}
