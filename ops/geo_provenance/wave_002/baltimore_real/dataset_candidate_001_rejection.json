@@ -1,0 +1,10 @@
+﻿{
+    "city_id":  "city_a7350aab",
+    "canonical_name":  "Baltimore, MD",
+    "rejected_dataset":  "Baltimore City Line",
+    "rejection_reason":  "Dataset is LineString boundary geometry, not Polygon or MultiPolygon municipal area geometry",
+    "artifact_sha256":  "554C3920A562533BF47B011CBBCDA7B7A878D7E11F5B40A85EB5A0D0ABECC824",
+    "mutation_allowed":  false,
+    "normalization_allowed":  false,
+    "next_required_action":  "Locate Baltimore municipal polygon boundary or administrative area dataset"
+}
