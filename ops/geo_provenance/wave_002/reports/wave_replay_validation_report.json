@@ -1,0 +1,40 @@
+﻿{
+    "wave_id":  "wave_002",
+    "replay_status":  "PASS",
+    "checked_at_utc":  "2026-05-18T04:04:42.8537220Z",
+    "checked_count":  4,
+    "results":  [
+                    {
+                        "city_id":  "city_8b7f4d2a",
+                        "canonical_name":  "Albuquerque, NM",
+                        "normalized_artifact":  "ops\\geo_provenance\\wave_002\\normalized\\albuquerque_city_boundary_normalized.geojson",
+                        "expected_sha256":  "83F3462CDF35C813833414F73201BC4BFC65FF26FB9CB2FBF718900B8AA23809",
+                        "actual_sha256":  "83F3462CDF35C813833414F73201BC4BFC65FF26FB9CB2FBF718900B8AA23809",
+                        "replay_status":  "PASS"
+                    },
+                    {
+                        "city_id":  "city_6cabf985",
+                        "canonical_name":  "Arlington, TX",
+                        "normalized_artifact":  "ops\\geo_provenance\\wave_002\\normalized\\arlington_tx_city_boundary_normalized.geojson",
+                        "expected_sha256":  "17CA96AF1DC32EF0EDD5B4BCC8923D1938114096661423956EB658C689CF03A9",
+                        "actual_sha256":  "17CA96AF1DC32EF0EDD5B4BCC8923D1938114096661423956EB658C689CF03A9",
+                        "replay_status":  "PASS"
+                    },
+                    {
+                        "city_id":  "city_7eb25064",
+                        "canonical_name":  "Atlanta, GA",
+                        "normalized_artifact":  "ops\\geo_provenance\\wave_002\\normalized\\atlanta_city_boundary_normalized.geojson",
+                        "expected_sha256":  "A847B3D125D86596CD7B26818928D367203E9533EA12953B6353D91FB996816C",
+                        "actual_sha256":  "A847B3D125D86596CD7B26818928D367203E9533EA12953B6353D91FB996816C",
+                        "replay_status":  "PASS"
+                    },
+                    {
+                        "city_id":  "city_a324d561",
+                        "canonical_name":  "Austin, TX",
+                        "normalized_artifact":  "ops\\geo_provenance\\wave_002\\normalized\\austin_city_boundary_normalized.geojson",
+                        "expected_sha256":  "6963821F193442C9FA750375AAAC02B466D3F1BFAD50348606A25A9133D68B90",
+                        "actual_sha256":  "6963821F193442C9FA750375AAAC02B466D3F1BFAD50348606A25A9133D68B90",
+                        "replay_status":  "PASS"
+                    }
+                ]
+}
