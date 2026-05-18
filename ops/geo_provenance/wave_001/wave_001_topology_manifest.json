@@ -1,0 +1,14 @@
+{
+  "wave_id": "wave_001",
+  "topology_status": "PASS",
+  "topology_contract": "UMBRA_TOPOLOGY_VALIDATION_V1",
+  "canonical_registry_promotion_authorized": false,
+  "mutation_allowed": false,
+  "cities": [
+    { "city_id": "city_3d50f2fd", "canonical_name": "New York, NY", "topology_status": "PASS" },
+    { "city_id": "city_1f98af58", "canonical_name": "Los Angeles, CA", "topology_status": "PASS" },
+    { "city_id": "city_4c180874", "canonical_name": "Chicago, IL", "topology_status": "PASS" },
+    { "city_id": "city_0a922e63", "canonical_name": "Houston, TX", "topology_status": "PASS" },
+    { "city_id": "city_5fedc010", "canonical_name": "Washington, DC", "topology_status": "PASS" }
+  ]
+}
