@@ -1,0 +1,13 @@
+﻿{
+    "city_id":  "city_8b7f4d2a",
+    "canonical_name":  "Albuquerque, NM",
+    "candidate_id":  "dataset_candidate_001",
+    "source_family":  "City of Albuquerque GIS",
+    "dataset_name":  "Albuquerque City Limits",
+    "dataset_type":  "KMZ",
+    "source_url":  "https://www.cabq.gov/gis/geographic-information-systems-data",
+    "geometry_type_expected":  "Polygon_or_MultiPolygon",
+    "crs_expected":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "candidate_status":  "FROZEN_ACCEPTED"
+}

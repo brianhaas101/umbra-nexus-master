@@ -1,0 +1,14 @@
+﻿{
+    "city_id":  "city_8b7f4d2a",
+    "canonical_name":  "Albuquerque, NM",
+    "normalization_id":  "normalization_record_001",
+    "source_artifact":  "ops\\geo_provenance\\wave_002\\raw\\albuquerque_city_boundary_source.geojson",
+    "normalized_artifact":  "ops\\geo_provenance\\wave_002\\normalized\\albuquerque_city_boundary_normalized.geojson",
+    "source_artifact_sha256":  "62B93BC3D6CD67C6FF1296854D2AD4B6A8FB31F87D9624FBA21272A1A7A675BB",
+    "normalized_artifact_sha256":  "83F3462CDF35C813833414F73201BC4BFC65FF26FB9CB2FBF718900B8AA23809",
+    "normalization_standard":  "UMBRA_GEO_NORMALIZATION_V1",
+    "normalized_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "canonical_promotion_authorized":  false,
+    "normalization_status":  "PASS"
+}

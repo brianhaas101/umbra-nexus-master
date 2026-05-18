@@ -1,0 +1,16 @@
+﻿{
+    "city_id":  "city_8b7f4d2a",
+    "canonical_name":  "Albuquerque, NM",
+    "acquisition_id":  "acquisition_record_001",
+    "dataset_candidate":  "dataset_candidate_001",
+    "artifact_filename":  "albuquerque_city_boundary_source.kmz",
+    "artifact_path":  "ops\\geo_provenance\\wave_002\\raw\\albuquerque_city_boundary_source.kmz",
+    "artifact_sha256":  "119DABC06D9327F16AC8BBD86634CA090133723A47A73E584E11D0BC7A2DF1E7",
+    "converted_geojson_sha256":  "62B93BC3D6CD67C6FF1296854D2AD4B6A8FB31F87D9624FBA21272A1A7A675BB",
+    "download_timestamp":  "2026-05-18T03:48:37.9575234Z",
+    "download_format":  "KMZ",
+    "expected_geometry_type":  "Polygon_or_MultiPolygon",
+    "expected_crs":  "EPSG:4326",
+    "mutation_allowed":  false,
+    "validation_state":  "RAW_ARTIFACT_ACQUIRED"
+}
