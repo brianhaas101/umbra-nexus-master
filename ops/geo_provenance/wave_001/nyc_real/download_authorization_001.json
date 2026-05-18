@@ -1,0 +1,34 @@
+{
+  "city_id": "city_3d50f2fd",
+  "canonical_name": "New York, NY",
+
+  "authorization_id": "download_authorization_001",
+
+  "authorized_dataset_candidate": "dataset_candidate_002",
+
+  "dataset_title": "Borough Boundaries",
+  "dataset_url": "https://data.cityofnewyork.us/City-Government/Borough-Boundaries/yqww-f9f3",
+
+  "approved_download_formats": [
+    "GeoJSON"
+  ],
+
+  "expected_geometry_type": "MULTIPOLYGON",
+
+  "expected_crs": "EPSG:4326",
+
+  "water_areas_included": false,
+
+  "mutation_allowed": false,
+
+  "registry_mutation_authorized": false,
+  "boundary_validation_authorized": false,
+
+  "download_execution_state": "AUTHORIZED_NOT_EXECUTED",
+
+  "notes": [
+    "Authorized only for raw artifact acquisition",
+    "No canonical registry mutation permitted",
+    "No geometry promotion permitted prior to replay validation"
+  ]
+}
