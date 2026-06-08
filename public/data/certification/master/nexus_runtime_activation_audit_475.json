@@ -1,0 +1,3046 @@
+﻿{
+    "generatedAt":  "2026-06-08T15:57:19",
+    "batch":  475,
+    "name":  "NEXUS_RUNTIME_ACTIVATION_AUDIT_475",
+    "summary":  {
+                    "active":  207,
+                    "dormant":  0,
+                    "loaded_not_referenced":  0,
+                    "exists_not_loaded":  130
+                },
+    "systems":  [
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_citymap_renderer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_cluster_renderer.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_cluster_renderer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_layer_controls.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  false
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_map_nodes_runtime.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_map_nodes_runtime.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_path_renderer.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_path_renderer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\book_selection_bus.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\client_dashboard_renderer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\dossier_sync_runtime.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\outreach_queue_actions.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\outreach_queue_ui.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\response_logging_ui.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\response_persistence_store.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\clients\\black_dragon\\books\\response_workflow_runtime.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\debug\\city_map_validation.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\debug\\law_enforcement_citymap_debug.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\dossier_templates\\law_enforcement_dossier.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  false,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\integrations\\law_enforcement_adapter.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\integrations\\law_enforcement_citymap_integration.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\integrations\\law_enforcement_dossier_renderer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\integrations\\law_enforcement_loader_example.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\adapters\\private_primary.adapter.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.client_preset.bridge.before_target_schema_fix_20260521_193807.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.client_preset.bridge.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.data_loader.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.dossier.adapter.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.dossier_layer.enhancer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.enrichment.adapter.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.intake.config.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.integrity.check.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.layer_bridge.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.lead_normalizer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.pipeline.adapter.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.processor.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.scoring.adapter.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon.signal_definitions.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon_books.client_preset.bridge.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon_books.intake.config.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon_books.integrity.check.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon_books.pipeline.adapter.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon_books.scoring.adapter.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\clients\\black_dragon_books.signal_definitions.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\business_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\competitive_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\demographic_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\economic_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\government_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\lead_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\real_estate_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\risk_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\core_runtime\\supply_chain_intelligence.runtime.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\layers\\black_dragon.processor.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\layers\\intelligence_layers.registry.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\layers\\layer_integrity.check.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\layers\\layer_score.engine.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\layers\\layer_weights.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\layers\\source_catalog.completion.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\layers\\source_catalog.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\sources\\black_dragon_source_registry.loader.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\sources\\black_dragon_state_agency_directory_registry.loader.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\sources\\test_client_beta_source_registry.loader.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\sources\\test_client_beta_state_agency_directory_registry.loader.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\pipeline.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intel\\registry.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\adaptive_postfx_performance_mode.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\emergency_globe_performance_mode.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\globe_interaction_drawcall_optimizer.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\movement_performance_mode.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\postfx_resize_throttle.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\render_stability_probe.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\webgl_context_lifecycle_guard.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\webgl_recovery_runtime.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\world_city_pick_proxy_restore.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\performance\\world_city_points_optimizer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\black_dragon_books_boot_loader.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\city_click_tilemap_bridge.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\city_map_back_control.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\city_map_node_registry_repair.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\core_boot_state_repair.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\dossier_mount_restore.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\dossier_open_bridge.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\intel_loader_bridge.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\intel_runtime_alias_bridge.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_intelligence_bridge_foundation_466.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_intelligence_data_flow_467.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_intelligence_runtime_audit_468.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_intelligence_runtime_certification_470.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_intelligence_runtime_layer_467.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_intelligence_source_connector_469.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_operational_execution_certification_472.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_runtime_attachment_engine_463.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_runtime_certification_465.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_runtime_control_layer_464.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_runtime_orchestration_foundation_461.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_runtime_registry_workspace_462.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\runtime_health_bridge.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\world_pick_cache_repair.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\security\\access_control_runtime.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\security\\dataset_access_guard.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\security\\export_security_guard.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\security\\frontend_runtime_guard.before_v2_nested_founder_role_20260602_172706.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\security\\frontend_runtime_guard.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\security\\session_recovery_guard.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\security\\ui_panel_security_hook.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\atmo_halo.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\city_loader.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\city_map.before_blackdragon_identity_fix_20260514_163448.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\city_map.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\city_map.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\city_tiles.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\city_view.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\client_config.v1.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\command_deck_runtime.before_expansion_537_20260601_212348.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\command_deck_runtime.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\command_deck_runtime.PRE_HUB_RESTORE_20260525_090424.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\core.before_blackdragon_boot_fix_20260521_192507.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\core.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\core.CINEMATIC_NO_POSTFX_20260525_095238.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\core.FULL_HUB_RESTORED_20260525_100154.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\core.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\core.PRE_HUB_RESTORE_20260525_090424.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\core.RUNTIME_RESTORED_20260525.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\core.STABLE_RUNTIME_20260525_084355.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\data_loader.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\dossiers.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\enterprise_command_surface.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\founder_dashboard_runtime.before_health_binding_547_20260601_220103.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\founder_dashboard_runtime.before_index_binding_540_20260601_213232.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\founder_dashboard_runtime.before_metrics_binding_543_20260601_215051.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\founder_dashboard_runtime.before_module_binding_538_20260601_212801.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\founder_dashboard_runtime.before_ops_telemetry_binding_549_20260601_220509.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\founder_dashboard_runtime.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\integrity.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intelligence_panel_live_state.before_blackdragon_region_fix_20260514_163746.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intelligence_panel_live_state.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\intelligence_panel_live_state.PRE_HUB_RESTORE_20260525_090424.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\interaction.before_city_zoom_fix_20260514_162338.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\interaction.before_selection_persist_fix_20260514_164831.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\interaction.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.before_baseTex_fallback_fix.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.before_blackdragon_boot_fix_20260521_192507.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.before_canvas_texture_fallback.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.before_handoff_blue_globe_force.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.before_timeout_texture_fix.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.broken_duplicate_backup.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.CINEMATIC_NO_POSTFX_20260525_095238.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.force_canvas_handoff_backup.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.FULL_HUB_RESTORED_20260525_100154.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.PRE_HUB_RESTORE_20260525_090424.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.RUNTIME_RESTORED_20260525.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.STABLE_RUNTIME_20260525_084355.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\layers.TEXTURE_RESTORED_20260525_085532.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\nodes.founder.v1.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase3_wave002_bulk_dossier_validation_297.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase3_wave002_bulk_processing_295.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase3_wave002_bulk_promotion_298.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase3_wave002_bulk_source_attachment_296.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase3_wave002_runtime_293C.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase3_wave002_runtime_293D.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase3_wave002_validation_294.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_actions_layer_304.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_bulk_builder_315.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_certification_316.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_export_layer_305.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_foundation_300.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_metrics_dashboard_313.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_metrics_ui_card_314.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_notes_layer_303.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_persistence_310.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_registry_integrity_311.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_registry_table_317.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_relationship_graph_318.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_search_filter_312.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_section_detail_renderer_307.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_selection_bridge_308.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_source_layer_301.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_timeline_layer_302.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_dossier_ui_panel_306.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_entity_click_dossier_bridge_309.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_activity_feed_328.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_approval_registry_326.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_certification_330.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_dashboard_329.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_decision_timeline_327.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_dossier_workflows_321.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_workflow_actions_323.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_workflow_metrics_325.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_workflow_queue_ui_322.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_executive_workflow_state_ui_324.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_final_audit_332.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_final_lock_333.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_final_lock_foundation_331.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_midpoint_certification_320.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase4_relationship_graph_ui_319.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_activity_review_feed_343.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_audit_hardening_354.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_audit_hardening_354C.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_bottom_dock_navigation_338.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_command_surface_certification_340.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_command_surface_foundation_334.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_command_surface_foundation_334B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_dossier_workspace_346.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_executive_workspace_347.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_final_certification_355.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_final_certification_355B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_header_navigation_335.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_left_command_rail_336.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_polish_pass3_352.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_quick_actions_344.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_relationship_workspace_345.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_render_alignment_pass1_341.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_render_matching_pass2_350.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_responsive_fit_351.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_right_intelligence_rail_337.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_visual_certification_349.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_visual_runtime_audit_353.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_visual_runtime_audit_353B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_workspace_command_cards_342.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_workspace_router_upgrade_348.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_workspace_view_manager_339.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_cross_workspace_context_359.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  true,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_final_audit_decision_lock_372D.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_final_audit_full_rebuild_372C.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_final_audit_persistence_repair_372B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_final_certification_373.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_final_presentation_audit_372.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_intelligence_card_workspace_357.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_intelligence_detail_drawer_358.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_intelligence_presentation_foundation_356.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_intelligence_presentation_foundation_356B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_intelligence_priority_queue_363.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_intelligence_summary_system_361.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_metrics_certification_371.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_metrics_decision_persistence_371B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_operator_decision_feed_368.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_operator_decision_feed_certification_369.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_presentation_checkpoint_360.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_presentation_metrics_370.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_priority_queue_action_states_365.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_priority_queue_control_certification_367.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_priority_queue_state_persistence_365B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_priority_queue_workspace_364.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_priority_queue_workspace_controls_366.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_priority_queue_workspace_controls_366B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_summary_enhanced_drawer_362.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_summary_enhanced_drawer_362B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_alert_control_certification_388.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_alert_foundation_384.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_alert_state_engine_386.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_alert_workspace_385.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_alert_workspace_controls_387.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_final_certification_398.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_final_certification_398B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_final_operations_audit_397.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_intelligence_operations_foundation_374.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_mission_control_certification_378.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_mission_state_engine_376.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_mission_workspace_375.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_mission_workspace_controls_377.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_operations_dashboard_certification_396.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_operations_dashboard_foundation_394.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_operations_dashboard_workspace_395.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_tasking_foundation_389.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_task_control_certification_393.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_task_state_engine_391.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_task_workspace_390.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_task_workspace_controls_392.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_watchlist_control_certification_383.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_watchlist_foundation_379.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_watchlist_state_engine_381.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_watchlist_workspace_380.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase7_watchlist_workspace_controls_382.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_action_orchestration_certification_418.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_action_orchestration_certification_418B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_action_orchestration_controls_417.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_action_orchestration_foundation_414.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_action_orchestration_state_engine_416.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_action_orchestration_workspace_415.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_event_evaluator_400.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_execution_certification_408.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_execution_engine_406.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_execution_log_workspace_407.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_execution_queue_401.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_queue_certification_405.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_queue_controls_404.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_queue_state_engine_403.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_automation_queue_workspace_402.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_actions_foundation_409.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_action_certification_413.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_action_controls_412.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_action_state_engine_411.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_action_workspace_410.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_directive_certification_428.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_directive_certification_428B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_directive_controls_427.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_directive_foundation_424.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_directive_state_engine_426.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_directive_workspace_425.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_operations_foundation_399.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_workflow_certification_423.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_workflow_certification_423B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_workflow_controls_422.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_workflow_foundation_419.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_workflow_state_engine_421.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_autonomous_workflow_workspace_420.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_final_certification_430.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_final_certification_430B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_master_autonomy_audit_429.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase8_master_autonomy_audit_429B.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_continuity_controls_439.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_continuity_state_engine_438.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_continuity_systems_foundation_436.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_continuity_workspace_437.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_foundation_431.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_governance_certification_435.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_governance_controls_434.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_governance_state_engine_433.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\phase9_governance_workspace_432.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\postfx.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\scoring.v1.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\shader_veins.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\sun_sheen.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\telemetry.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\textures.before_timeout_90s.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\textures.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\ui.before_blackdragon_active_user_fix_20260514_165051.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\ui.before_founder_identity_restore_530_20260601_204537.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\ui.before_store_block_normalize_20260514_165138.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\ui.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\ui.PRE_HUB_RESTORE_20260525_090424.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\umbra_data.v1.js",
+                        "status":  "ACTIVE",
+                        "loaded":  true,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  false,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\umbra_logo.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\visual_size_stabilizer.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    },
+                    {
+                        "file":  "public\\globe\\webgl_fallback_surface.js",
+                        "status":  "EXISTS_NOT_LOADED",
+                        "loaded":  false,
+                        "hasWindow":  true,
+                        "eventProducer":  false,
+                        "eventConsumer":  true,
+                        "runtimeReference":  true
+                    }
+                ]
+}
