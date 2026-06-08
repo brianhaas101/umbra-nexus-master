@@ -1,0 +1,132 @@
+﻿{
+    "generatedAt":  "2026-06-08T16:10:16",
+    "batch":  477,
+    "name":  "NEXUS_COMMAND_CENTER_ACTIVATION_MATRIX_477",
+    "summary":  {
+                    "ready":  1,
+                    "partial":  5,
+                    "disconnected":  4
+                },
+    "systems":  [
+                    {
+                        "file":  "public\\globe\\runtime\\city_click_tilemap_bridge.js",
+                        "domain":  "RUNTIME",
+                        "loaded":  false,
+                        "runtimeConnected":  false,
+                        "intelligenceConnected":  false,
+                        "commandConnected":  false,
+                        "dossierConnected":  false,
+                        "uiReachable":  false,
+                        "score":  0,
+                        "status":  "DISCONNECTED"
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\dossier_open_bridge.js",
+                        "domain":  "DOSSIER",
+                        "loaded":  false,
+                        "runtimeConnected":  true,
+                        "intelligenceConnected":  false,
+                        "commandConnected":  false,
+                        "dossierConnected":  true,
+                        "uiReachable":  true,
+                        "score":  3,
+                        "status":  "PARTIAL"
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\intel_loader_bridge.js",
+                        "domain":  "INTELLIGENCE",
+                        "loaded":  false,
+                        "runtimeConnected":  false,
+                        "intelligenceConnected":  true,
+                        "commandConnected":  false,
+                        "dossierConnected":  false,
+                        "uiReachable":  false,
+                        "score":  1,
+                        "status":  "DISCONNECTED"
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\intel_runtime_alias_bridge.js",
+                        "domain":  "INTELLIGENCE",
+                        "loaded":  false,
+                        "runtimeConnected":  true,
+                        "intelligenceConnected":  true,
+                        "commandConnected":  false,
+                        "dossierConnected":  false,
+                        "uiReachable":  false,
+                        "score":  2,
+                        "status":  "DISCONNECTED"
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\phase10_intelligence_data_flow_467.js",
+                        "domain":  "INTELLIGENCE",
+                        "loaded":  false,
+                        "runtimeConnected":  true,
+                        "intelligenceConnected":  true,
+                        "commandConnected":  false,
+                        "dossierConnected":  false,
+                        "uiReachable":  false,
+                        "score":  2,
+                        "status":  "DISCONNECTED"
+                    },
+                    {
+                        "file":  "public\\globe\\runtime\\runtime_health_bridge.js",
+                        "domain":  "RUNTIME",
+                        "loaded":  false,
+                        "runtimeConnected":  true,
+                        "intelligenceConnected":  true,
+                        "commandConnected":  false,
+                        "dossierConnected":  false,
+                        "uiReachable":  true,
+                        "score":  3,
+                        "status":  "PARTIAL"
+                    },
+                    {
+                        "file":  "public\\globe\\enterprise_command_surface.js",
+                        "domain":  "COMMAND",
+                        "loaded":  false,
+                        "runtimeConnected":  false,
+                        "intelligenceConnected":  true,
+                        "commandConnected":  true,
+                        "dossierConnected":  false,
+                        "uiReachable":  true,
+                        "score":  3,
+                        "status":  "PARTIAL"
+                    },
+                    {
+                        "file":  "public\\globe\\phase5_command_surface_foundation_334.js",
+                        "domain":  "COMMAND",
+                        "loaded":  false,
+                        "runtimeConnected":  true,
+                        "intelligenceConnected":  true,
+                        "commandConnected":  true,
+                        "dossierConnected":  true,
+                        "uiReachable":  true,
+                        "score":  5,
+                        "status":  "READY"
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_intelligence_presentation_foundation_356.js",
+                        "domain":  "INTELLIGENCE",
+                        "loaded":  false,
+                        "runtimeConnected":  true,
+                        "intelligenceConnected":  true,
+                        "commandConnected":  false,
+                        "dossierConnected":  true,
+                        "uiReachable":  true,
+                        "score":  4,
+                        "status":  "PARTIAL"
+                    },
+                    {
+                        "file":  "public\\globe\\phase6_priority_queue_workspace_controls_366.js",
+                        "domain":  "OPERATIONS",
+                        "loaded":  false,
+                        "runtimeConnected":  true,
+                        "intelligenceConnected":  true,
+                        "commandConnected":  true,
+                        "dossierConnected":  false,
+                        "uiReachable":  true,
+                        "score":  4,
+                        "status":  "PARTIAL"
+                    }
+                ]
+}
