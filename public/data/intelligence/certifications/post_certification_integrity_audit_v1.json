@@ -1,0 +1,145 @@
+﻿{
+    "system":  "Umbra Nexus Post-Certification Integrity Audit",
+    "version":  "POST_CERTIFICATION_INTEGRITY_AUDIT_V1",
+    "batch":  580,
+    "created_at":  "2026-06-02T00:17:12.6263650-07:00",
+    "certified_baseline_verified":  false,
+    "checks":  {
+                   "final_certification_exists":  true,
+                   "master_certification_exists":  true,
+                   "production_certification_exists":  true,
+                   "client_automation_certification_exists":  true,
+                   "final_certification_lock_exists":  true,
+                   "final_certification_audit_exists":  true,
+                   "final_certification_status_exists":  true,
+                   "no_production_true_flags":  true,
+                   "no_promotion_true_flags":  true,
+                   "no_failed_certification_artifacts":  false
+               },
+    "validated_checks":  9,
+    "target_checks":  10,
+    "production_true_evidence_count":  0,
+    "promotion_true_evidence_count":  0,
+    "failed_certification_artifact_count":  351,
+    "production_true_examples":  [
+
+                                 ],
+    "promotion_true_examples":  [
+
+                                ],
+    "failure_artifact_examples":  [
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\canonical_scoring_batch_006_20260526_190308.json",
+                                          "LineNumber":  9,
+                                          "Line":  "    \"pass\":  false,"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\city_saturation_wave_005_manifest_batch_098_20260527_060756.json",
+                                          "LineNumber":  8,
+                                          "Line":  "    \"pass\":  false,"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\city_saturation_wave_005_manifest_batch_098_REPAIR_20260527_061034.json",
+                                          "LineNumber":  14,
+                                          "Line":  "    \"pass\":  false,"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\city_saturation_wave_005_manifest_batch_098_REPAIR_20260527_061221.json",
+                                          "LineNumber":  14,
+                                          "Line":  "    \"pass\":  false,"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_convergence_checksum_validation_batch_435_20260601_060802.json",
+                                          "LineNumber":  4,
+                                          "Line":  "    \"pass\":  false,"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_convergence_deterministic_input_validation_batch_434_20260601_060440.json",
+                                          "LineNumber":  4,
+                                          "Line":  "    \"pass\":  false,"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  30,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  48,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  66,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  84,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  102,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  120,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  138,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  156,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  174,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  192,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  210,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  228,
+                                          "Line":  "                              \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation.v1.json",
+                                          "LineNumber":  246,
+                                          "Line":  "    \"pass\":  false"
+                                      },
+                                      {
+                                          "Path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\audits\\core_layer_authority_validation_batch_563_20260601_224304.json",
+                                          "LineNumber":  30,
+                                          "Line":  "                              \"pass\":  false"
+                                      }
+                                  ],
+    "deterministic":  true,
+    "replay_safe":  true,
+    "runtime_mutation_prohibited":  true,
+    "production_runtime_enabled":  false,
+    "runtime_promotion_enabled":  false,
+    "black_dragon_isolated":  true,
+    "certification_state":  "POST_CERTIFICATION_INTEGRITY_REPAIR_REQUIRED",
+    "next_required_action":  "REPAIR_POST_CERTIFICATION_INTEGRITY",
+    "failures":  [
+                     "no_failed_certification_artifacts"
+                 ],
+    "failure_count":  1,
+    "pass":  false
+}

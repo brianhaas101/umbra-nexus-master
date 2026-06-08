@@ -1,210 +1,557 @@
- </main>
-  </div>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    window.UMBRA_TEX_LON_OFFSET_DEG = 90;
+    console.log("[EARLY LOCK] TEX OFFSET =", window.UMBRA_TEX_LON_OFFSET_DEG);
+  </script>
 
-  <!-- ========================================= -->
-  <!-- FOUNDER MODE ISOLATED RUNTIME ROOT -->
-  <!-- ========================================= -->
+  <meta charset="UTF-8" />
+  <title>UMBRA NEXUS — EXECUTIVE COMMAND</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <div id="founderRoot"></div>
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 
-  <script type="module">
-    const founderRoot = document.getElementById("founderRoot");
+  <script>
+    window.__UMBRA_BUILD__ = "FOUNDERV1_UI_ARCH_LOCK_DATA_V1";
+    console.log("[BUILD]", window.__UMBRA_BUILD__);
+  </script>
 
-    if (!founderRoot) {
-      console.warn("[FounderUI] founderRoot missing");
-    } else {
-      founderRoot.innerHTML = `
-        <div
-          style="
-            position:fixed;
-            inset:0;
-            pointer-events:none;
-            z-index:9999;
-          "
-        >
-          <!-- TOP BAR -->
-          <div
-            style="
-              position:absolute;
-              top:18px;
-              left:18px;
-              right:18px;
-              height:58px;
-              display:flex;
-              align-items:center;
-              justify-content:space-between;
-              padding:0 18px;
-              background:#081018ee;
-              border:1px solid #1e293b;
-              border-radius:14px;
-              color:#d7e0ea;
-              font-family:Inter,sans-serif;
-              backdrop-filter:blur(12px);
-              pointer-events:auto;
-            "
-          >
-            <div
-              style="
-                font-size:18px;
-                font-weight:700;
-                color:#f59e0b;
-                letter-spacing:0.08em;
-              "
-            >
-              UMBRA NEXUS — FOUNDER MODE
-            </div>
+  <link rel="stylesheet" href="/style.css?v=FOUNDERV1_UI_ARCH_LOCK_DATA_V1" />
+  <link rel="stylesheet" href="/globe/enterprise_pointer_passthrough_batch_545.css?v=20260603_162859">
+  <link rel="stylesheet" href="/globe/runtime/dossier_mount_restore.css?v=20260603_572R">
+  <link rel="stylesheet" href="/globe/runtime/dossier_open_bridge.css?v=20260603_573R">
+</head>
 
-            <div
-              style="
-                display:flex;
-                gap:18px;
-                font-size:13px;
-                color:#8aa0b8;
-              "
-            >
-              <div>WAVE: WAVE-001</div>
-              <div>MODE: <span id="founderModeLabel">GLOBAL</span></div>
-              <div>REPLAY: PASS</div>
-              <div>BLACK DRAGON: ISOLATED</div>
-            </div>
-          </div>
+<body>
+  <div class="app-shell" id="appShell">
+    <header class="top-bar">
+      <div class="top-brand">UMBRA NEXUS</div>
 
-          <!-- LEFT OPS RAIL -->
-          <div
-            style="
-              position:absolute;
-              top:92px;
-              left:18px;
-              bottom:64px;
-              width:240px;
-              padding:16px;
-              background:#081018ee;
-              border:1px solid #1e293b;
-              border-radius:14px;
-              display:flex;
-              flex-direction:column;
-              gap:12px;
-              font-family:Inter,sans-serif;
-              backdrop-filter:blur(12px);
-              pointer-events:auto;
-            "
-          >
-            <div style="color:#f59e0b;font-weight:700;">
-              OPERATIONS
-            </div>
+      <div class="top-center">
+        <div class="nav-logo-wrap" aria-hidden="true"></div>
 
-            <button onclick="window.setFounderMode?.('GLOBAL')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
-              GLOBAL
-            </button>
+        <nav id="mainNav" class="top-nav" aria-label="Primary">
+          <ul>
+            <li><button type="button" class="nav-link active" data-view="hub">EXECUTIVE COMMAND</button></li>
+            <li><button type="button" class="nav-link" data-view="profile">PROFILE</button></li>
+            <li><button type="button" class="nav-link" data-view="account">ACCOUNT</button></li>
+          </ul>
+        </nav>
+      </div>
 
-            <button onclick="window.setFounderMode?.('CITY')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
-              CITY OPS
-            </button>
+      <div class="top-spacer"></div>
+    </header>
 
-            <button onclick="window.setFounderMode?.('REVIEW')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
-              REVIEW QUEUE
-            </button>
+    <main class="main-layout hub-layout" id="uiRoot">
+      <section class="panel panel-left" id="leftNav">
+        <div class="panel-section">
+          <div class="panel-header">COMMAND DECK</div>
+          <button class="btn-ghost" data-view="hub">ACCESS</button>
+          <button class="btn-ghost" data-view="profile">PROFILE</button>
+          <button class="btn-ghost" data-view="account">ACCOUNT</button>
+        </div>
 
-            <button onclick="window.setFounderMode?.('CONFLICTS')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
-              CONFLICTS
-            </button>
-
-            <button onclick="window.setFounderMode?.('AUDIT')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
-              AUDIT REPLAY
-            </button>
-
-            <button onclick="window.setFounderMode?.('LAYERS')" style="padding:10px;border:1px solid #1e293b;border-radius:10px;color:#d7e0ea;background:#0f1722;text-align:left;cursor:pointer;">
-              INTELLIGENCE LAYERS
-            </button>
-          </div>
-
-          <!-- CENTER WORKSPACE -->
-          <div
-            id="founderCenterWorkspace"
-            style="
-              position:absolute;
-              top:92px;
-              left:282px;
-              right:362px;
-              bottom:64px;
-              border:1px solid #1e293b;
-              border-radius:14px;
-              background:#05070bcc;
-              backdrop-filter:blur(8px);
-              pointer-events:none;
-            "
-          ></div>
-
-          <!-- RIGHT CONTEXT PANEL -->
-          <div
-            style="
-              position:absolute;
-              top:92px;
-              right:18px;
-              bottom:64px;
-              width:320px;
-              padding:18px;
-              background:#081018ee;
-              border:1px solid #1e293b;
-              border-radius:14px;
-              color:#d7e0ea;
-              font-family:Inter,sans-serif;
-              backdrop-filter:blur(12px);
-              pointer-events:auto;
-            "
-          >
-            <div style="color:#f59e0b;font-size:16px;font-weight:700;margin-bottom:18px;">
-              ENTITY CONTEXT
-            </div>
-
-            <div style="margin-bottom:10px;color:#8aa0b8;">
-              No entity selected
-            </div>
-
-            <div id="founderContextBody" style="border-top:1px solid #1e293b;padding-top:14px;"></div>
-          </div>
-
-          <!-- BOTTOM TELEMETRY -->
-          <div
-            style="
-              position:absolute;
-              left:18px;
-              right:18px;
-              bottom:18px;
-              height:36px;
-              display:flex;
-              align-items:center;
-              justify-content:space-between;
-              padding:0 18px;
-              background:#081018ee;
-              border:1px solid #1e293b;
-              border-radius:12px;
-              color:#8aa0b8;
-              font-size:12px;
-              font-family:Inter,sans-serif;
-              backdrop-filter:blur(12px);
-              pointer-events:auto;
-            "
-          >
-            <div>INGEST: IDLE</div>
-            <div>GEOCODE FAILURES: 0</div>
-            <div>CONFLICTS: 0</div>
-            <div>EXPORT LOCK: ENABLED</div>
-            <div>FOUNDER MODE: ACTIVE</div>
+        <div class="panel-section">
+          <div class="panel-section-label">HUBS</div>
+          <div class="hub-list" id="hubNav">
+            <button class="hub-item active" data-hub-section="leads">Leads Engine</button>
+            <button class="hub-item" data-hub-section="clients">Clients</button>
+            <button class="hub-item" data-hub-section="operations">Operations</button>
+            <button class="hub-item" data-hub-section="safeguards">Safeguards</button>
           </div>
         </div>
-      `;
 
-      console.log("[FounderUI] Founder overlay initialized");
-    }
-  </script>
+        <div class="panel-section">
+          <div class="panel-section-label">SYSTEM STATUS</div>
+          <div class="status-value" id="systemStatusValue">SECURE</div>
+        </div>
 
-  <script type="module" src="/src/founder-ui/founder_runtime_state.js"></script>
-  <script type="module" src="/src/founder-ui/city_ops_renderer.js"></script>
-  <script type="module" src="/src/founder-ui/founder_context_renderer.js"></script>
-  <script type="module" src="/src/founder-ui/founder_workspace_renderer.js"></script>
+        <div class="panel-section panel-section-hub-detail">
+          <div class="panel-section-label">ACTIVE MODULE</div>
+          <div class="hub-module-card">
+            <div class="hub-module-title" id="hubModuleTitle">Leads Engine</div>
+            <div class="hub-module-copy" id="hubModuleCopy">
+              City-first target acquisition...
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <script type="module">
-    window.renderFounderWorkspace?.("GLOBAL");
-    window.renderFounderContext?.("GLOBAL");
-  </script>
+              <div class="panel-section">
+          <div class="panel-section-label">FOUNDER OPS</div>
+          <div class="hub-list" id="founderOpsNav">
+            <button class="hub-item" data-hub-section="runtime">Runtime</button>
+            <button class="hub-item" data-hub-section="validation">Validation</button>
+            <button class="hub-item" data-hub-section="replay">Replay</button>
+            <button class="hub-item" data-hub-section="saturation">Saturation</button>
+            <button class="hub-item" data-hub-section="shards">Shards</button>
+          </div>
+        </div>
+
+        <div class="panel-section">
+          <div class="panel-section-label">CONTROL</div>
+          <div class="hub-list" id="founderControlNav">
+            <button class="hub-item" data-hub-section="intelligence">Intelligence</button>
+            <button class="hub-item" data-hub-section="audits">Audits</button>
+            <button class="hub-item" data-hub-section="locks">Locks</button>
+            <button class="hub-item" data-hub-section="status">Status</button>
+            <button class="hub-item" data-hub-section="certifications">Certifications</button>
+          </div>
+        </div>
+      <section class="panel panel-center" id="centerStage">
+        <div class="panel-header panel-header-center" id="centerPanelTitle">EXECUTIVE COMMAND</div>
+
+        <div class="ui-view-stack">
+
+          <!-- HUB -->
+          <section class="ui-view context-view is-active" id="viewHub" data-view-panel="hub" data-context-view="hub">
+            <div class="globe-shell">
+              <div id="globeContainer" class="globe-container"></div>
+            </div>
+          </section>
+
+          <!-- PROFILE -->
+          <section class="ui-view context-view" id="viewProfile" data-view-panel="profile" data-context-view="profile" hidden>
+            <div class="content-view-card">
+              <div class="content-view-head">
+                <div class="content-view-title">Founder Profile</div>
+              </div>
+
+              <div class="content-grid">
+                <input id="profileName" class="content-input" placeholder="Name" />
+                <input id="profileEmail" class="content-input" placeholder="Email" />
+                <input id="profileCompany" class="content-input" placeholder="Company" />
+                <input id="profileRole" class="content-input" placeholder="Role (admin/user)" />
+              </div>
+            </div>
+          </section>
+
+          <!-- ACCOUNT -->
+          <section class="ui-view context-view" id="viewAccount" data-view-panel="account" data-context-view="account" hidden>
+            <div class="content-view-card">
+              <div class="content-view-head">
+                <div class="content-view-title">Account Control</div>
+              </div>
+
+              <div class="content-grid">
+                <input id="accountWorkspace" class="content-input" />
+                <input id="accountLicense" class="content-input" />
+                <input id="accountSecurity" class="content-input" />
+                <input id="accountRouting" class="content-input" />
+              </div>
+
+              <!-- ðŸ”¥ ADMIN PANEL (FINAL) -->
+              <div id="adminPanel" class="content-block admin-panel" hidden>
+                <div class="panel-section-label">Admin Control</div>
+
+                <div class="admin-controls">
+                  <label for="userSelect">Users</label>
+                  <select id="userSelect" class="user-select">
+                    <option disabled selected>Loading users...</option>
+                  </select>
+
+                  <button id="userCreate" class="user-create">
+                    + Create User
+                  </button>
+                </div>
+
+                <div class="content-copy">
+                  Admin-only control panel. Manage users and system access.
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+      </section>
+
+      <aside class="panel panel-right" id="rightIntel">
+        <div class="panel-header">INTELLIGENCE PANEL</div>
+      </aside>
+    </main>
+  </div>
+
+      <script src="/vendor/three.min.js"></script>
+        <script src="/vendor/postprocessing/Pass.js"></script>
+        <script src="/vendor/postprocessing/CopyShader.js"></script>
+        <script src="/vendor/postprocessing/LuminosityHighPassShader.js"></script>
+        <script src="/vendor/postprocessing/EffectComposer.js"></script>
+        <script src="/vendor/postprocessing/RenderPass.js"></script>
+        <script src="/vendor/postprocessing/ShaderPass.js"></script>
+        <script src="/vendor/postprocessing/UnrealBloomPass.js"></script>
+<script src="/globe/core.js"></script>
+        <script src="/globe/postfx.js"></script>
+        <script src="/globe/textures.js"></script>
+        <script src="/globe/layers.js"></script>
+        <script src="/globe/shader_veins.js"></script>
+        <script src="/globe/umbra_data.v1.js"></script>
+        <script src="/globe/scoring.v1.js"></script>
+        <script src="/globe/nodes.founder.v1.js"></script>
+        <script src="/globe/dossiers.js"></script>
+        <script src="/globe/city_tiles.js"></script>
+        <script src="/globe/city_loader.js"></script>
+        <script src="/globe/city_map.js"></script>
+        <script src="/globe/interaction.js"></script>
+        <script src="/scene.js"></script>
+    <script src="/globe/ui.js"></script>
+  <script src="/globe/security/frontend_runtime_guard.js"></script>
+  <script src="/globe/security/ui_panel_security_hook.js"></script>
+  <script src="/globe/security/session_recovery_guard.js"></script>
+  <script src="/globe/security/dataset_access_guard.js"></script>
+  <script src="/globe/security/export_security_guard.js"></script>
+  <script src="/globe/performance/adaptive_postfx_performance_mode.js"></script>
+  <script src="/globe/performance/movement_performance_mode.js"></script>
+  <script src="/globe/performance/postfx_resize_throttle.js"></script>
+  <script src="/globe/performance/render_stability_probe.js"></script>
+  <script src="/globe/command_deck_runtime.js"></script>
+    <script src="/globe/intel/registry.js?v=20260603_601R"></script>
+  <script src="/globe/intel/pipeline.js?v=20260603_601R"></script>
+  <script src="/globe/intelligence_panel_live_state.js"></script>
+  <script src="/globe/security/access_control_runtime.js"></script>
+  <script src="/globe/founder_dashboard_runtime.js"></script>
+  <script src="/globe/performance/webgl_context_lifecycle_guard.js"></script>
+  <script src="/globe/performance/webgl_recovery_runtime.js"></script>
+  <script src="/globe/performance/emergency_globe_performance_mode.js?v=20260603_165102"></script>
+  <script src="/globe/performance/globe_interaction_drawcall_optimizer.js?v=20260603_165700"></script>
+  <script src="/globe/runtime/city_map_back_control.js?v=20260603_183438"></script>
+  <script src="/globe/runtime/black_dragon_books_boot_loader.js"></script>
+  <script src="/globe/phase3_wave002_runtime_293C.js?v=293C"></script>
+<script src="/globe/phase3_wave002_runtime_293D.js?v=293D"></script>
+<script src="/globe/phase3_wave002_validation_294.js?v=294"></script>
+<script src="/globe/phase3_wave002_bulk_processing_295.js?v=295"></script>
+<script src="/globe/phase3_wave002_bulk_source_attachment_296.js?v=296"></script>
+<script src="/globe/phase3_wave002_bulk_dossier_validation_297.js?v=297"></script>
+<script src="/globe/phase3_wave002_bulk_promotion_298.js?v=298"></script>
+<script src="/globe/phase4_dossier_foundation_300.js?v=300"></script>
+<script src="/globe/phase4_dossier_source_layer_301.js?v=301"></script>
+<script src="/globe/phase4_dossier_timeline_layer_302.js?v=302"></script>
+<script src="/globe/phase4_dossier_notes_layer_303.js?v=303"></script>
+<script src="/globe/phase4_dossier_actions_layer_304.js?v=304"></script>
+<script src="/globe/phase4_dossier_export_layer_305.js?v=305"></script>
+<script src="/globe/phase4_dossier_ui_panel_306.js?v=306"></script>
+<script src="/globe/phase4_dossier_section_detail_renderer_307.js?v=307"></script>
+<script src="/globe/phase4_dossier_selection_bridge_308.js?v=308"></script>
+<script src="/globe/phase4_entity_click_dossier_bridge_309.js?v=309"></script>
+<script src="/globe/phase4_dossier_persistence_310.js?v=310"></script>
+<script src="/globe/phase4_dossier_registry_integrity_311.js?v=311"></script>
+<script src="/globe/phase4_dossier_search_filter_312.js?v=312"></script>
+<script src="/globe/phase4_dossier_metrics_dashboard_313.js?v=313"></script>
+<script src="/globe/phase4_dossier_metrics_ui_card_314.js?v=314"></script>
+<script src="/globe/phase4_dossier_bulk_builder_315.js?v=315"></script>
+<script src="/globe/phase4_dossier_certification_316.js?v=316"></script>
+<script src="/globe/phase4_dossier_registry_table_317.js?v=317"></script>
+<script src="/globe/phase4_dossier_relationship_graph_318.js?v=318"></script>
+<script src="/globe/phase4_relationship_graph_ui_319.js?v=319"></script>
+<script src="/globe/phase4_midpoint_certification_320.js?v=320"></script>
+<script src="/globe/phase4_executive_dossier_workflows_321.js?v=321"></script>
+<script src="/globe/phase4_executive_workflow_queue_ui_322.js?v=322"></script>
+<script src="/globe/phase4_executive_workflow_actions_323.js?v=323"></script>
+<script src="/globe/phase4_executive_workflow_state_ui_324.js?v=324"></script>
+<script src="/globe/phase4_executive_workflow_metrics_325.js?v=325"></script>
+<script src="/globe/phase4_executive_approval_registry_326.js?v=326"></script>
+<script src="/globe/phase4_executive_decision_timeline_327.js?v=327"></script>
+<script src="/globe/phase4_executive_activity_feed_328.js?v=328"></script>
+<script src="/globe/phase4_executive_dashboard_329.js?v=329"></script>
+<script src="/globe/phase4_executive_certification_330.js?v=330"></script>
+<script src="/globe/phase4_final_lock_foundation_331.js?v=331"></script>
+<script src="/globe/phase4_final_audit_332.js?v=332"></script>
+<script src="/globe/phase4_final_lock_333.js?v=333"></script>
+<script src="/globe/phase5_command_surface_foundation_334B.js?v=334B"></script>
+<script src="/globe/phase5_header_navigation_335.js?v=335"></script>
+<script src="/globe/phase5_left_command_rail_336.js?v=336"></script>
+<script src="/globe/phase5_right_intelligence_rail_337.js?v=337"></script>
+<script src="/globe/phase5_bottom_dock_navigation_338.js?v=338"></script>
+<script src="/globe/phase5_workspace_view_manager_339.js?v=339"></script>
+<script src="/globe/phase5_command_surface_certification_340.js?v=340"></script>
+<script src="/globe/phase5_render_alignment_pass1_341.js?v=341"></script>
+<script src="/globe/phase5_workspace_command_cards_342.js?v=342"></script>
+<script src="/globe/phase5_activity_review_feed_343.js?v=343"></script>
+<script src="/globe/phase5_quick_actions_344.js?v=344"></script>
+<script src="/globe/phase5_relationship_workspace_345.js?v=345"></script>
+<script src="/globe/phase5_dossier_workspace_346.js?v=346"></script>
+<script src="/globe/phase5_executive_workspace_347.js?v=347"></script>
+<script src="/globe/phase5_workspace_router_upgrade_348.js?v=348"></script>
+<script src="/globe/phase5_visual_certification_349.js?v=349"></script>
+<script src="/globe/phase5_render_matching_pass2_350.js?v=350"></script>
+<script src="/globe/phase5_responsive_fit_351.js?v=351"></script>
+<script src="/globe/phase5_polish_pass3_352.js?v=352"></script>
+<script src="/globe/phase5_visual_runtime_audit_353.js?v=353"></script>
+<script src="/globe/phase5_visual_runtime_audit_353B.js?v=353B"></script>
+<script src="/globe/phase5_audit_hardening_354.js?v=354"></script>
+<script src="/globe/phase5_audit_hardening_354C.js?v=354C"></script>
+<script src="/globe/phase5_final_certification_355B.js?v=355B"></script>
+<script src="/globe/phase6_intelligence_presentation_foundation_356B.js?v=356B"></script>
+<script src="/globe/phase6_intelligence_card_workspace_357.js?v=357"></script>
+<script src="/globe/phase6_intelligence_detail_drawer_358.js?v=358"></script>
+<script src="/globe/phase6_cross_workspace_context_359.js?v=359"></script>
+<script src="/globe/phase6_presentation_checkpoint_360.js?v=360"></script>
+<script src="/globe/phase6_intelligence_summary_system_361.js?v=361"></script>
+<script src="/globe/phase6_summary_enhanced_drawer_362.js?v=362"></script>
+<script src="/globe/phase6_summary_enhanced_drawer_362B.js?v=362B"></script>
+<script src="/globe/phase6_intelligence_priority_queue_363.js?v=363"></script>
+<script src="/globe/phase6_priority_queue_workspace_364.js?v=364"></script>
+<script src="/globe/phase6_priority_queue_action_states_365.js?v=365"></script>
+<script src="/globe/phase6_priority_queue_state_persistence_365B.js?v=365B"></script>
+<script src="/globe/phase6_priority_queue_workspace_controls_366B.js?v=366B"></script>
+<script src="/globe/phase6_priority_queue_control_certification_367.js?v=367"></script>
+<script src="/globe/phase6_operator_decision_feed_368.js?v=368"></script>
+<script src="/globe/phase6_operator_decision_feed_certification_369.js?v=369"></script>
+<script src="/globe/phase6_presentation_metrics_370.js?v=370"></script>
+<script src="/globe/phase6_metrics_certification_371.js?v=371"></script>
+<script src="/globe/phase6_metrics_decision_persistence_371B.js?v=371B"></script>
+<script src="/globe/phase6_final_presentation_audit_372.js?v=372"></script>
+<script src="/globe/phase6_final_audit_persistence_repair_372B.js?v=372B"></script>
+<script src="/globe/phase6_final_audit_full_rebuild_372C.js?v=372C"></script>
+<script src="/globe/phase6_final_audit_decision_lock_372D.js?v=372D"></script>
+<script src="/globe/phase6_final_certification_373.js?v=373"></script>
+<script src="/globe/phase7_intelligence_operations_foundation_374.js?v=374"></script>
+<script src="/globe/phase7_mission_workspace_375.js?v=375"></script>
+<script src="/globe/phase7_mission_state_engine_376.js?v=376"></script>
+<script src="/globe/phase7_mission_workspace_controls_377.js?v=377"></script>
+<script src="/globe/phase7_mission_control_certification_378.js?v=378"></script>
+<script src="/globe/phase7_watchlist_foundation_379.js?v=379"></script>
+<script src="/globe/phase7_watchlist_workspace_380.js?v=380"></script>
+<script src="/globe/phase7_watchlist_state_engine_381.js?v=381"></script>
+<script src="/globe/phase7_watchlist_workspace_controls_382.js?v=382"></script>
+<script src="/globe/phase7_watchlist_control_certification_383.js?v=383"></script>
+<script src="/globe/phase7_alert_foundation_384.js?v=384"></script>
+<script src="/globe/phase7_alert_workspace_385.js?v=385"></script>
+<script src="/globe/phase7_alert_state_engine_386.js?v=386"></script>
+<script src="/globe/phase7_alert_workspace_controls_387.js?v=387"></script>
+<script src="/globe/phase7_alert_control_certification_388.js?v=388"></script>
+<script src="/globe/phase7_tasking_foundation_389.js?v=389"></script>
+<script src="/globe/phase7_task_workspace_390.js?v=390"></script>
+<script src="/globe/phase7_task_state_engine_391.js?v=391"></script>
+<script src="/globe/phase7_task_workspace_controls_392.js?v=392"></script>
+<script src="/globe/phase7_task_control_certification_393.js?v=393"></script>
+<script src="/globe/phase7_operations_dashboard_foundation_394.js?v=394"></script>
+<script src="/globe/phase7_operations_dashboard_workspace_395.js?v=395"></script>
+<script src="/globe/phase7_operations_dashboard_certification_396.js?v=396"></script>
+<script src="/globe/phase7_final_operations_audit_397.js?v=397"></script>
+<script src="/globe/phase7_final_certification_398.js?v=398"></script>
+<script src="/globe/phase7_final_certification_398B.js?v=398B"></script>
+<script src="/globe/phase8_autonomous_operations_foundation_399.js?v=399"></script>
+<script src="/globe/phase8_automation_event_evaluator_400.js?v=400"></script>
+<script src="/globe/phase8_automation_execution_queue_401.js?v=401"></script>
+<script src="/globe/phase8_automation_queue_workspace_402.js?v=402"></script>
+<script src="/globe/phase8_automation_queue_state_engine_403.js?v=403"></script>
+<script src="/globe/phase8_automation_queue_controls_404.js?v=404"></script>
+<script src="/globe/phase8_automation_queue_certification_405.js?v=405"></script>
+<script src="/globe/phase8_automation_execution_engine_406.js?v=406"></script>
+<script src="/globe/phase8_automation_execution_log_workspace_407.js?v=407"></script>
+<script src="/globe/phase8_automation_execution_certification_408.js?v=408"></script>
+<script src="/globe/phase8_autonomous_actions_foundation_409.js?v=409"></script>
+<script src="/globe/phase8_autonomous_action_workspace_410.js?v=410"></script>
+<script src="/globe/phase8_autonomous_action_state_engine_411.js?v=411"></script>
+<script src="/globe/phase8_autonomous_action_controls_412.js?v=412"></script>
+<script src="/globe/phase8_autonomous_action_certification_413.js?v=413"></script>
+<script src="/globe/phase8_action_orchestration_foundation_414.js?v=414"></script>
+<script src="/globe/phase8_action_orchestration_workspace_415.js?v=415"></script>
+<script src="/globe/phase8_action_orchestration_state_engine_416.js?v=416"></script>
+<script src="/globe/phase8_action_orchestration_controls_417.js?v=417"></script>
+<script src="/globe/phase8_action_orchestration_certification_418.js?v=418"></script>
+<script src="/globe/phase8_action_orchestration_certification_418B.js?v=418B"></script>
+<script src="/globe/phase8_autonomous_workflow_foundation_419.js?v=419"></script>
+<script src="/globe/phase8_autonomous_workflow_workspace_420.js?v=420"></script>
+<script src="/globe/phase8_autonomous_workflow_state_engine_421.js?v=421"></script>
+<script src="/globe/phase8_autonomous_workflow_controls_422.js?v=422"></script>
+<script src="/globe/phase8_autonomous_workflow_certification_423.js?v=423"></script>
+<script src="/globe/phase8_autonomous_workflow_certification_423B.js?v=423B"></script>
+<script src="/globe/phase8_autonomous_directive_foundation_424.js?v=424"></script>
+<script src="/globe/phase8_autonomous_directive_workspace_425.js?v=425"></script>
+<script src="/globe/phase8_autonomous_directive_state_engine_426.js?v=426"></script>
+<script src="/globe/phase8_autonomous_directive_controls_427.js?v=427"></script>
+<script src="/globe/phase8_autonomous_directive_certification_428.js?v=428"></script>
+<script src="/globe/phase8_autonomous_directive_certification_428B.js?v=428B"></script>
+<script src="/globe/phase8_master_autonomy_audit_429.js?v=429"></script>
+<script src="/globe/phase8_master_autonomy_audit_429B.js?v=429B"></script>
+<script src="/globe/phase8_final_certification_430.js?v=430"></script>
+<script src="/globe/phase8_final_certification_430B.js?v=430B"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-// public/globe/dossiers.js
+﻿// public/globe/dossiers.js
 (function () {
   const G = window.UmbraGlobe;
   if (!G) return console.error("[dossiers] window.UmbraGlobe missing.");
@@ -38,10 +38,10 @@
   }
 
   function fmt(v) {
-    if (v === null || v === undefined) return "—";
+    if (v === null || v === undefined) return "â€”";
     if (typeof v === "number" && Number.isFinite(v)) return String(v);
     const s = String(v).trim();
-    return s ? s : "—";
+    return s ? s : "â€”";
   }
 
   function isObj(x) { return x && typeof x === "object"; }
@@ -50,7 +50,7 @@
   function coordsLine(n) {
     const lat = Number(n?.lat ?? n?.location?.lat);
     const lon = Number(n?.lon ?? n?.location?.lon ?? n?.lng ?? n?.location?.lng);
-    if (!Number.isFinite(lat) || !Number.isFinite(lon)) return "—";
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) return "â€”";
     return `${lat.toFixed(5)}, ${lon.toFixed(5)}`;
   }
 
@@ -59,7 +59,7 @@
     const region = n?.location?.region ?? n?.region ?? n?.location?.state ?? n?.state ?? "";
     const country = n?.location?.country ?? n?.country ?? "";
     const parts = [city, region, country].map((x) => String(x || "").trim()).filter(Boolean);
-    return parts.length ? parts.join(", ") : "—";
+    return parts.length ? parts.join(", ") : "â€”";
   }
 
   function titleCase(s) {
@@ -414,7 +414,7 @@
   }
 
   function pct01(x) {
-    if (!isFiniteNum(x)) return "—";
+    if (!isFiniteNum(x)) return "â€”";
     return `${Math.round(x * 100)}%`;
   }
 
@@ -452,30 +452,30 @@
     ${hr()}
     ${sectionTitle("Black Dragon Target Intelligence")}
     <div class="d-grid">
-      ${row("Agency Class", titleCase(bd.agency_class || "—"))}
-      ${row("Expected Value", bd.expected_value || "—")}
-      ${row("Recommended Contact", bd.recommended_contact || "—")}
-      ${row("Outreach Angle", bd.outreach_angle || "—")}
-      ${row("Confidence", Number.isFinite(Number(bd.confidence)) ? `${Math.round(Number(bd.confidence) * 100)}%` : "—")}
-      ${row("Review Status", titleCase(bd.review_status || "—"))}
+      ${row("Agency Class", titleCase(bd.agency_class || "â€”"))}
+      ${row("Expected Value", bd.expected_value || "â€”")}
+      ${row("Recommended Contact", bd.recommended_contact || "â€”")}
+      ${row("Outreach Angle", bd.outreach_angle || "â€”")}
+      ${row("Confidence", Number.isFinite(Number(bd.confidence)) ? `${Math.round(Number(bd.confidence) * 100)}%` : "â€”")}
+      ${row("Review Status", titleCase(bd.review_status || "â€”"))}
       ${row("Live Outreach", bd.live_outreach_allowed ? "Allowed" : "Review Required")}
     </div>
 
     ${hr()}
     ${sectionTitle("Priority Summary")}
-    <div class="d-v">${esc(bd.priority_summary || "—")}</div>
+    <div class="d-v">${esc(bd.priority_summary || "â€”")}</div>
 
     ${hr()}
     ${sectionTitle("Recommended Next Step")}
-    <div class="d-v">${esc(bd.recommended_next_step || "—")}</div>
+    <div class="d-v">${esc(bd.recommended_next_step || "â€”")}</div>
 
     ${hr()}
     ${sectionTitle("Risk Notes")}
     <div class="d-v">
       ${
         risks.length
-          ? risks.map((x) => `• ${esc(x)}`).join("<br/>")
-          : "—"
+          ? risks.map((x) => `â€¢ ${esc(x)}`).join("<br/>")
+          : "â€”"
       }
     </div>
   `;
@@ -483,7 +483,7 @@
 
   function renderSources(sources) {
     const list = Array.isArray(sources) ? sources : [];
-    if (!list.length) return `<div class="d-v">—</div>`;
+    if (!list.length) return `<div class="d-v">â€”</div>`;
 
     const items = list.slice(0, 14).map((s) => {
       if (!s) return "";
@@ -494,8 +494,8 @@
       const mode = String(s.mode || "").trim();
       const ts = String(s.loadedAt || s.date || "").trim();
 
-      const meta = [ref, mode, ts].filter(Boolean).join(" · ");
-      return `<div class="d-v">${pill(label)} ${esc(meta || "—")}</div>`;
+      const meta = [ref, mode, ts].filter(Boolean).join(" Â· ");
+      return `<div class="d-v">${pill(label)} ${esc(meta || "â€”")}</div>`;
     }).join("");
 
     return `<div class="d-grid">${items}</div>`;
@@ -508,7 +508,7 @@
       ${hr()}
       ${sectionTitle("Integrity")}
       <div class="d-v">
-        ${list.map((x) => `• ${esc(x)}`).join("<br/>")}
+        ${list.map((x) => `â€¢ ${esc(x)}`).join("<br/>")}
       </div>
     `;
   }
@@ -586,7 +586,7 @@
     const count = countEntitiesForCity(cityId);
 
     const title = n?.name || n?.location?.city || n?.city || "City";
-    const sub = `CITY · ${locLine(n)}`;
+    const sub = `CITY Â· ${locLine(n)}`;
 
     const mode = readMode();
     const badges = [mode === "real" ? "REAL DATA" : "DEMO", "CITY"];
@@ -595,8 +595,8 @@
     const ranks = computeCityRanks();
     const r = cityId ? (ranks.get(cityId) || null) : null;
 
-    const macroState = "—";
-    const macroRoC = "—";
+    const macroState = "â€”";
+    const macroRoC = "â€”";
 
     const integrity = bundle.errors.slice();
 
@@ -618,8 +618,8 @@
         ${hr()}
         ${sectionTitle("City Macro Context")}
         <div class="d-grid">
-          ${row("City ID", cityId || "—")}
-          ${row("City Rank", r ? `${r.rank} / ${r.of}` : "—")}
+          ${row("City ID", cityId || "â€”")}
+          ${row("City Rank", r ? `${r.rank} / ${r.of}` : "â€”")}
           ${row("Region", locLine(n))}
           ${row("Coords", coordsLine(n))}
           ${row("Entities", Number(count || 0).toLocaleString())}
@@ -640,8 +640,8 @@
         ${sectionTitle("Compliance & Sources")}
         <div class="d-grid">
           ${row("Source Mode", mode === "real" ? "REAL" : "DEMO")}
-          ${row("_src.loadedFrom", n?._src?.loadedFrom ?? "—")}
-          ${row("_src.loadedAt", n?._src?.loadedAt ?? "—")}
+          ${row("_src.loadedFrom", n?._src?.loadedFrom ?? "â€”")}
+          ${row("_src.loadedAt", n?._src?.loadedAt ?? "â€”")}
         </div>
         ${renderSources(n?.sources || n?.node?.sources)}
       </div>
@@ -672,7 +672,7 @@
       n?.title ||
       (kind === "business" ? "Business" : kind === "person" ? "Person" : "Entity");
 
-    const sub = `ENTITY · ${locLine(n)}`;
+    const sub = `ENTITY Â· ${locLine(n)}`;
 
     const mode = readMode();
     const typeBadge = typeLabel(kind, n);
@@ -718,17 +718,17 @@
         <div class="d-v">
           ${
             decision.why.length
-              ? decision.why.map((x) => `• ${esc(x)}`).join("<br/>")
+              ? decision.why.map((x) => `â€¢ ${esc(x)}`).join("<br/>")
               : (supportingIntel.length
-                  ? supportingIntel.map((x) => `• ${esc(x)}`).join("<br/>")
-                  : "• Insufficient supporting signals identified")
+                  ? supportingIntel.map((x) => `â€¢ ${esc(x)}`).join("<br/>")
+                  : "â€¢ Insufficient supporting signals identified")
           }
         </div>
 
         ${hr()}
         ${sectionTitle("Key Signals")}
         <div class="d-grid">
-          ${row("Score", score100 === null ? "—" : `${Math.round(score100)} / 100`)}
+          ${row("Score", score100 === null ? "â€”" : `${Math.round(score100)} / 100`)}
           ${row("Confidence", pct01(confidence01))}
           ${row("Type", typeBadge)}
           ${row("Location", locLine(n))}
@@ -739,8 +739,8 @@
         <div class="d-v">
           ${
             rationale.length
-              ? rationale.map((x) => `• ${esc(x)}`).join("<br/>")
-              : "—"
+              ? rationale.map((x) => `â€¢ ${esc(x)}`).join("<br/>")
+              : "â€”"
           }
         </div>
 
@@ -751,22 +751,22 @@
         <div class="d-v">
           ${
             attributes.length
-              ? attributes.map((x) => `• ${esc(x)}`).join("<br/>")
-              : "—"
+              ? attributes.map((x) => `â€¢ ${esc(x)}`).join("<br/>")
+              : "â€”"
           }
         </div>
 
         ${hr()}
         ${sectionTitle("Tags")}
-        <div class="d-v">${tagsHtml || "—"}</div>
+        <div class="d-v">${tagsHtml || "â€”"}</div>
 
         ${hr()}
         ${sectionTitle("Supporting Intelligence")}
         <div class="d-v">
           ${
             supportingIntel.length
-              ? supportingIntel.map((x) => `• ${esc(x)}`).join("<br/>")
-              : "—"
+              ? supportingIntel.map((x) => `â€¢ ${esc(x)}`).join("<br/>")
+              : "â€”"
           }
         </div>
 
@@ -783,11 +783,11 @@
         ${hr()}
         ${sectionTitle("Reference")}
         <div class="d-grid">
-          ${row("Entity ID", entId || "—")}
-          ${row("City ID", cityId || "—")}
+          ${row("Entity ID", entId || "â€”")}
+          ${row("City ID", cityId || "â€”")}
           ${row("Source Mode", mode === "real" ? "REAL" : "DEMO")}
-          ${row("_src.loadedFrom", n?._src?.loadedFrom ?? "—")}
-          ${row("_src.loadedAt", n?._src?.loadedAt ?? "—")}
+          ${row("_src.loadedFrom", n?._src?.loadedFrom ?? "â€”")}
+          ${row("_src.loadedAt", n?._src?.loadedAt ?? "â€”")}
           ${row("Inference", "None (view-only; observed data only)")}
         </div>
 
@@ -801,7 +801,7 @@
   function renderLegacyCluster(nodeOrMesh) {
     const n = unwrapNode(nodeOrMesh);
     const title = n?.city || n?.name || "Cluster";
-    const sub = `CLUSTER · ${locLine(n)}`;
+    const sub = `CLUSTER Â· ${locLine(n)}`;
 
     const mode = readMode();
     const badges = [mode === "real" ? "REAL DATA" : "DEMO", "LEGACY"];
@@ -811,7 +811,7 @@
       (typeof n?.nodes === "number" && Number.isFinite(n.nodes)) ? n.nodes :
       leads.length;
 
-    const preview = leads.slice(0, 10).map((l) => `<div class="d-v">• ${esc(l?.name || "Unknown")}</div>`).join("");
+    const preview = leads.slice(0, 10).map((l) => `<div class="d-v">â€¢ ${esc(l?.name || "Unknown")}</div>`).join("");
 
     return `
       <div class="dossier-wrap">
@@ -828,7 +828,7 @@
         <div class="d-grid">
           ${row("Coords", coordsLine(n))}
           ${row("Leads", Number(leadCount || 0).toLocaleString())}
-          ${row("Vectors", n?.vectors || "—")}
+          ${row("Vectors", n?.vectors || "â€”")}
         </div>
 
         ${hr()}
@@ -965,3 +965,193 @@
 
   console.log("[dossiers] ready (v1: DATA-first maps, canonical resolution, no inference).");
 })();
+
+// BATCH 591R: native dossier open-state guard
+(function installNativeDossierOpenState591R() {
+  const G = window.UmbraGlobe = window.UmbraGlobe || {};
+  if (G.__nativeDossierOpenState591RInstalled) return;
+  G.__nativeDossierOpenState591RInstalled = true;
+
+  function ensureDossierOpenState(reason) {
+    const panel = document.getElementById("dossierPanel");
+    const lead = document.getElementById("leadContent");
+
+    if (panel && lead) {
+      document.body.classList.add("dossier-open");
+      G.__nativeDossierOpenState591R = {
+        installed: true,
+        reason: reason || "manual",
+        hasPanel: true,
+        hasLeadContent: true,
+        leadContentLength: lead.innerHTML.length,
+        dossierOpen: document.body.classList.contains("dossier-open")
+      };
+      return true;
+    }
+
+    return false;
+  }
+
+  const names = ["openDossier", "openDossierForNode"];
+  for (const name of names) {
+    const fn = window[name] || G[name];
+    if (typeof fn !== "function" || fn.__nativeOpenStateWrapped591R) continue;
+
+    const wrapped = function nativeDossierOpenStateWrapper591R(...args) {
+      let result;
+      try {
+        result = fn.apply(this, args);
+      } finally {
+        setTimeout(() => ensureDossierOpenState(name), 0);
+      }
+      return result;
+    };
+
+    wrapped.__nativeOpenStateWrapped591R = true;
+
+    if (window[name] === fn) window[name] = wrapped;
+    if (G[name] === fn) G[name] = wrapped;
+  }
+
+  window.ensureDossierOpenState591R = ensureDossierOpenState;
+})();
+
+// BATCH 606R: native dossier mount creation
+(function installNativeDossierMountCreation606R() {
+  const G = window.UmbraGlobe = window.UmbraGlobe || {};
+  if (G.__nativeDossierMountCreation606RInstalled) return;
+  G.__nativeDossierMountCreation606RInstalled = true;
+
+  function ensureNativeDossierMount606R(reason) {
+    let panel = document.getElementById("dossierPanel");
+    let lead = document.getElementById("leadContent");
+
+    if (!panel) {
+      panel = document.createElement("section");
+      panel.id = "dossierPanel";
+      panel.className = "dossier-panel native-dossier-panel";
+      panel.setAttribute("aria-live", "polite");
+      panel.innerHTML = [
+        '<div class="dossier-header">',
+        '  <div class="dossier-title">LIVE ENTITY DOSSIER</div>',
+        '  <button type="button" id="dossierCloseBtn" class="dossier-close" aria-label="Close dossier">×</button>',
+        '</div>',
+        '<div id="leadContent" class="dossier-content">Select an entity node to inspect dossier intelligence.</div>'
+      ].join("");
+      document.body.appendChild(panel);
+    }
+
+    lead = document.getElementById("leadContent");
+
+    const closeBtn = document.getElementById("dossierCloseBtn");
+    if (closeBtn && !closeBtn.__nativeDossierClose606RBound) {
+      closeBtn.__nativeDossierClose606RBound = true;
+      closeBtn.addEventListener("click", () => {
+        document.body.classList.remove("dossier-open");
+      });
+    }
+
+    G.__nativeDossierMountCreation606R = {
+      installed: true,
+      reason: reason || "manual",
+      hasPanel: !!panel,
+      hasLeadContent: !!lead
+    };
+
+    return !!panel && !!lead;
+  }
+
+  G.ensureNativeDossierMount606R = ensureNativeDossierMount606R;
+  window.ensureNativeDossierMount606R = ensureNativeDossierMount606R;
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", () => ensureNativeDossierMount606R("dom_ready"), { once: true });
+  } else {
+    ensureNativeDossierMount606R("immediate");
+  }
+
+  setTimeout(() => ensureNativeDossierMount606R("post_load_600"), 600);
+})();
+
+// BATCH 610R: native dossier intelligence summary integration
+(function installDossierIntelligenceSummary610R() {
+  const G = window.UmbraGlobe = window.UmbraGlobe || {};
+  if (G.__dossierIntelligenceSummary610RInstalled) return;
+  G.__dossierIntelligenceSummary610RInstalled = true;
+
+  function findEntity(entityId) {
+    const entities = window.UMBRA_DATA?.entities || [];
+    return entities.find(e =>
+      e.entity_id === entityId ||
+      e.entityId === entityId ||
+      e.id === entityId
+    ) || null;
+  }
+
+  function scoreEntity(entity) {
+    const scorer = G.intel?.pipeline?.scoreEntity;
+    if (typeof scorer === "function") {
+      try { return scorer(entity); } catch {}
+    }
+    return entity?.intelligence || null;
+  }
+
+  function buildSummary(entity, intelligence) {
+    if (!entity || !intelligence) return "";
+
+    return [
+      '<section class="dossier-intelligence-summary" data-batch="610R">',
+      '  <div class="dossier-section-title">INTELLIGENCE SCORE</div>',
+      '  <div class="intel-score-row">',
+      '    <span class="intel-score-value">' + String(intelligence.score ?? 0) + '</span>',
+      '    <span class="intel-score-tier">' + String(intelligence.tier || "DORMANT") + '</span>',
+      '  </div>',
+      '  <div class="intel-score-breakdown">',
+      '    <span>Activity ' + String(intelligence.activity ?? 0) + '</span>',
+      '    <span>Relationships ' + String(intelligence.relationships ?? 0) + '</span>',
+      '    <span>Signals ' + String(intelligence.signals ?? 0) + '</span>',
+      '    <span>Priority ' + String(intelligence.priority ?? 0) + '</span>',
+      '    <span>Recency ' + String(intelligence.recency ?? 0) + '</span>',
+      '  </div>',
+      '</section>'
+    ].join("");
+  }
+
+  function inject(reason) {
+    const lead = document.getElementById("leadContent");
+    const activeEntityId = G.state?.activeEntityId || null;
+    if (!lead || !activeEntityId) return false;
+
+    const entity = findEntity(activeEntityId);
+    if (!entity) return false;
+
+    const intelligence = scoreEntity(entity);
+    if (!intelligence) return false;
+
+    const existing = lead.querySelector?.(".dossier-intelligence-summary");
+    if (existing) existing.remove();
+
+    lead.insertAdjacentHTML("afterbegin", buildSummary(entity, intelligence));
+
+    G.__dossierIntelligenceSummary610R = {
+      installed: true,
+      reason: reason || "manual",
+      activeEntityId,
+      score: intelligence.score,
+      tier: intelligence.tier,
+      leadContentLength: lead.innerHTML.length
+    };
+
+    console.log("[610R] dossier intelligence summary injected", G.__dossierIntelligenceSummary610R);
+    return true;
+  }
+
+  G.injectDossierIntelligenceSummary610R = inject;
+
+  document.addEventListener("click", () => {
+    setTimeout(() => inject("post_click"), 160);
+  }, true);
+
+  setTimeout(() => inject("post_load_1200"), 1200);
+})();
+

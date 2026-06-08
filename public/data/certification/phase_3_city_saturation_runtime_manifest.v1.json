@@ -1,0 +1,16 @@
+{
+  "id": "PHASE_3_CITY_SATURATION_RUNTIME_MANIFEST_V1",
+  "phase": "PHASE 3",
+  "runtime_visible": true,
+  "exposes": [
+    "window.UmbraCitySaturationStatus",
+    "window.UmbraPhase3CitySaturation",
+    "window.__UMBRA_PHASE_3_CITY_SATURATION_BATCH_274"
+  ],
+  "fetches": [
+    "/data/certification/phase_3_city_saturation_status.v1.json",
+    "/data/operationalization/phase_3_synthetic_replacement_queue.v1.json"
+  ],
+  "ui_badge": "enabled",
+  "generated_at": "2026-06-07T18:39:56.030Z"
+}

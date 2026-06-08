@@ -1,0 +1,47 @@
+﻿{
+    "system":  "Umbra Nexus Client Runtime Release Validation Repair",
+    "version":  "CLIENT_RUNTIME_RELEASE_VALIDATION_REPAIR_V1",
+    "batch":  "583R",
+    "created_at":  "2026-06-02T00:48:01.4115935-07:00",
+    "release_track":  "CLIENT_RUNTIME",
+    "deployment_model":  "PUBLIC_AND_DIST_AS_DEPLOYMENT_AUTHORITIES",
+    "setup_candidates":  [
+                             "C:\\Dev\\Nexus_MASTER\\public\\client_setup_black_dragon.html",
+                             "C:\\Dev\\Nexus_MASTER\\dist\\client_setup_black_dragon.html"
+                         ],
+    "runtime_candidates":  [
+                               "C:\\Dev\\Nexus_MASTER\\public\\client_runtime_black_dragon.html",
+                               "C:\\Dev\\Nexus_MASTER\\dist\\client_runtime_black_dragon.html"
+                           ],
+    "selected_runtime_path":  "C:\\Dev\\Nexus_MASTER\\public\\client_runtime_black_dragon.html",
+    "client_runtime_release_certified":  true,
+    "checks":  {
+                   "client_setup_deployment_present":  true,
+                   "client_runtime_deployment_present":  true,
+                   "client_runtime_has_black_dragon":  true,
+                   "client_runtime_has_html":  true,
+                   "client_runtime_has_body":  true,
+                   "client_runtime_has_script":  true,
+                   "founder_runtime_not_embedded":  true,
+                   "founder_ops_nav_not_embedded":  true,
+                   "founder_control_nav_not_embedded":  true,
+                   "client_automation_certified":  true,
+                   "founder_release_certified":  true,
+                   "final_certification_present":  true,
+                   "unresolved_reconciliation_present":  true
+               },
+    "validated_checks":  13,
+    "target_checks":  13,
+    "deterministic":  true,
+    "replay_safe":  true,
+    "runtime_mutation_prohibited":  true,
+    "black_dragon_isolated":  true,
+    "production_runtime_enabled":  false,
+    "runtime_promotion_enabled":  false,
+    "next_required_action":  "BATCH_584_CLIENT_PROVISIONING_RELEASE_VALIDATION",
+    "failures":  [
+
+                 ],
+    "failure_count":  0,
+    "pass":  true
+}

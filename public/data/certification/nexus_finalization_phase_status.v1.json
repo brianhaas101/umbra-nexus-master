@@ -1,0 +1,73 @@
+{
+  "program": "UMBRA_NEXUS_FINALIZATION",
+  "current_mode": "SOURCE_ATTACHMENT_INTAKE",
+  "updated_at": "2026-06-07T18:53:48.688Z",
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Runtime Foundation Certification",
+      "status": "COMPLETE",
+      "result": "CERTIFIED WITH WARNINGS",
+      "batch_completed": 272
+    },
+    {
+      "phase": 2,
+      "name": "Intelligence Certification",
+      "status": "READY",
+      "next_batch": 273
+    },
+    {
+      "phase": 3,
+      "name": "City Saturation",
+      "status": "IN_PROGRESS",
+      "current_batch": 280,
+      "result": "ACTIVE",
+      "city_count": 50,
+      "entity_count": 250,
+      "synthetic_entities": 240,
+      "production_entities": 10,
+      "production_saturation_percent": 4,
+      "active_replacement_wave": "PHASE_3_REPLACEMENT_WAVE_001",
+      "staged_replacement_entities": 20,
+      "remaining_replacement_queue": 220,
+      "operational_saturation_percent": 12,
+      "verification_pipeline": "ACTIVE",
+      "verification_candidate_count": 20,
+      "promotion_eligible_count": 0,
+      "source_validation_layer": "ACTIVE",
+      "source_validation_queue_count": 20,
+      "source_validated_count": 0,
+      "source_evidence_packet_system": "ACTIVE",
+      "source_evidence_packet_count": 20,
+      "source_attachment_adapter": "ACTIVE",
+      "source_packets_with_slots": 20,
+      "total_source_slots_created": 40
+    },
+    {
+      "phase": 4,
+      "name": "Dossier Completion",
+      "status": "PENDING"
+    },
+    {
+      "phase": 5,
+      "name": "Command Surface Completion",
+      "status": "PENDING"
+    },
+    {
+      "phase": 6,
+      "name": "Visual Operating Surface Completion",
+      "status": "PENDING"
+    },
+    {
+      "phase": 7,
+      "name": "Performance Certification",
+      "status": "PENDING"
+    },
+    {
+      "phase": 8,
+      "name": "Black Dragon Deployment",
+      "status": "PENDING"
+    }
+  ],
+  "current_phase": "PHASE 3 - City Saturation"
+}

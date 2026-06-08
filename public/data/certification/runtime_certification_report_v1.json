@@ -1,0 +1,387 @@
+{
+  "certification": "RUNTIME_CERTIFICATION_REPORT_V1",
+  "generatedAt": "2026-06-07T18:33:02.758Z",
+  "phase": "PHASE 1 - Runtime Foundation Certification",
+  "mode": "certification/completion",
+  "status": "CERTIFIED WITH WARNINGS",
+  "audits": [
+    {
+      "id": 1,
+      "name": "Entity registry audit",
+      "status": "PASS",
+      "evidence": {
+        "total": 250,
+        "uniqueIds": 250,
+        "missingCityAssignments": 0,
+        "syntheticHints": 240
+      }
+    },
+    {
+      "id": 2,
+      "name": "City registry audit",
+      "status": "PASS",
+      "evidence": {
+        "cityCount": 50,
+        "topCities": [
+          [
+            "New York",
+            5
+          ],
+          [
+            "Los Angeles",
+            5
+          ],
+          [
+            "Chicago",
+            5
+          ],
+          [
+            "Houston",
+            5
+          ],
+          [
+            "Phoenix",
+            5
+          ],
+          [
+            "Philadelphia",
+            5
+          ],
+          [
+            "San Antonio",
+            5
+          ],
+          [
+            "San Diego",
+            5
+          ],
+          [
+            "Dallas",
+            5
+          ],
+          [
+            "San Jose",
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dossier registry audit",
+      "status": "PASS",
+      "evidence": {
+        "dossierContractsPath": "public/data/intelligence/ui/dossier_view_contracts.v1.json"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Runtime health audit",
+      "status": "PASS",
+      "evidence": {
+        "requiredRuntimeMarkers": [
+          "nodeRegistry",
+          "cityMapNodeRegistry",
+          "pickMeshes",
+          "maps.nodes",
+          "maps.pickMeshes",
+          "cityEntities.map"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Interaction audit",
+      "status": "PASS",
+      "evidence": {
+        "presentInteractionMarkers": [
+          "addEventListener",
+          "click",
+          "pick"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "World to city audit",
+      "status": "PASS",
+      "evidence": {
+        "cityTransitionMarkers": [
+          "city",
+          "activeCity"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "City to entity audit",
+      "status": "PASS",
+      "evidence": {
+        "entityMarkers": [
+          "activeEntity",
+          "entity",
+          "dossier"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Entity to dossier audit",
+      "status": "PASS",
+      "evidence": {
+        "marker": "dossier"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Founder surface audit",
+      "status": "WARN",
+      "message": "Founder surface not detected in city_map.js static scan",
+      "evidence": {}
+    },
+    {
+      "id": 10,
+      "name": "Client isolation audit",
+      "status": "PASS",
+      "evidence": {
+        "clientFilesFound": [
+          "public/data/security/prepilot/pre_black_dragon_live_client_access.json",
+          "public/data/security/readiness/black_dragon_controlled_client_pilot_ready.json",
+          "public/data/security/stability/post_black_dragon_books_v2_security_stability_pass.json"
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Persistence audit",
+      "status": "PASS",
+      "evidence": {
+        "persistenceFound": [
+          "hydrate"
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Save/load audit",
+      "status": "PASS",
+      "evidence": {
+        "saveLoadFound": [
+          "load",
+          "hydrate"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "name": "State hydration audit",
+      "status": "PASS",
+      "evidence": {
+        "hydrationFound": [
+          "hydrate",
+          "hydration",
+          "__nativeCityMapNodeRegistryHydration604R"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "name": "Registry hydration audit",
+      "status": "PASS",
+      "evidence": {
+        "nodeRegistry": true,
+        "cityMapNodeRegistry": true,
+        "stateRegistry": true
+      }
+    },
+    {
+      "id": 15,
+      "name": "Pick mesh audit",
+      "status": "PASS",
+      "evidence": {
+        "pickMeshesMarker": true
+      }
+    },
+    {
+      "id": 16,
+      "name": "Node registry audit",
+      "status": "PASS",
+      "evidence": {
+        "assignment": "maps.nodeRegistry = maps.nodes"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Runtime warning audit",
+      "status": "WARN",
+      "message": "Static warning markers found",
+      "evidence": {
+        "warningHits": [
+          {
+            "pattern": "console.warn"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "Runtime error audit",
+      "status": "WARN",
+      "message": "Static error markers found; browser runtime must confirm if active",
+      "evidence": {
+        "errorHits": [
+          {
+            "pattern": "throw new Error"
+          },
+          {
+            "pattern": "console.error"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Build audit",
+      "status": "WARN",
+      "message": "dist/index.html not found before build execution",
+      "evidence": {}
+    },
+    {
+      "id": 20,
+      "name": "Boot sequence audit",
+      "status": "PASS",
+      "evidence": {
+        "bootFound": [
+          "init",
+          "ready",
+          "hydrate"
+        ]
+      }
+    }
+  ],
+  "blockers": [],
+  "warnings": [
+    {
+      "id": 9,
+      "name": "Founder surface audit",
+      "message": "Founder surface not detected in city_map.js static scan",
+      "evidence": {}
+    },
+    {
+      "id": 17,
+      "name": "Runtime warning audit",
+      "message": "Static warning markers found",
+      "evidence": {
+        "warningHits": [
+          {
+            "pattern": "console.warn"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "Runtime error audit",
+      "message": "Static error markers found; browser runtime must confirm if active",
+      "evidence": {
+        "errorHits": [
+          {
+            "pattern": "throw new Error"
+          },
+          {
+            "pattern": "console.error"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Build audit",
+      "message": "dist/index.html not found before build execution",
+      "evidence": {}
+    }
+  ],
+  "counts": {
+    "leads": 250,
+    "uniqueEntityIds": 250,
+    "duplicateEntityIds": 0,
+    "missingEntityIds": 0,
+    "missingCityAssignments": 0,
+    "syntheticEntityHints": 240,
+    "cityCount": 50,
+    "cityCounts": {
+      "New York": 5,
+      "Los Angeles": 5,
+      "Chicago": 5,
+      "Houston": 5,
+      "Phoenix": 5,
+      "Philadelphia": 5,
+      "San Antonio": 5,
+      "San Diego": 5,
+      "Dallas": 5,
+      "San Jose": 5,
+      "Austin": 5,
+      "Jacksonville": 5,
+      "Fort Worth": 5,
+      "Columbus": 5,
+      "Charlotte": 5,
+      "San Francisco": 5,
+      "Indianapolis": 5,
+      "Seattle": 5,
+      "Denver": 5,
+      "Washington": 5,
+      "Boston": 5,
+      "El Paso": 5,
+      "Nashville": 5,
+      "Detroit": 5,
+      "Oklahoma City": 5,
+      "Portland": 5,
+      "Las Vegas": 5,
+      "Memphis": 5,
+      "Louisville": 5,
+      "Baltimore": 5,
+      "Milwaukee": 5,
+      "Albuquerque": 5,
+      "Tucson": 5,
+      "Fresno": 5,
+      "Sacramento": 5,
+      "Mesa": 5,
+      "Kansas City": 5,
+      "Atlanta": 5,
+      "Colorado Springs": 5,
+      "Omaha": 5,
+      "Raleigh": 5,
+      "Miami": 5,
+      "Long Beach": 5,
+      "Virginia Beach": 5,
+      "Oakland": 5,
+      "Minneapolis": 5,
+      "Tulsa": 5,
+      "Tampa": 5,
+      "Arlington": 5,
+      "New Orleans": 5
+    },
+    "pass": 16,
+    "warn": 4,
+    "fail": 0
+  },
+  "diagnostics": {
+    "cwd": "C:\\Dev\\Nexus_MASTER",
+    "leadsAbsolutePath": "C:\\Dev\\Nexus_MASTER\\public\\data\\leads_master.json",
+    "leadsExists": true,
+    "leadsIsArray": true,
+    "leadsParseError": null,
+    "leadsTopLevelType": "array",
+    "leadsTopLevelKeys": []
+  },
+  "files": {
+    "leadsPath": true,
+    "schemaPath": true,
+    "cityContractsPath": true,
+    "dossierContractsPath": true,
+    "sourceCatalogPath": true,
+    "coveragePath": true,
+    "gapPath": true,
+    "cityMapPath": true
+  }
+}

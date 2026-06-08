@@ -1,0 +1,3390 @@
+{
+  "id": "PHASE_3_CITY_SATURATION_STATUS_V1",
+  "phase": "PHASE 3",
+  "phase_name": "City Saturation",
+  "generated_at": "2026-06-07T18:39:56.030Z",
+  "runtime_visible": true,
+  "software_surface_enabled": true,
+  "status": "IN_PROGRESS",
+  "batch_started": 274,
+  "totals": {
+    "city_count": 50,
+    "entity_count": 250,
+    "synthetic_entities": 240,
+    "production_entities": 10,
+    "sourced_entities": 250,
+    "unsourced_entities": 0,
+    "production_saturation_percent": 4,
+    "staged_replacement_entities": 20,
+    "remaining_synthetic_replacement_queue": 220,
+    "operational_saturation_percent": 12
+  },
+  "top_synthetic_cities": [
+    {
+      "city": "Albuquerque",
+      "state": "NM",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Arlington",
+      "state": "TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Atlanta",
+      "state": "GA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Austin",
+      "state": "TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Baltimore",
+      "state": "MD",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Boston",
+      "state": "MA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "production_saturation_percent": 0,
+      "status": "SYNTHETIC_ONLY"
+    }
+  ],
+  "cities": [
+    {
+      "city": "Albuquerque",
+      "state": "NM",
+      "key": "Albuquerque, NM",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-032-ENT-01",
+          "name": "Luxury Auto Cluster — Albuquerque, NM",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-032-ENT-02",
+          "name": "Collector Garage Network — Albuquerque, NM",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-032-ENT-03",
+          "name": "Executive Fleet Operator — Albuquerque, NM",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-032-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Albuquerque, NM",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-032-ENT-05",
+          "name": "Performance Service Buyer — Albuquerque, NM",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Arlington",
+      "state": "TX",
+      "key": "Arlington, TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-049-ENT-01",
+          "name": "Luxury Auto Cluster — Arlington, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-049-ENT-02",
+          "name": "Collector Garage Network — Arlington, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-049-ENT-03",
+          "name": "Executive Fleet Operator — Arlington, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-049-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Arlington, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-049-ENT-05",
+          "name": "Performance Service Buyer — Arlington, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Atlanta",
+      "state": "GA",
+      "key": "Atlanta, GA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-038-ENT-01",
+          "name": "Luxury Auto Cluster — Atlanta, GA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-038-ENT-02",
+          "name": "Collector Garage Network — Atlanta, GA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-038-ENT-03",
+          "name": "Executive Fleet Operator — Atlanta, GA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-038-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Atlanta, GA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-038-ENT-05",
+          "name": "Performance Service Buyer — Atlanta, GA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Austin",
+      "state": "TX",
+      "key": "Austin, TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-011-ENT-01",
+          "name": "Luxury Auto Cluster — Austin, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-011-ENT-02",
+          "name": "Collector Garage Network — Austin, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-011-ENT-03",
+          "name": "Executive Fleet Operator — Austin, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-011-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Austin, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-011-ENT-05",
+          "name": "Performance Service Buyer — Austin, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Baltimore",
+      "state": "MD",
+      "key": "Baltimore, MD",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-030-ENT-01",
+          "name": "Luxury Auto Cluster — Baltimore, MD",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-030-ENT-02",
+          "name": "Collector Garage Network — Baltimore, MD",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-030-ENT-03",
+          "name": "Executive Fleet Operator — Baltimore, MD",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-030-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Baltimore, MD",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-030-ENT-05",
+          "name": "Performance Service Buyer — Baltimore, MD",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Boston",
+      "state": "MA",
+      "key": "Boston, MA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-021-ENT-01",
+          "name": "Luxury Auto Cluster — Boston, MA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-021-ENT-02",
+          "name": "Collector Garage Network — Boston, MA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-021-ENT-03",
+          "name": "Executive Fleet Operator — Boston, MA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-021-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Boston, MA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-021-ENT-05",
+          "name": "Performance Service Buyer — Boston, MA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "key": "Charlotte, NC",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-015-ENT-01",
+          "name": "Luxury Auto Cluster — Charlotte, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-015-ENT-02",
+          "name": "Collector Garage Network — Charlotte, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-015-ENT-03",
+          "name": "Executive Fleet Operator — Charlotte, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-015-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Charlotte, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-015-ENT-05",
+          "name": "Performance Service Buyer — Charlotte, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "key": "Chicago, IL",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-003-ENT-01",
+          "name": "Luxury Auto Cluster — Chicago, IL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-003-ENT-02",
+          "name": "Collector Garage Network — Chicago, IL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-003-ENT-03",
+          "name": "Executive Fleet Operator — Chicago, IL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-003-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Chicago, IL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-003-ENT-05",
+          "name": "Performance Service Buyer — Chicago, IL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Colorado Springs",
+      "state": "CO",
+      "key": "Colorado Springs, CO",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-039-ENT-01",
+          "name": "Luxury Auto Cluster — Colorado Springs, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-039-ENT-02",
+          "name": "Collector Garage Network — Colorado Springs, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-039-ENT-03",
+          "name": "Executive Fleet Operator — Colorado Springs, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-039-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Colorado Springs, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-039-ENT-05",
+          "name": "Performance Service Buyer — Colorado Springs, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Columbus",
+      "state": "OH",
+      "key": "Columbus, OH",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-014-ENT-01",
+          "name": "Luxury Auto Cluster — Columbus, OH",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-014-ENT-02",
+          "name": "Collector Garage Network — Columbus, OH",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-014-ENT-03",
+          "name": "Executive Fleet Operator — Columbus, OH",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-014-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Columbus, OH",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-014-ENT-05",
+          "name": "Performance Service Buyer — Columbus, OH",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Dallas",
+      "state": "TX",
+      "key": "Dallas, TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-009-ENT-01",
+          "name": "Luxury Auto Cluster — Dallas, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-009-ENT-02",
+          "name": "Collector Garage Network — Dallas, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-009-ENT-03",
+          "name": "Executive Fleet Operator — Dallas, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-009-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Dallas, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-009-ENT-05",
+          "name": "Performance Service Buyer — Dallas, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Denver",
+      "state": "CO",
+      "key": "Denver, CO",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-019-ENT-01",
+          "name": "Luxury Auto Cluster — Denver, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-019-ENT-02",
+          "name": "Collector Garage Network — Denver, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-019-ENT-03",
+          "name": "Executive Fleet Operator — Denver, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-019-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Denver, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-019-ENT-05",
+          "name": "Performance Service Buyer — Denver, CO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Detroit",
+      "state": "MI",
+      "key": "Detroit, MI",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-024-ENT-01",
+          "name": "Luxury Auto Cluster — Detroit, MI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-024-ENT-02",
+          "name": "Collector Garage Network — Detroit, MI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-024-ENT-03",
+          "name": "Executive Fleet Operator — Detroit, MI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-024-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Detroit, MI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-024-ENT-05",
+          "name": "Performance Service Buyer — Detroit, MI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "El Paso",
+      "state": "TX",
+      "key": "El Paso, TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-022-ENT-01",
+          "name": "Luxury Auto Cluster — El Paso, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-022-ENT-02",
+          "name": "Collector Garage Network — El Paso, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-022-ENT-03",
+          "name": "Executive Fleet Operator — El Paso, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-022-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — El Paso, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-022-ENT-05",
+          "name": "Performance Service Buyer — El Paso, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Fort Worth",
+      "state": "TX",
+      "key": "Fort Worth, TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-013-ENT-01",
+          "name": "Luxury Auto Cluster — Fort Worth, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-013-ENT-02",
+          "name": "Collector Garage Network — Fort Worth, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-013-ENT-03",
+          "name": "Executive Fleet Operator — Fort Worth, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-013-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Fort Worth, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-013-ENT-05",
+          "name": "Performance Service Buyer — Fort Worth, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Fresno",
+      "state": "CA",
+      "key": "Fresno, CA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-034-ENT-01",
+          "name": "Luxury Auto Cluster — Fresno, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-034-ENT-02",
+          "name": "Collector Garage Network — Fresno, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-034-ENT-03",
+          "name": "Executive Fleet Operator — Fresno, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-034-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Fresno, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-034-ENT-05",
+          "name": "Performance Service Buyer — Fresno, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Houston",
+      "state": "TX",
+      "key": "Houston, TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-004-ENT-01",
+          "name": "Luxury Auto Cluster — Houston, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-004-ENT-02",
+          "name": "Collector Garage Network — Houston, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-004-ENT-03",
+          "name": "Executive Fleet Operator — Houston, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-004-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Houston, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-004-ENT-05",
+          "name": "Performance Service Buyer — Houston, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Indianapolis",
+      "state": "IN",
+      "key": "Indianapolis, IN",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-017-ENT-01",
+          "name": "Luxury Auto Cluster — Indianapolis, IN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-017-ENT-02",
+          "name": "Collector Garage Network — Indianapolis, IN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-017-ENT-03",
+          "name": "Executive Fleet Operator — Indianapolis, IN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-017-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Indianapolis, IN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-017-ENT-05",
+          "name": "Performance Service Buyer — Indianapolis, IN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Jacksonville",
+      "state": "FL",
+      "key": "Jacksonville, FL",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-012-ENT-01",
+          "name": "Luxury Auto Cluster — Jacksonville, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-012-ENT-02",
+          "name": "Collector Garage Network — Jacksonville, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-012-ENT-03",
+          "name": "Executive Fleet Operator — Jacksonville, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-012-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Jacksonville, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-012-ENT-05",
+          "name": "Performance Service Buyer — Jacksonville, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Kansas City",
+      "state": "MO",
+      "key": "Kansas City, MO",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-037-ENT-01",
+          "name": "Luxury Auto Cluster — Kansas City, MO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-037-ENT-02",
+          "name": "Collector Garage Network — Kansas City, MO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-037-ENT-03",
+          "name": "Executive Fleet Operator — Kansas City, MO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-037-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Kansas City, MO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-037-ENT-05",
+          "name": "Performance Service Buyer — Kansas City, MO",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Las Vegas",
+      "state": "NV",
+      "key": "Las Vegas, NV",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-027-ENT-01",
+          "name": "Luxury Auto Cluster — Las Vegas, NV",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-027-ENT-02",
+          "name": "Collector Garage Network — Las Vegas, NV",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-027-ENT-03",
+          "name": "Executive Fleet Operator — Las Vegas, NV",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-027-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Las Vegas, NV",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-027-ENT-05",
+          "name": "Performance Service Buyer — Las Vegas, NV",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Long Beach",
+      "state": "CA",
+      "key": "Long Beach, CA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-043-ENT-01",
+          "name": "Luxury Auto Cluster — Long Beach, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-043-ENT-02",
+          "name": "Collector Garage Network — Long Beach, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-043-ENT-03",
+          "name": "Executive Fleet Operator — Long Beach, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-043-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Long Beach, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-043-ENT-05",
+          "name": "Performance Service Buyer — Long Beach, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Louisville",
+      "state": "KY",
+      "key": "Louisville, KY",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-029-ENT-01",
+          "name": "Luxury Auto Cluster — Louisville, KY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-029-ENT-02",
+          "name": "Collector Garage Network — Louisville, KY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-029-ENT-03",
+          "name": "Executive Fleet Operator — Louisville, KY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-029-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Louisville, KY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-029-ENT-05",
+          "name": "Performance Service Buyer — Louisville, KY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Memphis",
+      "state": "TN",
+      "key": "Memphis, TN",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-028-ENT-01",
+          "name": "Luxury Auto Cluster — Memphis, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-028-ENT-02",
+          "name": "Collector Garage Network — Memphis, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-028-ENT-03",
+          "name": "Executive Fleet Operator — Memphis, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-028-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Memphis, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-028-ENT-05",
+          "name": "Performance Service Buyer — Memphis, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Mesa",
+      "state": "AZ",
+      "key": "Mesa, AZ",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-036-ENT-01",
+          "name": "Luxury Auto Cluster — Mesa, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-036-ENT-02",
+          "name": "Collector Garage Network — Mesa, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-036-ENT-03",
+          "name": "Executive Fleet Operator — Mesa, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-036-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Mesa, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-036-ENT-05",
+          "name": "Performance Service Buyer — Mesa, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Milwaukee",
+      "state": "WI",
+      "key": "Milwaukee, WI",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-031-ENT-01",
+          "name": "Luxury Auto Cluster — Milwaukee, WI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-031-ENT-02",
+          "name": "Collector Garage Network — Milwaukee, WI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-031-ENT-03",
+          "name": "Executive Fleet Operator — Milwaukee, WI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-031-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Milwaukee, WI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-031-ENT-05",
+          "name": "Performance Service Buyer — Milwaukee, WI",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Minneapolis",
+      "state": "MN",
+      "key": "Minneapolis, MN",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-046-ENT-01",
+          "name": "Luxury Auto Cluster — Minneapolis, MN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-046-ENT-02",
+          "name": "Collector Garage Network — Minneapolis, MN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-046-ENT-03",
+          "name": "Executive Fleet Operator — Minneapolis, MN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-046-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Minneapolis, MN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-046-ENT-05",
+          "name": "Performance Service Buyer — Minneapolis, MN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Nashville",
+      "state": "TN",
+      "key": "Nashville, TN",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-023-ENT-01",
+          "name": "Luxury Auto Cluster — Nashville, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-023-ENT-02",
+          "name": "Collector Garage Network — Nashville, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-023-ENT-03",
+          "name": "Executive Fleet Operator — Nashville, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-023-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Nashville, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-023-ENT-05",
+          "name": "Performance Service Buyer — Nashville, TN",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "New Orleans",
+      "state": "LA",
+      "key": "New Orleans, LA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-050-ENT-01",
+          "name": "Luxury Auto Cluster — New Orleans, LA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-050-ENT-02",
+          "name": "Collector Garage Network — New Orleans, LA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-050-ENT-03",
+          "name": "Executive Fleet Operator — New Orleans, LA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-050-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — New Orleans, LA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-050-ENT-05",
+          "name": "Performance Service Buyer — New Orleans, LA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "New York",
+      "state": "NY",
+      "key": "New York, NY",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-001-ENT-01",
+          "name": "Luxury Auto Cluster — New York, NY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-001-ENT-02",
+          "name": "Collector Garage Network — New York, NY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-001-ENT-03",
+          "name": "Executive Fleet Operator — New York, NY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-001-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — New York, NY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-001-ENT-05",
+          "name": "Performance Service Buyer — New York, NY",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Oakland",
+      "state": "CA",
+      "key": "Oakland, CA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-045-ENT-01",
+          "name": "Luxury Auto Cluster — Oakland, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-045-ENT-02",
+          "name": "Collector Garage Network — Oakland, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-045-ENT-03",
+          "name": "Executive Fleet Operator — Oakland, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-045-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Oakland, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-045-ENT-05",
+          "name": "Performance Service Buyer — Oakland, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Oklahoma City",
+      "state": "OK",
+      "key": "Oklahoma City, OK",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-025-ENT-01",
+          "name": "Luxury Auto Cluster — Oklahoma City, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-025-ENT-02",
+          "name": "Collector Garage Network — Oklahoma City, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-025-ENT-03",
+          "name": "Executive Fleet Operator — Oklahoma City, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-025-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Oklahoma City, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-025-ENT-05",
+          "name": "Performance Service Buyer — Oklahoma City, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Omaha",
+      "state": "NE",
+      "key": "Omaha, NE",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-040-ENT-01",
+          "name": "Luxury Auto Cluster — Omaha, NE",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-040-ENT-02",
+          "name": "Collector Garage Network — Omaha, NE",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-040-ENT-03",
+          "name": "Executive Fleet Operator — Omaha, NE",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-040-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Omaha, NE",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-040-ENT-05",
+          "name": "Performance Service Buyer — Omaha, NE",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "key": "Philadelphia, PA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-006-ENT-01",
+          "name": "Luxury Auto Cluster — Philadelphia, PA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-006-ENT-02",
+          "name": "Collector Garage Network — Philadelphia, PA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-006-ENT-03",
+          "name": "Executive Fleet Operator — Philadelphia, PA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-006-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Philadelphia, PA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-006-ENT-05",
+          "name": "Performance Service Buyer — Philadelphia, PA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Phoenix",
+      "state": "AZ",
+      "key": "Phoenix, AZ",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-005-ENT-01",
+          "name": "Luxury Auto Cluster — Phoenix, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-005-ENT-02",
+          "name": "Collector Garage Network — Phoenix, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-005-ENT-03",
+          "name": "Executive Fleet Operator — Phoenix, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-005-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Phoenix, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-005-ENT-05",
+          "name": "Performance Service Buyer — Phoenix, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Portland",
+      "state": "OR",
+      "key": "Portland, OR",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-026-ENT-01",
+          "name": "Luxury Auto Cluster — Portland, OR",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-026-ENT-02",
+          "name": "Collector Garage Network — Portland, OR",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-026-ENT-03",
+          "name": "Executive Fleet Operator — Portland, OR",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-026-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Portland, OR",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-026-ENT-05",
+          "name": "Performance Service Buyer — Portland, OR",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Raleigh",
+      "state": "NC",
+      "key": "Raleigh, NC",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-041-ENT-01",
+          "name": "Luxury Auto Cluster — Raleigh, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-041-ENT-02",
+          "name": "Collector Garage Network — Raleigh, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-041-ENT-03",
+          "name": "Executive Fleet Operator — Raleigh, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-041-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Raleigh, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-041-ENT-05",
+          "name": "Performance Service Buyer — Raleigh, NC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Sacramento",
+      "state": "CA",
+      "key": "Sacramento, CA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-035-ENT-01",
+          "name": "Luxury Auto Cluster — Sacramento, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-035-ENT-02",
+          "name": "Collector Garage Network — Sacramento, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-035-ENT-03",
+          "name": "Executive Fleet Operator — Sacramento, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-035-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Sacramento, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-035-ENT-05",
+          "name": "Performance Service Buyer — Sacramento, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "San Antonio",
+      "state": "TX",
+      "key": "San Antonio, TX",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-007-ENT-01",
+          "name": "Luxury Auto Cluster — San Antonio, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-007-ENT-02",
+          "name": "Collector Garage Network — San Antonio, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-007-ENT-03",
+          "name": "Executive Fleet Operator — San Antonio, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-007-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — San Antonio, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-007-ENT-05",
+          "name": "Performance Service Buyer — San Antonio, TX",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "key": "San Diego, CA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-008-ENT-01",
+          "name": "Luxury Auto Cluster — San Diego, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-008-ENT-02",
+          "name": "Collector Garage Network — San Diego, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-008-ENT-03",
+          "name": "Executive Fleet Operator — San Diego, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-008-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — San Diego, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-008-ENT-05",
+          "name": "Performance Service Buyer — San Diego, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "San Francisco",
+      "state": "CA",
+      "key": "San Francisco, CA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-016-ENT-01",
+          "name": "Luxury Auto Cluster — San Francisco, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-016-ENT-02",
+          "name": "Collector Garage Network — San Francisco, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-016-ENT-03",
+          "name": "Executive Fleet Operator — San Francisco, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-016-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — San Francisco, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-016-ENT-05",
+          "name": "Performance Service Buyer — San Francisco, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "San Jose",
+      "state": "CA",
+      "key": "San Jose, CA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-010-ENT-01",
+          "name": "Luxury Auto Cluster — San Jose, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-010-ENT-02",
+          "name": "Collector Garage Network — San Jose, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-010-ENT-03",
+          "name": "Executive Fleet Operator — San Jose, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-010-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — San Jose, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-010-ENT-05",
+          "name": "Performance Service Buyer — San Jose, CA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Seattle",
+      "state": "WA",
+      "key": "Seattle, WA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-018-ENT-01",
+          "name": "Luxury Auto Cluster — Seattle, WA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-018-ENT-02",
+          "name": "Collector Garage Network — Seattle, WA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-018-ENT-03",
+          "name": "Executive Fleet Operator — Seattle, WA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-018-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Seattle, WA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-018-ENT-05",
+          "name": "Performance Service Buyer — Seattle, WA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Tampa",
+      "state": "FL",
+      "key": "Tampa, FL",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-048-ENT-01",
+          "name": "Luxury Auto Cluster — Tampa, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-048-ENT-02",
+          "name": "Collector Garage Network — Tampa, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-048-ENT-03",
+          "name": "Executive Fleet Operator — Tampa, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-048-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Tampa, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-048-ENT-05",
+          "name": "Performance Service Buyer — Tampa, FL",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Tucson",
+      "state": "AZ",
+      "key": "Tucson, AZ",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-033-ENT-01",
+          "name": "Luxury Auto Cluster — Tucson, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-033-ENT-02",
+          "name": "Collector Garage Network — Tucson, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-033-ENT-03",
+          "name": "Executive Fleet Operator — Tucson, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-033-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Tucson, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-033-ENT-05",
+          "name": "Performance Service Buyer — Tucson, AZ",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Tulsa",
+      "state": "OK",
+      "key": "Tulsa, OK",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-047-ENT-01",
+          "name": "Luxury Auto Cluster — Tulsa, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-047-ENT-02",
+          "name": "Collector Garage Network — Tulsa, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-047-ENT-03",
+          "name": "Executive Fleet Operator — Tulsa, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-047-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Tulsa, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-047-ENT-05",
+          "name": "Performance Service Buyer — Tulsa, OK",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Virginia Beach",
+      "state": "VA",
+      "key": "Virginia Beach, VA",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-044-ENT-01",
+          "name": "Luxury Auto Cluster — Virginia Beach, VA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-044-ENT-02",
+          "name": "Collector Garage Network — Virginia Beach, VA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-044-ENT-03",
+          "name": "Executive Fleet Operator — Virginia Beach, VA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-044-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Virginia Beach, VA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-044-ENT-05",
+          "name": "Performance Service Buyer — Virginia Beach, VA",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Washington",
+      "state": "DC",
+      "key": "Washington, DC",
+      "total_entities": 5,
+      "synthetic_entities": 5,
+      "production_entities": 0,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-020-ENT-01",
+          "name": "Luxury Auto Cluster — Washington, DC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-020-ENT-02",
+          "name": "Collector Garage Network — Washington, DC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-020-ENT-03",
+          "name": "Executive Fleet Operator — Washington, DC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 3,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-020-ENT-04",
+          "name": "High-Net-Worth Vehicle Owner — Washington, DC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-020-ENT-05",
+          "name": "Performance Service Buyer — Washington, DC",
+          "synthetic": true,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        }
+      ],
+      "production_saturation_percent": 0,
+      "synthetic_replacement_required": 5,
+      "status": "SYNTHETIC_ONLY"
+    },
+    {
+      "city": "Los Angeles",
+      "state": "CA",
+      "key": "Los Angeles, CA",
+      "total_entities": 5,
+      "synthetic_entities": 0,
+      "production_entities": 5,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-002-ENT-01",
+          "name": "Porsche Beverly Hills Showroom — Los Angeles, CA",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-002-ENT-02",
+          "name": "Porsche Downtown LA — Los Angeles, CA",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-002-ENT-03",
+          "name": "Petersen Automotive Museum — Los Angeles, CA",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-002-ENT-04",
+          "name": "Midway LAX Luxury Rental Hub — Los Angeles, CA",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "regional",
+          "surface": "vehicle"
+        },
+        {
+          "id": "CITY-002-ENT-05",
+          "name": "Beverly Hills BMW Wilshire Showroom — Los Angeles, CA",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 2,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "vehicle"
+        }
+      ],
+      "production_saturation_percent": 100,
+      "synthetic_replacement_required": 0,
+      "status": "SATURATED"
+    },
+    {
+      "city": "Miami",
+      "state": "FL",
+      "key": "Miami, FL",
+      "total_entities": 5,
+      "synthetic_entities": 0,
+      "production_entities": 5,
+      "sourced_entities": 5,
+      "unsourced_entities": 0,
+      "entities": [
+        {
+          "id": "CITY-042-ENT-01",
+          "name": "Brickell Office Tower — Miami, FL",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 1,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "office"
+        },
+        {
+          "id": "CITY-042-ENT-02",
+          "name": "Wynwood Creative Warehouse — Miami, FL",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 1,
+          "priorityBand": "medium",
+          "serviceability": "metro-core",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-042-ENT-03",
+          "name": "Downtown Civic Corridor — Miami, FL",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 1,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "mixed"
+        },
+        {
+          "id": "CITY-042-ENT-04",
+          "name": "Little Havana Executive Residence — Miami, FL",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 1,
+          "priorityBand": "high",
+          "serviceability": "metro-core",
+          "surface": "residential"
+        },
+        {
+          "id": "CITY-042-ENT-05",
+          "name": "Coconut Grove Private Client — Miami, FL",
+          "synthetic": false,
+          "sourced": true,
+          "source_count": 1,
+          "priorityBand": "medium",
+          "serviceability": "regional",
+          "surface": "residential"
+        }
+      ],
+      "production_saturation_percent": 100,
+      "synthetic_replacement_required": 0,
+      "status": "SATURATED"
+    }
+  ],
+  "replacement_queue_count": 220,
+  "next_required_action": "ATTACH_SECOND_REQUIRED_SOURCE_TO_VALIDATE_PACKETS",
+  "updated_by_batch": 285,
+  "wave_001_status": "STAGED",
+  "active_replacement_wave": "PHASE_3_REPLACEMENT_WAVE_001",
+  "staged_replacement_entities": 20,
+  "operational_saturation_percent": 12,
+  "production_candidate_wave": "PHASE_3_PRODUCTION_CANDIDATE_WAVE_001",
+  "production_candidate_count": 20,
+  "verification_pipeline": "PHASE_3_VERIFICATION_PIPELINE_V1",
+  "verification_pipeline_status": "ACTIVE",
+  "verification_candidate_count": 20,
+  "promotion_eligible_count": 0,
+  "source_validation_layer": "ACTIVE",
+  "source_validation_queue_count": 20,
+  "source_validated_count": 0,
+  "source_evidence_packet_system": "ACTIVE",
+  "source_evidence_packet_count": 20,
+  "source_attachment_adapter": "ACTIVE",
+  "source_packets_with_slots": 20,
+  "total_source_slots_created": 40,
+  "source_persistence_adapter": "ACTIVE",
+  "source_attachment_ledger": "PHASE_3_SOURCE_ATTACHMENT_LEDGER_V1",
+  "total_persisted_source_attachments": 0
+}

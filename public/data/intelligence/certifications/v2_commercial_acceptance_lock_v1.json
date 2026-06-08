@@ -1,0 +1,44 @@
+﻿{
+    "system":  "Umbra Nexus V2 Commercial Acceptance Lock",
+    "version":  "V2_COMMERCIAL_ACCEPTANCE_LOCK_V1",
+    "batch":  506,
+    "created_at":  "2026-06-02T18:31:22.3893676-07:00",
+    "founder_runtime_acceptance":  {
+                                       "index_exists":  true,
+                                       "black_dragon_scripts_removed":  true,
+                                       "founder_boot_stack_present":  true,
+                                       "three_runtime_present":  true
+                                   },
+    "client_runtime_acceptance":  {
+                                      "black_dragon_runtime_exists":  true,
+                                      "generic_template_exists":  true,
+                                      "generic_safe_template_exists":  true,
+                                      "test_client_beta_exists":  true,
+                                      "beta_black_dragon_coupling_absent":  true,
+                                      "beta_founder_runtime_absent":  true,
+                                      "beta_runtime_role_marker_present":  true
+                                  },
+    "operational_surface_acceptance":  {
+                                           "required_ui_manifests":  30,
+                                           "required_contracts":  1,
+                                           "ui_manifest_failures":  0,
+                                           "contract_failures":  0
+                                       },
+    "visualization_acceptance":  {
+                                     "target_reference":  "finished_v2_command_center_operational_surface",
+                                     "globe_engine_present":  true,
+                                     "operational_surfaces_locked":  true
+                                 },
+    "commercial_readiness":  {
+                                 "founder_client_separation":  true,
+                                 "generic_client_provisioning":  true,
+                                 "replay_safe":  true,
+                                 "promotion_safe":  true,
+                                 "runtime_activation":  false
+                             },
+    "failures":  [
+
+                 ],
+    "failure_count":  0,
+    "pass":  true
+}

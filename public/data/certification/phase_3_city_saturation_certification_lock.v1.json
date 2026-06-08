@@ -1,0 +1,17 @@
+﻿{
+    "id":  "PHASE_3_CITY_SATURATION_CERTIFICATION_LOCK_V1",
+    "phase":  3,
+    "phase_name":  "City Saturation",
+    "status":  "COMPLETE",
+    "certified":  true,
+    "certified_at":  "2026-06-07T19:51:37.2478891Z",
+    "certification_basis":  {
+                                "wave_001_certified":  true,
+                                "wave_002_certified":  true,
+                                "production_candidates":  25,
+                                "promoted_entities":  6,
+                                "city_count":  50,
+                                "entity_count":  250
+                            },
+    "generated_by_batch":  299
+}

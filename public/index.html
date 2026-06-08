@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <script>
@@ -7,7 +7,7 @@
   </script>
 
   <meta charset="UTF-8" />
-  <title>UMBRA NEXUS — ROOT LIVE CHECK</title>
+  <title>UMBRA NEXUS — EXECUTIVE COMMAND</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
@@ -20,19 +20,22 @@
   </script>
 
   <link rel="stylesheet" href="/style.css?v=FOUNDERV1_UI_ARCH_LOCK_DATA_V1" />
+  <link rel="stylesheet" href="/globe/enterprise_pointer_passthrough_batch_545.css?v=20260603_162859">
+  <link rel="stylesheet" href="/globe/runtime/dossier_mount_restore.css?v=20260603_572R">
+  <link rel="stylesheet" href="/globe/runtime/dossier_open_bridge.css?v=20260603_573R">
 </head>
 
 <body>
   <div class="app-shell" id="appShell">
     <header class="top-bar">
-      <div class="top-brand">LIVE ROOT CHECK</div>
+      <div class="top-brand">UMBRA NEXUS</div>
 
       <div class="top-center">
         <div class="nav-logo-wrap" aria-hidden="true"></div>
 
         <nav id="mainNav" class="top-nav" aria-label="Primary">
           <ul>
-            <li><button type="button" class="nav-link active" data-view="hub">UMBRA HUB</button></li>
+            <li><button type="button" class="nav-link active" data-view="hub">EXECUTIVE COMMAND</button></li>
             <li><button type="button" class="nav-link" data-view="profile">PROFILE</button></li>
             <li><button type="button" class="nav-link" data-view="account">ACCOUNT</button></li>
           </ul>
@@ -78,7 +81,7 @@
       </section>
 
       <section class="panel panel-center" id="centerStage">
-        <div class="panel-header panel-header-center" id="centerPanelTitle">UMBRA HUB</div>
+        <div class="panel-header panel-header-center" id="centerPanelTitle">EXECUTIVE COMMAND</div>
 
         <div class="ui-view-stack">
 
@@ -119,7 +122,7 @@
                 <input id="accountRouting" class="content-input" />
               </div>
 
-              <!-- 🔥 ADMIN PANEL (FINAL) -->
+              <!-- ðŸ”¥ ADMIN PANEL (FINAL) -->
               <div id="adminPanel" class="content-block admin-panel" hidden>
                 <div class="panel-section-label">Admin Control</div>
 
@@ -145,37 +148,270 @@
         </div>
       </section>
 
-      <aside class="panel panel-right">
+      <aside class="panel panel-right" id="rightIntel">
         <div class="panel-header">INTELLIGENCE PANEL</div>
       </aside>
     </main>
-  </div>
+  </div>  <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
 
+
+    <script src="/globe/core.js"></script>
+  <script src="/globe/postfx.js"></script>
+  <script src="/globe/textures.js"></script>
+  <script src="/globe/layers.js"></script>
+  <script src="/globe/shader_veins.js"></script>
+  <script src="/globe/umbra_data.v1.js"></script>
+  <script src="/globe/scoring.v1.js"></script>
+  <script src="/globe/nodes.founder.v1.js"></script>
+  <script src="/globe/dossiers.js"></script>
+  <script src="/globe/city_tiles.js"></script>
+        <script src="/globe/city_loader.js"></script>
+        <script src="/globe/city_map.js"></script>
+  <script src="/globe/interaction.js"></script>
+  <script src="/scene.js"></script>
+  <script src="/globe/founder_dashboard_runtime.js"></script>
   <script src="/globe/ui.js"></script>
   <script src="/globe/security/frontend_runtime_guard.js"></script>
   <script src="/globe/security/ui_panel_security_hook.js"></script>
   <script src="/globe/security/session_recovery_guard.js"></script>
   <script src="/globe/security/dataset_access_guard.js"></script>
   <script src="/globe/security/export_security_guard.js"></script>
-  <script src="/globe/clients/black_dragon/books/client_dashboard_renderer.js"></script>
-  <script src="/globe/clients/black_dragon/books/book_selection_bus.js"></script>
-  <script src="/globe/clients/black_dragon/books/dossier_sync_runtime.js"></script>
-  <script src="/globe/clients/black_dragon/books/outreach_queue_ui.js"></script>
-  <script src="/globe/clients/black_dragon/books/outreach_queue_actions.js"></script>
-  <script src="/globe/clients/black_dragon/books/response_persistence_store.js"></script>
-  <script src="/globe/clients/black_dragon/books/response_logging_ui.js"></script>
-  <script src="/globe/clients/black_dragon/books/book_map_nodes_runtime.js"></script>
-  <script src="/globe/clients/black_dragon/books/book_citymap_renderer.js"></script>
-  <script src="/globe/clients/black_dragon/books/book_cluster_renderer.js"></script>
-  <script src="/globe/clients/black_dragon/books/book_path_renderer.js"></script>
-  <script src="/globe/clients/black_dragon/books/book_layer_controls.js"></script>
   <script src="/globe/performance/adaptive_postfx_performance_mode.js"></script>
   <script src="/globe/performance/movement_performance_mode.js"></script>
   <script src="/globe/performance/postfx_resize_throttle.js"></script>
   <script src="/globe/performance/render_stability_probe.js"></script>
   <script src="/globe/command_deck_runtime.js"></script>
+    <script src="/globe/intel/registry.js?v=20260603_574R"></script>
+    <script src="/globe/intel/pipeline.js?v=20260603_574R"></script>
   <script src="/globe/intelligence_panel_live_state.js"></script>
-  <script src="/globe/clients/black_dragon/books/response_workflow_runtime.js"></script>
-  <script src="/globe/security/access_control_runtime.js"></script>
+<script src="/globe/security/access_control_runtime.js"></script>
+  <script src="/globe/webgl_fallback_surface.js"></script>
+  <script src="/globe/enterprise_command_surface.js"></script>
+<script id="webgl_boot_path_restore_542">
+(function () {
+  "use strict";
+
+  function canCreateWebGL() {
+    try {
+      const c = document.createElement("canvas");
+      return !!(c.getContext("webgl") || c.getContext("experimental-webgl"));
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function bootRealGlobe() {
+    const globe = document.getElementById("globeContainer");
+    const rect = globe && globe.getBoundingClientRect ? globe.getBoundingClientRect() : null;
+
+    if (!window.THREE || !window.UmbraGlobe || typeof window.UmbraGlobe.initCore !== "function") {
+      console.warn("[Batch542] boot skipped: THREE or UmbraGlobe missing");
+      return false;
+    }
+
+    if (!canCreateWebGL()) {
+      console.warn("[Batch542] boot skipped: WebGL unavailable");
+      return false;
+    }
+
+    if (!rect || rect.width < 10 || rect.height < 10) {
+      console.warn("[Batch542] boot skipped: globeContainer not sized", rect);
+      return false;
+    }
+
+    try {
+      const fallback = document.querySelector(".webgl-fallback-surface");
+      if (fallback) fallback.remove();
+
+      window.UmbraGlobe.state.renderer = null;
+      window.UmbraGlobe.state.scene = null;
+      window.UmbraGlobe.state.camera = null;
+      window.UmbraGlobe.state.worldGroup = null;
+      window.UmbraGlobe.state._booted = false;
+      window.UmbraGlobe.state._coreInited = false;
+
+      const result = window.UmbraGlobe.initCore();
+
+      console.info("[Batch542] real globe boot attempted", {
+        result,
+        renderer: !!window.UmbraGlobe.state.renderer,
+        scene: !!window.UmbraGlobe.state.scene,
+        camera: !!window.UmbraGlobe.state.camera,
+        worldGroup: !!window.UmbraGlobe.state.worldGroup,
+        canvas: !!document.querySelector("#globeContainer canvas")
+      });
+
+      return !!window.UmbraGlobe.state.renderer;
+    } catch (err) {
+      console.error("[Batch542] real globe boot failed", err);
+      return false;
+    }
+  }
+
+  window.UmbraWebGLBootRestore542 = {
+    canCreateWebGL,
+    bootRealGlobe
+  };
+
+  window.addEventListener("load", function () {
+  setTimeout(function () {
+    if (
+      window.UmbraGlobe &&
+      window.UmbraGlobe.state &&
+      (
+        window.UmbraGlobe.state.renderer ||
+        window.UmbraGlobe.state._coreInited ||
+        window.UmbraGlobe.state._rafRunning
+      )
+    ) {
+      console.info("[Batch549R] delayed Batch542 boot aborted: existing globe runtime active");
+      return;
+    }
+
+    bootRealGlobe();
+  }, 2200);
+});
+})();
+</script>
+  <script src="/globe/performance/emergency_globe_performance_mode.js?v=20260603_165102"></script>
+  <script src="/globe/performance/globe_interaction_drawcall_optimizer.js?v=20260603_165700"></script>
+  <script src="/globe/performance/world_city_points_optimizer.js?v=20260603_172600"></script>
+  <script src="/globe/performance/world_city_pick_proxy_restore.js?v=20260603_175608"></script>
+  <script src="/globe/runtime/city_click_tilemap_bridge.js?v=20260603_180100"></script>
+  <script src="/globe/runtime/city_map_back_control.js?v=20260603_183438"></script>
+<script src="/globe/phase3_wave002_runtime_293D.js?v=293D"></script>
+<script src="/globe/phase3_wave002_validation_294.js?v=294"></script>
+<script src="/globe/phase3_wave002_bulk_processing_295.js?v=295"></script>
+<script src="/globe/phase3_wave002_bulk_source_attachment_296.js?v=296"></script>
+<script src="/globe/phase3_wave002_bulk_dossier_validation_297.js?v=297"></script>
+<script src="/globe/phase3_wave002_bulk_promotion_298.js?v=298"></script>
+<script src="/globe/phase4_dossier_foundation_300.js?v=300"></script>
+<script src="/globe/phase4_dossier_source_layer_301.js?v=301"></script>
+<script src="/globe/phase4_dossier_timeline_layer_302.js?v=302"></script>
+<script src="/globe/phase4_dossier_notes_layer_303.js?v=303"></script>
+<script src="/globe/phase4_dossier_actions_layer_304.js?v=304"></script>
+<script src="/globe/phase4_dossier_export_layer_305.js?v=305"></script>
+<script src="/globe/phase4_dossier_ui_panel_306.js?v=306"></script>
+<script src="/globe/phase4_dossier_section_detail_renderer_307.js?v=307"></script>
+<script src="/globe/phase4_dossier_selection_bridge_308.js?v=308"></script>
+<script src="/globe/phase4_entity_click_dossier_bridge_309.js?v=309"></script>
+<script src="/globe/phase4_dossier_persistence_310.js?v=310"></script>
+<script src="/globe/phase4_dossier_registry_integrity_311.js?v=311"></script>
+<script src="/globe/phase4_dossier_search_filter_312.js?v=312"></script>
+<script src="/globe/phase4_dossier_metrics_dashboard_313.js?v=313"></script>
+<script src="/globe/phase4_dossier_metrics_ui_card_314.js?v=314"></script>
+<script src="/globe/phase4_dossier_bulk_builder_315.js?v=315"></script>
+<script src="/globe/phase4_dossier_certification_316.js?v=316"></script>
+<script src="/globe/phase4_dossier_registry_table_317.js?v=317"></script>
+<script src="/globe/phase4_dossier_relationship_graph_318.js?v=318"></script>
+<script src="/globe/phase4_relationship_graph_ui_319.js?v=319"></script>
+<script src="/globe/phase4_midpoint_certification_320.js?v=320"></script>
+<script src="/globe/phase4_executive_dossier_workflows_321.js?v=321"></script>
+<script src="/globe/phase4_executive_workflow_queue_ui_322.js?v=322"></script>
+<script src="/globe/phase4_executive_workflow_actions_323.js?v=323"></script>
+<script src="/globe/phase4_executive_workflow_state_ui_324.js?v=324"></script>
+<script src="/globe/phase4_executive_workflow_metrics_325.js?v=325"></script>
+<script src="/globe/phase4_executive_approval_registry_326.js?v=326"></script>
+<script src="/globe/phase4_executive_decision_timeline_327.js?v=327"></script>
+<script src="/globe/phase4_executive_activity_feed_328.js?v=328"></script>
+<script src="/globe/phase4_executive_dashboard_329.js?v=329"></script>
+<script src="/globe/phase4_executive_certification_330.js?v=330"></script>
+<script src="/globe/phase4_final_lock_foundation_331.js?v=331"></script>
+<script src="/globe/phase4_final_audit_332.js?v=332"></script>
+<script src="/globe/phase4_final_lock_333.js?v=333"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

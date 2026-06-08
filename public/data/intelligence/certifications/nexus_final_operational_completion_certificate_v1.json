@@ -1,0 +1,31 @@
+﻿{
+    "batch":  538,
+    "certificate":  "UMBRA_NEXUS_FINAL_OPERATIONAL_COMPLETION_LOCK",
+    "created_at":  "2026-06-02T21:52:30.8157702-07:00",
+    "pass":  true,
+    "status":  "NEXUS_OPERATIONALLY_COMPLETE",
+    "completed_items":  {
+                            "core_ingestion_for_9_layers":  "FINISHED",
+                            "secondary_runtime":  "FINISHED",
+                            "source_verification":  "FINISHED",
+                            "fallback_globe_rendering":  "FINISHED",
+                            "v3_visual_foundation":  "FINISHED"
+                        },
+    "known_external_blocker":  {
+                                   "true_webgl_globe":  "PENDING_EXTERNAL_BROWSER_GPU_CONTEXT_RESTORE",
+                                   "fallback_mode_active":  true,
+                                   "nexus_runtime_failure":  false
+                               },
+    "checks":  {
+                   "core_ingestion_finished":  true,
+                   "secondary_runtime_finished":  true,
+                   "source_verification_finished":  true,
+                   "fallback_globe_finished":  true,
+                   "v3_visual_foundation_finished":  true,
+                   "phase1_complete":  true,
+                   "v2_complete":  true
+               },
+    "failures":  [
+
+                 ]
+}

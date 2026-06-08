@@ -1,0 +1,189 @@
+﻿{
+    "system":  "Umbra Nexus Client Automation Validation",
+    "version":  "CLIENT_AUTOMATION_VALIDATION_V1",
+    "batch":  578,
+    "created_at":  "2026-06-02T00:06:40.2981961-07:00",
+    "client_automation_validated":  true,
+    "validated_checks":  7,
+    "target_checks":  7,
+    "checks":  {
+                   "master_certification_present":  true,
+                   "production_readiness_forensic_pass":  true,
+                   "client_runtime_files_present":  true,
+                   "client_automation_evidence_present":  true,
+                   "black_dragon_runtime_evidence_present":  true,
+                   "client_setup_evidence_present":  true,
+                   "client_runtime_evidence_present":  true
+               },
+    "detected_client_files":  [
+                                  "C:\\Dev\\Nexus_MASTER\\public\\client_setup_black_dragon.html",
+                                  "C:\\Dev\\Nexus_MASTER\\public\\client_runtime_black_dragon.html",
+                                  "C:\\Dev\\Nexus_MASTER\\dist\\client_setup_black_dragon.html",
+                                  "C:\\Dev\\Nexus_MASTER\\dist\\client_runtime_black_dragon.html"
+                              ],
+    "automation_hit_count":  523292,
+    "automation_examples":  [
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\access_setup\\client_setup_manifest_20260512_002829.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\access_setup\\client_setup_manifest_20260512_002829.json",
+                                    "LineNumber":  17,
+                                    "Line":  "  \"status\": \"ready_for_client_setup_link_delivery\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\access_setup\\client_setup_manifest_20260512_060137.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\access_setup\\client_setup_manifest_20260512_060137.json",
+                                    "LineNumber":  17,
+                                    "Line":  "  \"status\": \"ready_for_client_setup_link_delivery\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\access_setup\\client_setup_manifest_20260512_061248.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\access_setup\\client_setup_manifest_20260512_061248.json",
+                                    "LineNumber":  17,
+                                    "Line":  "  \"status\": \"ready_for_client_setup_link_delivery\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\access_setup\\client_setup_manifest_20260512_183233.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\access_setup\\client_setup_manifest_20260512_183233.json",
+                                    "LineNumber":  17,
+                                    "Line":  "  \"status\": \"ready_for_client_setup_link_delivery\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224210\\canonical_processing_verification.json",
+                                    "LineNumber":  10,
+                                    "Line":  "    \"json\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.json\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224210\\canonical_processing_verification.json",
+                                    "LineNumber":  11,
+                                    "Line":  "    \"csv\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.csv\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224210\\handoff_manifest.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224210\\handoff_manifest.json",
+                                    "LineNumber":  16,
+                                    "Line":  "  \"freeze_path\": \".\\\\artifacts\\\\black_dragon\\\\client_handoff_freeze_20260511_224210\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224420\\canonical_processing_verification.json",
+                                    "LineNumber":  10,
+                                    "Line":  "    \"json\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.json\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224420\\canonical_processing_verification.json",
+                                    "LineNumber":  11,
+                                    "Line":  "    \"csv\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.csv\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224420\\handoff_manifest.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224420\\handoff_manifest.json",
+                                    "LineNumber":  16,
+                                    "Line":  "  \"freeze_path\": \".\\\\artifacts\\\\black_dragon\\\\client_handoff_freeze_20260511_224420\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224856\\canonical_processing_verification.json",
+                                    "LineNumber":  10,
+                                    "Line":  "    \"json\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.json\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224856\\canonical_processing_verification.json",
+                                    "LineNumber":  11,
+                                    "Line":  "    \"csv\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.csv\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224856\\handoff_manifest.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_224856\\handoff_manifest.json",
+                                    "LineNumber":  16,
+                                    "Line":  "  \"freeze_path\": \".\\\\artifacts\\\\black_dragon\\\\client_handoff_freeze_20260511_224856\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225138\\canonical_processing_verification.json",
+                                    "LineNumber":  10,
+                                    "Line":  "    \"json\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.json\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225138\\canonical_processing_verification.json",
+                                    "LineNumber":  11,
+                                    "Line":  "    \"csv\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.csv\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225138\\handoff_manifest.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225138\\handoff_manifest.json",
+                                    "LineNumber":  16,
+                                    "Line":  "  \"freeze_path\": \".\\\\artifacts\\\\black_dragon\\\\client_handoff_freeze_20260511_225138\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225343\\canonical_processing_verification.json",
+                                    "LineNumber":  10,
+                                    "Line":  "    \"json\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.json\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225343\\canonical_processing_verification.json",
+                                    "LineNumber":  11,
+                                    "Line":  "    \"csv\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.csv\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225343\\handoff_manifest.json",
+                                    "LineNumber":  2,
+                                    "Line":  "  \"client_id\": \"black_dragon\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225343\\handoff_manifest.json",
+                                    "LineNumber":  16,
+                                    "Line":  "  \"freeze_path\": \".\\\\artifacts\\\\black_dragon\\\\client_handoff_freeze_20260511_225343\""
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225442\\canonical_processing_verification.json",
+                                    "LineNumber":  10,
+                                    "Line":  "    \"json\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.json\","
+                                },
+                                {
+                                    "Path":  "C:\\Dev\\Nexus_MASTER\\artifacts\\black_dragon\\client_handoff_freeze_20260511_225442\\canonical_processing_verification.json",
+                                    "LineNumber":  11,
+                                    "Line":  "    \"csv\": \".\\\\logs\\\\black_dragon\\\\globe_integrity\\\\canonical_processing_verification.csv\""
+                                }
+                            ],
+    "deterministic":  true,
+    "replay_safe":  true,
+    "runtime_mutation_prohibited":  true,
+    "production_runtime_enabled":  false,
+    "runtime_promotion_enabled":  false,
+    "black_dragon_isolated":  true,
+    "next_required_action":  "BATCH_579_FINAL_NEXUS_CERTIFICATION_LOCK",
+    "failures":  [
+
+                 ],
+    "failure_count":  0,
+    "pass":  true
+}

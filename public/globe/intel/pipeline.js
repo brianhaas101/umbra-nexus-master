@@ -1,4 +1,4 @@
-// public/globe/intel/pipeline.js
+﻿// public/globe/intel/pipeline.js
 (function () {
   const G = window.UmbraGlobe;
   if (!G) {
@@ -198,3 +198,203 @@
 
   console.log("[intel/pipeline] LOADED");
 })();
+
+// BATCH 603R: native legacy alias export for pipeline
+(function bindNativeIntelPipelineAliases603R() {
+  const G = window.UmbraGlobe;
+  if (!G || !G.intel || !G.intel.pipeline) return;
+  G.IntelligencePipeline = G.IntelligencePipeline || G.intel.pipeline;
+  G.intelligencePipeline = G.intelligencePipeline || G.intel.pipeline;
+  G.__nativeIntelPipelineAlias603R = {
+    installed: true,
+    hasPipeline: !!G.intel.pipeline
+  };
+})();
+
+// BATCH 609R: native intelligence scoring foundation
+(function installNativeIntelligenceScoring609R() {
+  const G = window.UmbraGlobe = window.UmbraGlobe || {};
+  G.intel = G.intel || {};
+  G.intel.pipeline = G.intel.pipeline || {};
+
+  if (G.intel.pipeline.__nativeScoring609RInstalled) return;
+  G.intel.pipeline.__nativeScoring609RInstalled = true;
+
+  const TIERS = [
+    { min: 90, tier: "CRITICAL" },
+    { min: 75, tier: "HIGH" },
+    { min: 50, tier: "MEDIUM" },
+    { min: 25, tier: "LOW" },
+    { min: 0, tier: "DORMANT" }
+  ];
+
+  function num(value, fallback) {
+    const n = Number(value);
+    return Number.isFinite(n) ? n : (fallback || 0);
+  }
+
+  function clamp(value, min, max) {
+    return Math.max(min, Math.min(max, value));
+  }
+
+  function resolveTier(score) {
+    const n = clamp(num(score), 0, 100);
+    for (const entry of TIERS) {
+      if (n >= entry.min) return entry.tier;
+    }
+    return "DORMANT";
+  }
+
+  function deriveActivity(entity) {
+    return clamp(
+      num(entity.activityScore) ||
+      num(entity.activity_score) ||
+      num(entity.activity) ||
+      (entity.status === "active" ? 15 : 5),
+      0,
+      20
+    );
+  }
+
+  function deriveRelationships(entity) {
+    const links = Array.isArray(entity.relationships) ? entity.relationships.length : 0;
+    const connected = Array.isArray(entity.connected_entities) ? entity.connected_entities.length : 0;
+    return clamp(
+      num(entity.relationshipScore) ||
+      num(entity.relationship_score) ||
+      links * 4 ||
+      connected * 4 ||
+      8,
+      0,
+      20
+    );
+  }
+
+  function deriveSignals(entity) {
+    const tags = Array.isArray(entity.tags) ? entity.tags.length : 0;
+    const signals = Array.isArray(entity.signals) ? entity.signals.length : 0;
+    const alerts = Array.isArray(entity.alerts) ? entity.alerts.length : 0;
+    return clamp(
+      num(entity.signalScore) ||
+      num(entity.signal_score) ||
+      signals * 4 + alerts * 5 + tags * 2 ||
+      10,
+      0,
+      20
+    );
+  }
+
+  function derivePriority(entity) {
+    const raw =
+      entity.priority ||
+      entity.node_priority ||
+      entity.lead_priority ||
+      entity.status ||
+      "";
+
+    const text = String(raw).toLowerCase();
+
+    if (text.includes("critical")) return 20;
+    if (text.includes("high")) return 17;
+    if (text.includes("tracked")) return 15;
+    if (text.includes("medium")) return 12;
+    if (text.includes("low")) return 7;
+
+    return clamp(
+      num(entity.priorityScore) ||
+      num(entity.priority_score) ||
+      num(entity.node_priority) ||
+      10,
+      0,
+      20
+    );
+  }
+
+  function deriveRecency(entity) {
+    const raw =
+      entity.updated_at ||
+      entity.last_updated ||
+      entity.lastSeen ||
+      entity.created_at ||
+      null;
+
+    if (!raw) return 10;
+
+    const t = Date.parse(raw);
+    if (!Number.isFinite(t)) return 10;
+
+    const ageDays = Math.max(0, (Date.now() - t) / 86400000);
+
+    if (ageDays <= 1) return 20;
+    if (ageDays <= 7) return 16;
+    if (ageDays <= 30) return 12;
+    if (ageDays <= 90) return 8;
+    return 4;
+  }
+
+  function scoreEntity(entity) {
+    const target = entity || {};
+
+    const activity = deriveActivity(target);
+    const relationships = deriveRelationships(target);
+    const signals = deriveSignals(target);
+    const priority = derivePriority(target);
+    const recency = deriveRecency(target);
+
+    const score = clamp(
+      Math.round(activity + relationships + signals + priority + recency),
+      0,
+      100
+    );
+
+    const intelligence = {
+      score,
+      tier: resolveTier(score),
+      activity,
+      relationships,
+      signals,
+      priority,
+      recency,
+      scored_at: new Date().toISOString(),
+      source: "609R_native_intelligence_scoring"
+    };
+
+    target.intelligence = intelligence;
+    return intelligence;
+  }
+
+  function scoreAllEntities(entities) {
+    const list = Array.isArray(entities)
+      ? entities
+      : (Array.isArray(window.UMBRA_DATA?.entities) ? window.UMBRA_DATA.entities : []);
+
+    return list
+      .map(entity => {
+        scoreEntity(entity);
+        return entity;
+      })
+      .sort((a, b) => {
+        return (b.intelligence?.score || 0) - (a.intelligence?.score || 0);
+      });
+  }
+
+  function getTopEntities(limit) {
+    const n = Math.max(1, Number(limit || 10));
+    return scoreAllEntities().slice(0, n);
+  }
+
+  G.intel.pipeline.scoreEntity = scoreEntity;
+  G.intel.pipeline.scoreAllEntities = scoreAllEntities;
+  G.intel.pipeline.getTopEntities = getTopEntities;
+  G.intel.pipeline.resolveTier = resolveTier;
+  G.intel.pipeline.__nativeScoring609R = {
+    installed: true,
+    tiers: TIERS.map(t => ({ min: t.min, tier: t.tier }))
+  };
+
+  G.IntelligencePipeline = G.IntelligencePipeline || G.intel.pipeline;
+  G.intelligencePipeline = G.intelligencePipeline || G.intel.pipeline;
+
+  console.log("[609R] native intelligence scoring foundation installed", G.intel.pipeline.__nativeScoring609R);
+})();
+

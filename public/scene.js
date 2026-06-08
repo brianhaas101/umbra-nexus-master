@@ -19,7 +19,16 @@
       return;
     }
 
-    if (st._booted) return;
+    if (st._booted) {
+      const coreMissing = !st.renderer || !st.scene || !st.camera || !st.worldGroup;
+      if (!coreMissing) return;
+
+      console.warn("[scene] _booted=true but core missing; allowing V2 recovery reboot.");
+      st._booted = false;
+      st._rafRunning = false;
+      st._rafId = 0;
+    }
+
     st._booted = true;
 
     st._pendingCityMapClear = false;
@@ -46,12 +55,32 @@
           return;
         }
 
-        try {
-          renderFn(t);
-        } catch (e) {
-          stopRAF();
-          console.error("[scene] renderFrame error; stopped loop:", e);
-          return;
+        const now = Number(t || performance.now());
+        const lastRender = Number(st._lastActualRenderTime || 0);
+        const heartbeatMs = Number(st._idleRenderHeartbeatMs || 250);
+
+        const vx = Math.abs(Number(st.velocity?.x || 0));
+        const vy = Math.abs(Number(st.velocity?.y || 0));
+        const moving =
+          !!st.isDragging ||
+          vx > 0.000001 ||
+          vy > 0.000001 ||
+          Math.abs(Number(st.camera?.position?.z || 0) - Number(st.targetZoom || st.camera?.position?.z || 0)) > 0.0005 ||
+          !!st._forceNextRender;
+
+        const shouldRender = moving || !lastRender || (now - lastRender >= heartbeatMs);
+
+        if (shouldRender) {
+          st._forceNextRender = false;
+          st._lastActualRenderTime = now;
+
+          try {
+            renderFn(t);
+          } catch (e) {
+            stopRAF();
+            console.error("[scene] renderFrame error; stopped loop:", e);
+            return;
+          }
         }
 
         st._rafId = requestAnimationFrame(tick);
@@ -315,6 +344,19 @@
       try { G.updateTelemetry?.(); } catch {}
     }
 
+    function hasSceneCityRegistryEntry(cityId) {
+      const cid = String(cityId || "").trim();
+      const registry = st?.citiesById;
+      if (!cid || !registry) return false;
+
+      if (registry instanceof Map) return registry.has(cid);
+
+      if (typeof registry === "object") {
+        return Object.prototype.hasOwnProperty.call(registry, cid);
+      }
+
+      return false;
+    }
     async function syncActiveCityAsset(reason) {
       const cid = String(st.activeCityId || "").trim();
       const mode = String(st.mode || "").toUpperCase();
@@ -325,8 +367,13 @@
         return false;
       }
 
-      if (!(st.citiesById instanceof Map) || !st.citiesById.has(cid)) {
-        console.error("[scene] syncActiveCityAsset invalid activeCityId", cid);
+      if (!hasSceneCityRegistryEntry(cid)) {
+        console.error("[scene] syncActiveCityAsset invalid activeCityId", cid, {
+          registryType: st.citiesById instanceof Map ? "Map" : typeof st.citiesById,
+          registryCount: st.citiesById instanceof Map
+            ? st.citiesById.size
+            : (st.citiesById && typeof st.citiesById === "object" ? Object.keys(st.citiesById).length : 0)
+        });
         clearActiveCityAssetState();
         return false;
       }
@@ -455,6 +502,7 @@
         st._pendingCityMapClearReason = "";
 
         const result = originalEnterCityMap ? originalEnterCityMap(cid, source) : false;
+st._cityMapEnteredAtMs = performance.now();
 
         Promise.resolve()
           .then(() => syncActiveCityAsset(`enterCityMap:${String(source || "unknown")}`))
@@ -573,6 +621,7 @@
             st._integrityTimer = 0;
             startRAF(renderFrame);
 
+            try { G.logFounderRuntimeHealthSnapshot?.("scene_boot_complete"); } catch {}
             console.log("[scene] BOOT COMPLETE");
           }
 
@@ -673,22 +722,29 @@
           : Number(st.defaultZoom || 3.2);
 
         const z = Number(st.camera.position.z || targetZoom);
-        st.camera.position.z = z + (targetZoom - z) * Math.min(1, dt * 10);
+const safeTargetZoom = Math.max(1.3, Number(targetZoom || 3.2));
+const nextZ = z + (safeTargetZoom - z) * Math.min(1, dt * 10);
+
+st.targetZoom = safeTargetZoom;
+st.camera.position.z = Math.abs(safeTargetZoom - nextZ) < 0.0008 ? safeTargetZoom : nextZ;
       }
 
       if (st.starfieldMesh) {
         st.starfieldMesh.position.copy(st.camera.position);
       }
+      st._cityRuntimeTickMs = Number(st._cityRuntimeTickMs || 0) + (dt * 1000);
+      if (st._cityRuntimeTickMs >= 125) {
+        st._cityRuntimeTickMs = 0;
 
-      try { G.updateCityView?.(); } catch (e) { console.error("[scene] updateCityView failed", e); }
-      try { G.tickCityView?.(dt); } catch (e) { console.error("[scene] tickCityView failed", e); }
+        try { G.updateCityView?.(); } catch (e) { console.error("[scene] updateCityView failed", e); }
+        try { G.tickCityView?.(dt); } catch (e) { console.error("[scene] tickCityView failed", e); }
 
-      try { G.updateCityMap?.(); } catch (e) { console.error("[scene] updateCityMap failed", e); }
-      try { G.tickCityMap?.(dt); } catch (e) { console.error("[scene] tickCityMap failed", e); }
+        try { G.updateCityMap?.(); } catch (e) { console.error("[scene] updateCityMap failed", e); }
+        try { G.tickCityMap?.(dt); } catch (e) { console.error("[scene] tickCityMap failed", e); }
 
-      processPendingCityMapClear();
-
-      st._integrityTimer = Number(st._integrityTimer || 0) + dt;
+        processPendingCityMapClear();
+      }
+st._integrityTimer = Number(st._integrityTimer || 0) + dt;
       if (st._integrityTimer >= 1.0) {
         st._integrityTimer = 0;
         verifyRuntimeOrStop("RUNTIME");
@@ -704,6 +760,16 @@
     boot();
   }
 })();
+
+
+
+
+
+
+
+
+
+
 
 
 

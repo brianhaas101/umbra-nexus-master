@@ -1,4 +1,4 @@
-// public/globe/ui.js
+﻿// public/globe/ui.js
 (function () {
   const G = window.UmbraGlobe;
   if (!G) return console.error("[ui] window.UmbraGlobe missing.");
@@ -132,8 +132,8 @@
     G.state = G.state || {};
 
     const existing = (G.state.ui && typeof G.state.ui === "object") ? G.state.ui : null;
-    const view = VIEW_KEYS.includes(existing?.view) ? existing.view : "hub";
-    const hubSection = HUB_KEYS.includes(existing?.hubSection) ? existing.hubSection : "leads";
+    const view = VIEW_KEYS.includes(existing?.view) ? existing.view : "—";
+    const hubSection = HUB_KEYS.includes(existing?.hubSection) ? existing.hubSection : "—";
     const initialized = !!existing?.initialized;
 
     if (existing) {
@@ -210,7 +210,7 @@
 
   function setText(id, value) {
     const el = $(id);
-    if (el) el.textContent = String(value || "ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â");
+    if (el) el.textContent = String(value || "—");
   }
 
   function updateHubMeta(ui) {
@@ -485,9 +485,7 @@
   function ensureFounderAccount(store) {
     if (!store.users) store.users = {};
 
-    const defaultUserId = window.UMBRA_CLIENT_KEY === "black_dragon"
-      ? "client_black_dragon"
-      : "founder_001";
+    const defaultUserId = "founder_001";
 
     if (!store.users[defaultUserId]) {
       store.users[defaultUserId] = createDefaultUser(defaultUserId, ROLES.FOUNDER);
@@ -500,9 +498,7 @@
     let store = loadStore();
 
     if (!store || typeof store !== "object" || !store.users) {
-    const defaultUserId = window.UMBRA_CLIENT_KEY === "black_dragon"
-      ? "client_black_dragon"
-      : "founder_001";
+    const defaultUserId = "founder_001";
 
     const founder = createDefaultUser(defaultUserId, ROLES.FOUNDER);
 
@@ -521,7 +517,7 @@
     });
 
     if (!store.active_user || !store.users[store.active_user]) {
-    store.active_user = (window.UMBRA_CLIENT_KEY === "black_dragon" ? "client_black_dragon" : "founder_001");
+    store.active_user = ("founder_001");
     }
 
     if (!G.state._userStoreInitialized) {
@@ -597,7 +593,7 @@
   }
 
   const currentIsFounder = isFounder(current);
-  const returningToFounder = user_id === (window.UMBRA_CLIENT_KEY === "black_dragon" ? "client_black_dragon" : "founder_001");
+  const returningToFounder = user_id === ("founder_001");
 
   if (!currentIsFounder && !returningToFounder) {
     console.warn("[user] SWITCH USER BLOCKED (not founder)");
@@ -769,12 +765,12 @@
 
       if (Array.isArray(value)) {
         el.innerHTML = value.length
-          ? value.map((x) => `<div>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ ${String(x)}</div>`).join("")
-          : "ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â";
+          ? value.map((x) => `<div>• ${String(x)}</div>`).join("")
+          : "—";
         return;
       }
 
-      el.textContent = String(value || "ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â");
+      el.textContent = String(value || "—");
     };
 
     set("clientConfigIndustry", cfg.industry);
@@ -799,7 +795,7 @@
       const role = normalizeRole(user.profile?.role);
       const name = user.profile?.name || user_id;
 
-      opt.textContent = `${name} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ${role}`;
+      opt.textContent = `${name} — ${role}`;
 
       if (user_id === store.active_user) {
         opt.selected = true;
@@ -1196,3 +1192,5 @@
     });
   };
 })();
+
+

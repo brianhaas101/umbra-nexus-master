@@ -1,0 +1,8 @@
+﻿{
+    "deterministic":  true,
+    "replay_mode":  "LOCKED",
+    "replay_safe":  true,
+    "unlock_mode":  "CONTROLLED",
+    "runtime_mode":  "CERTIFICATION",
+    "execution_mode":  "STRICT"
+}

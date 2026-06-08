@@ -1,4 +1,4 @@
-// public/globe/intel/registry.js
+﻿// public/globe/intel/registry.js
 (function () {
   const G = window.UmbraGlobe;
   if (!G) {
@@ -164,3 +164,16 @@
     sources: REGISTRY.SOURCES.length
   });
 })();
+
+// BATCH 603R: native legacy alias export for registry
+(function bindNativeIntelRegistryAliases603R() {
+  const G = window.UmbraGlobe;
+  if (!G || !G.intel || !G.intel.registry) return;
+  G.IntelligenceRegistry = G.IntelligenceRegistry || G.intel.registry;
+  G.intelligenceRegistry = G.intelligenceRegistry || G.intel.registry;
+  G.__nativeIntelRegistryAlias603R = {
+    installed: true,
+    hasRegistry: !!G.intel.registry
+  };
+})();
+

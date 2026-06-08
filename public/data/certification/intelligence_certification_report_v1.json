@@ -1,0 +1,275 @@
+{
+  "certification": "INTELLIGENCE_CERTIFICATION_REPORT_V1",
+  "phase": "PHASE 2 - Intelligence Certification",
+  "generatedAt": "2026-06-07T18:35:00.321Z",
+  "status": "CERTIFIED WITH WARNINGS",
+  "audits": [
+    {
+      "id": 1,
+      "name": "Phase 1 lock dependency",
+      "status": "PASS",
+      "evidence": {
+        "result": "CERTIFIED WITH WARNINGS"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Finalization phase status audit",
+      "status": "PASS",
+      "evidence": {
+        "current_mode": "CERTIFICATION_COMPLETION"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Intelligence entity corpus audit",
+      "status": "PASS",
+      "evidence": {
+        "entities": 250
+      }
+    },
+    {
+      "id": 4,
+      "name": "Intelligence city coverage audit",
+      "status": "PASS",
+      "evidence": {
+        "cities": 50
+      }
+    },
+    {
+      "id": 5,
+      "name": "Synthetic intelligence marker audit",
+      "status": "WARN",
+      "message": "Synthetic/demo entities remain in active corpus",
+      "evidence": {
+        "syntheticCount": 240,
+        "sample": [
+          "CITY-001-ENT-01",
+          "CITY-001-ENT-02",
+          "CITY-001-ENT-03",
+          "CITY-001-ENT-04",
+          "CITY-001-ENT-05",
+          "CITY-003-ENT-01",
+          "CITY-003-ENT-02",
+          "CITY-003-ENT-03",
+          "CITY-003-ENT-04",
+          "CITY-003-ENT-05",
+          "CITY-004-ENT-01",
+          "CITY-004-ENT-02",
+          "CITY-004-ENT-03",
+          "CITY-004-ENT-04",
+          "CITY-004-ENT-05",
+          "CITY-005-ENT-01",
+          "CITY-005-ENT-02",
+          "CITY-005-ENT-03",
+          "CITY-005-ENT-04",
+          "CITY-005-ENT-05"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Entity source attachment audit",
+      "status": "PASS",
+      "evidence": {
+        "sourcedEntities": 250
+      }
+    },
+    {
+      "id": 7,
+      "name": "Layer source catalog audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/sources/layer_source_catalog_index.json"
+      }
+    },
+    {
+      "id": 8,
+      "name": "National source coverage matrix audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/sources/national_source_coverage_matrix.json"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Source gap analysis audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/sources/source_gap_analysis.json"
+      }
+    },
+    {
+      "id": 10,
+      "name": "L12 engagement response source audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/sources/L12_ENGAGEMENT_RESPONSE.sources.json"
+      }
+    },
+    {
+      "id": 11,
+      "name": "L12 conversion intelligence source audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/sources/L12_ENGAGEMENT_RESPONSE_CONVERSION_INTELLIGENCE.sources.json"
+      }
+    },
+    {
+      "id": 12,
+      "name": "City map intelligence contract audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/ui/city_map_contracts.v1.json"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Dossier intelligence contract audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/ui/dossier_view_contracts.v1.json"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Controlled unlock registry audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/unlock/controlled_unlock_dry_run_registry.v1.json"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Wave 012 promotion registry audit",
+      "status": "PASS",
+      "evidence": {
+        "wave_id": "WAVE_012",
+        "runtime_status": "VALIDATED_RUNTIME_ACTIVE",
+        "validated_city_count": 100
+      }
+    },
+    {
+      "id": 16,
+      "name": "Wave 013 promotion registry audit",
+      "status": "PASS",
+      "evidence": {
+        "wave_id": "WAVE_013",
+        "runtime_status": "VALIDATED_RUNTIME_ACTIVE",
+        "validated_city_count": 100,
+        "production_runtime_enabled": false
+      }
+    },
+    {
+      "id": 17,
+      "name": "Wave 013 city checkpoint audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/intelligence/validated/wave_013/wave_013_master_990_city_checkpoint.v1.json"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Black Dragon intelligence isolation audit",
+      "status": "PASS",
+      "evidence": {
+        "path": "public/data/security/readiness/black_dragon_controlled_client_pilot_ready.json"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Command intelligence surface static audit",
+      "status": "WARN",
+      "message": "Command/intelligence markers are thin in city_map.js",
+      "evidence": {
+        "commandFound": [
+          "dossier"
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "Runtime intelligence bridge audit",
+      "status": "PASS",
+      "evidence": {
+        "runtimeFound": [
+          "nodeRegistry",
+          "pickMeshes",
+          "cityMapNodeRegistry",
+          "maps.nodes"
+        ]
+      }
+    }
+  ],
+  "blockers": [],
+  "warnings": [
+    {
+      "id": 5,
+      "name": "Synthetic intelligence marker audit",
+      "message": "Synthetic/demo entities remain in active corpus",
+      "evidence": {
+        "syntheticCount": 240,
+        "sample": [
+          "CITY-001-ENT-01",
+          "CITY-001-ENT-02",
+          "CITY-001-ENT-03",
+          "CITY-001-ENT-04",
+          "CITY-001-ENT-05",
+          "CITY-003-ENT-01",
+          "CITY-003-ENT-02",
+          "CITY-003-ENT-03",
+          "CITY-003-ENT-04",
+          "CITY-003-ENT-05",
+          "CITY-004-ENT-01",
+          "CITY-004-ENT-02",
+          "CITY-004-ENT-03",
+          "CITY-004-ENT-04",
+          "CITY-004-ENT-05",
+          "CITY-005-ENT-01",
+          "CITY-005-ENT-02",
+          "CITY-005-ENT-03",
+          "CITY-005-ENT-04",
+          "CITY-005-ENT-05"
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Command intelligence surface static audit",
+      "message": "Command/intelligence markers are thin in city_map.js",
+      "evidence": {
+        "commandFound": [
+          "dossier"
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "entities": 250,
+    "cities": 50,
+    "syntheticEntities": 240,
+    "sourcedEntities": 250,
+    "unsourcedEntities": 0,
+    "pass": 18,
+    "warn": 2,
+    "fail": 0
+  },
+  "files": {
+    "phase1Lock": true,
+    "phaseStatus": true,
+    "leads": true,
+    "sourceCatalog": true,
+    "nationalCoverage": true,
+    "gapAnalysis": true,
+    "l12Engagement": true,
+    "l12Conversion": true,
+    "cityContracts": true,
+    "dossierContracts": true,
+    "unlockRegistry": true,
+    "wave12Promotion": true,
+    "wave13Promotion": true,
+    "wave13Checkpoint": true,
+    "blackDragonReady": true,
+    "cityMap": true
+  }
+}

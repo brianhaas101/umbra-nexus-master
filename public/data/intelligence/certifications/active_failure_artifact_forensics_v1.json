@@ -1,0 +1,450 @@
+﻿{
+    "system":  "Umbra Nexus Active Failure Artifact Forensics",
+    "version":  "ACTIVE_FAILURE_ARTIFACT_FORENSICS_V1",
+    "batch":  581,
+    "created_at":  "2026-06-02T00:22:27.3337553-07:00",
+    "total_failure_artifacts":  85,
+    "classified_failure_artifacts":  85,
+    "superseded_by_final_certification_count":  75,
+    "repaired_or_rerun_artifact_count":  0,
+    "unresolved_review_required_count":  10,
+    "final_certification_exists":  true,
+    "post_certification_integrity_exists":  true,
+    "client_automation_certification_exists":  true,
+    "production_readiness_certification_exists":  true,
+    "master_certification_exists":  true,
+    "unresolved_examples":  [
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_dom_contract_repair_status_526_20260601_203352.json",
+                                    "name":  "founder_dom_contract_repair_status_526_20260601_203352.json",
+                                    "line_number":  28,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_health_binding_readback_lock_status_548_20260601_220241.json",
+                                    "name":  "founder_health_binding_readback_lock_status_548_20260601_220241.json",
+                                    "line_number":  42,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_metrics_readback_lock_status_544_20260601_215421.json",
+                                    "name":  "founder_metrics_readback_lock_status_544_20260601_215421.json",
+                                    "line_number":  48,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_ui_structure_restoration_trace_status_525_20260601_203133.json",
+                                    "name":  "founder_ui_structure_restoration_trace_status_525_20260601_203133.json",
+                                    "line_number":  114,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\v2_master_dataset_source_trace_status_519_20260601_202040.json",
+                                    "name":  "v2_master_dataset_source_trace_status_519_20260601_202040.json",
+                                    "line_number":  80,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\founder_dom_contract_repair_lock_526_20260601_203352.json",
+                                    "name":  "founder_dom_contract_repair_lock_526_20260601_203352.json",
+                                    "line_number":  28,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\founder_health_binding_readback_lock_548_20260601_220241.json",
+                                    "name":  "founder_health_binding_readback_lock_548_20260601_220241.json",
+                                    "line_number":  42,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\founder_metrics_readback_lock_544_20260601_215421.json",
+                                    "name":  "founder_metrics_readback_lock_544_20260601_215421.json",
+                                    "line_number":  48,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\founder_ui_structure_restoration_trace_lock_525_20260601_203133.json",
+                                    "name":  "founder_ui_structure_restoration_trace_lock_525_20260601_203133.json",
+                                    "line_number":  114,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\v2_master_dataset_source_trace_lock_519_20260601_202040.json",
+                                    "name":  "v2_master_dataset_source_trace_lock_519_20260601_202040.json",
+                                    "line_number":  80,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                }
+                            ],
+    "classified_examples":  [
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  30,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  48,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  66,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  84,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  102,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  120,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  138,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  156,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  174,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  192,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  210,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  228,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_status_563_20260601_224304.json",
+                                    "line_number":  246,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_dashboard_visual_binding_audit_status_535_20260601_212101.json",
+                                    "name":  "founder_dashboard_visual_binding_audit_status_535_20260601_212101.json",
+                                    "line_number":  77,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_dom_contract_repair_status_526_20260601_203352.json",
+                                    "name":  "founder_dom_contract_repair_status_526_20260601_203352.json",
+                                    "line_number":  28,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_health_binding_readback_lock_status_548_20260601_220241.json",
+                                    "name":  "founder_health_binding_readback_lock_status_548_20260601_220241.json",
+                                    "line_number":  42,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_metrics_readback_lock_status_544_20260601_215421.json",
+                                    "name":  "founder_metrics_readback_lock_status_544_20260601_215421.json",
+                                    "line_number":  48,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\founder_ui_structure_restoration_trace_status_525_20260601_203133.json",
+                                    "name":  "founder_ui_structure_restoration_trace_status_525_20260601_203133.json",
+                                    "line_number":  114,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\nexus_full_state_audit_status_575_20260601_233143.json",
+                                    "name":  "nexus_full_state_audit_status_575_20260601_233143.json",
+                                    "line_number":  46,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\post_certification_integrity_status_580_20260602_001640.json",
+                                    "name":  "post_certification_integrity_status_580_20260602_001640.json",
+                                    "line_number":  144,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\production_readiness_validation_status_577_20260601_234136.json",
+                                    "name":  "production_readiness_validation_status_577_20260601_234136.json",
+                                    "line_number":  34,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  31,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  49,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  67,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  85,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  103,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  121,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  139,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  157,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  175,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  193,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  211,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  229,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "name":  "secondary_runtime_execution_readiness_audit_status_568_20260601_230352.json",
+                                    "line_number":  247,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\secondary_runtime_replay_state_ledger_status_503_20260601_192306.json",
+                                    "name":  "secondary_runtime_replay_state_ledger_status_503_20260601_192306.json",
+                                    "line_number":  25,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\status\\v2_master_dataset_source_trace_status_519_20260601_202040.json",
+                                    "name":  "v2_master_dataset_source_trace_status_519_20260601_202040.json",
+                                    "line_number":  80,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "UNRESOLVED_REVIEW_REQUIRED"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  30,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  48,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  66,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  84,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  102,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  120,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  138,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  156,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  174,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  192,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  210,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  228,
+                                    "line":  "                              \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "name":  "core_layer_authority_validation_lock_563_20260601_224304.json",
+                                    "line_number":  246,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                },
+                                {
+                                    "path":  "C:\\Dev\\Nexus_MASTER\\public\\data\\intelligence\\locks\\founder_dashboard_visual_binding_audit_lock_535_20260601_212101.json",
+                                    "name":  "founder_dashboard_visual_binding_audit_lock_535_20260601_212101.json",
+                                    "line_number":  77,
+                                    "line":  "    \"pass\":  false",
+                                    "classification":  "SUPERSEDED_BY_FINAL_CERTIFICATION"
+                                }
+                            ],
+    "deterministic":  true,
+    "replay_safe":  true,
+    "runtime_mutation_prohibited":  true,
+    "certification_state":  "ACTIVE_FAILURE_REVIEW_REQUIRED",
+    "next_required_action":  "REVIEW_UNRESOLVED_FAILURE_ARTIFACTS",
+    "failures":  [
+                     "unresolved_failure_artifacts_present"
+                 ],
+    "failure_count":  1,
+    "pass":  false
+}

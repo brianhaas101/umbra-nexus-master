@@ -1,0 +1,48 @@
+{
+  "id": "PHASE_3_SOURCE_EVIDENCE_INTAKE_SCHEMA_V1",
+  "batch": 279,
+  "generated_at": "2026-06-07T18:49:59.281Z",
+  "runtime_visible": true,
+  "required_fields_per_source": [
+    "source_id",
+    "source_type",
+    "source_name",
+    "source_url_or_reference",
+    "evidence_summary",
+    "confidence",
+    "attached_at"
+  ],
+  "allowed_source_types": [
+    "official_registry_or_business_profile",
+    "public_web_presence_or_social_profile",
+    "review_platform",
+    "news_or_press",
+    "directory_listing",
+    "portfolio_or_casework",
+    "client_provided_evidence"
+  ],
+  "disallowed_source_types": [
+    "synthetic-demo",
+    "placeholder",
+    "internal_guess",
+    "unsourced_ai_generation"
+  ],
+  "scoring": {
+    "official_registry_or_business_profile": 20,
+    "public_web_presence_or_social_profile": 15,
+    "review_platform": 10,
+    "news_or_press": 10,
+    "directory_listing": 8,
+    "portfolio_or_casework": 12,
+    "client_provided_evidence": 8,
+    "maximum_source_score": 35,
+    "source_validated_threshold": 35
+  },
+  "source_validation_policy": {
+    "requires_minimum_two_sources": true,
+    "requires_one_official_or_business_profile": true,
+    "requires_one_public_web_or_social_profile": true,
+    "no_candidate_promoted_by_packet_creation": true,
+    "evidence_packets_are_empty_until_sources_are_attached": true
+  }
+}

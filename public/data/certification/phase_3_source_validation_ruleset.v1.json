@@ -1,0 +1,32 @@
+{
+  "id": "PHASE_3_SOURCE_VALIDATION_RULESET_V1",
+  "batch": 278,
+  "generated_at": "2026-06-07T18:47:34.795Z",
+  "minimum_required_sources": 2,
+  "required_source_types": [
+    "official_registry_or_business_profile",
+    "public_web_presence_or_social_profile"
+  ],
+  "optional_source_types": [
+    "review_platform",
+    "news_or_press",
+    "directory_listing",
+    "portfolio_or_casework",
+    "client_provided_evidence"
+  ],
+  "disallowed_as_primary_sources": [
+    "synthetic-demo",
+    "placeholder",
+    "internal_guess",
+    "unsourced_ai_generation"
+  ],
+  "validation_thresholds": {
+    "source_score_required_for_source_validated": 35,
+    "candidate_score_required_for_promotion_eligibility": 90
+  },
+  "truth_policy": {
+    "source_queue_does_not_equal_source_validation": true,
+    "candidates_remain_unverified_until_real_sources_are_attached": true,
+    "no_candidate_is_promoted_by_this_batch": true
+  }
+}

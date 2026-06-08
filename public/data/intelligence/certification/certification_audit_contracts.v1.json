@@ -1,0 +1,11 @@
+﻿{
+    "audit_contracts":  [
+                            "STRICT_REPLAY_VALIDATION",
+                            "STRICT_RUNTIME_VALIDATION",
+                            "STRICT_ISOLATION_VALIDATION",
+                            "NO_UNCERTIFIED_UNLOCK",
+                            "NO_RUNTIME_DRIFT"
+                        ],
+    "replay_safe":  true,
+    "deterministic":  true
+}

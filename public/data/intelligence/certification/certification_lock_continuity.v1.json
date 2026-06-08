@@ -1,0 +1,7 @@
+﻿{
+    "certification_lock_preserved":  true,
+    "replay_safe":  true,
+    "production_certified":  false,
+    "map_cleanup_remaining":  true,
+    "deterministic":  true
+}

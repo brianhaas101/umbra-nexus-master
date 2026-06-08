@@ -1,0 +1,8 @@
+﻿{
+    "black_dragon_isolated":  true,
+    "unlock_ready":  false,
+    "certification_domains_closed":  10,
+    "deterministic":  true,
+    "remaining_major_track":  "MAP_FINALIZATION",
+    "replay_safe":  true
+}

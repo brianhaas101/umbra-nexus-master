@@ -1,0 +1,16 @@
+{
+  "id": "PHASE_3_SOURCE_EVIDENCE_PACKET_METRICS_V1",
+  "batch": 279,
+  "generated_at": "2026-06-07T18:49:59.282Z",
+  "packet_count": 20,
+  "awaiting_evidence": 0,
+  "packets_with_sources": 0,
+  "total_attached_sources": 0,
+  "source_validated_packets": 0,
+  "promotion_unblocked_by_sources": 0,
+  "updated_by_batch": 285,
+  "source_attachment_adapter": "ACTIVE",
+  "packets_with_source_slots": 20,
+  "total_source_slots_created": 40,
+  "persistence_adapter": "ACTIVE"
+}

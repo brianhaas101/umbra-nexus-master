@@ -1,0 +1,38 @@
+﻿{
+    "system":  "Umbra Nexus Client Provisioning Release Validation",
+    "version":  "CLIENT_PROVISIONING_RELEASE_VALIDATION_V1",
+    "batch":  584,
+    "created_at":  "2026-06-02T00:50:00.8927176-07:00",
+    "release_track":  "CLIENT_PROVISIONING",
+    "client_provisioning_release_certified":  true,
+    "provisioning_signal_count":  523769,
+    "validated_checks":  13,
+    "target_checks":  13,
+    "checks":  {
+                   "client_runtime_release_certified":  true,
+                   "client_automation_certified":  true,
+                   "final_certification_present":  true,
+                   "black_dragon_release_exists":  true,
+                   "black_dragon_freeze_exists":  true,
+                   "public_client_setup_exists":  true,
+                   "public_client_runtime_exists":  true,
+                   "dist_client_setup_exists":  true,
+                   "dist_client_runtime_exists":  true,
+                   "provisioning_evidence_present":  true,
+                   "provisioning_signal_volume":  true,
+                   "client_release_path_exists":  true,
+                   "client_freeze_path_exists":  true
+               },
+    "deterministic":  true,
+    "replay_safe":  true,
+    "runtime_mutation_prohibited":  true,
+    "production_runtime_enabled":  false,
+    "runtime_promotion_enabled":  false,
+    "black_dragon_isolated":  true,
+    "next_required_action":  "BATCH_585_INTELLIGENCE_EXECUTION_RELEASE_VALIDATION",
+    "failures":  [
+
+                 ],
+    "failure_count":  0,
+    "pass":  true
+}

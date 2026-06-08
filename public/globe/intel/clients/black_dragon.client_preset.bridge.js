@@ -1,142 +1,112 @@
-// public/globe/intel/clients/black_dragon.client_preset.bridge.js
-// Black Dragon Client Preset Bridge
-// Purpose: connect the Account "Apply Black Dragon" preset UI to the Black Dragon config safely.
-
-(function () {
+﻿(function () {
   window.UmbraIntel = window.UmbraIntel || {};
   window.UmbraIntel.clients = window.UmbraIntel.clients || {};
   window.UmbraIntel.adapters = window.UmbraIntel.adapters || {};
 
-  const config = window.UmbraIntel.clients.blackDragon;
-  const signalDefs = window.UmbraIntel.clients.blackDragonSignals;
+  const config =
+    window.UmbraIntel.clients.blackDragon ||
+    window.UmbraClientConfig?.presets?.black_dragon ||
+    window.UmbraClientConfig?.black_dragon ||
+    null;
 
-  if (!config || !signalDefs) {
-    console.error("[black_dragon.client_preset.bridge] Missing config or signal definitions.");
-    return;
-  }
+  const signalDefs = window.UmbraIntel.clients.blackDragonSignals || null;
 
-  function text(id, value) {
-    const el = document.getElementById(id);
-    if (el) el.textContent = value;
+  if (config && !window.UmbraIntel.clients.blackDragon) {
+    window.UmbraIntel.clients.blackDragon = config;
   }
 
   function summarizeTargetTypes() {
-    return config.target_profile.target_organization_types
-      .slice(0, 6)
-      .map((v) => v.replace(/_/g, " "))
-      .join(", ");
+    const types =
+      config?.target_profile?.target_organization_types ||
+      config?.config?.targetTypes ||
+      config?.targetTypes ||
+      [];
+    return Array.isArray(types) ? types.join(", ") : String(types || "");
   }
 
   function summarizeSignals() {
-    return Object.values(signalDefs.top_signals)
-      .slice(0, 5)
-      .map((signal) => signal.label)
-      .join("; ");
+    const signals =
+      signalDefs?.top_signals
+        ? Object.values(signalDefs.top_signals)
+        : config?.config?.prioritySignals || config?.prioritySignals || [];
+    return Array.isArray(signals)
+      ? signals.map(s => typeof s === "string" ? s : s?.label || s?.signal_id || "UNKNOWN_SIGNAL").join("; ")
+      : "";
   }
 
   function summarizeRegions() {
-    return `All 50 states; Tier 1 weighted: ${config.target_profile.geography.tier_1_states.join(", ")}`;
+    const regions =
+      config?.target_profile?.geography ||
+      config?.config?.primaryRegions ||
+      config?.config?.regions ||
+      config?.regions ||
+      [];
+    if (Array.isArray(regions)) return regions.join(", ");
+    if (typeof regions === "object" && regions !== null) return Object.values(regions).flat().join(", ");
+    return String(regions || "");
   }
 
   function activateRuntime() {
     const G = window.UmbraGlobe;
     const I = window.UmbraIntel;
-
-    if (!G || !G.state || !I?.clients?.blackDragon) {
+    if (!G || !G.state || !config) {
       console.error("[black_dragon.client_preset.bridge] Runtime activation failed.", {
         hasGlobe: !!G,
         hasState: !!G?.state,
-        hasClient: !!I?.clients?.blackDragon
+        hasClient: !!config
       });
-
-      return {
-        applied: false,
-        reason: "missing_runtime_dependency"
-      };
+      return false;
     }
 
-    G.state.activeClient = config.client_id;
+    G.state.activeClient = config.client_id || "black_dragon_omg_cert_v1";
     G.state.activeClientKey = "blackDragon";
-    G.state.clientConfig = I.clients.blackDragon;
-    G.state.clientSignals = I.clients.blackDragonSignals || null;
+    G.state.clientConfig = config;
+    G.state.clientSignals = signalDefs;
 
-    I.activeClient = config.client_id;
+    I.activeClient = G.state.activeClient;
     I.activeClientKey = "blackDragon";
     I.activeClientConfig = config;
     I.activeClientSignals = signalDefs;
 
-    I.BlackDragon = I.clients.blackDragon;
-    I.BlackDragonSignals = I.clients.blackDragonSignals || null;
-
-    window.BlackDragon = I.clients.blackDragon;
-    window.BlackDragonSignals = I.clients.blackDragonSignals || null;
+    window.BlackDragon = config;
+    window.BlackDragonSignals = signalDefs;
 
     console.info("[black_dragon.client_preset.bridge] Black Dragon runtime activated.", {
       activeClient: G.state.activeClient,
       activeClientKey: G.state.activeClientKey,
-      client_id: G.state.clientConfig?.client_id,
-      hasSignals: !!G.state.clientSignals
-    });
-
-    return {
-      applied: true,
-      activeClient: G.state.activeClient,
-      activeClientKey: G.state.activeClientKey,
-      client_id: G.state.clientConfig.client_id,
-      hasSignals: !!G.state.clientSignals
-    };
-  }
-
-  function applyPreset() {
-    text("clientConfigIndustry", "Law Enforcement / Public Safety Training");
-    text("clientConfigUseCase", "OMG certification lead generation and agency training sales");
-    text("clientConfigScope", "National — United States");
-    text("clientConfigTargets", summarizeTargetTypes());
-    text("clientConfigSignals", summarizeSignals());
-    text("clientConfigRegions", summarizeRegions());
-
-    console.info("[black_dragon.client_preset.bridge] Black Dragon preset applied.", {
-      client_id: config.client_id,
-      client_name: config.client_name
-    });
-
-    return activateRuntime();
-  }
-
-  function bindPresetButton() {
-    const select = document.getElementById("clientPresetSelect");
-    const button = document.getElementById("applyClientPreset");
-
-    if (!select || !button) {
-      console.warn("[black_dragon.client_preset.bridge] Preset controls not found.");
-      return false;
-    }
-
-    button.addEventListener("click", function () {
-      if (select.value === "black_dragon") {
-        applyPreset();
-      }
+      hasSignals: !!signalDefs
     });
 
     return true;
   }
 
-  function init() {
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", bindPresetButton, { once: true });
-    } else {
-      bindPresetButton();
-    }
+  function applyPreset() {
+    console.info("[black_dragon.client_preset.bridge] Black Dragon preset applied.", {
+      targets: summarizeTargetTypes(),
+      signals: summarizeSignals(),
+      regions: summarizeRegions()
+    });
+    return activateRuntime();
   }
 
   window.UmbraIntel.adapters.blackDragonClientPresetBridge = Object.freeze({
-    init,
     applyPreset,
-    activateRuntime,
-    bindPresetButton
+    activateRuntime
   });
 
-  init();
+  window.addEventListener("DOMContentLoaded", () => {
+    const select = document.getElementById("clientPresetSelect");
+    const button = document.getElementById("applyClientPreset");
+
+    if (!select || !button) {
+      console.warn("[black_dragon.client_preset.bridge] Preset controls not found.");
+      return;
+    }
+
+    button.addEventListener("click", () => {
+      if (select.value === "black_dragon") applyPreset();
+    });
+  });
 
   console.info("[black_dragon.client_preset.bridge] Ready.");
 })();

@@ -1,0 +1,17 @@
+{
+  "id": "PHASE_3_VERIFICATION_METRICS_V1",
+  "batch": 277,
+  "generated_at": "2026-06-07T18:45:41.579Z",
+  "candidate_count": 20,
+  "pending_candidates": 20,
+  "source_validated": 0,
+  "dossier_validated": 0,
+  "identity_validated": 0,
+  "verified": 0,
+  "promotion_eligible": 0,
+  "production_promoted": 0,
+  "updated_by_batch": 285,
+  "source_validation_layer": "ACTIVE",
+  "source_attachment_adapter": "ACTIVE",
+  "source_persistence_adapter": "ACTIVE"
+}

@@ -1,0 +1,28 @@
+﻿{
+    "lock_id":  "PHASE_1_RUNTIME_FOUNDATION_CERTIFICATION_LOCK_V1",
+    "phase":  "PHASE 1",
+    "phase_name":  "Runtime Foundation Certification",
+    "certification_result":  "CERTIFIED WITH WARNINGS",
+    "locked_at":  "2026-06-07T18:33:41.9270872Z",
+    "pass":  16,
+    "warn":  4,
+    "fail":  0,
+    "entities":  250,
+    "cities":  50,
+    "build_status":  "PASS",
+    "certification_artifacts":  {
+                                    "json":  "public/data/certification/runtime_certification_report_v1.json",
+                                    "markdown":  "reports/RUNTIME_CERTIFICATION_REPORT_V1.md"
+                                },
+    "exit_criteria":  {
+                          "blocker_count":  0,
+                          "entity_registry":  "PASS",
+                          "city_registry":  "PASS",
+                          "pick_meshes":  "PASS",
+                          "build":  "PASS",
+                          "node_registry":  "PASS",
+                          "registry_hydration":  "PASS",
+                          "runtime_health":  "PASS"
+                      },
+    "next_phase":  "PHASE 2 - Intelligence Certification"
+}

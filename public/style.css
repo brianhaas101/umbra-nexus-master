@@ -1,5 +1,5 @@
-/* public/style.css
-   UMBRA NEXUS — UI ARCHITECTURE LOCK
+﻿/* public/style.css
+   UMBRA NEXUS â€” UI ARCHITECTURE LOCK
 */
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -58,7 +58,7 @@ button {
 /* TOP BAR */
 
 .top-bar {
-  position: relative; /* ← ADD THIS LINE */
+  position: relative; /* â† ADD THIS LINE */
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
@@ -370,7 +370,7 @@ select {
   pointer-events: none !important;
 }
 
-/* USER SELECT OVERRIDE — restores ONLY the user dropdown */
+/* USER SELECT OVERRIDE â€” restores ONLY the user dropdown */
 #userSelect.user-select {
   display: block !important;
   visibility: visible !important;
@@ -925,7 +925,7 @@ select {
 }
 
 /* =========================================================
-   UMBRA UI GLOW SYSTEM — ADDITIVE POLISH LAYER
+   UMBRA UI GLOW SYSTEM â€” ADDITIVE POLISH LAYER
    Safe overrides only. No layout or structural changes.
 ========================================================= */
 
@@ -1131,7 +1131,7 @@ select {
 }
 
 /* =========================================================
-   UMBRA HUB — FINAL VISUAL DELTA PATCH
+   UMBRA HUB â€” FINAL VISUAL DELTA PATCH
    Additive only. No structural or layout rewrites.
 ========================================================= */
 
@@ -1233,7 +1233,7 @@ body::after {
 }
 
 /* =========================================================
-   UMBRA LIVE LOGO — GOLD / RED PRODUCTION (FINAL)
+   UMBRA LIVE LOGO â€” GOLD / RED PRODUCTION (FINAL)
 ========================================================= */
 
 .umbra-logo-shell {
@@ -1400,7 +1400,7 @@ body::after {
 }
 
 /* =========================================================
-   USER SYSTEM — ADMIN CLIENT CONFIG
+   USER SYSTEM â€” ADMIN CLIENT CONFIG
    (Non-destructive, UI-only)
 ========================================================= */
 
@@ -1509,3 +1509,2873 @@ body::after {
 .BlackDragonMapLayers input {
   flex: 0 0 auto !important;
 }
+
+/* === BATCH 541: FOUNDER OPS NAV VISIBILITY === */
+#founderOpsNav,
+#founderControlNav {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+#founderOpsNav .hub-item,
+#founderControlNav .hub-item {
+  width: 100%;
+  display: block;
+  text-align: left;
+  opacity: 1;
+  visibility: visible;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+#leftNav {
+  overflow-y: auto;
+  max-height: calc(100vh - 96px);
+  padding-bottom: 24px;
+}
+
+.panel-section-label {
+  margin-top: 12px;
+}
+
+/* V2 Founder Grid Column Lock — prevents centerStage from collapsing into left column */
+.main-layout > .panel-left,
+.hub-layout > .panel-left {
+  grid-column: 1;
+}
+
+.main-layout > #centerStage,
+.hub-layout > #centerStage {
+  grid-column: 2;
+  min-width: 0;
+  width: 100%;
+}
+
+.main-layout > .panel-right,
+.hub-layout > .panel-right,
+.main-layout > #rightIntel,
+.hub-layout > #rightIntel {
+  grid-column: 3;
+}
+
+@media (max-width: 1180px) {
+  .main-layout > #centerStage,
+  .hub-layout > #centerStage,
+  .main-layout > .panel-right,
+  .hub-layout > .panel-right,
+  .main-layout > #rightIntel,
+  .hub-layout > #rightIntel {
+    grid-column: auto;
+  }
+}
+
+/* V2 Founder Grid Row Lock — keeps left, center, and right panels aligned */
+.main-layout > .panel-left,
+.hub-layout > .panel-left {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.main-layout > #centerStage,
+.hub-layout > #centerStage {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
+}
+
+.main-layout > .panel-right,
+.hub-layout > .panel-right,
+.main-layout > #rightIntel,
+.hub-layout > #rightIntel {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: start;
+}
+
+@media (max-width: 1180px) {
+  .main-layout > .panel-left,
+  .hub-layout > .panel-left,
+  .main-layout > #centerStage,
+  .hub-layout > #centerStage,
+  .main-layout > .panel-right,
+  .hub-layout > .panel-right,
+  .main-layout > #rightIntel,
+  .hub-layout > #rightIntel {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+
+/* V2 Final Globe Container Size Lock */
+#centerStage {
+  min-height: 720px;
+}
+
+#centerStage #globeContainer,
+.panel-center #globeContainer,
+.globe-container {
+  display: block;
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  min-height: min(72vh, 920px);
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+#globeContainer canvas,
+.globe-container canvas {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* V2 Final Globe Shell Size Lock */
+#centerStage .globe-shell,
+.panel-center .globe-shell,
+.globe-shell {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+  min-width: 320px !important;
+  height: auto !important;
+  min-height: min(72vh, 920px) !important;
+  aspect-ratio: 1 / 1 !important;
+  overflow: hidden !important;
+}
+
+#centerStage #globeContainer,
+.globe-shell #globeContainer,
+.globe-shell .globe-container {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: inherit !important;
+  aspect-ratio: inherit !important;
+}
+
+/* V2 Chrome Final Globe Layout Lock */
+#centerStage {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#centerStage .globe-shell {
+  flex: 1 1 auto !important;
+  display: flex !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 560px !important;
+  max-height: 920px !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+#centerStage .globe-shell #globeContainer {
+  flex: 1 1 auto !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 320px !important;
+  min-height: 560px !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+#centerStage .globe-shell #globeContainer canvas {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* V2 WebGL Fallback Surface */
+.webgl-fallback-surface {
+  width: 100%;
+  min-height: 520px;
+  border: 1px solid rgba(255, 122, 64, 0.35);
+  background:
+    radial-gradient(circle at center, rgba(255,122,64,0.12), rgba(5,7,12,0.95) 60%),
+    linear-gradient(135deg, rgba(255,122,64,0.08), rgba(0,0,0,0.75));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  text-align: center;
+  box-shadow: inset 0 0 80px rgba(255,122,64,0.12);
+}
+
+.fallback-core {
+  font-size: 28px;
+  letter-spacing: 0.28em;
+  color: #ff9b67;
+}
+
+.fallback-status {
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  color: rgba(255,255,255,0.72);
+}
+
+.fallback-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 18px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.64);
+}
+
+/* Batch 536 — V2 Fallback Globe Restoration */
+.fallback-orb {
+  width: min(360px, 58vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 18px;
+  background:
+    radial-gradient(circle at 40% 35%, rgba(255,155,103,0.28), rgba(255,122,64,0.08) 36%, rgba(5,7,12,0.96) 72%),
+    radial-gradient(circle at center, rgba(255,122,64,0.18), rgba(0,0,0,0.92) 68%);
+  border: 1px solid rgba(255, 155, 103, 0.52);
+  box-shadow:
+    0 0 34px rgba(255,122,64,0.22),
+    inset 0 0 70px rgba(255,122,64,0.16);
+  overflow: hidden;
+}
+
+.fallback-orb-core {
+  position: absolute;
+  inset: 12%;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 122, 64, 0.25);
+  box-shadow: inset 0 0 50px rgba(255,122,64,0.12);
+}
+
+.fallback-orb-grid {
+  position: absolute;
+  border: 1px solid rgba(255, 155, 103, 0.28);
+  opacity: 0.8;
+}
+
+.fallback-orb-grid.lat {
+  left: 8%;
+  right: 8%;
+  height: 22%;
+  border-radius: 50%;
+}
+
+.fallback-orb-grid.lat-1 { top: 22%; }
+.fallback-orb-grid.lat-2 { top: 39%; }
+.fallback-orb-grid.lat-3 { top: 56%; }
+
+.fallback-orb-grid.lon {
+  top: 7%;
+  bottom: 7%;
+  width: 26%;
+  border-radius: 50%;
+}
+
+.fallback-orb-grid.lon-1 { left: 18%; }
+.fallback-orb-grid.lon-2 { left: 37%; }
+.fallback-orb-grid.lon-3 { left: 56%; }
+
+.fallback-orb-node {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 155, 103, 0.95);
+  box-shadow: 0 0 16px rgba(255,122,64,0.85);
+}
+
+.fallback-orb-node.node-a { left: 29%; top: 34%; }
+.fallback-orb-node.node-b { left: 61%; top: 43%; }
+.fallback-orb-node.node-c { left: 47%; top: 61%; }
+.fallback-orb-node.node-d { left: 70%; top: 27%; }
+
+/* Batch 537 — V3 Visual Polish Foundation */
+:root {
+  --umbra-v3-ember: #ff7a40;
+  --umbra-v3-ember-soft: rgba(255, 122, 64, 0.24);
+  --umbra-v3-ember-faint: rgba(255, 122, 64, 0.10);
+  --umbra-v3-panel: rgba(7, 9, 14, 0.86);
+  --umbra-v3-panel-border: rgba(255, 122, 64, 0.22);
+  --umbra-v3-text: rgba(255, 245, 235, 0.92);
+  --umbra-v3-muted: rgba(255, 245, 235, 0.56);
+}
+
+body {
+  background:
+    radial-gradient(circle at 50% 26%, rgba(255,122,64,0.08), transparent 34%),
+    radial-gradient(circle at 15% 80%, rgba(255,122,64,0.05), transparent 28%),
+    linear-gradient(180deg, #030509 0%, #050711 50%, #020308 100%) !important;
+  color: var(--umbra-v3-text) !important;
+}
+
+.panel-left,
+.panel-right,
+.control-panel,
+.feed-panel,
+.card,
+.dashboard-card {
+  background:
+    linear-gradient(180deg, rgba(12,15,24,0.90), rgba(4,6,12,0.90)) !important;
+  border: 1px solid var(--umbra-v3-panel-border) !important;
+  box-shadow:
+    0 0 28px rgba(255,122,64,0.08),
+    inset 0 0 28px rgba(255,122,64,0.035) !important;
+  backdrop-filter: blur(14px);
+}
+
+.top-brand,
+.brand-title,
+h1,
+h2,
+h3 {
+  letter-spacing: 0.16em !important;
+  text-transform: uppercase !important;
+  color: var(--umbra-v3-text) !important;
+}
+
+button,
+.nav-button,
+.hub-button,
+select {
+  border: 1px solid rgba(255,122,64,0.28) !important;
+  background: linear-gradient(180deg, rgba(255,122,64,0.10), rgba(0,0,0,0.24)) !important;
+  color: var(--umbra-v3-text) !important;
+  box-shadow: 0 0 14px rgba(255,122,64,0.06) !important;
+}
+
+button:hover,
+.nav-button:hover,
+.hub-button:hover {
+  border-color: rgba(255,155,103,0.52) !important;
+  box-shadow: 0 0 18px rgba(255,122,64,0.16) !important;
+}
+
+#centerStage {
+  position: relative !important;
+}
+
+#centerStage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border: 1px solid rgba(255,122,64,0.10);
+  box-shadow: inset 0 0 80px rgba(255,122,64,0.045);
+}
+
+#centerStage::after {
+  content: "";
+  position: absolute;
+  inset: 8%;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent 0%, rgba(255,122,64,0.055) 50%, transparent 100%),
+    linear-gradient(0deg, transparent 0%, rgba(255,122,64,0.035) 50%, transparent 100%);
+  opacity: 0.55;
+  mix-blend-mode: screen;
+}
+
+.webgl-fallback-surface {
+  border-radius: 18px !important;
+  background:
+    radial-gradient(circle at center, rgba(255,122,64,0.16), rgba(5,7,12,0.96) 62%),
+    linear-gradient(135deg, rgba(255,122,64,0.08), rgba(0,0,0,0.78)) !important;
+}
+
+.fallback-orb {
+  filter: drop-shadow(0 0 22px rgba(255,122,64,0.24));
+}
+
+/* Batch 539 — Enterprise Command Surface */
+.enterprise-command-surface {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 30;
+  color: rgba(255,238,220,0.92);
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.ecs-topbar,
+.ecs-left,
+.ecs-right,
+.ecs-bottom {
+  pointer-events: auto;
+  position: fixed;
+  border: 1px solid rgba(255,122,64,0.22);
+  background: linear-gradient(180deg, rgba(5,8,14,0.88), rgba(3,4,8,0.90));
+  box-shadow: 0 0 28px rgba(255,122,64,0.07), inset 0 0 30px rgba(255,122,64,0.035);
+  backdrop-filter: blur(12px);
+}
+
+.ecs-topbar {
+  top: 8px;
+  left: 250px;
+  right: 190px;
+  height: 58px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.ecs-metric {
+  padding: 9px 18px;
+  border-right: 1px solid rgba(255,122,64,0.12);
+}
+
+.ecs-metric-label {
+  font-size: 10px;
+  color: rgba(255,238,220,0.55);
+  letter-spacing: .12em;
+}
+
+.ecs-metric-value {
+  margin-top: 4px;
+  font-size: 16px;
+  color: #ffb17d;
+}
+
+.ecs-metric-status {
+  font-size: 10px;
+  color: #7ee081;
+}
+
+.ecs-left {
+  left: 238px;
+  top: 82px;
+  width: 310px;
+  bottom: 260px;
+  padding: 14px;
+}
+
+.ecs-right {
+  right: 24px;
+  top: 82px;
+  width: 360px;
+  bottom: 80px;
+  padding: 14px;
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.ecs-bottom {
+  left: 560px;
+  right: 395px;
+  bottom: 24px;
+  height: 230px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ecs-panel-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #ff9b67;
+  letter-spacing: .13em;
+  margin-bottom: 14px;
+}
+
+.ecs-panel-title span {
+  color: rgba(255,238,220,0.5);
+  font-size: 11px;
+}
+
+.ecs-layer-row {
+  display: grid;
+  grid-template-columns: 1fr 44px;
+  gap: 8px;
+  align-items: center;
+  margin: 9px 0;
+  font-size: 11px;
+}
+
+.ecs-layer-row strong {
+  color: #ffd2a8;
+  font-size: 11px;
+}
+
+.ecs-layer-row em {
+  grid-column: 1 / 3;
+  height: 3px;
+  background: linear-gradient(90deg, #ff7a40 var(--w), rgba(255,255,255,0.08) var(--w));
+}
+
+.ecs-layer-row b {
+  grid-column: 1 / 3;
+  font-size: 9px;
+  color: rgba(255,178,116,0.72);
+  font-weight: 500;
+}
+
+.ecs-card {
+  border: 1px solid rgba(255,122,64,0.16);
+  background: rgba(0,0,0,0.20);
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.ecs-card h3 {
+  margin: 0 0 12px;
+  color: #ff9b67;
+  font-size: 12px;
+  letter-spacing: .12em;
+}
+
+.ecs-card h3 span {
+  float: right;
+  color: rgba(255,238,220,0.45);
+  font-size: 10px;
+}
+
+.ecs-card div,
+.ecs-feed-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 11px;
+  margin: 8px 0;
+}
+
+.ecs-card b {
+  color: #7ee081;
+  font-weight: 500;
+}
+
+.ecs-feed-row p {
+  margin: 0;
+  color: rgba(255,238,220,0.72);
+}
+
+.ecs-feed-row span {
+  color: rgba(255,238,220,0.45);
+}
+
+.ecs-tabs {
+  display: flex;
+  height: 38px;
+  border-bottom: 1px solid rgba(255,122,64,0.16);
+}
+
+.ecs-tabs span {
+  padding: 12px 18px;
+  font-size: 11px;
+  color: rgba(255,238,220,0.58);
+  letter-spacing: .08em;
+}
+
+.ecs-tabs .active {
+  color: #ff9b67;
+  border-bottom: 2px solid #ff7a40;
+}
+
+.ecs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.ecs-table th,
+.ecs-table td {
+  padding: 9px 14px;
+  border-bottom: 1px solid rgba(255,122,64,0.08);
+  text-align: left;
+}
+
+.ecs-table th {
+  color: rgba(255,238,220,0.52);
+  font-size: 10px;
+}
+
+.ecs-table td {
+  color: rgba(255,238,220,0.82);
+}
+
+.ecs-center-stage {
+  transform: translateY(-22px);
+}
+
+@media (max-width: 1400px) {
+  .ecs-left { left: 20px; width: 300px; }
+  .ecs-topbar { left: 340px; right: 24px; }
+  .ecs-bottom { left: 340px; right: 395px; }
+}
+
+/* Batch 541 — Enterprise Surface Layout Alignment */
+.ecs-topbar {
+  top: 0 !important;
+  left: 260px !important;
+  right: 210px !important;
+  height: 64px !important;
+  z-index: 80 !important;
+}
+
+.ecs-left {
+  left: 260px !important;
+  top: 92px !important;
+  width: 310px !important;
+  bottom: 300px !important;
+  z-index: 70 !important;
+  overflow: hidden !important;
+}
+
+.ecs-right {
+  right: 32px !important;
+  top: 92px !important;
+  width: 360px !important;
+  bottom: 96px !important;
+  z-index: 70 !important;
+  overflow: hidden !important;
+}
+
+.ecs-bottom {
+  left: 590px !important;
+  right: 420px !important;
+  bottom: 34px !important;
+  height: 235px !important;
+  z-index: 65 !important;
+}
+
+.ecs-center-stage {
+  transform: none !important;
+}
+
+#centerStage {
+  margin-left: 150px !important;
+  margin-right: 390px !important;
+  min-height: 620px !important;
+}
+
+.webgl-fallback-surface {
+  min-height: 560px !important;
+  padding-top: 22px !important;
+}
+
+.fallback-orb {
+  width: min(330px, 42vw) !important;
+}
+
+.ecs-layer-row {
+  margin: 6px 0 !important;
+}
+
+.ecs-card {
+  padding: 12px !important;
+}
+
+.ecs-feed-row {
+  margin: 6px 0 !important;
+}
+
+.ecs-table th,
+.ecs-table td {
+  padding: 8px 12px !important;
+}
+
+@media (max-width: 1500px) {
+  .ecs-topbar {
+    left: 250px !important;
+    right: 18px !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    height: 92px !important;
+  }
+
+  .ecs-left {
+    left: 250px !important;
+    top: 104px !important;
+    width: 300px !important;
+  }
+
+  .ecs-right {
+    right: 18px !important;
+    top: 104px !important;
+    width: 330px !important;
+  }
+
+  .ecs-bottom {
+    left: 570px !important;
+    right: 370px !important;
+  }
+
+  #centerStage {
+    margin-left: 150px !important;
+    margin-right: 360px !important;
+  }
+}
+
+/* Batch 543 — WebGL Canvas Sizing Repair */
+#centerStage {
+  position: relative !important;
+}
+
+.globe-shell,
+#globeContainer,
+.globe-container {
+  position: relative !important;
+  display: block !important;
+  width: min(620px, 46vw) !important;
+  height: min(620px, 46vw) !important;
+  min-width: 420px !important;
+  min-height: 420px !important;
+  max-width: 680px !important;
+  max-height: 680px !important;
+  margin: 24px auto 12px auto !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+#globeContainer canvas,
+.globe-container canvas {
+  position: absolute !important;
+  inset: 0 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 420px !important;
+  min-height: 420px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 5 !important;
+}
+
+.webgl-fallback-surface {
+  display: none !important;
+}
+
+.ecs-center-stage .globe-shell,
+.ecs-center-stage #globeContainer {
+  width: min(560px, 40vw) !important;
+  height: min(560px, 40vw) !important;
+}
+
+/* Batch 544 — ViewHub Globe Mount Sizing Repair */
+#viewHub {
+  position: relative !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+  min-width: 620px !important;
+  height: auto !important;
+  min-height: 680px !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+#viewHub .globe-shell {
+  position: relative !important;
+  display: block !important;
+  flex: 0 0 auto !important;
+  width: 560px !important;
+  height: 560px !important;
+  min-width: 560px !important;
+  min-height: 560px !important;
+  max-width: 560px !important;
+  max-height: 560px !important;
+  margin: 16px auto 8px auto !important;
+  overflow: visible !important;
+}
+
+#viewHub #globeContainer,
+#viewHub .globe-container {
+  position: relative !important;
+  display: block !important;
+  width: 560px !important;
+  height: 560px !important;
+  min-width: 560px !important;
+  min-height: 560px !important;
+  max-width: 560px !important;
+  max-height: 560px !important;
+  overflow: visible !important;
+}
+
+#viewHub #globeContainer canvas,
+#viewHub .globe-container canvas {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 560px !important;
+  height: 560px !important;
+  min-width: 560px !important;
+  min-height: 560px !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* ============================================================
+   UMBRA NEXUS â€” UI FINAL POLISH BATCH 01
+   Activity / Queue / Workflow Surface
+   Purpose: completes missing activity/review/queue visual system
+   ============================================================ */
+
+.activity-panel,
+.queue-panel,
+.review-panel,
+.workflow-panel,
+.lead-panel,
+.outreach-panel {
+  position: relative;
+  border: 1px solid rgba(255, 133, 32, 0.16);
+  border-radius: 18px;
+  background:
+    linear-gradient(180deg, rgba(7, 13, 22, 0.82), rgba(2, 6, 12, 0.92));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 180, 96, 0.06),
+    0 0 22px rgba(255, 106, 26, 0.055);
+  padding: 14px;
+  overflow: hidden;
+}
+
+.activity-panel::before,
+.queue-panel::before,
+.review-panel::before,
+.workflow-panel::before,
+.lead-panel::before,
+.outreach-panel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(255, 133, 32, 0.10), transparent 34%),
+    linear-gradient(90deg, rgba(255, 133, 32, 0.05), transparent 38%);
+  opacity: 0.72;
+}
+
+.activity-header,
+.queue-header,
+.review-header,
+.workflow-header,
+.lead-header,
+.outreach-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 190, 118, 0.86);
+}
+
+.activity-list,
+.queue-list,
+.review-list,
+.workflow-list,
+.lead-list,
+.outreach-list {
+  position: relative;
+  display: grid;
+  gap: 8px;
+}
+
+.activity-item,
+.queue-item,
+.review-item,
+.workflow-item,
+.lead-item,
+.outreach-item {
+  position: relative;
+  display: grid;
+  gap: 4px;
+  padding: 10px 11px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 133, 32, 0.09);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.028), rgba(255, 255, 255, 0.012));
+  color: rgba(240, 225, 205, 0.84);
+  transition:
+    border-color 0.18s ease,
+    background-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
+}
+
+.activity-item:hover,
+.queue-item:hover,
+.review-item:hover,
+.workflow-item:hover,
+.lead-item:hover,
+.outreach-item:hover {
+  border-color: rgba(255, 152, 48, 0.28);
+  background:
+    linear-gradient(180deg, rgba(255, 133, 32, 0.065), rgba(255, 255, 255, 0.015));
+  box-shadow: 0 0 16px rgba(255, 106, 26, 0.075);
+  transform: translateY(-1px);
+}
+
+.activity-item-title,
+.queue-item-title,
+.review-item-title,
+.workflow-item-title,
+.lead-item-title,
+.outreach-item-title {
+  font-size: 12px;
+  font-weight: 650;
+  color: rgba(255, 235, 210, 0.94);
+}
+
+.activity-item-meta,
+.queue-item-meta,
+.review-item-meta,
+.workflow-item-meta,
+.lead-item-meta,
+.outreach-item-meta {
+  font-size: 10px;
+  line-height: 1.45;
+  color: rgba(195, 178, 156, 0.72);
+}
+
+.queue-status,
+.review-status,
+.workflow-status,
+.lead-status,
+.outreach-status {
+  display: inline-flex;
+  width: max-content;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 7px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 133, 32, 0.15);
+  background: rgba(255, 133, 32, 0.06);
+  color: rgba(255, 198, 128, 0.88);
+  font-size: 9px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.queue-status::before,
+.review-status::before,
+.workflow-status::before,
+.lead-status::before,
+.outreach-status::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 145, 38, 0.92);
+  box-shadow: 0 0 10px rgba(255, 106, 26, 0.38);
+}
+
+.activity-empty,
+.queue-empty,
+.review-empty,
+.workflow-empty,
+.lead-empty,
+.outreach-empty {
+  border: 1px dashed rgba(255, 133, 32, 0.14);
+  border-radius: 16px;
+  padding: 14px;
+  color: rgba(195, 178, 156, 0.62);
+  background: rgba(0, 0, 0, 0.10);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.workflow-step {
+  position: relative;
+  padding-left: 16px;
+}
+
+.workflow-step::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(255, 133, 32, 0.78);
+  box-shadow: 0 0 9px rgba(255, 106, 26, 0.28);
+}
+
+.workflow-step::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 17px;
+  bottom: -9px;
+  width: 1px;
+  background: linear-gradient(180deg, rgba(255, 133, 32, 0.26), transparent);
+}
+
+.workflow-step:last-child::after {
+  display: none;
+}
+
+.review-priority-high,
+.queue-priority-high,
+.lead-priority-high {
+  border-color: rgba(255, 96, 32, 0.32);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 180, 96, 0.05),
+    0 0 18px rgba(255, 76, 20, 0.08);
+}
+
+.review-priority-medium,
+.queue-priority-medium,
+.lead-priority-medium {
+  border-color: rgba(255, 133, 32, 0.22);
+}
+
+.review-priority-low,
+.queue-priority-low,
+.lead-priority-low {
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+@media (max-width: 900px) {
+  .activity-panel,
+  .queue-panel,
+  .review-panel,
+  .workflow-panel,
+  .lead-panel,
+  .outreach-panel {
+    border-radius: 15px;
+    padding: 12px;
+  }
+
+  .activity-item,
+  .queue-item,
+  .review-item,
+  .workflow-item,
+  .lead-item,
+  .outreach-item {
+    padding: 9px 10px;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE DASHBOARD UPGRADE BATCH 01
+   Founder executive dashboard visual layer.
+   ============================================================ */
+
+.exec-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+  margin: 10px 0 12px;
+}
+
+.exec-metric-card,
+.threat-overview-panel,
+.dossier-preview-panel,
+.exec-overlay-card,
+.exec-target-strip {
+  position: relative;
+  border: 1px solid rgba(255, 133, 32, 0.15);
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255, 133, 32, 0.08), transparent 38%),
+    linear-gradient(180deg, rgba(7, 13, 22, 0.86), rgba(2, 6, 12, 0.94));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 180, 96, 0.055),
+    0 0 20px rgba(255, 106, 26, 0.055);
+  overflow: hidden;
+}
+
+.exec-metric-card {
+  padding: 10px;
+}
+
+.exec-metric-label,
+.exec-kicker {
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 180, 105, 0.72);
+}
+
+.exec-metric-value,
+.exec-big-value {
+  margin-top: 4px;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 238, 216, 0.96);
+}
+
+.exec-metric-note,
+.exec-small-copy,
+.exec-threat-copy,
+.exec-dossier-copy,
+.exec-dossier-meta {
+  margin-top: 4px;
+  font-size: 10px;
+  line-height: 1.45;
+  color: rgba(202, 185, 164, 0.70);
+}
+
+.threat-overview-panel,
+.dossier-preview-panel {
+  padding: 13px;
+  margin-bottom: 12px;
+}
+
+.exec-threat-title,
+.exec-dossier-name {
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(255, 236, 210, 0.96);
+}
+
+.exec-action-button {
+  display: grid;
+  gap: 3px;
+  width: 100%;
+  padding: 10px 11px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 133, 32, 0.14);
+  background: rgba(255, 133, 32, 0.045);
+  color: rgba(255, 235, 210, 0.92);
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.exec-action-button:hover {
+  border-color: rgba(255, 152, 48, 0.30);
+  box-shadow: 0 0 16px rgba(255, 106, 26, 0.08);
+  transform: translateY(-1px);
+}
+
+.exec-action-button small {
+  color: rgba(202, 185, 164, 0.65);
+}
+
+.founder-executive-overlay {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 22px;
+  z-index: 16;
+  pointer-events: auto;
+  border: 1px solid rgba(255, 133, 32, 0.14);
+  border-radius: 24px;
+  padding: 14px;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 133, 32, 0.08), transparent 40%),
+    linear-gradient(180deg, rgba(4, 10, 18, 0.72), rgba(2, 5, 10, 0.88));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 190, 120, 0.06),
+    0 0 30px rgba(255, 106, 26, 0.08);
+  backdrop-filter: blur(12px);
+}
+
+.exec-overlay-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.exec-title {
+  margin-top: 4px;
+  font-size: 16px;
+  color: rgba(255, 238, 216, 0.96);
+  letter-spacing: 0.05em;
+}
+
+.exec-overlay-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.exec-overlay-card {
+  padding: 11px;
+}
+
+.exec-target-strip {
+  margin-top: 10px;
+  padding: 11px;
+  display: grid;
+  gap: 8px;
+}
+
+.exec-target-chip {
+  display: grid;
+  grid-template-columns: 34px 1fr 44px;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 9px;
+  border-radius: 13px;
+  border: 1px solid rgba(255, 133, 32, 0.10);
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.exec-target-chip span,
+.exec-target-chip em {
+  color: rgba(255, 190, 118, 0.80);
+  font-style: normal;
+  font-size: 11px;
+}
+
+.exec-target-chip strong {
+  color: rgba(255, 235, 210, 0.90);
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 1100px) {
+  .founder-executive-overlay {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin: 12px;
+  }
+
+  .exec-overlay-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE DASHBOARD UPGRADE BATCH 02
+   Layout stabilization and legacy duplicate suppression.
+   ============================================================ */
+
+body > #founderTopTargetsPanel611R {
+  display: none !important;
+}
+
+#rightIntel .exec-metrics-grid,
+#rightIntel .threat-overview-panel,
+#rightIntel .review-panel,
+#rightIntel .activity-panel,
+#rightIntel .dossier-preview-panel,
+#rightIntel .workflow-panel {
+  margin-bottom: 12px;
+}
+
+#rightIntel {
+  overflow-y: auto;
+}
+
+.founder-executive-overlay {
+  max-width: calc(100% - 44px);
+}
+
+@media (min-width: 1200px) {
+  .founder-executive-overlay {
+    left: 28px;
+    right: 28px;
+    bottom: 28px;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE DASHBOARD UPGRADE BATCH 02
+   Layout stabilization and legacy duplicate suppression.
+   ============================================================ */
+
+body > #founderTopTargetsPanel611R {
+  display: none !important;
+}
+
+#rightIntel .exec-metrics-grid,
+#rightIntel .threat-overview-panel,
+#rightIntel .review-panel,
+#rightIntel .activity-panel,
+#rightIntel .dossier-preview-panel,
+#rightIntel .workflow-panel {
+  margin-bottom: 12px;
+}
+
+#rightIntel {
+  overflow-y: auto;
+}
+
+.founder-executive-overlay {
+  max-width: calc(100% - 44px);
+}
+
+@media (min-width: 1200px) {
+  .founder-executive-overlay {
+    left: 28px;
+    right: 28px;
+    bottom: 28px;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE DASHBOARD UPGRADE BATCH 03
+   Layout compression + viewport lock.
+   ============================================================ */
+
+html,
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  max-height: 100vh;
+}
+
+.panel-center {
+  min-height: calc(100vh - 190px);
+  max-height: calc(100vh - 150px);
+  overflow: hidden;
+}
+
+.globe-shell {
+  min-height: 500px;
+  max-height: calc(100vh - 210px);
+  overflow: hidden;
+}
+
+.globe-container {
+  transform: translateY(-18px) scale(0.94);
+  transform-origin: center center;
+}
+
+.founder-executive-overlay {
+  left: 24px;
+  right: 24px;
+  bottom: 18px;
+  padding: 11px 12px;
+  border-radius: 20px;
+  max-height: 42vh;
+  overflow: hidden;
+}
+
+.exec-overlay-header {
+  margin-bottom: 8px;
+}
+
+.exec-title {
+  font-size: 14px;
+}
+
+.exec-overlay-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.exec-overlay-card {
+  padding: 9px;
+  min-height: 74px;
+}
+
+.exec-big-value {
+  font-size: 16px;
+}
+
+.exec-small-copy {
+  font-size: 9px;
+  line-height: 1.35;
+}
+
+.exec-target-strip {
+  margin-top: 8px;
+  padding: 9px;
+  gap: 6px;
+  max-height: 190px;
+  overflow: hidden;
+}
+
+.exec-target-chip {
+  padding: 6px 8px;
+  min-height: 28px;
+}
+
+#rightIntel {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  padding-bottom: 12px;
+}
+
+#rightIntel .panel-header {
+  margin-bottom: 10px;
+}
+
+.exec-metrics-grid {
+  gap: 8px;
+  margin: 8px 0 10px;
+}
+
+.exec-metric-card {
+  padding: 8px;
+  min-height: 62px;
+}
+
+.exec-metric-value {
+  font-size: 16px;
+}
+
+.threat-overview-panel,
+.review-panel,
+.activity-panel,
+.dossier-preview-panel,
+.workflow-panel {
+  padding: 10px;
+  margin-bottom: 10px !important;
+  border-radius: 16px;
+}
+
+.review-list,
+.activity-list,
+.workflow-list {
+  gap: 7px;
+}
+
+.review-item,
+.activity-item,
+.workflow-item,
+.lead-item,
+.outreach-item,
+.queue-item {
+  padding: 8px 9px;
+  border-radius: 12px;
+}
+
+.review-item-title,
+.activity-item-title,
+.workflow-item-title {
+  font-size: 11px;
+}
+
+.review-item-meta,
+.activity-item-meta,
+.workflow-item-meta {
+  font-size: 9px;
+  line-height: 1.35;
+}
+
+.queue-status,
+.review-status,
+.workflow-status,
+.lead-status,
+.outreach-status {
+  padding: 3px 6px;
+  font-size: 8px;
+}
+
+.panel-left {
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+
+.panel-left .panel-section {
+  margin-bottom: 14px;
+}
+
+.hub-item,
+.panel-left button {
+  min-height: 42px;
+}
+
+@media (min-width: 1300px) {
+  .panel-center {
+    max-height: calc(100vh - 135px);
+  }
+
+  .founder-executive-overlay {
+    max-height: 38vh;
+  }
+}
+
+@media (max-height: 850px) {
+  .founder-executive-overlay {
+    max-height: 36vh;
+  }
+
+  .exec-target-strip {
+    max-height: 145px;
+  }
+
+  .exec-overlay-card {
+    min-height: 62px;
+  }
+
+  .globe-container {
+    transform: translateY(-28px) scale(0.88);
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE DASHBOARD UPGRADE BATCH 04
+   Branding + vertical composition correction.
+   ============================================================ */
+
+.top-brand {
+  font-size: 22px;
+  letter-spacing: 0.28em;
+  color: rgba(255, 238, 220, 0.92);
+}
+
+.panel-header-center,
+#centerPanelTitle {
+  letter-spacing: 0.24em;
+}
+
+.panel-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.globe-shell {
+  position: relative;
+  min-height: 460px;
+}
+
+.globe-container {
+  transform: translateY(-54px) scale(0.82) !important;
+  transform-origin: center top !important;
+}
+
+.founder-executive-overlay {
+  top: auto !important;
+  bottom: 12px !important;
+  left: 22px !important;
+  right: 22px !important;
+  max-height: 34vh !important;
+  padding: 10px 11px !important;
+}
+
+.exec-overlay-header {
+  margin-bottom: 6px !important;
+}
+
+.exec-title {
+  font-size: 13px !important;
+}
+
+.exec-overlay-grid {
+  gap: 7px !important;
+}
+
+.exec-overlay-card {
+  padding: 8px !important;
+  min-height: 58px !important;
+}
+
+.exec-big-value {
+  font-size: 15px !important;
+}
+
+.exec-small-copy {
+  font-size: 8.5px !important;
+  line-height: 1.28 !important;
+}
+
+.exec-target-strip {
+  max-height: 128px !important;
+  padding: 8px !important;
+}
+
+.exec-target-chip {
+  min-height: 24px !important;
+  padding: 5px 7px !important;
+}
+
+#rightIntel {
+  max-height: calc(100vh - 108px) !important;
+}
+
+#rightIntel .panel-header {
+  font-size: 15px;
+  line-height: 1.12;
+}
+
+.exec-metrics-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px !important;
+}
+
+.exec-metric-card {
+  min-height: 54px !important;
+  padding: 7px !important;
+}
+
+.exec-metric-value {
+  font-size: 15px !important;
+}
+
+.threat-overview-panel,
+.review-panel,
+.activity-panel,
+.dossier-preview-panel,
+.workflow-panel {
+  padding: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.review-list .review-item:nth-child(n+2),
+.activity-list .activity-item:nth-child(n+2) {
+  display: none;
+}
+
+.workflow-list .exec-action-button:nth-child(n+3) {
+  display: none;
+}
+
+@media (max-height: 900px) {
+  .globe-container {
+    transform: translateY(-68px) scale(0.78) !important;
+  }
+
+  .founder-executive-overlay {
+    max-height: 31vh !important;
+  }
+
+  .exec-target-strip {
+    max-height: 104px !important;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE SURFACE FINALIZATION BATCH 05
+   15-step final command surface composition.
+   ============================================================ */
+
+/* 01 viewport lock */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+/* 02 command branding */
+.top-brand {
+  letter-spacing: 0.32em !important;
+  font-weight: 600 !important;
+}
+
+/* 03 center title suppression when dashboard is active */
+#centerPanelTitle {
+  opacity: 0.38;
+  transform: translateY(-4px);
+}
+
+/* 04 globe becomes cinematic background, not primary UI */
+.globe-container {
+  transform: translateY(-86px) scale(0.72) !important;
+  opacity: 0.86;
+  filter:
+    saturate(1.12)
+    contrast(1.08)
+    drop-shadow(0 0 34px rgba(255, 106, 26, 0.16));
+}
+
+/* 05 center stage composition */
+.panel-center {
+  overflow: hidden !important;
+}
+
+.globe-shell {
+  min-height: calc(100vh - 175px) !important;
+  max-height: calc(100vh - 145px) !important;
+  overflow: hidden !important;
+}
+
+/* 06 hide old executive overlay shell */
+#founderExecutiveOverlayV2 {
+  display: none !important;
+}
+
+/* 07 final executive surface */
+.executive-surface-v5 {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 20px;
+  z-index: 28;
+  padding: 14px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 133, 32, 0.18);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 124, 32, 0.10), transparent 32%),
+    linear-gradient(180deg, rgba(5, 10, 17, 0.76), rgba(2, 5, 10, 0.94));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 205, 140, 0.08),
+    0 0 44px rgba(255, 106, 26, 0.10),
+    0 18px 80px rgba(0, 0, 0, 0.38);
+  backdrop-filter: blur(14px);
+}
+
+/* 08 header */
+.v5-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.v5-kicker,
+.v5-panel-title {
+  font-size: 9px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: rgba(255, 169, 88, 0.82);
+}
+
+.v5-title {
+  margin-top: 4px;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 238, 218, 0.96);
+}
+
+.v5-status-pill {
+  border: 1px solid rgba(255, 133, 32, 0.20);
+  border-radius: 999px;
+  padding: 5px 9px;
+  color: rgba(255, 198, 128, 0.90);
+  background: rgba(255, 133, 32, 0.06);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+}
+
+/* 09 metric cards */
+.v5-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 9px;
+  margin-bottom: 10px;
+}
+
+.v5-card,
+.v5-panel {
+  border: 1px solid rgba(255, 133, 32, 0.13);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(6, 14, 24, 0.78), rgba(2, 6, 12, 0.88));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 205, 140, 0.045),
+    0 0 20px rgba(255, 106, 26, 0.045);
+}
+
+.v5-card {
+  padding: 9px 10px;
+  min-height: 58px;
+}
+
+.v5-value {
+  margin-top: 4px;
+  font-size: 17px;
+  color: rgba(255, 238, 218, 0.96);
+}
+
+.v5-copy {
+  margin-top: 3px;
+  font-size: 9px;
+  line-height: 1.35;
+  color: rgba(205, 187, 164, 0.68);
+}
+
+/* 10 main grid */
+.v5-main-grid {
+  display: grid;
+  grid-template-columns: 1.45fr 0.85fr 0.85fr;
+  gap: 9px;
+  margin-bottom: 9px;
+}
+
+.v5-bottom-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.v5-panel {
+  padding: 10px;
+  min-height: 112px;
+}
+
+.v5-panel-large {
+  min-height: 152px;
+}
+
+/* 11 review table */
+.v5-table {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.v5-row {
+  display: grid;
+  grid-template-columns: 38px 1fr 46px 62px;
+  gap: 8px;
+  align-items: center;
+  min-height: 27px;
+  padding: 6px 8px;
+  border-radius: 11px;
+  border: 1px solid rgba(255, 133, 32, 0.08);
+  background: rgba(255, 255, 255, 0.022);
+}
+
+.v5-row strong {
+  color: rgba(255, 234, 210, 0.90);
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.v5-rank,
+.v5-row em,
+.v5-row small {
+  color: rgba(255, 181, 100, 0.78);
+  font-style: normal;
+  font-size: 9px;
+}
+
+/* 12 threat / feed */
+.v5-focus-name {
+  margin-top: 9px;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(255, 238, 218, 0.96);
+}
+
+.v5-signal-grid,
+.v5-health-list {
+  display: grid;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.v5-signal-grid span,
+.v5-health-list span {
+  font-size: 9px;
+  color: rgba(255, 198, 128, 0.82);
+}
+
+.v5-feed {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.v5-feed-row {
+  display: grid;
+  grid-template-columns: 42px 1fr 32px;
+  gap: 6px;
+  align-items: center;
+  font-size: 9px;
+  color: rgba(205, 187, 164, 0.70);
+}
+
+/* 13 actions */
+.v5-actions {
+  display: grid;
+  gap: 7px;
+  margin-top: 9px;
+}
+
+.v5-actions button {
+  border: 1px solid rgba(255, 133, 32, 0.16);
+  border-radius: 12px;
+  padding: 8px 9px;
+  background: rgba(255, 133, 32, 0.055);
+  color: rgba(255, 235, 210, 0.92);
+  text-align: left;
+}
+
+/* 14 right rail compression */
+.executive-right-v5 {
+  max-height: calc(100vh - 112px) !important;
+  overflow: hidden !important;
+}
+
+.executive-right-v5 .activity-panel,
+.executive-right-v5 .dossier-preview-panel,
+.executive-right-v5 .workflow-panel {
+  max-height: 116px;
+  overflow: hidden;
+}
+
+/* 15 responsive safety */
+@media (max-height: 900px) {
+  .executive-surface-v5 {
+    padding: 11px;
+    bottom: 14px;
+  }
+
+  .v5-metrics {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .v5-card {
+    min-height: 48px;
+    padding: 7px 8px;
+  }
+
+  .v5-value {
+    font-size: 15px;
+  }
+
+  .v5-panel {
+    min-height: 92px;
+    padding: 8px;
+  }
+
+  .v5-panel-large {
+    min-height: 124px;
+  }
+
+  .v5-bottom-grid {
+    display: none;
+  }
+
+  .globe-container {
+    transform: translateY(-96px) scale(0.68) !important;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE SURFACE FINALIZATION BATCH 06
+   Dashboard-first center composition.
+   ============================================================ */
+
+#executiveSurfaceV5,
+#founderExecutiveOverlayV2 {
+  display: none !important;
+}
+
+.panel-center {
+  overflow: hidden !important;
+}
+
+.globe-shell {
+  position: relative !important;
+  min-height: calc(100vh - 170px) !important;
+  max-height: calc(100vh - 140px) !important;
+  overflow: hidden !important;
+}
+
+.globe-container {
+  position: absolute !important;
+  top: 18px !important;
+  left: 50% !important;
+  width: min(46vw, 580px) !important;
+  height: min(46vw, 580px) !important;
+  transform: translateX(-50%) translateY(-54px) scale(0.64) !important;
+  transform-origin: center top !important;
+  opacity: 0.74 !important;
+  filter:
+    saturate(1.22)
+    contrast(1.12)
+    brightness(0.82)
+    drop-shadow(0 0 48px rgba(255, 106, 26, 0.18)) !important;
+  pointer-events: auto;
+}
+
+.executive-surface-v6 {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 18px;
+  z-index: 40;
+  padding: 14px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 133, 32, 0.18);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255, 116, 28, 0.12), transparent 34%),
+    linear-gradient(180deg, rgba(5, 10, 17, 0.82), rgba(2, 5, 10, 0.96));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 205, 140, 0.08),
+    0 0 44px rgba(255, 106, 26, 0.11),
+    0 18px 90px rgba(0, 0, 0, 0.42);
+  backdrop-filter: blur(14px);
+}
+
+.v6-command-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.v6-label,
+.v6-panel-title {
+  font-size: 9px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: rgba(255, 169, 88, 0.84);
+}
+
+.v6-title {
+  margin-top: 4px;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  color: rgba(255, 238, 218, 0.97);
+}
+
+.v6-secure {
+  padding: 5px 9px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 133, 32, 0.20);
+  background: rgba(255, 133, 32, 0.06);
+  color: rgba(255, 198, 128, 0.90);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+}
+
+.v6-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.v6-metric,
+.v6-panel {
+  border: 1px solid rgba(255, 133, 32, 0.13);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(6, 14, 24, 0.78), rgba(2, 6, 12, 0.90));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 205, 140, 0.045),
+    0 0 22px rgba(255, 106, 26, 0.045);
+}
+
+.v6-metric {
+  min-height: 54px;
+  padding: 8px;
+}
+
+.v6-value {
+  margin-top: 4px;
+  font-size: 16px;
+  color: rgba(255, 238, 218, 0.97);
+}
+
+.v6-note,
+.v6-panel p {
+  margin-top: 3px;
+  font-size: 9px;
+  line-height: 1.34;
+  color: rgba(205, 187, 164, 0.68);
+}
+
+.v6-command-grid {
+  display: grid;
+  grid-template-columns: 1.45fr 0.92fr 0.92fr;
+  grid-template-rows: auto auto;
+  gap: 9px;
+}
+
+.v6-panel {
+  padding: 10px;
+  min-height: 108px;
+  overflow: hidden;
+}
+
+.v6-review {
+  grid-row: span 2;
+  min-height: 224px;
+}
+
+.v6-table {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.v6-table-row {
+  display: grid;
+  grid-template-columns: 36px 1fr 42px 56px;
+  gap: 7px;
+  align-items: center;
+  min-height: 26px;
+  padding: 6px 8px;
+  border-radius: 11px;
+  border: 1px solid rgba(255, 133, 32, 0.08);
+  background: rgba(255, 255, 255, 0.022);
+}
+
+.v6-table-row strong {
+  color: rgba(255, 234, 210, 0.90);
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.v6-table-row span,
+.v6-table-row em,
+.v6-table-row small {
+  color: rgba(255, 181, 100, 0.78);
+  font-style: normal;
+  font-size: 9px;
+}
+
+.v6-focus {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 700;
+  color: rgba(255, 238, 218, 0.96);
+}
+
+.v6-tags,
+.v6-layer-list,
+.v6-health-list {
+  display: grid;
+  gap: 5px;
+  margin-top: 9px;
+}
+
+.v6-tags span,
+.v6-layer-list span {
+  font-size: 9px;
+  color: rgba(255, 198, 128, 0.82);
+}
+
+.v6-feed-row {
+  display: grid;
+  grid-template-columns: 70px 1fr 32px;
+  gap: 6px;
+  align-items: center;
+  margin-top: 6px;
+  font-size: 9px;
+  color: rgba(205, 187, 164, 0.70);
+}
+
+.v6-feed-row strong {
+  color: rgba(255, 198, 128, 0.82);
+}
+
+.v6-action-list {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.v6-action {
+  display: grid;
+  gap: 2px;
+  border: 1px solid rgba(255, 133, 32, 0.16);
+  border-radius: 12px;
+  padding: 7px 8px;
+  background: rgba(255, 133, 32, 0.055);
+  color: rgba(255, 235, 210, 0.92);
+  text-align: left;
+}
+
+.v6-action span {
+  font-size: 9px;
+  color: rgba(205, 187, 164, 0.68);
+}
+
+#rightIntel {
+  max-height: calc(100vh - 112px) !important;
+  overflow: hidden !important;
+}
+
+#rightIntel .activity-panel,
+#rightIntel .dossier-preview-panel,
+#rightIntel .workflow-panel {
+  max-height: 104px !important;
+  overflow: hidden !important;
+}
+
+@media (max-height: 900px) {
+  .executive-surface-v6 {
+    bottom: 12px;
+    padding: 10px;
+  }
+
+  .v6-metric-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+
+  .v6-metric {
+    min-height: 44px;
+    padding: 6px 7px;
+  }
+
+  .v6-value {
+    font-size: 14px;
+  }
+
+  .v6-command-grid {
+    grid-template-columns: 1.3fr 1fr 1fr;
+  }
+
+  .v6-panel {
+    min-height: 86px;
+    padding: 8px;
+  }
+
+  .v6-review {
+    min-height: 188px;
+  }
+
+  .v6-table-row:nth-child(n+5) {
+    display: none;
+  }
+
+  .globe-container {
+    transform: translateX(-50%) translateY(-72px) scale(0.56) !important;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE SURFACE FINALIZATION BATCH 07
+   Duplicate cleanup + operational right rail.
+   Globe scale/window intentionally untouched.
+   ============================================================ */
+
+#centerPanelTitle {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.executive-surface-v6 {
+  left: 18px !important;
+  right: 18px !important;
+  bottom: 18px !important;
+}
+
+.v6-command-grid {
+  grid-template-columns: 1.35fr 0.82fr 0.82fr !important;
+  grid-auto-flow: dense;
+}
+
+.v7-operational-health,
+.v7-city-saturation {
+  min-height: 92px !important;
+}
+
+.v7-health-grid,
+.v7-saturation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+  margin-top: 9px;
+}
+
+.v7-health-grid span,
+.v7-saturation-grid span {
+  border: 1px solid rgba(255, 133, 32, 0.10);
+  border-radius: 11px;
+  padding: 7px 8px;
+  background: rgba(255, 255, 255, 0.022);
+  color: rgba(205, 187, 164, 0.72);
+  font-size: 9px;
+}
+
+.v7-health-grid strong,
+.v7-saturation-grid strong {
+  display: block;
+  margin-top: 3px;
+  color: rgba(255, 238, 218, 0.92);
+  font-size: 11px;
+}
+
+.executive-right-v7 {
+  max-height: calc(100vh - 112px) !important;
+  overflow: hidden !important;
+}
+
+.v7-right-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.v7-status-card,
+.v7-right-panel {
+  border: 1px solid rgba(255, 133, 32, 0.14);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(6, 14, 24, 0.80), rgba(2, 6, 12, 0.92));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 205, 140, 0.045),
+    0 0 18px rgba(255, 106, 26, 0.045);
+}
+
+.v7-status-card {
+  min-height: 58px;
+  padding: 8px;
+}
+
+.v7-card-title,
+.v7-panel-title {
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 169, 88, 0.82);
+}
+
+.v7-card-value {
+  margin-top: 4px;
+  font-size: 15px;
+  color: rgba(255, 238, 218, 0.96);
+}
+
+.v7-card-note {
+  margin-top: 3px;
+  font-size: 9px;
+  color: rgba(205, 187, 164, 0.66);
+}
+
+.v7-right-panel {
+  padding: 10px;
+  margin-bottom: 9px;
+}
+
+.v7-health-list {
+  display: grid;
+  gap: 7px;
+  margin-top: 9px;
+}
+
+.v7-alert-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 10px;
+  color: rgba(205, 187, 164, 0.70);
+}
+
+.v7-alert-row strong {
+  color: rgba(126, 255, 145, 0.88);
+  font-weight: 700;
+}
+
+@media (max-height: 900px) {
+  .v7-right-panel {
+    padding: 8px;
+    margin-bottom: 7px;
+  }
+
+  .v7-health-list {
+    gap: 5px;
+  }
+
+  .v7-status-card {
+    min-height: 48px;
+    padding: 7px;
+  }
+
+  .v7-operational-health,
+  .v7-city-saturation {
+    min-height: 78px !important;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE SURFACE FINALIZATION BATCH 08
+   SYSTEM OPERATIONS right rail lock.
+   Globe untouched.
+   ============================================================ */
+
+.executive-right-v8 {
+  max-height: calc(100vh - 112px) !important;
+  overflow: hidden !important;
+}
+
+.v8-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.v8-status-card,
+.v8-panel {
+  border: 1px solid rgba(255, 133, 32, 0.14);
+  border-radius: 16px;
+  background:
+    linear-gradient(180deg, rgba(6, 14, 24, 0.80), rgba(2, 6, 12, 0.92));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 205, 140, 0.045),
+    0 0 18px rgba(255, 106, 26, 0.045);
+}
+
+.v8-status-card {
+  min-height: 56px;
+  padding: 8px;
+}
+
+.v8-title,
+.v8-panel-title {
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 169, 88, 0.82);
+}
+
+.v8-value {
+  margin-top: 4px;
+  font-size: 15px;
+  color: rgba(255, 238, 218, 0.96);
+}
+
+.v8-note {
+  margin-top: 3px;
+  font-size: 9px;
+  color: rgba(205, 187, 164, 0.66);
+}
+
+.v8-panel {
+  padding: 10px;
+  margin-bottom: 9px;
+}
+
+.v8-list {
+  display: grid;
+  gap: 7px;
+  margin-top: 9px;
+}
+
+.v8-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 10px;
+  color: rgba(205, 187, 164, 0.72);
+}
+
+.v8-row strong {
+  color: rgba(126, 255, 145, 0.88);
+  font-weight: 700;
+}
+
+@media (max-height: 900px) {
+  .v8-panel {
+    padding: 8px;
+    margin-bottom: 7px;
+  }
+
+  .v8-list {
+    gap: 5px;
+  }
+
+  .v8-status-card {
+    min-height: 48px;
+    padding: 7px;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE SURFACE FINALIZATION BATCH 09
+   Horizontal decompression pass.
+   Globe untouched.
+   ============================================================ */
+
+.panel-left {
+  width: 300px !important;
+  max-width: 300px !important;
+}
+
+#rightIntel,
+.panel-right {
+  width: 270px !important;
+  max-width: 270px !important;
+}
+
+.panel-center {
+  flex: 1 1 auto !important;
+  min-width: 760px !important;
+  max-width: none !important;
+}
+
+.executive-surface-v6 {
+  left: 10px !important;
+  right: 10px !important;
+  max-width: none !important;
+}
+
+.v6-metric-grid {
+  grid-template-columns: repeat(6, minmax(90px, 1fr)) !important;
+}
+
+.v6-command-grid {
+  grid-template-columns: 1.45fr 0.95fr 0.95fr !important;
+  gap: 10px !important;
+}
+
+.v6-table-row {
+  grid-template-columns: 34px minmax(180px, 1fr) 42px 54px !important;
+}
+
+.v6-panel {
+  min-width: 0 !important;
+}
+
+.v6-focus,
+.v6-table-row strong {
+  max-width: 100% !important;
+}
+
+.v7-health-grid,
+.v7-saturation-grid {
+  grid-template-columns: repeat(2, minmax(80px, 1fr)) !important;
+}
+
+.v8-grid {
+  grid-template-columns: 1fr 1fr !important;
+}
+
+.v8-status-card {
+  min-width: 0 !important;
+}
+
+@media (min-width: 1500px) {
+  .panel-left {
+    width: 290px !important;
+    max-width: 290px !important;
+  }
+
+  #rightIntel,
+  .panel-right {
+    width: 260px !important;
+    max-width: 260px !important;
+  }
+
+  .executive-surface-v6 {
+    left: 8px !important;
+    right: 8px !important;
+  }
+}
+
+@media (max-width: 1350px) {
+  .panel-left {
+    width: 280px !important;
+    max-width: 280px !important;
+  }
+
+  #rightIntel,
+  .panel-right {
+    width: 250px !important;
+    max-width: 250px !important;
+  }
+
+  .v6-command-grid {
+    grid-template-columns: 1.25fr 1fr 1fr !important;
+  }
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” GLOBE VISIBILITY RESTORE BATCH 10
+   Restore globe container/canvas to full shell visibility.
+   ============================================================ */
+
+.globe-shell {
+  width: 560px !important;
+  height: 560px !important;
+  min-width: 560px !important;
+  min-height: 560px !important;
+  max-width: 560px !important;
+  max-height: 560px !important;
+}
+
+#globeContainer,
+.globe-container {
+  width: 560px !important;
+  height: 560px !important;
+  min-width: 560px !important;
+  min-height: 560px !important;
+  max-width: 560px !important;
+  max-height: 560px !important;
+  transform: none !important;
+  opacity: 0.92 !important;
+}
+
+#globeContainer canvas,
+.globe-container canvas,
+canvas {
+  width: 560px !important;
+  height: 560px !important;
+  max-width: 560px !important;
+  max-height: 560px !important;
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE SURFACE VERTICAL UNLOCK 11
+   Keep globe 560px visible; move dashboard lower.
+   ============================================================ */
+
+.executive-surface-v6 {
+  bottom: -18px !important;
+}
+
+.globe-shell {
+  overflow: visible !important;
+}
+
+.panel-center {
+  overflow: visible !important;
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” EXECUTIVE SURFACE STACK LAYOUT BATCH 12
+   Globe zone above; executive dashboard zone below.
+   ============================================================ */
+
+.panel-center {
+  height: auto !important;
+  min-height: 1120px !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.globe-shell {
+  position: relative !important;
+  width: 560px !important;
+  height: 560px !important;
+  min-height: 560px !important;
+  max-height: 560px !important;
+  margin: 0 auto 28px auto !important;
+  overflow: visible !important;
+}
+
+#globeContainer,
+.globe-container,
+#globeContainer canvas,
+.globe-container canvas {
+  width: 560px !important;
+  height: 560px !important;
+  max-width: 560px !important;
+  max-height: 560px !important;
+}
+
+.executive-surface-v6 {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  top: auto !important;
+  width: calc(100% - 20px) !important;
+  max-width: none !important;
+  margin: 18px auto 0 auto !important;
+  z-index: 40 !important;
+}
+
+#viewHub {
+  min-height: 1120px !important;
+  overflow: visible !important;
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” HUB STACK FLOW LOCK BATCH 13
+   viewHub stacks globe above executive surface.
+   ============================================================ */
+
+#viewHub {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 28px !important;
+  min-height: 1220px !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+#viewHub .globe-shell {
+  flex: 0 0 560px !important;
+  width: 560px !important;
+  height: 560px !important;
+  min-width: 560px !important;
+  min-height: 560px !important;
+  max-width: 560px !important;
+  max-height: 560px !important;
+  margin: 0 auto !important;
+  position: relative !important;
+  order: 1 !important;
+}
+
+#viewHub .executive-surface-v6 {
+  flex: 0 0 auto !important;
+  order: 2 !important;
+  position: relative !important;
+  width: calc(100% - 22px) !important;
+  margin: 0 auto 28px auto !important;
+  transform: none !important;
+}
+
+#viewHub #executiveSurfaceV5,
+#viewHub #founderExecutiveOverlayV2 {
+  display: none !important;
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” GLOBE CENTERING LOCK BATCH 14
+   Center globe in center panel, keep 560px.
+   ============================================================ */
+
+.panel-center {
+  display: block !important;
+  position: relative !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#viewHub {
+  align-items: center !important;
+  width: 100% !important;
+}
+
+#viewHub .globe-shell {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  transform: translateX(-70px) !important;
+}
+
+#viewHub .executive-surface-v6 {
+  width: calc(100% - 42px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” GLOBE / DASHBOARD GAP LOCK 15
+   Adds safe visual clearance below full 560px globe.
+   ============================================================ */
+
+#viewHub {
+  gap: 160px !important;
+}
+
+#viewHub .globe-shell {
+  margin-bottom: 160px !important;
+}
+
+#viewHub .executive-surface-v6 {
+  margin-top: 0 !important;
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” GLOBE / DASHBOARD GAP TRIM 16
+   Reduces over-large gap after Stack Flow lock.
+   Keeps globe 560px.
+   ============================================================ */
+
+#viewHub {
+  gap: 24px !important;
+}
+
+#viewHub .globe-shell {
+  margin-bottom: 24px !important;
+}
+
+#viewHub .executive-surface-v6 {
+  margin-top: 0 !important;
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” GLOBE TRUE CENTER LOCK 17
+   Removes manual globe offset; centers globe in center panel.
+   ============================================================ */
+
+#viewHub .globe-shell {
+  transform: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#globeContainer,
+.globe-container {
+  transform: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* ============================================================
+   UMBRA NEXUS â€” GLOBE INTERNAL OFFSET FIX 18
+   Aligns globe container/canvas with globe shell.
+   ============================================================ */
+
+#viewHub .globe-shell {
+  position: relative !important;
+}
+
+#viewHub .globe-shell #globeContainer,
+#viewHub .globe-shell .globe-container {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: none !important;
+  margin: 0 !important;
+}
+
+#viewHub .globe-shell #globeContainer canvas,
+#viewHub .globe-shell .globe-container canvas {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  transform: none !important;
+  margin: 0 !important;
+}
+
+
+
+/* ============================================================
+   UMBRA NEXUS — COMPLETION LOCK BATCH 26
+   Final light polish only. No expansion.
+   ============================================================ */
+
+#centerPanelTitle {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+#globeContainer,
+.globe-container,
+#globeContainer canvas,
+.globe-container canvas {
+  max-width: 560px !important;
+  max-height: 560px !important;
+}
+
+.executive-surface-v6 {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 205, 140, 0.055),
+    0 0 34px rgba(255, 106, 26, 0.085),
+    0 18px 70px rgba(0, 0, 0, 0.34) !important;
+}
+

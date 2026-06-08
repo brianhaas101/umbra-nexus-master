@@ -1,0 +1,20 @@
+{
+  "id": "PHASE_3_SOURCE_VALIDATION_METRICS_V1",
+  "batch": 278,
+  "generated_at": "2026-06-07T18:47:34.795Z",
+  "candidate_count": 20,
+  "awaiting_source_attachment": 0,
+  "source_validated": 0,
+  "source_rejected": 0,
+  "total_attached_sources": 0,
+  "average_source_score": 0,
+  "promotion_unblocked_by_sources": 0,
+  "updated_by_batch": 285,
+  "evidence_packet_system": "ACTIVE",
+  "evidence_packet_count": 20,
+  "awaiting_evidence": 20,
+  "source_attachment_adapter": "ACTIVE",
+  "awaiting_real_source_references": 20,
+  "total_source_slots_created": 40,
+  "persistence_adapter": "ACTIVE"
+}

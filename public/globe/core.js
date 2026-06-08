@@ -1,3 +1,4 @@
+﻿window.UmbraGlobe = window.UmbraGlobe || {};
 // public/globe/core.js
 (function () {
   const KEY = "UmbraGlobe";
@@ -206,6 +207,22 @@
     if (!Array.isArray(G.state.cityMeshes)) G.state.cityMeshes = [];
     if (!Array.isArray(G.state.entityMeshes)) G.state.entityMeshes = [];
     if (!Array.isArray(G.state.pickMeshes)) G.state.pickMeshes = [];
+
+Object.defineProperty(G.state, "pickMeshes", {
+  configurable: true,
+  get() {
+    const mode = String(this.mode || "").toUpperCase();
+
+    if ((mode === "WORLD" || mode === "") && Array.isArray(this.cityMeshes)) {
+      return this.cityMeshes.filter(Boolean).filter((m) => m.visible !== false);
+    }
+
+    return this._pickMeshes || [];
+  },
+  set(v) {
+    this._pickMeshes = Array.isArray(v) ? v : [];
+  }
+});
     if (!Array.isArray(G.state.cityMapPickMeshes)) G.state.cityMapPickMeshes = [];
 
     return G.state;
@@ -574,6 +591,31 @@
     highlightEntitySelection(null, null);
   }
 
+  
+  function registryHas(registry, id) {
+    const key = String(id || "").trim();
+    if (!key || !registry) return false;
+    if (registry instanceof Map) return registry.has(key);
+    if (typeof registry === "object") return Object.prototype.hasOwnProperty.call(registry, key);
+    return false;
+  }
+
+  function registryGet(registry, id) {
+    const key = String(id || "").trim();
+    if (!key || !registry) return null;
+    if (registry instanceof Map) return registry.get(key) || null;
+    if (typeof registry === "object") return registry[key] || null;
+    return null;
+  }
+
+  function hasCityRegistryEntry(cityId) {
+    return registryHas(G.state?.citiesById, cityId);
+  }
+
+  function hasEntityRegistryEntry(entityId) {
+    return registryHas(G.state?.entitiesById, entityId);
+  }
+
   function getVisibleEntityCountForCity(cityId) {
     const cid = String(cityId || "").trim();
     return (Array.isArray(G.state.entityMeshes) ? G.state.entityMeshes : []).filter((m) => {
@@ -582,6 +624,33 @@
     }).length;
   }
 
+  function hasCityRegistryEntry(cityId) {
+    const cid = String(cityId || "").trim();
+    const registry = G.state?.citiesById;
+    if (!cid || !registry) return false;
+
+    if (registry instanceof Map) return registry.has(cid);
+
+    if (typeof registry === "object") {
+      return Object.prototype.hasOwnProperty.call(registry, cid);
+    }
+
+    return false;
+  }
+
+  function getCityRegistryEntry(cityId) {
+    const cid = String(cityId || "").trim();
+    const registry = G.state?.citiesById;
+    if (!cid || !registry) return null;
+
+    if (registry instanceof Map) return registry.get(cid) || null;
+
+    if (typeof registry === "object") {
+      return registry[cid] || null;
+    }
+
+    return null;
+  }
   G.selectCityById = function selectCityById(cityId, source) {
     const st = G.state;
     const cid = String(cityId || "").trim();
@@ -590,8 +659,13 @@
       return null;
     }
 
-    if (!(st.citiesById instanceof Map) || !st.citiesById.has(cid)) {
-      console.error("[core] selectCityById invalid cityId", cid);
+    if (!hasCityRegistryEntry(cid)) {
+      console.error("[core] selectCityById invalid cityId", cid, {
+        registryType: st.citiesById instanceof Map ? "Map" : typeof st.citiesById,
+        registryCount: st.citiesById instanceof Map
+          ? st.citiesById.size
+          : (st.citiesById && typeof st.citiesById === "object" ? Object.keys(st.citiesById).length : 0)
+      });
       return null;
     }
 
@@ -635,8 +709,13 @@
       return false;
     }
 
-    if (!(st.citiesById instanceof Map) || !st.citiesById.has(cid)) {
-      console.error("[core] enterCityMap invalid cityId", cid);
+    if (!hasCityRegistryEntry(cid)) {
+      console.error("[core] enterCityMap invalid cityId", cid, {
+        registryType: st.citiesById instanceof Map ? "Map" : typeof st.citiesById,
+        registryCount: st.citiesById instanceof Map
+          ? st.citiesById.size
+          : (st.citiesById && typeof st.citiesById === "object" ? Object.keys(st.citiesById).length : 0)
+      });
       return false;
     }
 
@@ -667,6 +746,14 @@
   };
 
   G.exitCityMap = function exitCityMap(source) {
+    if (
+      String(source || "") === "empty-click" &&
+      Number.isFinite(Number(G.state?._cityMapEnteredAtMs)) &&
+      performance.now() - Number(G.state._cityMapEnteredAtMs) < 650
+    ) {
+      console.log("[Batch561R] suppressed immediate empty-click CITY_MAP exit");
+      return false;
+    }
     const st = G.state;
     const cid = String(st.activeCityId || "").trim();
     if (!cid) {
@@ -877,7 +964,38 @@
     const camera = new THREE.PerspectiveCamera(38, w / h, 0.05, 1000);
     camera.position.set(0, 0, tz);
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    let renderer = null;
+
+    try {
+      renderer = new THREE.WebGLRenderer({
+        antialias: true,
+        alpha: true,
+        powerPreference: "high-performance"
+      });
+    } catch (primaryRendererError) {
+      console.warn("[core] primary WebGLRenderer failed; retrying low-cost renderer.", primaryRendererError);
+
+      try {
+        renderer = new THREE.WebGLRenderer({
+          antialias: false,
+          alpha: true,
+          powerPreference: "default"
+        });
+      } catch (fallbackRendererError) {
+        console.warn("[core] fallback WebGLRenderer failed; mounting fallback surface.", fallbackRendererError);
+
+        if (window.UmbraWebGLFallback && typeof window.UmbraWebGLFallback.mountFallback === "function") {
+          window.UmbraWebGLFallback.mountFallback();
+        }
+
+        G.state.renderer = null;
+        G.state.scene = null;
+        G.state.camera = null;
+        G.state.worldGroup = null;
+        G.state._coreInited = false;
+        return false;
+      }
+    }
     renderer.setPixelRatio(window.devicePixelRatio || 1);
     renderer.setSize(w, h, false);
 
@@ -992,3 +1110,10 @@
     return true;
   };
 })();
+
+
+
+
+
+
+

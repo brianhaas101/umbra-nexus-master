@@ -1,0 +1,15 @@
+﻿{
+    "certification_targets":  [
+                                  "RUNTIME_HARDENING",
+                                  "REPLAY_CERTIFICATION",
+                                  "CLIENT_ISOLATION",
+                                  "DOSSIER_RUNTIME",
+                                  "CONNECTOR_RUNTIME",
+                                  "AUTOMATION_RUNTIME",
+                                  "ORCHESTRATION_RUNTIME",
+                                  "UNLOCK_GOVERNANCE"
+                              ],
+    "certification_phase":  "CLOSURE_ACTIVE",
+    "replay_safe":  true,
+    "deterministic":  true
+}
