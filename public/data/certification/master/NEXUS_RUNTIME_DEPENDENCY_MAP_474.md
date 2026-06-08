@@ -1,0 +1,447 @@
+﻿# NEXUS RUNTIME DEPENDENCY MAP 474
+
+Generated: 2026-06-08T15:54:38
+
+## Summary
+
+- Script tags: 237
+- Missing script tags: 178
+- Code files scanned: 1378
+- Dependency rows: 1378
+- Global writes: 1362
+- Global reads: 4735
+- Duplicate globals: 159
+- Event producers: 43
+- Event consumers: 147
+- Event map entries: 57
+- Connected events: 7
+- Producer-only events: 33
+- Consumer-only events: 17
+- Unloaded runtime-relevant files: 295
+
+## Risk Flags
+
+- Duplicate window global writers detected.
+- Index references missing script files.
+- Some events are producer-only or consumer-only.
+- Root index has high script-tag count. Consider loader consolidation.
+
+## Missing Script Tags
+
+- /globe/intel/registry.js?v=20260603_601R
+- /globe/intel/pipeline.js?v=20260603_601R
+- /globe/performance/emergency_globe_performance_mode.js?v=20260603_165102
+- /globe/performance/globe_interaction_drawcall_optimizer.js?v=20260603_165700
+- /globe/runtime/city_map_back_control.js?v=20260603_183438
+- /globe/phase3_wave002_runtime_293C.js?v=293C
+- /globe/phase3_wave002_runtime_293D.js?v=293D
+- /globe/phase3_wave002_validation_294.js?v=294
+- /globe/phase3_wave002_bulk_processing_295.js?v=295
+- /globe/phase3_wave002_bulk_source_attachment_296.js?v=296
+- /globe/phase3_wave002_bulk_dossier_validation_297.js?v=297
+- /globe/phase3_wave002_bulk_promotion_298.js?v=298
+- /globe/phase4_dossier_foundation_300.js?v=300
+- /globe/phase4_dossier_source_layer_301.js?v=301
+- /globe/phase4_dossier_timeline_layer_302.js?v=302
+- /globe/phase4_dossier_notes_layer_303.js?v=303
+- /globe/phase4_dossier_actions_layer_304.js?v=304
+- /globe/phase4_dossier_export_layer_305.js?v=305
+- /globe/phase4_dossier_ui_panel_306.js?v=306
+- /globe/phase4_dossier_section_detail_renderer_307.js?v=307
+- /globe/phase4_dossier_selection_bridge_308.js?v=308
+- /globe/phase4_entity_click_dossier_bridge_309.js?v=309
+- /globe/phase4_dossier_persistence_310.js?v=310
+- /globe/phase4_dossier_registry_integrity_311.js?v=311
+- /globe/phase4_dossier_search_filter_312.js?v=312
+- /globe/phase4_dossier_metrics_dashboard_313.js?v=313
+- /globe/phase4_dossier_metrics_ui_card_314.js?v=314
+- /globe/phase4_dossier_bulk_builder_315.js?v=315
+- /globe/phase4_dossier_certification_316.js?v=316
+- /globe/phase4_dossier_registry_table_317.js?v=317
+- /globe/phase4_dossier_relationship_graph_318.js?v=318
+- /globe/phase4_relationship_graph_ui_319.js?v=319
+- /globe/phase4_midpoint_certification_320.js?v=320
+- /globe/phase4_executive_dossier_workflows_321.js?v=321
+- /globe/phase4_executive_workflow_queue_ui_322.js?v=322
+- /globe/phase4_executive_workflow_actions_323.js?v=323
+- /globe/phase4_executive_workflow_state_ui_324.js?v=324
+- /globe/phase4_executive_workflow_metrics_325.js?v=325
+- /globe/phase4_executive_approval_registry_326.js?v=326
+- /globe/phase4_executive_decision_timeline_327.js?v=327
+- /globe/phase4_executive_activity_feed_328.js?v=328
+- /globe/phase4_executive_dashboard_329.js?v=329
+- /globe/phase4_executive_certification_330.js?v=330
+- /globe/phase4_final_lock_foundation_331.js?v=331
+- /globe/phase4_final_audit_332.js?v=332
+- /globe/phase4_final_lock_333.js?v=333
+- /globe/phase5_command_surface_foundation_334B.js?v=334B
+- /globe/phase5_header_navigation_335.js?v=335
+- /globe/phase5_left_command_rail_336.js?v=336
+- /globe/phase5_right_intelligence_rail_337.js?v=337
+- /globe/phase5_bottom_dock_navigation_338.js?v=338
+- /globe/phase5_workspace_view_manager_339.js?v=339
+- /globe/phase5_command_surface_certification_340.js?v=340
+- /globe/phase5_render_alignment_pass1_341.js?v=341
+- /globe/phase5_workspace_command_cards_342.js?v=342
+- /globe/phase5_activity_review_feed_343.js?v=343
+- /globe/phase5_quick_actions_344.js?v=344
+- /globe/phase5_relationship_workspace_345.js?v=345
+- /globe/phase5_dossier_workspace_346.js?v=346
+- /globe/phase5_executive_workspace_347.js?v=347
+- /globe/phase5_workspace_router_upgrade_348.js?v=348
+- /globe/phase5_visual_certification_349.js?v=349
+- /globe/phase5_render_matching_pass2_350.js?v=350
+- /globe/phase5_responsive_fit_351.js?v=351
+- /globe/phase5_polish_pass3_352.js?v=352
+- /globe/phase5_visual_runtime_audit_353.js?v=353
+- /globe/phase5_visual_runtime_audit_353B.js?v=353B
+- /globe/phase5_audit_hardening_354.js?v=354
+- /globe/phase5_audit_hardening_354C.js?v=354C
+- /globe/phase5_final_certification_355B.js?v=355B
+- /globe/phase6_intelligence_presentation_foundation_356B.js?v=356B
+- /globe/phase6_intelligence_card_workspace_357.js?v=357
+- /globe/phase6_intelligence_detail_drawer_358.js?v=358
+- /globe/phase6_cross_workspace_context_359.js?v=359
+- /globe/phase6_presentation_checkpoint_360.js?v=360
+- /globe/phase6_intelligence_summary_system_361.js?v=361
+- /globe/phase6_summary_enhanced_drawer_362.js?v=362
+- /globe/phase6_summary_enhanced_drawer_362B.js?v=362B
+- /globe/phase6_intelligence_priority_queue_363.js?v=363
+- /globe/phase6_priority_queue_workspace_364.js?v=364
+- /globe/phase6_priority_queue_action_states_365.js?v=365
+- /globe/phase6_priority_queue_state_persistence_365B.js?v=365B
+- /globe/phase6_priority_queue_workspace_controls_366B.js?v=366B
+- /globe/phase6_priority_queue_control_certification_367.js?v=367
+- /globe/phase6_operator_decision_feed_368.js?v=368
+- /globe/phase6_operator_decision_feed_certification_369.js?v=369
+- /globe/phase6_presentation_metrics_370.js?v=370
+- /globe/phase6_metrics_certification_371.js?v=371
+- /globe/phase6_metrics_decision_persistence_371B.js?v=371B
+- /globe/phase6_final_presentation_audit_372.js?v=372
+- /globe/phase6_final_audit_persistence_repair_372B.js?v=372B
+- /globe/phase6_final_audit_full_rebuild_372C.js?v=372C
+- /globe/phase6_final_audit_decision_lock_372D.js?v=372D
+- /globe/phase6_final_certification_373.js?v=373
+- /globe/phase7_intelligence_operations_foundation_374.js?v=374
+- /globe/phase7_mission_workspace_375.js?v=375
+- /globe/phase7_mission_state_engine_376.js?v=376
+- /globe/phase7_mission_workspace_controls_377.js?v=377
+- /globe/phase7_mission_control_certification_378.js?v=378
+- /globe/phase7_watchlist_foundation_379.js?v=379
+- /globe/phase7_watchlist_workspace_380.js?v=380
+- /globe/phase7_watchlist_state_engine_381.js?v=381
+- /globe/phase7_watchlist_workspace_controls_382.js?v=382
+- /globe/phase7_watchlist_control_certification_383.js?v=383
+- /globe/phase7_alert_foundation_384.js?v=384
+- /globe/phase7_alert_workspace_385.js?v=385
+- /globe/phase7_alert_state_engine_386.js?v=386
+- /globe/phase7_alert_workspace_controls_387.js?v=387
+- /globe/phase7_alert_control_certification_388.js?v=388
+- /globe/phase7_tasking_foundation_389.js?v=389
+- /globe/phase7_task_workspace_390.js?v=390
+- /globe/phase7_task_state_engine_391.js?v=391
+- /globe/phase7_task_workspace_controls_392.js?v=392
+- /globe/phase7_task_control_certification_393.js?v=393
+- /globe/phase7_operations_dashboard_foundation_394.js?v=394
+- /globe/phase7_operations_dashboard_workspace_395.js?v=395
+- /globe/phase7_operations_dashboard_certification_396.js?v=396
+- /globe/phase7_final_operations_audit_397.js?v=397
+- /globe/phase7_final_certification_398.js?v=398
+- /globe/phase7_final_certification_398B.js?v=398B
+- /globe/phase8_autonomous_operations_foundation_399.js?v=399
+- /globe/phase8_automation_event_evaluator_400.js?v=400
+- /globe/phase8_automation_execution_queue_401.js?v=401
+- /globe/phase8_automation_queue_workspace_402.js?v=402
+- /globe/phase8_automation_queue_state_engine_403.js?v=403
+- /globe/phase8_automation_queue_controls_404.js?v=404
+- /globe/phase8_automation_queue_certification_405.js?v=405
+- /globe/phase8_automation_execution_engine_406.js?v=406
+- /globe/phase8_automation_execution_log_workspace_407.js?v=407
+- /globe/phase8_automation_execution_certification_408.js?v=408
+- /globe/phase8_autonomous_actions_foundation_409.js?v=409
+- /globe/phase8_autonomous_action_workspace_410.js?v=410
+- /globe/phase8_autonomous_action_state_engine_411.js?v=411
+- /globe/phase8_autonomous_action_controls_412.js?v=412
+- /globe/phase8_autonomous_action_certification_413.js?v=413
+- /globe/phase8_action_orchestration_foundation_414.js?v=414
+- /globe/phase8_action_orchestration_workspace_415.js?v=415
+- /globe/phase8_action_orchestration_state_engine_416.js?v=416
+- /globe/phase8_action_orchestration_controls_417.js?v=417
+- /globe/phase8_action_orchestration_certification_418.js?v=418
+- /globe/phase8_action_orchestration_certification_418B.js?v=418B
+- /globe/phase8_autonomous_workflow_foundation_419.js?v=419
+- /globe/phase8_autonomous_workflow_workspace_420.js?v=420
+- /globe/phase8_autonomous_workflow_state_engine_421.js?v=421
+- /globe/phase8_autonomous_workflow_controls_422.js?v=422
+- /globe/phase8_autonomous_workflow_certification_423.js?v=423
+- /globe/phase8_autonomous_workflow_certification_423B.js?v=423B
+- /globe/phase8_autonomous_directive_foundation_424.js?v=424
+- /globe/phase8_autonomous_directive_workspace_425.js?v=425
+- /globe/phase8_autonomous_directive_state_engine_426.js?v=426
+- /globe/phase8_autonomous_directive_controls_427.js?v=427
+- /globe/phase8_autonomous_directive_certification_428.js?v=428
+- /globe/phase8_autonomous_directive_certification_428B.js?v=428B
+- /globe/phase8_master_autonomy_audit_429.js?v=429
+- /globe/phase8_master_autonomy_audit_429B.js?v=429B
+- /globe/phase8_final_certification_430.js?v=430
+- /globe/phase8_final_certification_430B.js?v=430B
+- /src/phase9-continuity-certification.js
+- /src/phase9-intelligence-foundation.js
+- /src/phase9-intelligence-workspace.js
+- /src/phase9-intelligence-state-engine.js
+- /src/phase9-intelligence-controls.js
+- /src/phase9-intelligence-certification.js
+- /src/phase9-operations-foundation.js
+- /src/phase9-operations-workspace.js
+- /src/phase9-operations-state-engine.js
+- /src/phase9-operations-controls.js
+- /src/phase9-operations-certification.js
+- /src/phase9-runtime-integration-foundation.js
+- /src/phase9-runtime-integration-workspace.js
+- /src/phase9-runtime-integration-state-engine.js
+- /src/phase9-runtime-integration-controls.js
+- /src/phase9-runtime-integration-certification.js
+- /src/phase9-final-audit-foundation.js
+- /src/phase9-final-audit-workspace.js
+- /src/phase9-final-audit-state-engine.js
+- /src/phase9-final-audit-controls.js
+- /src/phase9-final-audit-certification.js
+
+## Duplicate Window Globals
+
+- __BD_RESPONSE_CAPTURE_PATCHED__ writers=2
+- BLACK_DRAGON_LAST_RESPONSE_RECORD writers=3
+- BlackDragon writers=2
+- BlackDragonBooksClusterRenderer writers=2
+- BlackDragonBooksMapNodes writers=2
+- BlackDragonBooksPathRenderer writers=2
+- BlackDragonBooksResponsePersistence writers=2
+- BlackDragonSignals writers=2
+- dispatchEvent writers=2
+- openDossierForNode writers=2
+- setFounderMode writers=2
+- UMBRA_ACTIVE_MODULE writers=3
+- UMBRA_CLIENT_KEY writers=22
+- UMBRA_DATA writers=3
+- UMBRA_DATA_READY writers=2
+- UMBRA_RUNTIME_ROLE writers=2
+- UMBRA_SELECTED_CLIENT_TARGET writers=3
+- UmbraActionExecutiveWorkflowItem writers=2
+- UmbraActionOrchestrationCertification writers=2
+- UmbraActiveDossier writers=2
+- UmbraApproveExecutiveWorkflowItem writers=2
+- UmbraApprovePriorityCandidate writers=4
+- UmbraAttachSourceReference writers=2
+- UmbraAuditAllDossiers writers=2
+- UmbraAuditMasterAutonomy writers=2
+- UmbraAutonomousDirectiveCertification writers=2
+- UmbraAutonomousOversightRegistry writers=2
+- UmbraAutonomousWorkflowCertification writers=2
+- UmbraBuildAllDossiers writers=8
+- UmbraBuildCommandSurface writers=11
+- UmbraBuildDossier writers=4
+- UmbraBuildDossierActions writers=3
+- UmbraBuildDossierNotes writers=3
+- UmbraBuildDossierRelationshipGraph writers=3
+- UmbraBuildDossierTimeline writers=3
+- UmbraBuildExecutiveActivityFeed writers=2
+- UmbraBuildExecutiveDashboard writers=2
+- UmbraBuildExecutiveDossierWorkflow writers=5
+- UmbraBuildGovernanceStateRegistry writers=2
+- UmbraBuildIntelligencePresentationLayer writers=3
+- UmbraBuildIntelligencePriorityQueue writers=3
+- UmbraBuildOperatorDecisionFeed writers=3
+- UmbraBuildPhase4FinalLockFoundation writers=2
+- UmbraBuildPhase6PresentationMetrics writers=3
+- UmbraCertifyActionOrchestration writers=2
+- UmbraCertifyAutonomousDirectives writers=2
+- UmbraCertifyAutonomousWorkflows writers=2
+- UmbraCertifyDossierRegistry writers=5
+- UmbraCertifyPhase4ExecutiveLayer writers=2
+- UmbraCertifyPhase4Midpoint writers=2
+- UmbraCertifyPhase5 writers=2
+- UmbraCertifyPhase7 writers=2
+- UmbraCertifyPhase8Final writers=2
+- UmbraCertifyPhase9Foundation writers=3
+- UmbraCertifyWave001 writers=2
+- UmbraCitySaturationStatus writers=2
+- UmbraCommandDeck writers=3
+- UmbraCommandSurfaceFoundation writers=3
+- UmbraDeferExecutiveWorkflowItem writers=2
+- UmbraDossierRegistry writers=6
+- UmbraExecutiveApprovalRegistry writers=2
+- UmbraExportDossier writers=3
+- UmbraFounderDashboard writers=6
+- UmbraFrontendSecurity writers=2
+- UmbraGetAlertMetrics writers=2
+- UmbraGetAlertStateSummary writers=2
+- UmbraGetDossierMetricsDashboard writers=7
+- UmbraGetDossierRelationships writers=2
+- UmbraGetExecutiveApprovalSummary writers=4
+- UmbraGetExecutiveDossierWorkflowQueue writers=4
+- UmbraGetExecutiveWorkflowMetrics writers=7
+- UmbraGetExecutiveWorkflowStateSummary writers=2
+- UmbraGetMissionStateSummary writers=2
+- UmbraGetPriorityQueueStateSummary writers=3
+- UmbraGetRecentExecutiveActivity writers=6
+- UmbraGetRecentOperatorDecisions writers=2
+- UmbraGetTaskMetrics writers=2
+- UmbraGetTaskStateSummary writers=2
+- UmbraGetTopExecutiveDossiers writers=3
+- UmbraGetWatchlistMetrics writers=2
+- UmbraGetWatchlistStateSummary writers=2
+- UmbraGlobe writers=54
+- UmbraGovernancePolicyRegistry writers=2
+- UmbraGovernanceRegistry writers=2
+- UmbraInitializeWave002 writers=4
+- UmbraIntel writers=30
+- UmbraIntelligencePanel writers=3
+- UmbraIntelligencePresentationLayer writers=2
+- UmbraLastEntityDossierBridgeResult writers=2
+- UmbraMasterAutonomyAudit writers=2
+- UmbraOpenContextRelationships writers=2
+- UmbraOpenEnhancedIntelligenceDetail writers=2
+- UmbraOpenIntelligenceDetail writers=2
+- UmbraOperatorDecisionFeed writers=3
+- UmbraPatchDetailDrawerActions writers=2
+- UmbraPhase3ActiveSelection writers=2
+- UmbraPhase3CitySaturation writers=2
+- UmbraPhase3HubDrilldownData writers=2
+- UmbraPhase5CertificationLayer writers=2
+- UmbraPhase5FinalCertificationReport writers=2
+
+## Event Map Issues
+
+- CONSUMER_ONLY :: blur producers=0 consumers=2
+- CONSUMER_ONLY :: change producers=0 consumers=1
+- CONSUMER_ONLY :: click producers=0 consumers=29
+- CONSUMER_ONLY :: DOMContentLoaded producers=0 consumers=40
+- CONSUMER_ONLY :: input producers=0 consumers=1
+- CONSUMER_ONLY :: keydown producers=0 consumers=1
+- CONSUMER_ONLY :: load producers=0 consumers=11
+- CONSUMER_ONLY :: mousemove producers=0 consumers=1
+- CONSUMER_ONLY :: pointercancel producers=0 consumers=4
+- CONSUMER_ONLY :: pointerdown producers=0 consumers=4
+- CONSUMER_ONLY :: pointermove producers=0 consumers=3
+- CONSUMER_ONLY :: pointerup producers=0 consumers=4
+- CONSUMER_ONLY :: resize producers=0 consumers=10
+- PRODUCER_ONLY :: umbra:blackDragonDossierSynced producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:blackDragonResponseGenerated producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:dossier-candidate-selected producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:entity-dossier-opened producers=1 consumers=0
+- CONSUMER_ONLY :: umbra:entity-selected producers=0 consumers=1
+- PRODUCER_ONLY :: umbra:intelligence-context-changed producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:persistent-source-reference-attached producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:attachment-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:control-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:dataflow-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:intelligence-audit-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:intelligence-certification-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:intelligence-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:intelligence-runtime-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:operational-certification-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:registry-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:runtime-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase10:source-connector-event producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-city-saturation-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-hub-action-selection-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-hub-controls-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-hub-visual-transfer-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-promotion-audit-hub-sync-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-replacement-wave-001-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-source-attachment-intake-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-source-evidence-packets-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-source-validation-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:phase3-verification-pipeline-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:production-promoted producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:source-ledger-imported producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:source-reference-attached producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:source-validation-recalc-ready producers=1 consumers=0
+- PRODUCER_ONLY :: umbra:wave001-certified producers=1 consumers=0
+- PRODUCER_ONLY :: UNKNOWN_DISPATCH_EVENT producers=2 consumers=0
+- CONSUMER_ONLY :: webglcontextlost producers=0 consumers=1
+- CONSUMER_ONLY :: webglcontextrestored producers=0 consumers=2
+- CONSUMER_ONLY :: wheel producers=0 consumers=4
+
+## First 80 Script Load Order Entries
+
+- 1 :: /vendor/three.min.js exists=True
+- 2 :: /vendor/postprocessing/Pass.js exists=True
+- 3 :: /vendor/postprocessing/CopyShader.js exists=True
+- 4 :: /vendor/postprocessing/LuminosityHighPassShader.js exists=True
+- 5 :: /vendor/postprocessing/EffectComposer.js exists=True
+- 6 :: /vendor/postprocessing/RenderPass.js exists=True
+- 7 :: /vendor/postprocessing/ShaderPass.js exists=True
+- 8 :: /vendor/postprocessing/UnrealBloomPass.js exists=True
+- 9 :: /globe/core.js exists=True
+- 10 :: /globe/postfx.js exists=True
+- 11 :: /globe/textures.js exists=True
+- 12 :: /globe/layers.js exists=True
+- 13 :: /globe/shader_veins.js exists=True
+- 14 :: /globe/umbra_data.v1.js exists=True
+- 15 :: /globe/scoring.v1.js exists=True
+- 16 :: /globe/nodes.founder.v1.js exists=True
+- 17 :: /globe/dossiers.js exists=True
+- 18 :: /globe/city_tiles.js exists=True
+- 19 :: /globe/city_loader.js exists=True
+- 20 :: /globe/city_map.js exists=True
+- 21 :: /globe/interaction.js exists=True
+- 22 :: /scene.js exists=True
+- 23 :: /globe/ui.js exists=True
+- 24 :: /globe/security/frontend_runtime_guard.js exists=True
+- 25 :: /globe/security/ui_panel_security_hook.js exists=True
+- 26 :: /globe/security/session_recovery_guard.js exists=True
+- 27 :: /globe/security/dataset_access_guard.js exists=True
+- 28 :: /globe/security/export_security_guard.js exists=True
+- 29 :: /globe/performance/adaptive_postfx_performance_mode.js exists=True
+- 30 :: /globe/performance/movement_performance_mode.js exists=True
+- 31 :: /globe/performance/postfx_resize_throttle.js exists=True
+- 32 :: /globe/performance/render_stability_probe.js exists=True
+- 33 :: /globe/command_deck_runtime.js exists=True
+- 34 :: /globe/intel/registry.js?v=20260603_601R exists=False
+- 35 :: /globe/intel/pipeline.js?v=20260603_601R exists=False
+- 36 :: /globe/intelligence_panel_live_state.js exists=True
+- 37 :: /globe/security/access_control_runtime.js exists=True
+- 38 :: /globe/founder_dashboard_runtime.js exists=True
+- 39 :: /globe/performance/webgl_context_lifecycle_guard.js exists=True
+- 40 :: /globe/performance/webgl_recovery_runtime.js exists=True
+- 41 :: /globe/performance/emergency_globe_performance_mode.js?v=20260603_165102 exists=False
+- 42 :: /globe/performance/globe_interaction_drawcall_optimizer.js?v=20260603_165700 exists=False
+- 43 :: /globe/runtime/city_map_back_control.js?v=20260603_183438 exists=False
+- 44 :: /globe/runtime/black_dragon_books_boot_loader.js exists=True
+- 45 :: /globe/phase3_wave002_runtime_293C.js?v=293C exists=False
+- 46 :: /globe/phase3_wave002_runtime_293D.js?v=293D exists=False
+- 47 :: /globe/phase3_wave002_validation_294.js?v=294 exists=False
+- 48 :: /globe/phase3_wave002_bulk_processing_295.js?v=295 exists=False
+- 49 :: /globe/phase3_wave002_bulk_source_attachment_296.js?v=296 exists=False
+- 50 :: /globe/phase3_wave002_bulk_dossier_validation_297.js?v=297 exists=False
+- 51 :: /globe/phase3_wave002_bulk_promotion_298.js?v=298 exists=False
+- 52 :: /globe/phase4_dossier_foundation_300.js?v=300 exists=False
+- 53 :: /globe/phase4_dossier_source_layer_301.js?v=301 exists=False
+- 54 :: /globe/phase4_dossier_timeline_layer_302.js?v=302 exists=False
+- 55 :: /globe/phase4_dossier_notes_layer_303.js?v=303 exists=False
+- 56 :: /globe/phase4_dossier_actions_layer_304.js?v=304 exists=False
+- 57 :: /globe/phase4_dossier_export_layer_305.js?v=305 exists=False
+- 58 :: /globe/phase4_dossier_ui_panel_306.js?v=306 exists=False
+- 59 :: /globe/phase4_dossier_section_detail_renderer_307.js?v=307 exists=False
+- 60 :: /globe/phase4_dossier_selection_bridge_308.js?v=308 exists=False
+- 61 :: /globe/phase4_entity_click_dossier_bridge_309.js?v=309 exists=False
+- 62 :: /globe/phase4_dossier_persistence_310.js?v=310 exists=False
+- 63 :: /globe/phase4_dossier_registry_integrity_311.js?v=311 exists=False
+- 64 :: /globe/phase4_dossier_search_filter_312.js?v=312 exists=False
+- 65 :: /globe/phase4_dossier_metrics_dashboard_313.js?v=313 exists=False
+- 66 :: /globe/phase4_dossier_metrics_ui_card_314.js?v=314 exists=False
+- 67 :: /globe/phase4_dossier_bulk_builder_315.js?v=315 exists=False
+- 68 :: /globe/phase4_dossier_certification_316.js?v=316 exists=False
+- 69 :: /globe/phase4_dossier_registry_table_317.js?v=317 exists=False
+- 70 :: /globe/phase4_dossier_relationship_graph_318.js?v=318 exists=False
+- 71 :: /globe/phase4_relationship_graph_ui_319.js?v=319 exists=False
+- 72 :: /globe/phase4_midpoint_certification_320.js?v=320 exists=False
+- 73 :: /globe/phase4_executive_dossier_workflows_321.js?v=321 exists=False
+- 74 :: /globe/phase4_executive_workflow_queue_ui_322.js?v=322 exists=False
+- 75 :: /globe/phase4_executive_workflow_actions_323.js?v=323 exists=False
+- 76 :: /globe/phase4_executive_workflow_state_ui_324.js?v=324 exists=False
+- 77 :: /globe/phase4_executive_workflow_metrics_325.js?v=325 exists=False
+- 78 :: /globe/phase4_executive_approval_registry_326.js?v=326 exists=False
+- 79 :: /globe/phase4_executive_decision_timeline_327.js?v=327 exists=False
+- 80 :: /globe/phase4_executive_activity_feed_328.js?v=328 exists=False
