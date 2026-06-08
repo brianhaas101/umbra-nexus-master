@@ -1,0 +1,79 @@
+﻿{
+    "generatedAt":  "2026-06-08T16:11:59",
+    "batch":  478,
+    "name":  "NEXUS_PRODUCT_SURFACE_AUDIT_478",
+    "domains":  [
+                    {
+                        "domain":  "COMMAND",
+                        "systems":  5,
+                        "workspaces":  1,
+                        "dashboards":  0,
+                        "controls":  0,
+                        "certifications":  1
+                    },
+                    {
+                        "domain":  "DOSSIER",
+                        "systems":  23,
+                        "workspaces":  1,
+                        "dashboards":  1,
+                        "controls":  0,
+                        "certifications":  1
+                    },
+                    {
+                        "domain":  "INTELLIGENCE",
+                        "systems":  15,
+                        "workspaces":  1,
+                        "dashboards":  0,
+                        "controls":  0,
+                        "certifications":  1
+                    },
+                    {
+                        "domain":  "OPERATIONS",
+                        "systems":  19,
+                        "workspaces":  7,
+                        "dashboards":  3,
+                        "controls":  6,
+                        "certifications":  4
+                    },
+                    {
+                        "domain":  "AUTOMATION",
+                        "systems":  26,
+                        "workspaces":  5,
+                        "dashboards":  0,
+                        "controls":  4,
+                        "certifications":  7
+                    },
+                    {
+                        "domain":  "GOVERNANCE",
+                        "systems":  4,
+                        "workspaces":  1,
+                        "dashboards":  0,
+                        "controls":  1,
+                        "certifications":  1
+                    },
+                    {
+                        "domain":  "CONTINUITY",
+                        "systems":  4,
+                        "workspaces":  1,
+                        "dashboards":  0,
+                        "controls":  1,
+                        "certifications":  0
+                    },
+                    {
+                        "domain":  "RUNTIME",
+                        "systems":  16,
+                        "workspaces":  1,
+                        "dashboards":  1,
+                        "controls":  3,
+                        "certifications":  2
+                    },
+                    {
+                        "domain":  "SECURITY",
+                        "systems":  5,
+                        "workspaces":  0,
+                        "dashboards":  0,
+                        "controls":  0,
+                        "certifications":  0
+                    }
+                ]
+}
