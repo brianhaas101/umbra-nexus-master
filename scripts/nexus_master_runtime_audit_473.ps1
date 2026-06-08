@@ -1,335 +1,356 @@
-$Root = "C:\Dev\Nexus_MASTER"
+﻿$Root = "C:\Dev\Nexus_MASTER"
 
 $JsonOut = Join-Path $Root "public\data\certification\master\nexus_master_runtime_audit_473.json"
 $MdOut = Join-Path $Root "public\data\certification\master\NEXUS_MASTER_RUNTIME_AUDIT_473.md"
 
-function Safe-GetContent($Path) {
-    if (Test-Path $Path) {
-        return Get-Content $Path -Raw
-    }
-    return ""
+function Read-Text($Path) {
+  if (Test-Path $Path) {
+    return Get-Content $Path -Raw -ErrorAction SilentlyContinue
+  }
+  return ""
 }
 
-function Count-Files($Path, $Filter) {
-    if (Test-Path $Path) {
-        return @(Get-ChildItem $Path -Recurse -File -Filter $Filter -ErrorAction SilentlyContinue).Count
-    }
-    return 0
+function Rel($Path) {
+  return $Path.Replace($Root + "\", "")
 }
 
-function Find-Files($Path, $Pattern) {
-    if (Test-Path $Path) {
-        return Get-ChildItem $Path -Recurse -File -ErrorAction SilentlyContinue |
-            Where-Object { $_.FullName -match $Pattern } |
-            Select-Object FullName, Length, LastWriteTime
-    }
+function Find-Files($Base, $Pattern) {
+  if (-not (Test-Path $Base)) {
     return @()
+  }
+
+  return Get-ChildItem $Base -Recurse -File -ErrorAction SilentlyContinue |
+    Where-Object { $_.FullName -match $Pattern } |
+    Select-Object FullName, Name, Length, LastWriteTime
 }
 
-function Run-Git($Args) {
-    try {
-        return (git -C $Root $Args 2>$null) -join "`n"
-    } catch {
-        return ""
-    }
+function Git-Out($Args) {
+  try {
+    return (git -C $Root $Args 2>$null) -join [Environment]::NewLine
+  } catch {
+    return ""
+  }
 }
 
-function Test-PathRel($RelPath) {
-    return Test-Path (Join-Path $Root $RelPath)
+function Exists-Rel($RelPath) {
+  return Test-Path (Join-Path $Root $RelPath)
 }
 
 $IndexPath = Join-Path $Root "index.html"
-$IndexHtml = Safe-GetContent $IndexPath
+$IndexHtml = Read-Text $IndexPath
 
 $ScriptTags = @()
 if ($IndexHtml.Length -gt 0) {
-    $Matches = [regex]::Matches($IndexHtml, '<script[^>]+src="([^"]+)"[^>]*>')
-    foreach ($m in $Matches) {
-        $ScriptTags += [PSCustomObject]@{
-            src = $m.Groups[1].Value
-            lineHint = "index.html"
-        }
+  $Matches = [regex]::Matches($IndexHtml, '<script[^>]+src="([^"]+)"[^>]*>')
+  foreach ($m in $Matches) {
+    $ScriptTags += [PSCustomObject]@{
+      src = $m.Groups[1].Value
     }
+  }
 }
 
-$RuntimeJsFiles = Find-Files (Join-Path $Root "public\globe") "\.js$"
-$RuntimeJsonFiles = Find-Files (Join-Path $Root "public\data") "\.json$"
+$PublicGlobe = Join-Path $Root "public\globe"
+$PublicData = Join-Path $Root "public\data"
+$RuntimeDir = Join-Path $Root "public\globe\runtime"
 
-$PhaseFiles = Find-Files (Join-Path $Root "public\globe") "phase[0-9].*\.js$"
-$Phase10Files = Find-Files (Join-Path $Root "public\globe") "phase10.*\.js$"
-$RuntimeBridgeFiles = Find-Files (Join-Path $Root "public\globe\runtime") ".*"
+$RuntimeJsFiles = Find-Files $PublicGlobe "\.js$"
+$RuntimeJsonFiles = Find-Files $PublicData "\.json$"
+$PhaseFiles = Find-Files $PublicGlobe "phase[0-9].*\.js$"
+$Phase9Files = Find-Files $PublicGlobe "phase9.*\.js$"
+$Phase10Files = Find-Files $PublicGlobe "phase10.*\.js$"
+$RuntimeBridgeFiles = Find-Files $RuntimeDir ".*"
 
 $SrcIntelligenceFiles = Find-Files (Join-Path $Root "src\intelligence") ".*"
 $PublicIntelligenceFiles = Find-Files (Join-Path $Root "public\data\intelligence") ".*"
-
 $SecurityFiles = Find-Files (Join-Path $Root "public\globe\security") ".*"
 $PerformanceFiles = Find-Files (Join-Path $Root "public\globe\performance") ".*"
+$ClientFiles = Find-Files (Join-Path $Root "public\data\clients") ".*"
+$CityTileFiles = Find-Files (Join-Path $Root "public\assets\city_tiles") ".*"
 
 $WindowGlobals = @()
-$EventProducers = @()
-$EventConsumers = @()
-$RuntimeReferences = @()
+$EventProducerFiles = @()
+$EventConsumerFiles = @()
+$RuntimeReferenceFiles = @()
 
 $SearchRoots = @(
-    "public\globe",
-    "src",
-    "scripts"
+  "public\globe",
+  "src",
+  "scripts"
 )
 
-foreach ($rel in $SearchRoots) {
-    $abs = Join-Path $Root $rel
-    if (Test-Path $abs) {
-        $files = Get-ChildItem $abs -Recurse -File -Include *.js,*.ts,*.mjs,*.html -ErrorAction SilentlyContinue
+foreach ($relRoot in $SearchRoots) {
+  $absRoot = Join-Path $Root $relRoot
 
-        foreach ($file in $files) {
-            $text = Safe-GetContent $file.FullName
+  if (Test-Path $absRoot) {
+    $files = Get-ChildItem $absRoot -Recurse -File -Include *.js,*.mjs,*.ts,*.html,*.ps1 -ErrorAction SilentlyContinue
 
-            if ($text.Length -eq 0) {
-                continue
-            }
+    foreach ($file in $files) {
+      $text = Read-Text $file.FullName
 
-            $globalMatches = [regex]::Matches($text, 'window\.([A-Za-z0-9_]+)')
-            foreach ($gm in $globalMatches) {
-                $WindowGlobals += [PSCustomObject]@{
-                    global = $gm.Groups[1].Value
-                    file = $file.FullName.Replace($Root + "\", "")
-                }
-            }
+      if ($text.Length -eq 0) {
+        continue
+      }
 
-            if ($text -match "dispatchEvent|CustomEvent|emit\(") {
-                $EventProducers += [PSCustomObject]@{
-                    file = $file.FullName.Replace($Root + "\", "")
-                    hasDispatchEvent = $text -match "dispatchEvent"
-                    hasCustomEvent = $text -match "CustomEvent"
-                    hasEmit = $text -match "emit\("
-                }
-            }
-
-            if ($text -match "addEventListener|subscribe|on\(") {
-                $EventConsumers += [PSCustomObject]@{
-                    file = $file.FullName.Replace($Root + "\", "")
-                    hasAddEventListener = $text -match "addEventListener"
-                    hasSubscribe = $text -match "subscribe"
-                    hasOn = $text -match "on\("
-                }
-            }
-
-            if ($text -match "UmbraPhase10|UmbraPhase9|Umbra|Nexus|Dossier|City|Command|Founder|Intelligence") {
-                $RuntimeReferences += [PSCustomObject]@{
-                    file = $file.FullName.Replace($Root + "\", "")
-                }
-            }
+      $globalMatches = [regex]::Matches($text, 'window\.([A-Za-z0-9_]+)')
+      foreach ($gm in $globalMatches) {
+        $WindowGlobals += [PSCustomObject]@{
+          global = $gm.Groups[1].Value
+          file = Rel $file.FullName
         }
+      }
+
+      if ($text -match "dispatchEvent|CustomEvent|emit\(") {
+        $EventProducerFiles += [PSCustomObject]@{
+          file = Rel $file.FullName
+        }
+      }
+
+      if ($text -match "addEventListener|subscribe|on\(") {
+        $EventConsumerFiles += [PSCustomObject]@{
+          file = Rel $file.FullName
+        }
+      }
+
+      if ($text -match "Umbra|Nexus|Dossier|City|Command|Founder|Intelligence|Runtime") {
+        $RuntimeReferenceFiles += [PSCustomObject]@{
+          file = Rel $file.FullName
+        }
+      }
     }
+  }
 }
 
 $UniqueGlobals = $WindowGlobals |
-    Group-Object global |
-    ForEach-Object {
-        [PSCustomObject]@{
-            global = $_.Name
-            count = $_.Count
-            files = @($_.Group | Select-Object -ExpandProperty file -Unique)
-        }
-    } |
-    Sort-Object global
+  Group-Object global |
+  ForEach-Object {
+    [PSCustomObject]@{
+      global = $_.Name
+      count = $_.Count
+      files = @($_.Group | Select-Object -ExpandProperty file -Unique)
+    }
+  } |
+  Sort-Object global
 
 $CapabilityChecks = [ordered]@{
-    root_index_exists = Test-Path $IndexPath
-    has_script_tags = @($ScriptTags).Count -gt 0
+  root_index_exists = Test-Path $IndexPath
+  has_script_tags = @($ScriptTags).Count -gt 0
 
-    phase9_certification_exists = Test-PathRel "src\phase9-final-audit-certification.js"
-    phase10_runtime_certification_exists = Test-PathRel "public\globe\runtime\phase10_runtime_certification_465.js"
-    phase10_intelligence_certification_exists = Test-PathRel "public\globe\runtime\phase10_intelligence_runtime_certification_470.js"
-    phase10_operational_certification_exists = Test-PathRel "public\globe\runtime\phase10_operational_execution_certification_472.js"
+  phase9_foundation_exists = Exists-Rel "public\globe\phase9_foundation_431.js"
+  phase9_governance_certification_exists = Exists-Rel "public\globe\phase9_governance_certification_435.js"
+  phase9_continuity_certification_exists = Exists-Rel "src\phase9-continuity-certification.js"
 
-    globe_core_exists = Test-PathRel "public\globe\core.js"
-    city_map_exists = Test-PathRel "public\globe\city_map.js"
-    command_deck_exists = Test-PathRel "public\globe\command_deck_runtime.js"
-    founder_dashboard_exists = Test-PathRel "public\globe\founder_dashboard_runtime.js"
+  phase10_runtime_certification_exists = Exists-Rel "public\globe\runtime\phase10_runtime_certification_465.js"
+  phase10_intelligence_certification_exists = Exists-Rel "public\globe\runtime\phase10_intelligence_runtime_certification_470.js"
+  phase10_operational_certification_exists = Exists-Rel "public\globe\runtime\phase10_operational_execution_certification_472.js"
 
-    dossier_bridge_exists = Test-PathRel "public\globe\runtime\dossier_open_bridge.js"
-    dossier_mount_exists = Test-PathRel "public\globe\runtime\dossier_mount_restore.js"
-    city_click_bridge_exists = Test-PathRel "public\globe\runtime\city_click_tilemap_bridge.js"
+  globe_core_exists = Exists-Rel "public\globe\core.js"
+  city_map_exists = Exists-Rel "public\globe\city_map.js"
+  command_deck_exists = Exists-Rel "public\globe\command_deck_runtime.js"
+  founder_dashboard_exists = Exists-Rel "public\globe\founder_dashboard_runtime.js"
 
-    intel_loader_bridge_exists = Test-PathRel "public\globe\runtime\intel_loader_bridge.js"
-    intel_alias_bridge_exists = Test-PathRel "public\globe\runtime\intel_runtime_alias_bridge.js"
+  dossier_open_bridge_exists = Exists-Rel "public\globe\runtime\dossier_open_bridge.js"
+  dossier_mount_restore_exists = Exists-Rel "public\globe\runtime\dossier_mount_restore.js"
+  city_click_bridge_exists = Exists-Rel "public\globe\runtime\city_click_tilemap_bridge.js"
 
-    security_runtime_exists = Test-PathRel "public\globe\security\frontend_runtime_guard.js"
-    access_control_exists = Test-PathRel "public\globe\security\access_control_runtime.js"
+  intel_loader_bridge_exists = Exists-Rel "public\globe\runtime\intel_loader_bridge.js"
+  intel_alias_bridge_exists = Exists-Rel "public\globe\runtime\intel_runtime_alias_bridge.js"
 
-    performance_runtime_exists = Test-PathRel "public\globe\performance\movement_performance_mode.js"
+  security_guard_exists = Exists-Rel "public\globe\security\frontend_runtime_guard.js"
+  access_control_exists = Exists-Rel "public\globe\security\access_control_runtime.js"
 
-    public_intelligence_data_exists = Test-PathRel "public\data\intelligence"
-    src_intelligence_exists = Test-PathRel "src\intelligence"
+  performance_mode_exists = Exists-Rel "public\globe\performance\movement_performance_mode.js"
 
-    black_dragon_client_exists = Test-PathRel "clients\CLIENT-BD-001"
+  public_intelligence_data_exists = Exists-Rel "public\data\intelligence"
+  src_intelligence_exists = Exists-Rel "src\intelligence"
+
+  client_data_exists = Exists-Rel "public\data\clients"
+  black_dragon_client_data_exists = Exists-Rel "public\data\clients\black_dragon"
 }
 
 $CapabilityPassed = @($CapabilityChecks.GetEnumerator() | Where-Object { $_.Value -eq $true }).Count
 $CapabilityTotal = @($CapabilityChecks.GetEnumerator()).Count
 $CapabilityFailed = $CapabilityTotal - $CapabilityPassed
 
-$Tags = Run-Git "tag --list"
-$Log = Run-Git "log --oneline --decorate -20"
-$Branch = Run-Git "branch --show-current"
-$Status = Run-Git "status --short"
+$Branch = Git-Out "branch --show-current"
+$Status = Git-Out "status --short"
+$Log = Git-Out "log --oneline --decorate -25"
+$Tags = Git-Out "tag --list"
 
 $BuildOutput = ""
 $BuildPassed = $false
 
 try {
-    Push-Location $Root
-    $BuildOutput = npm run build 2>&1 | Out-String
-    $BuildPassed = $LASTEXITCODE -eq 0
-    Pop-Location
+  Push-Location $Root
+  $BuildOutput = npm run build 2>&1 | Out-String
+  $BuildPassed = $LASTEXITCODE -eq 0
+  Pop-Location
 } catch {
-    $BuildOutput = $_.Exception.Message
-    $BuildPassed = $false
+  $BuildOutput = $_.Exception.Message
+  $BuildPassed = $false
 }
 
 $RiskFlags = @()
 
 if ($Status -match "^\s*M|^\s*D|^\s*\?\?") {
-    $RiskFlags += "Working tree contains modified, deleted, or untracked files. Future batches must stage only intended files."
+  $RiskFlags += "Working tree has modified, deleted, or untracked files. Stage only intended files."
 }
 
 if ($CapabilityFailed -gt 0) {
-    $RiskFlags += "Some expected runtime capabilities are missing from static audit."
+  $RiskFlags += "Some static capability checks failed."
 }
 
 if (-not $BuildPassed) {
-    $RiskFlags += "Production build failed."
+  $RiskFlags += "Production build failed."
 }
 
 if (@($ScriptTags).Count -gt 60) {
-    $RiskFlags += "Large number of root script bindings. Audit duplicate or legacy runtime loading before major UI changes."
+  $RiskFlags += "Root index has a large number of script tags. Audit legacy and duplicate runtime loading before major UI changes."
 }
 
 $Result = [PSCustomObject]@{
-    generatedAt = (Get-Date).ToString("s")
-    batch = 473
-    name = "NEXUS_MASTER_RUNTIME_AUDIT_473"
-    branch = $Branch.Trim()
-    buildPassed = $BuildPassed
-    gitStatusShort = $Status
-    recentLog = $Log
-    tags = $Tags
-    metrics = [PSCustomObject]@{
-        scriptTagsInRootIndex = @($ScriptTags).Count
-        publicGlobeJsFiles = @($RuntimeJsFiles).Count
-        publicDataJsonFiles = @($RuntimeJsonFiles).Count
-        phaseFiles = @($PhaseFiles).Count
-        phase10Files = @($Phase10Files).Count
-        runtimeBridgeFiles = @($RuntimeBridgeFiles).Count
-        srcIntelligenceFiles = @($SrcIntelligenceFiles).Count
-        publicIntelligenceFiles = @($PublicIntelligenceFiles).Count
-        securityFiles = @($SecurityFiles).Count
-        performanceFiles = @($PerformanceFiles).Count
-        uniqueWindowGlobals = @($UniqueGlobals).Count
-        eventProducerFiles = @($EventProducers).Count
-        eventConsumerFiles = @($EventConsumers).Count
-        runtimeReferenceFiles = @($RuntimeReferences).Count
-        capabilityPassed = $CapabilityPassed
-        capabilityFailed = $CapabilityFailed
-        capabilityTotal = $CapabilityTotal
-    }
-    capabilityChecks = $CapabilityChecks
-    scriptTags = $ScriptTags
-    uniqueWindowGlobals = $UniqueGlobals
-    eventProducers = $EventProducers
-    eventConsumers = $EventConsumers
-    phase10Files = $Phase10Files
-    runtimeBridgeFiles = $RuntimeBridgeFiles
-    riskFlags = $RiskFlags
-    buildOutputTail = (($BuildOutput -split "`n") | Select-Object -Last 30) -join "`n"
+  generatedAt = (Get-Date).ToString("s")
+  batch = "473B"
+  name = "NEXUS_MASTER_RUNTIME_AUDIT_473B"
+  branch = $Branch.Trim()
+  buildPassed = $BuildPassed
+  gitStatusShort = $Status
+  recentLog = $Log
+  tags = $Tags
+  metrics = [PSCustomObject]@{
+    scriptTagsInRootIndex = @($ScriptTags).Count
+    publicGlobeJsFiles = @($RuntimeJsFiles).Count
+    publicDataJsonFiles = @($RuntimeJsonFiles).Count
+    phaseFiles = @($PhaseFiles).Count
+    phase9Files = @($Phase9Files).Count
+    phase10Files = @($Phase10Files).Count
+    runtimeBridgeFiles = @($RuntimeBridgeFiles).Count
+    srcIntelligenceFiles = @($SrcIntelligenceFiles).Count
+    publicIntelligenceFiles = @($PublicIntelligenceFiles).Count
+    securityFiles = @($SecurityFiles).Count
+    performanceFiles = @($PerformanceFiles).Count
+    clientFiles = @($ClientFiles).Count
+    cityTileFiles = @($CityTileFiles).Count
+    uniqueWindowGlobals = @($UniqueGlobals).Count
+    eventProducerFiles = @($EventProducerFiles).Count
+    eventConsumerFiles = @($EventConsumerFiles).Count
+    runtimeReferenceFiles = @($RuntimeReferenceFiles).Count
+    capabilityPassed = $CapabilityPassed
+    capabilityFailed = $CapabilityFailed
+    capabilityTotal = $CapabilityTotal
+  }
+  capabilityChecks = $CapabilityChecks
+  scriptTags = $ScriptTags
+  uniqueWindowGlobals = $UniqueGlobals
+  eventProducerFiles = $EventProducerFiles
+  eventConsumerFiles = $EventConsumerFiles
+  phase9Files = @($Phase9Files | ForEach-Object { Rel $_.FullName })
+  phase10Files = @($Phase10Files | ForEach-Object { Rel $_.FullName })
+  runtimeBridgeFiles = @($RuntimeBridgeFiles | ForEach-Object { Rel $_.FullName })
+  riskFlags = $RiskFlags
+  buildOutputTail = (($BuildOutput -split [Environment]::NewLine) | Select-Object -Last 30) -join [Environment]::NewLine
 }
 
 $Result | ConvertTo-Json -Depth 50 | Set-Content $JsonOut -Encoding UTF8
 
-$Md = @()
-$Md += "# NEXUS MASTER RUNTIME AUDIT 473"
-$Md += ""
-$Md += "Generated: $($Result.generatedAt)"
-$Md += ""
-$Md += "## Summary"
-$Md += ""
-$Md += "- Build passed: $BuildPassed"
-$Md += "- Branch: $($Result.branch)"
-$Md += "- Script tags in root index: $(@($ScriptTags).Count)"
-$Md += "- Public globe JS files: $(@($RuntimeJsFiles).Count)"
-$Md += "- Public data JSON files: $(@($RuntimeJsonFiles).Count)"
-$Md += "- Phase files: $(@($PhaseFiles).Count)"
-$Md += "- Phase 10 files: $(@($Phase10Files).Count)"
-$Md += "- Runtime bridge files: $(@($RuntimeBridgeFiles).Count)"
-$Md += "- Unique window globals: $(@($UniqueGlobals).Count)"
-$Md += "- Event producer files: $(@($EventProducers).Count)"
-$Md += "- Event consumer files: $(@($EventConsumers).Count)"
-$Md += "- Capability checks: $CapabilityPassed / $CapabilityTotal"
-$Md += ""
-$Md += "## Capability Checks"
-$Md += ""
+$Lines = New-Object System.Collections.Generic.List[string]
+
+$Lines.Add("# NEXUS MASTER RUNTIME AUDIT 473B")
+$Lines.Add("")
+$Lines.Add("Generated: " + $Result.generatedAt)
+$Lines.Add("")
+$Lines.Add("## Summary")
+$Lines.Add("")
+$Lines.Add("- Build passed: " + $BuildPassed)
+$Lines.Add("- Branch: " + $Result.branch)
+$Lines.Add("- Script tags in root index: " + @($ScriptTags).Count)
+$Lines.Add("- Public globe JS files: " + @($RuntimeJsFiles).Count)
+$Lines.Add("- Public data JSON files: " + @($RuntimeJsonFiles).Count)
+$Lines.Add("- Phase files: " + @($PhaseFiles).Count)
+$Lines.Add("- Phase 9 files: " + @($Phase9Files).Count)
+$Lines.Add("- Phase 10 files: " + @($Phase10Files).Count)
+$Lines.Add("- Runtime bridge files: " + @($RuntimeBridgeFiles).Count)
+$Lines.Add("- Source intelligence files: " + @($SrcIntelligenceFiles).Count)
+$Lines.Add("- Public intelligence files: " + @($PublicIntelligenceFiles).Count)
+$Lines.Add("- Security files: " + @($SecurityFiles).Count)
+$Lines.Add("- Performance files: " + @($PerformanceFiles).Count)
+$Lines.Add("- Client data files: " + @($ClientFiles).Count)
+$Lines.Add("- City tile files: " + @($CityTileFiles).Count)
+$Lines.Add("- Unique window globals: " + @($UniqueGlobals).Count)
+$Lines.Add("- Event producer files: " + @($EventProducerFiles).Count)
+$Lines.Add("- Event consumer files: " + @($EventConsumerFiles).Count)
+$Lines.Add("- Runtime reference files: " + @($RuntimeReferenceFiles).Count)
+$Lines.Add("- Capability checks: " + $CapabilityPassed + " / " + $CapabilityTotal)
+$Lines.Add("")
+$Lines.Add("## Capability Checks")
+$Lines.Add("")
 
 foreach ($item in $CapabilityChecks.GetEnumerator()) {
-    $mark = if ($item.Value) { "[PASS]" } else { "[FAIL]" }
-    $Md += "- $mark $($item.Key)"
+  if ($item.Value) {
+    $Lines.Add("- [PASS] " + $item.Key)
+  } else {
+    $Lines.Add("- [FAIL] " + $item.Key)
+  }
 }
 
-$Md += ""
-$Md += "## Risk Flags"
-$Md += ""
+$Lines.Add("")
+$Lines.Add("## Risk Flags")
+$Lines.Add("")
 
 if (@($RiskFlags).Count -eq 0) {
-    $Md += "- None"
+  $Lines.Add("- None")
 } else {
-    foreach ($risk in $RiskFlags) {
-        $Md += "- $risk"
-    }
+  foreach ($risk in $RiskFlags) {
+    $Lines.Add("- " + $risk)
+  }
 }
 
-$Md += ""
-$Md += "## Phase 10 Files"
-$Md += ""
+$Lines.Add("")
+$Lines.Add("## Phase 9 Files")
+$Lines.Add("")
+
+foreach ($file in $Phase9Files) {
+  $Lines.Add("- " + (Rel $file.FullName))
+}
+
+$Lines.Add("")
+$Lines.Add("## Phase 10 Files")
+$Lines.Add("")
 
 foreach ($file in $Phase10Files) {
-    $Md += "- $($file.FullName.Replace($Root + '\', ''))"
+  $Lines.Add("- " + (Rel $file.FullName))
 }
 
-$Md += ""
-$Md += "## Runtime Bridge Files"
-$Md += ""
+$Lines.Add("")
+$Lines.Add("## Runtime Bridge Files")
+$Lines.Add("")
 
 foreach ($file in $RuntimeBridgeFiles) {
-    $Md += "- $($file.FullName.Replace($Root + '\', ''))"
+  $Lines.Add("- " + (Rel $file.FullName))
 }
 
-$Md += ""
-$Md += "## Window Globals"
-$Md += ""
+$Lines.Add("")
+$Lines.Add("## Window Globals")
+$Lines.Add("")
 
-foreach ($g in $UniqueGlobals | Select-Object -First 200) {
-    $Md += "- $($g.global) ($($g.count))"
+foreach ($g in ($UniqueGlobals | Select-Object -First 250)) {
+  $Lines.Add("- " + $g.global + " (" + $g.count + ")")
 }
 
-$Md += ""
-$Md += "## Recent Git Log"
-$Md += ""
-$Md += "```txt"
-$Md += $Log
-$Md += "```"
-$Md += ""
-$Md += "## Build Output Tail"
-$Md += ""
-$Md += "```txt"
-$Md += $Result.buildOutputTail
-$Md += "```"
+$Lines.Add("")
+$Lines.Add("## Recent Git Log")
+$Lines.Add("")
+$Lines.Add($Log)
+$Lines.Add("")
+$Lines.Add("## Build Output Tail")
+$Lines.Add("")
+$Lines.Add($Result.buildOutputTail)
 
-$Md -join "`n" | Set-Content $MdOut -Encoding UTF8
+[System.IO.File]::WriteAllLines($MdOut, $Lines, [System.Text.Encoding]::UTF8)
 
 Write-Host ""
-Write-Host "NEXUS MASTER RUNTIME AUDIT 473 COMPLETE"
-Write-Host "Build passed: $BuildPassed"
-Write-Host "Capability checks: $CapabilityPassed / $CapabilityTotal"
-Write-Host "JSON: $JsonOut"
-Write-Host "Markdown: $MdOut"
+Write-Host "NEXUS MASTER RUNTIME AUDIT 473B COMPLETE"
+Write-Host ("Build passed: " + $BuildPassed)
+Write-Host ("Capability checks: " + $CapabilityPassed + " / " + $CapabilityTotal)
+Write-Host ("JSON: " + $JsonOut)
+Write-Host ("Markdown: " + $MdOut)
 Write-Host ""
