@@ -1,0 +1,663 @@
+﻿{
+    "generatedAt":  "2026-06-08T16:08:55",
+    "batch":  476,
+    "name":  "NEXUS_CAPABILITY_CLASSIFICATION_MATRIX_476",
+    "summary":  {
+                    "activate":  10,
+                    "merge":  43,
+                    "archive":  39,
+                    "client_specific":  38
+                },
+    "matrix":  [
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_citymap_renderer.js",
+                       "domain":  "CLIENT",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_cluster_renderer.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                       "domain":  "CLIENT",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_cluster_renderer.js",
+                       "domain":  "CLIENT",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_layer_controls.js",
+                       "domain":  "CLIENT",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_map_nodes_runtime.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                       "domain":  "RUNTIME",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_map_nodes_runtime.js",
+                       "domain":  "RUNTIME",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_path_renderer.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                       "domain":  "CLIENT",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_path_renderer.js",
+                       "domain":  "CLIENT",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\book_selection_bus.js",
+                       "domain":  "CLIENT",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\client_dashboard_renderer.js",
+                       "domain":  "EXECUTIVE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\dossier_sync_runtime.js",
+                       "domain":  "DOSSIER",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\outreach_queue_actions.js",
+                       "domain":  "OPERATIONS",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\outreach_queue_ui.js",
+                       "domain":  "OPERATIONS",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\response_logging_ui.js",
+                       "domain":  "CLIENT",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\response_persistence_store.js",
+                       "domain":  "CLIENT",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\clients\\black_dragon\\books\\response_workflow_runtime.js",
+                       "domain":  "OPERATIONS",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\debug\\city_map_validation.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\debug\\law_enforcement_citymap_debug.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\dossier_templates\\law_enforcement_dossier.js",
+                       "domain":  "DOSSIER",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\integrations\\law_enforcement_adapter.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\integrations\\law_enforcement_citymap_integration.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\integrations\\law_enforcement_dossier_renderer.js",
+                       "domain":  "DOSSIER",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\integrations\\law_enforcement_loader_example.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\adapters\\private_primary.adapter.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.client_preset.bridge.before_target_schema_fix_20260521_193807.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.client_preset.bridge.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.data_loader.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.dossier.adapter.js",
+                       "domain":  "DOSSIER",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.dossier_layer.enhancer.js",
+                       "domain":  "DOSSIER",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.enrichment.adapter.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.intake.config.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.integrity.check.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.layer_bridge.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.lead_normalizer.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.pipeline.adapter.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.processor.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.scoring.adapter.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon.signal_definitions.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon_books.client_preset.bridge.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon_books.intake.config.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon_books.integrity.check.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon_books.pipeline.adapter.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon_books.scoring.adapter.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\clients\\black_dragon_books.signal_definitions.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\business_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\competitive_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\demographic_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\economic_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\government_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\lead_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\real_estate_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\risk_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\core_runtime\\supply_chain_intelligence.runtime.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\layers\\black_dragon.processor.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\layers\\intelligence_layers.registry.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\layers\\layer_integrity.check.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\layers\\layer_score.engine.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\layers\\layer_weights.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\layers\\source_catalog.completion.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\layers\\source_catalog.v1.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\sources\\black_dragon_source_registry.loader.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\sources\\black_dragon_state_agency_directory_registry.loader.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\sources\\test_client_beta_source_registry.loader.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\intel\\sources\\test_client_beta_state_agency_directory_registry.loader.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\performance\\world_city_pick_proxy_restore.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\performance\\world_city_points_optimizer.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\city_click_tilemap_bridge.js",
+                       "domain":  "RUNTIME",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\city_map_node_registry_repair.js",
+                       "domain":  "RUNTIME",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\core_boot_state_repair.js",
+                       "domain":  "RUNTIME",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\dossier_mount_restore.js",
+                       "domain":  "DOSSIER",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\dossier_open_bridge.js",
+                       "domain":  "DOSSIER",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\intel_loader_bridge.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\intel_runtime_alias_bridge.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\phase10_intelligence_data_flow_467.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\runtime_health_bridge.js",
+                       "domain":  "RUNTIME",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\runtime\\world_pick_cache_repair.js",
+                       "domain":  "RUNTIME",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\security\\frontend_runtime_guard.before_v2_nested_founder_role_20260602_172706.js",
+                       "domain":  "RUNTIME",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\atmo_halo.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\city_map.before_blackdragon_identity_fix_20260514_163448.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\city_map.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                       "domain":  "CLIENT",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\city_view.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\client_config.v1.js",
+                       "domain":  "CLIENT",
+                       "action":  "CLIENT_SPECIFIC"
+                   },
+                   {
+                       "file":  "public\\globe\\command_deck_runtime.before_expansion_537_20260601_212348.js",
+                       "domain":  "COMMAND",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\command_deck_runtime.PRE_HUB_RESTORE_20260525_090424.js",
+                       "domain":  "COMMAND",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\core.before_blackdragon_boot_fix_20260521_192507.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\core.BLACK_DRAGON_RESTORED_FINAL_20260525_152434.js",
+                       "domain":  "CLIENT",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\core.CINEMATIC_NO_POSTFX_20260525_095238.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\core.FULL_HUB_RESTORED_20260525_100154.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\core.PRE_HUB_RESTORE_20260525_090424.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\core.RUNTIME_RESTORED_20260525.js",
+                       "domain":  "RUNTIME",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\core.STABLE_RUNTIME_20260525_084355.js",
+                       "domain":  "RUNTIME",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\data_loader.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\enterprise_command_surface.js",
+                       "domain":  "COMMAND",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\founder_dashboard_runtime.before_health_binding_547_20260601_220103.js",
+                       "domain":  "EXECUTIVE",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\founder_dashboard_runtime.before_index_binding_540_20260601_213232.js",
+                       "domain":  "EXECUTIVE",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\founder_dashboard_runtime.before_metrics_binding_543_20260601_215051.js",
+                       "domain":  "EXECUTIVE",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\founder_dashboard_runtime.before_module_binding_538_20260601_212801.js",
+                       "domain":  "EXECUTIVE",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\founder_dashboard_runtime.before_ops_telemetry_binding_549_20260601_220509.js",
+                       "domain":  "EXECUTIVE",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\integrity.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\intelligence_panel_live_state.before_blackdragon_region_fix_20260514_163746.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\intelligence_panel_live_state.PRE_HUB_RESTORE_20260525_090424.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\interaction.before_city_zoom_fix_20260514_162338.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\interaction.before_selection_persist_fix_20260514_164831.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.before_baseTex_fallback_fix.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.before_blackdragon_boot_fix_20260521_192507.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.before_canvas_texture_fallback.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.before_handoff_blue_globe_force.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.before_timeout_texture_fix.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.broken_duplicate_backup.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.CINEMATIC_NO_POSTFX_20260525_095238.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.force_canvas_handoff_backup.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.FULL_HUB_RESTORED_20260525_100154.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.PRE_HUB_RESTORE_20260525_090424.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.RUNTIME_RESTORED_20260525.js",
+                       "domain":  "RUNTIME",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.STABLE_RUNTIME_20260525_084355.js",
+                       "domain":  "RUNTIME",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\layers.TEXTURE_RESTORED_20260525_085532.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\phase5_command_surface_foundation_334.js",
+                       "domain":  "COMMAND",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\phase5_final_certification_355.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\phase6_intelligence_presentation_foundation_356.js",
+                       "domain":  "INTELLIGENCE",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\phase6_priority_queue_workspace_controls_366.js",
+                       "domain":  "OPERATIONS",
+                       "action":  "ACTIVATE"
+                   },
+                   {
+                       "file":  "public\\globe\\sun_sheen.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\telemetry.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\textures.before_timeout_90s.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\ui.before_blackdragon_active_user_fix_20260514_165051.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\ui.before_founder_identity_restore_530_20260601_204537.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\ui.before_store_block_normalize_20260514_165138.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\ui.PRE_HUB_RESTORE_20260525_090424.js",
+                       "domain":  "LEGACY",
+                       "action":  "ARCHIVE"
+                   },
+                   {
+                       "file":  "public\\globe\\umbra_logo.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\visual_size_stabilizer.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   },
+                   {
+                       "file":  "public\\globe\\webgl_fallback_surface.js",
+                       "domain":  "LEGACY",
+                       "action":  "MERGE"
+                   }
+               ]
+}
