@@ -1,0 +1,458 @@
+﻿{
+    "generatedAt":  "2026-06-08T16:13:57",
+    "batch":  479,
+    "name":  "NEXUS_LIVE_SURFACE_INVENTORY_479",
+    "summary":  {
+                    "total_surfaces":  73,
+                    "workspaces":  28,
+                    "dashboards":  5,
+                    "panels":  3,
+                    "drawers":  3,
+                    "queues":  9,
+                    "rails":  2,
+                    "feeds":  4,
+                    "controls":  13,
+                    "surfaces":  2,
+                    "registries":  4
+                },
+    "surfaces":  [
+                     {
+                         "file":  "public\\globe\\intel\\registry.js",
+                         "type":  "REGISTRY",
+                         "phase":  "UNKNOWN",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\runtime\\city_map_back_control.js",
+                         "type":  "CONTROL",
+                         "phase":  "UNKNOWN",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\runtime\\phase10_runtime_control_layer_464.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_10",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\runtime\\phase10_runtime_registry_workspace_462.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_10",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\security\\access_control_runtime.js",
+                         "type":  "CONTROL",
+                         "phase":  "UNKNOWN",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\security\\ui_panel_security_hook.js",
+                         "type":  "PANEL",
+                         "phase":  "UNKNOWN",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\founder_dashboard_runtime.js",
+                         "type":  "DASHBOARD",
+                         "phase":  "UNKNOWN",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\intelligence_panel_live_state.js",
+                         "type":  "PANEL",
+                         "phase":  "UNKNOWN",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase4_dossier_metrics_dashboard_313.js",
+                         "type":  "DASHBOARD",
+                         "phase":  "PHASE_4",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase4_dossier_registry_integrity_311.js",
+                         "type":  "REGISTRY",
+                         "phase":  "PHASE_4",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase4_dossier_registry_table_317.js",
+                         "type":  "REGISTRY",
+                         "phase":  "PHASE_4",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase4_dossier_ui_panel_306.js",
+                         "type":  "PANEL",
+                         "phase":  "PHASE_4",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase4_executive_activity_feed_328.js",
+                         "type":  "FEED",
+                         "phase":  "PHASE_4",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase4_executive_approval_registry_326.js",
+                         "type":  "REGISTRY",
+                         "phase":  "PHASE_4",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase4_executive_dashboard_329.js",
+                         "type":  "DASHBOARD",
+                         "phase":  "PHASE_4",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase4_executive_workflow_queue_ui_322.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_4",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_activity_review_feed_343.js",
+                         "type":  "FEED",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_command_surface_certification_340.js",
+                         "type":  "SURFACE",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_command_surface_foundation_334B.js",
+                         "type":  "SURFACE",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_dossier_workspace_346.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_executive_workspace_347.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_left_command_rail_336.js",
+                         "type":  "RAIL",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_relationship_workspace_345.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_right_intelligence_rail_337.js",
+                         "type":  "RAIL",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_workspace_command_cards_342.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_workspace_router_upgrade_348.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase5_workspace_view_manager_339.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_5",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_cross_workspace_context_359.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_intelligence_card_workspace_357.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_intelligence_detail_drawer_358.js",
+                         "type":  "DRAWER",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_intelligence_priority_queue_363.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_operator_decision_feed_368.js",
+                         "type":  "FEED",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_operator_decision_feed_certification_369.js",
+                         "type":  "FEED",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_priority_queue_action_states_365.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_priority_queue_control_certification_367.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_priority_queue_state_persistence_365B.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_priority_queue_workspace_364.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_priority_queue_workspace_controls_366B.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_summary_enhanced_drawer_362.js",
+                         "type":  "DRAWER",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase6_summary_enhanced_drawer_362B.js",
+                         "type":  "DRAWER",
+                         "phase":  "PHASE_6",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_alert_control_certification_388.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_alert_workspace_385.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_alert_workspace_controls_387.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_mission_control_certification_378.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_mission_workspace_375.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_mission_workspace_controls_377.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_operations_dashboard_certification_396.js",
+                         "type":  "DASHBOARD",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_operations_dashboard_foundation_394.js",
+                         "type":  "DASHBOARD",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_operations_dashboard_workspace_395.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_task_control_certification_393.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_task_workspace_390.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_task_workspace_controls_392.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_watchlist_control_certification_383.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_watchlist_workspace_380.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase7_watchlist_workspace_controls_382.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_7",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_action_orchestration_controls_417.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_action_orchestration_workspace_415.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_automation_execution_log_workspace_407.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_automation_execution_queue_401.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_automation_queue_certification_405.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_automation_queue_controls_404.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_automation_queue_state_engine_403.js",
+                         "type":  "QUEUE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_automation_queue_workspace_402.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_autonomous_action_controls_412.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_autonomous_action_workspace_410.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_autonomous_directive_controls_427.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_autonomous_directive_workspace_425.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_autonomous_workflow_controls_422.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase8_autonomous_workflow_workspace_420.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_8",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase9_continuity_controls_439.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_9",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase9_continuity_workspace_437.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_9",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase9_governance_controls_434.js",
+                         "type":  "CONTROL",
+                         "phase":  "PHASE_9",
+                         "active":  true
+                     },
+                     {
+                         "file":  "public\\globe\\phase9_governance_workspace_432.js",
+                         "type":  "WORKSPACE",
+                         "phase":  "PHASE_9",
+                         "active":  true
+                     }
+                 ]
+}

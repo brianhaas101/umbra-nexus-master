@@ -1,0 +1,93 @@
+﻿# NEXUS LIVE SURFACE INVENTORY 479
+
+Generated: 2026-06-08T16:13:57
+
+## Summary
+
+- total_surfaces: 73
+- workspaces: 28
+- dashboards: 5
+- panels: 3
+- drawers: 3
+- queues: 9
+- rails: 2
+- feeds: 4
+- controls: 13
+- surfaces: 2
+- registries: 4
+
+## Surfaces
+
+- [UNKNOWN] [REGISTRY] public\globe\intel\registry.js
+- [UNKNOWN] [CONTROL] public\globe\runtime\city_map_back_control.js
+- [PHASE_10] [CONTROL] public\globe\runtime\phase10_runtime_control_layer_464.js
+- [PHASE_10] [WORKSPACE] public\globe\runtime\phase10_runtime_registry_workspace_462.js
+- [UNKNOWN] [CONTROL] public\globe\security\access_control_runtime.js
+- [UNKNOWN] [PANEL] public\globe\security\ui_panel_security_hook.js
+- [UNKNOWN] [DASHBOARD] public\globe\founder_dashboard_runtime.js
+- [UNKNOWN] [PANEL] public\globe\intelligence_panel_live_state.js
+- [PHASE_4] [DASHBOARD] public\globe\phase4_dossier_metrics_dashboard_313.js
+- [PHASE_4] [REGISTRY] public\globe\phase4_dossier_registry_integrity_311.js
+- [PHASE_4] [REGISTRY] public\globe\phase4_dossier_registry_table_317.js
+- [PHASE_4] [PANEL] public\globe\phase4_dossier_ui_panel_306.js
+- [PHASE_4] [FEED] public\globe\phase4_executive_activity_feed_328.js
+- [PHASE_4] [REGISTRY] public\globe\phase4_executive_approval_registry_326.js
+- [PHASE_4] [DASHBOARD] public\globe\phase4_executive_dashboard_329.js
+- [PHASE_4] [QUEUE] public\globe\phase4_executive_workflow_queue_ui_322.js
+- [PHASE_5] [FEED] public\globe\phase5_activity_review_feed_343.js
+- [PHASE_5] [SURFACE] public\globe\phase5_command_surface_certification_340.js
+- [PHASE_5] [SURFACE] public\globe\phase5_command_surface_foundation_334B.js
+- [PHASE_5] [WORKSPACE] public\globe\phase5_dossier_workspace_346.js
+- [PHASE_5] [WORKSPACE] public\globe\phase5_executive_workspace_347.js
+- [PHASE_5] [RAIL] public\globe\phase5_left_command_rail_336.js
+- [PHASE_5] [WORKSPACE] public\globe\phase5_relationship_workspace_345.js
+- [PHASE_5] [RAIL] public\globe\phase5_right_intelligence_rail_337.js
+- [PHASE_5] [WORKSPACE] public\globe\phase5_workspace_command_cards_342.js
+- [PHASE_5] [WORKSPACE] public\globe\phase5_workspace_router_upgrade_348.js
+- [PHASE_5] [WORKSPACE] public\globe\phase5_workspace_view_manager_339.js
+- [PHASE_6] [WORKSPACE] public\globe\phase6_cross_workspace_context_359.js
+- [PHASE_6] [WORKSPACE] public\globe\phase6_intelligence_card_workspace_357.js
+- [PHASE_6] [DRAWER] public\globe\phase6_intelligence_detail_drawer_358.js
+- [PHASE_6] [QUEUE] public\globe\phase6_intelligence_priority_queue_363.js
+- [PHASE_6] [FEED] public\globe\phase6_operator_decision_feed_368.js
+- [PHASE_6] [FEED] public\globe\phase6_operator_decision_feed_certification_369.js
+- [PHASE_6] [QUEUE] public\globe\phase6_priority_queue_action_states_365.js
+- [PHASE_6] [QUEUE] public\globe\phase6_priority_queue_control_certification_367.js
+- [PHASE_6] [QUEUE] public\globe\phase6_priority_queue_state_persistence_365B.js
+- [PHASE_6] [WORKSPACE] public\globe\phase6_priority_queue_workspace_364.js
+- [PHASE_6] [WORKSPACE] public\globe\phase6_priority_queue_workspace_controls_366B.js
+- [PHASE_6] [DRAWER] public\globe\phase6_summary_enhanced_drawer_362.js
+- [PHASE_6] [DRAWER] public\globe\phase6_summary_enhanced_drawer_362B.js
+- [PHASE_7] [CONTROL] public\globe\phase7_alert_control_certification_388.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_alert_workspace_385.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_alert_workspace_controls_387.js
+- [PHASE_7] [CONTROL] public\globe\phase7_mission_control_certification_378.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_mission_workspace_375.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_mission_workspace_controls_377.js
+- [PHASE_7] [DASHBOARD] public\globe\phase7_operations_dashboard_certification_396.js
+- [PHASE_7] [DASHBOARD] public\globe\phase7_operations_dashboard_foundation_394.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_operations_dashboard_workspace_395.js
+- [PHASE_7] [CONTROL] public\globe\phase7_task_control_certification_393.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_task_workspace_390.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_task_workspace_controls_392.js
+- [PHASE_7] [CONTROL] public\globe\phase7_watchlist_control_certification_383.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_watchlist_workspace_380.js
+- [PHASE_7] [WORKSPACE] public\globe\phase7_watchlist_workspace_controls_382.js
+- [PHASE_8] [CONTROL] public\globe\phase8_action_orchestration_controls_417.js
+- [PHASE_8] [WORKSPACE] public\globe\phase8_action_orchestration_workspace_415.js
+- [PHASE_8] [WORKSPACE] public\globe\phase8_automation_execution_log_workspace_407.js
+- [PHASE_8] [QUEUE] public\globe\phase8_automation_execution_queue_401.js
+- [PHASE_8] [QUEUE] public\globe\phase8_automation_queue_certification_405.js
+- [PHASE_8] [QUEUE] public\globe\phase8_automation_queue_controls_404.js
+- [PHASE_8] [QUEUE] public\globe\phase8_automation_queue_state_engine_403.js
+- [PHASE_8] [WORKSPACE] public\globe\phase8_automation_queue_workspace_402.js
+- [PHASE_8] [CONTROL] public\globe\phase8_autonomous_action_controls_412.js
+- [PHASE_8] [WORKSPACE] public\globe\phase8_autonomous_action_workspace_410.js
+- [PHASE_8] [CONTROL] public\globe\phase8_autonomous_directive_controls_427.js
+- [PHASE_8] [WORKSPACE] public\globe\phase8_autonomous_directive_workspace_425.js
+- [PHASE_8] [CONTROL] public\globe\phase8_autonomous_workflow_controls_422.js
+- [PHASE_8] [WORKSPACE] public\globe\phase8_autonomous_workflow_workspace_420.js
+- [PHASE_9] [CONTROL] public\globe\phase9_continuity_controls_439.js
+- [PHASE_9] [WORKSPACE] public\globe\phase9_continuity_workspace_437.js
+- [PHASE_9] [CONTROL] public\globe\phase9_governance_controls_434.js
+- [PHASE_9] [WORKSPACE] public\globe\phase9_governance_workspace_432.js
