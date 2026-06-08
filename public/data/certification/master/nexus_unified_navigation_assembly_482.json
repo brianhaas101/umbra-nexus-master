@@ -1,0 +1,142 @@
+﻿{
+    "batch":  482,
+    "generatedAt":  "2026-06-08T16:27:47",
+    "name":  "NEXUS_UNIFIED_NAVIGATION_ASSEMBLY_482",
+    "defaultEntry":  "COMMAND_CENTER",
+    "navigation":  [
+                       {
+                           "order":  1,
+                           "center":  "COMMAND_CENTER",
+                           "label":  "Command Center",
+                           "category":  "PRIMARY",
+                           "defaultLanding":  true
+                       },
+                       {
+                           "order":  2,
+                           "center":  "INTELLIGENCE_CENTER",
+                           "label":  "Intelligence Center",
+                           "category":  "PRIMARY",
+                           "defaultLanding":  false
+                       },
+                       {
+                           "order":  3,
+                           "center":  "DOSSIER_CENTER",
+                           "label":  "Dossier Center",
+                           "category":  "PRIMARY",
+                           "defaultLanding":  false
+                       },
+                       {
+                           "order":  4,
+                           "center":  "OPERATIONS_CENTER",
+                           "label":  "Operations Center",
+                           "category":  "PRIMARY",
+                           "defaultLanding":  false
+                       },
+                       {
+                           "order":  5,
+                           "center":  "AUTOMATION_CENTER",
+                           "label":  "Automation Center",
+                           "category":  "PRIMARY",
+                           "defaultLanding":  false
+                       },
+                       {
+                           "order":  6,
+                           "center":  "GOVERNANCE_CENTER",
+                           "label":  "Governance Center",
+                           "category":  "PRIMARY",
+                           "defaultLanding":  false
+                       },
+                       {
+                           "order":  7,
+                           "center":  "RUNTIME_CENTER",
+                           "label":  "Runtime Center",
+                           "category":  "ADVANCED",
+                           "defaultLanding":  false
+                       },
+                       {
+                           "order":  8,
+                           "center":  "SYSTEM_SETTINGS",
+                           "label":  "System Settings",
+                           "category":  "ADVANCED",
+                           "defaultLanding":  false
+                       }
+                   ],
+    "centers":  [
+                    {
+                        "center":  "INTELLIGENCE_CENTER",
+                        "surfaces":  8,
+                        "workspaces":  1,
+                        "dashboards":  0,
+                        "controls":  0,
+                        "priority":  "PRIMARY"
+                    },
+                    {
+                        "center":  "RUNTIME_CENTER",
+                        "surfaces":  4,
+                        "workspaces":  1,
+                        "dashboards":  0,
+                        "controls":  3,
+                        "priority":  "SUPPLEMENTAL"
+                    },
+                    {
+                        "center":  "SYSTEM_SETTINGS",
+                        "surfaces":  5,
+                        "workspaces":  3,
+                        "dashboards":  0,
+                        "controls":  0,
+                        "priority":  "SUPPLEMENTAL"
+                    },
+                    {
+                        "center":  "COMMAND_CENTER",
+                        "surfaces":  10,
+                        "workspaces":  2,
+                        "dashboards":  2,
+                        "controls":  0,
+                        "priority":  "PRIMARY"
+                    },
+                    {
+                        "center":  "DOSSIER_CENTER",
+                        "surfaces":  6,
+                        "workspaces":  2,
+                        "dashboards":  1,
+                        "controls":  0,
+                        "priority":  "PRIMARY"
+                    },
+                    {
+                        "center":  "OPERATIONS_CENTER",
+                        "surfaces":  27,
+                        "workspaces":  12,
+                        "dashboards":  2,
+                        "controls":  4,
+                        "priority":  "PRIMARY"
+                    },
+                    {
+                        "center":  "AUTOMATION_CENTER",
+                        "surfaces":  9,
+                        "workspaces":  5,
+                        "dashboards":  0,
+                        "controls":  4,
+                        "priority":  "SECONDARY"
+                    },
+                    {
+                        "center":  "GOVERNANCE_CENTER",
+                        "surfaces":  4,
+                        "workspaces":  2,
+                        "dashboards":  0,
+                        "controls":  2,
+                        "priority":  "SECONDARY"
+                    }
+                ],
+    "operatorFlow":  [
+                         "COMMAND_CENTER",
+                         "INTELLIGENCE_CENTER",
+                         "DOSSIER_CENTER",
+                         "OPERATIONS_CENTER",
+                         "AUTOMATION_CENTER",
+                         "GOVERNANCE_CENTER"
+                     ],
+    "advancedSystems":  [
+                            "RUNTIME_CENTER",
+                            "SYSTEM_SETTINGS"
+                        ]
+}
