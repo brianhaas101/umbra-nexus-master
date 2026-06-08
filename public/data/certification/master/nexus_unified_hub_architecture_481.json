@@ -1,0 +1,90 @@
+﻿{
+    "batch":  481,
+    "generatedAt":  "2026-06-08T16:26:15",
+    "name":  "NEXUS_UNIFIED_HUB_ARCHITECTURE_481",
+    "navigation":  [
+                       "COMMAND_CENTER",
+                       "INTELLIGENCE_CENTER",
+                       "DOSSIER_CENTER",
+                       "OPERATIONS_CENTER",
+                       "AUTOMATION_CENTER",
+                       "GOVERNANCE_CENTER",
+                       "RUNTIME_CENTER",
+                       "SYSTEM_SETTINGS"
+                   ],
+    "centers":  [
+                    {
+                        "center":  "INTELLIGENCE_CENTER",
+                        "surfaceCount":  8,
+                        "workspaces":  1,
+                        "dashboards":  0,
+                        "controls":  0,
+                        "priority":  "PRIMARY"
+                    },
+                    {
+                        "center":  "RUNTIME_CENTER",
+                        "surfaceCount":  4,
+                        "workspaces":  1,
+                        "dashboards":  0,
+                        "controls":  3,
+                        "priority":  "SUPPLEMENTAL"
+                    },
+                    {
+                        "center":  "SYSTEM_SETTINGS",
+                        "surfaceCount":  5,
+                        "workspaces":  3,
+                        "dashboards":  0,
+                        "controls":  0,
+                        "priority":  "SUPPLEMENTAL"
+                    },
+                    {
+                        "center":  "COMMAND_CENTER",
+                        "surfaceCount":  10,
+                        "workspaces":  2,
+                        "dashboards":  2,
+                        "controls":  0,
+                        "priority":  "PRIMARY"
+                    },
+                    {
+                        "center":  "DOSSIER_CENTER",
+                        "surfaceCount":  6,
+                        "workspaces":  2,
+                        "dashboards":  1,
+                        "controls":  0,
+                        "priority":  "PRIMARY"
+                    },
+                    {
+                        "center":  "OPERATIONS_CENTER",
+                        "surfaceCount":  27,
+                        "workspaces":  12,
+                        "dashboards":  2,
+                        "controls":  4,
+                        "priority":  "PRIMARY"
+                    },
+                    {
+                        "center":  "AUTOMATION_CENTER",
+                        "surfaceCount":  9,
+                        "workspaces":  5,
+                        "dashboards":  0,
+                        "controls":  4,
+                        "priority":  "SECONDARY"
+                    },
+                    {
+                        "center":  "GOVERNANCE_CENTER",
+                        "surfaceCount":  4,
+                        "workspaces":  2,
+                        "dashboards":  0,
+                        "controls":  2,
+                        "priority":  "SECONDARY"
+                    }
+                ],
+    "finalOperatorModel":  {
+                               "execution":  "OPERATIONS_CENTER",
+                               "runtime":  "RUNTIME_CENTER",
+                               "automation":  "AUTOMATION_CENTER",
+                               "dossiers":  "DOSSIER_CENTER",
+                               "intelligence":  "INTELLIGENCE_CENTER",
+                               "governance":  "GOVERNANCE_CENTER",
+                               "entry":  "COMMAND_CENTER"
+                           }
+}
