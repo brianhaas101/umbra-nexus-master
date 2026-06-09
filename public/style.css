@@ -4837,3 +4837,245 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D.3B — HOME LAYOUT REFLOW
+   Purpose:
+   - Rebuild Home layout after panel isolation
+   - Center Globe as dominant object
+   - Reduce dead space
+   - Remove Home scrolling
+   - Convert side rails into compact support zones
+   ============================================================ */
+
+:root {
+  --ux-home-top: 84px;
+  --ux-home-left: 220px;
+  --ux-home-right: 260px;
+  --ux-home-gap: 18px;
+}
+
+/* Lock Home to viewport */
+body:not([data-umbra-center]),
+body[data-umbra-center="HOME_CENTER"] {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important;
+}
+
+/* Outer shell */
+body:not([data-umbra-center]) #appShell,
+body[data-umbra-center="HOME_CENTER"] #appShell {
+  width: 100vw !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  overflow: hidden !important;
+}
+
+/* Canonical Home grid */
+body:not([data-umbra-center]) #uiRoot,
+body[data-umbra-center="HOME_CENTER"] #uiRoot {
+  display: grid !important;
+  grid-template-columns: var(--ux-home-left) minmax(0, 1fr) var(--ux-home-right) !important;
+  grid-template-rows: minmax(0, 1fr) !important;
+  gap: var(--ux-home-gap) !important;
+  width: 100vw !important;
+  height: calc(100vh - var(--ux-home-top)) !important;
+  min-height: 0 !important;
+  max-height: calc(100vh - var(--ux-home-top)) !important;
+  padding: 16px 18px 18px 18px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+/* Top bar stays clean */
+body:not([data-umbra-center]) .top-bar,
+body[data-umbra-center="HOME_CENTER"] .top-bar {
+  height: var(--ux-home-top) !important;
+  min-height: var(--ux-home-top) !important;
+  max-height: var(--ux-home-top) !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 36px !important;
+  box-sizing: border-box !important;
+}
+
+/* Left nav compact */
+body:not([data-umbra-center]) #leftNav,
+body[data-umbra-center="HOME_CENTER"] #leftNav {
+  grid-column: 1 / 2 !important;
+  grid-row: 1 / 2 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+}
+
+/* Prevent lower leftover nav sections from stretching Home */
+body:not([data-umbra-center]) #leftNav .panel-section,
+body[data-umbra-center="HOME_CENTER"] #leftNav .panel-section {
+  margin-bottom: 14px !important;
+}
+
+body:not([data-umbra-center]) #leftNav .panel-section:empty,
+body[data-umbra-center="HOME_CENTER"] #leftNav .panel-section:empty {
+  display: none !important;
+}
+
+/* Center stage becomes pure globe stage */
+body:not([data-umbra-center]) #centerStage,
+body[data-umbra-center="HOME_CENTER"] #centerStage {
+  grid-column: 2 / 3 !important;
+  grid-row: 1 / 2 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+  position: relative !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Hub view fills center */
+body:not([data-umbra-center]) #viewHub,
+body[data-umbra-center="HOME_CENTER"] #viewHub,
+body:not([data-umbra-center]) .ui-view-stack,
+body[data-umbra-center="HOME_CENTER"] .ui-view-stack {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Globe frame */
+body:not([data-umbra-center]) .globe-shell,
+body[data-umbra-center="HOME_CENTER"] .globe-shell {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Globe container centered */
+body:not([data-umbra-center]) #globeContainer,
+body[data-umbra-center="HOME_CENTER"] #globeContainer {
+  width: min(76vh, 74vw) !important;
+  height: min(76vh, 74vw) !important;
+  min-width: 520px !important;
+  min-height: 520px !important;
+  max-width: 820px !important;
+  max-height: 820px !important;
+  margin: auto !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Ensure canvas tracks globe container */
+body:not([data-umbra-center]) #globeContainer canvas,
+body[data-umbra-center="HOME_CENTER"] #globeContainer canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Executive card becomes docked companion, not floating debris */
+body:not([data-umbra-center]) #executiveSurfaceV6,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 {
+  position: absolute !important;
+  left: 26px !important;
+  bottom: 26px !important;
+  width: 390px !important;
+  max-width: 38% !important;
+  max-height: 245px !important;
+  overflow: hidden !important;
+  z-index: 20 !important;
+  opacity: 0.94 !important;
+}
+
+/* Compact executive content */
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-command-grid,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-command-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 8px !important;
+  max-height: 210px !important;
+  overflow: hidden !important;
+}
+
+/* Keep only metrics + actions in compact Home card */
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-panel.v6-review,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-panel.v6-review,
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-panel.v6-threat,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-panel.v6-threat,
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-panel.v6-feed,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-panel.v6-feed {
+  display: none !important;
+}
+
+/* Right rail compact support zone */
+body:not([data-umbra-center]) #rightIntel,
+body[data-umbra-center="HOME_CENTER"] #rightIntel {
+  grid-column: 3 / 4 !important;
+  grid-row: 1 / 2 !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+  padding: 18px !important;
+  box-sizing: border-box !important;
+}
+
+/* Right rail should not look empty-huge */
+body:not([data-umbra-center]) #rightIntel .v8-grid,
+body[data-umbra-center="HOME_CENTER"] #rightIntel .v8-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 10px !important;
+  max-height: none !important;
+}
+
+/* Unified nav dock should not cause page overflow */
+body:not([data-umbra-center]) #umbra-unified-navigation-ui-488,
+body[data-umbra-center="HOME_CENTER"] #umbra-unified-navigation-ui-488 {
+  position: fixed !important;
+  left: calc(var(--ux-home-left) + 36px) !important;
+  right: calc(var(--ux-home-right) + 36px) !important;
+  bottom: 18px !important;
+  height: 64px !important;
+  max-height: 64px !important;
+  z-index: 40 !important;
+  overflow: hidden !important;
+}
+
+/* Hide duplicate bottom leftovers if any */
+body:not([data-umbra-center]) .bottom-nav,
+body[data-umbra-center="HOME_CENTER"] .bottom-nav,
+body:not([data-umbra-center]) .global-nav-bottom,
+body[data-umbra-center="HOME_CENTER"] .global-nav-bottom,
+body:not([data-umbra-center]) .nexus-bottom-nav,
+body[data-umbra-center="HOME_CENTER"] .nexus-bottom-nav {
+  display: none !important;
+}
+
+/* D3B marker */
+body::after {
+  content: "UX D.3B HOME LAYOUT REFLOW";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
