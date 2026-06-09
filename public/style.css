@@ -4837,3 +4837,109 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D4C — HOME WORKSPACE MOUNT ZONE
+   Purpose:
+   - Create real bottom command workspace
+   - Keep globe primary
+   - Dock review/activity/targets/actions below globe
+   ============================================================ */
+
+body:not([data-umbra-center]) #centerStage,
+body[data-umbra-center="HOME_CENTER"] #centerStage {
+  position: relative !important;
+}
+
+/* Bottom home workspace */
+body:not([data-umbra-center]) #umbra-home-workspace,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace {
+  position: absolute !important;
+  left: 22px !important;
+  right: 22px !important;
+  bottom: 18px !important;
+  height: 128px !important;
+  z-index: 30 !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1.15fr !important;
+  gap: 12px !important;
+  pointer-events: auto !important;
+}
+
+/* Home workspace cards */
+body:not([data-umbra-center]) .home-workspace-card,
+body[data-umbra-center="HOME_CENTER"] .home-workspace-card {
+  min-width: 0 !important;
+  overflow: hidden !important;
+  padding: 12px 14px !important;
+  border: 1px solid rgba(255, 167, 89, 0.28) !important;
+  border-radius: 16px !important;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(20, 22, 28, 0.78),
+      rgba(8, 10, 14, 0.72)
+    ) !important;
+  box-shadow:
+    0 0 18px rgba(255, 116, 37, 0.12),
+    inset 0 0 18px rgba(255, 255, 255, 0.03) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.home-card-kicker {
+  font-size: 10px !important;
+  letter-spacing: 0.16em !important;
+  opacity: 0.68 !important;
+  margin-bottom: 6px !important;
+}
+
+.home-card-title {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  margin-bottom: 6px !important;
+}
+
+.home-card-line {
+  font-size: 12px !important;
+  opacity: 0.76 !important;
+  line-height: 1.35 !important;
+}
+
+.home-action-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 7px !important;
+}
+
+.home-action-row button {
+  border: 1px solid rgba(255, 167, 89, 0.32) !important;
+  border-radius: 999px !important;
+  padding: 7px 9px !important;
+  font-size: 11px !important;
+  background: rgba(255, 122, 44, 0.08) !important;
+  color: inherit !important;
+  cursor: pointer !important;
+}
+
+/* Push floating executive surface higher and smaller so it no longer competes with workspace */
+body:not([data-umbra-center]) #executiveSurfaceV6,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 {
+  left: 24px !important;
+  bottom: 164px !important;
+  max-height: 190px !important;
+  width: min(360px, 38%) !important;
+}
+
+/* D4C marker */
+body::after {
+  content: "UX D4C HOME WORKSPACE";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
