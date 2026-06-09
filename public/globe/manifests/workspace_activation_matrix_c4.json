@@ -1,0 +1,85 @@
+{
+  "module": "NEXUS_UX_WORKSPACE_ACTIVATION_MATRIX_C4",
+  "phase": "UX_C4",
+  "mode": "WORKSPACE_ACTIVATION_MATRIX",
+  "centers": {
+    "HOME_CENTER": {
+      "purpose": "Global Globe Hub",
+      "allowedCategories": [
+        "BOOT_REQUIRED",
+        "HUB_ALLOWED",
+        "UX_AUDIT",
+        "CERTIFICATION_RUNTIME"
+      ],
+      "hiddenCategories": [
+        "CITY_ONLY",
+        "DOSSIER_ONLY",
+        "OPERATIONS_ONLY",
+        "AUTOMATION_ONLY",
+        "GOVERNANCE_ONLY",
+        "LEGACY_REVIEW"
+      ]
+    },
+    "CITY_CENTER": {
+      "purpose": "City / Target View",
+      "allowedCategories": [
+        "BOOT_REQUIRED",
+        "CITY_ONLY",
+        "HUB_ALLOWED"
+      ],
+      "hiddenCategories": [
+        "DOSSIER_ONLY",
+        "OPERATIONS_ONLY",
+        "AUTOMATION_ONLY",
+        "GOVERNANCE_ONLY",
+        "LEGACY_REVIEW"
+      ]
+    },
+    "DOSSIER_CENTER": {
+      "purpose": "Entity Dossier View",
+      "allowedCategories": [
+        "BOOT_REQUIRED",
+        "DOSSIER_ONLY",
+        "HUB_ALLOWED"
+      ],
+      "hiddenCategories": [
+        "CITY_ONLY",
+        "OPERATIONS_ONLY",
+        "AUTOMATION_ONLY",
+        "GOVERNANCE_ONLY",
+        "LEGACY_REVIEW"
+      ]
+    },
+    "OPERATIONS_CENTER": {
+      "purpose": "Operations Execution View",
+      "allowedCategories": [
+        "BOOT_REQUIRED",
+        "OPERATIONS_ONLY",
+        "AUTOMATION_ONLY",
+        "HUB_ALLOWED"
+      ],
+      "hiddenCategories": [
+        "CITY_ONLY",
+        "DOSSIER_ONLY",
+        "GOVERNANCE_ONLY",
+        "LEGACY_REVIEW"
+      ]
+    },
+    "GOVERNANCE_CENTER": {
+      "purpose": "Governance / Audit View",
+      "allowedCategories": [
+        "BOOT_REQUIRED",
+        "GOVERNANCE_ONLY",
+        "CERTIFICATION_RUNTIME",
+        "UX_AUDIT"
+      ],
+      "hiddenCategories": [
+        "CITY_ONLY",
+        "DOSSIER_ONLY",
+        "OPERATIONS_ONLY",
+        "AUTOMATION_ONLY",
+        "LEGACY_REVIEW"
+      ]
+    }
+  }
+}
