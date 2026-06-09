@@ -4741,3 +4741,35 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D.2C — FINAL OPERATIONS ISOLATION
+   Purpose:
+   - Remove remaining Operations-only items from HOME_CENTER
+   - Keep Home Globe focused
+   ============================================================ */
+
+body:not([data-umbra-center]) #hubNav,
+body[data-umbra-center="HOME_CENTER"] #hubNav {
+  display: none !important;
+}
+
+/* Hide remaining operations metric in Home */
+body:not([data-umbra-center]) .v6-metric:first-of-type,
+body[data-umbra-center="HOME_CENTER"] .v6-metric:first-of-type {
+  display: none !important;
+}
+
+/* D2C audit marker */
+body::after {
+  content: "UX D.2C OPERATIONS ISOLATION";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
