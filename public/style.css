@@ -5292,3 +5292,169 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D5C — BASELINE COMMAND SHELL OVERRIDE
+   Purpose:
+   - Match final reference layout
+   - Force Home into real command center geometry
+   - Stop old center/rail geometry from controlling the UI
+   ============================================================ */
+
+body:not([data-umbra-center]),
+body[data-umbra-center="HOME_CENTER"] {
+  overflow: hidden !important;
+}
+
+/* LEFT RAIL */
+body:not([data-umbra-center]) #leftNav,
+body[data-umbra-center="HOME_CENTER"] #leftNav {
+  position: fixed !important;
+  left: 18px !important;
+  top: 92px !important;
+  width: 220px !important;
+  height: calc(100vh - 128px) !important;
+  z-index: 80 !important;
+}
+
+/* CENTER COMMAND STAGE */
+body:not([data-umbra-center]) #centerStage,
+body[data-umbra-center="HOME_CENTER"] #centerStage {
+  position: fixed !important;
+  left: 260px !important;
+  top: 92px !important;
+  right: 340px !important;
+  bottom: 118px !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+  z-index: 40 !important;
+  overflow: hidden !important;
+}
+
+/* RIGHT RAIL */
+body:not([data-umbra-center]) #rightIntel,
+body[data-umbra-center="HOME_CENTER"] #rightIntel {
+  position: fixed !important;
+  right: 20px !important;
+  top: 92px !important;
+  width: 300px !important;
+  height: calc(100vh - 128px) !important;
+  z-index: 85 !important;
+}
+
+/* GLOBE: large but contained in upper stage */
+body:not([data-umbra-center]) #globeContainer,
+body[data-umbra-center="HOME_CENTER"] #globeContainer {
+  position: absolute !important;
+  top: -16px !important;
+  left: 50% !important;
+  width: 520px !important;
+  height: 520px !important;
+  min-width: 520px !important;
+  min-height: 520px !important;
+  max-width: 520px !important;
+  max-height: 520px !important;
+  transform: translateX(-50%) scale(0.92) !important;
+  transform-origin: center center !important;
+  z-index: 10 !important;
+}
+
+/* EXECUTIVE CARD: lower-left dock over globe frame */
+body:not([data-umbra-center]) #executiveSurfaceV6,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 {
+  position: absolute !important;
+  left: 18px !important;
+  top: 285px !important;
+  width: 400px !important;
+  height: 220px !important;
+  max-width: 400px !important;
+  max-height: 220px !important;
+  z-index: 35 !important;
+}
+
+/* Hide duplicate internal V6 panels that already exist in new workspace row */
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-panel.v6-review,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-panel.v6-review,
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-panel.v6-threat,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-panel.v6-threat,
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-panel.v6-feed,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-panel.v6-feed,
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-panel.v6-actions,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-panel.v6-actions {
+  display: none !important;
+}
+
+/* WORKSPACE ROW: full width below globe */
+body:not([data-umbra-center]) #umbra-home-workspace,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace {
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: auto !important;
+  height: 150px !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1.15fr 1.15fr !important;
+  gap: 12px !important;
+  z-index: 45 !important;
+}
+
+/* WORKSPACE CARDS */
+body:not([data-umbra-center]) .home-workspace-card,
+body[data-umbra-center="HOME_CENTER"] .home-workspace-card {
+  height: 150px !important;
+  box-sizing: border-box !important;
+}
+
+/* QUICK ACTIONS full visibility */
+body:not([data-umbra-center]) #umbra-home-workspace [data-home-panel="quickActions"],
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace [data-home-panel="quickActions"] {
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+body:not([data-umbra-center]) #umbra-home-workspace [data-home-panel="quickActions"] .home-action-row,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace [data-home-panel="quickActions"] .home-action-row {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 7px !important;
+}
+
+/* BOTTOM NAV DOCK */
+body:not([data-umbra-center]) #umbra-unified-navigation-ui-488,
+body[data-umbra-center="HOME_CENTER"] #umbra-unified-navigation-ui-488 {
+  position: fixed !important;
+  left: 300px !important;
+  right: 360px !important;
+  bottom: 22px !important;
+  height: 72px !important;
+  z-index: 90 !important;
+}
+
+/* HEADER */
+body:not([data-umbra-center]) .top-bar,
+body[data-umbra-center="HOME_CENTER"] .top-bar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 74px !important;
+  z-index: 100 !important;
+}
+
+/* D5C marker */
+body::after {
+  content: "UX D5C BASELINE COMMAND SHELL";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
