@@ -4696,3 +4696,48 @@ body::before {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D.2B — V8 RAIL ISOLATION
+   Purpose:
+   - Keep Runtime + Validation cards on HOME_CENTER
+   - Move Security/Governance and Saturation/City cards out of Home
+   - Non-destructive CSS isolation only
+   ============================================================ */
+
+body:not([data-umbra-center]) .v8-grid .v8-status-card:nth-of-type(3),
+body[data-umbra-center="HOME_CENTER"] .v8-grid .v8-status-card:nth-of-type(3),
+body:not([data-umbra-center]) .v8-grid .v8-status-card:nth-of-type(4),
+body[data-umbra-center="HOME_CENTER"] .v8-grid .v8-status-card:nth-of-type(4) {
+  display: none !important;
+}
+
+/* Hide non-home V8 detail panels from Home */
+body:not([data-umbra-center]) .v8-panel,
+body[data-umbra-center="HOME_CENTER"] .v8-panel,
+body:not([data-umbra-center]) .v8-list,
+body[data-umbra-center="HOME_CENTER"] .v8-list {
+  display: none !important;
+}
+
+/* Make the remaining V8 rail compact */
+body:not([data-umbra-center]) .v8-grid,
+body[data-umbra-center="HOME_CENTER"] .v8-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  max-height: 140px !important;
+  overflow: hidden !important;
+}
+
+/* D2B audit marker */
+body::after {
+  content: "UX D.2B V8 RAIL ISOLATION";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
