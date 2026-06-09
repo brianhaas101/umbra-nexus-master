@@ -4773,3 +4773,67 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D.3 — HOME HUB VISUAL POLISH
+   Purpose:
+   - Tighten Home Globe layout after isolation
+   - Keep valid Home metrics/layers
+   - Reduce visual density without removing runtime
+   ============================================================ */
+
+body:not([data-umbra-center]) #centerStage,
+body[data-umbra-center="HOME_CENTER"] #centerStage {
+  overflow: hidden !important;
+}
+
+body:not([data-umbra-center]) #executiveSurfaceV6,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 {
+  max-height: 235px !important;
+  width: min(390px, calc(100% - 48px)) !important;
+}
+
+body:not([data-umbra-center]) .v6-command-grid,
+body[data-umbra-center="HOME_CENTER"] .v6-command-grid {
+  gap: 10px !important;
+}
+
+body:not([data-umbra-center]) .v6-panel,
+body[data-umbra-center="HOME_CENTER"] .v6-panel {
+  padding: 10px !important;
+}
+
+body:not([data-umbra-center]) .v6-metric-grid,
+body[data-umbra-center="HOME_CENTER"] .v6-metric-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+}
+
+body:not([data-umbra-center]) .v6-layer-list,
+body[data-umbra-center="HOME_CENTER"] .v6-layer-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+  max-height: 58px !important;
+  overflow: hidden !important;
+}
+
+body:not([data-umbra-center]) .v8-grid,
+body[data-umbra-center="HOME_CENTER"] .v8-grid {
+  max-height: 110px !important;
+  gap: 8px !important;
+}
+
+/* D3 audit marker */
+body::after {
+  content: "UX D.3 HOME HUB POLISH";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
