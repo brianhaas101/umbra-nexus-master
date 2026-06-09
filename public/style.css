@@ -4636,3 +4636,63 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D.2 — HOME GLOBE ISOLATION PASS 1
+   Purpose:
+   - Remove obvious City/Dossier workspace panels from HOME_CENTER
+   - Preserve runtime modules
+   - Do not delete functionality
+   - Keep manual-review panels untouched
+   ============================================================ */
+
+body:not([data-umbra-center]),
+body[data-umbra-center="HOME_CENTER"] {
+  overflow-x: hidden;
+}
+
+/* City-only Phase 3 saturation UI should not dominate Home Globe */
+body:not([data-umbra-center]) #umbra-phase-3-hub-panel,
+body[data-umbra-center="HOME_CENTER"] #umbra-phase-3-hub-panel,
+body:not([data-umbra-center]) #umbra-phase-3-city-saturation-badge,
+body[data-umbra-center="HOME_CENTER"] #umbra-phase-3-city-saturation-badge,
+body:not([data-umbra-center]) .u3h-body,
+body[data-umbra-center="HOME_CENTER"] .u3h-body,
+body:not([data-umbra-center]) .u3h-header,
+body[data-umbra-center="HOME_CENTER"] .u3h-header,
+body:not([data-umbra-center]) .hub-module-card,
+body[data-umbra-center="HOME_CENTER"] .hub-module-card {
+  display: none !important;
+}
+
+/* Dossier preview belongs in Dossier workspace, not Home Globe */
+body:not([data-umbra-center]) .v6-panel.v6-dossier,
+body[data-umbra-center="HOME_CENTER"] .v6-panel.v6-dossier {
+  display: none !important;
+}
+
+/* Keep the Home center visually dominant */
+body:not([data-umbra-center]) #viewHub,
+body[data-umbra-center="HOME_CENTER"] #viewHub {
+  overflow: hidden !important;
+}
+
+/* Reduce nested dashboard scroll pressure */
+body:not([data-umbra-center]) #executiveSurfaceV6,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 {
+  max-height: 260px !important;
+}
+
+/* D2 audit marker */
+body::before {
+  content: "UX D.2 HOME GLOBE ISOLATION";
+  position: fixed;
+  left: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
