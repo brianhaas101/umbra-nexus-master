@@ -5104,3 +5104,28 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D5A.1 — GLOBE SCALE REPAIR
+   Purpose:
+   - Runtime keeps globeContainer at 560px
+   - Use scale instead of width/height to visually reach ~470px
+   ============================================================ */
+
+body:not([data-umbra-center]) #globeContainer,
+body[data-umbra-center="HOME_CENTER"] #globeContainer {
+  transform: translate(28px, -18px) scale(0.84) !important;
+  transform-origin: center center !important;
+  z-index: 18 !important;
+}
+
+body:not([data-umbra-center]) #executiveSurfaceV6,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 {
+  z-index: 34 !important;
+}
+
+body:not([data-umbra-center]) #umbra-home-workspace,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace {
+  z-index: 36 !important;
+}
+
