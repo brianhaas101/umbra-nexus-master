@@ -5026,3 +5026,81 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D5A — CENTER STAGE PROPORTION LOCK
+   Purpose:
+   - Match baseline hierarchy
+   - Globe becomes important but not overpowering
+   - Executive command card becomes readable
+   - Bottom workspace remains clear
+   ============================================================ */
+
+body:not([data-umbra-center]) #globeContainer,
+body[data-umbra-center="HOME_CENTER"] #globeContainer {
+  width: 470px !important;
+  height: 470px !important;
+  min-width: 470px !important;
+  min-height: 470px !important;
+  max-width: 470px !important;
+  max-height: 470px !important;
+  transform: translate(28px, -18px) !important;
+  transform-origin: center center !important;
+}
+
+/* Keep canvas obeying smaller globe frame */
+body:not([data-umbra-center]) #globeContainer canvas,
+body[data-umbra-center="HOME_CENTER"] #globeContainer canvas {
+  width: 470px !important;
+  height: 470px !important;
+}
+
+/* Executive surface becomes a real command panel, not a tiny overlay */
+body:not([data-umbra-center]) #executiveSurfaceV6,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 {
+  width: 390px !important;
+  max-width: 390px !important;
+  min-width: 390px !important;
+  height: 220px !important;
+  max-height: 220px !important;
+  left: 26px !important;
+  bottom: 184px !important;
+  z-index: 32 !important;
+}
+
+/* More readable internal metric grid */
+body:not([data-umbra-center]) #executiveSurfaceV6 .v6-metric-grid,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 .v6-metric-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 8px !important;
+}
+
+/* Keep workspace strip below globe and exec card */
+body:not([data-umbra-center]) #umbra-home-workspace,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace {
+  height: 126px !important;
+  bottom: 16px !important;
+  left: 26px !important;
+  right: 26px !important;
+  z-index: 35 !important;
+}
+
+/* Prevent quick action card from sliding under right rail */
+body:not([data-umbra-center]) #umbra-home-workspace .home-workspace-card,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace .home-workspace-card {
+  min-height: 0 !important;
+}
+
+/* D5A marker */
+body::after {
+  content: "UX D5A CENTER PROPORTION LOCK";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
