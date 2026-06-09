@@ -4379,3 +4379,260 @@ canvas {
     0 18px 70px rgba(0, 0, 0, 0.34) !important;
 }
 
+
+/* ============================================================
+   UX PHASE A.1 — CANONICAL HUB SHELL LAYOUT
+   Purpose:
+   - Give Globe Hub primary screen ownership
+   - Stop executive surface and command surface from competing
+   - Reduce visual stacking, scrolling, overlap, and layout drift
+   - Preserve runtime modules without deleting them
+   ============================================================ */
+
+:root {
+  --nexus-topbar-height: 72px;
+  --nexus-left-rail-width: 220px;
+  --nexus-right-rail-width: 320px;
+  --nexus-bottom-strip-height: 96px;
+  --nexus-shell-gap: 16px;
+}
+
+/* Core viewport lock */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+/* App shell becomes the outer product frame */
+#appShell.app-shell {
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Canonical product grid */
+#uiRoot.main-layout,
+#uiRoot.hub-layout {
+  display: grid !important;
+  grid-template-columns:
+    var(--nexus-left-rail-width)
+    minmax(0, 1fr)
+    var(--nexus-right-rail-width);
+  grid-template-rows:
+    minmax(0, 1fr)
+    var(--nexus-bottom-strip-height);
+  gap: var(--nexus-shell-gap);
+  width: 100%;
+  max-width: 100vw;
+  min-height: calc(100vh - var(--nexus-topbar-height));
+  padding: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Center stage owns the main workspace */
+#centerStage.panel-center,
+#centerStage {
+  grid-column: 2 / 3 !important;
+  grid-row: 1 / 2 !important;
+  width: 100% !important;
+  height: calc(100vh - var(--nexus-topbar-height) - var(--nexus-bottom-strip-height) - 48px) !important;
+  min-height: 560px !important;
+  max-height: none !important;
+  overflow: hidden !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+}
+
+/* Hub view becomes the single globe workspace */
+#viewHub {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 0 !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+  overflow: hidden !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+}
+
+/* Globe owns the center */
+#viewHub .globe-shell,
+#centerStage .globe-shell,
+.globe-shell {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 520px !important;
+  max-height: none !important;
+  position: relative !important;
+  overflow: hidden !important;
+  display: block !important;
+  box-sizing: border-box !important;
+}
+
+/* Globe container must fill its owner */
+#viewHub #globeContainer,
+#centerStage #globeContainer,
+#globeContainer.globe-container,
+#globeContainer {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 520px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  display: block !important;
+}
+
+/* Canvas fills globe without forcing page scroll */
+#globeContainer canvas,
+#viewHub #globeContainer canvas,
+#centerStage #globeContainer canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+/* Executive surface should no longer compete with hub globe */
+#viewHub .executive-surface-v6,
+#executiveSurfaceV6 {
+  grid-column: auto !important;
+  grid-row: auto !important;
+  position: absolute !important;
+  left: 24px !important;
+  bottom: 24px !important;
+  width: min(420px, calc(100% - 48px)) !important;
+  max-height: 220px !important;
+  overflow: hidden !important;
+  z-index: 8 !important;
+  opacity: 0.92;
+  pointer-events: auto;
+}
+
+/* Keep executive content compact in hub mode */
+#executiveSurfaceV6 * {
+  max-width: 100%;
+}
+
+#executiveSurfaceV6 .v6-command-grid,
+#viewHub .executive-surface-v6 .v6-command-grid {
+  display: block !important;
+  max-height: 200px !important;
+  overflow: auto !important;
+}
+
+/* Old command surface becomes non-dominant in globe hub */
+#umbra-command-surface {
+  position: fixed !important;
+  right: 16px !important;
+  top: calc(var(--nexus-topbar-height) + 16px) !important;
+  width: var(--nexus-right-rail-width) !important;
+  max-width: var(--nexus-right-rail-width) !important;
+  height: calc(100vh - var(--nexus-topbar-height) - 32px) !important;
+  max-height: calc(100vh - var(--nexus-topbar-height) - 32px) !important;
+  z-index: 12 !important;
+  overflow: hidden !important;
+  pointer-events: auto;
+}
+
+/* Command workspace should not create a second center workspace */
+#umbra-command-workspace {
+  max-height: 55vh !important;
+  overflow: auto !important;
+}
+
+/* Right rail belongs in context role */
+#umbra-command-right-rail {
+  max-height: 35vh !important;
+  overflow: auto !important;
+}
+
+/* Prevent duplicate layout systems from forcing document height */
+.ui-view-stack,
+.ui-view,
+.context-view {
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Bottom nav / queue should not dominate */
+.bottom-nav,
+.global-nav-bottom,
+.nexus-bottom-nav,
+[data-bottom-nav],
+[data-global-bottom-nav] {
+  max-height: var(--nexus-bottom-strip-height) !important;
+  overflow: hidden !important;
+}
+
+/* Responsive fallback */
+@media (max-width: 1100px) {
+  :root {
+    --nexus-left-rail-width: 180px;
+    --nexus-right-rail-width: 280px;
+  }
+
+  #uiRoot.main-layout,
+  #uiRoot.hub-layout {
+    grid-template-columns:
+      var(--nexus-left-rail-width)
+      minmax(0, 1fr);
+  }
+
+  #umbra-command-surface {
+    width: 280px !important;
+  }
+}
+
+@media (max-width: 860px) {
+  #uiRoot.main-layout,
+  #uiRoot.hub-layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    padding: 12px;
+  }
+
+  #centerStage.panel-center,
+  #centerStage {
+    grid-column: 1 / 2 !important;
+    height: calc(100vh - 120px) !important;
+    min-height: 460px !important;
+  }
+
+  #umbra-command-surface {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 320px !important;
+    margin-top: 12px;
+  }
+
+  #executiveSurfaceV6 {
+    position: absolute !important;
+    left: 12px !important;
+    right: 12px !important;
+    bottom: 12px !important;
+    width: auto !important;
+    max-height: 180px !important;
+  }
+}
+
+/* UX audit marker */
+body::after {
+  content: "UX A.1 CANONICAL HUB SHELL";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
