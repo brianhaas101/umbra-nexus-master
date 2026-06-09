@@ -1,0 +1,46 @@
+{
+  "module": "NEXUS_PANEL_OWNERSHIP_REGISTRY_D4B",
+  "phase": "UX_D4B",
+  "ownership": {
+    "globe": {
+      "owner": "globe/core.js",
+      "purpose": "Primary spatial navigation surface"
+    },
+    "reviewQueue": {
+      "owner": "phase6_priority_queue_workspace",
+      "purpose": "Shows operator work requiring review"
+    },
+    "recentActivity": {
+      "owner": "phase5_activity_review_feed",
+      "purpose": "Shows recent intelligence/runtime changes"
+    },
+    "topTargets": {
+      "owner": "founder_dashboard_runtime",
+      "purpose": "Shows highest-priority scored entities"
+    },
+    "quickActions": {
+      "owner": "command_deck_runtime",
+      "purpose": "Launches common operator actions"
+    },
+    "runtime": {
+      "owner": "governance_runtime_integration_500",
+      "purpose": "Shows live runtime state"
+    },
+    "validation": {
+      "owner": "production_lock_504",
+      "purpose": "Shows validation readiness"
+    },
+    "coverage": {
+      "owner": "intelligence_panel_live_state",
+      "purpose": "Shows cities/entities/sources coverage"
+    },
+    "pipeline": {
+      "owner": "intel/pipeline.js",
+      "purpose": "Shows intelligence pipeline state"
+    },
+    "alerts": {
+      "owner": "automation_operations_integration_499",
+      "purpose": "Shows active alerts and operator warnings"
+    }
+  }
+}

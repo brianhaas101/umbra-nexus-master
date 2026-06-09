@@ -1,0 +1,60 @@
+{
+  "module": "NEXUS_HOME_VIEW_REGISTRY_D4A",
+  "phase": "UX_D4A",
+  "center": "HOME_CENTER",
+  "zones": {
+    "header": [
+      "brand",
+      "executiveCommand",
+      "profile",
+      "account"
+    ],
+    "leftRail": [
+      "command",
+      "intelligence",
+      "dossiers",
+      "operations",
+      "automation",
+      "governance",
+      "runtime",
+      "settings"
+    ],
+    "centerStage": [
+      "globe",
+      "cityLabels",
+      "entityLabels",
+      "signalRoutes"
+    ],
+    "rightRail": [
+      "runtime",
+      "validation",
+      "coverage",
+      "pipeline",
+      "alerts"
+    ],
+    "homeWorkspace": [
+      "reviewQueue",
+      "recentActivity",
+      "topTargets",
+      "quickActions"
+    ],
+    "bottomDock": [
+      "home",
+      "cityView",
+      "dashboard",
+      "dossiers",
+      "operations",
+      "intelligence",
+      "automation",
+      "governance"
+    ]
+  },
+  "rules": {
+    "noWorkspacePanelsOnGlobe": true,
+    "noCityPanelsOnHome": true,
+    "noDossierPanelsOnHome": true,
+    "noGovernancePanelsOnHome": true,
+    "noOperationsPanelsOnHome": true,
+    "noPageScrollOnHome": true
+  }
+}
