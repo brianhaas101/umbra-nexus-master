@@ -5174,3 +5174,121 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D5B — SHELL GEOMETRY LOCK
+   Purpose:
+   - Stop center content from running under right rail
+   - Keep quick actions visible
+   - Reduce globe dominance without full reflow
+   - Preserve current working Home shell
+   ============================================================ */
+
+:root {
+  --d5b-left-rail: 220px;
+  --d5b-right-rail: 270px;
+  --d5b-stage-left: 300px;
+  --d5b-stage-right: 320px;
+}
+
+/* Center stage must respect both rails */
+body:not([data-umbra-center]) #centerStage,
+body[data-umbra-center="HOME_CENTER"] #centerStage {
+  left: var(--d5b-stage-left) !important;
+  right: var(--d5b-stage-right) !important;
+  width: auto !important;
+  max-width: calc(100vw - var(--d5b-stage-left) - var(--d5b-stage-right)) !important;
+  overflow: hidden !important;
+}
+
+/* Right rail gets explicit protected lane */
+body:not([data-umbra-center]) #rightIntel,
+body[data-umbra-center="HOME_CENTER"] #rightIntel {
+  right: 26px !important;
+  width: var(--d5b-right-rail) !important;
+  max-width: var(--d5b-right-rail) !important;
+  z-index: 90 !important;
+}
+
+/* Left rail gets explicit lane */
+body:not([data-umbra-center]) #leftNav,
+body[data-umbra-center="HOME_CENTER"] #leftNav {
+  left: 18px !important;
+  width: var(--d5b-left-rail) !important;
+  max-width: var(--d5b-left-rail) !important;
+  z-index: 90 !important;
+}
+
+/* Workspace strip must end before right rail */
+body:not([data-umbra-center]) #umbra-home-workspace,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace {
+  left: 26px !important;
+  right: 26px !important;
+  width: auto !important;
+  max-width: none !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  z-index: 42 !important;
+}
+
+/* Keep quick actions card readable */
+body:not([data-umbra-center]) #umbra-home-workspace [data-home-panel="quickActions"],
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace [data-home-panel="quickActions"] {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Make action buttons fit inside card */
+body:not([data-umbra-center]) #umbra-home-workspace [data-home-panel="quickActions"] .home-action-row,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace [data-home-panel="quickActions"] .home-action-row {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 6px !important;
+}
+
+body:not([data-umbra-center]) #umbra-home-workspace [data-home-panel="quickActions"] button,
+body[data-umbra-center="HOME_CENTER"] #umbra-home-workspace [data-home-panel="quickActions"] button {
+  width: 100% !important;
+  text-align: left !important;
+  white-space: nowrap !important;
+}
+
+/* Reduce globe visual dominance by scaling rendered globe only */
+body:not([data-umbra-center]) #globeContainer,
+body[data-umbra-center="HOME_CENTER"] #globeContainer {
+  transform: translate(8px, -12px) scale(0.9) !important;
+  transform-origin: center center !important;
+  z-index: 18 !important;
+}
+
+/* Keep executive card above globe but below header */
+body:not([data-umbra-center]) #executiveSurfaceV6,
+body[data-umbra-center="HOME_CENTER"] #executiveSurfaceV6 {
+  left: 24px !important;
+  bottom: 178px !important;
+  width: 380px !important;
+  max-width: 380px !important;
+  height: 218px !important;
+  max-height: 218px !important;
+  z-index: 38 !important;
+}
+
+/* Prevent cards from going below viewport */
+body:not([data-umbra-center]) #viewHub,
+body[data-umbra-center="HOME_CENTER"] #viewHub {
+  overflow: hidden !important;
+}
+
+/* D5B marker */
+body::after {
+  content: "UX D5B SHELL GEOMETRY LOCK";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
