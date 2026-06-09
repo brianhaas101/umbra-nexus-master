@@ -1,0 +1,1378 @@
+{
+    "module":  "NEXUS_UX_SCRIPT_LOAD_MANIFEST_C3",
+    "phase":  "UX_C3",
+    "generatedAt":  "2026-06-08T18:53:52.4633379-07:00",
+    "totalScripts":  262,
+    "categories":  [
+                       {
+                           "category":  "AUTOMATION_ONLY",
+                           "count":  37,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/phase8_automation_event_evaluator_400.js?v=400",
+                                               "Name":  "phase8_automation_event_evaluator_400.js?v=400",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_automation_execution_queue_401.js?v=401",
+                                               "Name":  "phase8_automation_execution_queue_401.js?v=401",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_automation_queue_workspace_402.js?v=402",
+                                               "Name":  "phase8_automation_queue_workspace_402.js?v=402",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_automation_queue_state_engine_403.js?v=403",
+                                               "Name":  "phase8_automation_queue_state_engine_403.js?v=403",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_automation_queue_controls_404.js?v=404",
+                                               "Name":  "phase8_automation_queue_controls_404.js?v=404",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_automation_queue_certification_405.js?v=405",
+                                               "Name":  "phase8_automation_queue_certification_405.js?v=405",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_automation_execution_engine_406.js?v=406",
+                                               "Name":  "phase8_automation_execution_engine_406.js?v=406",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_automation_execution_log_workspace_407.js?v=407",
+                                               "Name":  "phase8_automation_execution_log_workspace_407.js?v=407",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_automation_execution_certification_408.js?v=408",
+                                               "Name":  "phase8_automation_execution_certification_408.js?v=408",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_actions_foundation_409.js?v=409",
+                                               "Name":  "phase8_autonomous_actions_foundation_409.js?v=409",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_action_workspace_410.js?v=410",
+                                               "Name":  "phase8_autonomous_action_workspace_410.js?v=410",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_action_state_engine_411.js?v=411",
+                                               "Name":  "phase8_autonomous_action_state_engine_411.js?v=411",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_action_controls_412.js?v=412",
+                                               "Name":  "phase8_autonomous_action_controls_412.js?v=412",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_action_certification_413.js?v=413",
+                                               "Name":  "phase8_autonomous_action_certification_413.js?v=413",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_action_orchestration_foundation_414.js?v=414",
+                                               "Name":  "phase8_action_orchestration_foundation_414.js?v=414",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_action_orchestration_workspace_415.js?v=415",
+                                               "Name":  "phase8_action_orchestration_workspace_415.js?v=415",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_action_orchestration_state_engine_416.js?v=416",
+                                               "Name":  "phase8_action_orchestration_state_engine_416.js?v=416",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_action_orchestration_controls_417.js?v=417",
+                                               "Name":  "phase8_action_orchestration_controls_417.js?v=417",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_action_orchestration_certification_418.js?v=418",
+                                               "Name":  "phase8_action_orchestration_certification_418.js?v=418",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_action_orchestration_certification_418B.js?v=418B",
+                                               "Name":  "phase8_action_orchestration_certification_418B.js?v=418B",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_workflow_foundation_419.js?v=419",
+                                               "Name":  "phase8_autonomous_workflow_foundation_419.js?v=419",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_workflow_workspace_420.js?v=420",
+                                               "Name":  "phase8_autonomous_workflow_workspace_420.js?v=420",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_workflow_state_engine_421.js?v=421",
+                                               "Name":  "phase8_autonomous_workflow_state_engine_421.js?v=421",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_workflow_controls_422.js?v=422",
+                                               "Name":  "phase8_autonomous_workflow_controls_422.js?v=422",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_workflow_certification_423.js?v=423",
+                                               "Name":  "phase8_autonomous_workflow_certification_423.js?v=423",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_workflow_certification_423B.js?v=423B",
+                                               "Name":  "phase8_autonomous_workflow_certification_423B.js?v=423B",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_directive_foundation_424.js?v=424",
+                                               "Name":  "phase8_autonomous_directive_foundation_424.js?v=424",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_directive_workspace_425.js?v=425",
+                                               "Name":  "phase8_autonomous_directive_workspace_425.js?v=425",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_directive_state_engine_426.js?v=426",
+                                               "Name":  "phase8_autonomous_directive_state_engine_426.js?v=426",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_directive_controls_427.js?v=427",
+                                               "Name":  "phase8_autonomous_directive_controls_427.js?v=427",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_directive_certification_428.js?v=428",
+                                               "Name":  "phase8_autonomous_directive_certification_428.js?v=428",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_directive_certification_428B.js?v=428B",
+                                               "Name":  "phase8_autonomous_directive_certification_428B.js?v=428B",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_master_autonomy_audit_429.js?v=429",
+                                               "Name":  "phase8_master_autonomy_audit_429.js?v=429",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_master_autonomy_audit_429B.js?v=429B",
+                                               "Name":  "phase8_master_autonomy_audit_429B.js?v=429B",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_final_certification_430.js?v=430",
+                                               "Name":  "phase8_final_certification_430.js?v=430",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_final_certification_430B.js?v=430B",
+                                               "Name":  "phase8_final_certification_430B.js?v=430B",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_runtime_orchestration_foundation_461.js",
+                                               "Name":  "phase10_runtime_orchestration_foundation_461.js",
+                                               "Category":  "AUTOMATION_ONLY"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "BOOT_REQUIRED",
+                           "count":  18,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/vendor/three.min.js",
+                                               "Name":  "three.min.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/vendor/postprocessing/Pass.js",
+                                               "Name":  "Pass.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/vendor/postprocessing/CopyShader.js",
+                                               "Name":  "CopyShader.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/vendor/postprocessing/LuminosityHighPassShader.js",
+                                               "Name":  "LuminosityHighPassShader.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/vendor/postprocessing/EffectComposer.js",
+                                               "Name":  "EffectComposer.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/vendor/postprocessing/RenderPass.js",
+                                               "Name":  "RenderPass.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/vendor/postprocessing/ShaderPass.js",
+                                               "Name":  "ShaderPass.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/vendor/postprocessing/UnrealBloomPass.js",
+                                               "Name":  "UnrealBloomPass.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/core.js",
+                                               "Name":  "core.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/postfx.js",
+                                               "Name":  "postfx.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/textures.js",
+                                               "Name":  "textures.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/layers.js",
+                                               "Name":  "layers.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/shader_veins.js",
+                                               "Name":  "shader_veins.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/nodes.founder.v1.js",
+                                               "Name":  "nodes.founder.v1.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/scene.js",
+                                               "Name":  "scene.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/ui.js",
+                                               "Name":  "ui.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/performance/adaptive_postfx_performance_mode.js",
+                                               "Name":  "adaptive_postfx_performance_mode.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           },
+                                           {
+                                               "Source":  "/globe/performance/postfx_resize_throttle.js",
+                                               "Name":  "postfx_resize_throttle.js",
+                                               "Category":  "BOOT_REQUIRED"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "CERTIFICATION_RUNTIME",
+                           "count":  2,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/runtime/stability_pass_503.js",
+                                               "Name":  "stability_pass_503.js",
+                                               "Category":  "CERTIFICATION_RUNTIME"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/production_lock_504.js",
+                                               "Name":  "production_lock_504.js",
+                                               "Category":  "CERTIFICATION_RUNTIME"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "CITY_ONLY",
+                           "count":  4,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/city_tiles.js",
+                                               "Name":  "city_tiles.js",
+                                               "Category":  "CITY_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/city_loader.js",
+                                               "Name":  "city_loader.js",
+                                               "Category":  "CITY_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/city_map.js",
+                                               "Name":  "city_map.js",
+                                               "Category":  "CITY_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/city_map_back_control.js?v=20260603_183438",
+                                               "Name":  "city_map_back_control.js?v=20260603_183438",
+                                               "Category":  "CITY_ONLY"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "DOSSIER_ONLY",
+                           "count":  24,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/dossiers.js",
+                                               "Name":  "dossiers.js",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase3_wave002_bulk_dossier_validation_297.js?v=297",
+                                               "Name":  "phase3_wave002_bulk_dossier_validation_297.js?v=297",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_foundation_300.js?v=300",
+                                               "Name":  "phase4_dossier_foundation_300.js?v=300",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_source_layer_301.js?v=301",
+                                               "Name":  "phase4_dossier_source_layer_301.js?v=301",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_timeline_layer_302.js?v=302",
+                                               "Name":  "phase4_dossier_timeline_layer_302.js?v=302",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_notes_layer_303.js?v=303",
+                                               "Name":  "phase4_dossier_notes_layer_303.js?v=303",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_actions_layer_304.js?v=304",
+                                               "Name":  "phase4_dossier_actions_layer_304.js?v=304",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_export_layer_305.js?v=305",
+                                               "Name":  "phase4_dossier_export_layer_305.js?v=305",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_ui_panel_306.js?v=306",
+                                               "Name":  "phase4_dossier_ui_panel_306.js?v=306",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_section_detail_renderer_307.js?v=307",
+                                               "Name":  "phase4_dossier_section_detail_renderer_307.js?v=307",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_selection_bridge_308.js?v=308",
+                                               "Name":  "phase4_dossier_selection_bridge_308.js?v=308",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_entity_click_dossier_bridge_309.js?v=309",
+                                               "Name":  "phase4_entity_click_dossier_bridge_309.js?v=309",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_persistence_310.js?v=310",
+                                               "Name":  "phase4_dossier_persistence_310.js?v=310",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_search_filter_312.js?v=312",
+                                               "Name":  "phase4_dossier_search_filter_312.js?v=312",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_metrics_dashboard_313.js?v=313",
+                                               "Name":  "phase4_dossier_metrics_dashboard_313.js?v=313",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_metrics_ui_card_314.js?v=314",
+                                               "Name":  "phase4_dossier_metrics_ui_card_314.js?v=314",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_bulk_builder_315.js?v=315",
+                                               "Name":  "phase4_dossier_bulk_builder_315.js?v=315",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_certification_316.js?v=316",
+                                               "Name":  "phase4_dossier_certification_316.js?v=316",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_relationship_graph_318.js?v=318",
+                                               "Name":  "phase4_dossier_relationship_graph_318.js?v=318",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_relationship_graph_ui_319.js?v=319",
+                                               "Name":  "phase4_relationship_graph_ui_319.js?v=319",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_dossier_workflows_321.js?v=321",
+                                               "Name":  "phase4_executive_dossier_workflows_321.js?v=321",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_relationship_workspace_345.js?v=345",
+                                               "Name":  "phase5_relationship_workspace_345.js?v=345",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_dossier_workspace_346.js?v=346",
+                                               "Name":  "phase5_dossier_workspace_346.js?v=346",
+                                               "Category":  "DOSSIER_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/dossier_integration_498.js",
+                                               "Name":  "dossier_integration_498.js",
+                                               "Category":  "DOSSIER_ONLY"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "GOVERNANCE_ONLY",
+                           "count":  33,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/phase4_final_audit_332.js?v=332",
+                                               "Name":  "phase4_final_audit_332.js?v=332",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_visual_runtime_audit_353.js?v=353",
+                                               "Name":  "phase5_visual_runtime_audit_353.js?v=353",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_visual_runtime_audit_353B.js?v=353B",
+                                               "Name":  "phase5_visual_runtime_audit_353B.js?v=353B",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_audit_hardening_354.js?v=354",
+                                               "Name":  "phase5_audit_hardening_354.js?v=354",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_audit_hardening_354C.js?v=354C",
+                                               "Name":  "phase5_audit_hardening_354C.js?v=354C",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_final_presentation_audit_372.js?v=372",
+                                               "Name":  "phase6_final_presentation_audit_372.js?v=372",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_final_audit_persistence_repair_372B.js?v=372B",
+                                               "Name":  "phase6_final_audit_persistence_repair_372B.js?v=372B",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_final_audit_full_rebuild_372C.js?v=372C",
+                                               "Name":  "phase6_final_audit_full_rebuild_372C.js?v=372C",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_final_audit_decision_lock_372D.js?v=372D",
+                                               "Name":  "phase6_final_audit_decision_lock_372D.js?v=372D",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_foundation_431.js",
+                                               "Name":  "phase9_foundation_431.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_governance_workspace_432.js",
+                                               "Name":  "phase9_governance_workspace_432.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_governance_state_engine_433.js",
+                                               "Name":  "phase9_governance_state_engine_433.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_governance_controls_434.js",
+                                               "Name":  "phase9_governance_controls_434.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_governance_certification_435.js",
+                                               "Name":  "phase9_governance_certification_435.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_continuity_systems_foundation_436.js",
+                                               "Name":  "phase9_continuity_systems_foundation_436.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_continuity_workspace_437.js",
+                                               "Name":  "phase9_continuity_workspace_437.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_continuity_state_engine_438.js",
+                                               "Name":  "phase9_continuity_state_engine_438.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase9_continuity_controls_439.js",
+                                               "Name":  "phase9_continuity_controls_439.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-continuity-certification.js",
+                                               "Name":  "phase9-continuity-certification.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-runtime-integration-foundation.js",
+                                               "Name":  "phase9-runtime-integration-foundation.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-runtime-integration-workspace.js",
+                                               "Name":  "phase9-runtime-integration-workspace.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-runtime-integration-state-engine.js",
+                                               "Name":  "phase9-runtime-integration-state-engine.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-runtime-integration-controls.js",
+                                               "Name":  "phase9-runtime-integration-controls.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-runtime-integration-certification.js",
+                                               "Name":  "phase9-runtime-integration-certification.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-final-audit-foundation.js",
+                                               "Name":  "phase9-final-audit-foundation.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-final-audit-workspace.js",
+                                               "Name":  "phase9-final-audit-workspace.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-final-audit-state-engine.js",
+                                               "Name":  "phase9-final-audit-state-engine.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-final-audit-controls.js",
+                                               "Name":  "phase9-final-audit-controls.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-final-audit-certification.js",
+                                               "Name":  "phase9-final-audit-certification.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/governance_runtime_integration_500.js",
+                                               "Name":  "governance_runtime_integration_500.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/final_audit_501.js",
+                                               "Name":  "final_audit_501.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/ux_visual_purpose_audit_b0.js",
+                                               "Name":  "ux_visual_purpose_audit_b0.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/ux_runtime_script_governance_c2.js",
+                                               "Name":  "ux_runtime_script_governance_c2.js",
+                                               "Category":  "GOVERNANCE_ONLY"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "HUB_ALLOWED",
+                           "count":  30,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/scoring.v1.js",
+                                               "Name":  "scoring.v1.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/command_deck_runtime.js",
+                                               "Name":  "command_deck_runtime.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/intel/registry.js?v=20260603_601R",
+                                               "Name":  "registry.js?v=20260603_601R",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/intel/pipeline.js?v=20260603_601R",
+                                               "Name":  "pipeline.js?v=20260603_601R",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/intelligence_panel_live_state.js",
+                                               "Name":  "intelligence_panel_live_state.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/founder_dashboard_runtime.js",
+                                               "Name":  "founder_dashboard_runtime.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_registry_integrity_311.js?v=311",
+                                               "Name":  "phase4_dossier_registry_integrity_311.js?v=311",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_dossier_registry_table_317.js?v=317",
+                                               "Name":  "phase4_dossier_registry_table_317.js?v=317",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_approval_registry_326.js?v=326",
+                                               "Name":  "phase4_executive_approval_registry_326.js?v=326",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_right_intelligence_rail_337.js?v=337",
+                                               "Name":  "phase5_right_intelligence_rail_337.js?v=337",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_intelligence_presentation_foundation_356B.js?v=356B",
+                                               "Name":  "phase6_intelligence_presentation_foundation_356B.js?v=356B",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_intelligence_card_workspace_357.js?v=357",
+                                               "Name":  "phase6_intelligence_card_workspace_357.js?v=357",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_intelligence_detail_drawer_358.js?v=358",
+                                               "Name":  "phase6_intelligence_detail_drawer_358.js?v=358",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_intelligence_summary_system_361.js?v=361",
+                                               "Name":  "phase6_intelligence_summary_system_361.js?v=361",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_intelligence_priority_queue_363.js?v=363",
+                                               "Name":  "phase6_intelligence_priority_queue_363.js?v=363",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_intelligence_operations_foundation_374.js?v=374",
+                                               "Name":  "phase7_intelligence_operations_foundation_374.js?v=374",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-intelligence-foundation.js",
+                                               "Name":  "phase9-intelligence-foundation.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-intelligence-workspace.js",
+                                               "Name":  "phase9-intelligence-workspace.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-intelligence-state-engine.js",
+                                               "Name":  "phase9-intelligence-state-engine.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-intelligence-controls.js",
+                                               "Name":  "phase9-intelligence-controls.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-intelligence-certification.js",
+                                               "Name":  "phase9-intelligence-certification.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_runtime_registry_workspace_462.js",
+                                               "Name":  "phase10_runtime_registry_workspace_462.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_intelligence_bridge_foundation_466.js",
+                                               "Name":  "phase10_intelligence_bridge_foundation_466.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_intelligence_runtime_layer_467.js",
+                                               "Name":  "phase10_intelligence_runtime_layer_467.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_intelligence_runtime_audit_468.js",
+                                               "Name":  "phase10_intelligence_runtime_audit_468.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_intelligence_source_connector_469.js",
+                                               "Name":  "phase10_intelligence_source_connector_469.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_intelligence_runtime_certification_470.js",
+                                               "Name":  "phase10_intelligence_runtime_certification_470.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/center_binding_registry_484.js",
+                                               "Name":  "center_binding_registry_484.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/surface_mount_registry_486.js",
+                                               "Name":  "surface_mount_registry_486.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/intelligence_integration_497.js",
+                                               "Name":  "intelligence_integration_497.js",
+                                               "Category":  "HUB_ALLOWED"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "LEGACY_REVIEW",
+                           "count":  81,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/umbra_data.v1.js",
+                                               "Name":  "umbra_data.v1.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/interaction.js",
+                                               "Name":  "interaction.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/security/frontend_runtime_guard.js",
+                                               "Name":  "frontend_runtime_guard.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/security/ui_panel_security_hook.js",
+                                               "Name":  "ui_panel_security_hook.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/security/session_recovery_guard.js",
+                                               "Name":  "session_recovery_guard.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/security/dataset_access_guard.js",
+                                               "Name":  "dataset_access_guard.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/security/export_security_guard.js",
+                                               "Name":  "export_security_guard.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/performance/movement_performance_mode.js",
+                                               "Name":  "movement_performance_mode.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/performance/render_stability_probe.js",
+                                               "Name":  "render_stability_probe.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/security/access_control_runtime.js",
+                                               "Name":  "access_control_runtime.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/performance/webgl_context_lifecycle_guard.js",
+                                               "Name":  "webgl_context_lifecycle_guard.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/performance/webgl_recovery_runtime.js",
+                                               "Name":  "webgl_recovery_runtime.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/performance/emergency_globe_performance_mode.js?v=20260603_165102",
+                                               "Name":  "emergency_globe_performance_mode.js?v=20260603_165102",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/performance/globe_interaction_drawcall_optimizer.js?v=20260603_165700",
+                                               "Name":  "globe_interaction_drawcall_optimizer.js?v=20260603_165700",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/black_dragon_books_boot_loader.js",
+                                               "Name":  "black_dragon_books_boot_loader.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase3_wave002_runtime_293C.js?v=293C",
+                                               "Name":  "phase3_wave002_runtime_293C.js?v=293C",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase3_wave002_runtime_293D.js?v=293D",
+                                               "Name":  "phase3_wave002_runtime_293D.js?v=293D",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase3_wave002_validation_294.js?v=294",
+                                               "Name":  "phase3_wave002_validation_294.js?v=294",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase3_wave002_bulk_processing_295.js?v=295",
+                                               "Name":  "phase3_wave002_bulk_processing_295.js?v=295",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase3_wave002_bulk_source_attachment_296.js?v=296",
+                                               "Name":  "phase3_wave002_bulk_source_attachment_296.js?v=296",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase3_wave002_bulk_promotion_298.js?v=298",
+                                               "Name":  "phase3_wave002_bulk_promotion_298.js?v=298",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_midpoint_certification_320.js?v=320",
+                                               "Name":  "phase4_midpoint_certification_320.js?v=320",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_workflow_queue_ui_322.js?v=322",
+                                               "Name":  "phase4_executive_workflow_queue_ui_322.js?v=322",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_workflow_actions_323.js?v=323",
+                                               "Name":  "phase4_executive_workflow_actions_323.js?v=323",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_workflow_state_ui_324.js?v=324",
+                                               "Name":  "phase4_executive_workflow_state_ui_324.js?v=324",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_workflow_metrics_325.js?v=325",
+                                               "Name":  "phase4_executive_workflow_metrics_325.js?v=325",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_decision_timeline_327.js?v=327",
+                                               "Name":  "phase4_executive_decision_timeline_327.js?v=327",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_activity_feed_328.js?v=328",
+                                               "Name":  "phase4_executive_activity_feed_328.js?v=328",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_dashboard_329.js?v=329",
+                                               "Name":  "phase4_executive_dashboard_329.js?v=329",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_executive_certification_330.js?v=330",
+                                               "Name":  "phase4_executive_certification_330.js?v=330",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_final_lock_foundation_331.js?v=331",
+                                               "Name":  "phase4_final_lock_foundation_331.js?v=331",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase4_final_lock_333.js?v=333",
+                                               "Name":  "phase4_final_lock_333.js?v=333",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_command_surface_foundation_334B.js?v=334B",
+                                               "Name":  "phase5_command_surface_foundation_334B.js?v=334B",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_header_navigation_335.js?v=335",
+                                               "Name":  "phase5_header_navigation_335.js?v=335",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_left_command_rail_336.js?v=336",
+                                               "Name":  "phase5_left_command_rail_336.js?v=336",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_bottom_dock_navigation_338.js?v=338",
+                                               "Name":  "phase5_bottom_dock_navigation_338.js?v=338",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_workspace_view_manager_339.js?v=339",
+                                               "Name":  "phase5_workspace_view_manager_339.js?v=339",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_command_surface_certification_340.js?v=340",
+                                               "Name":  "phase5_command_surface_certification_340.js?v=340",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_render_alignment_pass1_341.js?v=341",
+                                               "Name":  "phase5_render_alignment_pass1_341.js?v=341",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_workspace_command_cards_342.js?v=342",
+                                               "Name":  "phase5_workspace_command_cards_342.js?v=342",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_activity_review_feed_343.js?v=343",
+                                               "Name":  "phase5_activity_review_feed_343.js?v=343",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_quick_actions_344.js?v=344",
+                                               "Name":  "phase5_quick_actions_344.js?v=344",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_executive_workspace_347.js?v=347",
+                                               "Name":  "phase5_executive_workspace_347.js?v=347",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_workspace_router_upgrade_348.js?v=348",
+                                               "Name":  "phase5_workspace_router_upgrade_348.js?v=348",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_visual_certification_349.js?v=349",
+                                               "Name":  "phase5_visual_certification_349.js?v=349",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_render_matching_pass2_350.js?v=350",
+                                               "Name":  "phase5_render_matching_pass2_350.js?v=350",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_responsive_fit_351.js?v=351",
+                                               "Name":  "phase5_responsive_fit_351.js?v=351",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_polish_pass3_352.js?v=352",
+                                               "Name":  "phase5_polish_pass3_352.js?v=352",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase5_final_certification_355B.js?v=355B",
+                                               "Name":  "phase5_final_certification_355B.js?v=355B",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_cross_workspace_context_359.js?v=359",
+                                               "Name":  "phase6_cross_workspace_context_359.js?v=359",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_presentation_checkpoint_360.js?v=360",
+                                               "Name":  "phase6_presentation_checkpoint_360.js?v=360",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_summary_enhanced_drawer_362.js?v=362",
+                                               "Name":  "phase6_summary_enhanced_drawer_362.js?v=362",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_summary_enhanced_drawer_362B.js?v=362B",
+                                               "Name":  "phase6_summary_enhanced_drawer_362B.js?v=362B",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_priority_queue_workspace_364.js?v=364",
+                                               "Name":  "phase6_priority_queue_workspace_364.js?v=364",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_priority_queue_action_states_365.js?v=365",
+                                               "Name":  "phase6_priority_queue_action_states_365.js?v=365",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_priority_queue_state_persistence_365B.js?v=365B",
+                                               "Name":  "phase6_priority_queue_state_persistence_365B.js?v=365B",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_priority_queue_workspace_controls_366B.js?v=366B",
+                                               "Name":  "phase6_priority_queue_workspace_controls_366B.js?v=366B",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_priority_queue_control_certification_367.js?v=367",
+                                               "Name":  "phase6_priority_queue_control_certification_367.js?v=367",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_operator_decision_feed_368.js?v=368",
+                                               "Name":  "phase6_operator_decision_feed_368.js?v=368",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_operator_decision_feed_certification_369.js?v=369",
+                                               "Name":  "phase6_operator_decision_feed_certification_369.js?v=369",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_presentation_metrics_370.js?v=370",
+                                               "Name":  "phase6_presentation_metrics_370.js?v=370",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_metrics_certification_371.js?v=371",
+                                               "Name":  "phase6_metrics_certification_371.js?v=371",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_metrics_decision_persistence_371B.js?v=371B",
+                                               "Name":  "phase6_metrics_decision_persistence_371B.js?v=371B",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase6_final_certification_373.js?v=373",
+                                               "Name":  "phase6_final_certification_373.js?v=373",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_runtime_attachment_engine_463.js",
+                                               "Name":  "phase10_runtime_attachment_engine_463.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_runtime_control_layer_464.js",
+                                               "Name":  "phase10_runtime_control_layer_464.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_runtime_certification_465.js",
+                                               "Name":  "phase10_runtime_certification_465.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/phase10_operational_execution_certification_472.js",
+                                               "Name":  "phase10_operational_execution_certification_472.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/unified_hub_shell_483.js",
+                                               "Name":  "unified_hub_shell_483.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/unified_hub_runtime_485.js",
+                                               "Name":  "unified_hub_runtime_485.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/workspace_activation_engine_487.js",
+                                               "Name":  "workspace_activation_engine_487.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/unified_navigation_ui_488.js",
+                                               "Name":  "unified_navigation_ui_488.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/workspace_router_489.js",
+                                               "Name":  "workspace_router_489.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/surface_orchestrator_490.js",
+                                               "Name":  "surface_orchestrator_490.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/workspace_mount_manager_491.js",
+                                               "Name":  "workspace_mount_manager_491.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/operator_flow_engine_492.js",
+                                               "Name":  "operator_flow_engine_492.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/workspace_persistence_493.js",
+                                               "Name":  "workspace_persistence_493.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/context_switching_engine_494.js",
+                                               "Name":  "context_switching_engine_494.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/unified_search_command_495.js",
+                                               "Name":  "unified_search_command_495.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/command_center_integration_496.js",
+                                               "Name":  "command_center_integration_496.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/runtime_cleanup_502.js",
+                                               "Name":  "runtime_cleanup_502.js",
+                                               "Category":  "LEGACY_REVIEW"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "OPERATIONS_ONLY",
+                           "count":  32,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/phase7_mission_workspace_375.js?v=375",
+                                               "Name":  "phase7_mission_workspace_375.js?v=375",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_mission_state_engine_376.js?v=376",
+                                               "Name":  "phase7_mission_state_engine_376.js?v=376",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_mission_workspace_controls_377.js?v=377",
+                                               "Name":  "phase7_mission_workspace_controls_377.js?v=377",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_mission_control_certification_378.js?v=378",
+                                               "Name":  "phase7_mission_control_certification_378.js?v=378",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_watchlist_foundation_379.js?v=379",
+                                               "Name":  "phase7_watchlist_foundation_379.js?v=379",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_watchlist_workspace_380.js?v=380",
+                                               "Name":  "phase7_watchlist_workspace_380.js?v=380",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_watchlist_state_engine_381.js?v=381",
+                                               "Name":  "phase7_watchlist_state_engine_381.js?v=381",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_watchlist_workspace_controls_382.js?v=382",
+                                               "Name":  "phase7_watchlist_workspace_controls_382.js?v=382",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_watchlist_control_certification_383.js?v=383",
+                                               "Name":  "phase7_watchlist_control_certification_383.js?v=383",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_alert_foundation_384.js?v=384",
+                                               "Name":  "phase7_alert_foundation_384.js?v=384",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_alert_workspace_385.js?v=385",
+                                               "Name":  "phase7_alert_workspace_385.js?v=385",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_alert_state_engine_386.js?v=386",
+                                               "Name":  "phase7_alert_state_engine_386.js?v=386",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_alert_workspace_controls_387.js?v=387",
+                                               "Name":  "phase7_alert_workspace_controls_387.js?v=387",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_alert_control_certification_388.js?v=388",
+                                               "Name":  "phase7_alert_control_certification_388.js?v=388",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_tasking_foundation_389.js?v=389",
+                                               "Name":  "phase7_tasking_foundation_389.js?v=389",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_task_workspace_390.js?v=390",
+                                               "Name":  "phase7_task_workspace_390.js?v=390",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_task_state_engine_391.js?v=391",
+                                               "Name":  "phase7_task_state_engine_391.js?v=391",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_task_workspace_controls_392.js?v=392",
+                                               "Name":  "phase7_task_workspace_controls_392.js?v=392",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_task_control_certification_393.js?v=393",
+                                               "Name":  "phase7_task_control_certification_393.js?v=393",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_operations_dashboard_foundation_394.js?v=394",
+                                               "Name":  "phase7_operations_dashboard_foundation_394.js?v=394",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_operations_dashboard_workspace_395.js?v=395",
+                                               "Name":  "phase7_operations_dashboard_workspace_395.js?v=395",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_operations_dashboard_certification_396.js?v=396",
+                                               "Name":  "phase7_operations_dashboard_certification_396.js?v=396",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_final_operations_audit_397.js?v=397",
+                                               "Name":  "phase7_final_operations_audit_397.js?v=397",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_final_certification_398.js?v=398",
+                                               "Name":  "phase7_final_certification_398.js?v=398",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase7_final_certification_398B.js?v=398B",
+                                               "Name":  "phase7_final_certification_398B.js?v=398B",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/phase8_autonomous_operations_foundation_399.js?v=399",
+                                               "Name":  "phase8_autonomous_operations_foundation_399.js?v=399",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-operations-foundation.js",
+                                               "Name":  "phase9-operations-foundation.js",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-operations-workspace.js",
+                                               "Name":  "phase9-operations-workspace.js",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-operations-state-engine.js",
+                                               "Name":  "phase9-operations-state-engine.js",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-operations-controls.js",
+                                               "Name":  "phase9-operations-controls.js",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/src/phase9-operations-certification.js",
+                                               "Name":  "phase9-operations-certification.js",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           },
+                                           {
+                                               "Source":  "/globe/runtime/automation_operations_integration_499.js",
+                                               "Name":  "automation_operations_integration_499.js",
+                                               "Category":  "OPERATIONS_ONLY"
+                                           }
+                                       ]
+                       },
+                       {
+                           "category":  "UX_AUDIT",
+                           "count":  1,
+                           "scripts":  [
+                                           {
+                                               "Source":  "/globe/runtime/ux_workspace_inventory_c1.js",
+                                               "Name":  "ux_workspace_inventory_c1.js",
+                                               "Category":  "UX_AUDIT"
+                                           }
+                                       ]
+                       }
+                   ]
+}
