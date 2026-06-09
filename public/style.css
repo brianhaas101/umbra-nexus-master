@@ -4943,3 +4943,86 @@ body::after {
   pointer-events: none;
 }
 
+
+/* ============================================================
+   UX PHASE D4D — NAVIGATION DEDUP + HEADER/LEFT RAIL SEPARATION
+   Purpose:
+   - Stop top header controls from appearing/overlapping inside left rail
+   - Keep left rail as workspace navigation only
+   - Keep top nav as global header only
+   ============================================================ */
+
+/* Header controls stay in header zone */
+body:not([data-umbra-center]) .top-center,
+body[data-umbra-center="HOME_CENTER"] .top-center {
+  position: fixed !important;
+  top: 28px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  z-index: 120 !important;
+  display: flex !important;
+  gap: 42px !important;
+  align-items: center !important;
+  pointer-events: auto !important;
+}
+
+/* Left rail is workspace nav only */
+body:not([data-umbra-center]) #leftNav,
+body[data-umbra-center="HOME_CENTER"] #leftNav {
+  top: 86px !important;
+  left: 16px !important;
+  width: 210px !important;
+  max-width: 210px !important;
+  height: calc(100vh - 112px) !important;
+  max-height: calc(100vh - 112px) !important;
+  overflow: hidden !important;
+  z-index: 80 !important;
+}
+
+/* Hide duplicated header/account controls if they appear inside left rail */
+body:not([data-umbra-center]) #leftNav .top-center,
+body[data-umbra-center="HOME_CENTER"] #leftNav .top-center,
+body:not([data-umbra-center]) #leftNav [class*="profile"],
+body[data-umbra-center="HOME_CENTER"] #leftNav [class*="profile"],
+body:not([data-umbra-center]) #leftNav [class*="account"],
+body[data-umbra-center="HOME_CENTER"] #leftNav [class*="account"] {
+  display: none !important;
+}
+
+/* Remove old phase/status header ghost from left side */
+body:not([data-umbra-center]) #leftNav .phase,
+body[data-umbra-center="HOME_CENTER"] #leftNav .phase,
+body:not([data-umbra-center]) #leftNav [class*="phase"],
+body[data-umbra-center="HOME_CENTER"] #leftNav [class*="phase"] {
+  display: none !important;
+}
+
+/* Ensure main center begins after left rail */
+body:not([data-umbra-center]) #centerStage,
+body[data-umbra-center="HOME_CENTER"] #centerStage {
+  margin-left: 240px !important;
+  margin-right: 300px !important;
+}
+
+/* Right rail remains separate */
+body:not([data-umbra-center]) #rightIntel,
+body[data-umbra-center="HOME_CENTER"] #rightIntel {
+  right: 24px !important;
+  width: 270px !important;
+  max-width: 270px !important;
+  z-index: 82 !important;
+}
+
+/* D4D marker */
+body::after {
+  content: "UX D4D NAV SEPARATION";
+  position: fixed;
+  right: 12px;
+  bottom: 8px;
+  z-index: 9999;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
